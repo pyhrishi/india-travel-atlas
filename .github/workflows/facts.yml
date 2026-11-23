@@ -1,0 +1,34 @@
+name: Verify places (Wikipedia + Wikidata)
+on:
+  workflow_dispatch:
+    inputs:
+      force:
+        description: Re-check every place
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths: ['data/places/**']
+  schedule:
+    - cron: '41 20 * * 3'
+permissions:
+  contents: write
+concurrency:
+  group: facts
+  cancel-in-progress: false
+jobs:
+  facts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - uses: actions/checkout@v4
+      - name: Match every place to its own article
+        run: python3 .github/scripts/facts.py ${{ inputs.force && '--force' || '' }}
+      - name: Save results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add data/facts .github/facts-state.json
+          git diff --cached --quiet && { echo "No change"; exit 0; }
+          git commit -m "Update place facts"
+          for i in 1 2 3; do git pull --rebase -X theirs && git push && break; sleep 10; done
