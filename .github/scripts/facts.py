@@ -64,19 +64,49 @@ def variants(name):
 PROPS = dict(prop='coordinates|pageprops|info|pageimages', ppprop='disambiguation|wikibase_item', inprop='url',
              piprop='thumbnail|name', pithumbsize='960', pilicense='free', colimit='max')
 
+BADT = re.compile(r'constituency|assembly|lok sabha|vidhan sabha|\bmetro\b|university|college|school|institute|railway station|airport|\bdistrict\b|tehsil|taluk|\bblock\b|mandal|municipal|corporation|election|hospital|\((film|novel|song|tv series|album)|cricket|football|company|limited|\bparty\b|list of|division', re.I)
 def good(pg, p, exact, broad):
     if not pg or 'missing' in pg or 'invalid' in pg: return False
     if 'disambiguation' in (pg.get('pageprops') or {}): return False
     t = pg['title']; nt = norm(t).strip()
+    if BADT.search(t) and not BADT.search(p['name']): return False
     if nt in broad and nt not in {norm(v).strip() for v in variants(p['name'])}: return False
     c = (pg.get('coordinates') or [None])[0]
-    tw, pw = sig(t), sig(p['name'])
+    loc = sig(p.get('dist', '')) | sig(p.get('st', ''))
+    tw, pw = sig(t), sig(p['name']) - loc
     exact_title = nt in {norm(v).strip() for v in variants(p['name'])}
     if not exact_title and not (tw & pw): return False
     if c:
         d = km(p['ll'], (c['lat'], c['lon']))
         return d <= (25 if exact_title else 15)
     return exact_title and exact and bool(pw)  # no coordinates: only accept an exact, distinctive title
+
+OVP = ['https://overpass-api.de/api/interpreter', 'https://overpass.kumi.systems/api/interpreter']
+def osm(p):
+    """Look for a mapped feature near the place whose name shares a distinctive word with it."""
+    loc = sig(p.get('dist', '')) | sig(p.get('st', ''))
+    words = sorted(sig(p['name']) - loc, key=len, reverse=True)
+    if not words: return None
+    w = re.escape(words[0])
+    q = f'[out:json][timeout:25];nwr(around:5000,{p["ll"][0]},{p["ll"][1]})["name"~"{w}",i];out tags center 8;'
+    for i in range(4):
+        url = OVP[i % 2]
+        try:
+            req = urllib.request.Request(url, data=urllib.parse.urlencode({'data': q}).encode(), headers={'User-Agent': UA})
+            with urllib.request.urlopen(req, timeout=40) as r: j = json.load(r)
+            time.sleep(1.1)
+            for e in j.get('elements', []):
+                nm = (e.get('tags') or {}).get('name:en') or (e.get('tags') or {}).get('name', '')
+                if sig(nm) & set(words):
+                    t = e.get('tags') or {}
+                    out = {'osm': f"{e['type']}/{e['id']}", 'on': nm}
+                    if t.get('website'): out['web'] = t['website']
+                    if t.get('wikipedia'): out['wpt'] = t['wikipedia']
+                    return out
+            return None
+        except Exception:
+            time.sleep(5 * (i + 1))
+    return None
 
 def main():
     states = {s['slug']: s['name'] for s in json.load(open(os.path.join(ROOT, 'data', 'states.json')))}
@@ -129,7 +159,10 @@ def main():
             for pg in j.get('query', {}).get('pages', {}).values():
                 if good(pg, p, False, broad): got = pg; break
         if got: hit[p['k']] = got
-        else: M[p['k']] = NOW; R.pop(p['k'], None)
+        else:
+            o = osm(p)
+            if o: R[p['k']] = dict(o, at=NOW); M.pop(p['k'], None)
+            else: M[p['k']] = NOW; R.pop(p['k'], None)
         H[p['k']] = fp(p)
         if n % 200 == 0: print(f'search {n}/{len(rest)}: {len(hit)} matched', flush=True)
     for p in todo:
