@@ -1,1 +1,1888 @@
-{"name":"Haryana","intro":"Kurukshetra's sacred tanks of the Mahabharata, the Harappan city of Rakhigarhi, the battlefields of Panipat, Pinjore's Mughal gardens and the Morni hills, Sultanpur's winter birds, the Surajkund crafts fair, and the parantha dhabas of Murthal.","bases":[["Gurugram",28.4595,77.0266],["Kurukshetra",29.9695,76.8783],["Panchkula",30.6942,76.8606],["Hisar",29.1492,75.7217],["Delhi",28.6139,77.209],["Chandigarh",30.7333,76.7794]],"trails":[{"name":"Kurukshetra 48 kos","note":"The sacred tanks and shrines of the Mahabharata land.","ids":[1,3,4,5,8,6,7,2,12]},{"name":"Harappan Haryana","note":"Indus cities on the old Saraswati plains.","ids":[50,53,52,47]},{"name":"Shivalik escape","note":"Gardens, temples and lakes in the hills above Chandigarh.","ids":[23,24,27,28,25,26]},{"name":"GT Road heritage","note":"Battlefields, Sufi shrines and the famous highway food.","ids":[21,17,18,19,20]},{"name":"Weekend from Delhi","note":"Birds, a mirror palace, a sun pool and museums near the capital.","ids":[35,36,40,37,42,44]},{"name":"Narnaul and the south","note":"Mughal Narnaul, a volcano hill and a steam loco shed.","ids":[60,61,55,56,57,58]},{"name":"Mewat and Braj fringe","note":"Hill forts, shaking minarets, Kos Minars and Gandhi's Palwal.","ids":[71,68,69,70,62,67,64,65]}],"places":[{"n":1,"name":"Brahma Sarovar","district":"Kurukshetra","category":"Sacred tank","g":"temple","lat":29.96,"lng":76.832,"why":"Vast sacred tank, lit by thousands of lamps during Gita Jayanti","tier":"icon","months":[10,3],"time":"1–2 hrs"},{"n":2,"name":"Jyotisar","district":"Kurukshetra","category":"Sacred site","g":"temple","lat":29.96,"lng":76.771,"why":"Where the Gita is said to have been spoken, with a nightly sound-and-light show","tier":"icon","months":[10,3],"time":"Evening"},{"n":3,"name":"Sannihit Sarovar","district":"Kurukshetra","category":"Sacred tank","g":"temple","lat":29.962,"lng":76.845,"why":"Holy tank thronged during solar eclipses","tier":"top","months":[10,3],"time":"1 hr"},{"n":4,"name":"Sri Krishna Museum","district":"Kurukshetra","category":"Museum","g":"culture","lat":29.959,"lng":76.838,"why":"Museum of Krishna and the Mahabharata in art","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":5,"name":"Kurukshetra Panorama & Science Centre","district":"Kurukshetra","category":"Museum","g":"culture","lat":29.958,"lng":76.84,"why":"Panorama of the Mahabharata battle","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":6,"name":"Sheikh Chehli's Tomb","district":"Kurukshetra","category":"Heritage","g":"heritage","lat":29.975,"lng":76.83,"why":"Graceful Mughal tomb and madrasa at Thanesar","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":7,"name":"Harsh ka Tila","district":"Kurukshetra","category":"Heritage","g":"heritage","lat":29.976,"lng":76.831,"why":"Mound of Harshavardhana's capital Thanesar","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":8,"name":"Bhadrakali Shaktipeeth","district":"Kurukshetra","category":"Temple","g":"temple","lat":29.973,"lng":76.827,"why":"Shakti Peetha where devotees offer clay horses","tier":"gem","months":[10,3],"time":"1 hr"},{"n":9,"name":"Dharohar Museum","district":"Kurukshetra","category":"Museum","g":"culture","lat":29.953,"lng":76.816,"why":"Haryana's folk life museum at Kurukshetra University","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":10,"name":"Kalpana Chawla Planetarium","district":"Kurukshetra","category":"Museum","g":"culture","lat":29.962,"lng":76.775,"why":"Planetarium honouring the astronaut, near Jyotisar","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":11,"name":"Chhilchhila Wildlife Sanctuary","district":"Kurukshetra","category":"Wetland","g":"wildlife","lat":30.03,"lng":76.68,"why":"Wetland sanctuary for winter waterbirds","tier":"gem","months":[11,2],"time":"Half day"},{"n":12,"name":"Pehowa","district":"Kurukshetra","category":"Temple","g":"temple","lat":29.98,"lng":76.58,"why":"Ancient pilgrim town on the Saraswati for ancestral rites","tier":"gem","months":[10,3],"time":"1 hr"},{"n":13,"name":"Kalayat Kapil Muni Temple","district":"Kaithal","category":"Temple","g":"temple","lat":29.675,"lng":76.26,"why":"Temple town with rare brick temples of the Pratihara era","tier":"gem","months":[10,3],"time":"1 hr"},{"n":14,"name":"Gyarah Rudri Temple","district":"Kaithal","category":"Temple","g":"temple","lat":29.8,"lng":76.4,"why":"Shiva temple at Kaithal linked to Arjuna","tier":"gem","months":[10,3],"time":"1 hr"},{"n":15,"name":"Saraswati Wildlife Sanctuary","district":"Kaithal","category":"Wildlife","g":"wildlife","lat":29.9,"lng":76.43,"why":"Riverine forest of nilgai and blackbuck","tier":"gem","months":[10,3],"time":"Half day"},{"n":16,"name":"Pandu Pindara","district":"Jind","category":"Sacred tank","g":"temple","lat":29.32,"lng":76.28,"why":"Tank where the Pandavas are said to have performed rites","tier":"gem","months":[10,3],"time":"1 hr"},{"n":17,"name":"Panipat Museum & Kala Amb","district":"Panipat","category":"Heritage","g":"heritage","lat":29.43,"lng":76.97,"why":"The three battlefields of Panipat, with a memorial and museum","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":18,"name":"Kabuli Bagh Mosque","district":"Panipat","category":"Heritage","g":"heritage","lat":29.41,"lng":76.98,"why":"Mosque built by Babur after the first battle of Panipat","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":19,"name":"Bu Ali Shah Qalandar Dargah","district":"Panipat","category":"Heritage","g":"heritage","lat":29.394,"lng":76.97,"why":"700-year-old Sufi shrine in old Panipat","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":20,"name":"Karna Lake","district":"Karnal","category":"Lake","g":"water","lat":29.72,"lng":76.99,"why":"Lakeside stop on the old Grand Trunk Road","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":21,"name":"Murthal Dhabas","district":"Sonipat","category":"Food","g":"culture","lat":29.03,"lng":77.06,"why":"The famous parantha dhabas of the Delhi–Chandigarh highway","tier":"top","months":[1,12],"time":"1 hr"},{"n":22,"name":"Tilyar Lake","district":"Rohtak","category":"Lake","g":"water","lat":28.88,"lng":76.63,"why":"Lake with a zoo and gardens in Rohtak","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":23,"name":"Pinjore Gardens","district":"Panchkula","category":"Garden","g":"heritage","lat":30.794,"lng":76.915,"why":"Mughal terraced gardens with fountains and palaces","tier":"icon","months":[10,3],"time":"2 hrs"},{"n":24,"name":"Bhima Devi Temple","district":"Panchkula","category":"Heritage","g":"heritage","lat":30.798,"lng":76.92,"why":"Ruins and site museum of carved medieval temples at Pinjore","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":25,"name":"Morni Hills","district":"Panchkula","category":"Hill station","g":"hills","lat":30.697,"lng":77.085,"why":"Haryana's only hill station, with forts, lakes and treks","tier":"top","months":[9,4],"time":"Full day"},{"n":26,"name":"Tikkar Tal","district":"Panchkula","category":"Lake","g":"water","lat":30.68,"lng":77.03,"why":"Twin lakes in the Morni hills","tier":"top","months":[9,4],"time":"1–2 hrs"},{"n":27,"name":"Mansa Devi Temple","district":"Panchkula","category":"Temple","g":"temple","lat":30.742,"lng":76.855,"why":"Major Shakti temple at the foot of the Shivaliks","tier":"top","months":[10,3],"time":"1 hr"},{"n":28,"name":"Nada Sahib","district":"Panchkula","category":"Gurdwara","g":"temple","lat":30.73,"lng":76.85,"why":"Gurdwara on the Ghaggar where Guru Gobind Singh rested","tier":"gem","months":[10,3],"time":"1 hr"},{"n":29,"name":"Cactus Garden, Panchkula","district":"Panchkula","category":"Garden","g":"culture","lat":30.695,"lng":76.86,"why":"One of Asia's largest cactus gardens","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":30,"name":"Kalesar National Park","district":"Yamunanagar","category":"National park","g":"wildlife","lat":30.39,"lng":77.53,"why":"Sal forest of the Shivaliks with leopards and elephants","tier":"top","months":[11,4],"time":"Full day"},{"n":31,"name":"Adi Badri","district":"Yamunanagar","category":"Temple","g":"temple","lat":30.4371,"lng":77.3367,"why":"Where the Saraswati is said to leave the hills","tier":"gem","months":[10,3],"time":"1 hr"},{"n":32,"name":"Kapal Mochan","district":"Yamunanagar","category":"Temple","g":"temple","lat":30.328,"lng":77.485,"why":"Sacred tanks and a great November fair","tier":"gem","months":[10,3],"time":"1 hr"},{"n":33,"name":"Lohgarh","district":"Yamunanagar","category":"Heritage","g":"heritage","lat":30.4445,"lng":77.3128,"why":"Forest capital of Banda Singh Bahadur","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":34,"name":"Hathnikund Barrage","district":"Yamunanagar","category":"River","g":"water","lat":30.3192,"lng":77.5712,"why":"Where the Yamuna leaves the hills, good for birds in winter","tier":"gem","months":[11,2],"time":"1–2 hrs"},{"n":35,"name":"Sultanpur National Park","district":"Gurugram","category":"Wetland","g":"wildlife","lat":28.459,"lng":76.892,"why":"Bird park near Delhi with winter cranes, ducks and flamingos","tier":"icon","months":[10,3],"time":"Half day"},{"n":36,"name":"Farrukhnagar Sheesh Mahal & Baoli","district":"Gurugram","category":"Heritage","g":"heritage","lat":28.45,"lng":76.82,"why":"Mirror palace and octagonal stepwell in a walled town","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":37,"name":"Damdama Lake","district":"Gurugram","category":"Lake","g":"water","lat":28.3,"lng":77.13,"why":"Aravalli lake with kayaking and treks","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":38,"name":"Aravalli Biodiversity Park","district":"Gurugram","category":"Nature","g":"wildlife","lat":28.48,"lng":77.11,"why":"Old quarry turned into a native forest","tier":"gem","months":[10,3],"time":"Half day"},{"n":39,"name":"Museo Camera","district":"Gurugram","category":"Museum","g":"culture","lat":28.48,"lng":77.1,"why":"Museum of photography with a vast camera collection","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":40,"name":"Heritage Transport Museum","district":"Gurugram","category":"Museum","g":"culture","lat":28.36,"lng":76.92,"why":"India's best museum of cars, trains, planes and carts","tier":"top","months":[10,3],"time":"Half day"},{"n":41,"name":"Pataudi Palace","district":"Gurugram","category":"Heritage","g":"heritage","lat":28.326,"lng":76.78,"why":"Colonial-era palace of the Pataudi family","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":42,"name":"Surajkund","district":"Faridabad","category":"Heritage","g":"heritage","lat":28.485,"lng":77.285,"why":"10th-century sun pool, home of the great February crafts fair","tier":"icon","months":[10,3],"time":"1–2 hrs"},{"n":43,"name":"Raja Nahar Singh Palace","district":"Faridabad","category":"Heritage","g":"heritage","lat":28.34,"lng":77.32,"why":"Fort-palace at Ballabhgarh","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":44,"name":"Bhindawas Bird Sanctuary","district":"Jhajjar","category":"Wetland","g":"wildlife","lat":28.53,"lng":76.55,"why":"Ramsar wetland for winter waterbirds","tier":"top","months":[11,2],"time":"Half day"},{"n":45,"name":"Gurukul Jhajjar Museum","district":"Jhajjar","category":"Museum","g":"culture","lat":28.61,"lng":76.65,"why":"Rich collection of coins, sculpture and seals","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":46,"name":"Tosham Hill","district":"Bhiwani","category":"Heritage","g":"heritage","lat":28.88,"lng":75.92,"why":"Rocky hill with Gupta-era inscriptions and a ruined fort","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":47,"name":"Agroha Dham","district":"Hisar","category":"Temple","g":"temple","lat":29.33,"lng":75.62,"why":"Temple complex and ancient mound of the Agrawal community","tier":"top","months":[10,3],"time":"1 hr"},{"n":48,"name":"Firoz Shah Palace & Gujri Mahal","district":"Hisar","category":"Heritage","g":"heritage","lat":29.17,"lng":75.73,"why":"Tughlaq-era palace, mosque and lat in Hisar","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":49,"name":"Blue Bird Lake","district":"Hisar","category":"Lake","g":"water","lat":29.145,"lng":75.735,"why":"Lake park in Hisar","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":50,"name":"Rakhigarhi","district":"Hansi","category":"Heritage","g":"heritage","lat":29.29,"lng":76.11,"why":"One of the largest Harappan sites, with a new museum","tier":"icon","months":[10,3],"time":"2–3 hrs"},{"n":51,"name":"Asigarh Fort, Hansi","district":"Hansi","category":"Fort","g":"heritage","lat":29.1,"lng":75.97,"why":"Ancient fort with the Barsi Gate, linked to Prithviraj Chauhan","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":52,"name":"Banawali","district":"Fatehabad","category":"Heritage","g":"heritage","lat":29.61,"lng":75.39,"why":"Harappan town site","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":53,"name":"Kunal","district":"Fatehabad","category":"Heritage","g":"heritage","lat":29.65,"lng":75.67,"why":"Early Harappan site with a small museum","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":54,"name":"Ottu Barrage","district":"Sirsa","category":"Wetland","g":"wildlife","lat":29.49,"lng":74.93,"why":"Ghaggar wetland for winter birds","tier":"gem","months":[11,2],"time":"Half day"},{"n":55,"name":"Jal Mahal, Narnaul","district":"Mahendragarh","category":"Heritage","g":"heritage","lat":28.04,"lng":76.11,"why":"16th-century water palace in a dried tank","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":56,"name":"Birbal ka Chhatta","district":"Mahendragarh","category":"Heritage","g":"heritage","lat":28.045,"lng":76.108,"why":"Five-storey Mughal mansion in Narnaul","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":57,"name":"Chor Gumbad","district":"Mahendragarh","category":"Heritage","g":"heritage","lat":28.05,"lng":76.1,"why":"Hilltop Lodi-era tomb, Narnaul's landmark","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":58,"name":"Dhosi Hill","district":"Mahendragarh","category":"Hill","g":"hills","lat":28.05,"lng":76.03,"why":"Extinct volcano linked to the sage Chyavana","tier":"gem","months":[10,3],"time":"Half day"},{"n":59,"name":"Madhogarh Fort","district":"Mahendragarh","category":"Fort","g":"heritage","lat":28.28,"lng":76.24,"why":"Hilltop fort in the Aravallis","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":60,"name":"Rewari Steam Loco Shed","district":"Rewari","category":"Museum","g":"culture","lat":28.195,"lng":76.615,"why":"India's last working steam loco shed, a heritage museum","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":61,"name":"Rani Talab, Rewari","district":"Rewari","category":"Heritage","g":"heritage","lat":28.19,"lng":76.62,"why":"18th-century tank with a pavilion","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":62,"name":"Nalhar Shiva Temple","district":"Nuh","category":"Temple","g":"temple","lat":28.08,"lng":76.99,"why":"Hill temple with a sacred spring in the Aravallis","tier":"gem","months":[10,3],"time":"1 hr"},{"n":63,"name":"Ferozepur Jhirka Shiva Temple","district":"Nuh","category":"Temple","g":"temple","lat":27.78,"lng":76.95,"why":"Cave Shiva temple with a perennial stream","tier":"gem","months":[10,3],"time":"1 hr"},{"name":"Hodal Kos Minar","district":"Palwal","category":"Heritage","g":"heritage","lat":27.899,"lng":77.37,"why":"Jahangir-era milestones of the old Grand Trunk road; 49 survive in Haryana","tier":"gem","n":64,"months":[10,3],"time":"1 hr"},{"name":"Chameli Van & Anjani Kund","district":"Palwal","category":"Sacred site","g":"temple","lat":27.87,"lng":77.39,"why":"Grove on the Braj chaurasi kos yatra","tier":"gem","n":65,"months":[10,3],"time":"1 hr"},{"name":"Dabchick Lake, Hodal","district":"Palwal","category":"Lake","g":"water","lat":27.89,"lng":77.37,"why":"Highway lake stop near Hodal","tier":"gem","n":66,"months":[10,3],"time":"1–2 hrs"},{"name":"Gandhi Seva Ashram, Palwal","district":"Palwal","category":"Heritage","g":"heritage","lat":28.14,"lng":77.33,"why":"Where Gandhi was first arrested in 1919, with a museum","tier":"gem","n":67,"months":[10,3],"time":"1 hr"},{"name":"Ghasera Fort","district":"Nuh","category":"Fort","g":"heritage","lat":28.23,"lng":77.05,"why":"Ruined Mewati fort near Nuh","tier":"gem","n":68,"months":[10,3],"time":"1 hr"},{"name":"Kotla Fort & Lake","district":"Nuh","category":"Fort","g":"heritage","lat":28.15,"lng":77.03,"why":"Hill fort of Raja Nahar Khan above a lake","tier":"gem","n":69,"months":[10,3],"time":"1 hr"},{"name":"Sheikh Musa Dargah & Jhulti Minar","district":"Nuh","category":"Heritage","g":"heritage","lat":28.02,"lng":77.1,"why":"Dargah with its own shaking minarets at Palla","tier":"gem","n":70,"months":[10,3],"time":"1 hr"},{"name":"Sohna Fort & Hot Springs","district":"Gurugram","category":"Hot spring","g":"water","lat":28.25,"lng":77.07,"why":"Sulphur springs, a hill fort and Qutub Khan's mosque","tier":"gem","n":71,"months":[10,3],"time":"1–2 hrs"},{"name":"Sheetla Mata Mandir","district":"Gurugram","category":"Temple","g":"temple","lat":28.48,"lng":77.02,"why":"Gurugram's famous goddess temple","tier":"gem","n":72,"months":[10,3],"time":"1 hr"},{"name":"Rezang La Memorial","district":"Rewari","category":"Memorial","g":"heritage","lat":28.18,"lng":76.61,"why":"Memorial to the 1962 battle of Rezang La","tier":"gem","n":73,"months":[10,3],"time":"1 hr"},{"name":"Hemu's Haveli","district":"Rewari","category":"Heritage","g":"heritage","lat":28.195,"lng":76.62,"why":"Haveli of Hemu, the 16th-century king","tier":"gem","n":74,"months":[10,3],"time":"1 hr"},{"name":"Masani Barrage","district":"Rewari","category":"Wetland","g":"wildlife","lat":28.22,"lng":76.57,"why":"Seasonal wetland on the Sahibi for birds","tier":"gem","n":75,"months":[10,3],"time":"2 hrs"},{"name":"Mahendragarh Fort","district":"Mahendragarh","category":"Fort","g":"heritage","lat":28.28,"lng":76.15,"why":"Restored Maratha-era fort","tier":"gem","n":76,"months":[10,3],"time":"1 hr"},{"name":"Mirza Alijan's Baoli","district":"Mahendragarh","category":"Heritage","g":"heritage","lat":28.04,"lng":76.11,"why":"Stepwell and pavilion in Narnaul","tier":"gem","n":77,"months":[10,3],"time":"1 hr"},{"name":"Ibrahim Khan Sur's Tomb","district":"Mahendragarh","category":"Heritage","g":"heritage","lat":28.045,"lng":76.105,"why":"Tomb of Sher Shah's grandfather in Narnaul","tier":"gem","n":78,"months":[10,3],"time":"1 hr"},{"name":"Loharu Fort","district":"Bhiwani","category":"Fort","g":"heritage","lat":28.4403,"lng":75.816,"why":"Fort of the Loharu nawabs, linked to Ghalib","tier":"gem","n":79,"months":[10,3],"time":"1 hr"},{"name":"Rani Talab, Jind","district":"Jind","category":"Heritage","g":"heritage","lat":29.32,"lng":76.32,"why":"Temple tank in the heart of Jind","tier":"gem","n":80,"months":[10,3],"time":"1 hr"},{"name":"Jayanti Devi Temple","district":"Jind","category":"Temple","g":"temple","lat":29.32,"lng":76.31,"why":"Old goddess temple that gave Jind its name","tier":"gem","n":81,"months":[10,3],"time":"1 hr"},{"name":"Ramrai Tirth","district":"Jind","category":"Sacred tank","g":"temple","lat":29.36,"lng":76.35,"why":"Tank linked to Parashurama","tier":"gem","n":82,"months":[10,3],"time":"1 hr"},{"name":"Razia Sultan's Tomb","district":"Kaithal","category":"Heritage","g":"heritage","lat":29.8,"lng":76.4,"why":"Ruin claimed as the grave of Razia Sultan","tier":"gem","n":83,"months":[10,3],"time":"1 hr"},{"name":"Badshahi Bridge, Karnal","district":"Karnal","category":"Heritage","g":"heritage","lat":29.68,"lng":76.99,"why":"Mughal bridge of the old highway","tier":"gem","n":84,"months":[10,3],"time":"1 hr"},{"name":"Cantonment Church Tower","district":"Karnal","category":"Heritage","g":"heritage","lat":29.7,"lng":76.98,"why":"Lone tower of a demolished British church","tier":"gem","n":85,"months":[10,3],"time":"1 hr"},{"name":"Ibrahim Lodi's Tomb","district":"Panipat","category":"Heritage","g":"heritage","lat":29.39,"lng":76.97,"why":"Simple tomb of the sultan killed at the first battle of Panipat","tier":"gem","n":86,"months":[10,3],"time":"1 hr"},{"name":"Gurdwara Panjokhra Sahib","district":"Ambala","category":"Gurdwara","g":"temple","lat":30.4217,"lng":76.8798,"why":"Gurdwara linked to Guru Har Krishan","tier":"gem","n":87,"months":[10,3],"time":"1 hr"},{"name":"European Cemetery, Ambala","district":"Ambala","category":"Heritage","g":"heritage","lat":30.34,"lng":76.85,"why":"Colonial cemetery of the cantonment","tier":"gem","n":88,"months":[10,3],"time":"1 hr"},{"name":"Anangpur Dam","district":"Faridabad","category":"Heritage","g":"heritage","lat":28.46,"lng":77.27,"why":"8th-century Tomara masonry dam","tier":"gem","n":89,"months":[10,3],"time":"1 hr"},{"name":"Badkhal Lake","district":"Faridabad","category":"Lake","g":"water","lat":28.41,"lng":77.26,"why":"Aravalli lake being restored after years dry","tier":"gem","n":90,"months":[10,3],"time":"1–2 hrs"},{"name":"Jhajjar Tombs & Bua Wala Talab","district":"Jhajjar","category":"Heritage","g":"heritage","lat":28.61,"lng":76.65,"why":"Group of Mughal-era tombs and a tank","tier":"gem","n":91,"months":[10,3],"time":"1 hr"},{"name":"Beri Bhimeshwari Devi Temple","district":"Jhajjar","category":"Temple","g":"temple","lat":28.7,"lng":76.58,"why":"Goddess temple with big Navratri fairs","tier":"gem","n":92,"months":[10,3],"time":"1 hr"},{"name":"Asthal Bohar","district":"Rohtak","category":"Temple","g":"temple","lat":28.91,"lng":76.62,"why":"Historic Nath math near Rohtak","tier":"gem","n":93,"months":[10,3],"time":"1 hr"},{"name":"Khwaja Khizr's Tomb","district":"Sonipat","category":"Heritage","g":"heritage","lat":28.99,"lng":77.02,"why":"Lodi-era tomb in Sonipat","tier":"gem","n":94,"months":[10,3],"time":"1 hr"},{"name":"Hisar Deer Park","district":"Hisar","category":"Wildlife","g":"wildlife","lat":29.15,"lng":75.7,"why":"Blackbuck and deer park in Hisar","tier":"gem","n":95,"months":[10,3],"time":"2 hrs"},{"name":"Dargah Char Qutab","district":"Hansi","category":"Heritage","g":"heritage","lat":29.1,"lng":75.96,"why":"Shrine of four Sufi saints in Hansi","tier":"gem","n":96,"months":[10,3],"time":"1 hr"},{"name":"Bhirrana","district":"Fatehabad","category":"Heritage","g":"heritage","lat":29.55,"lng":75.56,"why":"Very early Harappan settlement","tier":"gem","n":97,"months":[10,3],"time":"1 hr"},{"name":"Gurdwara Chilla Sahib","district":"Sirsa","category":"Gurdwara","g":"temple","lat":29.53,"lng":75.03,"why":"Gurdwara where Guru Nanak meditated","tier":"gem","n":98,"months":[10,3],"time":"1 hr"},{"name":"Chaneti Stupa","district":"Yamunanagar","category":"Heritage","g":"buddhist","lat":30.15,"lng":77.32,"why":"Ashokan-era brick stupa","tier":"gem","n":99,"months":[10,3],"time":"1 hr"},{"name":"Bhishma Kund, Narkatari","district":"Kurukshetra","category":"Sacred tank","g":"temple","lat":29.98,"lng":76.84,"why":"Where Bhishma lay on his bed of arrows","tier":"gem","n":100,"months":[10,3],"time":"1 hr"},{"name":"Chandi Mandir","district":"Panchkula","category":"Temple","g":"temple","lat":30.73,"lng":76.87,"why":"Goddess temple that gave Chandigarh its name","tier":"gem","n":101,"months":[10,3],"time":"1 hr"},{"name":"Kali Mata Temple, Kalka","district":"Panchkula","category":"Temple","g":"temple","lat":30.84,"lng":76.94,"why":"Old temple at the start of the Shimla line","tier":"gem","n":102,"months":[10,3],"time":"1 hr"}],"festivals":[{"name":"Lohri","months":[1,1],"when":"13 January","n":null,"about":"Bonfires, folk songs and sweets across Haryana's villages."},{"name":"Surajkund International Crafts Mela","months":[2,2],"when":"First half of February","n":42,"about":"One of the world's biggest crafts fairs, with artisans and performers from across India and abroad."},{"name":"Baisakhi","months":[4,4],"when":"13 or 14 April","n":null,"about":"Harvest festival with fairs at Pinjore and across the state."},{"name":"Teej","months":[7,8],"when":"July or August","n":null,"about":"Monsoon festival of swings, songs and mehndi, celebrated by women across Haryana."},{"name":"Mansa Devi Navratra Mela","months":[3,10],"when":"Chaitra and Ashvin Navratri","n":27,"about":"Huge crowds of pilgrims during both Navratris."},{"name":"Kapal Mochan Mela","months":[11,11],"when":"Kartik Purnima, usually November","n":32,"about":"Hindu and Sikh pilgrims bathe in the sacred tanks."},{"name":"International Gita Mahotsav","months":[11,12],"when":"November–December","n":1,"about":"Weeks of aarti, crafts and culture around Brahma Sarovar for Gita Jayanti."},{"name":"Pinjore Heritage Festival","months":[12,12],"when":"Usually December","n":23,"about":"Music and dance in the Mughal gardens."}]}
+{
+ "name": "Haryana",
+ "intro": "Kurukshetra's sacred tanks of the Mahabharata, the Harappan city of Rakhigarhi, the battlefields of Panipat, Pinjore's Mughal gardens and the Morni hills, Sultanpur's winter birds, the Surajkund crafts fair, and the parantha dhabas of Murthal.",
+ "bases": [
+  [
+   "Gurugram",
+   28.4595,
+   77.0266
+  ],
+  [
+   "Kurukshetra",
+   29.9695,
+   76.8783
+  ],
+  [
+   "Panchkula",
+   30.6942,
+   76.8606
+  ],
+  [
+   "Hisar",
+   29.1492,
+   75.7217
+  ],
+  [
+   "Delhi",
+   28.6139,
+   77.209
+  ],
+  [
+   "Chandigarh",
+   30.7333,
+   76.7794
+  ]
+ ],
+ "trails": [
+  {
+   "name": "Kurukshetra 48 kos",
+   "note": "The sacred tanks and shrines of the Mahabharata land.",
+   "ids": [
+    1,
+    3,
+    4,
+    5,
+    8,
+    6,
+    7,
+    2,
+    12
+   ]
+  },
+  {
+   "name": "Harappan Haryana",
+   "note": "Indus cities on the old Saraswati plains.",
+   "ids": [
+    50,
+    53,
+    52,
+    47
+   ]
+  },
+  {
+   "name": "Shivalik escape",
+   "note": "Gardens, temples and lakes in the hills above Chandigarh.",
+   "ids": [
+    23,
+    24,
+    27,
+    28,
+    25,
+    26
+   ]
+  },
+  {
+   "name": "GT Road heritage",
+   "note": "Battlefields, Sufi shrines and the famous highway food.",
+   "ids": [
+    21,
+    17,
+    18,
+    19,
+    20
+   ]
+  },
+  {
+   "name": "Weekend from Delhi",
+   "note": "Birds, a mirror palace, a sun pool and museums near the capital.",
+   "ids": [
+    35,
+    36,
+    40,
+    37,
+    42,
+    44
+   ]
+  },
+  {
+   "name": "Narnaul and the south",
+   "note": "Mughal Narnaul, a volcano hill and a steam loco shed.",
+   "ids": [
+    60,
+    61,
+    55,
+    56,
+    57,
+    58
+   ]
+  },
+  {
+   "name": "Mewat and Braj fringe",
+   "note": "Hill forts, shaking minarets, Kos Minars and Gandhi's Palwal.",
+   "ids": [
+    71,
+    68,
+    69,
+    70,
+    62,
+    67,
+    64,
+    65
+   ]
+  }
+ ],
+ "places": [
+  {
+   "n": 1,
+   "name": "Brahma Sarovar",
+   "district": "Kurukshetra",
+   "category": "Sacred tank",
+   "g": "temple",
+   "lat": 29.96,
+   "lng": 76.832,
+   "why": "Vast sacred tank, lit by thousands of lamps during Gita Jayanti",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 2,
+   "name": "Jyotisar",
+   "district": "Kurukshetra",
+   "category": "Sacred site",
+   "g": "temple",
+   "lat": 29.96,
+   "lng": 76.771,
+   "why": "Where the Gita is said to have been spoken, with a nightly sound-and-light show",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Evening"
+  },
+  {
+   "n": 3,
+   "name": "Sannihit Sarovar",
+   "district": "Kurukshetra",
+   "category": "Sacred tank",
+   "g": "temple",
+   "lat": 29.962,
+   "lng": 76.845,
+   "why": "Holy tank thronged during solar eclipses",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 4,
+   "name": "Sri Krishna Museum",
+   "district": "Kurukshetra",
+   "category": "Museum",
+   "g": "culture",
+   "lat": 29.959,
+   "lng": 76.838,
+   "why": "Museum of Krishna and the Mahabharata in art",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 5,
+   "name": "Kurukshetra Panorama & Science Centre",
+   "district": "Kurukshetra",
+   "category": "Museum",
+   "g": "culture",
+   "lat": 29.958,
+   "lng": 76.84,
+   "why": "Panorama of the Mahabharata battle",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 6,
+   "name": "Sheikh Chehli's Tomb",
+   "district": "Kurukshetra",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 29.975,
+   "lng": 76.83,
+   "why": "Graceful Mughal tomb and madrasa at Thanesar",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 7,
+   "name": "Harsh ka Tila",
+   "district": "Kurukshetra",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 29.976,
+   "lng": 76.831,
+   "why": "Mound of Harshavardhana's capital Thanesar",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 8,
+   "name": "Bhadrakali Shaktipeeth",
+   "district": "Kurukshetra",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 29.973,
+   "lng": 76.827,
+   "why": "Shakti Peetha where devotees offer clay horses",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 9,
+   "name": "Dharohar Museum",
+   "district": "Kurukshetra",
+   "category": "Museum",
+   "g": "culture",
+   "lat": 29.953,
+   "lng": 76.816,
+   "why": "Haryana's folk life museum at Kurukshetra University",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 10,
+   "name": "Kalpana Chawla Planetarium",
+   "district": "Kurukshetra",
+   "category": "Museum",
+   "g": "culture",
+   "lat": 29.962,
+   "lng": 76.775,
+   "why": "Planetarium honouring the astronaut, near Jyotisar",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 11,
+   "name": "Chhilchhila Wildlife Sanctuary",
+   "district": "Kurukshetra",
+   "category": "Wetland",
+   "g": "wildlife",
+   "lat": 30.03,
+   "lng": 76.68,
+   "why": "Wetland sanctuary for winter waterbirds",
+   "tier": "gem",
+   "months": [
+    11,
+    2
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 12,
+   "name": "Pehowa",
+   "district": "Kurukshetra",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 29.98,
+   "lng": 76.58,
+   "why": "Ancient pilgrim town on the Saraswati for ancestral rites",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 13,
+   "name": "Kalayat Kapil Muni Temple",
+   "district": "Kaithal",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 29.675,
+   "lng": 76.26,
+   "why": "Temple town with rare brick temples of the Pratihara era",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 14,
+   "name": "Gyarah Rudri Temple",
+   "district": "Kaithal",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 29.8,
+   "lng": 76.4,
+   "why": "Shiva temple at Kaithal linked to Arjuna",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 15,
+   "name": "Saraswati Wildlife Sanctuary",
+   "district": "Kaithal",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 29.9,
+   "lng": 76.43,
+   "why": "Riverine forest of nilgai and blackbuck",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 16,
+   "name": "Pandu Pindara",
+   "district": "Jind",
+   "category": "Sacred tank",
+   "g": "temple",
+   "lat": 29.32,
+   "lng": 76.28,
+   "why": "Tank where the Pandavas are said to have performed rites",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 17,
+   "name": "Panipat Museum & Kala Amb",
+   "district": "Panipat",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 29.43,
+   "lng": 76.97,
+   "why": "The three battlefields of Panipat, with a memorial and museum",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 18,
+   "name": "Kabuli Bagh Mosque",
+   "district": "Panipat",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 29.41,
+   "lng": 76.98,
+   "why": "Mosque built by Babur after the first battle of Panipat",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 19,
+   "name": "Bu Ali Shah Qalandar Dargah",
+   "district": "Panipat",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 29.394,
+   "lng": 76.97,
+   "why": "700-year-old Sufi shrine in old Panipat",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 20,
+   "name": "Karna Lake",
+   "district": "Karnal",
+   "category": "Lake",
+   "g": "water",
+   "lat": 29.72,
+   "lng": 76.99,
+   "why": "Lakeside stop on the old Grand Trunk Road",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 21,
+   "name": "Murthal Dhabas",
+   "district": "Sonipat",
+   "category": "Food",
+   "g": "culture",
+   "lat": 29.03,
+   "lng": 77.06,
+   "why": "The famous parantha dhabas of the Delhi–Chandigarh highway",
+   "tier": "top",
+   "months": [
+    1,
+    12
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 22,
+   "name": "Tilyar Lake",
+   "district": "Rohtak",
+   "category": "Lake",
+   "g": "water",
+   "lat": 28.88,
+   "lng": 76.63,
+   "why": "Lake with a zoo and gardens in Rohtak",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 23,
+   "name": "Pinjore Gardens",
+   "district": "Panchkula",
+   "category": "Garden",
+   "g": "heritage",
+   "lat": 30.794,
+   "lng": 76.915,
+   "why": "Mughal terraced gardens with fountains and palaces",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 24,
+   "name": "Bhima Devi Temple",
+   "district": "Panchkula",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 30.798,
+   "lng": 76.92,
+   "why": "Ruins and site museum of carved medieval temples at Pinjore",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 25,
+   "name": "Morni Hills",
+   "district": "Panchkula",
+   "category": "Hill station",
+   "g": "hills",
+   "lat": 30.697,
+   "lng": 77.085,
+   "why": "Haryana's only hill station, with forts, lakes and treks",
+   "tier": "top",
+   "months": [
+    9,
+    4
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 26,
+   "name": "Tikkar Tal",
+   "district": "Panchkula",
+   "category": "Lake",
+   "g": "water",
+   "lat": 30.68,
+   "lng": 77.03,
+   "why": "Twin lakes in the Morni hills",
+   "tier": "top",
+   "months": [
+    9,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 27,
+   "name": "Mansa Devi Temple",
+   "district": "Panchkula",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 30.742,
+   "lng": 76.855,
+   "why": "Major Shakti temple at the foot of the Shivaliks",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 28,
+   "name": "Nada Sahib",
+   "district": "Panchkula",
+   "category": "Gurdwara",
+   "g": "temple",
+   "lat": 30.73,
+   "lng": 76.85,
+   "why": "Gurdwara on the Ghaggar where Guru Gobind Singh rested",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 29,
+   "name": "Cactus Garden, Panchkula",
+   "district": "Panchkula",
+   "category": "Garden",
+   "g": "culture",
+   "lat": 30.695,
+   "lng": 76.86,
+   "why": "One of Asia's largest cactus gardens",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 30,
+   "name": "Kalesar National Park",
+   "district": "Yamunanagar",
+   "category": "National park",
+   "g": "wildlife",
+   "lat": 30.39,
+   "lng": 77.53,
+   "why": "Sal forest of the Shivaliks with leopards and elephants",
+   "tier": "top",
+   "months": [
+    11,
+    4
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 31,
+   "name": "Adi Badri",
+   "district": "Yamunanagar",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 30.4371,
+   "lng": 77.3367,
+   "why": "Where the Saraswati is said to leave the hills",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 32,
+   "name": "Kapal Mochan",
+   "district": "Yamunanagar",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 30.328,
+   "lng": 77.485,
+   "why": "Sacred tanks and a great November fair",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 33,
+   "name": "Lohgarh",
+   "district": "Yamunanagar",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 30.4445,
+   "lng": 77.3128,
+   "why": "Forest capital of Banda Singh Bahadur",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 34,
+   "name": "Hathnikund Barrage",
+   "district": "Yamunanagar",
+   "category": "River",
+   "g": "water",
+   "lat": 30.3192,
+   "lng": 77.5712,
+   "why": "Where the Yamuna leaves the hills, good for birds in winter",
+   "tier": "gem",
+   "months": [
+    11,
+    2
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 35,
+   "name": "Sultanpur National Park",
+   "district": "Gurugram",
+   "category": "Wetland",
+   "g": "wildlife",
+   "lat": 28.459,
+   "lng": 76.892,
+   "why": "Bird park near Delhi with winter cranes, ducks and flamingos",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 36,
+   "name": "Farrukhnagar Sheesh Mahal & Baoli",
+   "district": "Gurugram",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 28.45,
+   "lng": 76.82,
+   "why": "Mirror palace and octagonal stepwell in a walled town",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 37,
+   "name": "Damdama Lake",
+   "district": "Gurugram",
+   "category": "Lake",
+   "g": "water",
+   "lat": 28.3,
+   "lng": 77.13,
+   "why": "Aravalli lake with kayaking and treks",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 38,
+   "name": "Aravalli Biodiversity Park",
+   "district": "Gurugram",
+   "category": "Nature",
+   "g": "wildlife",
+   "lat": 28.48,
+   "lng": 77.11,
+   "why": "Old quarry turned into a native forest",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 39,
+   "name": "Museo Camera",
+   "district": "Gurugram",
+   "category": "Museum",
+   "g": "culture",
+   "lat": 28.48,
+   "lng": 77.1,
+   "why": "Museum of photography with a vast camera collection",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 40,
+   "name": "Heritage Transport Museum",
+   "district": "Gurugram",
+   "category": "Museum",
+   "g": "culture",
+   "lat": 28.36,
+   "lng": 76.92,
+   "why": "India's best museum of cars, trains, planes and carts",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 41,
+   "name": "Pataudi Palace",
+   "district": "Gurugram",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 28.326,
+   "lng": 76.78,
+   "why": "Colonial-era palace of the Pataudi family",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 42,
+   "name": "Surajkund",
+   "district": "Faridabad",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 28.485,
+   "lng": 77.285,
+   "why": "10th-century sun pool, home of the great February crafts fair",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 43,
+   "name": "Raja Nahar Singh Palace",
+   "district": "Faridabad",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 28.34,
+   "lng": 77.32,
+   "why": "Fort-palace at Ballabhgarh",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 44,
+   "name": "Bhindawas Bird Sanctuary",
+   "district": "Jhajjar",
+   "category": "Wetland",
+   "g": "wildlife",
+   "lat": 28.53,
+   "lng": 76.55,
+   "why": "Ramsar wetland for winter waterbirds",
+   "tier": "top",
+   "months": [
+    11,
+    2
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 45,
+   "name": "Gurukul Jhajjar Museum",
+   "district": "Jhajjar",
+   "category": "Museum",
+   "g": "culture",
+   "lat": 28.61,
+   "lng": 76.65,
+   "why": "Rich collection of coins, sculpture and seals",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 46,
+   "name": "Tosham Hill",
+   "district": "Bhiwani",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 28.88,
+   "lng": 75.92,
+   "why": "Rocky hill with Gupta-era inscriptions and a ruined fort",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 47,
+   "name": "Agroha Dham",
+   "district": "Hisar",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 29.33,
+   "lng": 75.62,
+   "why": "Temple complex and ancient mound of the Agrawal community",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 48,
+   "name": "Firoz Shah Palace & Gujri Mahal",
+   "district": "Hisar",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 29.17,
+   "lng": 75.73,
+   "why": "Tughlaq-era palace, mosque and lat in Hisar",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 49,
+   "name": "Blue Bird Lake",
+   "district": "Hisar",
+   "category": "Lake",
+   "g": "water",
+   "lat": 29.145,
+   "lng": 75.735,
+   "why": "Lake park in Hisar",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 50,
+   "name": "Rakhigarhi",
+   "district": "Hansi",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 29.29,
+   "lng": 76.11,
+   "why": "One of the largest Harappan sites, with a new museum",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2–3 hrs"
+  },
+  {
+   "n": 51,
+   "name": "Asigarh Fort, Hansi",
+   "district": "Hansi",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 29.1,
+   "lng": 75.97,
+   "why": "Ancient fort with the Barsi Gate, linked to Prithviraj Chauhan",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 52,
+   "name": "Banawali",
+   "district": "Fatehabad",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 29.61,
+   "lng": 75.39,
+   "why": "Harappan town site",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 53,
+   "name": "Kunal",
+   "district": "Fatehabad",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 29.65,
+   "lng": 75.67,
+   "why": "Early Harappan site with a small museum",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 54,
+   "name": "Ottu Barrage",
+   "district": "Sirsa",
+   "category": "Wetland",
+   "g": "wildlife",
+   "lat": 29.49,
+   "lng": 74.93,
+   "why": "Ghaggar wetland for winter birds",
+   "tier": "gem",
+   "months": [
+    11,
+    2
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 55,
+   "name": "Jal Mahal, Narnaul",
+   "district": "Mahendragarh",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 28.04,
+   "lng": 76.11,
+   "why": "16th-century water palace in a dried tank",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 56,
+   "name": "Birbal ka Chhatta",
+   "district": "Mahendragarh",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 28.045,
+   "lng": 76.108,
+   "why": "Five-storey Mughal mansion in Narnaul",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 57,
+   "name": "Chor Gumbad",
+   "district": "Mahendragarh",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 28.05,
+   "lng": 76.1,
+   "why": "Hilltop Lodi-era tomb, Narnaul's landmark",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 58,
+   "name": "Dhosi Hill",
+   "district": "Mahendragarh",
+   "category": "Hill",
+   "g": "hills",
+   "lat": 28.05,
+   "lng": 76.03,
+   "why": "Extinct volcano linked to the sage Chyavana",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 59,
+   "name": "Madhogarh Fort",
+   "district": "Mahendragarh",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 28.28,
+   "lng": 76.24,
+   "why": "Hilltop fort in the Aravallis",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 60,
+   "name": "Rewari Steam Loco Shed",
+   "district": "Rewari",
+   "category": "Museum",
+   "g": "culture",
+   "lat": 28.195,
+   "lng": 76.615,
+   "why": "India's last working steam loco shed, a heritage museum",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 61,
+   "name": "Rani Talab, Rewari",
+   "district": "Rewari",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 28.19,
+   "lng": 76.62,
+   "why": "18th-century tank with a pavilion",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 62,
+   "name": "Nalhar Shiva Temple",
+   "district": "Nuh",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 28.08,
+   "lng": 76.99,
+   "why": "Hill temple with a sacred spring in the Aravallis",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 63,
+   "name": "Ferozepur Jhirka Shiva Temple",
+   "district": "Nuh",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 27.78,
+   "lng": 76.95,
+   "why": "Cave Shiva temple with a perennial stream",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Hodal Kos Minar",
+   "district": "Palwal",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 27.899,
+   "lng": 77.37,
+   "why": "Jahangir-era milestones of the old Grand Trunk road; 49 survive in Haryana",
+   "tier": "gem",
+   "n": 64,
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Chameli Van & Anjani Kund",
+   "district": "Palwal",
+   "category": "Sacred site",
+   "g": "temple",
+   "lat": 27.87,
+   "lng": 77.39,
+   "why": "Grove on the Braj chaurasi kos yatra",
+   "tier": "gem",
+   "n": 65,
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Dabchick Lake, Hodal",
+   "district": "Palwal",
+   "category": "Lake",
+   "g": "water",
+   "lat": 27.89,
+   "lng": 77.37,
+   "why": "Highway lake stop near Hodal",
+   "tier": "gem",
+   "n": 66,
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "name": "Gandhi Seva Ashram, Palwal",
+   "district": "Palwal",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 28.14,
+   "lng": 77.33,
+   "why": "Where Gandhi was first arrested in 1919, with a museum",
+   "tier": "gem",
+   "n": 67,
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Ghasera Fort",
+   "district": "Nuh",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 28.23,
+   "lng": 77.05,
+   "why": "Ruined Mewati fort near Nuh",
+   "tier": "gem",
+   "n": 68,
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Kotla Fort & Lake",
+   "district": "Nuh",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 28.15,
+   "lng": 77.03,
+   "why": "Hill fort of Raja Nahar Khan above a lake",
+   "tier": "gem",
+   "n": 69,
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Sheikh Musa Dargah & Jhulti Minar",
+   "district": "Nuh",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 28.02,
+   "lng": 77.1,
+   "why": "Dargah with its own shaking minarets at Palla",
+   "tier": "gem",
+   "n": 70,
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Sohna Fort & Hot Springs",
+   "district": "Gurugram",
+   "category": "Hot spring",
+   "g": "water",
+   "lat": 28.25,
+   "lng": 77.07,
+   "why": "Sulphur springs, a hill fort and Qutub Khan's mosque",
+   "tier": "gem",
+   "n": 71,
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "name": "Sheetla Mata Mandir",
+   "district": "Gurugram",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 28.48,
+   "lng": 77.02,
+   "why": "Gurugram's famous goddess temple",
+   "tier": "gem",
+   "n": 72,
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Rezang La Memorial",
+   "district": "Rewari",
+   "category": "Memorial",
+   "g": "heritage",
+   "lat": 28.18,
+   "lng": 76.61,
+   "why": "Memorial to the 1962 battle of Rezang La",
+   "tier": "gem",
+   "n": 73,
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Hemu's Haveli",
+   "district": "Rewari",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 28.195,
+   "lng": 76.62,
+   "why": "Haveli of Hemu, the 16th-century king",
+   "tier": "gem",
+   "n": 74,
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Masani Barrage",
+   "district": "Rewari",
+   "category": "Wetland",
+   "g": "wildlife",
+   "lat": 28.22,
+   "lng": 76.57,
+   "why": "Seasonal wetland on the Sahibi for birds",
+   "tier": "gem",
+   "n": 75,
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Mahendragarh Fort",
+   "district": "Mahendragarh",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 28.28,
+   "lng": 76.15,
+   "why": "Restored Maratha-era fort",
+   "tier": "gem",
+   "n": 76,
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Mirza Alijan's Baoli",
+   "district": "Mahendragarh",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 28.04,
+   "lng": 76.11,
+   "why": "Stepwell and pavilion in Narnaul",
+   "tier": "gem",
+   "n": 77,
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Ibrahim Khan Sur's Tomb",
+   "district": "Mahendragarh",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 28.045,
+   "lng": 76.105,
+   "why": "Tomb of Sher Shah's grandfather in Narnaul",
+   "tier": "gem",
+   "n": 78,
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Loharu Fort",
+   "district": "Bhiwani",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 28.4403,
+   "lng": 75.816,
+   "why": "Fort of the Loharu nawabs, linked to Ghalib",
+   "tier": "gem",
+   "n": 79,
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Rani Talab, Jind",
+   "district": "Jind",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 29.32,
+   "lng": 76.32,
+   "why": "Temple tank in the heart of Jind",
+   "tier": "gem",
+   "n": 80,
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Jayanti Devi Temple",
+   "district": "Jind",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 29.32,
+   "lng": 76.31,
+   "why": "Old goddess temple that gave Jind its name",
+   "tier": "gem",
+   "n": 81,
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Ramrai Tirth",
+   "district": "Jind",
+   "category": "Sacred tank",
+   "g": "temple",
+   "lat": 29.36,
+   "lng": 76.35,
+   "why": "Tank linked to Parashurama",
+   "tier": "gem",
+   "n": 82,
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Razia Sultan's Tomb",
+   "district": "Kaithal",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 29.8,
+   "lng": 76.4,
+   "why": "Ruin claimed as the grave of Razia Sultan",
+   "tier": "gem",
+   "n": 83,
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Badshahi Bridge, Karnal",
+   "district": "Karnal",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 29.68,
+   "lng": 76.99,
+   "why": "Mughal bridge of the old highway",
+   "tier": "gem",
+   "n": 84,
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Cantonment Church Tower",
+   "district": "Karnal",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 29.7,
+   "lng": 76.98,
+   "why": "Lone tower of a demolished British church",
+   "tier": "gem",
+   "n": 85,
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Ibrahim Lodi's Tomb",
+   "district": "Panipat",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 29.39,
+   "lng": 76.97,
+   "why": "Simple tomb of the sultan killed at the first battle of Panipat",
+   "tier": "gem",
+   "n": 86,
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Gurdwara Panjokhra Sahib",
+   "district": "Ambala",
+   "category": "Gurdwara",
+   "g": "temple",
+   "lat": 30.4217,
+   "lng": 76.8798,
+   "why": "Gurdwara linked to Guru Har Krishan",
+   "tier": "gem",
+   "n": 87,
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "European Cemetery, Ambala",
+   "district": "Ambala",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 30.34,
+   "lng": 76.85,
+   "why": "Colonial cemetery of the cantonment",
+   "tier": "gem",
+   "n": 88,
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Anangpur Dam",
+   "district": "Faridabad",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 28.46,
+   "lng": 77.27,
+   "why": "8th-century Tomara masonry dam",
+   "tier": "gem",
+   "n": 89,
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Badkhal Lake",
+   "district": "Faridabad",
+   "category": "Lake",
+   "g": "water",
+   "lat": 28.41,
+   "lng": 77.26,
+   "why": "Aravalli lake being restored after years dry",
+   "tier": "gem",
+   "n": 90,
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "name": "Jhajjar Tombs & Bua Wala Talab",
+   "district": "Jhajjar",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 28.61,
+   "lng": 76.65,
+   "why": "Group of Mughal-era tombs and a tank",
+   "tier": "gem",
+   "n": 91,
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Beri Bhimeshwari Devi Temple",
+   "district": "Jhajjar",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 28.7,
+   "lng": 76.58,
+   "why": "Goddess temple with big Navratri fairs",
+   "tier": "gem",
+   "n": 92,
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Asthal Bohar",
+   "district": "Rohtak",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 28.91,
+   "lng": 76.62,
+   "why": "Historic Nath math near Rohtak",
+   "tier": "gem",
+   "n": 93,
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Khwaja Khizr's Tomb",
+   "district": "Sonipat",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 28.99,
+   "lng": 77.02,
+   "why": "Lodi-era tomb in Sonipat",
+   "tier": "gem",
+   "n": 94,
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Hisar Deer Park",
+   "district": "Hisar",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 29.15,
+   "lng": 75.7,
+   "why": "Blackbuck and deer park in Hisar",
+   "tier": "gem",
+   "n": 95,
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Dargah Char Qutab",
+   "district": "Hansi",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 29.1,
+   "lng": 75.96,
+   "why": "Shrine of four Sufi saints in Hansi",
+   "tier": "gem",
+   "n": 96,
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Bhirrana",
+   "district": "Fatehabad",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 29.55,
+   "lng": 75.56,
+   "why": "Very early Harappan settlement",
+   "tier": "gem",
+   "n": 97,
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Gurdwara Chilla Sahib",
+   "district": "Sirsa",
+   "category": "Gurdwara",
+   "g": "temple",
+   "lat": 29.53,
+   "lng": 75.03,
+   "why": "Gurdwara where Guru Nanak meditated",
+   "tier": "gem",
+   "n": 98,
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Chaneti Stupa",
+   "district": "Yamunanagar",
+   "category": "Heritage",
+   "g": "buddhist",
+   "lat": 30.15,
+   "lng": 77.32,
+   "why": "Ashokan-era brick stupa",
+   "tier": "gem",
+   "n": 99,
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Bhishma Kund, Narkatari",
+   "district": "Kurukshetra",
+   "category": "Sacred tank",
+   "g": "temple",
+   "lat": 29.98,
+   "lng": 76.84,
+   "why": "Where Bhishma lay on his bed of arrows",
+   "tier": "gem",
+   "n": 100,
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Chandi Mandir",
+   "district": "Panchkula",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 30.73,
+   "lng": 76.87,
+   "why": "Goddess temple that gave Chandigarh its name",
+   "tier": "gem",
+   "n": 101,
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Kali Mata Temple, Kalka",
+   "district": "Panchkula",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 30.84,
+   "lng": 76.94,
+   "why": "Old temple at the start of the Shimla line",
+   "tier": "gem",
+   "n": 102,
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 103,
+   "name": "Shyamesar Lake",
+   "district": "Charkhi Dadri",
+   "category": "Lake",
+   "g": "heritage",
+   "lat": 28.595,
+   "lng": 76.27,
+   "why": "Old stepped tank in the heart of Charkhi Dadri, lit up for Holi",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 104,
+   "name": "Baba Shami Dayal Samadhi",
+   "district": "Charkhi Dadri",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 28.59,
+   "lng": 76.26,
+   "why": "Samadhi and temple of the town's saint, Dadri's main religious landmark",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 105,
+   "name": "Ranila Jain Atishaya Kshetra",
+   "district": "Charkhi Dadri",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 28.62,
+   "lng": 76.19,
+   "why": "Digambar Jain pilgrimage at Ranila village, listed by Haryana's tourism portal",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  }
+ ],
+ "festivals": [
+  {
+   "name": "Lohri",
+   "months": [
+    1,
+    1
+   ],
+   "when": "13 January",
+   "n": null,
+   "about": "Bonfires, folk songs and sweets across Haryana's villages."
+  },
+  {
+   "name": "Surajkund International Crafts Mela",
+   "months": [
+    2,
+    2
+   ],
+   "when": "First half of February",
+   "n": 42,
+   "about": "One of the world's biggest crafts fairs, with artisans and performers from across India and abroad."
+  },
+  {
+   "name": "Baisakhi",
+   "months": [
+    4,
+    4
+   ],
+   "when": "13 or 14 April",
+   "n": null,
+   "about": "Harvest festival with fairs at Pinjore and across the state."
+  },
+  {
+   "name": "Teej",
+   "months": [
+    7,
+    8
+   ],
+   "when": "July or August",
+   "n": null,
+   "about": "Monsoon festival of swings, songs and mehndi, celebrated by women across Haryana."
+  },
+  {
+   "name": "Mansa Devi Navratra Mela",
+   "months": [
+    3,
+    10
+   ],
+   "when": "Chaitra and Ashvin Navratri",
+   "n": 27,
+   "about": "Huge crowds of pilgrims during both Navratris."
+  },
+  {
+   "name": "Kapal Mochan Mela",
+   "months": [
+    11,
+    11
+   ],
+   "when": "Kartik Purnima, usually November",
+   "n": 32,
+   "about": "Hindu and Sikh pilgrims bathe in the sacred tanks."
+  },
+  {
+   "name": "International Gita Mahotsav",
+   "months": [
+    11,
+    12
+   ],
+   "when": "November–December",
+   "n": 1,
+   "about": "Weeks of aarti, crafts and culture around Brahma Sarovar for Gita Jayanti."
+  },
+  {
+   "name": "Pinjore Heritage Festival",
+   "months": [
+    12,
+    12
+   ],
+   "when": "Usually December",
+   "n": 23,
+   "about": "Music and dance in the Mughal gardens."
+  }
+ ]
+}
