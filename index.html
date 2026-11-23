@@ -1919,7 +1919,7 @@ function magHome(){const el=$("#magcov");if(!el)return;const f=()=>{const e2=$("
 /* ======== v63: sourced facts on every place (Wikipedia + Wikidata), honest about what isn't verified ======== */
 const factsOf=slug=>lazyJSON("data/facts/"+slug+".json");
 const HERI=h=>/world heritage/i.test(h)?"UNESCO World Heritage Site":/national importance/i.test(h)?"Monument of National Importance (ASI)":/state protected|protected monument/i.test(h)?"Protected monument":h;
-function trimX(x,n=3){const s=(x||"").replace(/\s*\([^()]*\)/g,"").replace(/\s+/g," ").trim().match(/[^.!?]+[.!?]+(\s|$)/g)||[];return s.slice(0,n).join("").trim()}
+function trimX(x,n=3){let t=(x||"").replace(/\[[^\[\]]*\]/g,"");for(let i=0;i<4;i++)t=t.replace(/\s*\([^()]*\)/g,"");t=t.replace(/\s+([,;.])/g,"$1").replace(/\s+/g," ").trim();const s=t.match(/[^.!?]+[.!?]+(\s|$)/g)||[];return s.slice(0,n).join("").trim()}
 function aboutBlock(){return`<div id="about" class="about" aria-live="polite"></div>`}
 function fillAbout(p){factsOf(p.slug).then(F=>{const el=$("#about");if(!el||S.sel!==p)return;const f=F[String(p.n)];
   if(!f){el.innerHTML=`<p class="unv"><svg aria-hidden="true"><use href="#i-warn"/></svg><span>We haven't matched this place to a public source yet, so treat the details here as unconfirmed. <button class="lnk2" id="rep2">Report a problem</button></span></p>`;const r=$("#rep2");if(r)r.onclick=()=>$("#rep")?.click();return}
