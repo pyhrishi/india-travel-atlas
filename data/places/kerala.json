@@ -1,1 +1,2849 @@
-{"name":"Kerala","intro":"Backwaters and houseboats of Alappuzha and Kumarakom, the tea hills of Munnar, Periyar and Silent Valley, colonial Fort Kochi, Varkala's cliffs and Kovalam, Theyyam and Kathakali, Thrissur Pooram, and the forts and beaches of Malabar.","bases":[["Kochi",9.9312,76.2673],["Thiruvananthapuram",8.5241,76.9366],["Alappuzha",9.4981,76.3388],["Munnar",10.0889,77.0595],["Thekkady",9.6031,77.1615],["Kozhikode",11.2588,75.7804],["Kalpetta",11.6085,76.0828],["Kannur",11.8745,75.3704]],"trails":[{"name":"Classic Kerala","note":"Fort Kochi, Munnar's tea, Periyar and a houseboat night.","ids":[60,61,62,44,45,54,149,31,30]},{"name":"Fort Kochi walk","note":"Churches, nets, a palace and Jew Town.","ids":[64,65,61,62,63,67]},{"name":"Munnar high ranges","note":"Tea, tahr and the rain-shadow side.","ids":[44,49,45,46,47,48,147,52,51]},{"name":"Southern coast","note":"Temples, beaches and the cliffs of Varkala.","ids":[1,4,2,6,3,10,18,17]},{"name":"Thrissur and the arts","note":"Temples, Kathakali school and the ancient port of Muziris.","ids":[78,81,83,84,85,79,80]},{"name":"Wayanad","note":"Caves, peaks, dams and elephant forests.","ids":[112,113,115,114,116,117,118,119]},{"name":"Malabar coast","note":"Theyyam, forts, Vasco's beach and the food of Kozhikode.","ids":[106,104,105,107,136,128,127,131,138,140]},{"name":"Palakkad and the passes","note":"Rainforest, tiger reserves and orange estates.","ids":[91,96,92,90,93,94]}],"places":[{"n":1,"name":"Padmanabhaswamy Temple","district":"Thiruvananthapuram","category":"Temple","g":"temple","lat":8.483,"lng":76.944,"why":"Vishnu reclining on Anantha in a temple of famed treasure (Hindus only, dress code)","tier":"icon","months":[1,12],"time":"1 hr"},{"n":2,"name":"Kovalam","district":"Thiruvananthapuram","category":"Beach","g":"coast","lat":8.4,"lng":76.978,"why":"Crescent beaches below the lighthouse","tier":"top","months":[10,3],"time":"Half day"},{"n":3,"name":"Varkala Cliff","district":"Thiruvananthapuram","category":"Beach","g":"coast","lat":8.735,"lng":76.704,"why":"Red laterite cliffs above a beach, with cafés on top","tier":"icon","months":[10,3],"time":"Overnight"},{"n":4,"name":"Napier Museum & Zoo","district":"Thiruvananthapuram","category":"Museum","g":"culture","lat":8.509,"lng":76.955,"why":"Indo-Saracenic museum, art gallery and zoo","tier":"top","months":[10,4],"time":"1–2 hrs"},{"n":5,"name":"Kuthiramalika Palace","district":"Thiruvananthapuram","category":"Heritage","g":"heritage","lat":8.483,"lng":76.945,"why":"Wooden palace of 122 carved horses","tier":"gem","months":[10,4],"time":"1–2 hrs"},{"n":6,"name":"Poovar","district":"Thiruvananthapuram","category":"Backwater","g":"water","lat":8.32,"lng":77.07,"why":"Estuary where river, sea and golden beach meet","tier":"top","months":[10,3],"time":"Half day"},{"n":7,"name":"Ponmudi","district":"Thiruvananthapuram","category":"Hill station","g":"hills","lat":8.76,"lng":77.12,"why":"Winding hill road to tea and mist","tier":"top","months":[9,5],"time":"Half day"},{"n":8,"name":"Agasthyakoodam","district":"Thiruvananthapuram","category":"Trek","g":"hills","lat":8.6145,"lng":77.2409,"why":"Sacred peak trek, open in a short permit season","tier":"top","months":[1,2],"time":"3 days"},{"n":9,"name":"Neyyar Dam & Lion Safari","district":"Thiruvananthapuram","category":"Lake","g":"water","lat":8.53,"lng":77.15,"why":"Reservoir with a forest safari","tier":"gem","months":[10,3],"time":"Half day"},{"n":10,"name":"Kappil Beach","district":"Thiruvananthapuram","category":"Beach","g":"coast","lat":8.78,"lng":76.68,"why":"Backwater and beach side by side","tier":"gem","months":[10,3],"time":"Half day"},{"n":11,"name":"Sivagiri Mutt","district":"Thiruvananthapuram","category":"Ashram","g":"culture","lat":8.74,"lng":76.72,"why":"Samadhi of the reformer Sree Narayana Guru","tier":"gem","months":[10,4],"time":"1–2 hrs"},{"n":12,"name":"Anjengo Fort","district":"Thiruvananthapuram","category":"Fort","g":"heritage","lat":8.66,"lng":76.76,"why":"English East India Company's early fort","tier":"gem","months":[10,4],"time":"1–2 hrs"},{"n":13,"name":"Vizhinjam Rock Cut Cave","district":"Thiruvananthapuram","category":"Caves","g":"caves","lat":8.38,"lng":76.99,"why":"8th-century cave temple","tier":"gem","months":[10,4],"time":"2 hrs"},{"n":14,"name":"Attukal Bhagavathy Temple","district":"Thiruvananthapuram","category":"Temple","g":"temple","lat":8.47,"lng":76.95,"why":"Temple of the vast women's Pongala","tier":"gem","months":[10,4],"time":"1 hr"},{"n":15,"name":"Chalai Bazaar","district":"Thiruvananthapuram","category":"Market","g":"culture","lat":8.485,"lng":76.948,"why":"Old market street","tier":"gem","months":[10,4],"time":"1–2 hrs"},{"n":16,"name":"Kerala Science & Technology Museum","district":"Thiruvananthapuram","category":"Museum","g":"culture","lat":8.51,"lng":76.95,"why":"Science museum and planetarium","tier":"gem","months":[10,4],"time":"1–2 hrs"},{"n":17,"name":"Ashtamudi Lake","district":"Kollam","category":"Backwater","g":"water","lat":8.98,"lng":76.6,"why":"Eight-armed lake with village canal cruises","tier":"top","months":[10,3],"time":"Half day"},{"n":18,"name":"Munroe Island","district":"Kollam","category":"Backwater","g":"water","lat":9.0,"lng":76.62,"why":"Narrow canals by country boat at dawn","tier":"top","months":[10,3],"time":"Half day"},{"n":19,"name":"Jatayu Earth's Center","district":"Kollam","category":"Monument","g":"culture","lat":8.86,"lng":76.86,"why":"World's largest bird sculpture on a rock","tier":"top","months":[10,4],"time":"1–2 hrs"},{"n":20,"name":"Thangassery Lighthouse","district":"Kollam","category":"Heritage","g":"heritage","lat":8.88,"lng":76.57,"why":"Old Portuguese and Dutch quarter with a lighthouse","tier":"gem","months":[10,4],"time":"1–2 hrs"},{"n":21,"name":"Thenmala","district":"Kollam","category":"Ecotourism","g":"wildlife","lat":8.96,"lng":77.06,"why":"India's first planned ecotourism destination","tier":"gem","months":[10,4],"time":"Half day"},{"n":22,"name":"Palaruvi Falls","district":"Kollam","category":"Waterfall","g":"water","lat":8.96,"lng":77.16,"why":"Tall falls on the Tamil Nadu border","tier":"gem","months":[6,10],"time":"Half day"},{"n":23,"name":"Sasthamkotta Lake","district":"Kollam","category":"Lake","g":"water","lat":9.04,"lng":76.63,"why":"Kerala's largest freshwater lake, a Ramsar site","tier":"gem","months":[10,3],"time":"Half day"},{"n":24,"name":"Amritapuri","district":"Kollam","category":"Ashram","g":"culture","lat":9.1,"lng":76.49,"why":"Mata Amritanandamayi's ashram on a backwater strip","tier":"gem","months":[10,4],"time":"1–2 hrs"},{"n":25,"name":"Gavi","district":"Pathanamthitta","category":"Ecotourism","g":"wildlife","lat":9.44,"lng":77.16,"why":"Forest and lake reached through the Periyar reserve","tier":"top","months":[10,4],"time":"Full day"},{"n":26,"name":"Sabarimala","district":"Pathanamthitta","category":"Temple","g":"temple","lat":9.435,"lng":77.08,"why":"Forest hill shrine of Ayyappa, visited by millions","tier":"icon","months":[11,1],"time":"Full day"},{"n":27,"name":"Aranmula","district":"Pathanamthitta","category":"Temple","g":"culture","lat":9.33,"lng":76.69,"why":"Snake-boat races and the famous metal mirrors","tier":"top","months":[10,4],"time":"1–2 hrs"},{"n":28,"name":"Konni Elephant Camp","district":"Pathanamthitta","category":"Wildlife","g":"wildlife","lat":9.23,"lng":76.85,"why":"Elephant training camp and cage","tier":"gem","months":[10,4],"time":"Half day"},{"n":29,"name":"Perunthenaruvi Falls","district":"Pathanamthitta","category":"Waterfall","g":"water","lat":9.37,"lng":76.89,"why":"Falls on the Pamba","tier":"gem","months":[6,10],"time":"Half day"},{"n":30,"name":"Alappuzha Backwaters","district":"Alappuzha","category":"Backwater","g":"water","lat":9.498,"lng":76.338,"why":"Houseboats on the canals and paddy fields of Kuttanad","tier":"icon","months":[10,3],"time":"Overnight houseboat"},{"n":31,"name":"Kumarakom","district":"Kottayam","category":"Backwater","g":"water","lat":9.617,"lng":76.43,"why":"Vembanad lakeside resorts and bird sanctuary","tier":"icon","months":[10,3],"time":"Half day"},{"n":32,"name":"Marari Beach","district":"Alappuzha","category":"Beach","g":"coast","lat":9.6,"lng":76.3,"why":"Fishing-village beach with quiet resorts","tier":"top","months":[10,3],"time":"Half day"},{"n":33,"name":"Alappuzha Beach & Pier","district":"Alappuzha","category":"Beach","g":"coast","lat":9.493,"lng":76.317,"why":"Old pier and lighthouse","tier":"gem","months":[10,3],"time":"Half day"},{"n":34,"name":"Kuttanad","district":"Alappuzha","category":"Backwater","g":"water","lat":9.4,"lng":76.42,"why":"Farming below sea level on reclaimed paddies","tier":"top","months":[10,3],"time":"Half day"},{"n":35,"name":"Ambalappuzha Sri Krishna Temple","district":"Alappuzha","category":"Temple","g":"temple","lat":9.38,"lng":76.36,"why":"Temple famed for its milk payasam","tier":"gem","months":[10,4],"time":"1 hr"},{"n":36,"name":"Krishnapuram Palace","district":"Alappuzha","category":"Heritage","g":"heritage","lat":9.15,"lng":76.51,"why":"Palace with Kerala's largest mural","tier":"gem","months":[10,4],"time":"1–2 hrs"},{"n":37,"name":"Chettikulangara Temple","district":"Alappuzha","category":"Temple","g":"temple","lat":9.22,"lng":76.54,"why":"Temple of the Kettukazhcha festival","tier":"gem","months":[10,4],"time":"1 hr"},{"n":38,"name":"Pathiramanal Island","district":"Alappuzha","category":"Island","g":"wildlife","lat":9.62,"lng":76.39,"why":"Bird island in Vembanad Lake","tier":"gem","months":[10,4],"time":"Half day"},{"n":39,"name":"Kottayam & Thirunakkara","district":"Kottayam","category":"Temple","g":"temple","lat":9.59,"lng":76.52,"why":"Town of letters, lakes and old churches","tier":"gem","months":[10,4],"time":"1 hr"},{"n":40,"name":"Ettumanoor Mahadeva Temple","district":"Kottayam","category":"Temple","g":"temple","lat":9.67,"lng":76.56,"why":"Temple with fine murals","tier":"gem","months":[10,4],"time":"1 hr"},{"n":41,"name":"Vaikom Mahadeva Temple","district":"Kottayam","category":"Temple","g":"temple","lat":9.75,"lng":76.39,"why":"Temple of the 1924 Vaikom satyagraha","tier":"gem","months":[10,4],"time":"1 hr"},{"n":42,"name":"Ilaveezhapoonchira","district":"Kottayam","category":"Hill","g":"hills","lat":9.8,"lng":76.79,"why":"Hilltop meadow with sweeping views","tier":"gem","months":[9,5],"time":"Half day"},{"n":43,"name":"Vagamon","district":"Idukki","category":"Hill station","g":"hills","lat":9.686,"lng":76.905,"why":"Meadows, pines and paragliding","tier":"top","months":[9,5],"time":"Half day"},{"n":44,"name":"Munnar","district":"Idukki","category":"Hill station","g":"hills","lat":10.089,"lng":77.06,"why":"Rolling tea estates of the high ranges","tier":"icon","months":[9,5],"time":"2 days"},{"n":45,"name":"Eravikulam National Park","district":"Idukki","category":"National park","g":"wildlife","lat":10.2,"lng":77.07,"why":"Nilgiri tahr on grassy slopes below Anamudi","tier":"icon","months":[4,1],"time":"Half day"},{"n":46,"name":"Mattupetty Dam","district":"Idukki","category":"Lake","g":"water","lat":10.11,"lng":77.12,"why":"Lake with boating and an Indo-Swiss dairy farm","tier":"gem","months":[10,3],"time":"Half day"},{"n":47,"name":"Top Station","district":"Idukki","category":"Viewpoint","g":"hills","lat":10.13,"lng":77.25,"why":"View over the Tamil Nadu plains","tier":"top","months":[9,5],"time":"Half day"},{"n":48,"name":"Kolukkumalai","district":"Idukki","category":"Tea estate","g":"hills","lat":10.07,"lng":77.23,"why":"One of the world's highest tea estates, sunrise by jeep","tier":"top","months":[9,5],"time":"Half day"},{"n":49,"name":"Tata Tea Museum","district":"Idukki","category":"Museum","g":"culture","lat":10.09,"lng":77.06,"why":"Story of Munnar's tea","tier":"gem","months":[10,4],"time":"1–2 hrs"},{"n":50,"name":"Attukad Falls","district":"Idukki","category":"Waterfall","g":"water","lat":10.07,"lng":77.03,"why":"Falls in the tea hills","tier":"gem","months":[6,10],"time":"Half day"},{"n":51,"name":"Chinnar Wildlife Sanctuary","district":"Idukki","category":"Wildlife","g":"wildlife","lat":10.3407,"lng":77.1891,"why":"Rain-shadow forest of grizzled giant squirrels","tier":"top","months":[10,4],"time":"Half day"},{"n":52,"name":"Marayoor","district":"Idukki","category":"Village","g":"heritage","lat":10.27,"lng":77.16,"why":"Sandalwood forests and dolmens","tier":"gem","months":[10,4],"time":"1–2 hrs"},{"n":53,"name":"Kanthalloor","district":"Idukki","category":"Village","g":"hills","lat":10.22,"lng":77.21,"why":"Fruit orchards in the high ranges","tier":"gem","months":[9,5],"time":"Half day"},{"n":54,"name":"Thekkady & Periyar Tiger Reserve","district":"Idukki","category":"National park","g":"wildlife","lat":9.6,"lng":77.17,"why":"Boat safaris on the Periyar lake","tier":"icon","months":[10,4],"time":"Overnight"},{"n":55,"name":"Ramakkalmedu","district":"Idukki","category":"Viewpoint","g":"hills","lat":9.81,"lng":77.24,"why":"Windy hilltop with Kuravan Kurathi statue","tier":"gem","months":[9,5],"time":"Half day"},{"n":56,"name":"Idukki Arch Dam","district":"Idukki","category":"Engineering","g":"water","lat":9.84,"lng":76.97,"why":"Asia's first arch dam between two hills","tier":"top","months":[10,3],"time":"Half day"},{"n":57,"name":"Kalvari Mount","district":"Idukki","category":"Viewpoint","g":"hills","lat":9.8,"lng":77.0,"why":"View over the Idukki reservoir","tier":"gem","months":[9,5],"time":"Half day"},{"n":58,"name":"Anakulam","district":"Idukki","category":"Village","g":"wildlife","lat":10.19,"lng":76.86,"why":"Wild elephants come to drink at the river","tier":"gem","months":[10,4],"time":"Half day"},{"n":59,"name":"Panchalimedu","district":"Idukki","category":"Hill","g":"hills","lat":9.51,"lng":77.05,"why":"Hill of Pandava legends","tier":"gem","months":[9,5],"time":"Half day"},{"n":60,"name":"Kochi Fort Kochi","district":"Ernakulam","category":"Heritage","g":"heritage","lat":9.965,"lng":76.242,"why":"Colonial town of churches, warehouses and art","tier":"icon","months":[10,4],"time":"Full day"},{"n":61,"name":"Chinese Fishing Nets","district":"Ernakulam","category":"Heritage","g":"culture","lat":9.968,"lng":76.242,"why":"Cantilevered nets on the Fort Kochi shore","tier":"icon","months":[10,4],"time":"1–2 hrs"},{"n":62,"name":"Mattancherry Palace","district":"Ernakulam","category":"Heritage","g":"heritage","lat":9.958,"lng":76.259,"why":"Dutch Palace with Ramayana murals","tier":"top","months":[10,4],"time":"1–2 hrs"},{"n":63,"name":"Paradesi Synagogue & Jew Town","district":"Ernakulam","category":"Heritage","g":"heritage","lat":9.957,"lng":76.26,"why":"1568 synagogue and antique lanes","tier":"top","months":[10,4],"time":"1–2 hrs"},{"n":64,"name":"St Francis Church","district":"Ernakulam","category":"Heritage","g":"heritage","lat":9.965,"lng":76.241,"why":"Where Vasco da Gama was first buried","tier":"top","months":[10,4],"time":"1–2 hrs"},{"n":65,"name":"Santa Cruz Basilica","district":"Ernakulam","category":"Heritage","g":"heritage","lat":9.964,"lng":76.243,"why":"Painted Gothic cathedral","tier":"gem","months":[10,4],"time":"1–2 hrs"},{"n":66,"name":"Kochi-Muziris Biennale","district":"Ernakulam","category":"Culture","g":"culture","lat":9.964,"lng":76.243,"why":"India's biggest contemporary art show","tier":"top","months":[12,3],"time":"1–2 days"},{"n":67,"name":"Kerala Folklore Museum","district":"Ernakulam","category":"Museum","g":"culture","lat":9.945,"lng":76.3,"why":"Three floors of folk art in a wooden building","tier":"top","months":[10,4],"time":"1–2 hrs"},{"n":68,"name":"Hill Palace, Tripunithura","district":"Ernakulam","category":"Museum","g":"culture","lat":9.95,"lng":76.36,"why":"Kerala's largest archaeological museum","tier":"gem","months":[10,4],"time":"1–2 hrs"},{"n":69,"name":"Cherai Beach","district":"Ernakulam","category":"Beach","g":"coast","lat":10.14,"lng":76.18,"why":"Beach backed by backwaters","tier":"gem","months":[10,3],"time":"Half day"},{"n":70,"name":"Bolgatty Palace","district":"Ernakulam","category":"Heritage","g":"heritage","lat":9.99,"lng":76.26,"why":"Dutch palace on an island","tier":"gem","months":[10,4],"time":"1–2 hrs"},{"n":71,"name":"Kodanad Elephant Camp","district":"Ernakulam","category":"Wildlife","g":"wildlife","lat":10.17,"lng":76.52,"why":"Elephant camp on the Periyar","tier":"gem","months":[10,4],"time":"Half day"},{"n":72,"name":"Thattekad Bird Sanctuary","district":"Ernakulam","category":"Wildlife","g":"wildlife","lat":10.12,"lng":76.69,"why":"Salim Ali's favourite birding forest","tier":"top","months":[10,4],"time":"Half day"},{"n":73,"name":"Bhoothathankettu","district":"Ernakulam","category":"Lake","g":"water","lat":10.13,"lng":76.66,"why":"Legendary dam and forest lake","tier":"gem","months":[10,3],"time":"Half day"},{"n":74,"name":"Kalady","district":"Ernakulam","category":"Temple","g":"temple","lat":10.17,"lng":76.44,"why":"Birthplace of Adi Shankaracharya","tier":"gem","months":[10,4],"time":"1 hr"},{"n":75,"name":"Malayattoor Church","district":"Ernakulam","category":"Church","g":"heritage","lat":10.19,"lng":76.51,"why":"Hilltop shrine linked to St Thomas","tier":"gem","months":[10,4],"time":"1–2 hrs"},{"n":76,"name":"Kochi Marine Drive","district":"Ernakulam","category":"Promenade","g":"water","lat":9.98,"lng":76.28,"why":"Waterfront walk at sunset","tier":"gem","months":[10,3],"time":"Half day"},{"n":77,"name":"Kumbalangi","district":"Ernakulam","category":"Village","g":"water","lat":9.87,"lng":76.29,"why":"Model tourism village of nets and crabs","tier":"gem","months":[10,3],"time":"Half day"},{"n":78,"name":"Thrissur Vadakkunnathan Temple","district":"Thrissur","category":"Temple","g":"temple","lat":10.524,"lng":76.214,"why":"Ancient temple at the heart of Thrissur Pooram","tier":"icon","months":[1,12],"time":"1 hr"},{"n":79,"name":"Athirappilly Falls","district":"Thrissur","category":"Waterfall","g":"water","lat":10.285,"lng":76.57,"why":"Kerala's largest waterfall, the 'Niagara of India'","tier":"icon","months":[6,1],"time":"Half day"},{"n":80,"name":"Vazhachal Falls","district":"Thrissur","category":"Waterfall","g":"water","lat":10.3,"lng":76.6,"why":"Falls in the forest above Athirappilly","tier":"top","months":[6,10],"time":"Half day"},{"n":81,"name":"Guruvayur Temple","district":"Thrissur","category":"Temple","g":"temple","lat":10.595,"lng":76.04,"why":"Major Krishna temple (Hindus only)","tier":"icon","months":[1,12],"time":"1 hr"},{"n":82,"name":"Punnathur Kotta Elephant Sanctuary","district":"Thrissur","category":"Wildlife","g":"wildlife","lat":10.6,"lng":76.05,"why":"Guruvayur temple's elephant yard","tier":"gem","months":[10,4],"time":"Half day"},{"n":83,"name":"Kerala Kalamandalam","district":"Thrissur","category":"Culture","g":"culture","lat":10.74,"lng":76.27,"why":"Great school of Kathakali and Kerala arts at Cheruthuruthy","tier":"top","months":[10,4],"time":"Half day"},{"n":84,"name":"Cheraman Juma Masjid","district":"Thrissur","category":"Heritage","g":"heritage","lat":10.22,"lng":76.2,"why":"Said to be India's oldest mosque","tier":"top","months":[10,4],"time":"1–2 hrs"},{"n":85,"name":"Muziris Heritage Project","district":"Thrissur","category":"Heritage","g":"heritage","lat":10.16,"lng":76.21,"why":"Museums of the ancient port at Kodungallur","tier":"top","months":[10,4],"time":"1–2 hrs"},{"n":86,"name":"Kodungallur Bhagavathy Temple","district":"Thrissur","category":"Temple","g":"temple","lat":10.23,"lng":76.2,"why":"Temple of the Bharani festival","tier":"gem","months":[10,4],"time":"1 hr"},{"n":87,"name":"Thrissur Archaeological Museum","district":"Thrissur","category":"Museum","g":"culture","lat":10.53,"lng":76.22,"why":"Museum in Kollengode palace","tier":"gem","months":[10,4],"time":"1–2 hrs"},{"n":88,"name":"Peechi Dam","district":"Thrissur","category":"Lake","g":"water","lat":10.53,"lng":76.37,"why":"Forest reservoir","tier":"gem","months":[10,3],"time":"Half day"},{"n":89,"name":"Chavakkad Beach","district":"Thrissur","category":"Beach","g":"coast","lat":10.54,"lng":76.0,"why":"Quiet beach near Guruvayur","tier":"gem","months":[10,3],"time":"Half day"},{"n":90,"name":"Silent Valley National Park","district":"Palakkad","category":"National park","g":"wildlife","lat":11.08,"lng":76.44,"why":"Pristine rainforest saved by a people's movement","tier":"top","months":[10,4],"time":"Full day"},{"n":91,"name":"Palakkad Fort","district":"Palakkad","category":"Fort","g":"heritage","lat":10.765,"lng":76.655,"why":"Tipu's granite fort","tier":"gem","months":[10,4],"time":"1–2 hrs"},{"n":92,"name":"Malampuzha Dam & Gardens","district":"Palakkad","category":"Garden","g":"water","lat":10.83,"lng":76.68,"why":"Dam gardens with ropeway","tier":"gem","months":[10,3],"time":"Half day"},{"n":93,"name":"Nelliyampathy","district":"Palakkad","category":"Hill station","g":"hills","lat":10.53,"lng":76.69,"why":"Orange and coffee estates on hairpin roads","tier":"top","months":[9,5],"time":"Half day"},{"n":94,"name":"Parambikulam Tiger Reserve","district":"Palakkad","category":"Wildlife","g":"wildlife","lat":10.4,"lng":76.76,"why":"Forest of teak giants and tigers","tier":"top","months":[10,4],"time":"Overnight"},{"n":95,"name":"Kollengode","district":"Palakkad","category":"Village","g":"hills","lat":10.61,"lng":76.69,"why":"Paddy fields below the hills","tier":"gem","months":[9,5],"time":"Half day"},{"n":96,"name":"Kalpathy Heritage Village","district":"Palakkad","category":"Heritage","g":"culture","lat":10.79,"lng":76.64,"why":"Tamil Brahmin agraharam with a chariot festival","tier":"gem","months":[10,4],"time":"1–2 hrs"},{"n":97,"name":"Dhoni Falls","district":"Palakkad","category":"Waterfall","g":"water","lat":10.82,"lng":76.61,"why":"Forest trek to falls","tier":"gem","months":[6,10],"time":"Half day"},{"n":98,"name":"Seethargundu Viewpoint","district":"Palakkad","category":"Viewpoint","g":"hills","lat":10.54,"lng":76.7,"why":"Nelliyampathy view","tier":"gem","months":[9,5],"time":"Half day"},{"n":99,"name":"Kottakkal Arya Vaidya Sala","district":"Malappuram","category":"Ayurveda","g":"culture","lat":10.99,"lng":76.0,"why":"Famous Ayurveda centre","tier":"gem","months":[10,4],"time":"1–2 hrs"},{"n":100,"name":"Nilambur Teak Museum","district":"Malappuram","category":"Museum","g":"culture","lat":11.28,"lng":76.23,"why":"World's first teak museum and oldest plantation","tier":"top","months":[10,4],"time":"1–2 hrs"},{"n":101,"name":"Kadalundi Bird Sanctuary","district":"Malappuram","category":"Wetland","g":"wildlife","lat":11.13,"lng":75.83,"why":"Estuary for migratory birds","tier":"gem","months":[10,4],"time":"Half day"},{"n":102,"name":"Thirunavaya","district":"Malappuram","category":"Temple","g":"temple","lat":10.87,"lng":75.98,"why":"Riverside site of the old Mamankam festival","tier":"gem","months":[10,4],"time":"1 hr"},{"n":103,"name":"Ponnani","district":"Malappuram","category":"Town","g":"heritage","lat":10.77,"lng":75.92,"why":"Old Islamic port with a 16th-century mosque","tier":"gem","months":[10,4],"time":"1–2 hrs"},{"n":104,"name":"Kozhikode Beach","district":"Kozhikode","category":"Beach","g":"coast","lat":11.26,"lng":75.77,"why":"Sunset beach and food lanes","tier":"top","months":[10,3],"time":"Half day"},{"n":105,"name":"SM Street","district":"Kozhikode","category":"Market","g":"culture","lat":11.25,"lng":75.78,"why":"Sweetmeat Street of halwa and banana chips","tier":"top","months":[10,4],"time":"1–2 hrs"},{"n":106,"name":"Kappad Beach","district":"Kozhikode","category":"Beach","g":"coast","lat":11.38,"lng":75.72,"why":"Where Vasco da Gama landed in 1498","tier":"top","months":[10,3],"time":"Half day"},{"n":107,"name":"Beypore","district":"Kozhikode","category":"Heritage","g":"culture","lat":11.17,"lng":75.81,"why":"Port where wooden uru ships are still built","tier":"top","months":[10,4],"time":"1–2 hrs"},{"n":108,"name":"Mishkal Mosque","district":"Kozhikode","category":"Heritage","g":"heritage","lat":11.24,"lng":75.78,"why":"14th-century wooden mosque","tier":"gem","months":[10,4],"time":"1–2 hrs"},{"n":109,"name":"Thusharagiri Falls","district":"Kozhikode","category":"Waterfall","g":"water","lat":11.47,"lng":76.05,"why":"Forest falls and trekking","tier":"gem","months":[6,10],"time":"Half day"},{"n":110,"name":"Kakkayam","district":"Kozhikode","category":"Wildlife","g":"wildlife","lat":11.55,"lng":75.92,"why":"Dam and forest in the Malabar sanctuary","tier":"gem","months":[10,4],"time":"Half day"},{"n":111,"name":"Kozhikode Halwa & Biryani","district":"Kozhikode","category":"Food","g":"culture","lat":11.255,"lng":75.78,"why":"Malabar food capital","tier":"gem","months":[10,4],"time":"1–2 hrs"},{"n":112,"name":"Wayanad Edakkal Caves","district":"Wayanad","category":"Caves","g":"caves","lat":11.625,"lng":76.235,"why":"Neolithic carvings in a rock shelter","tier":"icon","months":[10,4],"time":"2 hrs"},{"n":113,"name":"Chembra Peak","district":"Wayanad","category":"Trek","g":"hills","lat":11.51,"lng":76.09,"why":"Trek to a heart-shaped lake","tier":"top","months":[9,5],"time":"Half day"},{"n":114,"name":"Banasura Sagar Dam","district":"Wayanad","category":"Lake","g":"water","lat":11.67,"lng":75.95,"why":"India's largest earth dam with islands","tier":"top","months":[10,3],"time":"Half day"},{"n":115,"name":"Pookode Lake","district":"Wayanad","category":"Lake","g":"water","lat":11.54,"lng":76.03,"why":"Forest lake for boating","tier":"gem","months":[10,3],"time":"Half day"},{"n":116,"name":"Soochipara Falls","district":"Wayanad","category":"Waterfall","g":"water","lat":11.51,"lng":76.16,"why":"Three-tier falls","tier":"top","months":[6,10],"time":"Half day"},{"n":117,"name":"Kuruva Island","district":"Wayanad","category":"Island","g":"wildlife","lat":11.82,"lng":76.09,"why":"River islands on the Kabini","tier":"top","months":[10,4],"time":"Half day"},{"n":118,"name":"Thirunelli Temple","district":"Wayanad","category":"Temple","g":"temple","lat":11.91,"lng":75.99,"why":"Forest temple of ancestral rites","tier":"top","months":[10,4],"time":"1 hr"},{"n":119,"name":"Muthanga Wildlife Sanctuary","district":"Wayanad","category":"Wildlife","g":"wildlife","lat":11.67,"lng":76.4,"why":"Elephant forests by jeep","tier":"top","months":[10,4],"time":"Half day"},{"n":120,"name":"Tholpetty Wildlife Sanctuary","district":"Wayanad","category":"Wildlife","g":"wildlife","lat":11.94,"lng":76.08,"why":"Forest safaris near the Karnataka border","tier":"gem","months":[10,4],"time":"Half day"},{"n":121,"name":"Phantom Rock","district":"Wayanad","category":"Hill","g":"hills","lat":11.63,"lng":76.23,"why":"Skull-shaped rock","tier":"gem","months":[9,5],"time":"Half day"},{"n":122,"name":"Meenmutty Falls","district":"Wayanad","category":"Waterfall","g":"water","lat":11.67,"lng":75.94,"why":"Forest falls near Banasura","tier":"gem","months":[6,10],"time":"Half day"},{"n":123,"name":"Neelimala Viewpoint","district":"Wayanad","category":"Viewpoint","g":"hills","lat":11.58,"lng":76.2,"why":"View over Meenmutty","tier":"gem","months":[9,5],"time":"Half day"},{"n":124,"name":"900 Kandi","district":"Wayanad","category":"Adventure","g":"hills","lat":11.5,"lng":76.12,"why":"Forest glass bridge and trails","tier":"gem","months":[9,5],"time":"Half day"},{"n":125,"name":"Jain Temple, Sulthan Bathery","district":"Wayanad","category":"Temple","g":"temple","lat":11.66,"lng":76.26,"why":"13th-century granite Jain temple","tier":"gem","months":[10,4],"time":"1 hr"},{"n":126,"name":"Kannur Theyyam","district":"Kannur","category":"Culture","g":"culture","lat":11.87,"lng":75.37,"why":"Ritual possession dance in village shrines (Nov–May)","tier":"icon","months":[11,5],"time":"Night"},{"n":127,"name":"St Angelo Fort","district":"Kannur","category":"Fort","g":"heritage","lat":11.855,"lng":75.37,"why":"Portuguese fort on the sea","tier":"top","months":[10,4],"time":"1–2 hrs"},{"n":128,"name":"Muzhappilangad Drive-in Beach","district":"Kannur","category":"Beach","g":"coast","lat":11.8,"lng":75.45,"why":"Kerala's longest drive-in beach","tier":"top","months":[10,3],"time":"Half day"},{"n":129,"name":"Payyambalam Beach","district":"Kannur","category":"Beach","g":"coast","lat":11.88,"lng":75.36,"why":"City beach of Kannur","tier":"gem","months":[10,3],"time":"Half day"},{"n":130,"name":"Arakkal Museum","district":"Kannur","category":"Museum","g":"culture","lat":11.86,"lng":75.38,"why":"Palace of Kerala's only Muslim royal family","tier":"gem","months":[10,4],"time":"1–2 hrs"},{"n":131,"name":"Parassinikadavu Muthappan Temple","district":"Kannur","category":"Temple","g":"temple","lat":11.98,"lng":75.4,"why":"Temple with daily Theyyam","tier":"top","months":[1,12],"time":"1 hr"},{"n":132,"name":"Dharmadam Island","district":"Kannur","category":"Island","g":"coast","lat":11.77,"lng":75.46,"why":"Island walkable at low tide","tier":"gem","months":[10,3],"time":"Half day"},{"n":133,"name":"Kottiyoor Temple","district":"Kannur","category":"Temple","g":"temple","lat":11.88,"lng":75.86,"why":"Forest temple open only during a monsoon festival","tier":"gem","months":[5,6],"time":"1 hr"},{"n":134,"name":"Paithalmala","district":"Kannur","category":"Hill","g":"hills","lat":12.1,"lng":75.6,"why":"Highest point of Kannur","tier":"gem","months":[9,5],"time":"Half day"},{"n":135,"name":"Aralam Wildlife Sanctuary","district":"Kannur","category":"Wildlife","g":"wildlife","lat":11.95,"lng":75.86,"why":"Butterfly migration forest","tier":"gem","months":[10,4],"time":"Half day"},{"n":136,"name":"Thalassery","district":"Kannur","category":"Town","g":"heritage","lat":11.75,"lng":75.49,"why":"Cricket, cakes, circus and biryani town","tier":"gem","months":[10,4],"time":"1–2 hrs"},{"n":137,"name":"Gundert Bungalow","district":"Kannur","category":"Heritage","g":"heritage","lat":11.77,"lng":75.47,"why":"Home of the German scholar of Malayalam","tier":"gem","months":[10,4],"time":"1–2 hrs"},{"n":138,"name":"Bekal Fort","district":"Kasaragod","category":"Fort","g":"heritage","lat":12.392,"lng":75.033,"why":"Keyhole-shaped fort on the sea","tier":"icon","months":[10,4],"time":"1–2 hrs"},{"n":139,"name":"Ranipuram","district":"Kasaragod","category":"Hill station","g":"hills","lat":12.41,"lng":75.36,"why":"Grassland hill trek","tier":"top","months":[9,5],"time":"Half day"},{"n":140,"name":"Valiyaparamba Backwaters","district":"Kasaragod","category":"Backwater","g":"water","lat":12.2,"lng":75.14,"why":"Quiet northern backwaters","tier":"top","months":[10,3],"time":"Half day"},{"n":141,"name":"Ananthapura Lake Temple","district":"Kasaragod","category":"Temple","g":"temple","lat":12.58,"lng":74.98,"why":"Lake temple with a guardian crocodile","tier":"top","months":[10,4],"time":"1 hr"},{"n":142,"name":"Chandragiri Fort","district":"Kasaragod","category":"Fort","g":"heritage","lat":12.47,"lng":75.01,"why":"Riverside fort at sunset","tier":"gem","months":[10,4],"time":"1–2 hrs"},{"n":143,"name":"Malik Dinar Mosque","district":"Kasaragod","category":"Heritage","g":"heritage","lat":12.5,"lng":74.99,"why":"One of India's oldest mosques","tier":"gem","months":[10,4],"time":"1–2 hrs"},{"n":144,"name":"Kottancherry Hills","district":"Kasaragod","category":"Hill","g":"hills","lat":12.2845,"lng":75.45,"why":"Forested hills near Konnakkad","tier":"gem","months":[9,5],"time":"Half day"},{"n":145,"name":"Shanghumugham Beach","district":"Thiruvananthapuram","category":"Beach","g":"coast","lat":8.48,"lng":76.91,"why":"City beach with the giant Jalakanyaka mermaid sculpture","tier":"gem","months":[10,3],"time":"Half day"},{"n":146,"name":"Meesapulimala","district":"Idukki","category":"Trek","g":"hills","lat":10.03,"lng":77.17,"why":"Kerala's second-highest peak on a guided trek","tier":"top","months":[9,5],"time":"Full day"},{"n":147,"name":"Vattavada","district":"Idukki","category":"Village","g":"hills","lat":10.18,"lng":77.25,"why":"Terraced vegetable village at the top of Munnar","tier":"gem","months":[9,5],"time":"Half day"},{"n":148,"name":"Thommankuthu Falls","district":"Idukki","category":"Waterfall","g":"water","lat":9.96,"lng":76.81,"why":"Seven-step forest falls","tier":"gem","months":[6,10],"time":"Half day"},{"n":149,"name":"Kumily Spice Plantations","district":"Idukki","category":"Spice farm","g":"culture","lat":9.61,"lng":77.16,"why":"Cardamom and pepper farm walks by Thekkady","tier":"top","months":[10,4],"time":"1–2 hrs"},{"n":150,"name":"Kakkadampoyil","district":"Kozhikode","category":"Hill station","g":"hills","lat":11.32,"lng":76.11,"why":"Cool hill hamlet with waterfalls","tier":"gem","months":[9,5],"time":"Half day"},{"n":151,"name":"Kumbhavurutty Falls","district":"Kollam","category":"Waterfall","g":"water","lat":9.1,"lng":77.16,"why":"Forest falls near Achankovil","tier":"gem","months":[6,10],"time":"Half day"},{"n":152,"name":"Pazhassi Tomb","district":"Wayanad","category":"Memorial","g":"heritage","lat":11.8,"lng":76.0,"why":"Tomb of the rebel king Pazhassi Raja at Mananthavady","tier":"gem","months":[10,4],"time":"1–2 hrs"},{"n":153,"name":"Ezhimala","district":"Kannur","category":"Hill","g":"hills","lat":12.03,"lng":75.2,"why":"Lone coastal hill and beach near the naval academy","tier":"gem","months":[9,5],"time":"Half day"},{"n":154,"name":"Possadi Gumpe","district":"Kasaragod","category":"Hill","g":"hills","lat":12.67,"lng":75.05,"why":"Hilltop with sea and Western Ghats views","tier":"gem","months":[9,5],"time":"Half day"}],"festivals":[{"name":"Attukal Pongala","months":[2,3],"when":"February or March","n":14,"about":"Millions of women cook pongala on the streets of Thiruvananthapuram."},{"name":"Thrissur Pooram","months":[4,5],"when":"April or May","n":78,"about":"Caparisoned elephants, parasol swaps and percussion around Vadakkunnathan."},{"name":"Nehru Trophy Boat Race","months":[8,8],"when":"Second Saturday of August","n":30,"about":"Snake boats race on Punnamada Lake."},{"name":"Onam","months":[8,9],"when":"August or September","n":null,"about":"Kerala's harvest festival of pookalams, sadya feasts and boat races."},{"name":"Aranmula Uthrattathi Boat Race","months":[8,9],"when":"During Onam","n":27,"about":"Snake boats glide on the Pamba in a ritual procession."},{"name":"Theyyam season","months":[11,5],"when":"November to May","n":126,"about":"Night-long ritual performances in village shrines of north Malabar."},{"name":"Kochi-Muziris Biennale","months":[12,3],"when":"December to March, every two years","n":66,"about":"Contemporary art across Fort Kochi's warehouses."},{"name":"Makaravilakku","months":[1,1],"when":"Mid-January","n":26,"about":"Climax of the Sabarimala pilgrimage season."},{"name":"Maramon Convention","months":[2,2],"when":"February","n":null,"about":"One of Asia's largest Christian gatherings, on the Pamba riverbed."},{"name":"Kalpathy Ratholsavam","months":[11,11],"when":"November","n":96,"about":"Temple chariot festival in a Tamil agraharam."},{"name":"Chettikulangara Bharani","months":[2,3],"when":"February or March","n":37,"about":"Giant decorated chariots (Kettukazhcha) are pulled to the temple."}]}
+{
+ "name": "Kerala",
+ "intro": "Backwaters and houseboats of Alappuzha and Kumarakom, the tea hills of Munnar, Periyar and Silent Valley, colonial Fort Kochi, Varkala's cliffs and Kovalam, Theyyam and Kathakali, Thrissur Pooram, and the forts and beaches of Malabar.",
+ "bases": [
+  [
+   "Kochi",
+   9.9312,
+   76.2673
+  ],
+  [
+   "Thiruvananthapuram",
+   8.5241,
+   76.9366
+  ],
+  [
+   "Alappuzha",
+   9.4981,
+   76.3388
+  ],
+  [
+   "Munnar",
+   10.0889,
+   77.0595
+  ],
+  [
+   "Thekkady",
+   9.6031,
+   77.1615
+  ],
+  [
+   "Kozhikode",
+   11.2588,
+   75.7804
+  ],
+  [
+   "Kalpetta",
+   11.6085,
+   76.0828
+  ],
+  [
+   "Kannur",
+   11.8745,
+   75.3704
+  ]
+ ],
+ "trails": [
+  {
+   "name": "Classic Kerala",
+   "note": "Fort Kochi, Munnar's tea, Periyar and a houseboat night.",
+   "ids": [
+    60,
+    61,
+    62,
+    44,
+    45,
+    54,
+    149,
+    31,
+    30
+   ]
+  },
+  {
+   "name": "Fort Kochi walk",
+   "note": "Churches, nets, a palace and Jew Town.",
+   "ids": [
+    64,
+    65,
+    61,
+    62,
+    63,
+    67
+   ]
+  },
+  {
+   "name": "Munnar high ranges",
+   "note": "Tea, tahr and the rain-shadow side.",
+   "ids": [
+    44,
+    49,
+    45,
+    46,
+    47,
+    48,
+    147,
+    52,
+    51
+   ]
+  },
+  {
+   "name": "Southern coast",
+   "note": "Temples, beaches and the cliffs of Varkala.",
+   "ids": [
+    1,
+    4,
+    2,
+    6,
+    3,
+    10,
+    18,
+    17
+   ]
+  },
+  {
+   "name": "Thrissur and the arts",
+   "note": "Temples, Kathakali school and the ancient port of Muziris.",
+   "ids": [
+    78,
+    81,
+    83,
+    84,
+    85,
+    79,
+    80
+   ]
+  },
+  {
+   "name": "Wayanad",
+   "note": "Caves, peaks, dams and elephant forests.",
+   "ids": [
+    112,
+    113,
+    115,
+    114,
+    116,
+    117,
+    118,
+    119
+   ]
+  },
+  {
+   "name": "Malabar coast",
+   "note": "Theyyam, forts, Vasco's beach and the food of Kozhikode.",
+   "ids": [
+    106,
+    104,
+    105,
+    107,
+    136,
+    128,
+    127,
+    131,
+    138,
+    140
+   ]
+  },
+  {
+   "name": "Palakkad and the passes",
+   "note": "Rainforest, tiger reserves and orange estates.",
+   "ids": [
+    91,
+    96,
+    92,
+    90,
+    93,
+    94
+   ]
+  }
+ ],
+ "places": [
+  {
+   "n": 1,
+   "name": "Padmanabhaswamy Temple",
+   "district": "Thiruvananthapuram",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 8.483,
+   "lng": 76.944,
+   "why": "Vishnu reclining on Anantha in a temple of famed treasure (Hindus only, dress code)",
+   "tier": "icon",
+   "months": [
+    1,
+    12
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 2,
+   "name": "Kovalam",
+   "district": "Thiruvananthapuram",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 8.4,
+   "lng": 76.978,
+   "why": "Crescent beaches below the lighthouse",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 3,
+   "name": "Varkala Cliff",
+   "district": "Thiruvananthapuram",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 8.735,
+   "lng": 76.704,
+   "why": "Red laterite cliffs above a beach, with cafés on top",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Overnight"
+  },
+  {
+   "n": 4,
+   "name": "Napier Museum & Zoo",
+   "district": "Thiruvananthapuram",
+   "category": "Museum",
+   "g": "culture",
+   "lat": 8.509,
+   "lng": 76.955,
+   "why": "Indo-Saracenic museum, art gallery and zoo",
+   "tier": "top",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 5,
+   "name": "Kuthiramalika Palace",
+   "district": "Thiruvananthapuram",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 8.483,
+   "lng": 76.945,
+   "why": "Wooden palace of 122 carved horses",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 6,
+   "name": "Poovar",
+   "district": "Thiruvananthapuram",
+   "category": "Backwater",
+   "g": "water",
+   "lat": 8.32,
+   "lng": 77.07,
+   "why": "Estuary where river, sea and golden beach meet",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 7,
+   "name": "Ponmudi",
+   "district": "Thiruvananthapuram",
+   "category": "Hill station",
+   "g": "hills",
+   "lat": 8.76,
+   "lng": 77.12,
+   "why": "Winding hill road to tea and mist",
+   "tier": "top",
+   "months": [
+    9,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 8,
+   "name": "Agasthyakoodam",
+   "district": "Thiruvananthapuram",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 8.6145,
+   "lng": 77.2409,
+   "why": "Sacred peak trek, open in a short permit season",
+   "tier": "top",
+   "months": [
+    1,
+    2
+   ],
+   "time": "3 days"
+  },
+  {
+   "n": 9,
+   "name": "Neyyar Dam & Lion Safari",
+   "district": "Thiruvananthapuram",
+   "category": "Lake",
+   "g": "water",
+   "lat": 8.53,
+   "lng": 77.15,
+   "why": "Reservoir with a forest safari",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 10,
+   "name": "Kappil Beach",
+   "district": "Thiruvananthapuram",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 8.78,
+   "lng": 76.68,
+   "why": "Backwater and beach side by side",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 11,
+   "name": "Sivagiri Mutt",
+   "district": "Thiruvananthapuram",
+   "category": "Ashram",
+   "g": "culture",
+   "lat": 8.74,
+   "lng": 76.72,
+   "why": "Samadhi of the reformer Sree Narayana Guru",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 12,
+   "name": "Anjengo Fort",
+   "district": "Thiruvananthapuram",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 8.66,
+   "lng": 76.76,
+   "why": "English East India Company's early fort",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 13,
+   "name": "Vizhinjam Rock Cut Cave",
+   "district": "Thiruvananthapuram",
+   "category": "Caves",
+   "g": "caves",
+   "lat": 8.38,
+   "lng": 76.99,
+   "why": "8th-century cave temple",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 14,
+   "name": "Attukal Bhagavathy Temple",
+   "district": "Thiruvananthapuram",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 8.47,
+   "lng": 76.95,
+   "why": "Temple of the vast women's Pongala",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 15,
+   "name": "Chalai Bazaar",
+   "district": "Thiruvananthapuram",
+   "category": "Market",
+   "g": "culture",
+   "lat": 8.485,
+   "lng": 76.948,
+   "why": "Old market street",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 16,
+   "name": "Kerala Science & Technology Museum",
+   "district": "Thiruvananthapuram",
+   "category": "Museum",
+   "g": "culture",
+   "lat": 8.51,
+   "lng": 76.95,
+   "why": "Science museum and planetarium",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 17,
+   "name": "Ashtamudi Lake",
+   "district": "Kollam",
+   "category": "Backwater",
+   "g": "water",
+   "lat": 8.98,
+   "lng": 76.6,
+   "why": "Eight-armed lake with village canal cruises",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 18,
+   "name": "Munroe Island",
+   "district": "Kollam",
+   "category": "Backwater",
+   "g": "water",
+   "lat": 9.0,
+   "lng": 76.62,
+   "why": "Narrow canals by country boat at dawn",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 19,
+   "name": "Jatayu Earth's Center",
+   "district": "Kollam",
+   "category": "Monument",
+   "g": "culture",
+   "lat": 8.86,
+   "lng": 76.86,
+   "why": "World's largest bird sculpture on a rock",
+   "tier": "top",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 20,
+   "name": "Thangassery Lighthouse",
+   "district": "Kollam",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 8.88,
+   "lng": 76.57,
+   "why": "Old Portuguese and Dutch quarter with a lighthouse",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 21,
+   "name": "Thenmala",
+   "district": "Kollam",
+   "category": "Ecotourism",
+   "g": "wildlife",
+   "lat": 8.96,
+   "lng": 77.06,
+   "why": "India's first planned ecotourism destination",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 22,
+   "name": "Palaruvi Falls",
+   "district": "Kollam",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 8.96,
+   "lng": 77.16,
+   "why": "Tall falls on the Tamil Nadu border",
+   "tier": "gem",
+   "months": [
+    6,
+    10
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 23,
+   "name": "Sasthamkotta Lake",
+   "district": "Kollam",
+   "category": "Lake",
+   "g": "water",
+   "lat": 9.04,
+   "lng": 76.63,
+   "why": "Kerala's largest freshwater lake, a Ramsar site",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 24,
+   "name": "Amritapuri",
+   "district": "Kollam",
+   "category": "Ashram",
+   "g": "culture",
+   "lat": 9.1,
+   "lng": 76.49,
+   "why": "Mata Amritanandamayi's ashram on a backwater strip",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 25,
+   "name": "Gavi",
+   "district": "Pathanamthitta",
+   "category": "Ecotourism",
+   "g": "wildlife",
+   "lat": 9.44,
+   "lng": 77.16,
+   "why": "Forest and lake reached through the Periyar reserve",
+   "tier": "top",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 26,
+   "name": "Sabarimala",
+   "district": "Pathanamthitta",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 9.435,
+   "lng": 77.08,
+   "why": "Forest hill shrine of Ayyappa, visited by millions",
+   "tier": "icon",
+   "months": [
+    11,
+    1
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 27,
+   "name": "Aranmula",
+   "district": "Pathanamthitta",
+   "category": "Temple",
+   "g": "culture",
+   "lat": 9.33,
+   "lng": 76.69,
+   "why": "Snake-boat races and the famous metal mirrors",
+   "tier": "top",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 28,
+   "name": "Konni Elephant Camp",
+   "district": "Pathanamthitta",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 9.23,
+   "lng": 76.85,
+   "why": "Elephant training camp and cage",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 29,
+   "name": "Perunthenaruvi Falls",
+   "district": "Pathanamthitta",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 9.37,
+   "lng": 76.89,
+   "why": "Falls on the Pamba",
+   "tier": "gem",
+   "months": [
+    6,
+    10
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 30,
+   "name": "Alappuzha Backwaters",
+   "district": "Alappuzha",
+   "category": "Backwater",
+   "g": "water",
+   "lat": 9.498,
+   "lng": 76.338,
+   "why": "Houseboats on the canals and paddy fields of Kuttanad",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Overnight houseboat"
+  },
+  {
+   "n": 31,
+   "name": "Kumarakom",
+   "district": "Kottayam",
+   "category": "Backwater",
+   "g": "water",
+   "lat": 9.617,
+   "lng": 76.43,
+   "why": "Vembanad lakeside resorts and bird sanctuary",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 32,
+   "name": "Marari Beach",
+   "district": "Alappuzha",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 9.6,
+   "lng": 76.3,
+   "why": "Fishing-village beach with quiet resorts",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 33,
+   "name": "Alappuzha Beach & Pier",
+   "district": "Alappuzha",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 9.493,
+   "lng": 76.317,
+   "why": "Old pier and lighthouse",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 34,
+   "name": "Kuttanad",
+   "district": "Alappuzha",
+   "category": "Backwater",
+   "g": "water",
+   "lat": 9.4,
+   "lng": 76.42,
+   "why": "Farming below sea level on reclaimed paddies",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 35,
+   "name": "Ambalappuzha Sri Krishna Temple",
+   "district": "Alappuzha",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 9.38,
+   "lng": 76.36,
+   "why": "Temple famed for its milk payasam",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 36,
+   "name": "Krishnapuram Palace",
+   "district": "Alappuzha",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 9.15,
+   "lng": 76.51,
+   "why": "Palace with Kerala's largest mural",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 37,
+   "name": "Chettikulangara Temple",
+   "district": "Alappuzha",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 9.22,
+   "lng": 76.54,
+   "why": "Temple of the Kettukazhcha festival",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 38,
+   "name": "Pathiramanal Island",
+   "district": "Alappuzha",
+   "category": "Island",
+   "g": "wildlife",
+   "lat": 9.6181,
+   "lng": 76.3738,
+   "why": "Bird island in Vembanad Lake",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 39,
+   "name": "Kottayam & Thirunakkara",
+   "district": "Kottayam",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 9.59,
+   "lng": 76.52,
+   "why": "Town of letters, lakes and old churches",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 40,
+   "name": "Ettumanoor Mahadeva Temple",
+   "district": "Kottayam",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 9.67,
+   "lng": 76.56,
+   "why": "Temple with fine murals",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 41,
+   "name": "Vaikom Mahadeva Temple",
+   "district": "Kottayam",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 9.75,
+   "lng": 76.39,
+   "why": "Temple of the 1924 Vaikom satyagraha",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 42,
+   "name": "Ilaveezhapoonchira",
+   "district": "Kottayam",
+   "category": "Hill",
+   "g": "hills",
+   "lat": 9.7876,
+   "lng": 76.7855,
+   "why": "Hilltop meadow with sweeping views",
+   "tier": "gem",
+   "months": [
+    9,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 43,
+   "name": "Vagamon",
+   "district": "Idukki",
+   "category": "Hill station",
+   "g": "hills",
+   "lat": 9.686,
+   "lng": 76.905,
+   "why": "Meadows, pines and paragliding",
+   "tier": "top",
+   "months": [
+    9,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 44,
+   "name": "Munnar",
+   "district": "Idukki",
+   "category": "Hill station",
+   "g": "hills",
+   "lat": 10.089,
+   "lng": 77.06,
+   "why": "Rolling tea estates of the high ranges",
+   "tier": "icon",
+   "months": [
+    9,
+    5
+   ],
+   "time": "2 days"
+  },
+  {
+   "n": 45,
+   "name": "Eravikulam National Park",
+   "district": "Idukki",
+   "category": "National park",
+   "g": "wildlife",
+   "lat": 10.2,
+   "lng": 77.07,
+   "why": "Nilgiri tahr on grassy slopes below Anamudi",
+   "tier": "icon",
+   "months": [
+    4,
+    1
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 46,
+   "name": "Mattupetty Dam",
+   "district": "Idukki",
+   "category": "Lake",
+   "g": "water",
+   "lat": 10.11,
+   "lng": 77.12,
+   "why": "Lake with boating and an Indo-Swiss dairy farm",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 47,
+   "name": "Top Station",
+   "district": "Idukki",
+   "category": "Viewpoint",
+   "g": "hills",
+   "lat": 10.13,
+   "lng": 77.25,
+   "why": "View over the Tamil Nadu plains",
+   "tier": "top",
+   "months": [
+    9,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 48,
+   "name": "Kolukkumalai",
+   "district": "Idukki",
+   "category": "Tea estate",
+   "g": "hills",
+   "lat": 10.07,
+   "lng": 77.23,
+   "why": "One of the world's highest tea estates, sunrise by jeep",
+   "tier": "top",
+   "months": [
+    9,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 49,
+   "name": "Tata Tea Museum",
+   "district": "Idukki",
+   "category": "Museum",
+   "g": "culture",
+   "lat": 10.09,
+   "lng": 77.06,
+   "why": "Story of Munnar's tea",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 50,
+   "name": "Attukad Falls",
+   "district": "Idukki",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 10.07,
+   "lng": 77.03,
+   "why": "Falls in the tea hills",
+   "tier": "gem",
+   "months": [
+    6,
+    10
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 51,
+   "name": "Chinnar Wildlife Sanctuary",
+   "district": "Idukki",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 10.3407,
+   "lng": 77.1891,
+   "why": "Rain-shadow forest of grizzled giant squirrels",
+   "tier": "top",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 52,
+   "name": "Marayoor",
+   "district": "Idukki",
+   "category": "Village",
+   "g": "heritage",
+   "lat": 10.27,
+   "lng": 77.16,
+   "why": "Sandalwood forests and dolmens",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 53,
+   "name": "Kanthalloor",
+   "district": "Idukki",
+   "category": "Village",
+   "g": "hills",
+   "lat": 10.22,
+   "lng": 77.21,
+   "why": "Fruit orchards in the high ranges",
+   "tier": "gem",
+   "months": [
+    9,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 54,
+   "name": "Thekkady & Periyar Tiger Reserve",
+   "district": "Idukki",
+   "category": "National park",
+   "g": "wildlife",
+   "lat": 9.6,
+   "lng": 77.17,
+   "why": "Boat safaris on the Periyar lake",
+   "tier": "icon",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Overnight"
+  },
+  {
+   "n": 55,
+   "name": "Ramakkalmedu",
+   "district": "Idukki",
+   "category": "Viewpoint",
+   "g": "hills",
+   "lat": 9.81,
+   "lng": 77.24,
+   "why": "Windy hilltop with Kuravan Kurathi statue",
+   "tier": "gem",
+   "months": [
+    9,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 56,
+   "name": "Idukki Arch Dam",
+   "district": "Idukki",
+   "category": "Engineering",
+   "g": "water",
+   "lat": 9.84,
+   "lng": 76.97,
+   "why": "Asia's first arch dam between two hills",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 57,
+   "name": "Kalvari Mount",
+   "district": "Idukki",
+   "category": "Viewpoint",
+   "g": "hills",
+   "lat": 9.8,
+   "lng": 77.0,
+   "why": "View over the Idukki reservoir",
+   "tier": "gem",
+   "months": [
+    9,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 58,
+   "name": "Anakulam",
+   "district": "Idukki",
+   "category": "Village",
+   "g": "wildlife",
+   "lat": 10.1562,
+   "lng": 76.9215,
+   "why": "Wild elephants come to drink at the river",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 59,
+   "name": "Panchalimedu",
+   "district": "Idukki",
+   "category": "Hill",
+   "g": "hills",
+   "lat": 9.51,
+   "lng": 77.05,
+   "why": "Hill of Pandava legends",
+   "tier": "gem",
+   "months": [
+    9,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 60,
+   "name": "Kochi Fort Kochi",
+   "district": "Ernakulam",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 9.965,
+   "lng": 76.242,
+   "why": "Colonial town of churches, warehouses and art",
+   "tier": "icon",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 61,
+   "name": "Chinese Fishing Nets",
+   "district": "Ernakulam",
+   "category": "Heritage",
+   "g": "culture",
+   "lat": 9.968,
+   "lng": 76.242,
+   "why": "Cantilevered nets on the Fort Kochi shore",
+   "tier": "icon",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 62,
+   "name": "Mattancherry Palace",
+   "district": "Ernakulam",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 9.958,
+   "lng": 76.259,
+   "why": "Dutch Palace with Ramayana murals",
+   "tier": "top",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 63,
+   "name": "Paradesi Synagogue & Jew Town",
+   "district": "Ernakulam",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 9.957,
+   "lng": 76.26,
+   "why": "1568 synagogue and antique lanes",
+   "tier": "top",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 64,
+   "name": "St Francis Church",
+   "district": "Ernakulam",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 9.965,
+   "lng": 76.241,
+   "why": "Where Vasco da Gama was first buried",
+   "tier": "top",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 65,
+   "name": "Santa Cruz Basilica",
+   "district": "Ernakulam",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 9.964,
+   "lng": 76.243,
+   "why": "Painted Gothic cathedral",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 66,
+   "name": "Kochi-Muziris Biennale",
+   "district": "Ernakulam",
+   "category": "Culture",
+   "g": "culture",
+   "lat": 9.964,
+   "lng": 76.243,
+   "why": "India's biggest contemporary art show",
+   "tier": "top",
+   "months": [
+    12,
+    3
+   ],
+   "time": "1–2 days"
+  },
+  {
+   "n": 67,
+   "name": "Kerala Folklore Museum",
+   "district": "Ernakulam",
+   "category": "Museum",
+   "g": "culture",
+   "lat": 9.945,
+   "lng": 76.3,
+   "why": "Three floors of folk art in a wooden building",
+   "tier": "top",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 68,
+   "name": "Hill Palace, Tripunithura",
+   "district": "Ernakulam",
+   "category": "Museum",
+   "g": "culture",
+   "lat": 9.95,
+   "lng": 76.36,
+   "why": "Kerala's largest archaeological museum",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 69,
+   "name": "Cherai Beach",
+   "district": "Ernakulam",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 10.14,
+   "lng": 76.18,
+   "why": "Beach backed by backwaters",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 70,
+   "name": "Bolgatty Palace",
+   "district": "Ernakulam",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 9.99,
+   "lng": 76.26,
+   "why": "Dutch palace on an island",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 71,
+   "name": "Kodanad Elephant Camp",
+   "district": "Ernakulam",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 10.17,
+   "lng": 76.52,
+   "why": "Elephant camp on the Periyar",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 72,
+   "name": "Thattekad Bird Sanctuary",
+   "district": "Ernakulam",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 10.12,
+   "lng": 76.69,
+   "why": "Salim Ali's favourite birding forest",
+   "tier": "top",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 73,
+   "name": "Bhoothathankettu",
+   "district": "Ernakulam",
+   "category": "Lake",
+   "g": "water",
+   "lat": 10.13,
+   "lng": 76.66,
+   "why": "Legendary dam and forest lake",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 74,
+   "name": "Kalady",
+   "district": "Ernakulam",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 10.17,
+   "lng": 76.44,
+   "why": "Birthplace of Adi Shankaracharya",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 75,
+   "name": "Malayattoor Church",
+   "district": "Ernakulam",
+   "category": "Church",
+   "g": "heritage",
+   "lat": 10.19,
+   "lng": 76.51,
+   "why": "Hilltop shrine linked to St Thomas",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 76,
+   "name": "Kochi Marine Drive",
+   "district": "Ernakulam",
+   "category": "Promenade",
+   "g": "water",
+   "lat": 9.98,
+   "lng": 76.28,
+   "why": "Waterfront walk at sunset",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 77,
+   "name": "Kumbalangi",
+   "district": "Ernakulam",
+   "category": "Village",
+   "g": "water",
+   "lat": 9.87,
+   "lng": 76.29,
+   "why": "Model tourism village of nets and crabs",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 78,
+   "name": "Thrissur Vadakkunnathan Temple",
+   "district": "Thrissur",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 10.524,
+   "lng": 76.214,
+   "why": "Ancient temple at the heart of Thrissur Pooram",
+   "tier": "icon",
+   "months": [
+    1,
+    12
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 79,
+   "name": "Athirappilly Falls",
+   "district": "Thrissur",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 10.3125,
+   "lng": 76.5685,
+   "why": "Kerala's largest waterfall, the 'Niagara of India'",
+   "tier": "icon",
+   "months": [
+    6,
+    1
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 80,
+   "name": "Vazhachal Falls",
+   "district": "Thrissur",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 10.3,
+   "lng": 76.6,
+   "why": "Falls in the forest above Athirappilly",
+   "tier": "top",
+   "months": [
+    6,
+    10
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 81,
+   "name": "Guruvayur Temple",
+   "district": "Thrissur",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 10.595,
+   "lng": 76.04,
+   "why": "Major Krishna temple (Hindus only)",
+   "tier": "icon",
+   "months": [
+    1,
+    12
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 82,
+   "name": "Punnathur Kotta Elephant Sanctuary",
+   "district": "Thrissur",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 10.6,
+   "lng": 76.05,
+   "why": "Guruvayur temple's elephant yard",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 83,
+   "name": "Kerala Kalamandalam",
+   "district": "Thrissur",
+   "category": "Culture",
+   "g": "culture",
+   "lat": 10.74,
+   "lng": 76.27,
+   "why": "Great school of Kathakali and Kerala arts at Cheruthuruthy",
+   "tier": "top",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 84,
+   "name": "Cheraman Juma Masjid",
+   "district": "Thrissur",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 10.22,
+   "lng": 76.2,
+   "why": "Said to be India's oldest mosque",
+   "tier": "top",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 85,
+   "name": "Muziris Heritage Project",
+   "district": "Thrissur",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 10.2058,
+   "lng": 76.191,
+   "why": "Museums of the ancient port at Kodungallur",
+   "tier": "top",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 86,
+   "name": "Kodungallur Bhagavathy Temple",
+   "district": "Thrissur",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 10.23,
+   "lng": 76.2,
+   "why": "Temple of the Bharani festival",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 87,
+   "name": "Thrissur Archaeological Museum",
+   "district": "Thrissur",
+   "category": "Museum",
+   "g": "culture",
+   "lat": 10.53,
+   "lng": 76.22,
+   "why": "Museum in Kollengode palace",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 88,
+   "name": "Peechi Dam",
+   "district": "Thrissur",
+   "category": "Lake",
+   "g": "water",
+   "lat": 10.53,
+   "lng": 76.37,
+   "why": "Forest reservoir",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 89,
+   "name": "Chavakkad Beach",
+   "district": "Thrissur",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 10.54,
+   "lng": 76.0,
+   "why": "Quiet beach near Guruvayur",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 90,
+   "name": "Silent Valley National Park",
+   "district": "Palakkad",
+   "category": "National park",
+   "g": "wildlife",
+   "lat": 11.08,
+   "lng": 76.44,
+   "why": "Pristine rainforest saved by a people's movement",
+   "tier": "top",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 91,
+   "name": "Palakkad Fort",
+   "district": "Palakkad",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 10.765,
+   "lng": 76.655,
+   "why": "Tipu's granite fort",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 92,
+   "name": "Malampuzha Dam & Gardens",
+   "district": "Palakkad",
+   "category": "Garden",
+   "g": "water",
+   "lat": 10.83,
+   "lng": 76.68,
+   "why": "Dam gardens with ropeway",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 93,
+   "name": "Nelliyampathy",
+   "district": "Palakkad",
+   "category": "Hill station",
+   "g": "hills",
+   "lat": 10.53,
+   "lng": 76.69,
+   "why": "Orange and coffee estates on hairpin roads",
+   "tier": "top",
+   "months": [
+    9,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 94,
+   "name": "Parambikulam Tiger Reserve",
+   "district": "Palakkad",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 10.4,
+   "lng": 76.76,
+   "why": "Forest of teak giants and tigers",
+   "tier": "top",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Overnight"
+  },
+  {
+   "n": 95,
+   "name": "Kollengode",
+   "district": "Palakkad",
+   "category": "Village",
+   "g": "hills",
+   "lat": 10.61,
+   "lng": 76.69,
+   "why": "Paddy fields below the hills",
+   "tier": "gem",
+   "months": [
+    9,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 96,
+   "name": "Kalpathy Heritage Village",
+   "district": "Palakkad",
+   "category": "Heritage",
+   "g": "culture",
+   "lat": 10.79,
+   "lng": 76.64,
+   "why": "Tamil Brahmin agraharam with a chariot festival",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 97,
+   "name": "Dhoni Falls",
+   "district": "Palakkad",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 10.82,
+   "lng": 76.61,
+   "why": "Forest trek to falls",
+   "tier": "gem",
+   "months": [
+    6,
+    10
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 98,
+   "name": "Seethargundu Viewpoint",
+   "district": "Palakkad",
+   "category": "Viewpoint",
+   "g": "hills",
+   "lat": 10.54,
+   "lng": 76.7,
+   "why": "Nelliyampathy view",
+   "tier": "gem",
+   "months": [
+    9,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 99,
+   "name": "Kottakkal Arya Vaidya Sala",
+   "district": "Malappuram",
+   "category": "Ayurveda",
+   "g": "culture",
+   "lat": 10.99,
+   "lng": 76.0,
+   "why": "Famous Ayurveda centre",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 100,
+   "name": "Nilambur Teak Museum",
+   "district": "Malappuram",
+   "category": "Museum",
+   "g": "culture",
+   "lat": 11.28,
+   "lng": 76.23,
+   "why": "World's first teak museum and oldest plantation",
+   "tier": "top",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 101,
+   "name": "Kadalundi Bird Sanctuary",
+   "district": "Malappuram",
+   "category": "Wetland",
+   "g": "wildlife",
+   "lat": 11.1203,
+   "lng": 75.8385,
+   "why": "Estuary for migratory birds",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 102,
+   "name": "Thirunavaya",
+   "district": "Malappuram",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 10.87,
+   "lng": 75.98,
+   "why": "Riverside site of the old Mamankam festival",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 103,
+   "name": "Ponnani",
+   "district": "Malappuram",
+   "category": "Town",
+   "g": "heritage",
+   "lat": 10.77,
+   "lng": 75.92,
+   "why": "Old Islamic port with a 16th-century mosque",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 104,
+   "name": "Kozhikode Beach",
+   "district": "Kozhikode",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 11.26,
+   "lng": 75.77,
+   "why": "Sunset beach and food lanes",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 105,
+   "name": "SM Street",
+   "district": "Kozhikode",
+   "category": "Market",
+   "g": "culture",
+   "lat": 11.25,
+   "lng": 75.78,
+   "why": "Sweetmeat Street of halwa and banana chips",
+   "tier": "top",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 106,
+   "name": "Kappad Beach",
+   "district": "Kozhikode",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 11.38,
+   "lng": 75.72,
+   "why": "Where Vasco da Gama landed in 1498",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 107,
+   "name": "Beypore",
+   "district": "Kozhikode",
+   "category": "Heritage",
+   "g": "culture",
+   "lat": 11.17,
+   "lng": 75.81,
+   "why": "Port where wooden uru ships are still built",
+   "tier": "top",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 108,
+   "name": "Mishkal Mosque",
+   "district": "Kozhikode",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 11.24,
+   "lng": 75.78,
+   "why": "14th-century wooden mosque",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 109,
+   "name": "Thusharagiri Falls",
+   "district": "Kozhikode",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 11.47,
+   "lng": 76.05,
+   "why": "Forest falls and trekking",
+   "tier": "gem",
+   "months": [
+    6,
+    10
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 110,
+   "name": "Kakkayam",
+   "district": "Kozhikode",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 11.55,
+   "lng": 75.92,
+   "why": "Dam and forest in the Malabar sanctuary",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 111,
+   "name": "Kozhikode Halwa & Biryani",
+   "district": "Kozhikode",
+   "category": "Food",
+   "g": "culture",
+   "lat": 11.255,
+   "lng": 75.78,
+   "why": "Malabar food capital",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 112,
+   "name": "Wayanad Edakkal Caves",
+   "district": "Wayanad",
+   "category": "Caves",
+   "g": "caves",
+   "lat": 11.625,
+   "lng": 76.235,
+   "why": "Neolithic carvings in a rock shelter",
+   "tier": "icon",
+   "months": [
+    10,
+    4
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 113,
+   "name": "Chembra Peak",
+   "district": "Wayanad",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 11.51,
+   "lng": 76.09,
+   "why": "Trek to a heart-shaped lake",
+   "tier": "top",
+   "months": [
+    9,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 114,
+   "name": "Banasura Sagar Dam",
+   "district": "Wayanad",
+   "category": "Lake",
+   "g": "water",
+   "lat": 11.67,
+   "lng": 75.95,
+   "why": "India's largest earth dam with islands",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 115,
+   "name": "Pookode Lake",
+   "district": "Wayanad",
+   "category": "Lake",
+   "g": "water",
+   "lat": 11.54,
+   "lng": 76.03,
+   "why": "Forest lake for boating",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 116,
+   "name": "Soochipara Falls",
+   "district": "Wayanad",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 11.51,
+   "lng": 76.16,
+   "why": "Three-tier falls",
+   "tier": "top",
+   "months": [
+    6,
+    10
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 117,
+   "name": "Kuruva Island",
+   "district": "Wayanad",
+   "category": "Island",
+   "g": "wildlife",
+   "lat": 11.82,
+   "lng": 76.09,
+   "why": "River islands on the Kabini",
+   "tier": "top",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 118,
+   "name": "Thirunelli Temple",
+   "district": "Wayanad",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 11.91,
+   "lng": 75.99,
+   "why": "Forest temple of ancestral rites",
+   "tier": "top",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 119,
+   "name": "Muthanga Wildlife Sanctuary",
+   "district": "Wayanad",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 11.67,
+   "lng": 76.4,
+   "why": "Elephant forests by jeep",
+   "tier": "top",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 120,
+   "name": "Tholpetty Wildlife Sanctuary",
+   "district": "Wayanad",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 11.94,
+   "lng": 76.08,
+   "why": "Forest safaris near the Karnataka border",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 121,
+   "name": "Phantom Rock",
+   "district": "Wayanad",
+   "category": "Hill",
+   "g": "hills",
+   "lat": 11.63,
+   "lng": 76.23,
+   "why": "Skull-shaped rock",
+   "tier": "gem",
+   "months": [
+    9,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 122,
+   "name": "Meenmutty Falls",
+   "district": "Wayanad",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 11.67,
+   "lng": 75.94,
+   "why": "Forest falls near Banasura",
+   "tier": "gem",
+   "months": [
+    6,
+    10
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 123,
+   "name": "Neelimala Viewpoint",
+   "district": "Wayanad",
+   "category": "Viewpoint",
+   "g": "hills",
+   "lat": 11.58,
+   "lng": 76.2,
+   "why": "View over Meenmutty",
+   "tier": "gem",
+   "months": [
+    9,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 124,
+   "name": "900 Kandi",
+   "district": "Wayanad",
+   "category": "Adventure",
+   "g": "hills",
+   "lat": 11.5,
+   "lng": 76.12,
+   "why": "Forest glass bridge and trails",
+   "tier": "gem",
+   "months": [
+    9,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 125,
+   "name": "Jain Temple, Sulthan Bathery",
+   "district": "Wayanad",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 11.66,
+   "lng": 76.26,
+   "why": "13th-century granite Jain temple",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 126,
+   "name": "Kannur Theyyam",
+   "district": "Kannur",
+   "category": "Culture",
+   "g": "culture",
+   "lat": 11.87,
+   "lng": 75.37,
+   "why": "Ritual possession dance in village shrines (Nov–May)",
+   "tier": "icon",
+   "months": [
+    11,
+    5
+   ],
+   "time": "Night"
+  },
+  {
+   "n": 127,
+   "name": "St Angelo Fort",
+   "district": "Kannur",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 11.855,
+   "lng": 75.37,
+   "why": "Portuguese fort on the sea",
+   "tier": "top",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 128,
+   "name": "Muzhappilangad Drive-in Beach",
+   "district": "Kannur",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 11.8,
+   "lng": 75.45,
+   "why": "Kerala's longest drive-in beach",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 129,
+   "name": "Payyambalam Beach",
+   "district": "Kannur",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 11.88,
+   "lng": 75.36,
+   "why": "City beach of Kannur",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 130,
+   "name": "Arakkal Museum",
+   "district": "Kannur",
+   "category": "Museum",
+   "g": "culture",
+   "lat": 11.86,
+   "lng": 75.38,
+   "why": "Palace of Kerala's only Muslim royal family",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 131,
+   "name": "Parassinikadavu Muthappan Temple",
+   "district": "Kannur",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 11.98,
+   "lng": 75.4,
+   "why": "Temple with daily Theyyam",
+   "tier": "top",
+   "months": [
+    1,
+    12
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 132,
+   "name": "Dharmadam Island",
+   "district": "Kannur",
+   "category": "Island",
+   "g": "coast",
+   "lat": 11.77,
+   "lng": 75.46,
+   "why": "Island walkable at low tide",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 133,
+   "name": "Kottiyoor Temple",
+   "district": "Kannur",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 11.88,
+   "lng": 75.86,
+   "why": "Forest temple open only during a monsoon festival",
+   "tier": "gem",
+   "months": [
+    5,
+    6
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 134,
+   "name": "Paithalmala",
+   "district": "Kannur",
+   "category": "Hill",
+   "g": "hills",
+   "lat": 12.1,
+   "lng": 75.6,
+   "why": "Highest point of Kannur",
+   "tier": "gem",
+   "months": [
+    9,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 135,
+   "name": "Aralam Wildlife Sanctuary",
+   "district": "Kannur",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 11.95,
+   "lng": 75.86,
+   "why": "Butterfly migration forest",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 136,
+   "name": "Thalassery",
+   "district": "Kannur",
+   "category": "Town",
+   "g": "heritage",
+   "lat": 11.75,
+   "lng": 75.49,
+   "why": "Cricket, cakes, circus and biryani town",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 137,
+   "name": "Gundert Bungalow",
+   "district": "Kannur",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 11.77,
+   "lng": 75.47,
+   "why": "Home of the German scholar of Malayalam",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 138,
+   "name": "Bekal Fort",
+   "district": "Kasaragod",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 12.392,
+   "lng": 75.033,
+   "why": "Keyhole-shaped fort on the sea",
+   "tier": "icon",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 139,
+   "name": "Ranipuram",
+   "district": "Kasaragod",
+   "category": "Hill station",
+   "g": "hills",
+   "lat": 12.41,
+   "lng": 75.36,
+   "why": "Grassland hill trek",
+   "tier": "top",
+   "months": [
+    9,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 140,
+   "name": "Valiyaparamba Backwaters",
+   "district": "Kasaragod",
+   "category": "Backwater",
+   "g": "water",
+   "lat": 12.2,
+   "lng": 75.14,
+   "why": "Quiet northern backwaters",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 141,
+   "name": "Ananthapura Lake Temple",
+   "district": "Kasaragod",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 12.58,
+   "lng": 74.98,
+   "why": "Lake temple with a guardian crocodile",
+   "tier": "top",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 142,
+   "name": "Chandragiri Fort",
+   "district": "Kasaragod",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 12.47,
+   "lng": 75.01,
+   "why": "Riverside fort at sunset",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 143,
+   "name": "Malik Dinar Mosque",
+   "district": "Kasaragod",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 12.5,
+   "lng": 74.99,
+   "why": "One of India's oldest mosques",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 144,
+   "name": "Kottancherry Hills",
+   "district": "Kasaragod",
+   "category": "Hill",
+   "g": "hills",
+   "lat": 12.3013,
+   "lng": 75.4057,
+   "why": "Forested hills near Konnakkad",
+   "tier": "gem",
+   "months": [
+    9,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 145,
+   "name": "Shanghumugham Beach",
+   "district": "Thiruvananthapuram",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 8.48,
+   "lng": 76.91,
+   "why": "City beach with the giant Jalakanyaka mermaid sculpture",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 146,
+   "name": "Meesapulimala",
+   "district": "Idukki",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 10.03,
+   "lng": 77.17,
+   "why": "Kerala's second-highest peak on a guided trek",
+   "tier": "top",
+   "months": [
+    9,
+    5
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 147,
+   "name": "Vattavada",
+   "district": "Idukki",
+   "category": "Village",
+   "g": "hills",
+   "lat": 10.18,
+   "lng": 77.25,
+   "why": "Terraced vegetable village at the top of Munnar",
+   "tier": "gem",
+   "months": [
+    9,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 148,
+   "name": "Thommankuthu Falls",
+   "district": "Idukki",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 9.96,
+   "lng": 76.81,
+   "why": "Seven-step forest falls",
+   "tier": "gem",
+   "months": [
+    6,
+    10
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 149,
+   "name": "Kumily Spice Plantations",
+   "district": "Idukki",
+   "category": "Spice farm",
+   "g": "culture",
+   "lat": 9.61,
+   "lng": 77.16,
+   "why": "Cardamom and pepper farm walks by Thekkady",
+   "tier": "top",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 150,
+   "name": "Kakkadampoyil",
+   "district": "Kozhikode",
+   "category": "Hill station",
+   "g": "hills",
+   "lat": 11.32,
+   "lng": 76.11,
+   "why": "Cool hill hamlet with waterfalls",
+   "tier": "gem",
+   "months": [
+    9,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 151,
+   "name": "Kumbhavurutty Falls",
+   "district": "Kollam",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 9.0807,
+   "lng": 77.1528,
+   "why": "Forest falls near Achankovil",
+   "tier": "gem",
+   "months": [
+    6,
+    10
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 152,
+   "name": "Pazhassi Tomb",
+   "district": "Wayanad",
+   "category": "Memorial",
+   "g": "heritage",
+   "lat": 11.8,
+   "lng": 76.0,
+   "why": "Tomb of the rebel king Pazhassi Raja at Mananthavady",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 153,
+   "name": "Ezhimala",
+   "district": "Kannur",
+   "category": "Hill",
+   "g": "hills",
+   "lat": 12.03,
+   "lng": 75.2,
+   "why": "Lone coastal hill and beach near the naval academy",
+   "tier": "gem",
+   "months": [
+    9,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 154,
+   "name": "Possadi Gumpe",
+   "district": "Kasaragod",
+   "category": "Hill",
+   "g": "hills",
+   "lat": 12.67,
+   "lng": 75.05,
+   "why": "Hilltop with sea and Western Ghats views",
+   "tier": "gem",
+   "months": [
+    9,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 155,
+   "name": "Kodikuthimala",
+   "district": "Malappuram",
+   "category": "Viewpoint",
+   "g": "hills",
+   "lat": 11.02,
+   "lng": 76.2,
+   "why": "Grassy hilltop with a watchtower, nicknamed the Ooty of Malappuram",
+   "tier": "gem",
+   "months": [
+    9,
+    2
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 156,
+   "name": "Adyanpara Falls",
+   "district": "Malappuram",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 11.34,
+   "lng": 76.26,
+   "why": "Forest waterfall near Nilambur, best right after the monsoon",
+   "tier": "gem",
+   "months": [
+    8,
+    12
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 157,
+   "name": "Thunchan Parambu, Tirur",
+   "district": "Malappuram",
+   "category": "Memorial",
+   "g": "culture",
+   "lat": 10.91,
+   "lng": 75.92,
+   "why": "Birthplace of Thunchath Ezhuthachan, father of Malayalam; Vidyarambham on Vijayadashami",
+   "tier": "gem",
+   "months": [
+    10,
+    10
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 158,
+   "name": "Illikkal Kallu",
+   "district": "Kottayam",
+   "category": "Viewpoint",
+   "g": "hills",
+   "lat": 9.78,
+   "lng": 76.8,
+   "why": "Giant rock outcrop at 6,000 ft with a sea of clouds below",
+   "tier": "top",
+   "months": [
+    9,
+    2
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 159,
+   "name": "Marmala Waterfall",
+   "district": "Kottayam",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 9.73,
+   "lng": 76.8,
+   "why": "Forest falls with a deep pool near Erattupetta",
+   "tier": "gem",
+   "months": [
+    7,
+    12
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 160,
+   "name": "Parumala Church",
+   "district": "Pathanamthitta",
+   "category": "Church",
+   "g": "temple",
+   "lat": 9.33,
+   "lng": 76.53,
+   "why": "Tomb church of St Gregorios of Parumala on a Pamba river island",
+   "tier": "gem",
+   "months": [
+    10,
+    11
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 161,
+   "name": "Kaviyoor Rock-cut Temple",
+   "district": "Pathanamthitta",
+   "category": "Temple",
+   "g": "heritage",
+   "lat": 9.39,
+   "lng": 76.61,
+   "why": "8th-century rock-cut Shiva cave temple, among Kerala's oldest",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  }
+ ],
+ "festivals": [
+  {
+   "name": "Attukal Pongala",
+   "months": [
+    2,
+    3
+   ],
+   "when": "February or March",
+   "n": 14,
+   "about": "Millions of women cook pongala on the streets of Thiruvananthapuram."
+  },
+  {
+   "name": "Thrissur Pooram",
+   "months": [
+    4,
+    5
+   ],
+   "when": "April or May",
+   "n": 78,
+   "about": "Caparisoned elephants, parasol swaps and percussion around Vadakkunnathan."
+  },
+  {
+   "name": "Nehru Trophy Boat Race",
+   "months": [
+    8,
+    8
+   ],
+   "when": "Second Saturday of August",
+   "n": 30,
+   "about": "Snake boats race on Punnamada Lake."
+  },
+  {
+   "name": "Onam",
+   "months": [
+    8,
+    9
+   ],
+   "when": "August or September",
+   "n": null,
+   "about": "Kerala's harvest festival of pookalams, sadya feasts and boat races."
+  },
+  {
+   "name": "Aranmula Uthrattathi Boat Race",
+   "months": [
+    8,
+    9
+   ],
+   "when": "During Onam",
+   "n": 27,
+   "about": "Snake boats glide on the Pamba in a ritual procession."
+  },
+  {
+   "name": "Theyyam season",
+   "months": [
+    11,
+    5
+   ],
+   "when": "November to May",
+   "n": 126,
+   "about": "Night-long ritual performances in village shrines of north Malabar."
+  },
+  {
+   "name": "Kochi-Muziris Biennale",
+   "months": [
+    12,
+    3
+   ],
+   "when": "December to March, every two years",
+   "n": 66,
+   "about": "Contemporary art across Fort Kochi's warehouses."
+  },
+  {
+   "name": "Makaravilakku",
+   "months": [
+    1,
+    1
+   ],
+   "when": "Mid-January",
+   "n": 26,
+   "about": "Climax of the Sabarimala pilgrimage season."
+  },
+  {
+   "name": "Maramon Convention",
+   "months": [
+    2,
+    2
+   ],
+   "when": "February",
+   "n": null,
+   "about": "One of Asia's largest Christian gatherings, on the Pamba riverbed."
+  },
+  {
+   "name": "Kalpathy Ratholsavam",
+   "months": [
+    11,
+    11
+   ],
+   "when": "November",
+   "n": 96,
+   "about": "Temple chariot festival in a Tamil agraharam."
+  },
+  {
+   "name": "Chettikulangara Bharani",
+   "months": [
+    2,
+    3
+   ],
+   "when": "February or March",
+   "n": 37,
+   "about": "Giant decorated chariots (Kettukazhcha) are pulled to the temple."
+  }
+ ]
+}
