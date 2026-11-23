@@ -1,1 +1,568 @@
-{"name":"Tripura","intro":"Agartala's Ujjayanta Palace, the lake palace of Neermahal, the giant rock faces of Unakoti, the Tripura Sundari Shakti Peetha, river-cliff carvings at Chabimura, and the orange hills of Jampui.","bases":[["Agartala",23.8315,91.2868],["Udaipur",23.53,91.49],["Kailashahar",24.33,92.0]],"trails":[{"name":"Agartala and the lake palace","note":"Palaces, a border ceremony and Neermahal.","ids":[1,17,19,15,5,2]},{"name":"Udaipur and the Gomati","note":"Temples of the old capital and cliff carvings.","ids":[4,24,10,11,8,7]},{"name":"North Tripura","note":"Unakoti's faces and Jampui's oranges.","ids":[3,27,6]}],"places":[{"n":1,"name":"Ujjayanta Palace","district":"West Tripura","category":"Heritage","g":"heritage","lat":23.837,"lng":91.283,"why":"Royal palace turned state museum, in gardens and pools","tier":"icon","months":[10,3],"time":"1–2 hrs"},{"n":2,"name":"Neermahal","district":"Sepahijala","category":"Heritage","g":"heritage","lat":23.5,"lng":91.32,"why":"Lake palace in Rudrasagar, lit up at night","tier":"icon","months":[10,3],"time":"Half day"},{"n":3,"name":"Unakoti","district":"Unakoti","category":"Heritage","g":"heritage","lat":24.317,"lng":92.067,"why":"Giant rock-cut Shiva faces in the forest","tier":"icon","months":[10,3],"time":"Half day"},{"n":4,"name":"Tripura Sundari Temple, Udaipur","district":"Gomati","category":"Temple","g":"temple","lat":23.51,"lng":91.5,"why":"One of the 51 Shakti Peethas, on a tortoise-shaped hill","tier":"icon","months":[10,3],"time":"1 hr"},{"n":5,"name":"Sepahijala Wildlife Sanctuary","district":"Sepahijala","category":"Wildlife","g":"wildlife","lat":23.67,"lng":91.32,"why":"Forest of spectacled monkeys and clouded leopard park","tier":"top","months":[10,3],"time":"Half day"},{"n":6,"name":"Jampui Hills","district":"North Tripura","category":"Hill station","g":"hills","lat":23.95,"lng":92.27,"why":"Mizo villages of oranges and views into Bangladesh and Mizoram","tier":"top","months":[10,3],"time":"Overnight"},{"n":7,"name":"Dumboor Lake","district":"Dhalai","category":"Lake","g":"water","lat":23.7,"lng":91.88,"why":"Lake of 48 islands","tier":"top","months":[10,3],"time":"Half day"},{"n":8,"name":"Chabimura","district":"Gomati","category":"Heritage","g":"heritage","lat":23.48,"lng":91.64,"why":"Rock carvings of goddesses on the Gomati cliffs, by boat","tier":"top","months":[10,3],"time":"Half day"},{"n":9,"name":"Pilak","district":"South Tripura","category":"Heritage","g":"buddhist","lat":23.22,"lng":91.64,"why":"Buddhist and Hindu terracotta ruins","tier":"top","months":[10,3],"time":"1 hr"},{"n":10,"name":"Bhuvaneshwari Temple","district":"Gomati","category":"Temple","g":"temple","lat":23.53,"lng":91.49,"why":"Temple of Tagore's play Rajarshi","tier":"gem","months":[10,3],"time":"1 hr"},{"n":11,"name":"Gunabati Temples","district":"Gomati","category":"Temple","g":"temple","lat":23.53,"lng":91.49,"why":"Group of old brick temples","tier":"gem","months":[10,3],"time":"1 hr"},{"n":12,"name":"Kamalasagar Kali Temple","district":"Sepahijala","category":"Temple","g":"temple","lat":23.8613,"lng":91.2353,"why":"Lake temple on the Bangladesh border","tier":"gem","months":[10,3],"time":"1 hr"},{"n":13,"name":"Heritage Park Agartala","district":"West Tripura","category":"Park","g":"culture","lat":23.84,"lng":91.29,"why":"Miniatures of Tripura's sites","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":14,"name":"Tripura Government Museum","district":"West Tripura","category":"Museum","g":"culture","lat":23.837,"lng":91.283,"why":"Museum in Ujjayanta Palace","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":15,"name":"Akhaura Border Ceremony","district":"West Tripura","category":"Ceremony","g":"culture","lat":23.845,"lng":91.245,"why":"Flag-lowering at the Bangladesh border","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":16,"name":"Rabindra Kanan","district":"West Tripura","category":"Garden","g":"culture","lat":23.84,"lng":91.28,"why":"Garden in Agartala","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":17,"name":"Jagannath Temple, Agartala","district":"West Tripura","category":"Temple","g":"temple","lat":23.835,"lng":91.28,"why":"Lakeside orange temple","tier":"gem","months":[10,3],"time":"1 hr"},{"n":18,"name":"Venuban Vihar","district":"West Tripura","category":"Monastery","g":"buddhist","lat":23.84,"lng":91.3,"why":"Buddhist temple","tier":"gem","months":[10,3],"time":"1 hr"},{"n":19,"name":"Kunjaban Palace","district":"West Tripura","category":"Heritage","g":"heritage","lat":23.85,"lng":91.29,"why":"Royal retreat on a hill","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":20,"name":"Trishna Wildlife Sanctuary","district":"South Tripura","category":"Wildlife","g":"wildlife","lat":23.4,"lng":91.45,"why":"Bison forest with lakes","tier":"gem","months":[10,3],"time":"Half day"},{"n":21,"name":"Mahamuni Pagoda","district":"South Tripura","category":"Monastery","g":"buddhist","lat":23.05,"lng":91.58,"why":"Buddhist pagoda at Manubankul","tier":"gem","months":[10,3],"time":"1 hr"},{"n":22,"name":"Rowa Wildlife Sanctuary","district":"North Tripura","category":"Wildlife","g":"wildlife","lat":24.2,"lng":92.2,"why":"Small forest sanctuary","tier":"gem","months":[10,3],"time":"Half day"},{"n":23,"name":"Kalapania Nature Park","district":"South Tripura","category":"Park","g":"wildlife","lat":23.2,"lng":91.5,"why":"Nature park","tier":"gem","months":[10,3],"time":"Half day"},{"n":24,"name":"Matabari Kalyan Sagar","district":"Gomati","category":"Lake","g":"temple","lat":23.51,"lng":91.5,"why":"Temple tank with giant turtles","tier":"gem","months":[10,3],"time":"1 hr"},{"n":25,"name":"Baramura Eco Park","district":"Khowai","category":"Park","g":"hills","lat":23.87,"lng":91.57,"why":"Hill park with waterfall","tier":"gem","months":[10,3],"time":"Half day"},{"n":26,"name":"Khowai Tea Gardens","district":"Khowai","category":"Tea estate","g":"hills","lat":24.07,"lng":91.6,"why":"Tea estates of Khowai","tier":"gem","months":[10,3],"time":"Half day"},{"n":27,"name":"Kailashahar Tea Gardens","district":"Unakoti","category":"Tea estate","g":"hills","lat":24.33,"lng":92.0,"why":"Tea gardens near Kailashahar","tier":"gem","months":[10,3],"time":"Half day"},{"n":28,"name":"Longtharai Hill","district":"Dhalai","category":"Hill","g":"hills","lat":23.93,"lng":91.88,"why":"Hill shrine of the Longtharai range","tier":"gem","months":[10,3],"time":"Half day"}],"festivals":[{"name":"Kharchi Puja","months":[7,7],"when":"July","n":1,"about":"Week-long worship of the fourteen gods near Agartala."},{"name":"Neermahal Water Festival","months":[8,8],"when":"August","n":2,"about":"Boat races on Rudrasagar lake."},{"name":"Ashokastami Fair at Unakoti","months":[3,4],"when":"March or April","n":3,"about":"Pilgrims gather at the rock carvings."},{"name":"Diwali at Tripura Sundari","months":[10,11],"when":"Diwali","n":4,"about":"Huge fair at the Shakti Peetha."},{"name":"Orange & Tourism Festival","months":[11,11],"when":"November","n":6,"about":"Jampui celebrates its orange harvest."},{"name":"Garia Puja","months":[4,4],"when":"April","n":null,"about":"Tribal festival of the god Garia after Bengali new year."}]}
+{
+ "name": "Tripura",
+ "intro": "Agartala's Ujjayanta Palace, the lake palace of Neermahal, the giant rock faces of Unakoti, the Tripura Sundari Shakti Peetha, river-cliff carvings at Chabimura, and the orange hills of Jampui.",
+ "bases": [
+  [
+   "Agartala",
+   23.8315,
+   91.2868
+  ],
+  [
+   "Udaipur",
+   23.53,
+   91.49
+  ],
+  [
+   "Kailashahar",
+   24.33,
+   92.0
+  ]
+ ],
+ "trails": [
+  {
+   "name": "Agartala and the lake palace",
+   "note": "Palaces, a border ceremony and Neermahal.",
+   "ids": [
+    1,
+    17,
+    19,
+    15,
+    5,
+    2
+   ]
+  },
+  {
+   "name": "Udaipur and the Gomati",
+   "note": "Temples of the old capital and cliff carvings.",
+   "ids": [
+    4,
+    24,
+    10,
+    11,
+    8,
+    7
+   ]
+  },
+  {
+   "name": "North Tripura",
+   "note": "Unakoti's faces and Jampui's oranges.",
+   "ids": [
+    3,
+    27,
+    6
+   ]
+  }
+ ],
+ "places": [
+  {
+   "n": 1,
+   "name": "Ujjayanta Palace",
+   "district": "West Tripura",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 23.837,
+   "lng": 91.283,
+   "why": "Royal palace turned state museum, in gardens and pools",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 2,
+   "name": "Neermahal",
+   "district": "Sepahijala",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 23.5,
+   "lng": 91.32,
+   "why": "Lake palace in Rudrasagar, lit up at night",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 3,
+   "name": "Unakoti",
+   "district": "Unakoti",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 24.317,
+   "lng": 92.067,
+   "why": "Giant rock-cut Shiva faces in the forest",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 4,
+   "name": "Tripura Sundari Temple, Udaipur",
+   "district": "Gomati",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 23.51,
+   "lng": 91.5,
+   "why": "One of the 51 Shakti Peethas, on a tortoise-shaped hill",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 5,
+   "name": "Sepahijala Wildlife Sanctuary",
+   "district": "Sepahijala",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 23.67,
+   "lng": 91.32,
+   "why": "Forest of spectacled monkeys and clouded leopard park",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 6,
+   "name": "Jampui Hills",
+   "district": "North Tripura",
+   "category": "Hill station",
+   "g": "hills",
+   "lat": 23.95,
+   "lng": 92.27,
+   "why": "Mizo villages of oranges and views into Bangladesh and Mizoram",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Overnight"
+  },
+  {
+   "n": 7,
+   "name": "Dumboor Lake",
+   "district": "Dhalai",
+   "category": "Lake",
+   "g": "water",
+   "lat": 23.7,
+   "lng": 91.88,
+   "why": "Lake of 48 islands",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 8,
+   "name": "Chabimura",
+   "district": "Gomati",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 23.48,
+   "lng": 91.64,
+   "why": "Rock carvings of goddesses on the Gomati cliffs, by boat",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 9,
+   "name": "Pilak",
+   "district": "South Tripura",
+   "category": "Heritage",
+   "g": "buddhist",
+   "lat": 23.22,
+   "lng": 91.64,
+   "why": "Buddhist and Hindu terracotta ruins",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 10,
+   "name": "Bhuvaneshwari Temple",
+   "district": "Gomati",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 23.53,
+   "lng": 91.49,
+   "why": "Temple of Tagore's play Rajarshi",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 11,
+   "name": "Gunabati Temples",
+   "district": "Gomati",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 23.53,
+   "lng": 91.49,
+   "why": "Group of old brick temples",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 12,
+   "name": "Kamalasagar Kali Temple",
+   "district": "Sepahijala",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 23.7293,
+   "lng": 91.2323,
+   "why": "Lake temple on the Bangladesh border",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 13,
+   "name": "Heritage Park Agartala",
+   "district": "West Tripura",
+   "category": "Park",
+   "g": "culture",
+   "lat": 23.84,
+   "lng": 91.29,
+   "why": "Miniatures of Tripura's sites",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 14,
+   "name": "Tripura Government Museum",
+   "district": "West Tripura",
+   "category": "Museum",
+   "g": "culture",
+   "lat": 23.837,
+   "lng": 91.283,
+   "why": "Museum in Ujjayanta Palace",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 15,
+   "name": "Akhaura Border Ceremony",
+   "district": "West Tripura",
+   "category": "Ceremony",
+   "g": "culture",
+   "lat": 23.845,
+   "lng": 91.245,
+   "why": "Flag-lowering at the Bangladesh border",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 16,
+   "name": "Rabindra Kanan",
+   "district": "West Tripura",
+   "category": "Garden",
+   "g": "culture",
+   "lat": 23.84,
+   "lng": 91.28,
+   "why": "Garden in Agartala",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 17,
+   "name": "Jagannath Temple, Agartala",
+   "district": "West Tripura",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 23.835,
+   "lng": 91.28,
+   "why": "Lakeside orange temple",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 18,
+   "name": "Venuban Vihar",
+   "district": "West Tripura",
+   "category": "Monastery",
+   "g": "buddhist",
+   "lat": 23.84,
+   "lng": 91.3,
+   "why": "Buddhist temple",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 19,
+   "name": "Kunjaban Palace",
+   "district": "West Tripura",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 23.85,
+   "lng": 91.29,
+   "why": "Royal retreat on a hill",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 20,
+   "name": "Trishna Wildlife Sanctuary",
+   "district": "South Tripura",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 23.3858,
+   "lng": 91.462,
+   "why": "Bison forest with lakes",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 21,
+   "name": "Mahamuni Pagoda",
+   "district": "South Tripura",
+   "category": "Monastery",
+   "g": "buddhist",
+   "lat": 23.05,
+   "lng": 91.58,
+   "why": "Buddhist pagoda at Manubankul",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 22,
+   "name": "Rowa Wildlife Sanctuary",
+   "district": "North Tripura",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 24.2,
+   "lng": 92.2,
+   "why": "Small forest sanctuary",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 23,
+   "name": "Kalapania Nature Park",
+   "district": "South Tripura",
+   "category": "Park",
+   "g": "wildlife",
+   "lat": 23.2,
+   "lng": 91.5,
+   "why": "Nature park",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 24,
+   "name": "Matabari Kalyan Sagar",
+   "district": "Gomati",
+   "category": "Lake",
+   "g": "temple",
+   "lat": 23.51,
+   "lng": 91.5,
+   "why": "Temple tank with giant turtles",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 25,
+   "name": "Baramura Eco Park",
+   "district": "Khowai",
+   "category": "Park",
+   "g": "hills",
+   "lat": 23.87,
+   "lng": 91.57,
+   "why": "Hill park with waterfall",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 26,
+   "name": "Khowai Tea Gardens",
+   "district": "Khowai",
+   "category": "Tea estate",
+   "g": "hills",
+   "lat": 24.07,
+   "lng": 91.6,
+   "why": "Tea estates of Khowai",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 27,
+   "name": "Kailashahar Tea Gardens",
+   "district": "Unakoti",
+   "category": "Tea estate",
+   "g": "hills",
+   "lat": 24.33,
+   "lng": 92.0,
+   "why": "Tea gardens near Kailashahar",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 28,
+   "name": "Longtharai Hill",
+   "district": "Dhalai",
+   "category": "Hill",
+   "g": "hills",
+   "lat": 23.93,
+   "lng": 91.88,
+   "why": "Hill shrine of the Longtharai range",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  }
+ ],
+ "festivals": [
+  {
+   "name": "Kharchi Puja",
+   "months": [
+    7,
+    7
+   ],
+   "when": "July",
+   "n": 1,
+   "about": "Week-long worship of the fourteen gods near Agartala."
+  },
+  {
+   "name": "Neermahal Water Festival",
+   "months": [
+    8,
+    8
+   ],
+   "when": "August",
+   "n": 2,
+   "about": "Boat races on Rudrasagar lake."
+  },
+  {
+   "name": "Ashokastami Fair at Unakoti",
+   "months": [
+    3,
+    4
+   ],
+   "when": "March or April",
+   "n": 3,
+   "about": "Pilgrims gather at the rock carvings."
+  },
+  {
+   "name": "Diwali at Tripura Sundari",
+   "months": [
+    10,
+    11
+   ],
+   "when": "Diwali",
+   "n": 4,
+   "about": "Huge fair at the Shakti Peetha."
+  },
+  {
+   "name": "Orange & Tourism Festival",
+   "months": [
+    11,
+    11
+   ],
+   "when": "November",
+   "n": 6,
+   "about": "Jampui celebrates its orange harvest."
+  },
+  {
+   "name": "Garia Puja",
+   "months": [
+    4,
+    4
+   ],
+   "when": "April",
+   "n": null,
+   "about": "Tribal festival of the god Garia after Bengali new year."
+  }
+ ]
+}

@@ -1,1 +1,712 @@
-{"name":"Mizoram","intro":"Aizawl's hillside city of churches, now reached by train, Phawngpui's Blue Mountain and Palak Dil in the south, Vantawng Falls, Tamdil Lake, the Champhai valley on the Myanmar border, and the bamboo-dance festivals of the Mizo.","bases":[["Aizawl",23.7271,92.7176],["Champhai",23.46,93.33],["Lunglei",22.88,92.74],["Saiha",22.48,92.98]],"trails":[{"name":"Aizawl and around","note":"The ridge city, Reiek and Tamdil.","ids":[26,1,4,5,2,3,6,8]},{"name":"Road to Champhai","note":"Falls, weaving towns and the border valley.","ids":[7,10,9,11,30,12,37]},{"name":"Deep south","note":"Blue Mountain and Mizoram's largest lake.","ids":[20,35,16,18,17]}],"places":[{"n":1,"name":"Aizawl Ridge City","district":"Aizawl","category":"Town","g":"hills","lat":23.727,"lng":92.718,"why":"Hillside capital of stacked houses and churches","tier":"top","months":[10,4],"time":"Half day"},{"n":2,"name":"Solomon's Temple","district":"Aizawl","category":"Church","g":"heritage","lat":23.68,"lng":92.75,"why":"Grand white church of the Kohhran Thianghlim","tier":"top","months":[10,4],"time":"1 hr"},{"n":3,"name":"Durtlang Hills","district":"Aizawl","category":"Viewpoint","g":"hills","lat":23.78,"lng":92.73,"why":"Hills with sunrise views over Aizawl","tier":"gem","months":[10,4],"time":"Half day"},{"n":4,"name":"Mizoram State Museum","district":"Aizawl","category":"Museum","g":"culture","lat":23.73,"lng":92.72,"why":"Mizo costumes, tools and history","tier":"gem","months":[10,4],"time":"1–2 hrs"},{"n":5,"name":"Bara Bazaar, Aizawl","district":"Aizawl","category":"Market","g":"culture","lat":23.728,"lng":92.719,"why":"Market of Mizo foods and weaves","tier":"gem","months":[10,4],"time":"1–2 hrs"},{"n":6,"name":"Reiek Tlang","district":"Mamit","category":"Hill","g":"hills","lat":23.69,"lng":92.61,"why":"Hill with a Mizo heritage village and Bangladesh views","tier":"top","months":[10,4],"time":"Half day"},{"n":7,"name":"Hmuifang Tlang","district":"Aizawl","category":"Hill","g":"hills","lat":23.47,"lng":92.76,"why":"Forested hill with a resort and views","tier":"gem","months":[10,4],"time":"Half day"},{"n":8,"name":"Tamdil Lake","district":"Saitual","category":"Lake","g":"water","lat":23.74,"lng":92.95,"why":"Lake of a Mizo legend in pine forest","tier":"top","months":[10,4],"time":"2 hrs"},{"n":9,"name":"Vantawng Falls","district":"Serchhip","category":"Waterfall","g":"water","lat":23.12,"lng":92.75,"why":"Mizoram's tallest waterfall","tier":"top","months":[7,10],"time":"2 hrs"},{"n":10,"name":"Thenzawl","district":"Serchhip","category":"Village","g":"culture","lat":23.29,"lng":92.76,"why":"Weaving town of puan cloth and a golf course","tier":"gem","months":[10,4],"time":"1–2 hrs"},{"n":11,"name":"Champhai","district":"Champhai","category":"Town","g":"hills","lat":23.46,"lng":93.33,"why":"Rice bowl valley on the Myanmar border","tier":"top","months":[10,4],"time":"Overnight"},{"n":12,"name":"Murlen National Park","district":"Champhai","category":"National park","g":"wildlife","lat":23.64,"lng":93.27,"why":"Dense forest of hornbills","tier":"top","months":[10,4],"time":"Full day"},{"n":13,"name":"Lengteng Wildlife Sanctuary","district":"Champhai","category":"Wildlife","g":"wildlife","lat":23.7,"lng":93.2,"why":"Forested peak sanctuary","tier":"gem","months":[10,4],"time":"Full day"},{"n":14,"name":"Kungawrhi Puk","district":"Champhai","category":"Cave","g":"caves","lat":23.5,"lng":93.3,"why":"Cave of a Mizo legend","tier":"gem","months":[10,4],"time":"1–2 hrs"},{"n":15,"name":"Mura Puk","district":"Champhai","category":"Cave","g":"caves","lat":23.45,"lng":93.32,"why":"Cave in the Champhai hills","tier":"gem","months":[10,4],"time":"1–2 hrs"},{"n":16,"name":"Phawngpui (Blue Mountain)","district":"Lawngtlai","category":"National park","g":"hills","lat":22.63,"lng":93.03,"why":"Mizoram's highest peak with rhododendrons","tier":"icon","months":[10,4],"time":"2 days"},{"n":17,"name":"Palak Dil","district":"Saiha","category":"Lake","g":"water","lat":22.21,"lng":92.95,"why":"Mizoram's largest natural lake","tier":"top","months":[10,4],"time":"Half day"},{"n":18,"name":"Saiha","district":"Saiha","category":"Town","g":"culture","lat":22.48,"lng":92.98,"why":"Mara hill town","tier":"gem","months":[10,4],"time":"1–2 hrs"},{"n":19,"name":"Dampa Tiger Reserve","district":"Mamit","category":"Wildlife","g":"wildlife","lat":23.67,"lng":92.4,"why":"Mizoram's tiger reserve with jungle walks","tier":"top","months":[10,4],"time":"2 days"},{"n":20,"name":"Lunglei","district":"Lunglei","category":"Town","g":"hills","lat":22.88,"lng":92.74,"why":"Second town, perched on a ridge","tier":"gem","months":[10,4],"time":"Half day"},{"n":21,"name":"Khawnglung Wildlife Sanctuary","district":"Lunglei","category":"Wildlife","g":"wildlife","lat":23.05,"lng":92.9,"why":"Sanctuary of a Mizo battle legend","tier":"gem","months":[10,4],"time":"Full day"},{"n":22,"name":"Thorangtlang Wildlife Sanctuary","district":"Lunglei","category":"Wildlife","g":"wildlife","lat":23.15,"lng":92.65,"why":"Forest sanctuary","tier":"gem","months":[10,4],"time":"Full day"},{"n":23,"name":"Ngengpui Wildlife Sanctuary","district":"Lawngtlai","category":"Wildlife","g":"wildlife","lat":22.45,"lng":92.75,"why":"Remote forest sanctuary","tier":"gem","months":[10,4],"time":"Full day"},{"n":24,"name":"Kawnpui","district":"Kolasib","category":"Town","g":"culture","lat":24.08,"lng":92.7,"why":"Highway town of the north","tier":"gem","months":[10,4],"time":"1–2 hrs"},{"n":25,"name":"Tlawng River","district":"Kolasib","category":"River","g":"water","lat":24.05,"lng":92.68,"why":"River for angling and rafting","tier":"gem","months":[10,4],"time":"2 hrs"},{"n":26,"name":"Sairang Railway Station","district":"Aizawl","category":"Engineering","g":"culture","lat":23.81,"lng":92.66,"why":"End of the new Bairabi–Sairang line that brought trains to Aizawl","tier":"top","months":[10,4],"time":"1–2 hrs"},{"n":27,"name":"Bairabi–Sairang Bridges","district":"Kolasib","category":"Engineering","g":"water","lat":23.95,"lng":92.68,"why":"Tall railway bridges through the hills","tier":"gem","months":[10,4],"time":"2 hrs"},{"n":28,"name":"Sialsuk","district":"Aizawl","category":"Village","g":"hills","lat":23.4,"lng":92.73,"why":"Hill village of heritage stones","tier":"gem","months":[10,4],"time":"Half day"},{"n":29,"name":"Lamsial Puk","district":"Champhai","category":"Cave","g":"caves","lat":23.48,"lng":93.31,"why":"Cave with legends of a battle","tier":"gem","months":[10,4],"time":"1–2 hrs"},{"n":30,"name":"Lianchiari Lunglen Tlang","district":"Champhai","category":"Viewpoint","g":"hills","lat":23.49,"lng":93.32,"why":"Cliff of a tragic Mizo love story","tier":"gem","months":[10,4],"time":"Half day"},{"n":31,"name":"Kawlkulh","district":"Champhai","category":"Village","g":"culture","lat":23.3,"lng":93.2,"why":"Village with heritage terraces","tier":"gem","months":[10,4],"time":"1–2 hrs"},{"n":32,"name":"Chhingpui Thlan","district":"Serchhip","category":"Heritage","g":"culture","lat":23.3,"lng":92.8,"why":"Memorial of a tragic love story","tier":"gem","months":[10,4],"time":"1–2 hrs"},{"n":33,"name":"Pukzing Cave","district":"Mamit","category":"Cave","g":"caves","lat":23.8,"lng":92.5,"why":"Large natural cave in the west","tier":"gem","months":[10,4],"time":"1–2 hrs"},{"n":34,"name":"Tuirihiau Falls","district":"Serchhip","category":"Waterfall","g":"water","lat":23.24,"lng":92.77,"why":"Falls near Thenzawl","tier":"gem","months":[7,10],"time":"2 hrs"},{"n":35,"name":"Lawngtlai","district":"Lawngtlai","category":"Town","g":"culture","lat":22.53,"lng":92.9,"why":"Lai hill town on the Kaladan corridor","tier":"gem","months":[10,4],"time":"1–2 hrs"},{"n":36,"name":"Rengdil Lake","district":"Mamit","category":"Lake","g":"water","lat":23.88,"lng":92.55,"why":"Lake in the Mamit forests","tier":"gem","months":[10,4],"time":"2 hrs"},{"name":"Zokhawthar","district":"Champhai","category":"Town","g":"culture","lat":23.37,"lng":93.38,"why":"Border town at the Tiau river crossing to Myanmar, near Rih Dil lake","tier":"gem","n":37,"months":[10,4],"time":"1–2 hrs"}],"festivals":[{"name":"Chapchar Kut","months":[3,3],"when":"March","n":1,"about":"Spring festival with the Cheraw bamboo dance."},{"name":"Mim Kut","months":[8,9],"when":"August or September","n":null,"about":"Maize harvest festival honouring the departed."},{"name":"Pawl Kut","months":[12,1],"when":"December–January","n":null,"about":"Harvest festival of feasting."},{"name":"Anthurium Festival","months":[9,9],"when":"September","n":6,"about":"Flower and culture festival at Reiek."},{"name":"Christmas in Aizawl","months":[12,12],"when":"December","n":2,"about":"The hill city lights up for a week of carols and services."}]}
+{
+ "name": "Mizoram",
+ "intro": "Aizawl's hillside city of churches, now reached by train, Phawngpui's Blue Mountain and Palak Dil in the south, Vantawng Falls, Tamdil Lake, the Champhai valley on the Myanmar border, and the bamboo-dance festivals of the Mizo.",
+ "bases": [
+  [
+   "Aizawl",
+   23.7271,
+   92.7176
+  ],
+  [
+   "Champhai",
+   23.46,
+   93.33
+  ],
+  [
+   "Lunglei",
+   22.88,
+   92.74
+  ],
+  [
+   "Saiha",
+   22.48,
+   92.98
+  ]
+ ],
+ "trails": [
+  {
+   "name": "Aizawl and around",
+   "note": "The ridge city, Reiek and Tamdil.",
+   "ids": [
+    26,
+    1,
+    4,
+    5,
+    2,
+    3,
+    6,
+    8
+   ]
+  },
+  {
+   "name": "Road to Champhai",
+   "note": "Falls, weaving towns and the border valley.",
+   "ids": [
+    7,
+    10,
+    9,
+    11,
+    30,
+    12,
+    37
+   ]
+  },
+  {
+   "name": "Deep south",
+   "note": "Blue Mountain and Mizoram's largest lake.",
+   "ids": [
+    20,
+    35,
+    16,
+    18,
+    17
+   ]
+  }
+ ],
+ "places": [
+  {
+   "n": 1,
+   "name": "Aizawl Ridge City",
+   "district": "Aizawl",
+   "category": "Town",
+   "g": "hills",
+   "lat": 23.727,
+   "lng": 92.718,
+   "why": "Hillside capital of stacked houses and churches",
+   "tier": "top",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 2,
+   "name": "Solomon's Temple",
+   "district": "Aizawl",
+   "category": "Church",
+   "g": "heritage",
+   "lat": 23.68,
+   "lng": 92.75,
+   "why": "Grand white church of the Kohhran Thianghlim",
+   "tier": "top",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 3,
+   "name": "Durtlang Hills",
+   "district": "Aizawl",
+   "category": "Viewpoint",
+   "g": "hills",
+   "lat": 23.78,
+   "lng": 92.73,
+   "why": "Hills with sunrise views over Aizawl",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 4,
+   "name": "Mizoram State Museum",
+   "district": "Aizawl",
+   "category": "Museum",
+   "g": "culture",
+   "lat": 23.73,
+   "lng": 92.72,
+   "why": "Mizo costumes, tools and history",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 5,
+   "name": "Bara Bazaar, Aizawl",
+   "district": "Aizawl",
+   "category": "Market",
+   "g": "culture",
+   "lat": 23.728,
+   "lng": 92.719,
+   "why": "Market of Mizo foods and weaves",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 6,
+   "name": "Reiek Tlang",
+   "district": "Mamit",
+   "category": "Hill",
+   "g": "hills",
+   "lat": 23.69,
+   "lng": 92.61,
+   "why": "Hill with a Mizo heritage village and Bangladesh views",
+   "tier": "top",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 7,
+   "name": "Hmuifang Tlang",
+   "district": "Aizawl",
+   "category": "Hill",
+   "g": "hills",
+   "lat": 23.47,
+   "lng": 92.76,
+   "why": "Forested hill with a resort and views",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 8,
+   "name": "Tamdil Lake",
+   "district": "Saitual",
+   "category": "Lake",
+   "g": "water",
+   "lat": 23.74,
+   "lng": 92.95,
+   "why": "Lake of a Mizo legend in pine forest",
+   "tier": "top",
+   "months": [
+    10,
+    4
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 9,
+   "name": "Vantawng Falls",
+   "district": "Serchhip",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 23.2146,
+   "lng": 92.7073,
+   "why": "Mizoram's tallest waterfall",
+   "tier": "top",
+   "months": [
+    7,
+    10
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 10,
+   "name": "Thenzawl",
+   "district": "Serchhip",
+   "category": "Village",
+   "g": "culture",
+   "lat": 23.29,
+   "lng": 92.76,
+   "why": "Weaving town of puan cloth and a golf course",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 11,
+   "name": "Champhai",
+   "district": "Champhai",
+   "category": "Town",
+   "g": "hills",
+   "lat": 23.46,
+   "lng": 93.33,
+   "why": "Rice bowl valley on the Myanmar border",
+   "tier": "top",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Overnight"
+  },
+  {
+   "n": 12,
+   "name": "Murlen National Park",
+   "district": "Champhai",
+   "category": "National park",
+   "g": "wildlife",
+   "lat": 23.64,
+   "lng": 93.27,
+   "why": "Dense forest of hornbills",
+   "tier": "top",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 13,
+   "name": "Lengteng Wildlife Sanctuary",
+   "district": "Champhai",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 23.7,
+   "lng": 93.2,
+   "why": "Forested peak sanctuary",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 14,
+   "name": "Kungawrhi Puk",
+   "district": "Champhai",
+   "category": "Cave",
+   "g": "caves",
+   "lat": 23.5,
+   "lng": 93.3,
+   "why": "Cave of a Mizo legend",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 15,
+   "name": "Mura Puk",
+   "district": "Champhai",
+   "category": "Cave",
+   "g": "caves",
+   "lat": 23.45,
+   "lng": 93.32,
+   "why": "Cave in the Champhai hills",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 16,
+   "name": "Phawngpui (Blue Mountain)",
+   "district": "Lawngtlai",
+   "category": "National park",
+   "g": "hills",
+   "lat": 22.63,
+   "lng": 93.03,
+   "why": "Mizoram's highest peak with rhododendrons",
+   "tier": "icon",
+   "months": [
+    10,
+    4
+   ],
+   "time": "2 days"
+  },
+  {
+   "n": 17,
+   "name": "Palak Dil",
+   "district": "Saiha",
+   "category": "Lake",
+   "g": "water",
+   "lat": 22.21,
+   "lng": 92.95,
+   "why": "Mizoram's largest natural lake",
+   "tier": "top",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 18,
+   "name": "Saiha",
+   "district": "Saiha",
+   "category": "Town",
+   "g": "culture",
+   "lat": 22.48,
+   "lng": 92.98,
+   "why": "Mara hill town",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 19,
+   "name": "Dampa Tiger Reserve",
+   "district": "Mamit",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 23.67,
+   "lng": 92.4,
+   "why": "Mizoram's tiger reserve with jungle walks",
+   "tier": "top",
+   "months": [
+    10,
+    4
+   ],
+   "time": "2 days"
+  },
+  {
+   "n": 20,
+   "name": "Lunglei",
+   "district": "Lunglei",
+   "category": "Town",
+   "g": "hills",
+   "lat": 22.88,
+   "lng": 92.74,
+   "why": "Second town, perched on a ridge",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 21,
+   "name": "Khawnglung Wildlife Sanctuary",
+   "district": "Hnahthial",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 23.05,
+   "lng": 92.9,
+   "why": "Sanctuary of a Mizo battle legend",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 22,
+   "name": "Thorangtlang Wildlife Sanctuary",
+   "district": "Lunglei",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 23.15,
+   "lng": 92.65,
+   "why": "Forest sanctuary",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 23,
+   "name": "Ngengpui Wildlife Sanctuary",
+   "district": "Lawngtlai",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 22.45,
+   "lng": 92.75,
+   "why": "Remote forest sanctuary",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 24,
+   "name": "Kawnpui",
+   "district": "Kolasib",
+   "category": "Town",
+   "g": "culture",
+   "lat": 24.08,
+   "lng": 92.7,
+   "why": "Highway town of the north",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 25,
+   "name": "Tlawng River",
+   "district": "Kolasib",
+   "category": "River",
+   "g": "water",
+   "lat": 24.05,
+   "lng": 92.68,
+   "why": "River for angling and rafting",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 26,
+   "name": "Sairang Railway Station",
+   "district": "Aizawl",
+   "category": "Engineering",
+   "g": "culture",
+   "lat": 23.81,
+   "lng": 92.66,
+   "why": "End of the new Bairabi–Sairang line that brought trains to Aizawl",
+   "tier": "top",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 27,
+   "name": "Bairabi–Sairang Bridges",
+   "district": "Kolasib",
+   "category": "Engineering",
+   "g": "water",
+   "lat": 23.95,
+   "lng": 92.68,
+   "why": "Tall railway bridges through the hills",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 28,
+   "name": "Sialsuk",
+   "district": "Aizawl",
+   "category": "Village",
+   "g": "hills",
+   "lat": 23.4,
+   "lng": 92.73,
+   "why": "Hill village of heritage stones",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 29,
+   "name": "Lamsial Puk",
+   "district": "Champhai",
+   "category": "Cave",
+   "g": "caves",
+   "lat": 23.48,
+   "lng": 93.31,
+   "why": "Cave with legends of a battle",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 30,
+   "name": "Lianchiari Lunglen Tlang",
+   "district": "Champhai",
+   "category": "Viewpoint",
+   "g": "hills",
+   "lat": 23.49,
+   "lng": 93.32,
+   "why": "Cliff of a tragic Mizo love story",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 31,
+   "name": "Kawlkulh",
+   "district": "Champhai",
+   "category": "Village",
+   "g": "culture",
+   "lat": 23.3,
+   "lng": 93.2,
+   "why": "Village with heritage terraces",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 32,
+   "name": "Chhingpui Thlan",
+   "district": "Serchhip",
+   "category": "Heritage",
+   "g": "culture",
+   "lat": 23.3,
+   "lng": 92.8,
+   "why": "Memorial of a tragic love story",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 33,
+   "name": "Pukzing Cave",
+   "district": "Mamit",
+   "category": "Cave",
+   "g": "caves",
+   "lat": 23.8,
+   "lng": 92.5,
+   "why": "Large natural cave in the west",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 34,
+   "name": "Tuirihiau Falls",
+   "district": "Serchhip",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 23.2526,
+   "lng": 92.7693,
+   "why": "Falls near Thenzawl",
+   "tier": "gem",
+   "months": [
+    7,
+    10
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 35,
+   "name": "Lawngtlai",
+   "district": "Lawngtlai",
+   "category": "Town",
+   "g": "culture",
+   "lat": 22.53,
+   "lng": 92.9,
+   "why": "Lai hill town on the Kaladan corridor",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 36,
+   "name": "Rengdil Lake",
+   "district": "Mamit",
+   "category": "Lake",
+   "g": "water",
+   "lat": 23.88,
+   "lng": 92.55,
+   "why": "Lake in the Mamit forests",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Zokhawthar",
+   "district": "Champhai",
+   "category": "Town",
+   "g": "culture",
+   "lat": 23.37,
+   "lng": 93.38,
+   "why": "Border town at the Tiau river crossing to Myanmar, near Rih Dil lake",
+   "tier": "gem",
+   "n": 37,
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  }
+ ],
+ "festivals": [
+  {
+   "name": "Chapchar Kut",
+   "months": [
+    3,
+    3
+   ],
+   "when": "March",
+   "n": 1,
+   "about": "Spring festival with the Cheraw bamboo dance."
+  },
+  {
+   "name": "Mim Kut",
+   "months": [
+    8,
+    9
+   ],
+   "when": "August or September",
+   "n": null,
+   "about": "Maize harvest festival honouring the departed."
+  },
+  {
+   "name": "Pawl Kut",
+   "months": [
+    12,
+    1
+   ],
+   "when": "December–January",
+   "n": null,
+   "about": "Harvest festival of feasting."
+  },
+  {
+   "name": "Anthurium Festival",
+   "months": [
+    9,
+    9
+   ],
+   "when": "September",
+   "n": 6,
+   "about": "Flower and culture festival at Reiek."
+  },
+  {
+   "name": "Christmas in Aizawl",
+   "months": [
+    12,
+    12
+   ],
+   "when": "December",
+   "n": 2,
+   "about": "The hill city lights up for a week of carols and services."
+  }
+ ]
+}

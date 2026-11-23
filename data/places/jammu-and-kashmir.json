@@ -1,1 +1,1663 @@
-{"name":"Jammu & Kashmir","intro":"Dal Lake's shikaras and houseboats, the Mughal gardens of Srinagar, Gulmarg's gondola and ski slopes, Sonamarg and Pahalgam, the Great Lakes trek, Vaishno Devi and Amarnath, Jammu's temples and palaces, and the Chenab rail bridge. Some Kashmir spots closed after the 2025 Pahalgam attack are reopening in phases, so check before you go.","bases":[["Srinagar",34.0837,74.7973],["Gulmarg",34.0484,74.3805],["Pahalgam",34.015,75.32],["Sonamarg",34.3,75.29],["Jammu",32.7266,74.857],["Katra",32.99,74.93]],"trails":[{"name":"Srinagar","note":"Lake, gardens, shrines and the old city.","ids":[1,3,4,5,6,7,8,9,10,11,14,15]},{"name":"Classic Kashmir","note":"Gulmarg, Sonamarg and Pahalgam.","ids":[20,21,22,27,28,34,35,36]},{"name":"South Kashmir heritage","note":"Saffron, sun temples and Mughal springs.","ids":[51,52,39,40,41,42,53]},{"name":"Jammu and the shrines","note":"Temples, palaces and Vaishno Devi.","ids":[64,65,66,67,60,62,61,69,72]},{"name":"Great Lakes","note":"Alpine lakes treks.","ids":[29,30,92]}],"places":[{"n":1,"name":"Dal Lake & Shikara Ride","district":"Srinagar","category":"Lake","g":"water","lat":34.11,"lng":74.87,"why":"Shikara rides past floating gardens and houseboats","tier":"icon","months":[4,10],"time":"2–3 hrs"},{"n":2,"name":"Nigeen Lake Houseboats","district":"Srinagar","category":"Lake","g":"water","lat":34.13,"lng":74.83,"why":"Quieter lake for houseboat stays","tier":"top","months":[4,10],"time":"2 hrs"},{"n":3,"name":"Floating Vegetable Market","district":"Srinagar","category":"Market","g":"culture","lat":34.09,"lng":74.84,"why":"Dawn market on boats","tier":"top","months":[4,10],"time":"1–2 hrs"},{"n":4,"name":"Shalimar Bagh","district":"Srinagar","category":"Garden","g":"heritage","lat":34.14,"lng":74.87,"why":"Jahangir's terraced Mughal garden","tier":"icon","months":[4,10],"time":"1–2 hrs"},{"n":5,"name":"Nishat Bagh","district":"Srinagar","category":"Garden","g":"heritage","lat":34.126,"lng":74.879,"why":"Twelve terraces between lake and mountains","tier":"icon","months":[4,10],"time":"1–2 hrs"},{"n":6,"name":"Chashme Shahi","district":"Srinagar","category":"Garden","g":"heritage","lat":34.088,"lng":74.879,"why":"Spring-fed Mughal garden","tier":"top","months":[4,10],"time":"1–2 hrs"},{"n":7,"name":"Pari Mahal","district":"Srinagar","category":"Heritage","g":"heritage","lat":34.09,"lng":74.871,"why":"Ruined palace-garden above the lake","tier":"top","months":[4,10],"time":"1–2 hrs"},{"n":8,"name":"Indira Gandhi Tulip Garden","district":"Srinagar","category":"Garden","g":"culture","lat":34.094,"lng":74.874,"why":"Asia's largest tulip garden, open in spring","tier":"icon","months":[3,4],"time":"1–2 hrs"},{"n":9,"name":"Hazratbal Shrine","district":"Srinagar","category":"Heritage","g":"temple","lat":34.129,"lng":74.838,"why":"White marble shrine on the lake","tier":"top","months":[4,10],"time":"1–2 hrs"},{"n":10,"name":"Jamia Masjid, Srinagar","district":"Srinagar","category":"Heritage","g":"heritage","lat":34.099,"lng":74.811,"why":"Wooden-pillared grand mosque","tier":"top","months":[4,10],"time":"1–2 hrs"},{"n":11,"name":"Shah-e-Hamadan (Khanqah-e-Moula)","district":"Srinagar","category":"Heritage","g":"heritage","lat":34.095,"lng":74.81,"why":"Papier-mâché wooden shrine on the Jhelum","tier":"top","months":[4,10],"time":"1–2 hrs"},{"n":12,"name":"Shankaracharya Temple","district":"Srinagar","category":"Temple","g":"temple","lat":34.079,"lng":74.837,"why":"Hilltop temple over the city","tier":"top","months":[4,10],"time":"1–2 hrs"},{"n":13,"name":"Hari Parbat Fort","district":"Srinagar","category":"Fort","g":"heritage","lat":34.11,"lng":74.81,"why":"Hill fort with shrines of three faiths","tier":"gem","months":[4,10],"time":"1–2 hrs"},{"n":14,"name":"Srinagar Old City Walk","district":"Srinagar","category":"Neighbourhood","g":"culture","lat":34.095,"lng":74.81,"why":"Wooden houses, bakeries and copper bazaars","tier":"top","months":[4,10],"time":"1–2 hrs"},{"n":15,"name":"Wazwan Feast","district":"Srinagar","category":"Food","g":"culture","lat":34.09,"lng":74.82,"why":"Kashmir's multi-course royal meal","tier":"icon","months":[4,10],"time":"Evening"},{"n":16,"name":"Kashmiri Crafts (Pashmina & Papier-mâché)","district":"Srinagar","category":"Craft","g":"culture","lat":34.09,"lng":74.81,"why":"Shawls, carpets and papier-mâché workshops","tier":"top","months":[4,10],"time":"1–2 hrs"},{"n":17,"name":"SPS Museum","district":"Srinagar","category":"Museum","g":"culture","lat":34.07,"lng":74.82,"why":"State museum of Kashmiri art","tier":"gem","months":[4,10],"time":"1–2 hrs"},{"n":18,"name":"Botanical Garden & Cheshma Shahi area","district":"Srinagar","category":"Garden","g":"culture","lat":34.095,"lng":74.875,"why":"Garden below the Zabarwan hills","tier":"gem","months":[4,10],"time":"1–2 hrs"},{"n":19,"name":"Dachigam National Park","district":"Srinagar","category":"National park","g":"wildlife","lat":34.14,"lng":75.0,"why":"Home of the hangul deer (check if open)","tier":"gem","months":[4,10],"time":"Half day"},{"n":20,"name":"Gulmarg","district":"Baramulla","category":"Hill station","g":"hills","lat":34.0484,"lng":74.3805,"why":"Meadow of flowers and India's top ski slopes. Some Kashmir spots are still closed after 2025, so check before going","tier":"icon","months":[12,6],"time":"2 days"},{"n":21,"name":"Gulmarg Gondola","district":"Baramulla","category":"Ropeway","g":"hills","lat":34.04,"lng":74.37,"why":"One of the world's highest cable cars to Apharwat. Some Kashmir spots are still closed after 2025, so check before going","tier":"icon","months":[12,6],"time":"Half day"},{"n":22,"name":"Khilanmarg","district":"Baramulla","category":"Meadow","g":"hills","lat":34.03,"lng":74.36,"why":"Meadow walk above Gulmarg. Some Kashmir spots are still closed after 2025, so check before going","tier":"top","months":[4,10],"time":"Half day"},{"n":23,"name":"Alpather Lake","district":"Baramulla","category":"Lake","g":"water","lat":34.01,"lng":74.33,"why":"Frozen lake below Apharwat. Some Kashmir spots are still closed after 2025, so check before going","tier":"gem","months":[4,10],"time":"2 hrs"},{"n":24,"name":"Wular Lake","district":"Bandipora","category":"Lake","g":"water","lat":34.36,"lng":74.6,"why":"One of Asia's largest freshwater lakes. Some Kashmir spots are still closed after 2025, so check before going","tier":"top","months":[4,10],"time":"2 hrs"},{"n":25,"name":"Gurez Valley","district":"Bandipora","category":"Valley","g":"hills","lat":34.63,"lng":74.84,"why":"Remote Dard valley below Habba Khatoon peak. Some Kashmir spots are still closed after 2025, so check before going","tier":"top","months":[5,10],"time":"2 days"},{"n":26,"name":"Manasbal Lake","district":"Ganderbal","category":"Lake","g":"water","lat":34.25,"lng":74.67,"why":"Lotus lake with a Mughal garden. Some Kashmir spots are still closed after 2025, so check before going","tier":"gem","months":[4,10],"time":"2 hrs"},{"n":27,"name":"Sonamarg","district":"Ganderbal","category":"Hill station","g":"hills","lat":34.3,"lng":75.29,"why":"Meadow of gold below glaciers. Some Kashmir spots are still closed after 2025, so check before going","tier":"icon","months":[4,10],"time":"Full day"},{"n":28,"name":"Thajiwas Glacier","district":"Ganderbal","category":"Glacier","g":"hills","lat":34.28,"lng":75.3,"why":"Pony ride to a glacier from Sonamarg. Some Kashmir spots are still closed after 2025, so check before going","tier":"top","months":[4,10],"time":"Half day"},{"n":29,"name":"Kashmir Great Lakes Trek","district":"Ganderbal","category":"Trek","g":"hills","lat":34.35,"lng":75.1,"why":"Classic alpine lakes trek. Some Kashmir spots are still closed after 2025, so check before going","tier":"icon","months":[7,9],"time":"7–8 days"},{"n":30,"name":"Gangabal Lake","district":"Ganderbal","category":"Lake","g":"water","lat":34.43,"lng":74.93,"why":"Sacred lake below Harmukh. Some Kashmir spots are still closed after 2025, so check before going","tier":"top","months":[7,9],"time":"2 hrs"},{"n":31,"name":"Naranag Temples","district":"Ganderbal","category":"Temple","g":"temple","lat":34.35,"lng":74.98,"why":"Ancient stone temple ruins","tier":"gem","months":[4,10],"time":"1–2 hrs"},{"n":32,"name":"Kheer Bhawani Temple","district":"Ganderbal","category":"Temple","g":"temple","lat":34.21,"lng":74.78,"why":"Spring temple of the Kashmiri Pandits","tier":"top","months":[4,10],"time":"1–2 hrs"},{"n":33,"name":"Zojila Pass","district":"Ganderbal","category":"Pass","g":"hills","lat":34.2528,"lng":75.4539,"why":"High pass to Ladakh. Some Kashmir spots are still closed after 2025, so check before going","tier":"top","months":[5,10],"time":"Half day"},{"n":34,"name":"Pahalgam","district":"Anantnag","category":"Hill station","g":"hills","lat":34.015,"lng":75.32,"why":"Lidder valley town of pines (check open spots). Some Kashmir spots are still closed after 2025, so check before going","tier":"icon","months":[4,10],"time":"2 days"},{"n":35,"name":"Aru Valley","district":"Anantnag","category":"Valley","g":"hills","lat":34.09,"lng":75.26,"why":"Meadow village above Pahalgam. Some Kashmir spots are still closed after 2025, so check before going","tier":"top","months":[4,10],"time":"Half day"},{"n":36,"name":"Betaab Valley","district":"Anantnag","category":"Valley","g":"hills","lat":34.05,"lng":75.36,"why":"Film-famous valley on the Lidder. Some Kashmir spots are still closed after 2025, so check before going","tier":"top","months":[4,10],"time":"Half day"},{"n":37,"name":"Lidder River Rafting","district":"Anantnag","category":"Adventure","g":"water","lat":33.95,"lng":75.26,"why":"Rafting near Pahalgam. Some Kashmir spots are still closed after 2025, so check before going","tier":"gem","months":[4,10],"time":"2 hrs"},{"n":38,"name":"Kolahoi Glacier Trek","district":"Anantnag","category":"Trek","g":"hills","lat":34.18,"lng":75.3,"why":"Trek from Aru to Kolahoi. Some Kashmir spots are still closed after 2025, so check before going","tier":"gem","months":[7,9],"time":"Half day"},{"n":39,"name":"Martand Sun Temple","district":"Anantnag","category":"Temple","g":"temple","lat":33.745,"lng":75.22,"why":"8th-century sun temple ruins","tier":"top","months":[4,10],"time":"1–2 hrs"},{"n":40,"name":"Achabal Gardens","district":"Anantnag","category":"Garden","g":"heritage","lat":33.68,"lng":75.22,"why":"Nur Jahan's spring garden","tier":"top","months":[4,10],"time":"1–2 hrs"},{"n":41,"name":"Kokernag","district":"Anantnag","category":"Garden","g":"water","lat":33.58,"lng":75.3,"why":"Springs and trout garden. Some Kashmir spots are still closed after 2025, so check before going","tier":"gem","months":[4,10],"time":"2 hrs"},{"n":42,"name":"Verinag","district":"Anantnag","category":"Heritage","g":"water","lat":33.54,"lng":75.25,"why":"Source of the Jhelum in a Mughal tank. Some Kashmir spots are still closed after 2025, so check before going","tier":"top","months":[4,10],"time":"2 hrs"},{"n":43,"name":"Daksum","district":"Anantnag","category":"Forest","g":"hills","lat":33.61,"lng":75.44,"why":"Forest glade by a stream. Some Kashmir spots are still closed after 2025, so check before going","tier":"gem","months":[4,10],"time":"Half day"},{"n":44,"name":"Sinthan Top","district":"Anantnag","category":"Pass","g":"hills","lat":33.58,"lng":75.5,"why":"Snowy pass to Kishtwar. Some Kashmir spots are still closed after 2025, so check before going","tier":"gem","months":[5,10],"time":"Half day"},{"n":45,"name":"Amarnath Cave","district":"Anantnag","category":"Pilgrimage","g":"temple","lat":34.214,"lng":75.501,"why":"Ice lingam cave of the summer yatra","tier":"icon","months":[7,8],"time":"3–4 days (yatra)"},{"n":46,"name":"Mattan & Bumzu Caves","district":"Anantnag","category":"Temple","g":"temple","lat":33.78,"lng":75.24,"why":"Spring temple and caves","tier":"gem","months":[4,10],"time":"1–2 hrs"},{"n":47,"name":"Yusmarg","district":"Budgam","category":"Meadow","g":"hills","lat":33.83,"lng":74.66,"why":"Pine-ringed meadow. Some Kashmir spots are still closed after 2025, so check before going","tier":"top","months":[4,10],"time":"Half day"},{"n":48,"name":"Doodhpathri","district":"Budgam","category":"Meadow","g":"hills","lat":33.87,"lng":74.56,"why":"Milky meadows and streams. Some Kashmir spots are still closed after 2025, so check before going","tier":"top","months":[4,10],"time":"Half day"},{"n":49,"name":"Tosa Maidan","district":"Budgam","category":"Meadow","g":"hills","lat":33.9,"lng":74.45,"why":"Vast meadow reopened after decades. Some Kashmir spots are still closed after 2025, so check before going","tier":"gem","months":[4,10],"time":"Half day"},{"n":50,"name":"Chrar-i-Sharief","district":"Budgam","category":"Dargah","g":"temple","lat":33.86,"lng":74.77,"why":"Shrine of Sheikh Noor-ud-din","tier":"gem","months":[4,10],"time":"1–2 hrs"},{"n":51,"name":"Pampore Saffron Fields","district":"Pulwama","category":"Farm","g":"culture","lat":34.01,"lng":74.93,"why":"Purple saffron blooms in autumn","tier":"top","months":[10,11],"time":"1–2 hrs"},{"n":52,"name":"Awantipora Temples","district":"Pulwama","category":"Temple","g":"temple","lat":33.92,"lng":75.01,"why":"9th-century Avantiswami temple ruins","tier":"top","months":[4,10],"time":"1–2 hrs"},{"n":53,"name":"Aharbal Falls","district":"Kulgam","category":"Waterfall","g":"water","lat":33.64,"lng":74.79,"why":"Kashmir's Niagara on the Veshaw. Some Kashmir spots are still closed after 2025, so check before going","tier":"top","months":[4,10],"time":"2 hrs"},{"n":54,"name":"Kausar Nag","district":"Kulgam","category":"Trek","g":"hills","lat":33.53,"lng":74.77,"why":"High lake trek beyond Aharbal. Some Kashmir spots are still closed after 2025, so check before going","tier":"gem","months":[7,9],"time":"Half day"},{"n":55,"name":"Peer ki Gali","district":"Shopian","category":"Pass","g":"hills","lat":33.63,"lng":74.53,"why":"Mughal Road pass. Some Kashmir spots are still closed after 2025, so check before going","tier":"top","months":[5,10],"time":"Half day"},{"n":56,"name":"Mughal Road","district":"Shopian","category":"Road","g":"hills","lat":33.63,"lng":74.5,"why":"Scenic road from Shopian to Poonch. Some Kashmir spots are still closed after 2025, so check before going","tier":"top","months":[5,10],"time":"Half day"},{"n":57,"name":"Lolab Valley","district":"Kupwara","category":"Valley","g":"hills","lat":34.5,"lng":74.33,"why":"Valley of love of orchards. Some Kashmir spots are still closed after 2025, so check before going","tier":"gem","months":[4,10],"time":"Half day"},{"n":58,"name":"Bangus Valley","district":"Kupwara","category":"Valley","g":"hills","lat":34.37,"lng":74.05,"why":"Remote meadows (check if open). Some Kashmir spots are still closed after 2025, so check before going","tier":"gem","months":[4,10],"time":"Half day"},{"n":59,"name":"Keran & Teetwal","district":"Kupwara","category":"Village","g":"culture","lat":34.65,"lng":73.95,"why":"Border villages on the Kishanganga","tier":"gem","months":[4,10],"time":"1–2 hrs"},{"n":60,"name":"Vaishno Devi","district":"Reasi","category":"Temple","g":"temple","lat":33.03,"lng":74.95,"why":"Cave shrine of the goddess, India's busiest pilgrimage","tier":"icon","months":[1,12],"time":"Full day"},{"n":61,"name":"Chenab Rail Bridge","district":"Reasi","category":"Engineering","g":"water","lat":33.15,"lng":74.88,"why":"World's highest railway arch bridge","tier":"top","months":[10,4],"time":"2 hrs"},{"n":62,"name":"Shiv Khori","district":"Reasi","category":"Caves","g":"temple","lat":33.25,"lng":74.75,"why":"Cave shrine of Shiva","tier":"top","months":[10,4],"time":"1–2 hrs"},{"n":63,"name":"Siyad Baba Falls","district":"Reasi","category":"Waterfall","g":"water","lat":33.08,"lng":74.83,"why":"Falls near Reasi","tier":"gem","months":[10,4],"time":"2 hrs"},{"n":64,"name":"Raghunath Temple, Jammu","district":"Jammu","category":"Temple","g":"temple","lat":32.73,"lng":74.86,"why":"Golden-spired temple complex","tier":"top","months":[10,4],"time":"1–2 hrs"},{"n":65,"name":"Bahu Fort & Bagh-e-Bahu","district":"Jammu","category":"Fort","g":"heritage","lat":32.72,"lng":74.88,"why":"Fort temple and terraced garden","tier":"top","months":[10,4],"time":"1–2 hrs"},{"n":66,"name":"Mubarak Mandi Palace","district":"Jammu","category":"Heritage","g":"heritage","lat":32.73,"lng":74.87,"why":"Dogra palace complex","tier":"top","months":[10,4],"time":"1–2 hrs"},{"n":67,"name":"Amar Mahal Museum","district":"Jammu","category":"Museum","g":"culture","lat":32.74,"lng":74.87,"why":"Palace museum with a golden throne","tier":"top","months":[10,4],"time":"1–2 hrs"},{"n":68,"name":"Peer Khoh Cave","district":"Jammu","category":"Caves","g":"temple","lat":32.74,"lng":74.85,"why":"Cave shrine on the Tawi","tier":"gem","months":[10,4],"time":"1–2 hrs"},{"n":69,"name":"Mansar Lake","district":"Samba","category":"Lake","g":"water","lat":32.7,"lng":75.15,"why":"Sacred lake with boating","tier":"top","months":[10,4],"time":"2 hrs"},{"n":70,"name":"Surinsar Lake","district":"Jammu","category":"Lake","g":"water","lat":32.77,"lng":75.04,"why":"Forest lake","tier":"gem","months":[10,4],"time":"2 hrs"},{"n":71,"name":"Purmandal","district":"Samba","category":"Temple","g":"temple","lat":32.65,"lng":75.04,"why":"Chhota Kashi of temples","tier":"gem","months":[10,4],"time":"1–2 hrs"},{"n":72,"name":"Patnitop","district":"Udhampur","category":"Hill station","g":"hills","lat":33.09,"lng":75.33,"why":"Pine meadows on the old highway","tier":"top","months":[10,4],"time":"Half day"},{"n":73,"name":"Sanasar","district":"Ramban","category":"Meadow","g":"hills","lat":33.15,"lng":75.27,"why":"Paragliding meadows","tier":"gem","months":[10,4],"time":"Half day"},{"n":74,"name":"Nathatop","district":"Udhampur","category":"Hill","g":"hills","lat":33.09,"lng":75.36,"why":"Snowy hilltop near Patnitop","tier":"gem","months":[10,4],"time":"Half day"},{"n":75,"name":"Sudhmahadev","district":"Udhampur","category":"Temple","g":"temple","lat":33.03,"lng":75.32,"why":"Ancient Shiva temple","tier":"gem","months":[10,4],"time":"1–2 hrs"},{"n":76,"name":"Krimchi Temples","district":"Udhampur","category":"Temple","g":"temple","lat":32.95,"lng":75.16,"why":"Early medieval temples","tier":"gem","months":[10,4],"time":"1–2 hrs"},{"n":77,"name":"Bhaderwah","district":"Doda","category":"Hill station","g":"hills","lat":32.98,"lng":75.72,"why":"Mini Kashmir of meadows","tier":"top","months":[10,4],"time":"Half day"},{"n":78,"name":"Guldanda","district":"Doda","category":"Meadow","g":"hills","lat":32.95,"lng":75.8,"why":"High meadow above Bhaderwah","tier":"gem","months":[10,4],"time":"Half day"},{"n":79,"name":"Jai Valley","district":"Doda","category":"Valley","g":"hills","lat":33.03,"lng":75.65,"why":"Grassy valley","tier":"gem","months":[10,4],"time":"Half day"},{"n":80,"name":"Kishtwar National Park","district":"Kishtwar","category":"National park","g":"wildlife","lat":33.55,"lng":75.9,"why":"Remote high park","tier":"gem","months":[10,4],"time":"Half day"},{"n":81,"name":"Paddar & Machail","district":"Kishtwar","category":"Temple","g":"temple","lat":33.38,"lng":76.34,"why":"Sapphire valley and Machail Mata shrine","tier":"gem","months":[10,4],"time":"1–2 hrs"},{"n":82,"name":"Dhagger","district":"Kathua","category":"Hill","g":"hills","lat":32.6,"lng":75.6,"why":"Grassy hill views","tier":"gem","months":[10,4],"time":"Half day"},{"n":83,"name":"Sarthal","district":"Kishtwar","category":"Meadow","g":"hills","lat":33.43,"lng":75.78,"why":"Hill meadow and shrine","tier":"gem","months":[10,4],"time":"Half day"},{"n":84,"name":"Bani & Basohli","district":"Kathua","category":"Heritage","g":"culture","lat":32.5,"lng":75.8,"why":"Basohli painting town","tier":"gem","months":[10,4],"time":"1–2 hrs"},{"n":85,"name":"Poonch Fort","district":"Poonch","category":"Fort","g":"heritage","lat":33.77,"lng":74.09,"why":"Old fort of Poonch","tier":"gem","months":[10,4],"time":"1–2 hrs"},{"n":86,"name":"Buddha Amarnath","district":"Poonch","category":"Temple","g":"temple","lat":33.63,"lng":74.2,"why":"Shiva temple on a river","tier":"gem","months":[10,4],"time":"1–2 hrs"},{"n":87,"name":"Girgan Dhok","district":"Poonch","category":"Meadow","g":"hills","lat":33.7,"lng":74.4,"why":"Meadow on the Mughal Road","tier":"gem","months":[10,4],"time":"Half day"},{"n":88,"name":"Dera ki Gali","district":"Rajouri","category":"Forest","g":"hills","lat":33.42,"lng":74.26,"why":"Forest pass","tier":"gem","months":[10,4],"time":"Half day"},{"n":89,"name":"Shahdara Sharif","district":"Rajouri","category":"Dargah","g":"temple","lat":33.4,"lng":74.32,"why":"Sufi shrine","tier":"gem","months":[10,4],"time":"1–2 hrs"},{"n":90,"name":"Chatpal","district":"Anantnag","category":"Village","g":"hills","lat":33.58,"lng":75.4,"why":"Quiet glade near Daksum. Some Kashmir spots are still closed after 2025, so check before going","tier":"gem","months":[4,10],"time":"Half day"},{"n":91,"name":"Sheshnag Lake","district":"Anantnag","category":"Lake","g":"water","lat":34.1,"lng":75.49,"why":"Lake on the Amarnath route. Some Kashmir spots are still closed after 2025, so check before going","tier":"top","months":[7,8],"time":"2 hrs"},{"n":92,"name":"Tarsar Marsar Trek","district":"Anantnag","category":"Trek","g":"hills","lat":34.13,"lng":75.15,"why":"Twin lake trek from Aru. Some Kashmir spots are still closed after 2025, so check before going","tier":"top","months":[7,9],"time":"6 days"}],"festivals":[{"name":"Tulip Festival","months":[3,4],"when":"Late March to April","n":8,"about":"Over a million tulips bloom below the Zabarwan hills."},{"name":"Amarnath Yatra","months":[7,8],"when":"July–August","n":45,"about":"Pilgrimage to the ice lingam via Pahalgam or Baltal."},{"name":"Navratri at Vaishno Devi","months":[9,10],"when":"September or October","n":60,"about":"Peak pilgrimage to the cave shrine."},{"name":"Kheer Bhawani Mela","months":[5,6],"when":"Jyeshtha Ashtami, May or June","n":32,"about":"Kashmiri Pandit gathering at the spring temple."},{"name":"Saffron Festival","months":[10,11],"when":"October–November","n":51,"about":"Saffron harvest at Pampore."},{"name":"Gulmarg Winter Festival","months":[1,2],"when":"Winter","n":20,"about":"Skiing and snow festival."},{"name":"Baisakhi in Jammu","months":[4,4],"when":"13–14 April","n":64,"about":"Harvest fairs across Jammu."},{"name":"Lohri in Jammu","months":[1,1],"when":"13 January","n":null,"about":"Bonfires and Chajja dances."}]}
+{
+ "name": "Jammu & Kashmir",
+ "intro": "Dal Lake's shikaras and houseboats, the Mughal gardens of Srinagar, Gulmarg's gondola and ski slopes, Sonamarg and Pahalgam, the Great Lakes trek, Vaishno Devi and Amarnath, Jammu's temples and palaces, and the Chenab rail bridge. Some Kashmir spots closed after the 2025 Pahalgam attack are reopening in phases, so check before you go.",
+ "bases": [
+  [
+   "Srinagar",
+   34.0837,
+   74.7973
+  ],
+  [
+   "Gulmarg",
+   34.0484,
+   74.3805
+  ],
+  [
+   "Pahalgam",
+   34.015,
+   75.32
+  ],
+  [
+   "Sonamarg",
+   34.3,
+   75.29
+  ],
+  [
+   "Jammu",
+   32.7266,
+   74.857
+  ],
+  [
+   "Katra",
+   32.99,
+   74.93
+  ]
+ ],
+ "trails": [
+  {
+   "name": "Srinagar",
+   "note": "Lake, gardens, shrines and the old city.",
+   "ids": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    14,
+    15
+   ]
+  },
+  {
+   "name": "Classic Kashmir",
+   "note": "Gulmarg, Sonamarg and Pahalgam.",
+   "ids": [
+    20,
+    21,
+    22,
+    27,
+    28,
+    34,
+    35,
+    36
+   ]
+  },
+  {
+   "name": "South Kashmir heritage",
+   "note": "Saffron, sun temples and Mughal springs.",
+   "ids": [
+    51,
+    52,
+    39,
+    40,
+    41,
+    42,
+    53
+   ]
+  },
+  {
+   "name": "Jammu and the shrines",
+   "note": "Temples, palaces and Vaishno Devi.",
+   "ids": [
+    64,
+    65,
+    66,
+    67,
+    60,
+    62,
+    61,
+    69,
+    72
+   ]
+  },
+  {
+   "name": "Great Lakes",
+   "note": "Alpine lakes treks.",
+   "ids": [
+    29,
+    30,
+    92
+   ]
+  }
+ ],
+ "places": [
+  {
+   "n": 1,
+   "name": "Dal Lake & Shikara Ride",
+   "district": "Srinagar",
+   "category": "Lake",
+   "g": "water",
+   "lat": 34.11,
+   "lng": 74.87,
+   "why": "Shikara rides past floating gardens and houseboats",
+   "tier": "icon",
+   "months": [
+    4,
+    10
+   ],
+   "time": "2–3 hrs"
+  },
+  {
+   "n": 2,
+   "name": "Nigeen Lake Houseboats",
+   "district": "Srinagar",
+   "category": "Lake",
+   "g": "water",
+   "lat": 34.13,
+   "lng": 74.83,
+   "why": "Quieter lake for houseboat stays",
+   "tier": "top",
+   "months": [
+    4,
+    10
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 3,
+   "name": "Floating Vegetable Market",
+   "district": "Srinagar",
+   "category": "Market",
+   "g": "culture",
+   "lat": 34.09,
+   "lng": 74.84,
+   "why": "Dawn market on boats",
+   "tier": "top",
+   "months": [
+    4,
+    10
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 4,
+   "name": "Shalimar Bagh",
+   "district": "Srinagar",
+   "category": "Garden",
+   "g": "heritage",
+   "lat": 34.14,
+   "lng": 74.87,
+   "why": "Jahangir's terraced Mughal garden",
+   "tier": "icon",
+   "months": [
+    4,
+    10
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 5,
+   "name": "Nishat Bagh",
+   "district": "Srinagar",
+   "category": "Garden",
+   "g": "heritage",
+   "lat": 34.126,
+   "lng": 74.879,
+   "why": "Twelve terraces between lake and mountains",
+   "tier": "icon",
+   "months": [
+    4,
+    10
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 6,
+   "name": "Chashme Shahi",
+   "district": "Srinagar",
+   "category": "Garden",
+   "g": "heritage",
+   "lat": 34.088,
+   "lng": 74.879,
+   "why": "Spring-fed Mughal garden",
+   "tier": "top",
+   "months": [
+    4,
+    10
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 7,
+   "name": "Pari Mahal",
+   "district": "Srinagar",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 34.09,
+   "lng": 74.871,
+   "why": "Ruined palace-garden above the lake",
+   "tier": "top",
+   "months": [
+    4,
+    10
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 8,
+   "name": "Indira Gandhi Tulip Garden",
+   "district": "Srinagar",
+   "category": "Garden",
+   "g": "culture",
+   "lat": 34.094,
+   "lng": 74.874,
+   "why": "Asia's largest tulip garden, open in spring",
+   "tier": "icon",
+   "months": [
+    3,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 9,
+   "name": "Hazratbal Shrine",
+   "district": "Srinagar",
+   "category": "Heritage",
+   "g": "temple",
+   "lat": 34.129,
+   "lng": 74.838,
+   "why": "White marble shrine on the lake",
+   "tier": "top",
+   "months": [
+    4,
+    10
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 10,
+   "name": "Jamia Masjid, Srinagar",
+   "district": "Srinagar",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 34.099,
+   "lng": 74.811,
+   "why": "Wooden-pillared grand mosque",
+   "tier": "top",
+   "months": [
+    4,
+    10
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 11,
+   "name": "Shah-e-Hamadan (Khanqah-e-Moula)",
+   "district": "Srinagar",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 34.095,
+   "lng": 74.81,
+   "why": "Papier-mâché wooden shrine on the Jhelum",
+   "tier": "top",
+   "months": [
+    4,
+    10
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 12,
+   "name": "Shankaracharya Temple",
+   "district": "Srinagar",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 34.079,
+   "lng": 74.837,
+   "why": "Hilltop temple over the city",
+   "tier": "top",
+   "months": [
+    4,
+    10
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 13,
+   "name": "Hari Parbat Fort",
+   "district": "Srinagar",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 34.11,
+   "lng": 74.81,
+   "why": "Hill fort with shrines of three faiths",
+   "tier": "gem",
+   "months": [
+    4,
+    10
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 14,
+   "name": "Srinagar Old City Walk",
+   "district": "Srinagar",
+   "category": "Neighbourhood",
+   "g": "culture",
+   "lat": 34.095,
+   "lng": 74.81,
+   "why": "Wooden houses, bakeries and copper bazaars",
+   "tier": "top",
+   "months": [
+    4,
+    10
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 15,
+   "name": "Wazwan Feast",
+   "district": "Srinagar",
+   "category": "Food",
+   "g": "culture",
+   "lat": 34.09,
+   "lng": 74.82,
+   "why": "Kashmir's multi-course royal meal",
+   "tier": "icon",
+   "months": [
+    4,
+    10
+   ],
+   "time": "Evening"
+  },
+  {
+   "n": 16,
+   "name": "Kashmiri Crafts (Pashmina & Papier-mâché)",
+   "district": "Srinagar",
+   "category": "Craft",
+   "g": "culture",
+   "lat": 34.09,
+   "lng": 74.81,
+   "why": "Shawls, carpets and papier-mâché workshops",
+   "tier": "top",
+   "months": [
+    4,
+    10
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 17,
+   "name": "SPS Museum",
+   "district": "Srinagar",
+   "category": "Museum",
+   "g": "culture",
+   "lat": 34.07,
+   "lng": 74.82,
+   "why": "State museum of Kashmiri art",
+   "tier": "gem",
+   "months": [
+    4,
+    10
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 18,
+   "name": "Botanical Garden & Cheshma Shahi area",
+   "district": "Srinagar",
+   "category": "Garden",
+   "g": "culture",
+   "lat": 34.095,
+   "lng": 74.875,
+   "why": "Garden below the Zabarwan hills",
+   "tier": "gem",
+   "months": [
+    4,
+    10
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 19,
+   "name": "Dachigam National Park",
+   "district": "Srinagar",
+   "category": "National park",
+   "g": "wildlife",
+   "lat": 34.0846,
+   "lng": 74.9813,
+   "why": "Home of the hangul deer (check if open)",
+   "tier": "gem",
+   "months": [
+    4,
+    10
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 20,
+   "name": "Gulmarg",
+   "district": "Baramulla",
+   "category": "Hill station",
+   "g": "hills",
+   "lat": 34.0484,
+   "lng": 74.3805,
+   "why": "Meadow of flowers and India's top ski slopes. Some Kashmir spots are still closed after 2025, so check before going",
+   "tier": "icon",
+   "months": [
+    12,
+    6
+   ],
+   "time": "2 days"
+  },
+  {
+   "n": 21,
+   "name": "Gulmarg Gondola",
+   "district": "Baramulla",
+   "category": "Ropeway",
+   "g": "hills",
+   "lat": 34.04,
+   "lng": 74.37,
+   "why": "One of the world's highest cable cars to Apharwat. Some Kashmir spots are still closed after 2025, so check before going",
+   "tier": "icon",
+   "months": [
+    12,
+    6
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 22,
+   "name": "Khilanmarg",
+   "district": "Baramulla",
+   "category": "Meadow",
+   "g": "hills",
+   "lat": 34.03,
+   "lng": 74.36,
+   "why": "Meadow walk above Gulmarg. Some Kashmir spots are still closed after 2025, so check before going",
+   "tier": "top",
+   "months": [
+    4,
+    10
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 23,
+   "name": "Alpather Lake",
+   "district": "Baramulla",
+   "category": "Lake",
+   "g": "water",
+   "lat": 34.01,
+   "lng": 74.33,
+   "why": "Frozen lake below Apharwat. Some Kashmir spots are still closed after 2025, so check before going",
+   "tier": "gem",
+   "months": [
+    4,
+    10
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 24,
+   "name": "Wular Lake",
+   "district": "Bandipora",
+   "category": "Lake",
+   "g": "water",
+   "lat": 34.36,
+   "lng": 74.6,
+   "why": "One of Asia's largest freshwater lakes. Some Kashmir spots are still closed after 2025, so check before going",
+   "tier": "top",
+   "months": [
+    4,
+    10
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 25,
+   "name": "Gurez Valley",
+   "district": "Bandipora",
+   "category": "Valley",
+   "g": "hills",
+   "lat": 34.63,
+   "lng": 74.84,
+   "why": "Remote Dard valley below Habba Khatoon peak. Some Kashmir spots are still closed after 2025, so check before going",
+   "tier": "top",
+   "months": [
+    5,
+    10
+   ],
+   "time": "2 days"
+  },
+  {
+   "n": 26,
+   "name": "Manasbal Lake",
+   "district": "Ganderbal",
+   "category": "Lake",
+   "g": "water",
+   "lat": 34.26,
+   "lng": 74.67,
+   "why": "Lotus lake with a Mughal garden. Some Kashmir spots are still closed after 2025, so check before going",
+   "tier": "gem",
+   "months": [
+    4,
+    10
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 27,
+   "name": "Sonamarg",
+   "district": "Ganderbal",
+   "category": "Hill station",
+   "g": "hills",
+   "lat": 34.3,
+   "lng": 75.29,
+   "why": "Meadow of gold below glaciers. Some Kashmir spots are still closed after 2025, so check before going",
+   "tier": "icon",
+   "months": [
+    4,
+    10
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 28,
+   "name": "Thajiwas Glacier",
+   "district": "Ganderbal",
+   "category": "Glacier",
+   "g": "hills",
+   "lat": 34.28,
+   "lng": 75.3,
+   "why": "Pony ride to a glacier from Sonamarg. Some Kashmir spots are still closed after 2025, so check before going",
+   "tier": "top",
+   "months": [
+    4,
+    10
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 29,
+   "name": "Kashmir Great Lakes Trek",
+   "district": "Ganderbal",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 34.35,
+   "lng": 75.1,
+   "why": "Classic alpine lakes trek. Some Kashmir spots are still closed after 2025, so check before going",
+   "tier": "icon",
+   "months": [
+    7,
+    9
+   ],
+   "time": "7–8 days"
+  },
+  {
+   "n": 30,
+   "name": "Gangabal Lake",
+   "district": "Ganderbal",
+   "category": "Lake",
+   "g": "water",
+   "lat": 34.43,
+   "lng": 74.93,
+   "why": "Sacred lake below Harmukh. Some Kashmir spots are still closed after 2025, so check before going",
+   "tier": "top",
+   "months": [
+    7,
+    9
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 31,
+   "name": "Naranag Temples",
+   "district": "Ganderbal",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 34.35,
+   "lng": 74.98,
+   "why": "Ancient stone temple ruins",
+   "tier": "gem",
+   "months": [
+    4,
+    10
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 32,
+   "name": "Kheer Bhawani Temple",
+   "district": "Ganderbal",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 34.21,
+   "lng": 74.78,
+   "why": "Spring temple of the Kashmiri Pandits",
+   "tier": "top",
+   "months": [
+    4,
+    10
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 33,
+   "name": "Zojila Pass",
+   "district": "Ganderbal",
+   "category": "Pass",
+   "g": "hills",
+   "lat": 34.2528,
+   "lng": 75.4539,
+   "why": "High pass to Ladakh. Some Kashmir spots are still closed after 2025, so check before going",
+   "tier": "top",
+   "months": [
+    5,
+    10
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 34,
+   "name": "Pahalgam",
+   "district": "Anantnag",
+   "category": "Hill station",
+   "g": "hills",
+   "lat": 34.015,
+   "lng": 75.32,
+   "why": "Lidder valley town of pines (check open spots). Some Kashmir spots are still closed after 2025, so check before going",
+   "tier": "icon",
+   "months": [
+    4,
+    10
+   ],
+   "time": "2 days"
+  },
+  {
+   "n": 35,
+   "name": "Aru Valley",
+   "district": "Anantnag",
+   "category": "Valley",
+   "g": "hills",
+   "lat": 34.09,
+   "lng": 75.26,
+   "why": "Meadow village above Pahalgam. Some Kashmir spots are still closed after 2025, so check before going",
+   "tier": "top",
+   "months": [
+    4,
+    10
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 36,
+   "name": "Betaab Valley",
+   "district": "Anantnag",
+   "category": "Valley",
+   "g": "hills",
+   "lat": 34.05,
+   "lng": 75.36,
+   "why": "Film-famous valley on the Lidder. Some Kashmir spots are still closed after 2025, so check before going",
+   "tier": "top",
+   "months": [
+    4,
+    10
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 37,
+   "name": "Lidder River Rafting",
+   "district": "Anantnag",
+   "category": "Adventure",
+   "g": "water",
+   "lat": 33.95,
+   "lng": 75.26,
+   "why": "Rafting near Pahalgam. Some Kashmir spots are still closed after 2025, so check before going",
+   "tier": "gem",
+   "months": [
+    4,
+    10
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 38,
+   "name": "Kolahoi Glacier Trek",
+   "district": "Anantnag",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 34.18,
+   "lng": 75.3,
+   "why": "Trek from Aru to Kolahoi. Some Kashmir spots are still closed after 2025, so check before going",
+   "tier": "gem",
+   "months": [
+    7,
+    9
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 39,
+   "name": "Martand Sun Temple",
+   "district": "Anantnag",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 33.745,
+   "lng": 75.22,
+   "why": "8th-century sun temple ruins",
+   "tier": "top",
+   "months": [
+    4,
+    10
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 40,
+   "name": "Achabal Gardens",
+   "district": "Anantnag",
+   "category": "Garden",
+   "g": "heritage",
+   "lat": 33.68,
+   "lng": 75.22,
+   "why": "Nur Jahan's spring garden",
+   "tier": "top",
+   "months": [
+    4,
+    10
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 41,
+   "name": "Kokernag",
+   "district": "Anantnag",
+   "category": "Garden",
+   "g": "water",
+   "lat": 33.58,
+   "lng": 75.3,
+   "why": "Springs and trout garden. Some Kashmir spots are still closed after 2025, so check before going",
+   "tier": "gem",
+   "months": [
+    4,
+    10
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 42,
+   "name": "Verinag",
+   "district": "Anantnag",
+   "category": "Heritage",
+   "g": "water",
+   "lat": 33.54,
+   "lng": 75.25,
+   "why": "Source of the Jhelum in a Mughal tank. Some Kashmir spots are still closed after 2025, so check before going",
+   "tier": "top",
+   "months": [
+    4,
+    10
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 43,
+   "name": "Daksum",
+   "district": "Anantnag",
+   "category": "Forest",
+   "g": "hills",
+   "lat": 33.61,
+   "lng": 75.44,
+   "why": "Forest glade by a stream. Some Kashmir spots are still closed after 2025, so check before going",
+   "tier": "gem",
+   "months": [
+    4,
+    10
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 44,
+   "name": "Sinthan Top",
+   "district": "Anantnag",
+   "category": "Pass",
+   "g": "hills",
+   "lat": 33.58,
+   "lng": 75.5,
+   "why": "Snowy pass to Kishtwar. Some Kashmir spots are still closed after 2025, so check before going",
+   "tier": "gem",
+   "months": [
+    5,
+    10
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 45,
+   "name": "Amarnath Cave",
+   "district": "Anantnag",
+   "category": "Pilgrimage",
+   "g": "temple",
+   "lat": 34.214,
+   "lng": 75.501,
+   "why": "Ice lingam cave of the summer yatra",
+   "tier": "icon",
+   "months": [
+    7,
+    8
+   ],
+   "time": "3–4 days (yatra)"
+  },
+  {
+   "n": 46,
+   "name": "Mattan & Bumzu Caves",
+   "district": "Anantnag",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 33.78,
+   "lng": 75.24,
+   "why": "Spring temple and caves",
+   "tier": "gem",
+   "months": [
+    4,
+    10
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 47,
+   "name": "Yusmarg",
+   "district": "Budgam",
+   "category": "Meadow",
+   "g": "hills",
+   "lat": 33.83,
+   "lng": 74.66,
+   "why": "Pine-ringed meadow. Some Kashmir spots are still closed after 2025, so check before going",
+   "tier": "top",
+   "months": [
+    4,
+    10
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 48,
+   "name": "Doodhpathri",
+   "district": "Budgam",
+   "category": "Meadow",
+   "g": "hills",
+   "lat": 33.87,
+   "lng": 74.56,
+   "why": "Milky meadows and streams. Some Kashmir spots are still closed after 2025, so check before going",
+   "tier": "top",
+   "months": [
+    4,
+    10
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 49,
+   "name": "Tosa Maidan",
+   "district": "Budgam",
+   "category": "Meadow",
+   "g": "hills",
+   "lat": 33.9,
+   "lng": 74.45,
+   "why": "Vast meadow reopened after decades. Some Kashmir spots are still closed after 2025, so check before going",
+   "tier": "gem",
+   "months": [
+    4,
+    10
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 50,
+   "name": "Chrar-i-Sharief",
+   "district": "Budgam",
+   "category": "Dargah",
+   "g": "temple",
+   "lat": 33.86,
+   "lng": 74.77,
+   "why": "Shrine of Sheikh Noor-ud-din",
+   "tier": "gem",
+   "months": [
+    4,
+    10
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 51,
+   "name": "Pampore Saffron Fields",
+   "district": "Pulwama",
+   "category": "Farm",
+   "g": "culture",
+   "lat": 34.01,
+   "lng": 74.93,
+   "why": "Purple saffron blooms in autumn",
+   "tier": "top",
+   "months": [
+    10,
+    11
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 52,
+   "name": "Awantipora Temples",
+   "district": "Pulwama",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 33.92,
+   "lng": 75.01,
+   "why": "9th-century Avantiswami temple ruins",
+   "tier": "top",
+   "months": [
+    4,
+    10
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 53,
+   "name": "Aharbal Falls",
+   "district": "Kulgam",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 33.64,
+   "lng": 74.79,
+   "why": "Kashmir's Niagara on the Veshaw. Some Kashmir spots are still closed after 2025, so check before going",
+   "tier": "top",
+   "months": [
+    4,
+    10
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 54,
+   "name": "Kausar Nag",
+   "district": "Kulgam",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 33.53,
+   "lng": 74.77,
+   "why": "High lake trek beyond Aharbal. Some Kashmir spots are still closed after 2025, so check before going",
+   "tier": "gem",
+   "months": [
+    7,
+    9
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 55,
+   "name": "Peer ki Gali",
+   "district": "Shopian",
+   "category": "Pass",
+   "g": "hills",
+   "lat": 33.7051,
+   "lng": 74.595,
+   "why": "Mughal Road pass. Some Kashmir spots are still closed after 2025, so check before going",
+   "tier": "top",
+   "months": [
+    5,
+    10
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 56,
+   "name": "Mughal Road",
+   "district": "Shopian",
+   "category": "Road",
+   "g": "hills",
+   "lat": 33.7051,
+   "lng": 74.595,
+   "why": "Scenic road from Shopian to Poonch. Some Kashmir spots are still closed after 2025, so check before going",
+   "tier": "top",
+   "months": [
+    5,
+    10
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 57,
+   "name": "Lolab Valley",
+   "district": "Kupwara",
+   "category": "Valley",
+   "g": "hills",
+   "lat": 34.5,
+   "lng": 74.33,
+   "why": "Valley of love of orchards. Some Kashmir spots are still closed after 2025, so check before going",
+   "tier": "gem",
+   "months": [
+    4,
+    10
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 58,
+   "name": "Bangus Valley",
+   "district": "Kupwara",
+   "category": "Valley",
+   "g": "hills",
+   "lat": 34.37,
+   "lng": 74.05,
+   "why": "Remote meadows (check if open). Some Kashmir spots are still closed after 2025, so check before going",
+   "tier": "gem",
+   "months": [
+    4,
+    10
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 59,
+   "name": "Keran & Teetwal",
+   "district": "Kupwara",
+   "category": "Village",
+   "g": "culture",
+   "lat": 34.65,
+   "lng": 73.95,
+   "why": "Border villages on the Kishanganga",
+   "tier": "gem",
+   "months": [
+    4,
+    10
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 60,
+   "name": "Vaishno Devi",
+   "district": "Reasi",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 33.03,
+   "lng": 74.95,
+   "why": "Cave shrine of the goddess, India's busiest pilgrimage",
+   "tier": "icon",
+   "months": [
+    1,
+    12
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 61,
+   "name": "Chenab Rail Bridge",
+   "district": "Reasi",
+   "category": "Engineering",
+   "g": "water",
+   "lat": 33.15,
+   "lng": 74.88,
+   "why": "World's highest railway arch bridge",
+   "tier": "top",
+   "months": [
+    10,
+    4
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 62,
+   "name": "Shiv Khori",
+   "district": "Reasi",
+   "category": "Caves",
+   "g": "temple",
+   "lat": 33.25,
+   "lng": 74.75,
+   "why": "Cave shrine of Shiva",
+   "tier": "top",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 63,
+   "name": "Siyad Baba Falls",
+   "district": "Reasi",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 33.08,
+   "lng": 74.83,
+   "why": "Falls near Reasi",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 64,
+   "name": "Raghunath Temple, Jammu",
+   "district": "Jammu",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 32.73,
+   "lng": 74.86,
+   "why": "Golden-spired temple complex",
+   "tier": "top",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 65,
+   "name": "Bahu Fort & Bagh-e-Bahu",
+   "district": "Jammu",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 32.72,
+   "lng": 74.88,
+   "why": "Fort temple and terraced garden",
+   "tier": "top",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 66,
+   "name": "Mubarak Mandi Palace",
+   "district": "Jammu",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 32.73,
+   "lng": 74.87,
+   "why": "Dogra palace complex",
+   "tier": "top",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 67,
+   "name": "Amar Mahal Museum",
+   "district": "Jammu",
+   "category": "Museum",
+   "g": "culture",
+   "lat": 32.74,
+   "lng": 74.87,
+   "why": "Palace museum with a golden throne",
+   "tier": "top",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 68,
+   "name": "Peer Khoh Cave",
+   "district": "Jammu",
+   "category": "Caves",
+   "g": "temple",
+   "lat": 32.74,
+   "lng": 74.85,
+   "why": "Cave shrine on the Tawi",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 69,
+   "name": "Mansar Lake",
+   "district": "Samba",
+   "category": "Lake",
+   "g": "water",
+   "lat": 32.7,
+   "lng": 75.15,
+   "why": "Sacred lake with boating",
+   "tier": "top",
+   "months": [
+    10,
+    4
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 70,
+   "name": "Surinsar Lake",
+   "district": "Jammu",
+   "category": "Lake",
+   "g": "water",
+   "lat": 32.77,
+   "lng": 75.04,
+   "why": "Forest lake",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 71,
+   "name": "Purmandal",
+   "district": "Samba",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 32.65,
+   "lng": 75.04,
+   "why": "Chhota Kashi of temples",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 72,
+   "name": "Patnitop",
+   "district": "Udhampur",
+   "category": "Hill station",
+   "g": "hills",
+   "lat": 33.065,
+   "lng": 75.3174,
+   "why": "Pine meadows on the old highway",
+   "tier": "top",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 73,
+   "name": "Sanasar",
+   "district": "Ramban",
+   "category": "Meadow",
+   "g": "hills",
+   "lat": 33.15,
+   "lng": 75.27,
+   "why": "Paragliding meadows",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 74,
+   "name": "Nathatop",
+   "district": "Udhampur",
+   "category": "Hill",
+   "g": "hills",
+   "lat": 33.0529,
+   "lng": 75.3413,
+   "why": "Snowy hilltop near Patnitop",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 75,
+   "name": "Sudhmahadev",
+   "district": "Udhampur",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 33.03,
+   "lng": 75.32,
+   "why": "Ancient Shiva temple",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 76,
+   "name": "Krimchi Temples",
+   "district": "Udhampur",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 32.95,
+   "lng": 75.16,
+   "why": "Early medieval temples",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 77,
+   "name": "Bhaderwah",
+   "district": "Doda",
+   "category": "Hill station",
+   "g": "hills",
+   "lat": 32.98,
+   "lng": 75.72,
+   "why": "Mini Kashmir of meadows",
+   "tier": "top",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 78,
+   "name": "Guldanda",
+   "district": "Doda",
+   "category": "Meadow",
+   "g": "hills",
+   "lat": 32.95,
+   "lng": 75.8,
+   "why": "High meadow above Bhaderwah",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 79,
+   "name": "Jai Valley",
+   "district": "Doda",
+   "category": "Valley",
+   "g": "hills",
+   "lat": 33.03,
+   "lng": 75.65,
+   "why": "Grassy valley",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 80,
+   "name": "Kishtwar National Park",
+   "district": "Kishtwar",
+   "category": "National park",
+   "g": "wildlife",
+   "lat": 33.55,
+   "lng": 75.9,
+   "why": "Remote high park",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 81,
+   "name": "Paddar & Machail",
+   "district": "Kishtwar",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 33.38,
+   "lng": 76.34,
+   "why": "Sapphire valley and Machail Mata shrine",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 82,
+   "name": "Dhagger",
+   "district": "Kathua",
+   "category": "Hill",
+   "g": "hills",
+   "lat": 32.6,
+   "lng": 75.6,
+   "why": "Grassy hill views",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 83,
+   "name": "Sarthal",
+   "district": "Kishtwar",
+   "category": "Meadow",
+   "g": "hills",
+   "lat": 33.43,
+   "lng": 75.78,
+   "why": "Hill meadow and shrine",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 84,
+   "name": "Bani & Basohli",
+   "district": "Kathua",
+   "category": "Heritage",
+   "g": "culture",
+   "lat": 32.5,
+   "lng": 75.8,
+   "why": "Basohli painting town",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 85,
+   "name": "Poonch Fort",
+   "district": "Poonch",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 33.77,
+   "lng": 74.09,
+   "why": "Old fort of Poonch",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 86,
+   "name": "Buddha Amarnath",
+   "district": "Poonch",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 33.63,
+   "lng": 74.2,
+   "why": "Shiva temple on a river",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 87,
+   "name": "Girgan Dhok",
+   "district": "Poonch",
+   "category": "Meadow",
+   "g": "hills",
+   "lat": 33.7,
+   "lng": 74.4,
+   "why": "Meadow on the Mughal Road",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 88,
+   "name": "Dera ki Gali",
+   "district": "Rajouri",
+   "category": "Forest",
+   "g": "hills",
+   "lat": 33.42,
+   "lng": 74.26,
+   "why": "Forest pass",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 89,
+   "name": "Shahdara Sharif",
+   "district": "Rajouri",
+   "category": "Dargah",
+   "g": "temple",
+   "lat": 33.4,
+   "lng": 74.32,
+   "why": "Sufi shrine",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 90,
+   "name": "Chatpal",
+   "district": "Anantnag",
+   "category": "Village",
+   "g": "hills",
+   "lat": 33.58,
+   "lng": 75.4,
+   "why": "Quiet glade near Daksum. Some Kashmir spots are still closed after 2025, so check before going",
+   "tier": "gem",
+   "months": [
+    4,
+    10
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 91,
+   "name": "Sheshnag Lake",
+   "district": "Anantnag",
+   "category": "Lake",
+   "g": "water",
+   "lat": 34.1,
+   "lng": 75.49,
+   "why": "Lake on the Amarnath route. Some Kashmir spots are still closed after 2025, so check before going",
+   "tier": "top",
+   "months": [
+    7,
+    8
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 92,
+   "name": "Tarsar Marsar Trek",
+   "district": "Anantnag",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 34.13,
+   "lng": 75.15,
+   "why": "Twin lake trek from Aru. Some Kashmir spots are still closed after 2025, so check before going",
+   "tier": "top",
+   "months": [
+    7,
+    9
+   ],
+   "time": "6 days"
+  }
+ ],
+ "festivals": [
+  {
+   "name": "Tulip Festival",
+   "months": [
+    3,
+    4
+   ],
+   "when": "Late March to April",
+   "n": 8,
+   "about": "Over a million tulips bloom below the Zabarwan hills."
+  },
+  {
+   "name": "Amarnath Yatra",
+   "months": [
+    7,
+    8
+   ],
+   "when": "July–August",
+   "n": 45,
+   "about": "Pilgrimage to the ice lingam via Pahalgam or Baltal."
+  },
+  {
+   "name": "Navratri at Vaishno Devi",
+   "months": [
+    9,
+    10
+   ],
+   "when": "September or October",
+   "n": 60,
+   "about": "Peak pilgrimage to the cave shrine."
+  },
+  {
+   "name": "Kheer Bhawani Mela",
+   "months": [
+    5,
+    6
+   ],
+   "when": "Jyeshtha Ashtami, May or June",
+   "n": 32,
+   "about": "Kashmiri Pandit gathering at the spring temple."
+  },
+  {
+   "name": "Saffron Festival",
+   "months": [
+    10,
+    11
+   ],
+   "when": "October–November",
+   "n": 51,
+   "about": "Saffron harvest at Pampore."
+  },
+  {
+   "name": "Gulmarg Winter Festival",
+   "months": [
+    1,
+    2
+   ],
+   "when": "Winter",
+   "n": 20,
+   "about": "Skiing and snow festival."
+  },
+  {
+   "name": "Baisakhi in Jammu",
+   "months": [
+    4,
+    4
+   ],
+   "when": "13–14 April",
+   "n": 64,
+   "about": "Harvest fairs across Jammu."
+  },
+  {
+   "name": "Lohri in Jammu",
+   "months": [
+    1,
+    1
+   ],
+   "when": "13 January",
+   "n": null,
+   "about": "Bonfires and Chajja dances."
+  }
+ ]
+}

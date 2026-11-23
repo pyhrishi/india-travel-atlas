@@ -1,1 +1,2182 @@
-{"name":"Goa","intro":"Beaches from Querim to Polem, the UNESCO churches of Old Goa, Ponda's temple belt, Fontainhas and the grand houses of Salcete, and Western Ghats forests with Dudhsagar's four-tiered falls.","bases":[["Panaji",15.4909,73.8278],["Margao",15.2832,73.9862],["Mapusa",15.5916,73.8086],["Mopa Airport (North Goa)",15.744,73.866],["Dabolim Airport (Vasco)",15.3808,73.8314],["Mumbai",19.076,72.8777],["Bengaluru",12.9716,77.5946],["Pune",18.5204,73.8567]],"trails":[{"name":"Old Goa and Panaji","note":"UNESCO churches, the Latin Quarter and a river cruise in a day.","ids":[33,34,35,36,38,26,27,28]},{"name":"North Goa beach hop","note":"From the far north's quiet sands to the busy strip and the forts.","ids":[2,3,4,6,7,8,9,12,16]},{"name":"South Goa beaches","note":"Quieter, wider beaches and coves from Colva to Polem.","ids":[58,59,61,64,65,66,67,68,70]},{"name":"Ponda temples and spices","note":"Goa's temple belt with a spice-farm lunch.","ids":[39,40,41,42,43,44,45]},{"name":"Into the Western Ghats","note":"Forests, Goa's oldest temple and the Dudhsagar falls.","ids":[46,47,48,49,51,50]},{"name":"Old houses of Salcete","note":"Portuguese-era mansions and villages in South Goa.","ids":[74,75,72,73,60]},{"name":"Monsoon Goa","note":"Green hills and full waterfalls from July to October.","ids":[24,22,20,31,32]},{"name":"Hinterland Kushavati","note":"Temples, a sunken village, spice farms and forest falls of Goa's new third district.","ids":[109,108,53,52,110,111,51,114,112]}],"places":[{"n":1,"name":"Tiracol Fort","district":"North Goa","category":"Fort","g":"heritage","lat":15.7186,"lng":73.6896,"why":"17th-century fort across the river at Goa's northern tip, now a heritage hotel","tier":"gem","months":[11,3],"time":"1–2 hrs"},{"n":2,"name":"Querim Beach","district":"North Goa","category":"Beach","g":"coast","lat":15.714,"lng":73.694,"why":"Quiet casuarina-lined beach at the far north of Goa","tier":"gem","months":[11,3],"time":"Half day"},{"n":3,"name":"Arambol Beach","district":"North Goa","category":"Beach","g":"coast","lat":15.687,"lng":73.704,"why":"Bohemian beach with a freshwater lake and drum circles at sunset","tier":"top","months":[11,3],"time":"Half day"},{"n":4,"name":"Mandrem Beach","district":"North Goa","category":"Beach","g":"coast","lat":15.66,"lng":73.712,"why":"Calm, wide beach popular for yoga retreats","tier":"top","months":[11,3],"time":"Half day"},{"n":5,"name":"Ashwem Beach","district":"North Goa","category":"Beach","g":"coast","lat":15.645,"lng":73.717,"why":"Soft-sand beach with laid-back shacks","tier":"gem","months":[11,3],"time":"Half day"},{"n":6,"name":"Morjim Beach","district":"North Goa","category":"Beach","g":"coast","lat":15.63,"lng":73.727,"why":"Olive ridley turtle nesting beach at the Chapora river mouth","tier":"top","months":[11,3],"time":"Half day"},{"n":7,"name":"Chapora Fort","district":"North Goa","category":"Fort","g":"heritage","lat":15.606,"lng":73.737,"why":"Hilltop fort ruins with sweeping views over Vagator and the Chapora river","tier":"top","months":[11,3],"time":"1–2 hrs"},{"n":8,"name":"Vagator Beach","district":"North Goa","category":"Beach","g":"coast","lat":15.6,"lng":73.733,"why":"Red-cliffed beach below Chapora Fort","tier":"top","months":[11,3],"time":"Half day"},{"n":9,"name":"Anjuna Beach","district":"North Goa","category":"Beach","g":"coast","lat":15.574,"lng":73.74,"why":"Rocky beach famous since the hippie era","tier":"top","months":[11,3],"time":"Half day"},{"n":10,"name":"Anjuna Flea Market","district":"North Goa","category":"Market","g":"culture","lat":15.578,"lng":73.742,"why":"Wednesday flea market of crafts, clothes and trinkets","tier":"top","months":[11,4],"time":"Half day"},{"n":11,"name":"Saturday Night Market, Arpora","district":"North Goa","category":"Market","g":"culture","lat":15.562,"lng":73.765,"why":"Night bazaar of food, music and stalls","tier":"gem","months":[11,4],"time":"2 hrs"},{"n":12,"name":"Baga Beach","district":"North Goa","category":"Beach","g":"coast","lat":15.556,"lng":73.752,"why":"Lively beach of shacks, water sports and nightlife","tier":"top","months":[11,3],"time":"Half day"},{"n":13,"name":"Calangute Beach","district":"North Goa","category":"Beach","g":"coast","lat":15.544,"lng":73.755,"why":"Goa's busiest beach, the 'queen of beaches'","tier":"top","months":[11,3],"time":"Half day"},{"n":14,"name":"Mae de Deus Church, Saligao","district":"North Goa","category":"Church","g":"temple","lat":15.555,"lng":73.792,"why":"Gothic-revival church in a quiet village","tier":"gem","months":[11,3],"time":"1 hr"},{"n":15,"name":"Candolim Beach","district":"North Goa","category":"Beach","g":"coast","lat":15.518,"lng":73.762,"why":"Long, calmer beach running down to Fort Aguada","tier":"gem","months":[11,3],"time":"Half day"},{"n":16,"name":"Fort Aguada","district":"North Goa","category":"Fort","g":"heritage","lat":15.492,"lng":73.773,"why":"17th-century Portuguese fort and lighthouse on the Mandovi's mouth","tier":"icon","months":[11,3],"time":"1–2 hrs"},{"n":17,"name":"Reis Magos Fort","district":"North Goa","category":"Fort","g":"heritage","lat":15.498,"lng":73.809,"why":"Restored riverside fort and church facing Panaji","tier":"top","months":[11,3],"time":"1–2 hrs"},{"n":18,"name":"Mapusa Market","district":"North Goa","category":"Market","g":"culture","lat":15.591,"lng":73.809,"why":"Busy Friday market of spices, sausages and local produce","tier":"gem","months":[11,3],"time":"2 hrs"},{"n":19,"name":"Houses of Goa Museum","district":"North Goa","category":"Museum","g":"culture","lat":15.528,"lng":73.816,"why":"Ship-shaped museum of Goan houses and architecture","tier":"gem","months":[11,3],"time":"2 hrs"},{"n":20,"name":"Mayem Lake","district":"North Goa","category":"Lake","g":"water","lat":15.58,"lng":73.94,"why":"Hill-ringed lake for boating and walks","tier":"gem","months":[11,3],"time":"Half day"},{"n":21,"name":"Saptakoteshwar Temple","district":"North Goa","category":"Temple","g":"temple","lat":15.59,"lng":73.9,"why":"Temple rebuilt by Shivaji after Portuguese destruction","tier":"gem","months":[11,3],"time":"1 hr"},{"n":22,"name":"Arvalem Falls & Caves","district":"North Goa","category":"Waterfall","g":"water","lat":15.548,"lng":74.027,"why":"Waterfall beside 6th-century rock-cut caves","tier":"top","months":[7,11],"time":"Half day"},{"n":23,"name":"Mhadei Wildlife Sanctuary","district":"North Goa","category":"Wildlife","g":"wildlife","lat":15.61,"lng":74.15,"why":"Western Ghats forest with rare birds and waterfalls","tier":"gem","months":[10,5],"time":"Half day"},{"n":24,"name":"Chorla Ghat","district":"North Goa","category":"Hills","g":"hills","lat":15.64,"lng":74.1,"why":"Misty Western Ghats pass on the Goa–Karnataka border","tier":"top","months":[7,10],"time":"Half day"},{"n":25,"name":"Brahma Temple, Carambolim","district":"North Goa","category":"Temple","g":"temple","lat":15.55,"lng":74.17,"why":"One of India's rare temples to Brahma, in a Sattari village","tier":"gem","months":[11,3],"time":"1 hr"},{"n":26,"name":"Fontainhas","district":"North Goa","category":"Heritage","g":"heritage","lat":15.496,"lng":73.832,"why":"Panaji's Latin Quarter of colourful Portuguese-era houses","tier":"icon","months":[1,12],"time":"2–3 hrs"},{"n":27,"name":"Immaculate Conception Church, Panaji","district":"North Goa","category":"Church","g":"temple","lat":15.4987,"lng":73.8295,"why":"Panaji's landmark white church with zigzag stairs","tier":"top","months":[11,3],"time":"1 hr"},{"n":28,"name":"Mandovi River Cruise","district":"North Goa","category":"River","g":"water","lat":15.501,"lng":73.828,"why":"Sunset cruises with Goan music and dance","tier":"gem","months":[10,5],"time":"1 hr"},{"n":29,"name":"Miramar Beach","district":"North Goa","category":"Beach","g":"coast","lat":15.479,"lng":73.807,"why":"City beach where the Mandovi meets the sea","tier":"gem","months":[11,3],"time":"Half day"},{"n":30,"name":"Dona Paula","district":"North Goa","category":"Viewpoint","g":"coast","lat":15.456,"lng":73.804,"why":"Headland jetty with views across the Zuari and Mormugao harbour","tier":"gem","months":[11,3],"time":"Half day"},{"n":31,"name":"Salim Ali Bird Sanctuary","district":"North Goa","category":"Wildlife","g":"wildlife","lat":15.515,"lng":73.87,"why":"Mangrove sanctuary on Chorao island, explored by canoe","tier":"top","months":[11,3],"time":"2 hrs"},{"n":32,"name":"Divar Island","district":"North Goa","category":"Island","g":"culture","lat":15.522,"lng":73.905,"why":"Sleepy island of villages and churches, reached by ferry","tier":"top","months":[11,3],"time":"Half day"},{"n":33,"name":"Basilica of Bom Jesus","district":"North Goa","category":"Church","g":"temple","lat":15.5009,"lng":73.9116,"why":"UNESCO basilica holding the relics of St Francis Xavier","tier":"icon","months":[1,12],"time":"1 hr"},{"n":34,"name":"Se Cathedral","district":"North Goa","category":"Church","g":"temple","lat":15.504,"lng":73.9123,"why":"One of Asia's largest churches, home of the Golden Bell","tier":"icon","months":[1,12],"time":"1 hr"},{"n":35,"name":"Church of St Cajetan","district":"North Goa","category":"Church","g":"temple","lat":15.5059,"lng":73.915,"why":"Church modelled on St Peter's in Rome","tier":"top","months":[11,3],"time":"1 hr"},{"n":36,"name":"St Augustine Tower","district":"North Goa","category":"Heritage","g":"heritage","lat":15.499,"lng":73.907,"why":"Ruined bell tower of a once-vast 17th-century church","tier":"top","months":[11,3],"time":"1–2 hrs"},{"n":37,"name":"Museum of Christian Art","district":"North Goa","category":"Museum","g":"culture","lat":15.4995,"lng":73.9085,"why":"Indo-Portuguese Christian art in the Santa Monica convent","tier":"gem","months":[11,3],"time":"2 hrs"},{"n":38,"name":"Our Lady of the Mount Chapel","district":"North Goa","category":"Church","g":"temple","lat":15.4975,"lng":73.92,"why":"Hilltop chapel with the best view over Old Goa","tier":"gem","months":[11,3],"time":"1 hr"},{"n":39,"name":"Shri Mangueshi Temple","district":"North Goa","category":"Temple","g":"temple","lat":15.444,"lng":73.967,"why":"Goa's most famous temple, with a seven-storey lamp tower","tier":"icon","months":[11,3],"time":"1 hr"},{"n":40,"name":"Mahalsa Temple","district":"North Goa","category":"Temple","g":"temple","lat":15.433,"lng":73.965,"why":"Temple of Mahalsa Narayani with a tall brass lamp pillar","tier":"top","months":[11,3],"time":"1 hr"},{"n":41,"name":"Shanta Durga Temple","district":"North Goa","category":"Temple","g":"temple","lat":15.414,"lng":73.986,"why":"18th-century temple blending Indian and European styles","tier":"top","months":[11,3],"time":"1 hr"},{"n":42,"name":"Ramnathi Temple","district":"North Goa","category":"Temple","g":"temple","lat":15.41,"lng":73.99,"why":"Shiva temple in the Ponda temple belt","tier":"gem","months":[11,3],"time":"1 hr"},{"n":43,"name":"Nagesh Temple","district":"North Goa","category":"Temple","g":"temple","lat":15.408,"lng":73.985,"why":"Shiva temple with a beautiful old tank","tier":"gem","months":[11,3],"time":"1 hr"},{"n":44,"name":"Safa Masjid","district":"North Goa","category":"Heritage","g":"heritage","lat":15.404,"lng":74.003,"why":"16th-century mosque beside a stepped tank in Ponda","tier":"gem","months":[11,3],"time":"1–2 hrs"},{"n":45,"name":"Sahakari Spice Farm","district":"North Goa","category":"Farm","g":"hills","lat":15.4,"lng":74.03,"why":"Spice plantation tours with a Goan lunch","tier":"gem","months":[11,3],"time":"Half day"},{"n":46,"name":"Bondla Wildlife Sanctuary","district":"North Goa","category":"Wildlife","g":"wildlife","lat":15.43,"lng":74.1,"why":"Goa's smallest sanctuary, with a zoo and forest trails","tier":"gem","months":[10,5],"time":"Half day"},{"n":47,"name":"Tambdi Surla Temple","district":"Kushavati","category":"Temple","g":"temple","lat":15.44,"lng":74.25,"why":"12th-century Kadamba basalt temple, Goa's oldest","tier":"icon","months":[11,3],"time":"1–2 hrs"},{"n":48,"name":"Bhagwan Mahavir Sanctuary","district":"Kushavati","category":"National park","g":"wildlife","lat":15.35,"lng":74.25,"why":"Goa's largest protected forest, around Mollem","tier":"top","months":[10,5],"time":"Full day"},{"n":49,"name":"Dudhsagar Falls","district":"Kushavati","category":"Waterfall","g":"water","lat":15.3144,"lng":74.3144,"why":"Four-tiered 'sea of milk' falls with a railway bridge across them","tier":"icon","months":[10,1],"time":"Full day"},{"n":50,"name":"Netravali Wildlife Sanctuary","district":"Kushavati","category":"Wildlife","g":"wildlife","lat":15.1,"lng":74.23,"why":"Western Ghats forest of waterfalls and rare birds","tier":"gem","months":[10,5],"time":"Full day"},{"n":51,"name":"Netravali Bubble Lake","district":"Kushavati","category":"Lake","g":"water","lat":15.096,"lng":74.205,"why":"Temple tank where bubbles rise when you clap","tier":"gem","months":[11,3],"time":"Half day"},{"n":52,"name":"Usgalimal Rock Carvings","district":"Kushavati","category":"Heritage","g":"caves","lat":15.19,"lng":74.13,"why":"Prehistoric petroglyphs on the bed of the Kushavati river","tier":"top","months":[11,3],"time":"1–2 hrs"},{"n":53,"name":"Rivona Caves","district":"Kushavati","category":"Caves","g":"caves","lat":15.17,"lng":74.13,"why":"Ancient caves linked to Buddhist monks","tier":"gem","months":[11,3],"time":"1–2 hrs"},{"n":54,"name":"Cotigao Wildlife Sanctuary","district":"Kushavati","category":"Wildlife","g":"wildlife","lat":14.97,"lng":74.19,"why":"Forest sanctuary with treetop watchtowers","tier":"gem","months":[10,5],"time":"Half day"},{"n":55,"name":"Bogmalo Beach","district":"South Goa","category":"Beach","g":"coast","lat":15.37,"lng":73.835,"why":"Small bay beach near Vasco with a scuba scene","tier":"gem","months":[11,3],"time":"Half day"},{"n":56,"name":"Naval Aviation Museum","district":"South Goa","category":"Museum","g":"culture","lat":15.38,"lng":73.84,"why":"Navy aircraft and history on the Bogmalo road","tier":"top","months":[11,3],"time":"2 hrs"},{"n":57,"name":"Majorda Beach","district":"South Goa","category":"Beach","g":"coast","lat":15.308,"lng":73.908,"why":"Quiet beach known for its bakers and Christmas carols","tier":"gem","months":[11,3],"time":"Half day"},{"n":58,"name":"Colva Beach","district":"South Goa","category":"Beach","g":"coast","lat":15.279,"lng":73.922,"why":"South Goa's best-known beach, long and lively","tier":"top","months":[11,3],"time":"Half day"},{"n":59,"name":"Benaulim Beach","district":"South Goa","category":"Beach","g":"coast","lat":15.258,"lng":73.928,"why":"Fishing-village beach with calm waters","tier":"top","months":[11,3],"time":"Half day"},{"n":60,"name":"Goa Chitra Museum","district":"South Goa","category":"Museum","g":"culture","lat":15.26,"lng":73.94,"why":"Museum of Goan farm tools, crafts and rural life","tier":"gem","months":[11,3],"time":"2 hrs"},{"n":61,"name":"Varca Beach","district":"South Goa","category":"Beach","g":"coast","lat":15.224,"lng":73.933,"why":"Wide white-sand beach with dolphin boat trips","tier":"gem","months":[11,3],"time":"Half day"},{"n":62,"name":"Cavelossim & Mobor","district":"South Goa","category":"Beach","g":"coast","lat":15.17,"lng":73.942,"why":"Beaches where the Sal river meets the sea","tier":"gem","months":[11,3],"time":"Half day"},{"n":63,"name":"Betul","district":"Kushavati","category":"Village","g":"coast","lat":15.143,"lng":73.955,"why":"Fishing village on the Sal river mouth, known for its seafood","tier":"gem","months":[11,3],"time":"Half day"},{"n":64,"name":"Cabo de Rama Fort","district":"Kushavati","category":"Fort","g":"heritage","lat":15.089,"lng":73.92,"why":"Clifftop fort with a church and dramatic sea views","tier":"top","months":[11,3],"time":"1–2 hrs"},{"n":65,"name":"Cola Beach","district":"Kushavati","category":"Beach","g":"coast","lat":15.056,"lng":73.942,"why":"Hidden beach with a freshwater lagoon","tier":"top","months":[11,3],"time":"Half day"},{"n":66,"name":"Agonda Beach","district":"Kushavati","category":"Beach","g":"coast","lat":15.044,"lng":73.986,"why":"Long, quiet beach of huts and turtle nesting","tier":"top","months":[11,3],"time":"Half day"},{"n":67,"name":"Butterfly Beach","district":"Kushavati","category":"Beach","g":"coast","lat":15.02,"lng":74.0,"why":"Tiny cove reached by boat or a forest trail","tier":"gem","months":[11,3],"time":"Half day"},{"n":68,"name":"Palolem Beach","district":"Kushavati","category":"Beach","g":"coast","lat":15.01,"lng":74.023,"why":"Crescent bay of palms and calm water, South Goa's star beach","tier":"icon","months":[11,3],"time":"Full day"},{"n":69,"name":"Patnem Beach","district":"Kushavati","category":"Beach","g":"coast","lat":15.0,"lng":74.03,"why":"Quieter neighbour of Palolem, good for swimming","tier":"gem","months":[11,3],"time":"Half day"},{"n":70,"name":"Galgibaga Beach","district":"Kushavati","category":"Beach","g":"coast","lat":14.96,"lng":74.05,"why":"Pristine turtle-nesting beach lined with casuarinas","tier":"gem","months":[11,3],"time":"Half day"},{"n":71,"name":"Polem Beach","district":"Kushavati","category":"Beach","g":"coast","lat":14.903,"lng":74.092,"why":"Goa's southernmost beach, tiny and secluded","tier":"gem","months":[11,3],"time":"Half day"},{"n":72,"name":"Braganza House, Chandor","district":"South Goa","category":"Heritage","g":"heritage","lat":15.261,"lng":74.043,"why":"Grand Portuguese-era mansion still lived in by its family","tier":"top","months":[11,3],"time":"1–2 hrs"},{"n":73,"name":"Palacio do Deao, Quepem","district":"Kushavati","category":"Heritage","g":"heritage","lat":15.212,"lng":74.073,"why":"Restored 18th-century house and gardens by the river","tier":"gem","months":[11,3],"time":"1–2 hrs"},{"n":74,"name":"Loutolim Heritage Houses","district":"South Goa","category":"Heritage","g":"heritage","lat":15.33,"lng":73.983,"why":"Village of grand old Goan homes, including Figueiredo House","tier":"gem","months":[11,3],"time":"1–2 hrs"},{"n":75,"name":"Holy Spirit Church, Margao","district":"South Goa","category":"Church","g":"temple","lat":15.283,"lng":73.958,"why":"Baroque church in Margao's old quarter","tier":"gem","months":[11,3],"time":"1 hr"},{"name":"Sinquerim Beach","district":"North Goa","category":"Beach","g":"coast","lat":15.5,"lng":73.768,"why":"Quiet beach below the walls of Fort Aguada","tier":"gem","n":76,"months":[11,3],"time":"Half day"},{"name":"Coco Beach, Nerul","district":"North Goa","category":"Beach","g":"coast","lat":15.5,"lng":73.79,"why":"Calm river-mouth beach for dolphin boat trips","tier":"gem","n":77,"months":[11,3],"time":"Half day"},{"name":"Aguada Lighthouse & Jail Museum","district":"North Goa","category":"Heritage","g":"heritage","lat":15.492,"lng":73.774,"why":"Old Portuguese lighthouse and a museum on Goa's freedom struggle in the fort jail","tier":"top","n":78,"months":[11,3],"time":"1 hr"},{"name":"Sweet Water Lake, Arambol","district":"North Goa","category":"Lake","g":"water","lat":15.695,"lng":73.701,"why":"Freshwater lagoon behind Arambol's cliffs","tier":"gem","n":79,"months":[11,3],"time":"2 hrs"},{"name":"Siolim St Anthony Church","district":"North Goa","category":"Church","g":"heritage","lat":15.62,"lng":73.77,"why":"Riverside church and village of old Goan houses","tier":"gem","n":80,"months":[11,3],"time":"1 hr"},{"name":"Parra Coconut Road","district":"North Goa","category":"Village","g":"culture","lat":15.57,"lng":73.79,"why":"Palm-lined village road made famous on film","tier":"gem","n":81,"months":[11,3],"time":"1–2 hrs"},{"name":"Corjuem Fort","district":"North Goa","category":"Fort","g":"heritage","lat":15.58,"lng":73.88,"why":"Small inland fort on a Mapusa river island","tier":"gem","n":82,"months":[11,3],"time":"1 hr"},{"name":"Museum of Goa (MOG)","district":"North Goa","category":"Museum","g":"culture","lat":15.53,"lng":73.81,"why":"Contemporary art museum at Pilerne","tier":"top","n":83,"months":[11,3],"time":"1–2 hrs"},{"name":"Goa State Museum","district":"North Goa","category":"Museum","g":"culture","lat":15.495,"lng":73.83,"why":"Sculpture, coins and Goan history in Panaji","tier":"gem","n":84,"months":[11,3],"time":"1–2 hrs"},{"name":"Adil Shah Palace","district":"North Goa","category":"Heritage","g":"heritage","lat":15.499,"lng":73.827,"why":"Panaji's oldest building, once the old Secretariat, on the Mandovi","tier":"gem","n":85,"months":[11,3],"time":"1 hr"},{"name":"Kala Academy","district":"North Goa","category":"Culture","g":"culture","lat":15.49,"lng":73.82,"why":"Charles Correa's riverside arts centre at Campal","tier":"gem","n":86,"months":[11,3],"time":"1–2 hrs"},{"name":"Chorao Island","district":"North Goa","category":"Island","g":"water","lat":15.53,"lng":73.89,"why":"Ferry island of mangroves and village churches","tier":"gem","n":87,"months":[11,3],"time":"2 hrs"},{"name":"Church of St Francis of Assisi & ASI Museum","district":"North Goa","category":"Heritage","g":"heritage","lat":15.5035,"lng":73.912,"why":"Painted church and archaeological museum in Old Goa","tier":"top","n":88,"months":[11,3],"time":"1 hr"},{"name":"Viceroy's Arch","district":"North Goa","category":"Heritage","g":"heritage","lat":15.506,"lng":73.914,"why":"Riverside gateway to old Velha Goa","tier":"gem","n":89,"months":[11,3],"time":"1 hr"},{"name":"Pilar Seminary & Museum","district":"North Goa","category":"Heritage","g":"heritage","lat":15.45,"lng":73.86,"why":"Hilltop seminary with a museum and views over the Zuari","tier":"gem","n":90,"months":[11,3],"time":"1 hr"},{"name":"St Anne Church, Talaulim","district":"North Goa","category":"Church","g":"heritage","lat":15.48,"lng":73.92,"why":"Grand baroque church in a quiet village","tier":"gem","n":91,"months":[11,3],"time":"1 hr"},{"name":"Carambolim Lake","district":"North Goa","category":"Wetland","g":"wildlife","lat":15.49,"lng":73.93,"why":"Lake beside Old Goa famous for winter birds","tier":"gem","n":92,"months":[11,3],"time":"2 hrs"},{"name":"Savoi Plantation","district":"North Goa","category":"Spice farm","g":"culture","lat":15.46,"lng":74.07,"why":"Old family spice plantation with farm lunches","tier":"gem","n":93,"months":[11,3],"time":"1–2 hrs"},{"name":"Tropical Spice Plantation","district":"North Goa","category":"Spice farm","g":"culture","lat":15.41,"lng":74.02,"why":"Spice farm tours near Ponda","tier":"gem","n":94,"months":[11,3],"time":"1–2 hrs"},{"name":"Butterfly Conservatory of Goa","district":"North Goa","category":"Nature","g":"wildlife","lat":15.39,"lng":74.01,"why":"Butterfly garden near Ponda","tier":"gem","n":95,"months":[11,3],"time":"2 hrs"},{"name":"Shri Navdurga Temple, Madkai","district":"North Goa","category":"Temple","g":"temple","lat":15.43,"lng":73.95,"why":"Riverside temple of the goddess Navdurga","tier":"gem","n":96,"months":[11,3],"time":"1 hr"},{"name":"Mahalaxmi Temple, Bandora","district":"North Goa","category":"Temple","g":"temple","lat":15.41,"lng":73.99,"why":"Old temple of the Ponda temple circuit","tier":"gem","n":97,"months":[11,3],"time":"1 hr"},{"name":"Lamgau Caves","district":"North Goa","category":"Cave","g":"caves","lat":15.55,"lng":73.96,"why":"Rock-cut caves near Bicholim","tier":"gem","n":98,"months":[11,3],"time":"1 hr"},{"name":"Grande Island","district":"South Goa","category":"Island","g":"coast","lat":15.36,"lng":73.78,"why":"Island boat trips for snorkelling, diving and dolphins","tier":"top","n":99,"months":[11,3],"time":"Half day"},{"name":"Hollant Beach","district":"South Goa","category":"Beach","g":"coast","lat":15.37,"lng":73.84,"why":"Small cove beach near Bogmalo","tier":"gem","n":100,"months":[11,3],"time":"Half day"},{"name":"Japanese Garden, Vasco","district":"South Goa","category":"Viewpoint","g":"coast","lat":15.41,"lng":73.8,"why":"Cliff-top garden and secret beach near Vasco","tier":"gem","n":101,"months":[11,3],"time":"Half day"},{"name":"Sancoale Church Facade","district":"South Goa","category":"Heritage","g":"heritage","lat":15.38,"lng":73.88,"why":"Ruined facade of one of Goa's oldest churches","tier":"gem","n":102,"months":[11,3],"time":"1 hr"},{"name":"Kesarval Springs","district":"South Goa","category":"Spring","g":"water","lat":15.36,"lng":73.93,"why":"Forest spring near Verna","tier":"gem","n":103,"months":[11,3],"time":"2 hrs"},{"name":"Velsao & Cansaulim Beaches","district":"South Goa","category":"Beach","g":"coast","lat":15.35,"lng":73.89,"why":"Long empty beaches of north Salcete","tier":"gem","n":104,"months":[11,3],"time":"Half day"},{"name":"Betalbatim Beach","district":"South Goa","category":"Beach","g":"coast","lat":15.29,"lng":73.91,"why":"Quiet stretch known for its sunsets","tier":"gem","n":105,"months":[11,3],"time":"Half day"},{"name":"Rachol Seminary","district":"South Goa","category":"Heritage","g":"heritage","lat":15.3,"lng":74.0,"why":"Fortified 16th-century seminary with a museum","tier":"top","n":106,"months":[11,3],"time":"1 hr"},{"name":"Margao Municipal Market","district":"South Goa","category":"Market","g":"culture","lat":15.275,"lng":73.96,"why":"Busy old market for spices, sausages and sweets","tier":"gem","n":107,"months":[11,3],"time":"1–2 hrs"},{"name":"Shri Damodar Temple, Zambaulim","district":"Kushavati","category":"Temple","g":"temple","lat":15.21,"lng":74.09,"why":"Temple famous for its Gulal festival","tier":"gem","n":108,"months":[11,3],"time":"1 hr"},{"name":"Chandreshwar Bhutnath Temple","district":"Kushavati","category":"Temple","g":"temple","lat":15.24,"lng":74.04,"why":"Hilltop temple at Paroda with sweeping views","tier":"top","n":109,"months":[11,3],"time":"1 hr"},{"name":"Curdi Village","district":"Kushavati","category":"Village","g":"water","lat":15.2,"lng":74.14,"why":"Submerged village that reappears in summer","tier":"gem","n":110,"months":[2,5],"time":"2 hrs"},{"name":"Salaulim Dam","district":"Kushavati","category":"Lake","g":"water","lat":15.21,"lng":74.19,"why":"Reservoir with a famous circular spillway","tier":"top","n":111,"months":[7,10],"time":"2 hrs"},{"name":"Mainapi Falls","district":"Kushavati","category":"Waterfall","g":"water","lat":15.14,"lng":74.28,"why":"Forest waterfall reached by trek in Netravali","tier":"gem","n":112,"months":[7,10],"time":"2 hrs"},{"name":"Savri Falls","district":"Kushavati","category":"Waterfall","g":"water","lat":15.07,"lng":74.22,"why":"Waterfall in Netravali","tier":"gem","n":113,"months":[7,10],"time":"2 hrs"},{"name":"Tanshikar Spice Farm","district":"Kushavati","category":"Spice farm","g":"culture","lat":15.1,"lng":74.21,"why":"Family spice farm in the Netravali forest","tier":"gem","n":114,"months":[11,3],"time":"1–2 hrs"},{"name":"Devil's Canyon, Mollem","district":"Kushavati","category":"River","g":"water","lat":15.33,"lng":74.25,"why":"Rocky gorge on the Dudhsagar river","tier":"gem","n":115,"months":[11,3],"time":"2 hrs"},{"name":"Khola Beach","district":"Kushavati","category":"Beach","g":"coast","lat":15.07,"lng":73.93,"why":"Hidden cove beach near Cabo de Rama","tier":"gem","n":116,"months":[11,3],"time":"Half day"},{"name":"Talpona & Rajbag Beaches","district":"Kushavati","category":"Beach","g":"coast","lat":14.98,"lng":74.04,"why":"Quiet beaches south of Palolem","tier":"gem","n":117,"months":[11,3],"time":"Half day"},{"name":"Shree Mallikarjun Temple","district":"Kushavati","category":"Temple","g":"temple","lat":15.01,"lng":74.07,"why":"Old Canacona temple with a famous festival","tier":"gem","n":118,"months":[11,3],"time":"1 hr"},{"name":"Partagali Math","district":"Kushavati","category":"Temple","g":"temple","lat":15.0,"lng":74.09,"why":"Riverside math with a giant new Rama statue","tier":"top","n":119,"months":[11,3],"time":"1 hr"}],"festivals":[{"name":"Shanta Durga Zatra","months":[1,2],"when":"Usually January or February","n":41,"about":"Temple fair with the goddess carried out in a decorated procession."},{"name":"Goa Carnival","months":[2,3],"when":"February or March, before Lent","n":26,"about":"Four days of floats, music and King Momo's parades through Panaji and other towns."},{"name":"Shigmo","months":[3,3],"when":"March, around Holi","n":null,"about":"Goa's spring festival of folk dance, drums and float parades."},{"name":"Sao Joao","months":[6,6],"when":"24 June","n":null,"about":"Monsoon feast of St John, with young men leaping into village wells and ponds."},{"name":"Chikal Kalo","months":[7,7],"when":"July","n":null,"about":"Mud festival at Marcel, with games in the monsoon mud."},{"name":"Bonderam","months":[8,8],"when":"Fourth Saturday of August","n":32,"about":"Divar island's flag festival of parades and floats."},{"name":"Ganesh Chaturthi","months":[8,9],"when":"August or September","n":39,"about":"Goa's biggest Hindu festival, celebrated in homes across the state."},{"name":"International Film Festival of India","months":[11,11],"when":"Late November","n":27,"about":"India's main international film festival, held in Panaji."},{"name":"Feast of St Francis Xavier","months":[12,12],"when":"3 December","n":33,"about":"Pilgrims crowd Old Goa for the saint's feast day."},{"name":"Feast of the Immaculate Conception","months":[12,12],"when":"8 December","n":27,"about":"Panaji's church feast, with a fair in the streets below."},{"name":"Serendipity Arts Festival","months":[12,12],"when":"Usually December","n":26,"about":"Multi-arts festival across Panaji's heritage venues."},{"name":"Christmas and New Year","months":[12,12],"when":"Late December","n":34,"about":"Midnight masses, carols, stars on every house and beach parties."}]}
+{
+ "name": "Goa",
+ "intro": "Beaches from Querim to Polem, the UNESCO churches of Old Goa, Ponda's temple belt, Fontainhas and the grand houses of Salcete, and Western Ghats forests with Dudhsagar's four-tiered falls.",
+ "bases": [
+  [
+   "Panaji",
+   15.4909,
+   73.8278
+  ],
+  [
+   "Margao",
+   15.2832,
+   73.9862
+  ],
+  [
+   "Mapusa",
+   15.5916,
+   73.8086
+  ],
+  [
+   "Mopa Airport (North Goa)",
+   15.744,
+   73.866
+  ],
+  [
+   "Dabolim Airport (Vasco)",
+   15.3808,
+   73.8314
+  ],
+  [
+   "Mumbai",
+   19.076,
+   72.8777
+  ],
+  [
+   "Bengaluru",
+   12.9716,
+   77.5946
+  ],
+  [
+   "Pune",
+   18.5204,
+   73.8567
+  ]
+ ],
+ "trails": [
+  {
+   "name": "Old Goa and Panaji",
+   "note": "UNESCO churches, the Latin Quarter and a river cruise in a day.",
+   "ids": [
+    33,
+    34,
+    35,
+    36,
+    38,
+    26,
+    27,
+    28
+   ]
+  },
+  {
+   "name": "North Goa beach hop",
+   "note": "From the far north's quiet sands to the busy strip and the forts.",
+   "ids": [
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    12,
+    16
+   ]
+  },
+  {
+   "name": "South Goa beaches",
+   "note": "Quieter, wider beaches and coves from Colva to Polem.",
+   "ids": [
+    58,
+    59,
+    61,
+    64,
+    65,
+    66,
+    67,
+    68,
+    70
+   ]
+  },
+  {
+   "name": "Ponda temples and spices",
+   "note": "Goa's temple belt with a spice-farm lunch.",
+   "ids": [
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45
+   ]
+  },
+  {
+   "name": "Into the Western Ghats",
+   "note": "Forests, Goa's oldest temple and the Dudhsagar falls.",
+   "ids": [
+    46,
+    47,
+    48,
+    49,
+    51,
+    50
+   ]
+  },
+  {
+   "name": "Old houses of Salcete",
+   "note": "Portuguese-era mansions and villages in South Goa.",
+   "ids": [
+    74,
+    75,
+    72,
+    73,
+    60
+   ]
+  },
+  {
+   "name": "Monsoon Goa",
+   "note": "Green hills and full waterfalls from July to October.",
+   "ids": [
+    24,
+    22,
+    20,
+    31,
+    32
+   ]
+  },
+  {
+   "name": "Hinterland Kushavati",
+   "note": "Temples, a sunken village, spice farms and forest falls of Goa's new third district.",
+   "ids": [
+    109,
+    108,
+    53,
+    52,
+    110,
+    111,
+    51,
+    114,
+    112
+   ]
+  }
+ ],
+ "places": [
+  {
+   "n": 1,
+   "name": "Tiracol Fort",
+   "district": "North Goa",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 15.7186,
+   "lng": 73.6896,
+   "why": "17th-century fort across the river at Goa's northern tip, now a heritage hotel",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 2,
+   "name": "Querim Beach",
+   "district": "North Goa",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 15.714,
+   "lng": 73.694,
+   "why": "Quiet casuarina-lined beach at the far north of Goa",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 3,
+   "name": "Arambol Beach",
+   "district": "North Goa",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 15.687,
+   "lng": 73.704,
+   "why": "Bohemian beach with a freshwater lake and drum circles at sunset",
+   "tier": "top",
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 4,
+   "name": "Mandrem Beach",
+   "district": "North Goa",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 15.66,
+   "lng": 73.712,
+   "why": "Calm, wide beach popular for yoga retreats",
+   "tier": "top",
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 5,
+   "name": "Ashwem Beach",
+   "district": "North Goa",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 15.645,
+   "lng": 73.717,
+   "why": "Soft-sand beach with laid-back shacks",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 6,
+   "name": "Morjim Beach",
+   "district": "North Goa",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 15.63,
+   "lng": 73.727,
+   "why": "Olive ridley turtle nesting beach at the Chapora river mouth",
+   "tier": "top",
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 7,
+   "name": "Chapora Fort",
+   "district": "North Goa",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 15.606,
+   "lng": 73.737,
+   "why": "Hilltop fort ruins with sweeping views over Vagator and the Chapora river",
+   "tier": "top",
+   "months": [
+    11,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 8,
+   "name": "Vagator Beach",
+   "district": "North Goa",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 15.6,
+   "lng": 73.733,
+   "why": "Red-cliffed beach below Chapora Fort",
+   "tier": "top",
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 9,
+   "name": "Anjuna Beach",
+   "district": "North Goa",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 15.574,
+   "lng": 73.74,
+   "why": "Rocky beach famous since the hippie era",
+   "tier": "top",
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 10,
+   "name": "Anjuna Flea Market",
+   "district": "North Goa",
+   "category": "Market",
+   "g": "culture",
+   "lat": 15.578,
+   "lng": 73.742,
+   "why": "Wednesday flea market of crafts, clothes and trinkets",
+   "tier": "top",
+   "months": [
+    11,
+    4
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 11,
+   "name": "Saturday Night Market, Arpora",
+   "district": "North Goa",
+   "category": "Market",
+   "g": "culture",
+   "lat": 15.562,
+   "lng": 73.765,
+   "why": "Night bazaar of food, music and stalls",
+   "tier": "gem",
+   "months": [
+    11,
+    4
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 12,
+   "name": "Baga Beach",
+   "district": "North Goa",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 15.556,
+   "lng": 73.752,
+   "why": "Lively beach of shacks, water sports and nightlife",
+   "tier": "top",
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 13,
+   "name": "Calangute Beach",
+   "district": "North Goa",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 15.544,
+   "lng": 73.755,
+   "why": "Goa's busiest beach, the 'queen of beaches'",
+   "tier": "top",
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 14,
+   "name": "Mae de Deus Church, Saligao",
+   "district": "North Goa",
+   "category": "Church",
+   "g": "temple",
+   "lat": 15.555,
+   "lng": 73.792,
+   "why": "Gothic-revival church in a quiet village",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 15,
+   "name": "Candolim Beach",
+   "district": "North Goa",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 15.518,
+   "lng": 73.762,
+   "why": "Long, calmer beach running down to Fort Aguada",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 16,
+   "name": "Fort Aguada",
+   "district": "North Goa",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 15.492,
+   "lng": 73.773,
+   "why": "17th-century Portuguese fort and lighthouse on the Mandovi's mouth",
+   "tier": "icon",
+   "months": [
+    11,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 17,
+   "name": "Reis Magos Fort",
+   "district": "North Goa",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 15.498,
+   "lng": 73.809,
+   "why": "Restored riverside fort and church facing Panaji",
+   "tier": "top",
+   "months": [
+    11,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 18,
+   "name": "Mapusa Market",
+   "district": "North Goa",
+   "category": "Market",
+   "g": "culture",
+   "lat": 15.591,
+   "lng": 73.809,
+   "why": "Busy Friday market of spices, sausages and local produce",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 19,
+   "name": "Houses of Goa Museum",
+   "district": "North Goa",
+   "category": "Museum",
+   "g": "culture",
+   "lat": 15.528,
+   "lng": 73.816,
+   "why": "Ship-shaped museum of Goan houses and architecture",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 20,
+   "name": "Mayem Lake",
+   "district": "North Goa",
+   "category": "Lake",
+   "g": "water",
+   "lat": 15.58,
+   "lng": 73.94,
+   "why": "Hill-ringed lake for boating and walks",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 21,
+   "name": "Saptakoteshwar Temple",
+   "district": "North Goa",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 15.59,
+   "lng": 73.9,
+   "why": "Temple rebuilt by Shivaji after Portuguese destruction",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 22,
+   "name": "Arvalem Falls & Caves",
+   "district": "North Goa",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 15.548,
+   "lng": 74.027,
+   "why": "Waterfall beside 6th-century rock-cut caves",
+   "tier": "top",
+   "months": [
+    7,
+    11
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 23,
+   "name": "Mhadei Wildlife Sanctuary",
+   "district": "North Goa",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 15.61,
+   "lng": 74.15,
+   "why": "Western Ghats forest with rare birds and waterfalls",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 24,
+   "name": "Chorla Ghat",
+   "district": "North Goa",
+   "category": "Hills",
+   "g": "hills",
+   "lat": 15.64,
+   "lng": 74.1,
+   "why": "Misty Western Ghats pass on the Goa–Karnataka border",
+   "tier": "top",
+   "months": [
+    7,
+    10
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 25,
+   "name": "Brahma Temple, Carambolim",
+   "district": "North Goa",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 15.55,
+   "lng": 74.17,
+   "why": "One of India's rare temples to Brahma, in a Sattari village",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 26,
+   "name": "Fontainhas",
+   "district": "North Goa",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 15.496,
+   "lng": 73.832,
+   "why": "Panaji's Latin Quarter of colourful Portuguese-era houses",
+   "tier": "icon",
+   "months": [
+    1,
+    12
+   ],
+   "time": "2–3 hrs"
+  },
+  {
+   "n": 27,
+   "name": "Immaculate Conception Church, Panaji",
+   "district": "North Goa",
+   "category": "Church",
+   "g": "temple",
+   "lat": 15.4987,
+   "lng": 73.8295,
+   "why": "Panaji's landmark white church with zigzag stairs",
+   "tier": "top",
+   "months": [
+    11,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 28,
+   "name": "Mandovi River Cruise",
+   "district": "North Goa",
+   "category": "River",
+   "g": "water",
+   "lat": 15.501,
+   "lng": 73.828,
+   "why": "Sunset cruises with Goan music and dance",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 29,
+   "name": "Miramar Beach",
+   "district": "North Goa",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 15.479,
+   "lng": 73.807,
+   "why": "City beach where the Mandovi meets the sea",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 30,
+   "name": "Dona Paula",
+   "district": "North Goa",
+   "category": "Viewpoint",
+   "g": "coast",
+   "lat": 15.456,
+   "lng": 73.804,
+   "why": "Headland jetty with views across the Zuari and Mormugao harbour",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 31,
+   "name": "Salim Ali Bird Sanctuary",
+   "district": "North Goa",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 15.515,
+   "lng": 73.87,
+   "why": "Mangrove sanctuary on Chorao island, explored by canoe",
+   "tier": "top",
+   "months": [
+    11,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 32,
+   "name": "Divar Island",
+   "district": "North Goa",
+   "category": "Island",
+   "g": "culture",
+   "lat": 15.522,
+   "lng": 73.905,
+   "why": "Sleepy island of villages and churches, reached by ferry",
+   "tier": "top",
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 33,
+   "name": "Basilica of Bom Jesus",
+   "district": "North Goa",
+   "category": "Church",
+   "g": "temple",
+   "lat": 15.5009,
+   "lng": 73.9116,
+   "why": "UNESCO basilica holding the relics of St Francis Xavier",
+   "tier": "icon",
+   "months": [
+    1,
+    12
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 34,
+   "name": "Se Cathedral",
+   "district": "North Goa",
+   "category": "Church",
+   "g": "temple",
+   "lat": 15.504,
+   "lng": 73.9123,
+   "why": "One of Asia's largest churches, home of the Golden Bell",
+   "tier": "icon",
+   "months": [
+    1,
+    12
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 35,
+   "name": "Church of St Cajetan",
+   "district": "North Goa",
+   "category": "Church",
+   "g": "temple",
+   "lat": 15.5059,
+   "lng": 73.915,
+   "why": "Church modelled on St Peter's in Rome",
+   "tier": "top",
+   "months": [
+    11,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 36,
+   "name": "St Augustine Tower",
+   "district": "North Goa",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 15.499,
+   "lng": 73.907,
+   "why": "Ruined bell tower of a once-vast 17th-century church",
+   "tier": "top",
+   "months": [
+    11,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 37,
+   "name": "Museum of Christian Art",
+   "district": "North Goa",
+   "category": "Museum",
+   "g": "culture",
+   "lat": 15.4995,
+   "lng": 73.9085,
+   "why": "Indo-Portuguese Christian art in the Santa Monica convent",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 38,
+   "name": "Our Lady of the Mount Chapel",
+   "district": "North Goa",
+   "category": "Church",
+   "g": "temple",
+   "lat": 15.4975,
+   "lng": 73.92,
+   "why": "Hilltop chapel with the best view over Old Goa",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 39,
+   "name": "Shri Mangueshi Temple",
+   "district": "North Goa",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 15.444,
+   "lng": 73.967,
+   "why": "Goa's most famous temple, with a seven-storey lamp tower",
+   "tier": "icon",
+   "months": [
+    11,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 40,
+   "name": "Mahalsa Temple",
+   "district": "North Goa",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 15.433,
+   "lng": 73.965,
+   "why": "Temple of Mahalsa Narayani with a tall brass lamp pillar",
+   "tier": "top",
+   "months": [
+    11,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 41,
+   "name": "Shanta Durga Temple",
+   "district": "North Goa",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 15.414,
+   "lng": 73.986,
+   "why": "18th-century temple blending Indian and European styles",
+   "tier": "top",
+   "months": [
+    11,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 42,
+   "name": "Ramnathi Temple",
+   "district": "North Goa",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 15.41,
+   "lng": 73.99,
+   "why": "Shiva temple in the Ponda temple belt",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 43,
+   "name": "Nagesh Temple",
+   "district": "North Goa",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 15.408,
+   "lng": 73.985,
+   "why": "Shiva temple with a beautiful old tank",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 44,
+   "name": "Safa Masjid",
+   "district": "North Goa",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 15.404,
+   "lng": 74.003,
+   "why": "16th-century mosque beside a stepped tank in Ponda",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 45,
+   "name": "Sahakari Spice Farm",
+   "district": "North Goa",
+   "category": "Farm",
+   "g": "hills",
+   "lat": 15.4,
+   "lng": 74.03,
+   "why": "Spice plantation tours with a Goan lunch",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 46,
+   "name": "Bondla Wildlife Sanctuary",
+   "district": "North Goa",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 15.43,
+   "lng": 74.1,
+   "why": "Goa's smallest sanctuary, with a zoo and forest trails",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 47,
+   "name": "Tambdi Surla Temple",
+   "district": "Kushavati",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 15.44,
+   "lng": 74.25,
+   "why": "12th-century Kadamba basalt temple, Goa's oldest",
+   "tier": "icon",
+   "months": [
+    11,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 48,
+   "name": "Bhagwan Mahavir Sanctuary",
+   "district": "Kushavati",
+   "category": "National park",
+   "g": "wildlife",
+   "lat": 15.35,
+   "lng": 74.25,
+   "why": "Goa's largest protected forest, around Mollem",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 49,
+   "name": "Dudhsagar Falls",
+   "district": "Kushavati",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 15.3144,
+   "lng": 74.3144,
+   "why": "Four-tiered 'sea of milk' falls with a railway bridge across them",
+   "tier": "icon",
+   "months": [
+    10,
+    1
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 50,
+   "name": "Netravali Wildlife Sanctuary",
+   "district": "Kushavati",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 15.1,
+   "lng": 74.23,
+   "why": "Western Ghats forest of waterfalls and rare birds",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 51,
+   "name": "Netravali Bubble Lake",
+   "district": "Kushavati",
+   "category": "Lake",
+   "g": "water",
+   "lat": 15.096,
+   "lng": 74.205,
+   "why": "Temple tank where bubbles rise when you clap",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 52,
+   "name": "Usgalimal Rock Carvings",
+   "district": "Kushavati",
+   "category": "Heritage",
+   "g": "caves",
+   "lat": 15.19,
+   "lng": 74.13,
+   "why": "Prehistoric petroglyphs on the bed of the Kushavati river",
+   "tier": "top",
+   "months": [
+    11,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 53,
+   "name": "Rivona Caves",
+   "district": "Kushavati",
+   "category": "Caves",
+   "g": "caves",
+   "lat": 15.17,
+   "lng": 74.13,
+   "why": "Ancient caves linked to Buddhist monks",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 54,
+   "name": "Cotigao Wildlife Sanctuary",
+   "district": "Kushavati",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 14.97,
+   "lng": 74.19,
+   "why": "Forest sanctuary with treetop watchtowers",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 55,
+   "name": "Bogmalo Beach",
+   "district": "South Goa",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 15.37,
+   "lng": 73.835,
+   "why": "Small bay beach near Vasco with a scuba scene",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 56,
+   "name": "Naval Aviation Museum",
+   "district": "South Goa",
+   "category": "Museum",
+   "g": "culture",
+   "lat": 15.38,
+   "lng": 73.84,
+   "why": "Navy aircraft and history on the Bogmalo road",
+   "tier": "top",
+   "months": [
+    11,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 57,
+   "name": "Majorda Beach",
+   "district": "South Goa",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 15.308,
+   "lng": 73.908,
+   "why": "Quiet beach known for its bakers and Christmas carols",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 58,
+   "name": "Colva Beach",
+   "district": "South Goa",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 15.279,
+   "lng": 73.922,
+   "why": "South Goa's best-known beach, long and lively",
+   "tier": "top",
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 59,
+   "name": "Benaulim Beach",
+   "district": "South Goa",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 15.258,
+   "lng": 73.928,
+   "why": "Fishing-village beach with calm waters",
+   "tier": "top",
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 60,
+   "name": "Goa Chitra Museum",
+   "district": "South Goa",
+   "category": "Museum",
+   "g": "culture",
+   "lat": 15.26,
+   "lng": 73.94,
+   "why": "Museum of Goan farm tools, crafts and rural life",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 61,
+   "name": "Varca Beach",
+   "district": "South Goa",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 15.224,
+   "lng": 73.933,
+   "why": "Wide white-sand beach with dolphin boat trips",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 62,
+   "name": "Cavelossim & Mobor",
+   "district": "South Goa",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 15.17,
+   "lng": 73.942,
+   "why": "Beaches where the Sal river meets the sea",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 63,
+   "name": "Betul",
+   "district": "Kushavati",
+   "category": "Village",
+   "g": "coast",
+   "lat": 15.1326,
+   "lng": 73.9689,
+   "why": "Fishing village on the Sal river mouth, known for its seafood",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 64,
+   "name": "Cabo de Rama Fort",
+   "district": "Kushavati",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 15.089,
+   "lng": 73.92,
+   "why": "Clifftop fort with a church and dramatic sea views",
+   "tier": "top",
+   "months": [
+    11,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 65,
+   "name": "Cola Beach",
+   "district": "Kushavati",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 15.056,
+   "lng": 73.942,
+   "why": "Hidden beach with a freshwater lagoon",
+   "tier": "top",
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 66,
+   "name": "Agonda Beach",
+   "district": "Kushavati",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 15.044,
+   "lng": 73.986,
+   "why": "Long, quiet beach of huts and turtle nesting",
+   "tier": "top",
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 67,
+   "name": "Butterfly Beach",
+   "district": "Kushavati",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 15.02,
+   "lng": 74.0,
+   "why": "Tiny cove reached by boat or a forest trail",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 68,
+   "name": "Palolem Beach",
+   "district": "Kushavati",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 15.01,
+   "lng": 74.023,
+   "why": "Crescent bay of palms and calm water, South Goa's star beach",
+   "tier": "icon",
+   "months": [
+    11,
+    3
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 69,
+   "name": "Patnem Beach",
+   "district": "Kushavati",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 15.0,
+   "lng": 74.03,
+   "why": "Quieter neighbour of Palolem, good for swimming",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 70,
+   "name": "Galgibaga Beach",
+   "district": "Kushavati",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 14.96,
+   "lng": 74.05,
+   "why": "Pristine turtle-nesting beach lined with casuarinas",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 71,
+   "name": "Polem Beach",
+   "district": "Kushavati",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 14.903,
+   "lng": 74.092,
+   "why": "Goa's southernmost beach, tiny and secluded",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 72,
+   "name": "Braganza House, Chandor",
+   "district": "South Goa",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 15.261,
+   "lng": 74.043,
+   "why": "Grand Portuguese-era mansion still lived in by its family",
+   "tier": "top",
+   "months": [
+    11,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 73,
+   "name": "Palacio do Deao, Quepem",
+   "district": "Kushavati",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 15.212,
+   "lng": 74.073,
+   "why": "Restored 18th-century house and gardens by the river",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 74,
+   "name": "Loutolim Heritage Houses",
+   "district": "South Goa",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 15.33,
+   "lng": 73.983,
+   "why": "Village of grand old Goan homes, including Figueiredo House",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 75,
+   "name": "Holy Spirit Church, Margao",
+   "district": "South Goa",
+   "category": "Church",
+   "g": "temple",
+   "lat": 15.283,
+   "lng": 73.958,
+   "why": "Baroque church in Margao's old quarter",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Sinquerim Beach",
+   "district": "North Goa",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 15.5,
+   "lng": 73.768,
+   "why": "Quiet beach below the walls of Fort Aguada",
+   "tier": "gem",
+   "n": 76,
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "name": "Coco Beach, Nerul",
+   "district": "North Goa",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 15.5,
+   "lng": 73.79,
+   "why": "Calm river-mouth beach for dolphin boat trips",
+   "tier": "gem",
+   "n": 77,
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "name": "Aguada Lighthouse & Jail Museum",
+   "district": "North Goa",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 15.492,
+   "lng": 73.774,
+   "why": "Old Portuguese lighthouse and a museum on Goa's freedom struggle in the fort jail",
+   "tier": "top",
+   "n": 78,
+   "months": [
+    11,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Sweet Water Lake, Arambol",
+   "district": "North Goa",
+   "category": "Lake",
+   "g": "water",
+   "lat": 15.695,
+   "lng": 73.701,
+   "why": "Freshwater lagoon behind Arambol's cliffs",
+   "tier": "gem",
+   "n": 79,
+   "months": [
+    11,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Siolim St Anthony Church",
+   "district": "North Goa",
+   "category": "Church",
+   "g": "heritage",
+   "lat": 15.62,
+   "lng": 73.77,
+   "why": "Riverside church and village of old Goan houses",
+   "tier": "gem",
+   "n": 80,
+   "months": [
+    11,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Parra Coconut Road",
+   "district": "North Goa",
+   "category": "Village",
+   "g": "culture",
+   "lat": 15.57,
+   "lng": 73.79,
+   "why": "Palm-lined village road made famous on film",
+   "tier": "gem",
+   "n": 81,
+   "months": [
+    11,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "name": "Corjuem Fort",
+   "district": "North Goa",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 15.58,
+   "lng": 73.88,
+   "why": "Small inland fort on a Mapusa river island",
+   "tier": "gem",
+   "n": 82,
+   "months": [
+    11,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Museum of Goa (MOG)",
+   "district": "North Goa",
+   "category": "Museum",
+   "g": "culture",
+   "lat": 15.53,
+   "lng": 73.81,
+   "why": "Contemporary art museum at Pilerne",
+   "tier": "top",
+   "n": 83,
+   "months": [
+    11,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "name": "Goa State Museum",
+   "district": "North Goa",
+   "category": "Museum",
+   "g": "culture",
+   "lat": 15.495,
+   "lng": 73.83,
+   "why": "Sculpture, coins and Goan history in Panaji",
+   "tier": "gem",
+   "n": 84,
+   "months": [
+    11,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "name": "Adil Shah Palace",
+   "district": "North Goa",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 15.499,
+   "lng": 73.827,
+   "why": "Panaji's oldest building, once the old Secretariat, on the Mandovi",
+   "tier": "gem",
+   "n": 85,
+   "months": [
+    11,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Kala Academy",
+   "district": "North Goa",
+   "category": "Culture",
+   "g": "culture",
+   "lat": 15.49,
+   "lng": 73.82,
+   "why": "Charles Correa's riverside arts centre at Campal",
+   "tier": "gem",
+   "n": 86,
+   "months": [
+    11,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "name": "Chorao Island",
+   "district": "North Goa",
+   "category": "Island",
+   "g": "water",
+   "lat": 15.53,
+   "lng": 73.89,
+   "why": "Ferry island of mangroves and village churches",
+   "tier": "gem",
+   "n": 87,
+   "months": [
+    11,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Church of St Francis of Assisi & ASI Museum",
+   "district": "North Goa",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 15.5035,
+   "lng": 73.912,
+   "why": "Painted church and archaeological museum in Old Goa",
+   "tier": "top",
+   "n": 88,
+   "months": [
+    11,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Viceroy's Arch",
+   "district": "North Goa",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 15.506,
+   "lng": 73.914,
+   "why": "Riverside gateway to old Velha Goa",
+   "tier": "gem",
+   "n": 89,
+   "months": [
+    11,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Pilar Seminary & Museum",
+   "district": "North Goa",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 15.45,
+   "lng": 73.86,
+   "why": "Hilltop seminary with a museum and views over the Zuari",
+   "tier": "gem",
+   "n": 90,
+   "months": [
+    11,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "St Anne Church, Talaulim",
+   "district": "North Goa",
+   "category": "Church",
+   "g": "heritage",
+   "lat": 15.48,
+   "lng": 73.92,
+   "why": "Grand baroque church in a quiet village",
+   "tier": "gem",
+   "n": 91,
+   "months": [
+    11,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Carambolim Lake",
+   "district": "North Goa",
+   "category": "Wetland",
+   "g": "wildlife",
+   "lat": 15.49,
+   "lng": 73.93,
+   "why": "Lake beside Old Goa famous for winter birds",
+   "tier": "gem",
+   "n": 92,
+   "months": [
+    11,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Savoi Plantation",
+   "district": "North Goa",
+   "category": "Spice farm",
+   "g": "culture",
+   "lat": 15.46,
+   "lng": 74.07,
+   "why": "Old family spice plantation with farm lunches",
+   "tier": "gem",
+   "n": 93,
+   "months": [
+    11,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "name": "Tropical Spice Plantation",
+   "district": "North Goa",
+   "category": "Spice farm",
+   "g": "culture",
+   "lat": 15.41,
+   "lng": 74.02,
+   "why": "Spice farm tours near Ponda",
+   "tier": "gem",
+   "n": 94,
+   "months": [
+    11,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "name": "Butterfly Conservatory of Goa",
+   "district": "North Goa",
+   "category": "Nature",
+   "g": "wildlife",
+   "lat": 15.39,
+   "lng": 74.01,
+   "why": "Butterfly garden near Ponda",
+   "tier": "gem",
+   "n": 95,
+   "months": [
+    11,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Shri Navdurga Temple, Madkai",
+   "district": "North Goa",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 15.43,
+   "lng": 73.95,
+   "why": "Riverside temple of the goddess Navdurga",
+   "tier": "gem",
+   "n": 96,
+   "months": [
+    11,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Mahalaxmi Temple, Bandora",
+   "district": "North Goa",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 15.41,
+   "lng": 73.99,
+   "why": "Old temple of the Ponda temple circuit",
+   "tier": "gem",
+   "n": 97,
+   "months": [
+    11,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Lamgau Caves",
+   "district": "North Goa",
+   "category": "Cave",
+   "g": "caves",
+   "lat": 15.55,
+   "lng": 73.96,
+   "why": "Rock-cut caves near Bicholim",
+   "tier": "gem",
+   "n": 98,
+   "months": [
+    11,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Grande Island",
+   "district": "South Goa",
+   "category": "Island",
+   "g": "coast",
+   "lat": 15.36,
+   "lng": 73.78,
+   "why": "Island boat trips for snorkelling, diving and dolphins",
+   "tier": "top",
+   "n": 99,
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "name": "Hollant Beach",
+   "district": "South Goa",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 15.37,
+   "lng": 73.84,
+   "why": "Small cove beach near Bogmalo",
+   "tier": "gem",
+   "n": 100,
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "name": "Japanese Garden, Vasco",
+   "district": "South Goa",
+   "category": "Viewpoint",
+   "g": "coast",
+   "lat": 15.3521,
+   "lng": 73.8961,
+   "why": "Cliff-top garden and secret beach near Vasco",
+   "tier": "gem",
+   "n": 101,
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "name": "Sancoale Church Facade",
+   "district": "South Goa",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 15.38,
+   "lng": 73.88,
+   "why": "Ruined facade of one of Goa's oldest churches",
+   "tier": "gem",
+   "n": 102,
+   "months": [
+    11,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Kesarval Springs",
+   "district": "South Goa",
+   "category": "Spring",
+   "g": "water",
+   "lat": 15.36,
+   "lng": 73.93,
+   "why": "Forest spring near Verna",
+   "tier": "gem",
+   "n": 103,
+   "months": [
+    11,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Velsao & Cansaulim Beaches",
+   "district": "South Goa",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 15.35,
+   "lng": 73.89,
+   "why": "Long empty beaches of north Salcete",
+   "tier": "gem",
+   "n": 104,
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "name": "Betalbatim Beach",
+   "district": "South Goa",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 15.29,
+   "lng": 73.91,
+   "why": "Quiet stretch known for its sunsets",
+   "tier": "gem",
+   "n": 105,
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "name": "Rachol Seminary",
+   "district": "South Goa",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 15.3,
+   "lng": 74.0,
+   "why": "Fortified 16th-century seminary with a museum",
+   "tier": "top",
+   "n": 106,
+   "months": [
+    11,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Margao Municipal Market",
+   "district": "South Goa",
+   "category": "Market",
+   "g": "culture",
+   "lat": 15.275,
+   "lng": 73.96,
+   "why": "Busy old market for spices, sausages and sweets",
+   "tier": "gem",
+   "n": 107,
+   "months": [
+    11,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "name": "Shri Damodar Temple, Zambaulim",
+   "district": "Kushavati",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 15.21,
+   "lng": 74.09,
+   "why": "Temple famous for its Gulal festival",
+   "tier": "gem",
+   "n": 108,
+   "months": [
+    11,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Chandreshwar Bhutnath Temple",
+   "district": "Kushavati",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 15.2392,
+   "lng": 74.0535,
+   "why": "Hilltop temple at Paroda with sweeping views",
+   "tier": "top",
+   "n": 109,
+   "months": [
+    11,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Curdi Village",
+   "district": "Kushavati",
+   "category": "Village",
+   "g": "water",
+   "lat": 15.2,
+   "lng": 74.14,
+   "why": "Submerged village that reappears in summer",
+   "tier": "gem",
+   "n": 110,
+   "months": [
+    2,
+    5
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Salaulim Dam",
+   "district": "Kushavati",
+   "category": "Lake",
+   "g": "water",
+   "lat": 15.21,
+   "lng": 74.19,
+   "why": "Reservoir with a famous circular spillway",
+   "tier": "top",
+   "n": 111,
+   "months": [
+    7,
+    10
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Mainapi Falls",
+   "district": "Kushavati",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 15.14,
+   "lng": 74.28,
+   "why": "Forest waterfall reached by trek in Netravali",
+   "tier": "gem",
+   "n": 112,
+   "months": [
+    7,
+    10
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Savri Falls",
+   "district": "Kushavati",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 15.07,
+   "lng": 74.22,
+   "why": "Waterfall in Netravali",
+   "tier": "gem",
+   "n": 113,
+   "months": [
+    7,
+    10
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Tanshikar Spice Farm",
+   "district": "Kushavati",
+   "category": "Spice farm",
+   "g": "culture",
+   "lat": 15.1,
+   "lng": 74.21,
+   "why": "Family spice farm in the Netravali forest",
+   "tier": "gem",
+   "n": 114,
+   "months": [
+    11,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "name": "Devil's Canyon, Mollem",
+   "district": "Kushavati",
+   "category": "River",
+   "g": "water",
+   "lat": 15.33,
+   "lng": 74.25,
+   "why": "Rocky gorge on the Dudhsagar river",
+   "tier": "gem",
+   "n": 115,
+   "months": [
+    11,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Khola Beach",
+   "district": "Kushavati",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 15.07,
+   "lng": 73.93,
+   "why": "Hidden cove beach near Cabo de Rama",
+   "tier": "gem",
+   "n": 116,
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "name": "Talpona & Rajbag Beaches",
+   "district": "Kushavati",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 14.98,
+   "lng": 74.04,
+   "why": "Quiet beaches south of Palolem",
+   "tier": "gem",
+   "n": 117,
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "name": "Shree Mallikarjun Temple",
+   "district": "Kushavati",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 15.01,
+   "lng": 74.07,
+   "why": "Old Canacona temple with a famous festival",
+   "tier": "gem",
+   "n": 118,
+   "months": [
+    11,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Partagali Math",
+   "district": "Kushavati",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 15.0,
+   "lng": 74.09,
+   "why": "Riverside math with a giant new Rama statue",
+   "tier": "top",
+   "n": 119,
+   "months": [
+    11,
+    3
+   ],
+   "time": "1 hr"
+  }
+ ],
+ "festivals": [
+  {
+   "name": "Shanta Durga Zatra",
+   "months": [
+    1,
+    2
+   ],
+   "when": "Usually January or February",
+   "n": 41,
+   "about": "Temple fair with the goddess carried out in a decorated procession."
+  },
+  {
+   "name": "Goa Carnival",
+   "months": [
+    2,
+    3
+   ],
+   "when": "February or March, before Lent",
+   "n": 26,
+   "about": "Four days of floats, music and King Momo's parades through Panaji and other towns."
+  },
+  {
+   "name": "Shigmo",
+   "months": [
+    3,
+    3
+   ],
+   "when": "March, around Holi",
+   "n": null,
+   "about": "Goa's spring festival of folk dance, drums and float parades."
+  },
+  {
+   "name": "Sao Joao",
+   "months": [
+    6,
+    6
+   ],
+   "when": "24 June",
+   "n": null,
+   "about": "Monsoon feast of St John, with young men leaping into village wells and ponds."
+  },
+  {
+   "name": "Chikal Kalo",
+   "months": [
+    7,
+    7
+   ],
+   "when": "July",
+   "n": null,
+   "about": "Mud festival at Marcel, with games in the monsoon mud."
+  },
+  {
+   "name": "Bonderam",
+   "months": [
+    8,
+    8
+   ],
+   "when": "Fourth Saturday of August",
+   "n": 32,
+   "about": "Divar island's flag festival of parades and floats."
+  },
+  {
+   "name": "Ganesh Chaturthi",
+   "months": [
+    8,
+    9
+   ],
+   "when": "August or September",
+   "n": 39,
+   "about": "Goa's biggest Hindu festival, celebrated in homes across the state."
+  },
+  {
+   "name": "International Film Festival of India",
+   "months": [
+    11,
+    11
+   ],
+   "when": "Late November",
+   "n": 27,
+   "about": "India's main international film festival, held in Panaji."
+  },
+  {
+   "name": "Feast of St Francis Xavier",
+   "months": [
+    12,
+    12
+   ],
+   "when": "3 December",
+   "n": 33,
+   "about": "Pilgrims crowd Old Goa for the saint's feast day."
+  },
+  {
+   "name": "Feast of the Immaculate Conception",
+   "months": [
+    12,
+    12
+   ],
+   "when": "8 December",
+   "n": 27,
+   "about": "Panaji's church feast, with a fair in the streets below."
+  },
+  {
+   "name": "Serendipity Arts Festival",
+   "months": [
+    12,
+    12
+   ],
+   "when": "Usually December",
+   "n": 26,
+   "about": "Multi-arts festival across Panaji's heritage venues."
+  },
+  {
+   "name": "Christmas and New Year",
+   "months": [
+    12,
+    12
+   ],
+   "when": "Late December",
+   "n": 34,
+   "about": "Midnight masses, carols, stars on every house and beach parties."
+  }
+ ]
+}
