@@ -2418,6 +2418,390 @@
     3
    ],
    "time": "1 hr"
+  },
+  {
+   "n": 143,
+   "name": "Karnajora Museum & Park",
+   "district": "Uttar Dinajpur",
+   "category": "Museum",
+   "g": "culture",
+   "lat": 25.6548,
+   "lng": 88.1511,
+   "why": "District museum of terracotta and local pottery set in a park outside Raiganj",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 144,
+   "name": "Sap Nikla Forest",
+   "district": "Uttar Dinajpur",
+   "category": "Forest",
+   "g": "wildlife",
+   "lat": 26.362,
+   "lng": 88.276,
+   "why": "Forest and lake near Islampur in Chopra block, a local picnic spot",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 145,
+   "name": "Kunor Terracotta Village",
+   "district": "Uttar Dinajpur",
+   "category": "Craft village",
+   "g": "culture",
+   "lat": 25.53,
+   "lng": 88.26,
+   "why": "Potters' village near Kaliyaganj known for clay and terracotta work",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 146,
+   "name": "Dargah of Shah Ata, Gangarampur",
+   "district": "Dakshin Dinajpur",
+   "category": "Dargah",
+   "g": "temple",
+   "lat": 25.4,
+   "lng": 88.52,
+   "why": "14th-century Sufi shrine near the Bangarh mounds, among the oldest in Bengal",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 147,
+   "name": "Khanpur Tebhaga Memorial",
+   "district": "Dakshin Dinajpur",
+   "category": "Memorial",
+   "g": "heritage",
+   "lat": 25.3,
+   "lng": 88.88,
+   "why": "Village memorial to the 1947 Tebhaga sharecroppers' uprising, near Balurghat",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 148,
+   "name": "Gadiara",
+   "district": "Howrah",
+   "category": "Riverside",
+   "g": "water",
+   "lat": 22.259,
+   "lng": 88.044,
+   "why": "Picnic spot where the Rupnarayan, Hooghly and Damodar meet; sunset river cruises",
+   "tier": "gem",
+   "months": [
+    11,
+    2
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 149,
+   "name": "Garchumuk Deer Park",
+   "district": "Howrah",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 22.31,
+   "lng": 88.04,
+   "why": "1991 deer park by the Damodar's 58 Gate sluices",
+   "tier": "gem",
+   "months": [
+    11,
+    2
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 150,
+   "name": "Andul Rajbari",
+   "district": "Howrah",
+   "category": "Palace",
+   "g": "heritage",
+   "lat": 22.58,
+   "lng": 88.24,
+   "why": "185-year-old zamindar mansion where Sahib Bibi Aur Ghulam was filmed",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 151,
+   "name": "Santragachi Jheel",
+   "district": "Howrah",
+   "category": "Bird lake",
+   "g": "wildlife",
+   "lat": 22.58,
+   "lng": 88.28,
+   "why": "Lake beside the railway station that fills with thousands of whistling ducks each winter",
+   "tier": "top",
+   "months": [
+    11,
+    2
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 152,
+   "name": "Rail Museum, Howrah",
+   "district": "Howrah",
+   "category": "Museum",
+   "g": "culture",
+   "lat": 22.58,
+   "lng": 88.33,
+   "why": "Open-air museum of old engines and coaches with a toy-train ride",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 153,
+   "name": "Melai Chandi Temple, Amta",
+   "district": "Howrah",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 22.58,
+   "lng": 88.01,
+   "why": "Shakti Peetha where Sati's knee is said to have fallen",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 154,
+   "name": "Krishnanagar Rajbari",
+   "district": "Nadia",
+   "category": "Palace",
+   "g": "heritage",
+   "lat": 23.4,
+   "lng": 88.5,
+   "why": "Palace of Raja Krishnachandra, patron of Bengal's 18th-century culture; open at Durga Puja",
+   "tier": "gem",
+   "months": [
+    9,
+    10
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 155,
+   "name": "Bethuadahari Wildlife Sanctuary",
+   "district": "Nadia",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 23.59,
+   "lng": 88.4,
+   "why": "Small forest of chital and birds beside NH-34, 22 km north of Krishnanagar",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 156,
+   "name": "Shibnibas Temples",
+   "district": "Nadia",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 23.3,
+   "lng": 88.69,
+   "why": "Three 18th-century temples by the Churni river built by Raja Krishnachandra",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 157,
+   "name": "Ballal Dhipi",
+   "district": "Nadia",
+   "category": "Archaeological site",
+   "g": "heritage",
+   "lat": 23.4,
+   "lng": 88.38,
+   "why": "Excavated Sena-era mound near Mayapur linked to King Ballal Sen",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 158,
+   "name": "Barrackpore Gandhi Ghat & Museum",
+   "district": "North 24 Parganas",
+   "category": "Memorial",
+   "g": "heritage",
+   "lat": 22.77,
+   "lng": 88.37,
+   "why": "Riverside Gandhi memorial gardens and museum in the old cantonment",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2–3 hrs"
+  },
+  {
+   "n": 159,
+   "name": "Dhanyakuria Castles",
+   "district": "North 24 Parganas",
+   "category": "Heritage village",
+   "g": "heritage",
+   "lat": 22.68,
+   "lng": 88.75,
+   "why": "Village of 19th-century merchant mansions built like European castles",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 160,
+   "name": "Henry Island",
+   "district": "South 24 Parganas",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 21.588,
+   "lng": 88.267,
+   "why": "Mangrove-fringed beach with a watchtower and red crabs near Bakkhali",
+   "tier": "gem",
+   "months": [
+    11,
+    2
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 161,
+   "name": "Frasergunj",
+   "district": "South 24 Parganas",
+   "category": "Fishing harbour",
+   "g": "coast",
+   "lat": 21.582,
+   "lng": 88.259,
+   "why": "Fishing harbour and wind farm, with dried-fish yards on the beach",
+   "tier": "gem",
+   "months": [
+    11,
+    2
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 162,
+   "name": "Jharkhali",
+   "district": "South 24 Parganas",
+   "category": "Mangroves",
+   "g": "wildlife",
+   "lat": 22.04,
+   "lng": 88.68,
+   "why": "Road-accessible Sundarbans gateway with a watchtower and tiger rescue centre",
+   "tier": "gem",
+   "months": [
+    11,
+    2
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 163,
+   "name": "Cossimbazar Rajbari",
+   "district": "Murshidabad",
+   "category": "Palace",
+   "g": "heritage",
+   "lat": 24.13,
+   "lng": 88.28,
+   "why": "Two zamindar palaces of the Cossimbazar Rajas, one now a heritage stay",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 164,
+   "name": "Baranagar Terracotta Temples",
+   "district": "Murshidabad",
+   "category": "Temple",
+   "g": "heritage",
+   "lat": 24.24,
+   "lng": 88.27,
+   "why": "Rani Bhabani's 18th-century terracotta temples on the Bhagirathi",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 165,
+   "name": "Ballavpur Wildlife Sanctuary",
+   "district": "Birbhum",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 23.69,
+   "lng": 87.66,
+   "why": "Deer park on Santiniketan's edge with blackbuck and winter ducks",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 166,
+   "name": "Junput",
+   "district": "Purba Medinipur",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 21.736,
+   "lng": 87.825,
+   "why": "Quiet beach with casuarina groves and a fisheries research station near Contai",
+   "tier": "gem",
+   "months": [
+    11,
+    2
+   ],
+   "time": "Half day"
   }
  ],
  "festivals": [
