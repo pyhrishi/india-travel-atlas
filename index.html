@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <script>try{var t=localStorage.getItem("ita-theme");if(t==="light"||t==="dark")document.documentElement.dataset.theme=t}catch(e){}</script>
-<meta charset="utf-8">
+<meta charset="utf-8"><link rel="preload" href="data/index.json" as="fetch" crossorigin>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="description" content="The best places in every Indian state and union territory, on one map.">
 <meta name="theme-color" content="#e5246b">
@@ -628,12 +628,12 @@ const tg=k=>p=>(p.tags||[]).includes(k);
 const COLL=[["iconic","Iconic India","Every place rated Iconic in the atlas","#16181d",p=>p.tier==="icon"],["unesco","UNESCO World Heritage","Sites on or tied to the World Heritage list","#1f5fa8",tg("unesco")],["jyotirlinga","Jyotirlinga temples","Shiva's sacred lingas of light","#c2410c",p=>p.g==="temple"&&tg("jyotirlinga")(p)],["shakti","Shakti Peeths","Seats of the goddess","#be185d",tg("shakti")],["falls","Monsoon waterfalls","At their fullest from July to September","#1f78d1",tg("falls")],["beach","Beaches","Sand, surf and islands","#0aa1ad",tg("beach")],["hillstn","Hill stations","Cool towns in the hills","#2e8b4a",tg("hillstn")],["tiger","Tiger country","Reserves where tigers live wild","#b45309",p=>p.g==="wildlife"&&tg("tiger")(p)],["fort","Forts","Hill forts, sea forts and citadels","#8d5524",tg("fort")],["palace","Palaces","Royal homes and durbar halls","#9d174d",tg("palace")],["stepwell","Stepwells","Carved wells of the west","#7c5c2e",tg("stepwell")],["tea","Tea and coffee country","Estates and plantations","#3f6b2f",tg("tea")],["monastery","Monasteries","Gompas of the Himalaya and beyond","#7b4fc4",tg("monastery")]];
 function colls(){const h=home();return h?[["weekend","Weekends from "+h.name,"Within about 350 km of "+h.name+" by road","#e5246b",p=>p.tier!=="gem"&&road(km(h,p))<=350],...COLL]:COLL}
 const collBy=k=>colls().find(c=>c[0]===k);
-const collPlaces=k=>{const c=collBy(k);return c?allPlaces().filter(c[4]):[]};
+const _CP=new Map();const collPlaces=k=>{const all=allPlaces();if(_CP.has(k))return _CP.get(k);const c=collBy(k),r=c?all.filter(c[4]):[];_CP.set(k,r);return r};
 const collT=k=>collBy(k)?.[1]||"";
 
 /* ---------- sync: this browser + your account ---------- */
 let DB=null,UID=null,REF=null,writing=false,again=false,wt=null;
-function save(){M.t=Date.now();try{localStorage.setItem("ita-v2",JSON.stringify(M))}catch(e){}clearTimeout(wt);wt=setTimeout(push,900);hdr()}
+function save(){M.t=Date.now();_NS.clear();_TF.clear();_SC.clear();try{localStorage.setItem("ita-v2",JSON.stringify(M))}catch(e){}clearTimeout(wt);wt=setTimeout(push,900);hdr()}
 async function push(){if(!REF)return;if(writing){again=true;return}writing=true;
   try{await REF.set(JSON.parse(JSON.stringify(M)));setSync("Saved to your account")}catch(e){setSync(e&&e.code==="quota_exceeded"?"Account storage is full":"Saved on this device only")}
   writing=false;if(again){again=false;push()}}
@@ -717,7 +717,7 @@ function paintPic(el){const k=el.dataset.pk,r=photoOf(k);if(!r||el.classList.con
 function paintPics(keys){const sel=keys?keys.map(k=>`.pic[data-pk="${CSS.escape(k)}"]:not(.has)`).join(","):".pic[data-pk]:not(.has)";if(sel)document.querySelectorAll(sel).forEach(paintPic)}
 /* photos found ahead of time by a GitHub job (data/photos.json); the on-device lookup fills any gaps */
 let phBundle=null;
-const phReady=fetch("data/photos.json",{cache:"no-cache"}).then(r=>r.ok?r.json():null).then(j=>{if(j&&j.p){phBundle=j;
+let phGo;const phGate=new Promise(r=>{phGo=r;setTimeout(r,4000)});const phReady=phGate.then(()=>fetch("data/photos.json",{cache:"no-cache"})).then(r=>r.ok?r.json():null).then(j=>{if(j&&j.p){phBundle=j;
     if(j.v===2){for(const k in j.p){const t=j.p[k],o=PH[k]&&PH[k].t?PH[k]:{};PH[k]=Object.assign(o,{t:/^https?:/.test(t)?t:j.base+t})}for(const k of j.miss||[])if(!(k in PH))PH[k]=-1}
     else{for(const k in j.p)PH[k]=j.p[k];for(const k in j.miss||{})if(!(k in PH))PH[k]=-1}paintPics()}else phBundle={}}).catch(()=>{phBundle={}});
 let phCred=null;function loadCredits(){if(!phCred)phCred=fetch("data/photo-credits.json").then(r=>r.ok?r.json():{}).then(c=>{for(const k in c)if(PH[k]&&PH[k].t)Object.assign(PH[k],c[k])}).catch(()=>{});return phCred}
@@ -733,7 +733,7 @@ const CL=Math.cos(22*Math.PI/180);let W=0,H=0,K=1,T=d3.zoomIdentity,ox=0,oy=0,sc
 const P=(lng,lat)=>[ox+(lng-68.1)*CL*sc,oy+(37.1-lat)*sc];
 const path=d3.geoPath(d3.geoTransform({point(x,y){const q=P(x,y);this.stream.point(q[0],q[1])}}));
 let zs=null,vel=[];
-const zoom=d3.zoom().scaleExtent([.8,140]).on("start",e=>{zs=e.sourceEvent?{x:T.x,y:T.y,k:T.k}:null;vel=[]}).on("end",e=>{if(!e.sourceEvent||RM||vel.length<2)return;const now=performance.now(),v=vel.filter(s=>now-s.t<90);if(v.length<2||now-v[v.length-1].t>60)return;const a=v[0],b=v[v.length-1],dt=b.t-a.t;if(dt<8||b.k!==a.k)return;const vx=(b.x-a.x)/dt,vy=(b.y-a.y)/dt,sp=Math.hypot(vx,vy);if(sp<.35)return;const d=Math.min(sp,4)*220/sp;svg.transition().duration(650).ease(d3.easeCubicOut).call(zoom.translateBy,vx*d/K,vy*d/K)}).on("zoom",e=>{T=e.transform;K=T.k;root.attr("transform",T);if(e.sourceEvent){vel.push({t:performance.now(),x:T.x,y:T.y,k:T.k});if(vel.length>6)vel.shift()}sizePins();queueLabels();if(zs&&(Math.abs(T.x-zs.x)+Math.abs(T.y-zs.y)>28||Math.abs(T.k-zs.k)/zs.k>.1)){zs=null;S.manual=true;if(mobile()&&si>0)snapTo(0,true)}});
+const zoom=d3.zoom().scaleExtent([.8,140]).on("start",e=>{S._zm=1;zs=e.sourceEvent?{x:T.x,y:T.y,k:T.k}:null;vel=[]}).on("end",e=>{S._zm=0;sizePins();clearTimeout(lqT);queueLabels();if(!e.sourceEvent||RM||vel.length<2)return;const now=performance.now(),v=vel.filter(s=>now-s.t<90);if(v.length<2||now-v[v.length-1].t>60)return;const a=v[0],b=v[v.length-1],dt=b.t-a.t;if(dt<8||b.k!==a.k)return;const vx=(b.x-a.x)/dt,vy=(b.y-a.y)/dt,sp=Math.hypot(vx,vy);if(sp<.35)return;const d=Math.min(sp,4)*220/sp;svg.transition().duration(650).ease(d3.easeCubicOut).call(zoom.translateBy,vx*d/K,vy*d/K)}).on("zoom",e=>{T=e.transform;K=T.k;root.attr("transform",T);if(e.sourceEvent){vel.push({t:performance.now(),x:T.x,y:T.y,k:T.k});if(vel.length>6)vel.shift()}sizePins();labelsSoon();if(zs&&(Math.abs(T.x-zs.x)+Math.abs(T.y-zs.y)>28||Math.abs(T.k-zs.k)/zs.k>.1)){zs=null;S.manual=true;if(mobile()&&si>0)snapTo(0,true)}});
 svg.call(zoom);
 const MQ=matchMedia("(max-width:899px) and (orientation:portrait),(max-width:899px) and (min-height:541px)");
 const mobile=()=>MQ.matches;
@@ -812,14 +812,14 @@ function pinTap(p,z){if(p.slug!==S.slug){S.slug=p.slug;classStates();ensureFull(
 function pinR(){return S.slug&&!S.coll?Math.max(5,Math.min(9,3.8+relK()*1.8)):Math.max(3.6,Math.min(12,1.9+K*.55))}
 let lastR=-1,lastK=-1;
 function sizePins(){try{gHome.selectAll(".homept,.me").attr("r",(d,i,n)=>(n[i].classList.contains("me")?7:5)/K);gHome.selectAll(".mering").attr("r",16/K)}catch(e){}const r0=pinR(),hitR=mobile()?18:11;
-  syncPins(false);const rch=r0!==lastR,kch=K!==lastK;lastR=r0;lastK=K;if(!rch&&!kch)return;
+  {const nw=performance.now();if(!S._zm||nw-(S._lsy||0)>160){S._lsy=nw;syncPins(false)}}const rch=r0!==lastR,kch=K!==lastK;lastR=r0;lastK=K;if(!rch&&!kch)return;
   gPins.selectAll("g.pin").each(function(p){const sel=this.classList.contains("sel");
     if(kch)this.setAttribute("transform",`translate(${this._x},${this._y}) scale(${1/K})`);if(!rch&&!this._new)return;this._new=0;
     const r=r0*(TIERR[p.tier]||1)*(sel?1.35:1),h=this.firstChild,o=h.nextSibling,c=o.nextSibling,u=c.nextSibling;
     h.setAttribute("r",Math.max(r,hitR));o.setAttribute("r",r+1.5);c.setAttribute("r",r);
     if(r>=7.2){u.setAttribute("x",-r*.62);u.setAttribute("y",-r*.62);u.setAttribute("width",r*1.24);u.setAttribute("height",r*1.24);u.style.display=""}else u.style.display="none"});
   gRoute.selectAll("g.rn").attr("transform",function(){return`translate(${this._x},${this._y}) scale(${1/K})`})}
-let lq=0;function queueLabels(){if(lq)return;lq=requestAnimationFrame(()=>{lq=0;labels()})}
+let lq=0,lqT=0,lqLast=0;function queueLabels(){if(lq)return;lq=requestAnimationFrame(()=>{lq=0;lqLast=performance.now();labels()})}function labelsSoon(){const d=performance.now()-lqLast;clearTimeout(lqT);if(d>220)queueLabels();else lqT=setTimeout(queueLabels,230-d)}
 function labels(){
   clusters();const out=[],sq=[],boxes=S._cb?[...S._cb]:[],r0=pinR(),v=vb(),btm=v.y+v.h/2+6;
   const hit=b=>boxes.some(o=>b[0]<o[2]&&b[2]>o[0]&&b[1]<o[3]&&b[3]>o[1]);
@@ -982,7 +982,7 @@ function whereMap(p){const D=S.data[p.slug],st=stOf(p.slug),f=S.feats.find(d=>d.
 function ping(p,delay=0){setTimeout(()=>{const[x,y]=T.apply(P(p.lng,p.lat));gTop.append("circle").attr("class","ping").attr("cx",x).attr("cy",y).attr("r",16).on("animationend",function(){this.remove()})},delay)}
 /* long lists render 40 rows at a time, more as you scroll */
 function chunkUl(ul,items,first=40){if(!ul)return;let i=first;if(items.length<=first)return;const more=document.createElement("li");more.className="more-li";more.textContent=`${items.length} more. Scroll to load`;ul.appendChild(more);
-  const io=new IntersectionObserver(es=>{if(!es.some(e=>e.isIntersecting))return;const n=items.slice(i,i+60);i+=n.length;more.insertAdjacentHTML("beforebegin",n.join(""));bind();scanPhotos(ul);if(i>=items.length){io.disconnect();more.remove()}else more.textContent=`${items.length-i} more. Scroll to load`},{root:V,rootMargin:"400px"});io.observe(more)}
+  const io=new IntersectionObserver(es=>{if(!es.some(e=>e.isIntersecting))return;const n=items.slice(i,i+60);i+=n.length;more.insertAdjacentHTML("beforebegin",n.map(x=>typeof x==="function"?x():x).join(""));bind();scanPhotos(ul);if(i>=items.length){io.disconnect();more.remove()}else more.textContent=`${items.length-i} more. Scroll to load`},{root:V,rootMargin:"400px"});io.observe(more)}
 function mbar(p){return`<span class="mbar" aria-hidden="true">${MON.map((m,i)=>`<i class="${inSeason(i+1,p)?"on":""}${i+1===NOWM?" now":""}"></i>`).join("")}</span>`}
 function row(p,opt={}){const b=base(),pid=id(p),m=M.been[pid]?"Been":M.want[pid]&&!opt.q?"Saved":"";const inner=`<button class="it" data-p="${pid}"><span class="thumb" aria-hidden="true">${art(p)}</span><span><span class="nm">${esc(p.name)}</span><span class="sub">${p.tier!=="top"?`<span class="badge b-${p.tier}">${TIER[p.tier]}</span> `:""}${ico(p.g,12,G[p.g][1])} ${esc(opt.state?stOf(p.slug).name:p.district)} · ${esc(p.category)}${M.notes[pid]?" · has notes":""}</span>${opt.mb!==0?`<span class="sub">${mbar(p)} <span class="sr">Best </span>${monthsTxt(p)}</span>`:""}</span><span class="r">${b&&!opt.state?`<span>~${road(km(b,p))} km</span>`:""}${m?`<span class="flag">${m}</span>`:""}</span></button>`;
   if(!opt.q)return`<li>${inner}</li>`;const on=!!M.want[pid];return`<li class="qrow">${inner}<button class="qs${on?" on":""}" data-qs="${pid}" aria-pressed="${on}" aria-label="Want to go: ${esc(p.name)}"><svg aria-hidden="true"><use href="#i-heart"/></svg></button></li>`}
@@ -1135,7 +1135,7 @@ function vSearch(q){q=q||"";const t=canon(q);
     <h3 class="pad">Try</h3><div class="pad tags">${["Hampi","Waterfalls","Jyotirlinga","Ooty","Stepwells","Tiger","Port Blair","Monastery"].map(x=>`<button class="tag" data-rq="${x}">${x}</button>`).join("")}</div>
     <div class="pad" style="margin-top:12px"><button class="act pri" style="width:100%" id="surp"><svg class="bi" aria-hidden="true"><use href="#i-dice"/></svg>Surprise me</button></div>${collRail()}${recentRail()}`;
     V.querySelectorAll("[data-rq]").forEach(b=>b.onclick=()=>{qi.value=b.dataset.rq;qi.dispatchEvent(new Event("input"))});const rc=$("#rqclr");if(rc)rc.onclick=()=>{M.recentQ=[];save();paint()};return}
-  const toks=t.split(" "),all=allPlaces(),nm=p=>" "+canon(p.name)+" ";
+  const toks=t.split(" "),all=allPlaces(),nm=p=>p._cn||(p._cn=" "+canon(p.name)+" ");
   const hits=all.filter(p=>{const h=hay(p);return toks.every(w=>h.includes(w))}).map(p=>{const n=nm(p);return[p,(n.includes(" "+t)?4:n.includes(t)?3:toks.every(w=>n.includes(w))?2:0)+tierW[p.tier]*.3]}).sort((a,b)=>b[1]-a[1]).map(x=>x[0]);
   const sts=S.states.filter(s=>canon(s.name).includes(t));
   const dmap={};all.forEach(p=>{const c=canon(p.district);if(toks.every(w=>c.includes(w))){const k=p.slug+"|"+p.district;dmap[k]=(dmap[k]||0)+1}});const ds=Object.entries(dmap).slice(0,8);
@@ -1172,10 +1172,10 @@ async function refreshApp(){const b=$("#rfr");if(b){b.disabled=true;b.lastChild.
   try{if("serviceWorker"in navigator){const g=await navigator.serviceWorker.getRegistration();if(g)await g.update().catch(()=>{})}
   }catch(e){}
   try{sessionStorage.setItem("ita-refreshed","1")}catch(e){}location.reload()}
-const allPlaces=()=>Object.values(S.data).flatMap(d=>d.places);
+let _AP=null,_APk="";const allPlaces=()=>{const ks=Object.keys(S.data),k=ks.length+":"+ks.reduce((a,s)=>a+(S.data[s].places?.length||0),0);if(_APk!==k||!_AP){_AP=Object.values(S.data).flatMap(d=>d.places);_APk=k;_CP.clear()}return _AP};
 const home=()=>M.home&&M.home.lat!=null?M.home:null;
 const tierW={icon:3,top:2,gem:1.4};
-function score(p){let s=tierW[p.tier]||1;if((M.interests||[]).includes(p.g))s+=3;if(inSeason(NOWM,p))s+=1.2;const h=home();if(h)s+=Math.max(0,2.2-km(h,p)/500);if(M.been[id(p)])s-=6;return s}
+const _SC=new Map();function score(p){const ck=p._ix??(p._ix=_NSi++);let v=_SC.get(ck);if(v===undefined){v=score0(p);_SC.set(ck,v)}return v}function score0(p){let s=tierW[p.tier]||1;if((M.interests||[]).includes(p.g))s+=3;if(inSeason(NOWM,p))s+=1.2;const h=home();if(h)s+=Math.max(0,2.2-km(h,p)/500);if(M.been[id(p)])s-=6;return s}
 const softPaint=()=>{const a=document.activeElement;if(a&&(a.tagName==="INPUT"||a.tagName==="TEXTAREA"||a.tagName==="SELECT"))return;const t=S.stack[S.stack.length-1];if(t&&["place","trip","passport","plan","explore"].includes(t.v))paint(false,V.scrollTop)};
 (async()=>{try{if(!window.claude||!window.claude.use)return;const r=await Promise.all(["sample","tts","assets","downloads"].map(n=>claude.use(n).catch(()=>null)));[CAP.sample,CAP.tts,CAP.assets,CAP.downloads]=r;softPaint()}catch(e){}})();
 
@@ -1518,7 +1518,7 @@ function logVisit(){const d=mkDlg("lvdlg","lvT");let date=today();
   const rowH=p=>`<button class="srow" data-lvp="${id(p)}"><span><span class="blk" style="font-weight:700">${esc(p.name)}${M.been[id(p)]?" ✓":""}</span><span class="blk" style="font-size:13px;color:var(--soft)">${esc(p.district)}, ${esc(stOf(p.slug).name)} · ${esc(p.category)}</span></span><span aria-hidden="true">＋</span></button>`;
   const draw=q=>{const t=canon(q),r=$("#lvr");let L;
     if(t.length<2){const sug=[...new Set([...(M.recent||[]),...Object.keys(M.want)])].map(byId).filter(p=>p&&!M.been[id(p)]).slice(0,12);r.innerHTML=sug.length?`<p class="slab" style="padding:8px 16px 0">Recently viewed and saved</p>${sug.map(rowH).join("")}`:`<p class="empty">Type a place, district or state.</p>`}
-    else{L=allPlaces().map(p=>{const n=" "+canon(p.name)+" ";return[p,n.includes(" "+t)?0:n.includes(t)?1:hay(p).includes(" "+t)?2:9]}).filter(x=>x[1]<9).sort((a,b)=>a[1]-b[1]||tierW[b[0].tier]-tierW[a[0].tier]).slice(0,40).map(x=>x[0]);r.innerHTML=L.length?L.map(rowH).join(""):`<p class="empty">No place matches “${esc(q)}”.</p>`}
+    else{L=allPlaces().map(p=>{const n=p._cn||(p._cn=" "+canon(p.name)+" ");return[p,n.includes(" "+t)?0:n.includes(t)?1:hay(p).includes(" "+t)?2:9]}).filter(x=>x[1]<9).sort((a,b)=>a[1]-b[1]||tierW[b[0].tier]-tierW[a[0].tier]).slice(0,40).map(x=>x[0]);r.innerHTML=L.length?L.map(rowH).join(""):`<p class="empty">No place matches “${esc(q)}”.</p>`}
     r.querySelectorAll("[data-lvp]").forEach(b=>b.onclick=()=>{const k=b.dataset.lvp,p=byId(k);M.been[k]=M.been[k]||Date.now();M.visits=M.visits||{};M.visits[k]={...(M.visits[k]||{rating:0}),date};S.fresh={g:p.g,t:Date.now()};save();close();paint(false,V.scrollTop);drawPins();toast(`Logged ${p.name}`,()=>{delete M.been[k];delete M.visits[k];save();paint(false,V.scrollTop);drawPins()})})};
   d.hidden=false;document.addEventListener("keydown",ek);d.onclick=e=>{if(e.target===d)close()};$("#lvx").onclick=close;$("#lvd").onchange=e=>{date=e.target.value||today()};const qq=$("#lvq");qq.oninput=()=>draw(qq.value);draw("");setTimeout(()=>qq.focus(),30)}
 
@@ -1943,13 +1943,14 @@ const MOODS=[["hills","Mountains","hills"],["coast","Beaches","coast"],["heritag
 const regOf=slug=>REG.find(r=>r[3].includes(slug));
 const phase=()=>{const d=new Date().getDate();return d<=10?"Early":d<=20?"Mid":"Late"};
 /* how good is a place right now: tier, peak of its season, photo, your interests */
-function nowScore(p,m=NOWM){if(!inSeason(m,p))return-9;const[a,b]=p.months,len=a<=b?b-a+1:12-a+b+1,pos=a<=b?m-a:(m-a+12)%12,mid=Math.abs(pos-(len-1)/2)/Math.max(1,len/2);
+const _NS=new Map();function nowScore(p,m=NOWM){const ck=m*1e6+(p._ix??(p._ix=_NSi++));let v=_NS.get(ck);if(v===undefined){v=nowScore0(p,m);_NS.set(ck,v)}return v}let _NSi=0;function nowScore0(p,m){if(!inSeason(m,p))return-9;const[a,b]=p.months,len=a<=b?b-a+1:12-a+b+1,pos=a<=b?m-a:(m-a+12)%12,mid=Math.abs(pos-(len-1)/2)/Math.max(1,len/2);
   return tierW[p.tier]*1.6+(len<12?(1-mid)*1.2+(len<=5?.8:0):0)+(photoOf(id(p))?.6:0)+((M.interests||[]).includes(p.g)?.5:0)-(M.been[id(p)]?2:0)}
 function spread(L,n,per=1){const c={},o=[];for(const p of L){if((c[p.slug]||0)>=per)continue;c[p.slug]=(c[p.slug]||0)+1;o.push(p);if(o.length>=n)break}return o}
 function top10(m=NOWM){return spread(allPlaces().filter(p=>p.tier!=="gem"&&inSeason(m,p)).map(p=>[p,nowScore(p,m)+((id(p).length*7919+m*31)%100)/400]).sort((a,b)=>b[1]-a[1]).map(x=>x[0]),10)}
 function wkPlans(h,band,m){const L=allPlaces().map(p=>({p,t:driveH(h,p)})).filter(x=>x.t<=band&&x.t>=.6&&inSeason(m,x.p)&&!M.been[id(x.p)]).map(x=>({...x,s:tierW[x.p.tier]*1.3+tasteOf(x.p)*.25-x.t*.18})).sort((a,b)=>b.s-a.s),used=new Set(),out=[];
   for(const a of L){if(out.length>=4)break;if(used.has(id(a.p))||a.p.tier==="gem")continue;const near=L.filter(x=>x!==a&&!used.has(id(x.p))&&km(a.p,x.p)<=35);const pick=[a];let tot=Math.min(hrs(a.p),10);for(const x of near){if(pick.length>=4)break;const nd=Math.min(hrs(x.p),10);if(tot+nd>15)continue;pick.push(x);tot+=nd}if(pick.length<2)continue;pick.forEach(x=>used.add(id(x.p)));out.push({ps:pick.map(x=>x.p),t:a.t})}return out}
-function trailsFit(minD,maxD,m,h,maxKm){const o=[];S.states.forEach(s=>{const D=S.data[s.slug];if(!D)return;D.trails.forEach((t,i)=>{const ps=t.ids.map(n=>D.places.find(p=>p.n===n)).filter(Boolean);if(ps.length<3)return;const ok=ps.filter(p=>inSeason(m,p)).length/ps.length,days=Math.max(1,Math.round(ps.reduce((a,p)=>a+Math.min(hrs(p),9),0)/8+legs(ps).reduce((a,x)=>a+road(x),0)/45/8));if(ok<.7||days<minD||days>maxD)return;if(h&&maxKm&&km(h,ps[0])>maxKm)return;o.push({s:s.slug,i,t,ps,days,sc:ok*2+ps.filter(p=>p.tier==="icon").length*.4+((id(ps[0]).length*13+m)%10)/20})})});return spread(o.sort((a,b)=>b.sc-a.sc).map(x=>({...x,slug:x.s})),6)}
+const _TF=new Map();function trailsFit(minD,maxD,m,h,maxKm){const ck=[minD,maxD,m,h?h.lat+","+h.lng:"",maxKm,allPlaces().length].join("|");if(_TF.has(ck))return _TF.get(ck);const r=trailsFit0(minD,maxD,m,h,maxKm);_TF.set(ck,r);return r}
+function trailsFit0(minD,maxD,m,h,maxKm){const o=[];S.states.forEach(s=>{const D=S.data[s.slug];if(!D)return;D.trails.forEach((t,i)=>{const ps=t.ids.map(n=>D.places.find(p=>p.n===n)).filter(Boolean);if(ps.length<3)return;const ok=ps.filter(p=>inSeason(m,p)).length/ps.length,days=Math.max(1,Math.round(ps.reduce((a,p)=>a+Math.min(hrs(p),9),0)/8+legs(ps).reduce((a,x)=>a+road(x),0)/45/8));if(ok<.7||days<minD||days>maxD)return;if(h&&maxKm&&km(h,ps[0])>maxKm)return;o.push({s:s.slug,i,t,ps,days,sc:ok*2+ps.filter(p=>p.tier==="icon").length*.4+((id(ps[0]).length*13+m)%10)/20})})});return spread(o.sort((a,b)=>b.sc-a.sc).map(x=>({...x,slug:x.s})),6)}
 function trailCard(x){return`<button class="pc" data-tr="${x.s}|${x.i}"><span class="art" aria-hidden="true">${art(x.ps[0])}</span><span class="t blk">${esc(x.t.name)}</span><span class="s blk">${esc(stOf(x.s).name)} · ${x.ps.length} stops · ~${x.days} day${x.days>1?"s":""}</span></button>`}
 function planCardS(w,i){return`<div class="wk wk2"><div class="wkp" aria-hidden="true">${w.ps.slice(0,3).map(p=>`<span>${art(p)}</span>`).join("")}</div><div class="wkb"><b>${esc(w.ps[0].name)} and around</b><span>${hmd(w.t)} from ${esc(home().name)} · ${w.ps.length} stops</span><div class="acts" style="margin-top:8px"><button class="act pri" data-xw="${i}">Add to trip</button><button class="act" data-p="${id(w.ps[0])}">Look</button></div></div></div>`}
 function timePanel(k){const h=home(),m=NOWM;
@@ -2006,13 +2007,13 @@ function vList(){const D=curD(),f=S.f,b=base(),h=home(),L=D?D.places:allPlaces()
   const A=sortPlaces(L.filter(match),f,b,h,D),view=M.view||"grid",nf=fCount(f,D),cats=Object.keys(G).filter(g=>L.some(p=>p.g===g));
   const act=[];if(f.tier&&f.tier!=="icon")act.push(["tier",TIER[f.tier]]);if(f.mon&&f.mon!==NOWM)act.push(["mon","Good in "+MONL[f.mon-1]]);if(f.tm)act.push(["tm",TM[f.tm][2]]);if(f.dist)act.push(["dist",f.dist]);if(f.reg)act.push(["reg",REG.find(r=>r[0]===f.reg)[1]]);if(f.rad&&f.rad!==300)act.push(["rad",`Within ${f.rad} km`]);if(f.hb)act.push(["hb","Not visited"]);
   const grp=(f.sort==="dist"&&D)?"district":(f.sort==="state"&&india)?"state":null,LI=[];let cur="";
-  A.forEach(p=>{const g=grp==="district"?p.district:grp==="state"?stOf(p.slug).name:null;if(g&&g!==cur){cur=g;LI.push(view==="grid"?`<li class="gh" role="presentation">${esc(g)}</li>`:`<li class="dh" role="presentation">${esc(g)}</li>`)}LI.push(view==="grid"?gridCard(p,india):row(p,{q:1,state:india?1:0}))});
+  A.forEach(p=>{const g=grp==="district"?p.district:grp==="state"?stOf(p.slug).name:null;if(g&&g!==cur){cur=g;LI.push(view==="grid"?`<li class="gh" role="presentation">${esc(g)}</li>`:`<li class="dh" role="presentation">${esc(g)}</li>`)}LI.push(view==="grid"?()=>gridCard(p,india):()=>row(p,{q:1,state:india?1:0}))});
   V.innerHTML=`<div class="lhead"><div class="scope pad">${S.stack.length>1?`<button class="ib" id="bk" aria-label="Back">‹</button>`:""}<div class="seg2" role="group" aria-label="Where"><button type="button" id="scI" aria-pressed="${india}">All India</button><button type="button" id="scS" aria-pressed="${!india}">${D?esc(stOf(S.slug).name):"Pick a state"} ▾</button></div><h2 class="sr">Places${D?" in "+esc(stOf(S.slug).name):" across India"}</h2></div>
     <div class="chips qf" role="group" aria-label="Quick filters"><button class="chip fbtn${nf?" on":""}" id="fopen"><svg aria-hidden="true"><use href="#i-list"/></svg>Filters${nf?` · ${nf}`:""}</button><button class="chip${f.mon===NOWM?" on":""}" id="qNow" aria-pressed="${f.mon===NOWM}">In season now</button><button class="chip${f.tier==="icon"?" on":""}" id="qIcon" aria-pressed="${f.tier==="icon"}">${ico("star",14)} Iconic</button>${h?`<button class="chip${f.rad===300?" on":""}" id="qNear" aria-pressed="${f.rad===300}">Within 300 km of ${esc(h.name)}</button>`:""}</div>
     <div class="chips kinds" role="group" aria-label="Kind of place"><button class="kchip${!f.cat?" on":""}" data-fc="" aria-pressed="${!f.cat}"><span class="kic" aria-hidden="true">✦</span>All<small>${L.length.toLocaleString("en-IN")}</small></button>${cats.map(g=>`<button class="kchip${f.cat===g?" on":""}" data-fc="${g}" aria-pressed="${f.cat===g}" style="--c:${G[g][1]}"><span class="kic" aria-hidden="true">${ico(g,20)}</span>${G[g][0].split(" & ")[0]}<small>${L.filter(p=>p.g===g).length}</small></button>`).join("")}</div>
     ${act.length?`<div class="chips act2" role="group" aria-label="Active filters">${act.map(([k,l])=>`<button class="chip on" data-rmf="${k}" aria-label="Remove filter: ${esc(l)}">${esc(l)} ✕</button>`).join("")}<button class="lnk" id="fclr">Clear all</button></div>`:""}
     <div class="tbar"><span role="status"><b style="color:var(--ink)">${A.length.toLocaleString("en-IN")}</b> place${A.length===1?"":"s"}</span><select id="sort" aria-label="Sort" class="ssel">${SORTS.filter(([k])=>!(k==="dist"&&india)&&!(k==="state"&&!india)&&!(k==="home"&&!h)&&!(k==="near"&&!b)).map(([k,l])=>`<option value="${k}"${f.sort===k?" selected":""}>${k==="home"?"Nearest "+esc(h.name):k==="near"?"Nearest "+esc(b.name):l}</option>`).join("")}</select><div class="vsw" role="group" aria-label="View"><button type="button" data-vw="grid" aria-pressed="${view==="grid"}" aria-label="Photo grid">▦</button><button type="button" data-vw="list" aria-pressed="${view==="list"}" aria-label="List">☰</button><button type="button" data-vw="compact" aria-pressed="${view==="compact"}" aria-label="Compact list">≡</button></div></div></div>
-    <ul id="plist" class="${view==="grid"?"pgrid":view==="compact"?"compact":""}">${LI.slice(0,view==="grid"?24:40).join("")||`<li class="empty" style="grid-column:1/-1">No places match these filters.<br><button class="act" id="fclr2" style="margin:12px auto 0;padding:0 20px">Clear filters</button></li>`}</ul>`;
+    <ul id="plist" class="${view==="grid"?"pgrid":view==="compact"?"compact":""}">${LI.slice(0,view==="grid"?24:40).map(x=>typeof x==="function"?x():x).join("")||`<li class="empty" style="grid-column:1/-1">No places match these filters.<br><button class="act" id="fclr2" style="margin:12px auto 0;padding:0 20px">Clear filters</button></li>`}</ul>`;
   const F=()=>afterFilter();
   $("#scI").onclick=async()=>{if(D){await goIndia();root_("list");if(mobile())snapTo(2)}};$("#scS").onclick=()=>stPicker();
   $("#qNow").onclick=()=>{f.mon=f.mon===NOWM?0:NOWM;F()};$("#qIcon").onclick=()=>{f.tier=f.tier==="icon"?null:"icon";F()};const qn=$("#qNear");if(qn)qn.onclick=()=>{f.rad=f.rad===300?0:300;F()};
@@ -2290,7 +2291,9 @@ function route(silent,h0){const h=h0!=null?h0:location.hash.slice(1);const m=h.m
     else if(first){await openState(first.slug,false);if(h!==first.slug&&h.startsWith(first.slug+"-"))route(false,h);else setTimeout(()=>focusState(1000),250)}
     else{S.slug=null;S.stack=[{v:"explore"}];classStates();paint();drawPins();drawHome();setTimeout(fitIndia,250)}
     if(!M.onboarded)setTimeout(()=>{if(!M.onboarded)showOnboard(false)},900);
-  }catch(e){V.innerHTML=`<div class="empty">Couldn't load the atlas. Reload to try again.</div>`;console.error(e)}
+    requestAnimationFrame(()=>setTimeout(()=>phGo&&phGo(),50));
+    {const L=allPlaces();let i=0;const idle=window.requestIdleCallback||(f=>setTimeout(()=>f({timeRemaining:()=>8}),60));const step=dl=>{const t0=performance.now();while(i<L.length&&(dl.timeRemaining()>2||performance.now()-t0<6)){hay(L[i]);L[i]._cn||(L[i]._cn=" "+canon(L[i].name)+" ");i++}if(i<L.length)idle(step)};setTimeout(()=>idle(step),2500)}
+  }catch(e){phGo&&phGo();V.innerHTML=`<div class="empty">Couldn't load the atlas. Reload to try again.</div>`;console.error(e)}
   addEventListener("hashchange",()=>{if(Date.now()-ignHashT<600)return;const h=location.hash.slice(1);if(h.startsWith("list=")){remember();S.stack.push({v:"slist",a:h.slice(5)});paint(true);if(mobile())snapTo(2);return}const s=S.states.find(x=>x.slug===h);if(s&&s.status==="done"&&h!==S.slug)openState(s.slug,true);else if(/-\d+$/.test(h)&&!(S.sel&&h===S.sel.slug+"-"+S.sel.n))route(false)});
 })();
 }
