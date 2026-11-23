@@ -1,0 +1,34 @@
+name: Find place photos
+on:
+  workflow_dispatch:
+    inputs:
+      force:
+        description: Look up every place again
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths: ['data/places/**']
+  schedule:
+    - cron: '17 21 * * 0'
+permissions:
+  contents: write
+concurrency:
+  group: photos
+  cancel-in-progress: false
+jobs:
+  photos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - name: Look up photos on Wikipedia
+        run: python3 .github/scripts/photos.py ${{ inputs.force && '--force' || '' }}
+      - name: Save results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add data/photos.json
+          git diff --cached --quiet && { echo "No change"; exit 0; }
+          git commit -m "Update place photos"
+          for i in 1 2 3; do git pull --rebase -X theirs && git push && break; sleep 10; done
