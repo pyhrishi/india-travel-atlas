@@ -1,1 +1,1847 @@
-{"name":"Telangana","intro":"Hyderabad's Charminar, Golconda, Qutb Shahi tombs, Nizam palaces and biryani, the UNESCO Ramappa temple and Kakatiya Warangal, Pochampally ikat, Kuntala and Bogatha falls, Nagarjuna Sagar, and the Medaram jatara.","bases":[["Hyderabad",17.385,78.4867],["Warangal",17.9689,79.5941],["Bhadrachalam",17.668,80.893],["Adilabad",19.6641,78.532]],"trails":[{"name":"Old Hyderabad","note":"Charminar, palaces and the Salar Jung.","ids":[1,3,2,4,10,5,15,9]},{"name":"Qutb Shahi Hyderabad","note":"Golconda and the royal necropolis.","ids":[6,7,20,8]},{"name":"Kakatiya circuit","note":"Warangal, Ramappa and the lakes.","ids":[35,36,34,28,33,29,30]},{"name":"Weaves and forts east of Hyderabad","note":"Bhongir, Yadagirigutta and Pochampally.","ids":[26,24,25,27]},{"name":"North Telangana","note":"Falls, toys, the Godavari and Basar.","ids":[58,59,55,56,57,64]}],"places":[{"n":1,"name":"Charminar","district":"Hyderabad","category":"Heritage","g":"heritage","lat":17.3616,"lng":78.4747,"why":"1591 monument at the heart of old Hyderabad","tier":"icon","months":[1,12],"time":"1–2 hrs"},{"n":2,"name":"Laad Bazaar","district":"Hyderabad","category":"Market","g":"culture","lat":17.361,"lng":78.472,"why":"Bangle bazaar beside Charminar","tier":"top","months":[1,12],"time":"1–2 hrs"},{"n":3,"name":"Mecca Masjid","district":"Hyderabad","category":"Heritage","g":"heritage","lat":17.3604,"lng":78.4736,"why":"One of India's largest mosques","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":4,"name":"Chowmahalla Palace","district":"Hyderabad","category":"Heritage","g":"heritage","lat":17.3578,"lng":78.4717,"why":"Nizams' palace of chandeliers and vintage cars","tier":"icon","months":[10,3],"time":"1–2 hrs"},{"n":5,"name":"Salar Jung Museum","district":"Hyderabad","category":"Museum","g":"culture","lat":17.3713,"lng":78.4804,"why":"One of the world's largest one-man collections","tier":"icon","months":[10,3],"time":"3 hrs"},{"n":6,"name":"Golconda Fort","district":"Hyderabad","category":"Fort","g":"heritage","lat":17.3833,"lng":78.4011,"why":"Diamond-trade fort with acoustic gates","tier":"icon","months":[10,3],"time":"Half day"},{"n":7,"name":"Qutb Shahi Tombs","district":"Hyderabad","category":"Heritage","g":"heritage","lat":17.395,"lng":78.396,"why":"Restored domed tombs and stepwells","tier":"icon","months":[10,3],"time":"1–2 hrs"},{"n":8,"name":"Paigah Tombs","district":"Hyderabad","category":"Heritage","g":"heritage","lat":17.34,"lng":78.49,"why":"Lace-like stucco tombs of the nobles","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":9,"name":"Falaknuma Palace","district":"Hyderabad","category":"Heritage","g":"heritage","lat":17.331,"lng":78.467,"why":"Palace hotel on a hill","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":10,"name":"Purani Haveli & Nizam's Museum","district":"Hyderabad","category":"Museum","g":"culture","lat":17.364,"lng":78.481,"why":"Nizam's jubilee gifts and wardrobe","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":11,"name":"Hussain Sagar & Buddha Statue","district":"Hyderabad","category":"Lake","g":"water","lat":17.4239,"lng":78.4738,"why":"Lake with a monolithic Buddha","tier":"top","months":[10,3],"time":"2 hrs"},{"n":12,"name":"Birla Mandir, Hyderabad","district":"Hyderabad","category":"Temple","g":"temple","lat":17.4062,"lng":78.4691,"why":"White marble temple on a hill","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":13,"name":"Nehru Zoological Park","district":"Hyderabad","category":"Wildlife","g":"wildlife","lat":17.35,"lng":78.45,"why":"Large city zoo","tier":"gem","months":[10,3],"time":"Half day"},{"n":14,"name":"Telangana State Archaeology Museum","district":"Hyderabad","category":"Museum","g":"culture","lat":17.399,"lng":78.47,"why":"Museum with an Egyptian mummy","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":15,"name":"Hyderabadi Biryani & Irani Chai","district":"Hyderabad","category":"Food","g":"culture","lat":17.385,"lng":78.4867,"why":"The city's biryani houses and Irani cafés","tier":"icon","months":[1,12],"time":"Evening"},{"n":16,"name":"Shilparamam","district":"Rangareddy","category":"Culture","g":"culture","lat":17.452,"lng":78.38,"why":"Crafts village","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":17,"name":"Ramoji Film City","district":"Rangareddy","category":"Amusement","g":"culture","lat":17.2543,"lng":78.6808,"why":"One of the world's largest film studios","tier":"top","months":[10,3],"time":"Full day"},{"n":18,"name":"Ananthagiri Hills","district":"Vikarabad","category":"Hill","g":"hills","lat":17.32,"lng":77.86,"why":"Forested hills and the Musi's source","tier":"top","months":[10,3],"time":"Half day"},{"n":19,"name":"KBR National Park","district":"Hyderabad","category":"Wildlife","g":"wildlife","lat":17.42,"lng":78.42,"why":"Peacocks in the city","tier":"gem","months":[10,3],"time":"Half day"},{"n":20,"name":"Taramati Baradari","district":"Rangareddy","category":"Heritage","g":"heritage","lat":17.38,"lng":78.38,"why":"Pavilion of the court dancer","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":21,"name":"Osman Sagar (Gandipet)","district":"Rangareddy","category":"Lake","g":"water","lat":17.38,"lng":78.3,"why":"Old reservoir","tier":"gem","months":[10,3],"time":"2 hrs"},{"n":22,"name":"Chilkur Balaji","district":"Rangareddy","category":"Temple","g":"temple","lat":17.36,"lng":78.3,"why":"Visa god temple","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":23,"name":"Statue of Equality","district":"Rangareddy","category":"Monument","g":"temple","lat":17.2,"lng":78.26,"why":"216-ft statue of Ramanuja","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":24,"name":"Bhongir Fort","district":"Yadadri Bhuvanagiri","category":"Fort","g":"heritage","lat":17.51,"lng":78.89,"why":"Fort on an egg-shaped monolith","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":25,"name":"Yadagirigutta","district":"Yadadri Bhuvanagiri","category":"Temple","g":"temple","lat":17.59,"lng":78.94,"why":"Rebuilt stone temple of Narasimha","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":26,"name":"Pochampally","district":"Yadadri Bhuvanagiri","category":"Craft village","g":"culture","lat":17.34,"lng":78.82,"why":"Ikat weaving village, a UN best tourism village","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":27,"name":"Kolanupaka Jain Temple","district":"Yadadri Bhuvanagiri","category":"Temple","g":"temple","lat":17.69,"lng":79.03,"why":"2,000-year-old Jain temple","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":28,"name":"Ramappa Temple","district":"Mulugu","category":"Temple","g":"temple","lat":18.259,"lng":79.943,"why":"UNESCO Kakatiya temple of floating bricks","tier":"icon","months":[10,3],"time":"2 hrs"},{"n":29,"name":"Laknavaram Lake","district":"Mulugu","category":"Lake","g":"water","lat":18.15,"lng":80.06,"why":"Lake with suspension bridges and islands","tier":"top","months":[10,3],"time":"2 hrs"},{"n":30,"name":"Bogatha Waterfalls","district":"Mulugu","category":"Waterfall","g":"water","lat":18.31,"lng":80.68,"why":"Telangana's Niagara","tier":"top","months":[7,10],"time":"Half day"},{"n":31,"name":"Medaram","district":"Mulugu","category":"Temple","g":"culture","lat":18.3,"lng":80.17,"why":"Site of Asia's largest tribal fair","tier":"top","months":[1,2],"time":"1–2 hrs"},{"n":32,"name":"Eturnagaram Sanctuary","district":"Mulugu","category":"Wildlife","g":"wildlife","lat":18.35,"lng":80.43,"why":"Godavari forest sanctuary","tier":"gem","months":[10,3],"time":"Half day"},{"n":33,"name":"Ramappa Lake","district":"Mulugu","category":"Lake","g":"water","lat":18.25,"lng":79.95,"why":"Kakatiya-era lake near the temple","tier":"gem","months":[10,3],"time":"2 hrs"},{"n":34,"name":"Warangal Fort","district":"Hanumakonda","category":"Fort","g":"heritage","lat":17.957,"lng":79.614,"why":"Kakatiya gateways in stone","tier":"icon","months":[10,3],"time":"2 hrs"},{"n":35,"name":"Thousand Pillar Temple","district":"Hanumakonda","category":"Temple","g":"temple","lat":18.002,"lng":79.575,"why":"Star-shaped Kakatiya temple","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":36,"name":"Bhadrakali Temple, Warangal","district":"Hanumakonda","category":"Temple","g":"temple","lat":17.99,"lng":79.58,"why":"Lake temple of the goddess","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":37,"name":"Pakhal Lake","district":"Warangal","category":"Lake","g":"water","lat":17.95,"lng":80.0,"why":"Kakatiya lake in forest","tier":"top","months":[10,3],"time":"2 hrs"},{"n":38,"name":"Kakatiya Musical Garden","district":"Hanumakonda","category":"Garden","g":"culture","lat":17.99,"lng":79.58,"why":"Garden with musical fountain","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":39,"name":"Ghanpur Temples","district":"Mulugu","category":"Temple","g":"temple","lat":18.22,"lng":79.85,"why":"Kakatiya temple group","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":40,"name":"Bhadrachalam","district":"Bhadradri Kothagudem","category":"Temple","g":"temple","lat":17.668,"lng":80.893,"why":"Rama temple on the Godavari","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":41,"name":"Kinnerasani Sanctuary","district":"Bhadradri Kothagudem","category":"Wildlife","g":"wildlife","lat":17.6,"lng":80.6,"why":"Forest reservoir","tier":"gem","months":[10,3],"time":"Half day"},{"n":42,"name":"Parnasala","district":"Bhadradri Kothagudem","category":"Temple","g":"temple","lat":17.8,"lng":80.8,"why":"Site of Sita's abduction legend","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":43,"name":"Khammam Fort","district":"Khammam","category":"Fort","g":"heritage","lat":17.25,"lng":80.15,"why":"Hill fort of mixed styles","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":44,"name":"Nagarjuna Sagar Dam","district":"Nalgonda","category":"Engineering","g":"water","lat":16.577,"lng":79.313,"why":"One of the world's largest masonry dams","tier":"top","months":[10,3],"time":"2 hrs"},{"n":45,"name":"Buddhavanam","district":"Nalgonda","category":"Monument","g":"buddhist","lat":16.5776,"lng":79.3193,"why":"Buddhist heritage theme park","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":46,"name":"Panagal Temples","district":"Nalgonda","category":"Temple","g":"temple","lat":17.07,"lng":79.27,"why":"Kanduri Chola temples","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":47,"name":"Pillalamarri Banyan","district":"Mahabubnagar","category":"Nature","g":"wildlife","lat":16.75,"lng":77.98,"why":"800-year-old giant banyan","tier":"top","months":[10,3],"time":"Half day"},{"n":48,"name":"Alampur Temples","district":"Jogulamba Gadwal","category":"Temple","g":"temple","lat":15.878,"lng":78.134,"why":"Nava Brahma temples and Jogulamba Shakti Peetha","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":49,"name":"Gadwal Fort","district":"Jogulamba Gadwal","category":"Fort","g":"heritage","lat":16.23,"lng":77.8,"why":"Fort and Gadwal sarees","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":50,"name":"Somasila, Kollapur","district":"Nagarkurnool","category":"Temple","g":"temple","lat":16.0284,"lng":78.2878,"why":"Temples and Krishna backwaters","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":51,"name":"Amrabad Tiger Reserve","district":"Nagarkurnool","category":"Wildlife","g":"wildlife","lat":16.35,"lng":78.8,"why":"Nallamala forests and Mallela Theertham","tier":"top","months":[10,3],"time":"Full day"},{"n":52,"name":"Mallela Theertham","district":"Nagarkurnool","category":"Waterfall","g":"water","lat":16.32,"lng":78.86,"why":"Falls in the Nallamala","tier":"gem","months":[7,10],"time":"2 hrs"},{"n":53,"name":"Farahabad Viewpoint","district":"Nagarkurnool","category":"Viewpoint","g":"hills","lat":16.43,"lng":78.76,"why":"Forest viewpoint","tier":"gem","months":[10,3],"time":"Half day"},{"n":54,"name":"Umamaheswaram","district":"Nagarkurnool","category":"Temple","g":"temple","lat":16.43,"lng":78.68,"why":"Hill temple","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":55,"name":"Kuntala Falls","district":"Adilabad","category":"Waterfall","g":"water","lat":19.3,"lng":78.48,"why":"Telangana's tallest falls","tier":"top","months":[7,10],"time":"2 hrs"},{"n":56,"name":"Pochera Falls","district":"Adilabad","category":"Waterfall","g":"water","lat":19.3,"lng":78.4,"why":"Falls near Kuntala","tier":"gem","months":[7,10],"time":"2 hrs"},{"n":57,"name":"Kawal Tiger Reserve","district":"Mancherial","category":"Wildlife","g":"wildlife","lat":19.1,"lng":79.0,"why":"Teak forests of the Godavari","tier":"top","months":[10,3],"time":"Full day"},{"n":58,"name":"Basar Saraswati Temple","district":"Nirmal","category":"Temple","g":"temple","lat":18.88,"lng":77.95,"why":"Temple of learning on the Godavari","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":59,"name":"Nirmal Toys & Paintings","district":"Nirmal","category":"Craft","g":"culture","lat":19.1,"lng":78.34,"why":"Lacquer toys and paintings","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":60,"name":"Kadem Dam","district":"Nirmal","category":"Lake","g":"water","lat":19.1,"lng":78.8,"why":"Reservoir in forest","tier":"gem","months":[10,3],"time":"2 hrs"},{"n":61,"name":"Gayatri Falls","district":"Nirmal","category":"Waterfall","g":"water","lat":19.25,"lng":78.5,"why":"Forest falls","tier":"gem","months":[7,10],"time":"2 hrs"},{"n":62,"name":"Jainath Temple","district":"Adilabad","category":"Temple","g":"temple","lat":19.73,"lng":78.65,"why":"Old Jain-style temple","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":63,"name":"Gandhari Khilla","district":"Mancherial","category":"Fort","g":"heritage","lat":18.96,"lng":79.4,"why":"Forest fort","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":64,"name":"Kaleshwaram","district":"Jayashankar Bhupalpally","category":"Temple","g":"temple","lat":18.81,"lng":79.91,"why":"Temple at the Godavari–Pranahita confluence","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":65,"name":"Elgandal Fort","district":"Karimnagar","category":"Fort","g":"heritage","lat":18.47,"lng":79.09,"why":"Fort above the Manair","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":66,"name":"Karimnagar Silver Filigree","district":"Karimnagar","category":"Craft","g":"culture","lat":18.44,"lng":79.13,"why":"Silver filigree","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":67,"name":"Lower Manair Dam","district":"Karimnagar","category":"Lake","g":"water","lat":18.4,"lng":79.15,"why":"Reservoir","tier":"gem","months":[10,3],"time":"2 hrs"},{"n":68,"name":"Vemulawada","district":"Rajanna Sircilla","category":"Temple","g":"temple","lat":18.47,"lng":78.87,"why":"Raja Rajeshwara temple","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":69,"name":"Kondagattu","district":"Jagtial","category":"Temple","g":"temple","lat":18.76,"lng":78.97,"why":"Hill Hanuman temple","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":70,"name":"Dharmapuri Narasimha","district":"Jagtial","category":"Temple","g":"temple","lat":18.95,"lng":79.09,"why":"Godavari temple town","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":71,"name":"Medak Cathedral","district":"Medak","category":"Church","g":"heritage","lat":18.034,"lng":78.27,"why":"One of Asia's largest cathedrals","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":72,"name":"Medak Fort","district":"Medak","category":"Fort","g":"heritage","lat":18.04,"lng":78.26,"why":"Kakatiya hill fort","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":73,"name":"Pocharam Sanctuary","district":"Medak","category":"Wildlife","g":"wildlife","lat":18.15,"lng":78.25,"why":"Lake and forest","tier":"gem","months":[10,3],"time":"Half day"},{"n":74,"name":"Edupayala Durga Temple","district":"Medak","category":"Temple","g":"temple","lat":17.95,"lng":78.2,"why":"Temple at seven streams","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":75,"name":"Dichpally Ramalayam & Nizamabad Fort","district":"Nizamabad","category":"Temple","g":"temple","lat":18.66,"lng":78.1,"why":"Fort and the 'Khajuraho of Telangana' at Dichpally","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":76,"name":"Nizam Sagar","district":"Kamareddy","category":"Lake","g":"water","lat":18.2,"lng":77.9,"why":"Nizam-era reservoir","tier":"gem","months":[10,3],"time":"2 hrs"},{"n":77,"name":"Komuravelli Mallanna Temple","district":"Siddipet","category":"Temple","g":"temple","lat":17.95,"lng":78.88,"why":"Mallanna temple fair","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":78,"name":"Kondapochamma Sagar","district":"Siddipet","category":"Lake","g":"water","lat":17.8,"lng":78.8,"why":"New reservoir","tier":"gem","months":[10,3],"time":"2 hrs"},{"n":79,"name":"Rachakonda Fort","district":"Yadadri Bhuvanagiri","category":"Fort","g":"heritage","lat":17.16,"lng":78.8,"why":"Hill fort ruins","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":80,"name":"Durgam Cheruvu Bridge","district":"Rangareddy","category":"Engineering","g":"water","lat":17.43,"lng":78.39,"why":"Cable bridge over a lake","tier":"gem","months":[10,3],"time":"2 hrs"},{"n":81,"name":"Mahavir Harina Vanasthali","district":"Rangareddy","category":"Wildlife","g":"wildlife","lat":17.33,"lng":78.6,"why":"Blackbuck park in the city","tier":"gem","months":[10,3],"time":"Half day"}],"festivals":[{"name":"Sammakka Saralamma Jatara (Medaram)","months":[1,2],"when":"Every two years, January–February (next due 2028)","n":31,"about":"Asia's largest tribal fair in the Mulugu forests."},{"name":"Bathukamma","months":[9,10],"when":"Nine days before Dussehra","n":35,"about":"Women build floral towers and float them on lakes."},{"name":"Bonalu","months":[7,8],"when":"Ashada month, July–August","n":6,"about":"Hyderabad's festival of the goddess Mahakali, starting at Golconda."},{"name":"Ramzan in the Old City","months":[3,4],"when":"Ramzan (dates vary)","n":1,"about":"Night markets and haleem around Charminar."},{"name":"Sri Rama Navami at Bhadrachalam","months":[3,4],"when":"March or April","n":40,"about":"Sita Rama Kalyanam at the Godavari temple."},{"name":"Deccan Festival","months":[2,2],"when":"February","n":7,"about":"Hyderabad's festival of Deccani culture."}]}
+{
+ "name": "Telangana",
+ "intro": "Hyderabad's Charminar, Golconda, Qutb Shahi tombs, Nizam palaces and biryani, the UNESCO Ramappa temple and Kakatiya Warangal, Pochampally ikat, Kuntala and Bogatha falls, Nagarjuna Sagar, and the Medaram jatara.",
+ "bases": [
+  [
+   "Hyderabad",
+   17.385,
+   78.4867
+  ],
+  [
+   "Warangal",
+   17.9689,
+   79.5941
+  ],
+  [
+   "Bhadrachalam",
+   17.668,
+   80.893
+  ],
+  [
+   "Adilabad",
+   19.6641,
+   78.532
+  ]
+ ],
+ "trails": [
+  {
+   "name": "Old Hyderabad",
+   "note": "Charminar, palaces and the Salar Jung.",
+   "ids": [
+    1,
+    3,
+    2,
+    4,
+    10,
+    5,
+    15,
+    9
+   ]
+  },
+  {
+   "name": "Qutb Shahi Hyderabad",
+   "note": "Golconda and the royal necropolis.",
+   "ids": [
+    6,
+    7,
+    20,
+    8
+   ]
+  },
+  {
+   "name": "Kakatiya circuit",
+   "note": "Warangal, Ramappa and the lakes.",
+   "ids": [
+    35,
+    36,
+    34,
+    28,
+    33,
+    29,
+    30
+   ]
+  },
+  {
+   "name": "Weaves and forts east of Hyderabad",
+   "note": "Bhongir, Yadagirigutta and Pochampally.",
+   "ids": [
+    26,
+    24,
+    25,
+    27
+   ]
+  },
+  {
+   "name": "North Telangana",
+   "note": "Falls, toys, the Godavari and Basar.",
+   "ids": [
+    58,
+    59,
+    55,
+    56,
+    57,
+    64
+   ]
+  }
+ ],
+ "places": [
+  {
+   "n": 1,
+   "name": "Charminar",
+   "district": "Hyderabad",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 17.3616,
+   "lng": 78.4747,
+   "why": "1591 monument at the heart of old Hyderabad",
+   "tier": "icon",
+   "months": [
+    1,
+    12
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 2,
+   "name": "Laad Bazaar",
+   "district": "Hyderabad",
+   "category": "Market",
+   "g": "culture",
+   "lat": 17.361,
+   "lng": 78.472,
+   "why": "Bangle bazaar beside Charminar",
+   "tier": "top",
+   "months": [
+    1,
+    12
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 3,
+   "name": "Mecca Masjid",
+   "district": "Hyderabad",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 17.3604,
+   "lng": 78.4736,
+   "why": "One of India's largest mosques",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 4,
+   "name": "Chowmahalla Palace",
+   "district": "Hyderabad",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 17.3578,
+   "lng": 78.4717,
+   "why": "Nizams' palace of chandeliers and vintage cars",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 5,
+   "name": "Salar Jung Museum",
+   "district": "Hyderabad",
+   "category": "Museum",
+   "g": "culture",
+   "lat": 17.3713,
+   "lng": 78.4804,
+   "why": "One of the world's largest one-man collections",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "3 hrs"
+  },
+  {
+   "n": 6,
+   "name": "Golconda Fort",
+   "district": "Hyderabad",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 17.3833,
+   "lng": 78.4011,
+   "why": "Diamond-trade fort with acoustic gates",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 7,
+   "name": "Qutb Shahi Tombs",
+   "district": "Hyderabad",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 17.395,
+   "lng": 78.396,
+   "why": "Restored domed tombs and stepwells",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 8,
+   "name": "Paigah Tombs",
+   "district": "Hyderabad",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 17.34,
+   "lng": 78.49,
+   "why": "Lace-like stucco tombs of the nobles",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 9,
+   "name": "Falaknuma Palace",
+   "district": "Hyderabad",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 17.331,
+   "lng": 78.467,
+   "why": "Palace hotel on a hill",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 10,
+   "name": "Purani Haveli & Nizam's Museum",
+   "district": "Hyderabad",
+   "category": "Museum",
+   "g": "culture",
+   "lat": 17.364,
+   "lng": 78.481,
+   "why": "Nizam's jubilee gifts and wardrobe",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 11,
+   "name": "Hussain Sagar & Buddha Statue",
+   "district": "Hyderabad",
+   "category": "Lake",
+   "g": "water",
+   "lat": 17.4239,
+   "lng": 78.4738,
+   "why": "Lake with a monolithic Buddha",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 12,
+   "name": "Birla Mandir, Hyderabad",
+   "district": "Hyderabad",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 17.4062,
+   "lng": 78.4691,
+   "why": "White marble temple on a hill",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 13,
+   "name": "Nehru Zoological Park",
+   "district": "Hyderabad",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 17.35,
+   "lng": 78.45,
+   "why": "Large city zoo",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 14,
+   "name": "Telangana State Archaeology Museum",
+   "district": "Hyderabad",
+   "category": "Museum",
+   "g": "culture",
+   "lat": 17.399,
+   "lng": 78.47,
+   "why": "Museum with an Egyptian mummy",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 15,
+   "name": "Hyderabadi Biryani & Irani Chai",
+   "district": "Hyderabad",
+   "category": "Food",
+   "g": "culture",
+   "lat": 17.385,
+   "lng": 78.4867,
+   "why": "The city's biryani houses and Irani cafés",
+   "tier": "icon",
+   "months": [
+    1,
+    12
+   ],
+   "time": "Evening"
+  },
+  {
+   "n": 16,
+   "name": "Shilparamam",
+   "district": "Rangareddy",
+   "category": "Culture",
+   "g": "culture",
+   "lat": 17.452,
+   "lng": 78.38,
+   "why": "Crafts village",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 17,
+   "name": "Ramoji Film City",
+   "district": "Rangareddy",
+   "category": "Amusement",
+   "g": "culture",
+   "lat": 17.2543,
+   "lng": 78.6808,
+   "why": "One of the world's largest film studios",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 18,
+   "name": "Ananthagiri Hills",
+   "district": "Vikarabad",
+   "category": "Hill",
+   "g": "hills",
+   "lat": 17.32,
+   "lng": 77.86,
+   "why": "Forested hills and the Musi's source",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 19,
+   "name": "KBR National Park",
+   "district": "Hyderabad",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 17.42,
+   "lng": 78.42,
+   "why": "Peacocks in the city",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 20,
+   "name": "Taramati Baradari",
+   "district": "Hyderabad",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 17.38,
+   "lng": 78.38,
+   "why": "Pavilion of the court dancer",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 21,
+   "name": "Osman Sagar (Gandipet)",
+   "district": "Rangareddy",
+   "category": "Lake",
+   "g": "water",
+   "lat": 17.38,
+   "lng": 78.3,
+   "why": "Old reservoir",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 22,
+   "name": "Chilkur Balaji",
+   "district": "Rangareddy",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 17.36,
+   "lng": 78.3,
+   "why": "Visa god temple",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 23,
+   "name": "Statue of Equality",
+   "district": "Rangareddy",
+   "category": "Monument",
+   "g": "temple",
+   "lat": 17.2,
+   "lng": 78.26,
+   "why": "216-ft statue of Ramanuja",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 24,
+   "name": "Bhongir Fort",
+   "district": "Yadadri Bhuvanagiri",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 17.51,
+   "lng": 78.89,
+   "why": "Fort on an egg-shaped monolith",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 25,
+   "name": "Yadagirigutta",
+   "district": "Yadadri Bhuvanagiri",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 17.59,
+   "lng": 78.94,
+   "why": "Rebuilt stone temple of Narasimha",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 26,
+   "name": "Pochampally",
+   "district": "Yadadri Bhuvanagiri",
+   "category": "Craft village",
+   "g": "culture",
+   "lat": 17.34,
+   "lng": 78.82,
+   "why": "Ikat weaving village, a UN best tourism village",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 27,
+   "name": "Kolanupaka Jain Temple",
+   "district": "Yadadri Bhuvanagiri",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 17.69,
+   "lng": 79.03,
+   "why": "2,000-year-old Jain temple",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 28,
+   "name": "Ramappa Temple",
+   "district": "Mulugu",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 18.259,
+   "lng": 79.943,
+   "why": "UNESCO Kakatiya temple of floating bricks",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 29,
+   "name": "Laknavaram Lake",
+   "district": "Mulugu",
+   "category": "Lake",
+   "g": "water",
+   "lat": 18.15,
+   "lng": 80.06,
+   "why": "Lake with suspension bridges and islands",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 30,
+   "name": "Bogatha Waterfalls",
+   "district": "Mulugu",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 18.31,
+   "lng": 80.68,
+   "why": "Telangana's Niagara",
+   "tier": "top",
+   "months": [
+    7,
+    10
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 31,
+   "name": "Medaram",
+   "district": "Mulugu",
+   "category": "Temple",
+   "g": "culture",
+   "lat": 18.3,
+   "lng": 80.17,
+   "why": "Site of Asia's largest tribal fair",
+   "tier": "top",
+   "months": [
+    1,
+    2
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 32,
+   "name": "Eturnagaram Sanctuary",
+   "district": "Mulugu",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 18.35,
+   "lng": 80.43,
+   "why": "Godavari forest sanctuary",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 33,
+   "name": "Ramappa Lake",
+   "district": "Mulugu",
+   "category": "Lake",
+   "g": "water",
+   "lat": 18.25,
+   "lng": 79.95,
+   "why": "Kakatiya-era lake near the temple",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 34,
+   "name": "Warangal Fort",
+   "district": "Warangal",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 17.957,
+   "lng": 79.614,
+   "why": "Kakatiya gateways in stone",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 35,
+   "name": "Thousand Pillar Temple",
+   "district": "Hanumakonda",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 18.002,
+   "lng": 79.575,
+   "why": "Star-shaped Kakatiya temple",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 36,
+   "name": "Bhadrakali Temple, Warangal",
+   "district": "Hanumakonda",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 17.9943,
+   "lng": 79.5691,
+   "why": "Lake temple of the goddess",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 37,
+   "name": "Pakhal Lake",
+   "district": "Warangal",
+   "category": "Lake",
+   "g": "water",
+   "lat": 17.9498,
+   "lng": 79.9835,
+   "why": "Kakatiya lake in forest",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 38,
+   "name": "Kakatiya Musical Garden",
+   "district": "Hanumakonda",
+   "category": "Garden",
+   "g": "culture",
+   "lat": 17.9943,
+   "lng": 79.5691,
+   "why": "Garden with musical fountain",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 39,
+   "name": "Ghanpur Temples",
+   "district": "Jayashankar Bhupalpally",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 18.22,
+   "lng": 79.85,
+   "why": "Kakatiya temple group",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 40,
+   "name": "Bhadrachalam",
+   "district": "Bhadradri Kothagudem",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 17.668,
+   "lng": 80.893,
+   "why": "Rama temple on the Godavari",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 41,
+   "name": "Kinnerasani Sanctuary",
+   "district": "Bhadradri Kothagudem",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 17.6,
+   "lng": 80.6,
+   "why": "Forest reservoir",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 42,
+   "name": "Parnasala",
+   "district": "Bhadradri Kothagudem",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 17.8,
+   "lng": 80.8,
+   "why": "Site of Sita's abduction legend",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 43,
+   "name": "Khammam Fort",
+   "district": "Khammam",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 17.25,
+   "lng": 80.15,
+   "why": "Hill fort of mixed styles",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 44,
+   "name": "Nagarjuna Sagar Dam",
+   "district": "Nalgonda",
+   "category": "Engineering",
+   "g": "water",
+   "lat": 16.577,
+   "lng": 79.313,
+   "why": "One of the world's largest masonry dams",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 45,
+   "name": "Buddhavanam",
+   "district": "Nalgonda",
+   "category": "Monument",
+   "g": "buddhist",
+   "lat": 16.5776,
+   "lng": 79.3193,
+   "why": "Buddhist heritage theme park",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 46,
+   "name": "Panagal Temples",
+   "district": "Nalgonda",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 17.07,
+   "lng": 79.27,
+   "why": "Kanduri Chola temples",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 47,
+   "name": "Pillalamarri Banyan",
+   "district": "Mahabubnagar",
+   "category": "Nature",
+   "g": "wildlife",
+   "lat": 16.75,
+   "lng": 77.98,
+   "why": "800-year-old giant banyan",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 48,
+   "name": "Alampur Temples",
+   "district": "Jogulamba Gadwal",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 15.878,
+   "lng": 78.134,
+   "why": "Nava Brahma temples and Jogulamba Shakti Peetha",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 49,
+   "name": "Gadwal Fort",
+   "district": "Jogulamba Gadwal",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 16.23,
+   "lng": 77.8,
+   "why": "Fort and Gadwal sarees",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 50,
+   "name": "Somasila, Kollapur",
+   "district": "Nagarkurnool",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 16.0284,
+   "lng": 78.2878,
+   "why": "Temples and Krishna backwaters",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 51,
+   "name": "Amrabad Tiger Reserve",
+   "district": "Nagarkurnool",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 16.35,
+   "lng": 78.8,
+   "why": "Nallamala forests and Mallela Theertham",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 52,
+   "name": "Mallela Theertham",
+   "district": "Nagarkurnool",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 16.32,
+   "lng": 78.86,
+   "why": "Falls in the Nallamala",
+   "tier": "gem",
+   "months": [
+    7,
+    10
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 53,
+   "name": "Farahabad Viewpoint",
+   "district": "Nagarkurnool",
+   "category": "Viewpoint",
+   "g": "hills",
+   "lat": 16.43,
+   "lng": 78.76,
+   "why": "Forest viewpoint",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 54,
+   "name": "Umamaheswaram",
+   "district": "Nagarkurnool",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 16.43,
+   "lng": 78.68,
+   "why": "Hill temple",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 55,
+   "name": "Kuntala Falls",
+   "district": "Adilabad",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 19.3,
+   "lng": 78.48,
+   "why": "Telangana's tallest falls",
+   "tier": "top",
+   "months": [
+    7,
+    10
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 56,
+   "name": "Pochera Falls",
+   "district": "Adilabad",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 19.3,
+   "lng": 78.4,
+   "why": "Falls near Kuntala",
+   "tier": "gem",
+   "months": [
+    7,
+    10
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 57,
+   "name": "Kawal Tiger Reserve",
+   "district": "Mancherial",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 19.1,
+   "lng": 79.0,
+   "why": "Teak forests of the Godavari",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 58,
+   "name": "Basar Saraswati Temple",
+   "district": "Nirmal",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 18.88,
+   "lng": 77.95,
+   "why": "Temple of learning on the Godavari",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 59,
+   "name": "Nirmal Toys & Paintings",
+   "district": "Nirmal",
+   "category": "Craft",
+   "g": "culture",
+   "lat": 19.1,
+   "lng": 78.34,
+   "why": "Lacquer toys and paintings",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 60,
+   "name": "Kadem Dam",
+   "district": "Nirmal",
+   "category": "Lake",
+   "g": "water",
+   "lat": 19.1,
+   "lng": 78.8,
+   "why": "Reservoir in forest",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 61,
+   "name": "Gayatri Falls",
+   "district": "Nirmal",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 19.2245,
+   "lng": 78.5301,
+   "why": "Forest falls",
+   "tier": "gem",
+   "months": [
+    7,
+    10
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 62,
+   "name": "Jainath Temple",
+   "district": "Adilabad",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 19.73,
+   "lng": 78.65,
+   "why": "Old Jain-style temple",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 63,
+   "name": "Gandhari Khilla",
+   "district": "Mancherial",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 18.96,
+   "lng": 79.4,
+   "why": "Forest fort",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 64,
+   "name": "Kaleshwaram",
+   "district": "Jayashankar Bhupalpally",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 18.81,
+   "lng": 79.91,
+   "why": "Temple at the Godavari–Pranahita confluence",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 65,
+   "name": "Elgandal Fort",
+   "district": "Karimnagar",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 18.47,
+   "lng": 79.09,
+   "why": "Fort above the Manair",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 66,
+   "name": "Karimnagar Silver Filigree",
+   "district": "Karimnagar",
+   "category": "Craft",
+   "g": "culture",
+   "lat": 18.44,
+   "lng": 79.13,
+   "why": "Silver filigree",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 67,
+   "name": "Lower Manair Dam",
+   "district": "Karimnagar",
+   "category": "Lake",
+   "g": "water",
+   "lat": 18.4,
+   "lng": 79.15,
+   "why": "Reservoir",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 68,
+   "name": "Vemulawada",
+   "district": "Rajanna Sircilla",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 18.47,
+   "lng": 78.87,
+   "why": "Raja Rajeshwara temple",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 69,
+   "name": "Kondagattu",
+   "district": "Jagtial",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 18.76,
+   "lng": 78.97,
+   "why": "Hill Hanuman temple",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 70,
+   "name": "Dharmapuri Narasimha",
+   "district": "Jagtial",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 18.95,
+   "lng": 79.09,
+   "why": "Godavari temple town",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 71,
+   "name": "Medak Cathedral",
+   "district": "Medak",
+   "category": "Church",
+   "g": "heritage",
+   "lat": 18.034,
+   "lng": 78.27,
+   "why": "One of Asia's largest cathedrals",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 72,
+   "name": "Medak Fort",
+   "district": "Medak",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 18.04,
+   "lng": 78.26,
+   "why": "Kakatiya hill fort",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 73,
+   "name": "Pocharam Sanctuary",
+   "district": "Medak",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 18.15,
+   "lng": 78.25,
+   "why": "Lake and forest",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 74,
+   "name": "Edupayala Durga Temple",
+   "district": "Medak",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 17.95,
+   "lng": 78.2,
+   "why": "Temple at seven streams",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 75,
+   "name": "Dichpally Ramalayam & Nizamabad Fort",
+   "district": "Nizamabad",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 18.66,
+   "lng": 78.1,
+   "why": "Fort and the 'Khajuraho of Telangana' at Dichpally",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 76,
+   "name": "Nizam Sagar",
+   "district": "Kamareddy",
+   "category": "Lake",
+   "g": "water",
+   "lat": 18.2,
+   "lng": 77.9,
+   "why": "Nizam-era reservoir",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 77,
+   "name": "Komuravelli Mallanna Temple",
+   "district": "Siddipet",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 17.95,
+   "lng": 78.88,
+   "why": "Mallanna temple fair",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 78,
+   "name": "Kondapochamma Sagar",
+   "district": "Siddipet",
+   "category": "Lake",
+   "g": "water",
+   "lat": 17.8,
+   "lng": 78.8,
+   "why": "New reservoir",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 79,
+   "name": "Rachakonda Fort",
+   "district": "Yadadri Bhuvanagiri",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 17.16,
+   "lng": 78.8,
+   "why": "Hill fort ruins",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 80,
+   "name": "Durgam Cheruvu Bridge",
+   "district": "Rangareddy",
+   "category": "Engineering",
+   "g": "water",
+   "lat": 17.43,
+   "lng": 78.39,
+   "why": "Cable bridge over a lake",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 81,
+   "name": "Mahavir Harina Vanasthali",
+   "district": "Rangareddy",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 17.33,
+   "lng": 78.6,
+   "why": "Blackbuck park in the city",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 82,
+   "name": "Palakurthi Someswara Temple",
+   "district": "Jangaon",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 17.66,
+   "lng": 79.43,
+   "why": "Hilltop cave temple of Shiva and Narasimha, birthplace of poet Palkuriki Somanatha",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 83,
+   "name": "Pembarthi Brassware",
+   "district": "Jangaon",
+   "category": "Craft village",
+   "g": "culture",
+   "lat": 17.78,
+   "lng": 79.25,
+   "why": "Village of sheet-metal artisans known for embossed brass since Kakatiya times",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 84,
+   "name": "Jodeghat Kumuram Bheem Museum",
+   "district": "Kumuram Bheem Asifabad",
+   "category": "Memorial",
+   "g": "heritage",
+   "lat": 19.47,
+   "lng": 78.92,
+   "why": "Hill memorial and museum to the Gond leader who fought the Nizam",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 85,
+   "name": "Komaram Bheem Reservoir",
+   "district": "Kumuram Bheem Asifabad",
+   "category": "Dam",
+   "g": "water",
+   "lat": 19.33,
+   "lng": 79.15,
+   "why": "Forest-ringed reservoir near Asifabad",
+   "tier": "gem",
+   "months": [
+    8,
+    2
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 86,
+   "name": "Keesaragutta Temple",
+   "district": "Medchal-Malkajgiri",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 17.52,
+   "lng": 78.67,
+   "why": "Hill Shiva temple with hundreds of lingas and early Vishnukundin ruins",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 87,
+   "name": "Shamirpet Lake",
+   "district": "Medchal-Malkajgiri",
+   "category": "Lake",
+   "g": "water",
+   "lat": 17.6,
+   "lng": 78.57,
+   "why": "Nizam-era lake with a deer park, popular for weekend drives",
+   "tier": "gem",
+   "months": [
+    8,
+    2
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 88,
+   "name": "Narayanpet Handlooms",
+   "district": "Narayanpet",
+   "category": "Craft",
+   "g": "culture",
+   "lat": 16.74,
+   "lng": 77.5,
+   "why": "Home of GI-tagged Narayanpet cotton and silk saris",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 89,
+   "name": "Ramagiri Fort",
+   "district": "Peddapalli",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 18.6,
+   "lng": 79.55,
+   "why": "Kakatiya-era hill fort with herb-rich forest trails",
+   "tier": "gem",
+   "months": [
+    10,
+    2
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 90,
+   "name": "Manthani Temples",
+   "district": "Peddapalli",
+   "category": "Temple town",
+   "g": "temple",
+   "lat": 18.65,
+   "lng": 79.67,
+   "why": "Old Vedic-learning town on the Godavari with Kakatiya temples",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 91,
+   "name": "Dhulikatta Buddhist Stupa",
+   "district": "Peddapalli",
+   "category": "Buddhist site",
+   "g": "buddhist",
+   "lat": 18.58,
+   "lng": 79.4,
+   "why": "Satavahana-era stupa and fortified town on the Hussainimiya stream",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 92,
+   "name": "Manjira Wildlife Sanctuary",
+   "district": "Sangareddy",
+   "category": "Bird sanctuary",
+   "g": "wildlife",
+   "lat": 17.6,
+   "lng": 78.07,
+   "why": "Reservoir islands with marsh crocodiles and waterbirds, 5 km from Sangareddy",
+   "tier": "gem",
+   "months": [
+    11,
+    2
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 93,
+   "name": "Kondapur Museum",
+   "district": "Sangareddy",
+   "category": "Museum",
+   "g": "heritage",
+   "lat": 17.56,
+   "lng": 78.03,
+   "why": "Site museum of a Satavahana town nicknamed the 'Taxila of the South'",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 94,
+   "name": "Phanigiri Buddhist Site",
+   "district": "Suryapet",
+   "category": "Buddhist site",
+   "g": "buddhist",
+   "lat": 17.32,
+   "lng": 79.58,
+   "why": "Hilltop stupa and monastery on a hill shaped like a serpent's hood, 1st c. BCE–4th c. CE",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 95,
+   "name": "Pillalamarri Kakatiya Temples",
+   "district": "Suryapet",
+   "category": "Temple",
+   "g": "heritage",
+   "lat": 17.11,
+   "lng": 79.63,
+   "why": "Kakatiya-era Shiva temples with fine pillar carvings",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 96,
+   "name": "Wanaparthy Palace",
+   "district": "Wanaparthy",
+   "category": "Palace",
+   "g": "heritage",
+   "lat": 16.36,
+   "lng": 78.06,
+   "why": "Samsthan palace of the Wanaparthy Rajas, now a polytechnic",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 97,
+   "name": "Domakonda Fort",
+   "district": "Kamareddy",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 18.25,
+   "lng": 78.43,
+   "why": "Restored 18th-century fort and Mahadeva temple, UNESCO Asia-Pacific heritage award winner",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 98,
+   "name": "Nelakondapalli Buddhist Stupa",
+   "district": "Khammam",
+   "category": "Buddhist site",
+   "g": "buddhist",
+   "lat": 17.1,
+   "lng": 80.05,
+   "why": "Large brick stupa and monastery ruins; also linked to Bhakta Ramadasu",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 99,
+   "name": "Kusumanchi Ganapeswara Temple",
+   "district": "Khammam",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 17.2,
+   "lng": 79.9,
+   "why": "Kakatiya temple with one of the biggest Shiva lingas in Telangana",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 100,
+   "name": "Kuravi Veerabhadra Temple",
+   "district": "Mahabubabad",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 17.51,
+   "lng": 80.0,
+   "why": "9th-century temple to the fierce ten-armed Veerabhadra; huge Shivratri jatra",
+   "tier": "gem",
+   "months": [
+    2,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 101,
+   "name": "Koilkonda Fort",
+   "district": "Mahabubnagar",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 16.77,
+   "lng": 77.85,
+   "why": "Qutb Shahi hill fort with seven gates above the Koilsagar plains",
+   "tier": "gem",
+   "months": [
+    10,
+    2
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 102,
+   "name": "Sriram Sagar (Pochampad) Dam",
+   "district": "Nizamabad",
+   "category": "Dam",
+   "g": "water",
+   "lat": 18.96,
+   "lng": 78.35,
+   "why": "Big Godavari dam, lively when the gates open",
+   "tier": "gem",
+   "months": [
+    8,
+    10
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 103,
+   "name": "Ali Sagar",
+   "district": "Nizamabad",
+   "category": "Lake",
+   "g": "water",
+   "lat": 18.75,
+   "lng": 78.04,
+   "why": "Nizam-era reservoir with gardens and a hilltop guest house",
+   "tier": "gem",
+   "months": [
+    8,
+    2
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 104,
+   "name": "Sarangapur Hanuman Temple",
+   "district": "Nizamabad",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 18.69,
+   "lng": 78.04,
+   "why": "Temple founded by Samarth Ramdas's disciples, with an old fort wall",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 105,
+   "name": "Jagtial Fort",
+   "district": "Jagtial",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 18.8,
+   "lng": 78.92,
+   "why": "Star-shaped 18th-century fort built with French engineers' help",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 106,
+   "name": "Jurala Project",
+   "district": "Jogulamba Gadwal",
+   "category": "Dam",
+   "g": "water",
+   "lat": 16.33,
+   "lng": 77.7,
+   "why": "Priyadarshini Jurala dam on the Krishna, Telangana's first big reservoir on it",
+   "tier": "gem",
+   "months": [
+    8,
+    11
+   ],
+   "time": "2 hrs"
+  }
+ ],
+ "festivals": [
+  {
+   "name": "Sammakka Saralamma Jatara (Medaram)",
+   "months": [
+    1,
+    2
+   ],
+   "when": "Every two years, January–February (next due 2028)",
+   "n": 31,
+   "about": "Asia's largest tribal fair in the Mulugu forests."
+  },
+  {
+   "name": "Bathukamma",
+   "months": [
+    9,
+    10
+   ],
+   "when": "Nine days before Dussehra",
+   "n": 35,
+   "about": "Women build floral towers and float them on lakes."
+  },
+  {
+   "name": "Bonalu",
+   "months": [
+    7,
+    8
+   ],
+   "when": "Ashada month, July–August",
+   "n": 6,
+   "about": "Hyderabad's festival of the goddess Mahakali, starting at Golconda."
+  },
+  {
+   "name": "Ramzan in the Old City",
+   "months": [
+    3,
+    4
+   ],
+   "when": "Ramzan (dates vary)",
+   "n": 1,
+   "about": "Night markets and haleem around Charminar."
+  },
+  {
+   "name": "Sri Rama Navami at Bhadrachalam",
+   "months": [
+    3,
+    4
+   ],
+   "when": "March or April",
+   "n": 40,
+   "about": "Sita Rama Kalyanam at the Godavari temple."
+  },
+  {
+   "name": "Deccan Festival",
+   "months": [
+    2,
+    2
+   ],
+   "when": "February",
+   "n": 7,
+   "about": "Hyderabad's festival of Deccani culture."
+  }
+ ]
+}
