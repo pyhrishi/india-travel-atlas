@@ -1,1 +1,3643 @@
-{"name":"Andhra Pradesh","intro":"Eastern Ghats coffee hills, a 974 km coastline, the Godavari and Krishna deltas, Rayalaseema's canyons and forts, and some of India's oldest Buddhist sites.","bases":[["Visakhapatnam",17.6868,83.2185],["Vijayawada",16.5062,80.648],["Tirupati",13.6288,79.4192],["Rajahmundry",17.0005,81.804],["Guntur",16.3067,80.4365],["Nellore",14.4426,79.9865],["Kurnool",15.8281,78.0373],["Kadapa",14.4673,78.8242],["Anantapur",14.6819,77.6006],["Bengaluru",12.9716,77.5946],["Hyderabad",17.385,78.4867],["Chennai",13.0827,80.2707]],"trails":[{"name":"Pancharama circuit","note":"Five Shiva temples said to hold pieces of one lingam; devotees try to visit all five in a day.","ids":[53,35,36,42,43]},{"name":"Araku and the Eastern Ghats","note":"Coffee estates, caves, waterfalls and cloud-sea sunrises above Vizag.","ids":[21,23,22,24,27,26,25]},{"name":"Buddhist coast","note":"2,000-year-old monasteries and stupas along the old sea-trade route, from Srikakulam to the Krishna.","ids":[4,103,7,111,11,12,19,142,52,159]},{"name":"Godavari by boat and road","note":"The river's gorge, its widest stretch and the coconut delta to the sea.","ids":[31,46,32,33,34,39]},{"name":"Tirupati temple circuit","note":"Tirumala and the shrines, arch and fort around it.","ids":[71,72,75,77,76]},{"name":"Rayalaseema forts and canyons","note":"Hill forts and the Pennar gorge across the dry southwest.","ids":[81,99,98,83,93]},{"name":"Vijayanagara art","note":"Murals, carved pillars and temple towns from the 15th–16th centuries.","ids":[95,100,82,98,77]},{"name":"Monsoon waterfalls","note":"Best from July to November, when the falls run full.","ids":[73,74,70,24,27,29,56]},{"name":"Birds and wetlands","note":"Pelicans, flamingos and storks, mostly November to March.","ids":[5,45,68,67,39,91]},{"name":"Tirupati beyond Tirumala","note":"The temples, falls and forest shrines most pilgrims miss.","ids":[176,174,175,177,178,179,180,182]},{"name":"Konaseema temples and sweets","note":"Coconut-delta temple towns, with stops for pootharekulu and kaja.","ids":[131,130,135,132,133,134,137,34]},{"name":"Vizag coast and hills","note":"Beaches, hilltops and the red dunes on the road to Bheemili.","ids":[17,15,16,14,13,11,110,10]},{"name":"Vijayawada caves and hills","note":"Rock-cut caves and hill temples around the Krishna in one city.","ids":[47,146,147,148,48,50]},{"name":"Handloom and craft villages","note":"Where Andhra's famous saris, toys and textiles are still made by hand.","ids":[104,20,41,143,58,51,172,198,199]}],"places":[{"n":1,"name":"Arasavalli Sun Temple","district":"Srikakulam","category":"Temple","g":"temple","lat":18.295,"lng":83.918,"why":"One of India's few living Sun temples; sunrise rays fall on the idol around March and October","tier":"top","months":[10,3],"time":"2 hrs"},{"n":2,"name":"Srikurmam Temple","district":"Srikakulam","category":"Temple","g":"temple","lat":18.2711,"lng":84.005,"why":"Rare shrine to Vishnu's tortoise (Kurma) avatar, with a star-tortoise enclosure","tier":"top","months":[10,3],"time":"2 hrs"},{"n":3,"name":"Mukhalingam Temples","district":"Srikakulam","category":"Heritage","g":"heritage","lat":18.59,"lng":84.05,"why":"Eastern Ganga-era stone temples, early Kalinga-style architecture","tier":"gem","months":[10,3],"time":"2–3 hrs"},{"n":4,"name":"Salihundam","district":"Srikakulam","category":"Buddhist site","g":"buddhist","lat":18.333,"lng":84.045,"why":"Hilltop stupas and monastery ruins above the Vamsadhara river","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":5,"name":"Telineelapuram Bird Sanctuary","district":"Srikakulam","category":"Wildlife","g":"wildlife","lat":18.617,"lng":84.29,"why":"Village trees where spot-billed pelicans and painted storks nest in winter","tier":"gem","months":[11,3],"time":"Half day"},{"n":6,"name":"Kalingapatnam Beach","district":"Srikakulam","category":"Beach","g":"coast","lat":18.342,"lng":84.124,"why":"Quiet beach at the Vamsadhara river mouth with an old lighthouse","tier":"gem","months":[10,3],"time":"Half day"},{"n":7,"name":"Ramatheertham","district":"Vizianagaram","category":"Temple / Buddhist","g":"temple","lat":18.168,"lng":83.49,"why":"Rama temple plus ancient Buddhist ruins on Gurubhaktulakonda hill","tier":"gem","months":[10,3],"time":"2 hrs"},{"n":8,"name":"Vizianagaram Fort","district":"Vizianagaram","category":"Fort","g":"heritage","lat":18.116,"lng":83.411,"why":"18th-century fort of the Pusapati rulers in the heart of the city","tier":"gem","months":[10,3],"time":"2–3 hrs"},{"n":9,"name":"Bobbili Fort","district":"Vizianagaram","category":"Fort","g":"heritage","lat":18.573,"lng":83.359,"why":"Palace-fort linked to the 1757 Battle of Bobbili; town famed for veena-making","tier":"gem","months":[10,3],"time":"2–3 hrs"},{"n":10,"name":"Bheemunipatnam (Bheemili)","district":"Visakhapatnam","category":"Beach / Heritage","g":"coast","lat":17.89,"lng":83.455,"why":"Old Dutch settlement with a Dutch cemetery at the Gosthani river mouth","tier":"top","months":[10,3],"time":"Half day"},{"n":11,"name":"Thotlakonda Buddhist Complex","district":"Visakhapatnam","category":"Buddhist site","g":"buddhist","lat":17.817,"lng":83.4,"why":"2,000-year-old monastery on a sea-facing hilltop","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":12,"name":"Bavikonda","district":"Visakhapatnam","category":"Buddhist site","g":"buddhist","lat":17.83,"lng":83.385,"why":"Hilltop monastery where relic caskets were found; sweeping sea views","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":13,"name":"Rushikonda Beach","district":"Visakhapatnam","category":"Beach","g":"coast","lat":17.783,"lng":83.378,"why":"Vizag's best beach for swimming, surfing and kayaking","tier":"icon","months":[10,3],"time":"Half day"},{"n":14,"name":"Kailasagiri","district":"Visakhapatnam","category":"Viewpoint","g":"hills","lat":17.749,"lng":83.342,"why":"Hilltop park and ropeway with panoramic views of the bay","tier":"top","months":[10,2],"time":"Half day"},{"n":15,"name":"RK Beach","district":"Visakhapatnam","category":"Beach","g":"coast","lat":17.714,"lng":83.324,"why":"The city's main seafront promenade, lined with museums","tier":"top","months":[10,3],"time":"Evening"},{"n":16,"name":"INS Kursura Submarine Museum","district":"Visakhapatnam","category":"Museum","g":"culture","lat":17.717,"lng":83.329,"why":"Walk through a real decommissioned Navy submarine on the beach","tier":"top","months":[10,3],"time":"1 hr"},{"n":17,"name":"Dolphin's Nose & Yarada Beach","district":"Visakhapatnam","category":"Viewpoint / Beach","g":"coast","lat":17.672,"lng":83.282,"why":"Lighthouse headland above a secluded, hill-ringed cove beach","tier":"top","months":[10,3],"time":"Half day"},{"n":18,"name":"Simhachalam Temple","district":"Visakhapatnam","category":"Temple","g":"temple","lat":17.7665,"lng":83.2508,"why":"Hill temple of Varaha-Narasimha, deity kept in sandalwood paste","tier":"top","months":[10,3],"time":"2 hrs"},{"n":19,"name":"Sankaram (Bojjannakonda)","district":"Anakapalli","category":"Buddhist site","g":"buddhist","lat":17.705,"lng":82.995,"why":"Rock-cut Buddhist caves and stupas carved into twin hills","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":20,"name":"Etikoppaka Toy Village","district":"Anakapalli","category":"Craft village","g":"culture","lat":17.517,"lng":82.733,"why":"GI-tagged lacquered wooden toys coloured with natural dyes","tier":"gem","months":[10,3],"time":"2 hrs"},{"n":21,"name":"Araku Valley","district":"Alluri Sitharama Raju","category":"Hill valley","g":"hills","lat":18.3273,"lng":82.8775,"why":"Coffee country in the Eastern Ghats; ride the scenic Vizag–Araku train","tier":"icon","months":[10,2],"time":"2–3 days"},{"n":22,"name":"Borra Caves","district":"Alluri Sitharama Raju","category":"Caves","g":"caves","lat":18.281,"lng":83.038,"why":"Vast limestone caves with stalactites and stalagmites","tier":"icon","months":[10,3],"time":"2 hrs"},{"n":23,"name":"Araku Tribal Museum","district":"Alluri Sitharama Raju","category":"Museum","g":"culture","lat":18.333,"lng":82.869,"why":"Life-size displays of the region's tribal communities and crafts","tier":"top","months":[10,3],"time":"2 hrs"},{"n":24,"name":"Katiki Waterfalls","district":"Alluri Sitharama Raju","category":"Waterfall","g":"water","lat":18.268,"lng":83.057,"why":"Jeep ride and short trek from Borra to a tall forest fall","tier":"gem","months":[7,11],"time":"Half day"},{"n":25,"name":"Lambasingi","district":"Alluri Sitharama Raju","category":"Hill village","g":"hills","lat":17.806,"lng":82.491,"why":"The 'Kashmir of Andhra': winter temperatures can dip near freezing","tier":"icon","months":[11,1],"time":"Overnight"},{"n":26,"name":"Vanjangi Hills","district":"Alluri Sitharama Raju","category":"Viewpoint","g":"hills","lat":18.022,"lng":82.693,"why":"Sunrise above a sea of clouds near Paderu","tier":"gem","months":[11,1],"time":"Pre-dawn trip"},{"n":27,"name":"Kothapalli Waterfalls","district":"Alluri Sitharama Raju","category":"Waterfall","g":"water","lat":18.095,"lng":82.625,"why":"Wide cascade near Paderu, best after the monsoon","tier":"gem","months":[7,11],"time":"Half day"},{"n":28,"name":"Maredumilli Forest","district":"Alluri Sitharama Raju","category":"Forest","g":"hills","lat":17.6,"lng":81.717,"why":"Dense jungle, eco-stays, streams and famous bamboo chicken","tier":"top","months":[10,2],"time":"Overnight"},{"n":29,"name":"Jalatarangini Falls","district":"Alluri Sitharama Raju","category":"Waterfall","g":"water","lat":17.629,"lng":81.74,"why":"Forest falls along the Maredumilli ghat road","tier":"gem","months":[7,11],"time":"Half day"},{"n":30,"name":"Gudisa Hills","district":"Alluri Sitharama Raju","category":"Meadows","g":"hills","lat":17.66,"lng":81.83,"why":"Grassland hilltop known for misty sunrises","tier":"gem","months":[10,2],"time":"Full day"},{"n":31,"name":"Papikondalu","district":"Alluri Sitharama Raju / Eluru","category":"River cruise","g":"water","lat":17.45,"lng":81.54,"why":"Boat cruise through the dramatic Godavari gorge between the Papi hills","tier":"icon","months":[9,2],"time":"Full day"},{"n":32,"name":"Rajahmundry Riverfront","district":"East Godavari","category":"River / City","g":"water","lat":17.0,"lng":81.78,"why":"Godavari at its widest: historic bridges, Pushkar Ghat, sunset boat rides","tier":"top","months":[10,3],"time":"Evening"},{"n":33,"name":"Konaseema","district":"Dr. B.R. Ambedkar Konaseema","category":"Backwaters","g":"water","lat":16.578,"lng":82.006,"why":"Coconut-lined Godavari delta villages and canals","tier":"icon","months":[10,3],"time":"Full day"},{"n":34,"name":"Antarvedi","district":"Dr. B.R. Ambedkar Konaseema","category":"Temple / Beach","g":"temple","lat":16.33,"lng":81.73,"why":"Narasimha temple where the Vasishta Godavari meets the sea","tier":"top","months":[10,3],"time":"2 hrs"},{"n":35,"name":"Draksharamam","district":"Dr. B.R. Ambedkar Konaseema","category":"Temple","g":"temple","lat":16.793,"lng":82.063,"why":"Bhimeswara temple, one of the five Pancharama Shiva shrines","tier":"top","months":[10,3],"time":"2 hrs"},{"n":36,"name":"Kumararama, Samalkota","district":"Kakinada","category":"Temple","g":"temple","lat":17.053,"lng":82.169,"why":"Pancharama temple with a two-storey lingam shrine","tier":"gem","months":[10,3],"time":"2 hrs"},{"n":37,"name":"Pithapuram","district":"Kakinada","category":"Temple","g":"temple","lat":17.115,"lng":82.253,"why":"Puruhutika Shakti Peetha and Kukkuteswara temple","tier":"top","months":[10,3],"time":"2 hrs"},{"n":38,"name":"Annavaram","district":"Kakinada","category":"Temple","g":"temple","lat":17.281,"lng":82.404,"why":"Satyanarayana Swamy hill temple above the Pampa river","tier":"top","months":[10,3],"time":"2 hrs"},{"n":39,"name":"Coringa Wildlife Sanctuary","district":"Kakinada","category":"Mangroves","g":"wildlife","lat":16.78,"lng":82.27,"why":"One of India's largest mangrove forests, with a boardwalk","tier":"top","months":[10,3],"time":"Half day"},{"n":40,"name":"Hope Island","district":"Kakinada","category":"Island","g":"coast","lat":16.95,"lng":82.32,"why":"Sand-spit island sheltering Kakinada Bay; boat trips","tier":"gem","months":[10,3],"time":"Half day"},{"n":41,"name":"Uppada Beach","district":"Kakinada","category":"Beach / Craft","g":"coast","lat":17.085,"lng":82.335,"why":"Seaside village famous for Uppada Jamdani silk saris","tier":"gem","months":[10,3],"time":"Half day"},{"n":42,"name":"Somarama, Bhimavaram","district":"West Godavari","category":"Temple","g":"temple","lat":16.544,"lng":81.521,"why":"Pancharama temple whose lingam is said to change colour with the moon","tier":"top","months":[10,3],"time":"2 hrs"},{"n":43,"name":"Ksheerarama, Palakollu","district":"West Godavari","category":"Temple","g":"temple","lat":16.517,"lng":81.73,"why":"Pancharama temple with a towering gopuram","tier":"gem","months":[10,3],"time":"2 hrs"},{"n":44,"name":"Dwaraka Tirumala","district":"Eluru","category":"Temple","g":"temple","lat":16.95,"lng":81.26,"why":"'Chinna Tirupati', a major Venkateswara hill shrine","tier":"top","months":[10,3],"time":"2 hrs"},{"n":45,"name":"Kolleru Lake","district":"Eluru","category":"Wildlife","g":"wildlife","lat":16.62,"lng":81.22,"why":"One of India's largest freshwater lakes; winter pelicans and migratory birds","tier":"top","months":[11,3],"time":"Half day"},{"n":46,"name":"Pattiseema","district":"Eluru","category":"Temple / River","g":"temple","lat":17.236,"lng":81.655,"why":"Veerabhadra temple on a hill-island in the Godavari","tier":"gem","months":[10,3],"time":"2 hrs"},{"n":47,"name":"Kanaka Durga Temple","district":"NTR","category":"Temple","g":"temple","lat":16.515,"lng":80.606,"why":"Indrakeeladri hill temple overlooking the Krishna in Vijayawada","tier":"icon","months":[10,3],"time":"2 hrs"},{"n":48,"name":"Bhavani Island & Prakasam Barrage","district":"NTR","category":"River","g":"water","lat":16.524,"lng":80.588,"why":"Large Krishna river island with water sports, beside the barrage","tier":"top","months":[10,3],"time":"Half day"},{"n":49,"name":"Kondapalli Fort & Toy Village","district":"NTR","category":"Fort / Craft","g":"heritage","lat":16.62,"lng":80.54,"why":"Hill fort plus the GI-tagged softwood Kondapalli toys","tier":"top","months":[10,3],"time":"2–3 hrs"},{"n":50,"name":"Undavalli Caves","district":"Guntur","category":"Caves","g":"caves","lat":16.496,"lng":80.58,"why":"Rock-cut caves with a giant reclining Vishnu, facing the Krishna","tier":"icon","months":[10,3],"time":"2–3 hrs"},{"n":51,"name":"Mangalagiri","district":"Guntur","category":"Temple / Craft","g":"temple","lat":16.431,"lng":80.568,"why":"Panakala Narasimha temple; famous Mangalagiri handloom","tier":"top","months":[10,3],"time":"2 hrs"},{"n":52,"name":"Amaravati Stupa & Museum","district":"Palnadu","category":"Buddhist site","g":"buddhist","lat":16.575,"lng":80.358,"why":"Site of the great Satavahana-era stupa and its sculptures","tier":"icon","months":[10,3],"time":"2–3 hrs"},{"n":53,"name":"Amararama, Amaravati","district":"Palnadu","category":"Temple","g":"temple","lat":16.579,"lng":80.366,"why":"Pancharama temple on the banks of the Krishna","tier":"gem","months":[10,3],"time":"2 hrs"},{"n":54,"name":"Kondaveedu Fort","district":"Palnadu","category":"Fort","g":"heritage","lat":16.257,"lng":80.263,"why":"Reddy kings' hill fort; a good half-day trek","tier":"gem","months":[10,3],"time":"2–3 hrs"},{"n":55,"name":"Kotappakonda","district":"Palnadu","category":"Temple","g":"temple","lat":16.163,"lng":80.064,"why":"Trikoteswara hill temple, famous for its Maha Shivaratri festival","tier":"gem","months":[10,3],"time":"2 hrs"},{"n":56,"name":"Ethipothala Falls","district":"Palnadu","category":"Waterfall","g":"water","lat":16.57,"lng":79.325,"why":"Falls near Nagarjuna Sagar with a crocodile breeding centre","tier":"top","months":[7,11],"time":"Half day"},{"n":57,"name":"Kuchipudi","district":"Krishna","category":"Culture","g":"culture","lat":16.262,"lng":80.94,"why":"Village birthplace of the Kuchipudi classical dance","tier":"gem","months":[10,3],"time":"2 hrs"},{"n":58,"name":"Pedana","district":"Krishna","category":"Craft","g":"culture","lat":16.256,"lng":81.144,"why":"Hub of block-printed Kalamkari textiles","tier":"gem","months":[10,3],"time":"2 hrs"},{"n":59,"name":"Machilipatnam & Manginapudi Beach","district":"Krishna","category":"Beach / Heritage","g":"coast","lat":16.19,"lng":81.17,"why":"Historic port town with a nearby beach and temple","tier":"top","months":[10,3],"time":"Half day"},{"n":60,"name":"Hamsaladeevi","district":"Krishna","category":"Temple / Beach","g":"temple","lat":15.995,"lng":81.09,"why":"Where the Krishna meets the Bay of Bengal; Venugopala temple","tier":"gem","months":[10,3],"time":"2 hrs"},{"n":61,"name":"Suryalanka Beach","district":"Bapatla","category":"Beach","g":"coast","lat":15.845,"lng":80.51,"why":"Popular, gently sloping beach with an AP Tourism stay","tier":"top","months":[10,3],"time":"Half day"},{"n":62,"name":"Ramapuram Beach","district":"Bapatla","category":"Beach","g":"coast","lat":15.765,"lng":80.37,"why":"Clean beach near Chirala, known for handloom weaving","tier":"gem","months":[10,3],"time":"Half day"},{"n":63,"name":"Bhairavakona","district":"Prakasam","category":"Temple / Waterfall","g":"temple","lat":15.1,"lng":79.18,"why":"Eight rock-cut Shiva cave temples beside a waterfall","tier":"gem","months":[8,2],"time":"2 hrs"},{"n":64,"name":"Penchalakona","district":"Nellore","category":"Temple","g":"temple","lat":14.333,"lng":79.42,"why":"Narasimha temple in the Velikonda forest with streams","tier":"gem","months":[8,2],"time":"2 hrs"},{"n":65,"name":"Udayagiri Fort","district":"Nellore","category":"Fort","g":"heritage","lat":14.87,"lng":79.31,"why":"Ruined hill fort fought over by Vijayanagara and the Gajapatis","tier":"gem","months":[10,3],"time":"2–3 hrs"},{"n":66,"name":"Mypadu Beach","district":"Nellore","category":"Beach","g":"coast","lat":14.513,"lng":80.179,"why":"Calm, uncrowded beach near Nellore","tier":"gem","months":[10,3],"time":"Half day"},{"n":67,"name":"Pulicat Lake","district":"Tirupati","category":"Wildlife","g":"wildlife","lat":13.6,"lng":80.18,"why":"India's second-largest brackish lagoon; flamingos in winter","tier":"top","months":[10,3],"time":"Half day"},{"n":68,"name":"Nelapattu Bird Sanctuary","district":"Tirupati","category":"Wildlife","g":"wildlife","lat":13.83,"lng":79.98,"why":"Major breeding site for spot-billed pelicans","tier":"gem","months":[10,3],"time":"Half day"},{"n":69,"name":"Satish Dhawan Space Centre, Sriharikota","district":"Tirupati","category":"Science","g":"culture","lat":13.733,"lng":80.235,"why":"Book the launch view gallery to watch an ISRO rocket launch","tier":"top","months":[1,12],"time":"Half day"},{"n":70,"name":"Ubbalamadugu (Tada) Falls","district":"Tirupati","category":"Waterfall","g":"water","lat":13.62,"lng":79.88,"why":"Forest trek to a fall and natural pools","tier":"gem","months":[7,11],"time":"Half day"},{"n":71,"name":"Tirumala Venkateswara Temple","district":"Tirupati","category":"Temple","g":"temple","lat":13.6833,"lng":79.3474,"why":"One of the world's most visited pilgrimage sites","tier":"icon","months":[10,3],"time":"Full day"},{"n":72,"name":"Silathoranam","district":"Tirupati","category":"Geology","g":"caves","lat":13.695,"lng":79.34,"why":"Rare natural rock arch in Tirumala, a national geo-heritage site","tier":"gem","months":[10,3],"time":"2–3 hrs"},{"n":73,"name":"Talakona Waterfall","district":"Tirupati","category":"Waterfall","g":"water","lat":13.81,"lng":79.22,"why":"Andhra's highest waterfall, inside Sri Venkateswara National Park","tier":"top","months":[7,11],"time":"Half day"},{"n":74,"name":"Kailasakona Falls","district":"Tirupati","category":"Waterfall","g":"water","lat":13.36,"lng":79.59,"why":"Perennial fall with a Shiva shrine, near Puttur","tier":"gem","months":[7,11],"time":"Half day"},{"n":75,"name":"Kapila Theertham","district":"Tirupati","category":"Temple / Waterfall","g":"temple","lat":13.65,"lng":79.418,"why":"Shiva temple at the foot of the Tirumala hills with a waterfall","tier":"top","months":[8,1],"time":"2 hrs"},{"n":76,"name":"Srikalahasti","district":"Tirupati","category":"Temple / Craft","g":"temple","lat":13.749,"lng":79.699,"why":"Vayu lingam temple; home of pen-drawn Kalamkari","tier":"icon","months":[10,3],"time":"2 hrs"},{"n":77,"name":"Chandragiri Fort","district":"Tirupati","category":"Fort","g":"heritage","lat":13.584,"lng":79.317,"why":"Vijayanagara palace-fort with a sound and light show","tier":"top","months":[10,3],"time":"2–3 hrs"},{"n":78,"name":"Kanipakam","district":"Chittoor","category":"Temple","g":"temple","lat":13.283,"lng":79.035,"why":"Self-manifested Varasiddhi Vinayaka in a well","tier":"top","months":[10,3],"time":"2 hrs"},{"n":79,"name":"Koundinya Wildlife Sanctuary","district":"Chittoor","category":"Wildlife","g":"wildlife","lat":13.1,"lng":78.55,"why":"Andhra's elephant sanctuary on the Tamil Nadu border","tier":"gem","months":[10,3],"time":"Half day"},{"n":80,"name":"Horsley Hills","district":"Annamayya","category":"Hill station","g":"hills","lat":13.66,"lng":78.4,"why":"Rayalaseema's breezy hill station with eucalyptus forests","tier":"icon","months":[10,2],"time":"Overnight"},{"n":81,"name":"Gandikota","district":"YSR Kadapa","category":"Canyon / Fort","g":"caves","lat":14.815,"lng":78.285,"why":"The 'Grand Canyon of India': Pennar gorge and a medieval fort","tier":"icon","months":[10,2],"time":"Overnight"},{"n":82,"name":"Vontimitta","district":"YSR Kadapa","category":"Temple","g":"temple","lat":14.39,"lng":79.03,"why":"Kodandarama temple, a Vijayanagara-era masterpiece","tier":"top","months":[10,3],"time":"2 hrs"},{"n":83,"name":"Siddavatam Fort","district":"YSR Kadapa","category":"Fort","g":"heritage","lat":14.47,"lng":78.96,"why":"Riverside fort on the Pennar","tier":"gem","months":[10,3],"time":"2–3 hrs"},{"n":84,"name":"Pushpagiri Temples","district":"YSR Kadapa","category":"Temple","g":"temple","lat":14.594,"lng":78.757,"why":"Riverside temple cluster with fine carvings","tier":"gem","months":[10,3],"time":"2 hrs"},{"n":85,"name":"Ameen Peer Dargah","district":"YSR Kadapa","category":"Shrine","g":"temple","lat":14.48,"lng":78.82,"why":"Revered Sufi dargah visited by people of all faiths","tier":"gem","months":[10,3],"time":"2 hrs"},{"n":86,"name":"Belum Caves","district":"Nandyal","category":"Caves","g":"caves","lat":15.102,"lng":78.111,"why":"One of India's longest cave systems open to visitors","tier":"icon","months":[10,3],"time":"2–3 hrs"},{"n":87,"name":"Srisailam","district":"Nandyal","category":"Temple","g":"temple","lat":16.073,"lng":78.868,"why":"Jyotirlinga and Shakti Peetha above the Krishna gorge","tier":"icon","months":[10,3],"time":"Full day"},{"n":88,"name":"Ahobilam","district":"Nandyal","category":"Temple","g":"temple","lat":15.135,"lng":78.727,"why":"Nine Narasimha shrines hidden in Nallamala forest","tier":"top","months":[10,3],"time":"Full day"},{"n":89,"name":"Mahanandi","district":"Nandyal","category":"Temple","g":"temple","lat":15.472,"lng":78.627,"why":"Shiva temple with crystal-clear spring-fed pools","tier":"top","months":[10,3],"time":"2 hrs"},{"n":90,"name":"Yaganti","district":"Nandyal","category":"Temple","g":"temple","lat":15.35,"lng":78.14,"why":"Uma Maheswara temple with caves and the 'growing' Nandi","tier":"top","months":[10,3],"time":"2 hrs"},{"n":91,"name":"Rollapadu Wildlife Sanctuary","district":"Nandyal","category":"Wildlife","g":"wildlife","lat":15.62,"lng":78.33,"why":"Grasslands protected for the Great Indian Bustard","tier":"gem","months":[9,2],"time":"Half day"},{"n":92,"name":"Orvakal Rock Garden","district":"Kurnool","category":"Nature","g":"caves","lat":15.69,"lng":78.17,"why":"Striking natural granite rock formations and lakes","tier":"gem","months":[10,3],"time":"2–3 hrs"},{"n":93,"name":"Konda Reddy Fort","district":"Kurnool","category":"Fort","g":"heritage","lat":15.83,"lng":78.04,"why":"Surviving gateway of Kurnool's old fort","tier":"gem","months":[10,3],"time":"2–3 hrs"},{"n":94,"name":"Mantralayam","district":"Kurnool","category":"Temple","g":"temple","lat":15.933,"lng":77.435,"why":"Raghavendra Swamy matha on the Tungabhadra","tier":"top","months":[10,3],"time":"2 hrs"},{"n":95,"name":"Lepakshi","district":"Sri Sathya Sai","category":"Temple / Heritage","g":"heritage","lat":13.802,"lng":77.609,"why":"Hanging pillar, giant monolithic Nandi and Vijayanagara murals","tier":"icon","months":[10,3],"time":"Half day"},{"n":96,"name":"Puttaparthi","district":"Sri Sathya Sai","category":"Spiritual","g":"temple","lat":14.165,"lng":77.811,"why":"Prasanthi Nilayam ashram and museums","tier":"top","months":[10,3],"time":"2 hrs"},{"n":97,"name":"Thimmamma Marrimanu","district":"Sri Sathya Sai","category":"Nature","g":"hills","lat":14.03,"lng":78.22,"why":"Banyan with one of the world's largest canopies","tier":"gem","months":[10,2],"time":"Full day"},{"n":98,"name":"Penukonda Fort","district":"Sri Sathya Sai","category":"Fort","g":"heritage","lat":14.085,"lng":77.596,"why":"Vijayanagara's second capital: Gagan Mahal palace and temples","tier":"gem","months":[10,3],"time":"2–3 hrs"},{"n":99,"name":"Gooty Fort","district":"Anantapur","category":"Fort","g":"heritage","lat":15.115,"lng":77.64,"why":"One of India's oldest hill forts, with dramatic views","tier":"top","months":[10,3],"time":"2–3 hrs"},{"n":100,"name":"Tadipatri Temples","district":"Anantapur","category":"Temple","g":"temple","lat":14.91,"lng":78.01,"why":"Chintala Venkataramana and Bugga Ramalingeswara: superb Vijayanagara carvings","tier":"gem","months":[10,3],"time":"2 hrs"},{"name":"Baruva Beach","district":"Srikakulam","category":"Beach","g":"coast","lat":18.877,"lng":84.59,"why":"Quiet beach where the Mahendratanaya river meets the sea, with coconut groves and an old lighthouse","n":101,"tier":"top","months":[10,3],"time":"Half day"},{"name":"Uddanam Coconut Belt","district":"Srikakulam","category":"Countryside","g":"hills","lat":18.75,"lng":84.43,"why":"Dense coconut and cashew groves along the northern coast; made for a slow drive","n":102,"tier":"gem","months":[10,2],"time":"Half day"},{"name":"Dantapuri","district":"Srikakulam","category":"Buddhist site","g":"buddhist","lat":18.395,"lng":83.895,"why":"Excavated stupa and monastery linked to an ancient Kalinga capital","n":103,"tier":"gem","months":[10,3],"time":"1–2 hrs"},{"name":"Ponduru Khadi Village","district":"Srikakulam","category":"Craft village","g":"culture","lat":18.35,"lng":83.757,"why":"Home of fine hand-spun khadi that Gandhi praised","n":104,"tier":"gem","months":[10,3],"time":"2 hrs"},{"name":"Budithi Bell Metal Village","district":"Srikakulam","category":"Craft village","g":"culture","lat":18.4,"lng":83.83,"why":"GI-tagged bell-metal and brass ware, still made by hand","n":105,"tier":"gem","months":[10,3],"time":"2 hrs"},{"name":"Thotapalli Barrage","district":"Parvathipuram Manyam","category":"River","g":"water","lat":18.62,"lng":83.47,"why":"Scenic barrage on the Nagavali river at the edge of the Manyam hills","n":106,"tier":"gem","months":[8,2],"time":"Half day"},{"name":"Punyagiri","district":"Vizianagaram","category":"Temple / Waterfall","g":"temple","lat":18.06,"lng":83.08,"why":"Hill shrine to Shiva with a small waterfall near Srungavarapukota","n":107,"tier":"gem","months":[10,3],"time":"2 hrs"},{"name":"Tatipudi Reservoir","district":"Vizianagaram","category":"Lake","g":"water","lat":18.17,"lng":83.19,"why":"Hill-ringed reservoir on the Gosthani river with a tourism resort","n":108,"tier":"top","months":[8,2],"time":"Half day"},{"name":"Sri Ramanarayanam","district":"Vizianagaram","category":"Temple","g":"temple","lat":18.08,"lng":83.37,"why":"Striking modern Rama temple built in the shape of a drawn bow","n":109,"tier":"top","months":[10,3],"time":"2 hrs"},{"name":"Erra Matti Dibbalu","district":"Visakhapatnam","category":"Geology","g":"caves","lat":17.86,"lng":83.43,"why":"Red sand dunes by the sea, a national geo-heritage site","n":110,"tier":"top","months":[10,3],"time":"2 hrs"},{"name":"Pavurallakonda","district":"Visakhapatnam","category":"Buddhist site","g":"buddhist","lat":17.895,"lng":83.44,"why":"Hilltop monastery ruins above Bheemili with sweeping sea views","n":111,"tier":"gem","months":[10,3],"time":"1–2 hrs"},{"name":"Vizag–Bheemili Beach Road","district":"Visakhapatnam","category":"Scenic drive","g":"coast","lat":17.82,"lng":83.4,"why":"25 km coastal drive past beaches, red dunes and Buddhist hills","n":112,"tier":"top","months":[10,3],"time":"2 hrs"},{"name":"TU-142 Aircraft Museum","district":"Visakhapatnam","category":"Museum","g":"culture","lat":17.718,"lng":83.331,"why":"Walk through a retired Navy long-range patrol aircraft","n":113,"tier":"top","months":[10,3],"time":"1 hr"},{"name":"Indira Gandhi Zoological Park","district":"Visakhapatnam","category":"Wildlife","g":"wildlife","lat":17.763,"lng":83.346,"why":"Large zoo set against the Kambalakonda hills","n":114,"tier":"top","months":[10,3],"time":"Half day"},{"name":"Kambalakonda Wildlife Sanctuary","district":"Visakhapatnam","category":"Wildlife","g":"wildlife","lat":17.8,"lng":83.33,"why":"Hill forest on the city's edge with eco-trails and a lake","n":115,"tier":"top","months":[10,3],"time":"Half day"},{"name":"Three Hills of Faith","district":"Visakhapatnam","category":"Spiritual / Viewpoint","g":"temple","lat":17.69,"lng":83.29,"why":"A church, a dargah and a temple on three neighbouring harbour hills","n":116,"tier":"top","months":[10,3],"time":"2 hrs"},{"name":"Appikonda Beach","district":"Visakhapatnam","category":"Beach / Temple","g":"coast","lat":17.575,"lng":83.17,"why":"Rocky beach beside an ancient Someswara temple","n":117,"tier":"top","months":[10,3],"time":"Half day"},{"name":"Pudimadaka Beach","district":"Anakapalli","category":"Beach","g":"coast","lat":17.5,"lng":83.01,"why":"Wide, uncrowded beach beside a fishing village","n":118,"tier":"gem","months":[10,3],"time":"Half day"},{"name":"Kondakarla Ava","district":"Anakapalli","category":"Wildlife","g":"wildlife","lat":17.6,"lng":82.99,"why":"Freshwater lake with boating and winter birds","n":119,"tier":"gem","months":[11,3],"time":"Half day"},{"name":"Upamaka Venkateswara Temple","district":"Anakapalli","category":"Temple","g":"temple","lat":17.42,"lng":82.77,"why":"Venkateswara hill temple near Nakkapalli, popular with pilgrims","n":120,"tier":"top","months":[10,3],"time":"2 hrs"},{"name":"Vistadome Train to Araku","district":"Alluri Sitharama Raju","category":"Rail journey","g":"hills","lat":18.25,"lng":83.0,"why":"Glass-roofed coaches through dozens of tunnels and bridges in the Eastern Ghats","n":121,"tier":"icon","months":[7,2],"time":"Full day"},{"name":"Padmapuram Gardens","district":"Alluri Sitharama Raju","category":"Garden","g":"hills","lat":18.34,"lng":82.88,"why":"Botanical garden in Araku with treetop huts","n":122,"tier":"top","months":[10,2],"time":"1–2 hrs"},{"name":"Araku Coffee Museum","district":"Alluri Sitharama Raju","category":"Museum","g":"culture","lat":18.33,"lng":82.873,"why":"The story of Araku's tribal-grown coffee, with tastings","n":123,"tier":"top","months":[10,3],"time":"1 hr"},{"name":"Galikonda Viewpoint","district":"Alluri Sitharama Raju","category":"Viewpoint","g":"hills","lat":18.25,"lng":82.97,"why":"One of the highest points of the Eastern Ghats in Andhra","n":124,"tier":"top","months":[10,2],"time":"1 hr"},{"name":"Chaparai Waterfalls","district":"Alluri Sitharama Raju","category":"Waterfall","g":"water","lat":18.3,"lng":82.82,"why":"Gentle cascade over flat rocks, popular for a dip","n":125,"tier":"top","months":[7,12],"time":"Half day"},{"name":"Tyda","district":"Alluri Sitharama Raju","category":"Forest","g":"hills","lat":18.17,"lng":83.03,"why":"Nature camp in the Ananthagiri forests with treks and stays","n":126,"tier":"top","months":[9,2],"time":"Overnight"},{"name":"Ananthagiri Hills","district":"Alluri Sitharama Raju","category":"Hills","g":"hills","lat":18.09,"lng":83.0,"why":"Coffee plantations and viewpoints on the ghat road to Araku","n":127,"tier":"top","months":[10,2],"time":"Half day"},{"name":"Sileru","district":"Alluri Sitharama Raju","category":"Forest / Lake","g":"hills","lat":17.86,"lng":82.21,"why":"Remote reservoirs and deep forest on the Odisha border","n":128,"tier":"gem","months":[10,2],"time":"Overnight"},{"name":"Rampa Waterfalls","district":"Alluri Sitharama Raju","category":"Waterfall","g":"water","lat":17.47,"lng":81.78,"why":"Forest fall near Rampachodavaram in the Rampa hills","n":129,"tier":"top","months":[7,11],"time":"Half day"},{"name":"Atreyapuram","district":"Dr. B.R. Ambedkar Konaseema","category":"Food village","g":"culture","lat":16.83,"lng":81.77,"why":"Village famous for pootharekulu, paper-thin rice-film sweets","n":130,"tier":"top","months":[1,12],"time":"1 hr"},{"name":"Tapeswaram","district":"Dr. B.R. Ambedkar Konaseema","category":"Food village","g":"culture","lat":16.82,"lng":81.95,"why":"Home of flaky, syrup-soaked madatha kaja","n":131,"tier":"top","months":[1,12],"time":"1 hr"},{"name":"Ryali","district":"Dr. B.R. Ambedkar Konaseema","category":"Temple","g":"temple","lat":16.75,"lng":81.88,"why":"Jaganmohini Kesava temple: Vishnu in front, Mohini carved behind","n":132,"tier":"top","months":[10,3],"time":"2 hrs"},{"name":"Ainavilli Vinayaka Temple","district":"Dr. B.R. Ambedkar Konaseema","category":"Temple","g":"temple","lat":16.66,"lng":82.0,"why":"Ancient Siddhi Vinayaka shrine in the coconut delta","n":133,"tier":"top","months":[10,3],"time":"2 hrs"},{"name":"Appanapalli Balaji Temple","district":"Dr. B.R. Ambedkar Konaseema","category":"Temple","g":"temple","lat":16.565,"lng":81.93,"why":"Venkateswara temple on the Vainateya branch of the Godavari","n":134,"tier":"top","months":[10,3],"time":"2 hrs"},{"name":"Vadapalli Venkateswara Temple","district":"Dr. B.R. Ambedkar Konaseema","category":"Temple","g":"temple","lat":16.705,"lng":81.83,"why":"Riverside temple called the 'Konaseema Tirupati'","n":135,"tier":"top","months":[10,3],"time":"2 hrs"},{"name":"Kotipalli","district":"Dr. B.R. Ambedkar Konaseema","category":"Temple / River","g":"temple","lat":16.7,"lng":82.07,"why":"Ancient Someswara temple and ferry crossing on the Gautami Godavari","n":136,"tier":"top","months":[10,3],"time":"2 hrs"},{"name":"Dindi","district":"Dr. B.R. Ambedkar Konaseema","category":"Backwaters","g":"water","lat":16.44,"lng":81.79,"why":"Houseboats and resorts on the Vasishta Godavari backwaters","n":137,"tier":"top","months":[10,3],"time":"Overnight"},{"name":"Kadiyam Nurseries","district":"East Godavari","category":"Garden","g":"hills","lat":16.92,"lng":81.84,"why":"One of India's largest plant-nursery belts, a sea of greenery","n":138,"tier":"top","months":[10,3],"time":"Half day"},{"name":"Sir Arthur Cotton Museum","district":"East Godavari","category":"Museum / River","g":"culture","lat":16.95,"lng":81.79,"why":"The barrage that turned the delta green, and its engineer's story","n":139,"tier":"top","months":[10,3],"time":"2 hrs"},{"name":"Biccavolu Temples","district":"East Godavari","category":"Heritage","g":"heritage","lat":16.955,"lng":82.04,"why":"Rare Eastern Chalukya-era temples with fine early carving","n":140,"tier":"gem","months":[10,3],"time":"2–3 hrs"},{"name":"Talupulamma Lova","district":"Kakinada","category":"Temple","g":"temple","lat":17.35,"lng":82.33,"why":"Goddess temple in a forested hill valley near Tuni","n":141,"tier":"top","months":[10,3],"time":"2 hrs"},{"name":"Guntupalli Buddhist Caves","district":"Eluru","category":"Buddhist site","g":"buddhist","lat":17.0,"lng":81.12,"why":"Rock-cut chaitya cave and stupas from around the 2nd century BCE","n":142,"tier":"gem","months":[10,3],"time":"1–2 hrs"},{"name":"Narsapuram","district":"West Godavari","category":"Craft","g":"culture","lat":16.43,"lng":81.7,"why":"Centre of hand-crocheted, GI-tagged Narsapur lace","n":143,"tier":"top","months":[10,3],"time":"2 hrs"},{"name":"Perupalem Beach","district":"West Godavari","category":"Beach","g":"coast","lat":16.34,"lng":81.57,"why":"Casuarina-lined beach, the best in West Godavari","n":144,"tier":"top","months":[10,3],"time":"Half day"},{"name":"Penugonda","district":"West Godavari","category":"Temple","g":"temple","lat":16.65,"lng":81.75,"why":"Birthplace shrine of Vasavi Kanyaka Parameswari with a giant statue","n":145,"tier":"top","months":[10,3],"time":"2 hrs"},{"name":"Akkanna Madanna Caves","district":"NTR","category":"Caves","g":"caves","lat":16.513,"lng":80.603,"why":"Rock-cut caves on the Indrakeeladri hillside in Vijayawada","n":146,"tier":"top","months":[10,3],"time":"2 hrs"},{"name":"Mogalrajapuram Caves","district":"NTR","category":"Caves","g":"caves","lat":16.512,"lng":80.646,"why":"Some of the oldest rock-cut shrines in Vijayawada","n":147,"tier":"top","months":[10,3],"time":"2 hrs"},{"name":"Gandhi Hill","district":"NTR","category":"Viewpoint","g":"hills","lat":16.52,"lng":80.632,"why":"Memorial hill with views over Vijayawada","n":148,"tier":"top","months":[10,2],"time":"1 hr"},{"name":"Victoria Jubilee Museum","district":"NTR","category":"Museum","g":"culture","lat":16.508,"lng":80.628,"why":"Colonial-era museum with Buddhist and Hindu sculpture","n":149,"tier":"top","months":[10,3],"time":"2 hrs"},{"name":"Gunadala Matha Shrine","district":"NTR","category":"Spiritual","g":"temple","lat":16.52,"lng":80.67,"why":"Hilltop Marian shrine drawing pilgrims of every faith","n":150,"tier":"top","months":[10,3],"time":"2 hrs"},{"name":"Vedadri","district":"NTR","category":"Temple","g":"temple","lat":16.8,"lng":80.18,"why":"Narasimha temple on the Krishna, said to hold five forms of the deity","n":151,"tier":"top","months":[10,3],"time":"2 hrs"},{"name":"Jaggayyapeta Stupa","district":"NTR","category":"Buddhist site","g":"buddhist","lat":16.895,"lng":80.1,"why":"Early Buddhist stupa site that yielded some of Andhra's oldest sculpture","n":152,"tier":"gem","months":[10,3],"time":"1–2 hrs"},{"name":"Dhyana Buddha, Amaravati","district":"Palnadu","category":"Buddhist site","g":"buddhist","lat":16.569,"lng":80.356,"why":"Giant seated Buddha statue on the banks of the Krishna","n":153,"tier":"top","months":[10,3],"time":"1–2 hrs"},{"name":"Dharanikota","district":"Palnadu","category":"Heritage","g":"heritage","lat":16.585,"lng":80.33,"why":"Ruins of Dhanyakataka, the ancient Satavahana-era capital","n":154,"tier":"gem","months":[10,3],"time":"2–3 hrs"},{"name":"Uppalapadu Bird Sanctuary","district":"Guntur","category":"Wildlife","g":"wildlife","lat":16.26,"lng":80.43,"why":"Village tank where pelicans and painted storks breed","n":155,"tier":"top","months":[11,3],"time":"Half day"},{"name":"Chebrolu","district":"Guntur","category":"Temple","g":"temple","lat":16.2,"lng":80.52,"why":"Old temple town with a rare Brahma temple and Chola-era shrines","n":156,"tier":"gem","months":[10,3],"time":"2 hrs"},{"name":"Chejerla","district":"Palnadu","category":"Temple","g":"temple","lat":16.19,"lng":79.83,"why":"Kapoteswara temple, an early brick shrine tied to the King Shibi legend","n":157,"tier":"gem","months":[10,3],"time":"2 hrs"},{"name":"Durgi Stone Craft","district":"Palnadu","category":"Craft","g":"culture","lat":16.42,"lng":79.52,"why":"Stone carvers keeping alive the Nagarjunakonda sculpture tradition","n":158,"tier":"gem","months":[10,3],"time":"2 hrs"},{"name":"Bhattiprolu","district":"Bapatla","category":"Buddhist site","g":"buddhist","lat":16.1,"lng":80.78,"why":"Stupa whose relic caskets carry an early form of the Brahmi script","n":159,"tier":"gem","months":[10,3],"time":"1–2 hrs"},{"name":"Bhavanarayana Temple, Bapatla","district":"Bapatla","category":"Temple","g":"temple","lat":15.905,"lng":80.468,"why":"Ancient temple the town of Bapatla is named after","n":160,"tier":"gem","months":[10,3],"time":"2 hrs"},{"name":"Motupalli","district":"Bapatla","category":"Heritage","g":"heritage","lat":15.72,"lng":80.29,"why":"Medieval Kakatiya port that Marco Polo wrote about","n":161,"tier":"gem","months":[10,3],"time":"2–3 hrs"},{"name":"Ghantasala","district":"Krishna","category":"Buddhist site","g":"buddhist","lat":16.17,"lng":80.95,"why":"Ruined stupa of an ancient Indian Ocean trading port","n":162,"tier":"gem","months":[10,3],"time":"1–2 hrs"},{"name":"Mopidevi","district":"Krishna","category":"Temple","g":"temple","lat":16.07,"lng":80.93,"why":"Subrahmanya Swamy temple in the Krishna delta","n":163,"tier":"top","months":[10,3],"time":"2 hrs"},{"name":"Krishna Wildlife Sanctuary","district":"Krishna","category":"Mangroves","g":"wildlife","lat":15.9,"lng":80.95,"why":"Mangrove forest of the Krishna delta, home to fishing cats","n":164,"tier":"gem","months":[10,3],"time":"Half day"},{"name":"Tripurantakam","district":"Prakasam","category":"Temple","g":"temple","lat":15.99,"lng":79.46,"why":"Hill temple and lake, the ancient eastern gateway to Srisailam","n":165,"tier":"top","months":[10,3],"time":"2 hrs"},{"name":"Markapur Chennakesava Temple","district":"Prakasam","category":"Temple","g":"temple","lat":15.735,"lng":79.27,"why":"Vijayanagara-era temple with a tall gopuram","n":166,"tier":"gem","months":[10,3],"time":"2 hrs"},{"name":"Singarakonda","district":"Bapatla","category":"Temple","g":"temple","lat":15.815,"lng":79.99,"why":"Hill shrines to Narasimha and Prasanna Anjaneya near Addanki","n":167,"tier":"gem","months":[10,3],"time":"2 hrs"},{"name":"Gundla Brahmeswaram Sanctuary","district":"Nandyal","category":"Wildlife","g":"wildlife","lat":15.62,"lng":78.85,"why":"Remote Nallamala wilderness between Srisailam and the plains","n":168,"tier":"gem","months":[10,3],"time":"Full day"},{"name":"Talpagiri Ranganathaswamy Temple","district":"Nellore","category":"Temple","g":"temple","lat":14.45,"lng":79.99,"why":"Riverside Ranganatha temple with a towering gopuram in Nellore","n":169,"tier":"top","months":[10,3],"time":"2 hrs"},{"name":"Jonnawada Kamakshi Temple","district":"Nellore","category":"Temple","g":"temple","lat":14.483,"lng":79.917,"why":"Kamakshi temple on the Penna river, a major regional shrine","n":170,"tier":"top","months":[10,3],"time":"2 hrs"},{"name":"Somasila Dam","district":"Nellore","category":"Lake","g":"water","lat":14.49,"lng":79.3,"why":"Large Penna reservoir ringed by the Velikonda hills","n":171,"tier":"top","months":[9,2],"time":"Half day"},{"name":"Venkatagiri","district":"Tirupati","category":"Craft / Heritage","g":"culture","lat":13.96,"lng":79.58,"why":"Fine cotton Venkatagiri saris and an old royal palace","n":172,"tier":"top","months":[10,3],"time":"2 hrs"},{"name":"Irakam Island","district":"Tirupati","category":"Island","g":"coast","lat":13.8,"lng":80.1,"why":"Island village in Pulicat Lake reached by boat","n":173,"tier":"gem","months":[10,3],"time":"Half day"},{"name":"Akasaganga & Papavinasanam","district":"Tirupati","category":"Waterfall / Temple","g":"water","lat":13.705,"lng":79.34,"why":"Sacred falls and bathing ghat in the Tirumala hills","n":174,"tier":"top","months":[8,1],"time":"Half day"},{"name":"Japali Theertham","district":"Tirupati","category":"Temple","g":"temple","lat":13.715,"lng":79.345,"why":"Hanuman shrine and sacred pond deep in the Tirumala forest","n":175,"tier":"top","months":[10,3],"time":"2 hrs"},{"name":"Alipiri Footpath","district":"Tirupati","category":"Pilgrim walk","g":"temple","lat":13.65,"lng":79.4,"why":"The roughly 3,500-step pilgrim climb from Tirupati to Tirumala","n":176,"tier":"top","months":[10,3],"time":"Half day"},{"name":"Govindaraja Swamy Temple","district":"Tirupati","category":"Temple","g":"temple","lat":13.633,"lng":79.42,"why":"Huge 12th-century temple complex in the heart of Tirupati","n":177,"tier":"top","months":[10,3],"time":"2 hrs"},{"name":"Tiruchanur Padmavathi Temple","district":"Tirupati","category":"Temple","g":"temple","lat":13.607,"lng":79.45,"why":"Temple of Goddess Padmavathi, consort of Venkateswara","n":178,"tier":"top","months":[10,3],"time":"2 hrs"},{"name":"Srinivasa Mangapuram","district":"Tirupati","category":"Temple","g":"temple","lat":13.61,"lng":79.32,"why":"Kalyana Venkateswara temple at the foot of the Tirumala hills","n":179,"tier":"top","months":[10,3],"time":"2 hrs"},{"name":"Narayanavanam","district":"Tirupati","category":"Temple","g":"temple","lat":13.42,"lng":79.58,"why":"Where legend says Venkateswara married Padmavathi","n":180,"tier":"top","months":[10,3],"time":"2 hrs"},{"name":"Sri Venkateswara Zoological Park","district":"Tirupati","category":"Wildlife","g":"wildlife","lat":13.625,"lng":79.38,"why":"One of India's largest zoos, in the Seshachalam foothills","n":181,"tier":"top","months":[10,3],"time":"Half day"},{"name":"Gudimallam","district":"Tirupati","category":"Temple","g":"temple","lat":13.61,"lng":79.58,"why":"Parasurameswara temple with one of India's oldest lingams, c. 2nd century BCE","n":182,"tier":"gem","months":[10,3],"time":"2 hrs"},{"name":"Nagalapuram","district":"Tirupati","category":"Temple","g":"temple","lat":13.389,"lng":79.795,"why":"Vedanarayana temple where sun rays reach the deity each March","n":183,"tier":"top","months":[10,3],"time":"2 hrs"},{"name":"Surutupalli","district":"Tirupati","category":"Temple","g":"temple","lat":13.43,"lng":79.8,"why":"Pallikondeswara temple with a rare reclining Shiva","n":184,"tier":"gem","months":[10,3],"time":"2 hrs"},{"name":"Gurramkonda Fort","district":"Annamayya","category":"Fort","g":"heritage","lat":13.78,"lng":78.58,"why":"Hill fort with a Persian-style Rangin Mahal palace","n":185,"tier":"gem","months":[10,3],"time":"2–3 hrs"},{"name":"Nandalur Soumyanatha Temple","district":"Annamayya","category":"Temple","g":"temple","lat":14.25,"lng":79.12,"why":"Chola-era temple on the Cheyyeru river","n":186,"tier":"gem","months":[10,3],"time":"2 hrs"},{"name":"Madanapalle","district":"Annamayya","category":"Heritage","g":"heritage","lat":13.55,"lng":78.5,"why":"Town where Tagore translated 'Jana Gana Mana' into English in 1919","n":187,"tier":"top","months":[10,3],"time":"2–3 hrs"},{"name":"Rishi Valley","district":"Annamayya","category":"Nature","g":"hills","lat":13.63,"lng":78.45,"why":"Quiet valley famed for its school and excellent birding","n":188,"tier":"gem","months":[10,2],"time":"Half day"},{"name":"Lankamalleswara Sanctuary","district":"YSR Kadapa","category":"Wildlife","g":"wildlife","lat":14.68,"lng":78.95,"why":"Scrub forest where the rare Jerdon's courser was rediscovered in 1986","n":189,"tier":"gem","months":[10,3],"time":"Half day"},{"name":"Brahmamgari Matham","district":"YSR Kadapa","category":"Spiritual","g":"temple","lat":15.03,"lng":78.8,"why":"Seat of the 17th-century seer Pothuluri Veerabrahmendra Swamy","n":190,"tier":"top","months":[10,3],"time":"2 hrs"},{"name":"Ketavaram Rock Paintings","district":"Kurnool","category":"Heritage","g":"caves","lat":15.72,"lng":78.15,"why":"Prehistoric rock art in the Jurreru valley","n":191,"tier":"gem","months":[10,3],"time":"2 hrs"},{"name":"Bairluty Eco-Camp","district":"Nandyal","category":"Forest","g":"wildlife","lat":15.53,"lng":78.72,"why":"Jungle safaris and stays in the Nallamala tiger reserve","n":192,"tier":"top","months":[10,6],"time":"Overnight"},{"name":"Pathala Ganga & Srisailam Dam","district":"Nandyal","category":"River / Dam","g":"water","lat":16.085,"lng":78.88,"why":"Ropeway down to the Krishna below Srisailam, with dam views","n":193,"tier":"top","months":[8,2],"time":"Half day"},{"name":"Akka Mahadevi Caves","district":"Nandyal","category":"Caves","g":"caves","lat":16.06,"lng":78.85,"why":"Natural caves reached by a boat ride up the Krishna gorge","n":194,"tier":"gem","months":[10,3],"time":"Half day"},{"name":"Banaganapalle","district":"Nandyal","category":"Food / Heritage","g":"culture","lat":15.32,"lng":78.23,"why":"Home of the GI-tagged Banganapalli mango; go in May or June","n":195,"tier":"gem","months":[5,6],"time":"2 hrs"},{"name":"Hemavathi","district":"Sri Sathya Sai","category":"Temple","g":"temple","lat":13.8,"lng":77.02,"why":"Nolamba-era Siddheswara temples with fine black-stone carving","n":196,"tier":"gem","months":[10,3],"time":"2 hrs"},{"name":"Kadiri Lakshmi Narasimha Temple","district":"Sri Sathya Sai","category":"Temple","g":"temple","lat":14.11,"lng":78.16,"why":"Major Narasimha shrine with a grand annual festival","n":197,"tier":"top","months":[10,3],"time":"2 hrs"},{"name":"Dharmavaram","district":"Sri Sathya Sai","category":"Craft","g":"culture","lat":14.41,"lng":77.72,"why":"Silk town famous for heavy, gold-bordered Dharmavaram saris","n":198,"tier":"top","months":[10,3],"time":"2 hrs"},{"name":"Nimmalakunta","district":"Sri Sathya Sai","category":"Craft village","g":"culture","lat":14.39,"lng":77.72,"why":"Leather puppet-makers of the Tholu Bommalata shadow-play tradition","n":199,"tier":"gem","months":[10,3],"time":"2 hrs"},{"name":"Rayadurgam Fort","district":"Anantapur","category":"Fort","g":"heritage","lat":14.7,"lng":76.85,"why":"Hill fort with temples on the Karnataka border","n":200,"tier":"gem","months":[10,3],"time":"2–3 hrs"},{"n":201,"name":"Nagarjunakonda Island Museum","district":"Palnadu","category":"Museum","g":"buddhist","lat":16.53,"lng":79.24,"why":"Island in the Nagarjuna Sagar reservoir with relocated Buddhist monuments and a museum","tier":"top","months":[10,3],"time":"Half day"}],"festivals":[{"name":"Sankranti in Konaseema","months":[1,1],"when":"Mid-January, over three days","n":33,"about":"The big harvest festival; Konaseema villages carry decorated prabhalas across fields and canals on Kanuma day."},{"name":"Flamingo Festival","months":[1,1],"when":"Usually January","n":67,"about":"Celebration of the winter flamingos and pelicans of Pulicat and Nelapattu."},{"name":"Maha Shivaratri at Kotappakonda","months":[2,3],"when":"February or March","n":55,"about":"Towering decorated prabhalu are brought to the hill temple through the night."},{"name":"Ugadi","months":[3,4],"when":"March or April","n":null,"about":"Telugu New Year, with ugadi pachadi and temple visits across the state."},{"name":"Chandanotsavam, Simhachalam","months":[4,5],"when":"On Akshaya Tritiya, April or May","n":18,"about":"The one day a year the deity's sandalwood covering is removed for darshan."},{"name":"Godavari Pushkaralu 2027","months":[7,8],"when":"Once every 12 years; next in mid-2027","n":32,"about":"Millions bathe in the Godavari at Rajahmundry's ghats during this 12-day festival."},{"name":"Dasara at Kanaka Durga","months":[9,10],"when":"September or October","n":47,"about":"Ten days of worship on Indrakeeladri, ending with a river procession on the Krishna."},{"name":"Tirumala Brahmotsavam","months":[9,10],"when":"September or October","n":71,"about":"Nine-day festival of grand processions around the Tirumala temple."}]}
+{
+ "name": "Andhra Pradesh",
+ "intro": "Eastern Ghats coffee hills, a 974 km coastline, the Godavari and Krishna deltas, Rayalaseema's canyons and forts, and some of India's oldest Buddhist sites.",
+ "bases": [
+  [
+   "Visakhapatnam",
+   17.6868,
+   83.2185
+  ],
+  [
+   "Vijayawada",
+   16.5062,
+   80.648
+  ],
+  [
+   "Tirupati",
+   13.6288,
+   79.4192
+  ],
+  [
+   "Rajahmundry",
+   17.0005,
+   81.804
+  ],
+  [
+   "Guntur",
+   16.3067,
+   80.4365
+  ],
+  [
+   "Nellore",
+   14.4426,
+   79.9865
+  ],
+  [
+   "Kurnool",
+   15.8281,
+   78.0373
+  ],
+  [
+   "Kadapa",
+   14.4673,
+   78.8242
+  ],
+  [
+   "Anantapur",
+   14.6819,
+   77.6006
+  ],
+  [
+   "Bengaluru",
+   12.9716,
+   77.5946
+  ],
+  [
+   "Hyderabad",
+   17.385,
+   78.4867
+  ],
+  [
+   "Chennai",
+   13.0827,
+   80.2707
+  ]
+ ],
+ "trails": [
+  {
+   "name": "Pancharama circuit",
+   "note": "Five Shiva temples said to hold pieces of one lingam; devotees try to visit all five in a day.",
+   "ids": [
+    53,
+    35,
+    36,
+    42,
+    43
+   ]
+  },
+  {
+   "name": "Araku and the Eastern Ghats",
+   "note": "Coffee estates, caves, waterfalls and cloud-sea sunrises above Vizag.",
+   "ids": [
+    21,
+    23,
+    22,
+    24,
+    27,
+    26,
+    25
+   ]
+  },
+  {
+   "name": "Buddhist coast",
+   "note": "2,000-year-old monasteries and stupas along the old sea-trade route, from Srikakulam to the Krishna.",
+   "ids": [
+    4,
+    103,
+    7,
+    111,
+    11,
+    12,
+    19,
+    142,
+    52,
+    159
+   ]
+  },
+  {
+   "name": "Godavari by boat and road",
+   "note": "The river's gorge, its widest stretch and the coconut delta to the sea.",
+   "ids": [
+    31,
+    46,
+    32,
+    33,
+    34,
+    39
+   ]
+  },
+  {
+   "name": "Tirupati temple circuit",
+   "note": "Tirumala and the shrines, arch and fort around it.",
+   "ids": [
+    71,
+    72,
+    75,
+    77,
+    76
+   ]
+  },
+  {
+   "name": "Rayalaseema forts and canyons",
+   "note": "Hill forts and the Pennar gorge across the dry southwest.",
+   "ids": [
+    81,
+    99,
+    98,
+    83,
+    93
+   ]
+  },
+  {
+   "name": "Vijayanagara art",
+   "note": "Murals, carved pillars and temple towns from the 15th–16th centuries.",
+   "ids": [
+    95,
+    100,
+    82,
+    98,
+    77
+   ]
+  },
+  {
+   "name": "Monsoon waterfalls",
+   "note": "Best from July to November, when the falls run full.",
+   "ids": [
+    73,
+    74,
+    70,
+    24,
+    27,
+    29,
+    56
+   ]
+  },
+  {
+   "name": "Birds and wetlands",
+   "note": "Pelicans, flamingos and storks, mostly November to March.",
+   "ids": [
+    5,
+    45,
+    68,
+    67,
+    39,
+    91
+   ]
+  },
+  {
+   "name": "Tirupati beyond Tirumala",
+   "note": "The temples, falls and forest shrines most pilgrims miss.",
+   "ids": [
+    176,
+    174,
+    175,
+    177,
+    178,
+    179,
+    180,
+    182
+   ]
+  },
+  {
+   "name": "Konaseema temples and sweets",
+   "note": "Coconut-delta temple towns, with stops for pootharekulu and kaja.",
+   "ids": [
+    131,
+    130,
+    135,
+    132,
+    133,
+    134,
+    137,
+    34
+   ]
+  },
+  {
+   "name": "Vizag coast and hills",
+   "note": "Beaches, hilltops and the red dunes on the road to Bheemili.",
+   "ids": [
+    17,
+    15,
+    16,
+    14,
+    13,
+    11,
+    110,
+    10
+   ]
+  },
+  {
+   "name": "Vijayawada caves and hills",
+   "note": "Rock-cut caves and hill temples around the Krishna in one city.",
+   "ids": [
+    47,
+    146,
+    147,
+    148,
+    48,
+    50
+   ]
+  },
+  {
+   "name": "Handloom and craft villages",
+   "note": "Where Andhra's famous saris, toys and textiles are still made by hand.",
+   "ids": [
+    104,
+    20,
+    41,
+    143,
+    58,
+    51,
+    172,
+    198,
+    199
+   ]
+  }
+ ],
+ "places": [
+  {
+   "n": 1,
+   "name": "Arasavalli Sun Temple",
+   "district": "Srikakulam",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 18.295,
+   "lng": 83.918,
+   "why": "One of India's few living Sun temples; sunrise rays fall on the idol around March and October",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 2,
+   "name": "Srikurmam Temple",
+   "district": "Srikakulam",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 18.2711,
+   "lng": 84.005,
+   "why": "Rare shrine to Vishnu's tortoise (Kurma) avatar, with a star-tortoise enclosure",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 3,
+   "name": "Mukhalingam Temples",
+   "district": "Srikakulam",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 18.59,
+   "lng": 84.05,
+   "why": "Eastern Ganga-era stone temples, early Kalinga-style architecture",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2–3 hrs"
+  },
+  {
+   "n": 4,
+   "name": "Salihundam",
+   "district": "Srikakulam",
+   "category": "Buddhist site",
+   "g": "buddhist",
+   "lat": 18.333,
+   "lng": 84.045,
+   "why": "Hilltop stupas and monastery ruins above the Vamsadhara river",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 5,
+   "name": "Telineelapuram Bird Sanctuary",
+   "district": "Srikakulam",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 18.617,
+   "lng": 84.29,
+   "why": "Village trees where spot-billed pelicans and painted storks nest in winter",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 6,
+   "name": "Kalingapatnam Beach",
+   "district": "Srikakulam",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 18.342,
+   "lng": 84.124,
+   "why": "Quiet beach at the Vamsadhara river mouth with an old lighthouse",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 7,
+   "name": "Ramatheertham",
+   "district": "Vizianagaram",
+   "category": "Temple / Buddhist",
+   "g": "temple",
+   "lat": 18.168,
+   "lng": 83.49,
+   "why": "Rama temple plus ancient Buddhist ruins on Gurubhaktulakonda hill",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 8,
+   "name": "Vizianagaram Fort",
+   "district": "Vizianagaram",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 18.116,
+   "lng": 83.411,
+   "why": "18th-century fort of the Pusapati rulers in the heart of the city",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2–3 hrs"
+  },
+  {
+   "n": 9,
+   "name": "Bobbili Fort",
+   "district": "Vizianagaram",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 18.573,
+   "lng": 83.359,
+   "why": "Palace-fort linked to the 1757 Battle of Bobbili; town famed for veena-making",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2–3 hrs"
+  },
+  {
+   "n": 10,
+   "name": "Bheemunipatnam (Bheemili)",
+   "district": "Visakhapatnam",
+   "category": "Beach / Heritage",
+   "g": "coast",
+   "lat": 17.89,
+   "lng": 83.455,
+   "why": "Old Dutch settlement with a Dutch cemetery at the Gosthani river mouth",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 11,
+   "name": "Thotlakonda Buddhist Complex",
+   "district": "Visakhapatnam",
+   "category": "Buddhist site",
+   "g": "buddhist",
+   "lat": 17.817,
+   "lng": 83.4,
+   "why": "2,000-year-old monastery on a sea-facing hilltop",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 12,
+   "name": "Bavikonda",
+   "district": "Visakhapatnam",
+   "category": "Buddhist site",
+   "g": "buddhist",
+   "lat": 17.83,
+   "lng": 83.385,
+   "why": "Hilltop monastery where relic caskets were found; sweeping sea views",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 13,
+   "name": "Rushikonda Beach",
+   "district": "Visakhapatnam",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 17.783,
+   "lng": 83.378,
+   "why": "Vizag's best beach for swimming, surfing and kayaking",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 14,
+   "name": "Kailasagiri",
+   "district": "Visakhapatnam",
+   "category": "Viewpoint",
+   "g": "hills",
+   "lat": 17.749,
+   "lng": 83.342,
+   "why": "Hilltop park and ropeway with panoramic views of the bay",
+   "tier": "top",
+   "months": [
+    10,
+    2
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 15,
+   "name": "RK Beach",
+   "district": "Visakhapatnam",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 17.714,
+   "lng": 83.324,
+   "why": "The city's main seafront promenade, lined with museums",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Evening"
+  },
+  {
+   "n": 16,
+   "name": "INS Kursura Submarine Museum",
+   "district": "Visakhapatnam",
+   "category": "Museum",
+   "g": "culture",
+   "lat": 17.717,
+   "lng": 83.329,
+   "why": "Walk through a real decommissioned Navy submarine on the beach",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 17,
+   "name": "Dolphin's Nose & Yarada Beach",
+   "district": "Visakhapatnam",
+   "category": "Viewpoint / Beach",
+   "g": "coast",
+   "lat": 17.672,
+   "lng": 83.282,
+   "why": "Lighthouse headland above a secluded, hill-ringed cove beach",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 18,
+   "name": "Simhachalam Temple",
+   "district": "Visakhapatnam",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 17.7665,
+   "lng": 83.2508,
+   "why": "Hill temple of Varaha-Narasimha, deity kept in sandalwood paste",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 19,
+   "name": "Sankaram (Bojjannakonda)",
+   "district": "Anakapalli",
+   "category": "Buddhist site",
+   "g": "buddhist",
+   "lat": 17.705,
+   "lng": 82.995,
+   "why": "Rock-cut Buddhist caves and stupas carved into twin hills",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 20,
+   "name": "Etikoppaka Toy Village",
+   "district": "Anakapalli",
+   "category": "Craft village",
+   "g": "culture",
+   "lat": 17.517,
+   "lng": 82.733,
+   "why": "GI-tagged lacquered wooden toys coloured with natural dyes",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 21,
+   "name": "Araku Valley",
+   "district": "Alluri Sitharama Raju",
+   "category": "Hill valley",
+   "g": "hills",
+   "lat": 18.3273,
+   "lng": 82.8775,
+   "why": "Coffee country in the Eastern Ghats; ride the scenic Vizag–Araku train",
+   "tier": "icon",
+   "months": [
+    10,
+    2
+   ],
+   "time": "2–3 days"
+  },
+  {
+   "n": 22,
+   "name": "Borra Caves",
+   "district": "Alluri Sitharama Raju",
+   "category": "Caves",
+   "g": "caves",
+   "lat": 18.281,
+   "lng": 83.038,
+   "why": "Vast limestone caves with stalactites and stalagmites",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 23,
+   "name": "Araku Tribal Museum",
+   "district": "Alluri Sitharama Raju",
+   "category": "Museum",
+   "g": "culture",
+   "lat": 18.333,
+   "lng": 82.869,
+   "why": "Life-size displays of the region's tribal communities and crafts",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 24,
+   "name": "Katiki Waterfalls",
+   "district": "Alluri Sitharama Raju",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 18.268,
+   "lng": 83.057,
+   "why": "Jeep ride and short trek from Borra to a tall forest fall",
+   "tier": "gem",
+   "months": [
+    7,
+    11
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 25,
+   "name": "Lambasingi",
+   "district": "Alluri Sitharama Raju",
+   "category": "Hill village",
+   "g": "hills",
+   "lat": 17.806,
+   "lng": 82.491,
+   "why": "The 'Kashmir of Andhra': winter temperatures can dip near freezing",
+   "tier": "icon",
+   "months": [
+    11,
+    1
+   ],
+   "time": "Overnight"
+  },
+  {
+   "n": 26,
+   "name": "Vanjangi Hills",
+   "district": "Alluri Sitharama Raju",
+   "category": "Viewpoint",
+   "g": "hills",
+   "lat": 18.022,
+   "lng": 82.693,
+   "why": "Sunrise above a sea of clouds near Paderu",
+   "tier": "gem",
+   "months": [
+    11,
+    1
+   ],
+   "time": "Pre-dawn trip"
+  },
+  {
+   "n": 27,
+   "name": "Kothapalli Waterfalls",
+   "district": "Alluri Sitharama Raju",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 18.095,
+   "lng": 82.625,
+   "why": "Wide cascade near Paderu, best after the monsoon",
+   "tier": "gem",
+   "months": [
+    7,
+    11
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 28,
+   "name": "Maredumilli Forest",
+   "district": "Polavaram",
+   "category": "Forest",
+   "g": "hills",
+   "lat": 17.6,
+   "lng": 81.717,
+   "why": "Dense jungle, eco-stays, streams and famous bamboo chicken",
+   "tier": "top",
+   "months": [
+    10,
+    2
+   ],
+   "time": "Overnight"
+  },
+  {
+   "n": 29,
+   "name": "Jalatarangini Falls",
+   "district": "Polavaram",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 17.629,
+   "lng": 81.74,
+   "why": "Forest falls along the Maredumilli ghat road",
+   "tier": "gem",
+   "months": [
+    7,
+    11
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 30,
+   "name": "Gudisa Hills",
+   "district": "Polavaram",
+   "category": "Meadows",
+   "g": "hills",
+   "lat": 17.66,
+   "lng": 81.83,
+   "why": "Grassland hilltop known for misty sunrises",
+   "tier": "gem",
+   "months": [
+    10,
+    2
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 31,
+   "name": "Papikondalu",
+   "district": "Polavaram",
+   "category": "River cruise",
+   "g": "water",
+   "lat": 17.4625,
+   "lng": 81.5483,
+   "why": "Boat cruise through the dramatic Godavari gorge between the Papi hills",
+   "tier": "icon",
+   "months": [
+    9,
+    2
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 32,
+   "name": "Rajahmundry Riverfront",
+   "district": "East Godavari",
+   "category": "River / City",
+   "g": "water",
+   "lat": 17.0,
+   "lng": 81.78,
+   "why": "Godavari at its widest: historic bridges, Pushkar Ghat, sunset boat rides",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Evening"
+  },
+  {
+   "n": 33,
+   "name": "Konaseema",
+   "district": "Dr. B.R. Ambedkar Konaseema",
+   "category": "Backwaters",
+   "g": "water",
+   "lat": 16.578,
+   "lng": 82.006,
+   "why": "Coconut-lined Godavari delta villages and canals",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 34,
+   "name": "Antarvedi",
+   "district": "Dr. B.R. Ambedkar Konaseema",
+   "category": "Temple / Beach",
+   "g": "temple",
+   "lat": 16.33,
+   "lng": 81.73,
+   "why": "Narasimha temple where the Vasishta Godavari meets the sea",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 35,
+   "name": "Draksharamam",
+   "district": "Dr. B.R. Ambedkar Konaseema",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 16.793,
+   "lng": 82.063,
+   "why": "Bhimeswara temple, one of the five Pancharama Shiva shrines",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 36,
+   "name": "Kumararama, Samalkota",
+   "district": "Kakinada",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 17.053,
+   "lng": 82.169,
+   "why": "Pancharama temple with a two-storey lingam shrine",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 37,
+   "name": "Pithapuram",
+   "district": "Kakinada",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 17.115,
+   "lng": 82.253,
+   "why": "Puruhutika Shakti Peetha and Kukkuteswara temple",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 38,
+   "name": "Annavaram",
+   "district": "Kakinada",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 17.281,
+   "lng": 82.404,
+   "why": "Satyanarayana Swamy hill temple above the Pampa river",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 39,
+   "name": "Coringa Wildlife Sanctuary",
+   "district": "Kakinada",
+   "category": "Mangroves",
+   "g": "wildlife",
+   "lat": 16.78,
+   "lng": 82.27,
+   "why": "One of India's largest mangrove forests, with a boardwalk",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 40,
+   "name": "Hope Island",
+   "district": "Kakinada",
+   "category": "Island",
+   "g": "coast",
+   "lat": 16.95,
+   "lng": 82.32,
+   "why": "Sand-spit island sheltering Kakinada Bay; boat trips",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 41,
+   "name": "Uppada Beach",
+   "district": "Kakinada",
+   "category": "Beach / Craft",
+   "g": "coast",
+   "lat": 17.085,
+   "lng": 82.335,
+   "why": "Seaside village famous for Uppada Jamdani silk saris",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 42,
+   "name": "Somarama, Bhimavaram",
+   "district": "West Godavari",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 16.544,
+   "lng": 81.521,
+   "why": "Pancharama temple whose lingam is said to change colour with the moon",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 43,
+   "name": "Ksheerarama, Palakollu",
+   "district": "West Godavari",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 16.517,
+   "lng": 81.73,
+   "why": "Pancharama temple with a towering gopuram",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 44,
+   "name": "Dwaraka Tirumala",
+   "district": "Eluru",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 16.95,
+   "lng": 81.26,
+   "why": "'Chinna Tirupati', a major Venkateswara hill shrine",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 45,
+   "name": "Kolleru Lake",
+   "district": "Eluru",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 16.62,
+   "lng": 81.22,
+   "why": "One of India's largest freshwater lakes; winter pelicans and migratory birds",
+   "tier": "top",
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 46,
+   "name": "Pattiseema",
+   "district": "Eluru",
+   "category": "Temple / River",
+   "g": "temple",
+   "lat": 17.236,
+   "lng": 81.655,
+   "why": "Veerabhadra temple on a hill-island in the Godavari",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 47,
+   "name": "Kanaka Durga Temple",
+   "district": "NTR",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 16.5307,
+   "lng": 80.6139,
+   "why": "Indrakeeladri hill temple overlooking the Krishna in Vijayawada",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 48,
+   "name": "Bhavani Island & Prakasam Barrage",
+   "district": "NTR",
+   "category": "River",
+   "g": "water",
+   "lat": 16.5397,
+   "lng": 80.5959,
+   "why": "Large Krishna river island with water sports, beside the barrage",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 49,
+   "name": "Kondapalli Fort & Toy Village",
+   "district": "NTR",
+   "category": "Fort / Craft",
+   "g": "heritage",
+   "lat": 16.62,
+   "lng": 80.54,
+   "why": "Hill fort plus the GI-tagged softwood Kondapalli toys",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2–3 hrs"
+  },
+  {
+   "n": 50,
+   "name": "Undavalli Caves",
+   "district": "Guntur",
+   "category": "Caves",
+   "g": "caves",
+   "lat": 16.496,
+   "lng": 80.58,
+   "why": "Rock-cut caves with a giant reclining Vishnu, facing the Krishna",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2–3 hrs"
+  },
+  {
+   "n": 51,
+   "name": "Mangalagiri",
+   "district": "Guntur",
+   "category": "Temple / Craft",
+   "g": "temple",
+   "lat": 16.431,
+   "lng": 80.568,
+   "why": "Panakala Narasimha temple; famous Mangalagiri handloom",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 52,
+   "name": "Amaravati Stupa & Museum",
+   "district": "Palnadu",
+   "category": "Buddhist site",
+   "g": "buddhist",
+   "lat": 16.575,
+   "lng": 80.358,
+   "why": "Site of the great Satavahana-era stupa and its sculptures",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2–3 hrs"
+  },
+  {
+   "n": 53,
+   "name": "Amararama, Amaravati",
+   "district": "Palnadu",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 16.579,
+   "lng": 80.366,
+   "why": "Pancharama temple on the banks of the Krishna",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 54,
+   "name": "Kondaveedu Fort",
+   "district": "Palnadu",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 16.257,
+   "lng": 80.263,
+   "why": "Reddy kings' hill fort; a good half-day trek",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2–3 hrs"
+  },
+  {
+   "n": 55,
+   "name": "Kotappakonda",
+   "district": "Palnadu",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 16.163,
+   "lng": 80.064,
+   "why": "Trikoteswara hill temple, famous for its Maha Shivaratri festival",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 56,
+   "name": "Ethipothala Falls",
+   "district": "Palnadu",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 16.57,
+   "lng": 79.325,
+   "why": "Falls near Nagarjuna Sagar with a crocodile breeding centre",
+   "tier": "top",
+   "months": [
+    7,
+    11
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 57,
+   "name": "Kuchipudi",
+   "district": "Krishna",
+   "category": "Culture",
+   "g": "culture",
+   "lat": 16.262,
+   "lng": 80.94,
+   "why": "Village birthplace of the Kuchipudi classical dance",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 58,
+   "name": "Pedana",
+   "district": "Krishna",
+   "category": "Craft",
+   "g": "culture",
+   "lat": 16.256,
+   "lng": 81.144,
+   "why": "Hub of block-printed Kalamkari textiles",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 59,
+   "name": "Machilipatnam & Manginapudi Beach",
+   "district": "Krishna",
+   "category": "Beach / Heritage",
+   "g": "coast",
+   "lat": 16.19,
+   "lng": 81.17,
+   "why": "Historic port town with a nearby beach and temple",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 60,
+   "name": "Hamsaladeevi",
+   "district": "Krishna",
+   "category": "Temple / Beach",
+   "g": "temple",
+   "lat": 15.995,
+   "lng": 81.09,
+   "why": "Where the Krishna meets the Bay of Bengal; Venugopala temple",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 61,
+   "name": "Suryalanka Beach",
+   "district": "Bapatla",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 15.845,
+   "lng": 80.51,
+   "why": "Popular, gently sloping beach with an AP Tourism stay",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 62,
+   "name": "Ramapuram Beach",
+   "district": "Bapatla",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 15.765,
+   "lng": 80.37,
+   "why": "Clean beach near Chirala, known for handloom weaving",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 63,
+   "name": "Bhairavakona",
+   "district": "Markapuram",
+   "category": "Temple / Waterfall",
+   "g": "temple",
+   "lat": 15.1,
+   "lng": 79.18,
+   "why": "Eight rock-cut Shiva cave temples beside a waterfall",
+   "tier": "gem",
+   "months": [
+    8,
+    2
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 64,
+   "name": "Penchalakona",
+   "district": "Sri Potti Sriramulu Nellore",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 14.333,
+   "lng": 79.42,
+   "why": "Narasimha temple in the Velikonda forest with streams",
+   "tier": "gem",
+   "months": [
+    8,
+    2
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 65,
+   "name": "Udayagiri Fort",
+   "district": "Sri Potti Sriramulu Nellore",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 14.87,
+   "lng": 79.31,
+   "why": "Ruined hill fort fought over by Vijayanagara and the Gajapatis",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2–3 hrs"
+  },
+  {
+   "n": 66,
+   "name": "Mypadu Beach",
+   "district": "Sri Potti Sriramulu Nellore",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 14.513,
+   "lng": 80.179,
+   "why": "Calm, uncrowded beach near Nellore",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 67,
+   "name": "Pulicat Lake",
+   "district": "Tirupati",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 13.6,
+   "lng": 80.18,
+   "why": "India's second-largest brackish lagoon; flamingos in winter",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 68,
+   "name": "Nelapattu Bird Sanctuary",
+   "district": "Tirupati",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 13.83,
+   "lng": 79.98,
+   "why": "Major breeding site for spot-billed pelicans",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 69,
+   "name": "Satish Dhawan Space Centre, Sriharikota",
+   "district": "Tirupati",
+   "category": "Science",
+   "g": "culture",
+   "lat": 13.733,
+   "lng": 80.235,
+   "why": "Book the launch view gallery to watch an ISRO rocket launch",
+   "tier": "top",
+   "months": [
+    1,
+    12
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 70,
+   "name": "Ubbalamadugu (Tada) Falls",
+   "district": "Tirupati",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 13.62,
+   "lng": 79.88,
+   "why": "Forest trek to a fall and natural pools",
+   "tier": "gem",
+   "months": [
+    7,
+    11
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 71,
+   "name": "Tirumala Venkateswara Temple",
+   "district": "Tirupati",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 13.6833,
+   "lng": 79.3474,
+   "why": "One of the world's most visited pilgrimage sites",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 72,
+   "name": "Silathoranam",
+   "district": "Tirupati",
+   "category": "Geology",
+   "g": "caves",
+   "lat": 13.695,
+   "lng": 79.34,
+   "why": "Rare natural rock arch in Tirumala, a national geo-heritage site",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2–3 hrs"
+  },
+  {
+   "n": 73,
+   "name": "Talakona Waterfall",
+   "district": "Tirupati",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 13.8146,
+   "lng": 79.1965,
+   "why": "Andhra's highest waterfall, inside Sri Venkateswara National Park",
+   "tier": "top",
+   "months": [
+    7,
+    11
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 74,
+   "name": "Kailasakona Falls",
+   "district": "Tirupati",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 13.38,
+   "lng": 79.585,
+   "why": "Perennial fall with a Shiva shrine, near Puttur",
+   "tier": "gem",
+   "months": [
+    7,
+    11
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 75,
+   "name": "Kapila Theertham",
+   "district": "Tirupati",
+   "category": "Temple / Waterfall",
+   "g": "temple",
+   "lat": 13.65,
+   "lng": 79.418,
+   "why": "Shiva temple at the foot of the Tirumala hills with a waterfall",
+   "tier": "top",
+   "months": [
+    8,
+    1
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 76,
+   "name": "Srikalahasti",
+   "district": "Tirupati",
+   "category": "Temple / Craft",
+   "g": "temple",
+   "lat": 13.749,
+   "lng": 79.699,
+   "why": "Vayu lingam temple; home of pen-drawn Kalamkari",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 77,
+   "name": "Chandragiri Fort",
+   "district": "Tirupati",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 13.584,
+   "lng": 79.317,
+   "why": "Vijayanagara palace-fort with a sound and light show",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2–3 hrs"
+  },
+  {
+   "n": 78,
+   "name": "Kanipakam",
+   "district": "Chittoor",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 13.283,
+   "lng": 79.035,
+   "why": "Self-manifested Varasiddhi Vinayaka in a well",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 79,
+   "name": "Koundinya Wildlife Sanctuary",
+   "district": "Chittoor",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 13.1,
+   "lng": 78.55,
+   "why": "Andhra's elephant sanctuary on the Tamil Nadu border",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 80,
+   "name": "Horsley Hills",
+   "district": "Annamayya",
+   "category": "Hill station",
+   "g": "hills",
+   "lat": 13.66,
+   "lng": 78.4,
+   "why": "Rayalaseema's breezy hill station with eucalyptus forests",
+   "tier": "icon",
+   "months": [
+    10,
+    2
+   ],
+   "time": "Overnight"
+  },
+  {
+   "n": 81,
+   "name": "Gandikota",
+   "district": "YSR Kadapa",
+   "category": "Canyon / Fort",
+   "g": "caves",
+   "lat": 14.815,
+   "lng": 78.285,
+   "why": "The 'Grand Canyon of India': Pennar gorge and a medieval fort",
+   "tier": "icon",
+   "months": [
+    10,
+    2
+   ],
+   "time": "Overnight"
+  },
+  {
+   "n": 82,
+   "name": "Vontimitta",
+   "district": "YSR Kadapa",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 14.39,
+   "lng": 79.03,
+   "why": "Kodandarama temple, a Vijayanagara-era masterpiece",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 83,
+   "name": "Siddavatam Fort",
+   "district": "YSR Kadapa",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 14.47,
+   "lng": 78.96,
+   "why": "Riverside fort on the Pennar",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2–3 hrs"
+  },
+  {
+   "n": 84,
+   "name": "Pushpagiri Temples",
+   "district": "YSR Kadapa",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 14.594,
+   "lng": 78.757,
+   "why": "Riverside temple cluster with fine carvings",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 85,
+   "name": "Ameen Peer Dargah",
+   "district": "YSR Kadapa",
+   "category": "Shrine",
+   "g": "temple",
+   "lat": 14.48,
+   "lng": 78.82,
+   "why": "Revered Sufi dargah visited by people of all faiths",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 86,
+   "name": "Belum Caves",
+   "district": "Nandyal",
+   "category": "Caves",
+   "g": "caves",
+   "lat": 15.102,
+   "lng": 78.111,
+   "why": "One of India's longest cave systems open to visitors",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2–3 hrs"
+  },
+  {
+   "n": 87,
+   "name": "Srisailam",
+   "district": "Nandyal",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 16.073,
+   "lng": 78.868,
+   "why": "Jyotirlinga and Shakti Peetha above the Krishna gorge",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 88,
+   "name": "Ahobilam",
+   "district": "Nandyal",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 15.135,
+   "lng": 78.727,
+   "why": "Nine Narasimha shrines hidden in Nallamala forest",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 89,
+   "name": "Mahanandi",
+   "district": "Nandyal",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 15.472,
+   "lng": 78.627,
+   "why": "Shiva temple with crystal-clear spring-fed pools",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 90,
+   "name": "Yaganti",
+   "district": "Nandyal",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 15.35,
+   "lng": 78.14,
+   "why": "Uma Maheswara temple with caves and the 'growing' Nandi",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 91,
+   "name": "Rollapadu Wildlife Sanctuary",
+   "district": "Nandyal",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 15.62,
+   "lng": 78.33,
+   "why": "Grasslands protected for the Great Indian Bustard",
+   "tier": "gem",
+   "months": [
+    9,
+    2
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 92,
+   "name": "Orvakal Rock Garden",
+   "district": "Kurnool",
+   "category": "Nature",
+   "g": "caves",
+   "lat": 15.69,
+   "lng": 78.17,
+   "why": "Striking natural granite rock formations and lakes",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2–3 hrs"
+  },
+  {
+   "n": 93,
+   "name": "Konda Reddy Fort",
+   "district": "Kurnool",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 15.83,
+   "lng": 78.04,
+   "why": "Surviving gateway of Kurnool's old fort",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2–3 hrs"
+  },
+  {
+   "n": 94,
+   "name": "Mantralayam",
+   "district": "Kurnool",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 15.933,
+   "lng": 77.435,
+   "why": "Raghavendra Swamy matha on the Tungabhadra",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 95,
+   "name": "Lepakshi",
+   "district": "Sri Sathya Sai",
+   "category": "Temple / Heritage",
+   "g": "heritage",
+   "lat": 13.802,
+   "lng": 77.609,
+   "why": "Hanging pillar, giant monolithic Nandi and Vijayanagara murals",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 96,
+   "name": "Puttaparthi",
+   "district": "Sri Sathya Sai",
+   "category": "Spiritual",
+   "g": "temple",
+   "lat": 14.165,
+   "lng": 77.811,
+   "why": "Prasanthi Nilayam ashram and museums",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 97,
+   "name": "Thimmamma Marrimanu",
+   "district": "Sri Sathya Sai",
+   "category": "Nature",
+   "g": "hills",
+   "lat": 14.03,
+   "lng": 78.22,
+   "why": "Banyan with one of the world's largest canopies",
+   "tier": "gem",
+   "months": [
+    10,
+    2
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 98,
+   "name": "Penukonda Fort",
+   "district": "Sri Sathya Sai",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 14.085,
+   "lng": 77.596,
+   "why": "Vijayanagara's second capital: Gagan Mahal palace and temples",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2–3 hrs"
+  },
+  {
+   "n": 99,
+   "name": "Gooty Fort",
+   "district": "Ananthapuramu",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 15.115,
+   "lng": 77.64,
+   "why": "One of India's oldest hill forts, with dramatic views",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2–3 hrs"
+  },
+  {
+   "n": 100,
+   "name": "Tadipatri Temples",
+   "district": "Ananthapuramu",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 14.91,
+   "lng": 78.01,
+   "why": "Chintala Venkataramana and Bugga Ramalingeswara: superb Vijayanagara carvings",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Baruva Beach",
+   "district": "Srikakulam",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 18.877,
+   "lng": 84.59,
+   "why": "Quiet beach where the Mahendratanaya river meets the sea, with coconut groves and an old lighthouse",
+   "n": 101,
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "name": "Uddanam Coconut Belt",
+   "district": "Srikakulam",
+   "category": "Countryside",
+   "g": "hills",
+   "lat": 18.75,
+   "lng": 84.43,
+   "why": "Dense coconut and cashew groves along the northern coast; made for a slow drive",
+   "n": 102,
+   "tier": "gem",
+   "months": [
+    10,
+    2
+   ],
+   "time": "Half day"
+  },
+  {
+   "name": "Dantapuri",
+   "district": "Srikakulam",
+   "category": "Buddhist site",
+   "g": "buddhist",
+   "lat": 18.395,
+   "lng": 83.895,
+   "why": "Excavated stupa and monastery linked to an ancient Kalinga capital",
+   "n": 103,
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "name": "Ponduru Khadi Village",
+   "district": "Srikakulam",
+   "category": "Craft village",
+   "g": "culture",
+   "lat": 18.35,
+   "lng": 83.757,
+   "why": "Home of fine hand-spun khadi that Gandhi praised",
+   "n": 104,
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Budithi Bell Metal Village",
+   "district": "Srikakulam",
+   "category": "Craft village",
+   "g": "culture",
+   "lat": 18.4,
+   "lng": 83.83,
+   "why": "GI-tagged bell-metal and brass ware, still made by hand",
+   "n": 105,
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Thotapalli Barrage",
+   "district": "Parvathipuram Manyam",
+   "category": "River",
+   "g": "water",
+   "lat": 18.6317,
+   "lng": 83.4804,
+   "why": "Scenic barrage on the Nagavali river at the edge of the Manyam hills",
+   "n": 106,
+   "tier": "gem",
+   "months": [
+    8,
+    2
+   ],
+   "time": "Half day"
+  },
+  {
+   "name": "Punyagiri",
+   "district": "Vizianagaram",
+   "category": "Temple / Waterfall",
+   "g": "temple",
+   "lat": 18.06,
+   "lng": 83.08,
+   "why": "Hill shrine to Shiva with a small waterfall near Srungavarapukota",
+   "n": 107,
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Tatipudi Reservoir",
+   "district": "Vizianagaram",
+   "category": "Lake",
+   "g": "water",
+   "lat": 18.17,
+   "lng": 83.19,
+   "why": "Hill-ringed reservoir on the Gosthani river with a tourism resort",
+   "n": 108,
+   "tier": "top",
+   "months": [
+    8,
+    2
+   ],
+   "time": "Half day"
+  },
+  {
+   "name": "Sri Ramanarayanam",
+   "district": "Vizianagaram",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 18.08,
+   "lng": 83.37,
+   "why": "Striking modern Rama temple built in the shape of a drawn bow",
+   "n": 109,
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Erra Matti Dibbalu",
+   "district": "Visakhapatnam",
+   "category": "Geology",
+   "g": "caves",
+   "lat": 17.86,
+   "lng": 83.43,
+   "why": "Red sand dunes by the sea, a national geo-heritage site",
+   "n": 110,
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Pavurallakonda",
+   "district": "Visakhapatnam",
+   "category": "Buddhist site",
+   "g": "buddhist",
+   "lat": 17.895,
+   "lng": 83.44,
+   "why": "Hilltop monastery ruins above Bheemili with sweeping sea views",
+   "n": 111,
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "name": "Vizag–Bheemili Beach Road",
+   "district": "Visakhapatnam",
+   "category": "Scenic drive",
+   "g": "coast",
+   "lat": 17.82,
+   "lng": 83.4,
+   "why": "25 km coastal drive past beaches, red dunes and Buddhist hills",
+   "n": 112,
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "TU-142 Aircraft Museum",
+   "district": "Visakhapatnam",
+   "category": "Museum",
+   "g": "culture",
+   "lat": 17.718,
+   "lng": 83.331,
+   "why": "Walk through a retired Navy long-range patrol aircraft",
+   "n": 113,
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Indira Gandhi Zoological Park",
+   "district": "Visakhapatnam",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 17.763,
+   "lng": 83.346,
+   "why": "Large zoo set against the Kambalakonda hills",
+   "n": 114,
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "name": "Kambalakonda Wildlife Sanctuary",
+   "district": "Visakhapatnam",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 17.8,
+   "lng": 83.33,
+   "why": "Hill forest on the city's edge with eco-trails and a lake",
+   "n": 115,
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "name": "Three Hills of Faith",
+   "district": "Visakhapatnam",
+   "category": "Spiritual / Viewpoint",
+   "g": "temple",
+   "lat": 17.69,
+   "lng": 83.29,
+   "why": "A church, a dargah and a temple on three neighbouring harbour hills",
+   "n": 116,
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Appikonda Beach",
+   "district": "Visakhapatnam",
+   "category": "Beach / Temple",
+   "g": "coast",
+   "lat": 17.575,
+   "lng": 83.17,
+   "why": "Rocky beach beside an ancient Someswara temple",
+   "n": 117,
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "name": "Pudimadaka Beach",
+   "district": "Anakapalli",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 17.5,
+   "lng": 83.01,
+   "why": "Wide, uncrowded beach beside a fishing village",
+   "n": 118,
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "name": "Kondakarla Ava",
+   "district": "Anakapalli",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 17.6,
+   "lng": 82.99,
+   "why": "Freshwater lake with boating and winter birds",
+   "n": 119,
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "name": "Upamaka Venkateswara Temple",
+   "district": "Anakapalli",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 17.42,
+   "lng": 82.77,
+   "why": "Venkateswara hill temple near Nakkapalli, popular with pilgrims",
+   "n": 120,
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Vistadome Train to Araku",
+   "district": "Alluri Sitharama Raju",
+   "category": "Rail journey",
+   "g": "hills",
+   "lat": 18.25,
+   "lng": 83.0,
+   "why": "Glass-roofed coaches through dozens of tunnels and bridges in the Eastern Ghats",
+   "n": 121,
+   "tier": "icon",
+   "months": [
+    7,
+    2
+   ],
+   "time": "Full day"
+  },
+  {
+   "name": "Padmapuram Gardens",
+   "district": "Alluri Sitharama Raju",
+   "category": "Garden",
+   "g": "hills",
+   "lat": 18.34,
+   "lng": 82.88,
+   "why": "Botanical garden in Araku with treetop huts",
+   "n": 122,
+   "tier": "top",
+   "months": [
+    10,
+    2
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "name": "Araku Coffee Museum",
+   "district": "Alluri Sitharama Raju",
+   "category": "Museum",
+   "g": "culture",
+   "lat": 18.33,
+   "lng": 82.873,
+   "why": "The story of Araku's tribal-grown coffee, with tastings",
+   "n": 123,
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Galikonda Viewpoint",
+   "district": "Alluri Sitharama Raju",
+   "category": "Viewpoint",
+   "g": "hills",
+   "lat": 18.25,
+   "lng": 82.97,
+   "why": "One of the highest points of the Eastern Ghats in Andhra",
+   "n": 124,
+   "tier": "top",
+   "months": [
+    10,
+    2
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Chaparai Waterfalls",
+   "district": "Alluri Sitharama Raju",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 18.3,
+   "lng": 82.82,
+   "why": "Gentle cascade over flat rocks, popular for a dip",
+   "n": 125,
+   "tier": "top",
+   "months": [
+    7,
+    12
+   ],
+   "time": "Half day"
+  },
+  {
+   "name": "Tyda",
+   "district": "Alluri Sitharama Raju",
+   "category": "Forest",
+   "g": "hills",
+   "lat": 18.17,
+   "lng": 83.03,
+   "why": "Nature camp in the Ananthagiri forests with treks and stays",
+   "n": 126,
+   "tier": "top",
+   "months": [
+    9,
+    2
+   ],
+   "time": "Overnight"
+  },
+  {
+   "name": "Ananthagiri Hills",
+   "district": "Alluri Sitharama Raju",
+   "category": "Hills",
+   "g": "hills",
+   "lat": 18.09,
+   "lng": 83.0,
+   "why": "Coffee plantations and viewpoints on the ghat road to Araku",
+   "n": 127,
+   "tier": "top",
+   "months": [
+    10,
+    2
+   ],
+   "time": "Half day"
+  },
+  {
+   "name": "Sileru",
+   "district": "Alluri Sitharama Raju",
+   "category": "Forest / Lake",
+   "g": "hills",
+   "lat": 17.86,
+   "lng": 82.21,
+   "why": "Remote reservoirs and deep forest on the Odisha border",
+   "n": 128,
+   "tier": "gem",
+   "months": [
+    10,
+    2
+   ],
+   "time": "Overnight"
+  },
+  {
+   "name": "Rampa Waterfalls",
+   "district": "Polavaram",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 17.47,
+   "lng": 81.78,
+   "why": "Forest fall near Rampachodavaram in the Rampa hills",
+   "n": 129,
+   "tier": "top",
+   "months": [
+    7,
+    11
+   ],
+   "time": "Half day"
+  },
+  {
+   "name": "Atreyapuram",
+   "district": "Dr. B.R. Ambedkar Konaseema",
+   "category": "Food village",
+   "g": "culture",
+   "lat": 16.83,
+   "lng": 81.77,
+   "why": "Village famous for pootharekulu, paper-thin rice-film sweets",
+   "n": 130,
+   "tier": "top",
+   "months": [
+    1,
+    12
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Tapeswaram",
+   "district": "Dr. B.R. Ambedkar Konaseema",
+   "category": "Food village",
+   "g": "culture",
+   "lat": 16.82,
+   "lng": 81.95,
+   "why": "Home of flaky, syrup-soaked madatha kaja",
+   "n": 131,
+   "tier": "top",
+   "months": [
+    1,
+    12
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Ryali",
+   "district": "Dr. B.R. Ambedkar Konaseema",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 16.75,
+   "lng": 81.88,
+   "why": "Jaganmohini Kesava temple: Vishnu in front, Mohini carved behind",
+   "n": 132,
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Ainavilli Vinayaka Temple",
+   "district": "Dr. B.R. Ambedkar Konaseema",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 16.66,
+   "lng": 82.0,
+   "why": "Ancient Siddhi Vinayaka shrine in the coconut delta",
+   "n": 133,
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Appanapalli Balaji Temple",
+   "district": "Dr. B.R. Ambedkar Konaseema",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 16.565,
+   "lng": 81.93,
+   "why": "Venkateswara temple on the Vainateya branch of the Godavari",
+   "n": 134,
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Vadapalli Venkateswara Temple",
+   "district": "Dr. B.R. Ambedkar Konaseema",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 16.705,
+   "lng": 81.83,
+   "why": "Riverside temple called the 'Konaseema Tirupati'",
+   "n": 135,
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Kotipalli",
+   "district": "Dr. B.R. Ambedkar Konaseema",
+   "category": "Temple / River",
+   "g": "temple",
+   "lat": 16.7,
+   "lng": 82.07,
+   "why": "Ancient Someswara temple and ferry crossing on the Gautami Godavari",
+   "n": 136,
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Dindi",
+   "district": "Dr. B.R. Ambedkar Konaseema",
+   "category": "Backwaters",
+   "g": "water",
+   "lat": 16.44,
+   "lng": 81.79,
+   "why": "Houseboats and resorts on the Vasishta Godavari backwaters",
+   "n": 137,
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Overnight"
+  },
+  {
+   "name": "Kadiyam Nurseries",
+   "district": "East Godavari",
+   "category": "Garden",
+   "g": "hills",
+   "lat": 16.92,
+   "lng": 81.84,
+   "why": "One of India's largest plant-nursery belts, a sea of greenery",
+   "n": 138,
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "name": "Sir Arthur Cotton Museum",
+   "district": "East Godavari",
+   "category": "Museum / River",
+   "g": "culture",
+   "lat": 16.95,
+   "lng": 81.79,
+   "why": "The barrage that turned the delta green, and its engineer's story",
+   "n": 139,
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Biccavolu Temples",
+   "district": "East Godavari",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 16.955,
+   "lng": 82.04,
+   "why": "Rare Eastern Chalukya-era temples with fine early carving",
+   "n": 140,
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2–3 hrs"
+  },
+  {
+   "name": "Talupulamma Lova",
+   "district": "Kakinada",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 17.35,
+   "lng": 82.33,
+   "why": "Goddess temple in a forested hill valley near Tuni",
+   "n": 141,
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Guntupalli Buddhist Caves",
+   "district": "Eluru",
+   "category": "Buddhist site",
+   "g": "buddhist",
+   "lat": 17.0,
+   "lng": 81.12,
+   "why": "Rock-cut chaitya cave and stupas from around the 2nd century BCE",
+   "n": 142,
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "name": "Narsapuram",
+   "district": "West Godavari",
+   "category": "Craft",
+   "g": "culture",
+   "lat": 16.43,
+   "lng": 81.7,
+   "why": "Centre of hand-crocheted, GI-tagged Narsapur lace",
+   "n": 143,
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Perupalem Beach",
+   "district": "West Godavari",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 16.34,
+   "lng": 81.57,
+   "why": "Casuarina-lined beach, the best in West Godavari",
+   "n": 144,
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "name": "Penugonda",
+   "district": "West Godavari",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 16.65,
+   "lng": 81.75,
+   "why": "Birthplace shrine of Vasavi Kanyaka Parameswari with a giant statue",
+   "n": 145,
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Akkanna Madanna Caves",
+   "district": "NTR",
+   "category": "Caves",
+   "g": "caves",
+   "lat": 16.5315,
+   "lng": 80.6123,
+   "why": "Rock-cut caves on the Indrakeeladri hillside in Vijayawada",
+   "n": 146,
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Mogalrajapuram Caves",
+   "district": "NTR",
+   "category": "Caves",
+   "g": "caves",
+   "lat": 16.512,
+   "lng": 80.646,
+   "why": "Some of the oldest rock-cut shrines in Vijayawada",
+   "n": 147,
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Gandhi Hill",
+   "district": "NTR",
+   "category": "Viewpoint",
+   "g": "hills",
+   "lat": 16.52,
+   "lng": 80.632,
+   "why": "Memorial hill with views over Vijayawada",
+   "n": 148,
+   "tier": "top",
+   "months": [
+    10,
+    2
+   ],
+   "time": "1 hr"
+  },
+  {
+   "name": "Victoria Jubilee Museum",
+   "district": "NTR",
+   "category": "Museum",
+   "g": "culture",
+   "lat": 16.508,
+   "lng": 80.628,
+   "why": "Colonial-era museum with Buddhist and Hindu sculpture",
+   "n": 149,
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Gunadala Matha Shrine",
+   "district": "NTR",
+   "category": "Spiritual",
+   "g": "temple",
+   "lat": 16.52,
+   "lng": 80.67,
+   "why": "Hilltop Marian shrine drawing pilgrims of every faith",
+   "n": 150,
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Vedadri",
+   "district": "NTR",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 16.8,
+   "lng": 80.18,
+   "why": "Narasimha temple on the Krishna, said to hold five forms of the deity",
+   "n": 151,
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Jaggayyapeta Stupa",
+   "district": "NTR",
+   "category": "Buddhist site",
+   "g": "buddhist",
+   "lat": 16.895,
+   "lng": 80.1,
+   "why": "Early Buddhist stupa site that yielded some of Andhra's oldest sculpture",
+   "n": 152,
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "name": "Dhyana Buddha, Amaravati",
+   "district": "Palnadu",
+   "category": "Buddhist site",
+   "g": "buddhist",
+   "lat": 16.569,
+   "lng": 80.356,
+   "why": "Giant seated Buddha statue on the banks of the Krishna",
+   "n": 153,
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "name": "Dharanikota",
+   "district": "Palnadu",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 16.585,
+   "lng": 80.33,
+   "why": "Ruins of Dhanyakataka, the ancient Satavahana-era capital",
+   "n": 154,
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2–3 hrs"
+  },
+  {
+   "name": "Uppalapadu Bird Sanctuary",
+   "district": "Guntur",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 16.26,
+   "lng": 80.43,
+   "why": "Village tank where pelicans and painted storks breed",
+   "n": 155,
+   "tier": "top",
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "name": "Chebrolu",
+   "district": "Guntur",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 16.2,
+   "lng": 80.52,
+   "why": "Old temple town with a rare Brahma temple and Chola-era shrines",
+   "n": 156,
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Chejerla",
+   "district": "Palnadu",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 16.19,
+   "lng": 79.83,
+   "why": "Kapoteswara temple, an early brick shrine tied to the King Shibi legend",
+   "n": 157,
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Durgi Stone Craft",
+   "district": "Palnadu",
+   "category": "Craft",
+   "g": "culture",
+   "lat": 16.42,
+   "lng": 79.52,
+   "why": "Stone carvers keeping alive the Nagarjunakonda sculpture tradition",
+   "n": 158,
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Bhattiprolu",
+   "district": "Bapatla",
+   "category": "Buddhist site",
+   "g": "buddhist",
+   "lat": 16.1,
+   "lng": 80.78,
+   "why": "Stupa whose relic caskets carry an early form of the Brahmi script",
+   "n": 159,
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "name": "Bhavanarayana Temple, Bapatla",
+   "district": "Bapatla",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 15.905,
+   "lng": 80.468,
+   "why": "Ancient temple the town of Bapatla is named after",
+   "n": 160,
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Motupalli",
+   "district": "Bapatla",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 15.72,
+   "lng": 80.29,
+   "why": "Medieval Kakatiya port that Marco Polo wrote about",
+   "n": 161,
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2–3 hrs"
+  },
+  {
+   "name": "Ghantasala",
+   "district": "Krishna",
+   "category": "Buddhist site",
+   "g": "buddhist",
+   "lat": 16.17,
+   "lng": 80.95,
+   "why": "Ruined stupa of an ancient Indian Ocean trading port",
+   "n": 162,
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "name": "Mopidevi",
+   "district": "Krishna",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 16.07,
+   "lng": 80.93,
+   "why": "Subrahmanya Swamy temple in the Krishna delta",
+   "n": 163,
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Krishna Wildlife Sanctuary",
+   "district": "Krishna",
+   "category": "Mangroves",
+   "g": "wildlife",
+   "lat": 15.9,
+   "lng": 80.95,
+   "why": "Mangrove forest of the Krishna delta, home to fishing cats",
+   "n": 164,
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "name": "Tripurantakam",
+   "district": "Markapuram",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 15.99,
+   "lng": 79.46,
+   "why": "Hill temple and lake, the ancient eastern gateway to Srisailam",
+   "n": 165,
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Markapur Chennakesava Temple",
+   "district": "Markapuram",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 15.735,
+   "lng": 79.27,
+   "why": "Vijayanagara-era temple with a tall gopuram",
+   "n": 166,
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Singarakonda",
+   "district": "Bapatla",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 15.815,
+   "lng": 79.99,
+   "why": "Hill shrines to Narasimha and Prasanna Anjaneya near Addanki",
+   "n": 167,
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Gundla Brahmeswaram Sanctuary",
+   "district": "Markapuram",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 15.62,
+   "lng": 78.85,
+   "why": "Remote Nallamala wilderness between Srisailam and the plains",
+   "n": 168,
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Full day"
+  },
+  {
+   "name": "Talpagiri Ranganathaswamy Temple",
+   "district": "Sri Potti Sriramulu Nellore",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 14.45,
+   "lng": 79.99,
+   "why": "Riverside Ranganatha temple with a towering gopuram in Nellore",
+   "n": 169,
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Jonnawada Kamakshi Temple",
+   "district": "Sri Potti Sriramulu Nellore",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 14.483,
+   "lng": 79.917,
+   "why": "Kamakshi temple on the Penna river, a major regional shrine",
+   "n": 170,
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Somasila Dam",
+   "district": "Sri Potti Sriramulu Nellore",
+   "category": "Lake",
+   "g": "water",
+   "lat": 14.49,
+   "lng": 79.3,
+   "why": "Large Penna reservoir ringed by the Velikonda hills",
+   "n": 171,
+   "tier": "top",
+   "months": [
+    9,
+    2
+   ],
+   "time": "Half day"
+  },
+  {
+   "name": "Venkatagiri",
+   "district": "Tirupati",
+   "category": "Craft / Heritage",
+   "g": "culture",
+   "lat": 13.96,
+   "lng": 79.58,
+   "why": "Fine cotton Venkatagiri saris and an old royal palace",
+   "n": 172,
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Irakam Island",
+   "district": "Tirupati",
+   "category": "Island",
+   "g": "coast",
+   "lat": 13.8,
+   "lng": 80.1,
+   "why": "Island village in Pulicat Lake reached by boat",
+   "n": 173,
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "name": "Akasaganga & Papavinasanam",
+   "district": "Tirupati",
+   "category": "Waterfall / Temple",
+   "g": "water",
+   "lat": 13.705,
+   "lng": 79.34,
+   "why": "Sacred falls and bathing ghat in the Tirumala hills",
+   "n": 174,
+   "tier": "top",
+   "months": [
+    8,
+    1
+   ],
+   "time": "Half day"
+  },
+  {
+   "name": "Japali Theertham",
+   "district": "Tirupati",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 13.715,
+   "lng": 79.345,
+   "why": "Hanuman shrine and sacred pond deep in the Tirumala forest",
+   "n": 175,
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Alipiri Footpath",
+   "district": "Tirupati",
+   "category": "Pilgrim walk",
+   "g": "temple",
+   "lat": 13.65,
+   "lng": 79.4,
+   "why": "The roughly 3,500-step pilgrim climb from Tirupati to Tirumala",
+   "n": 176,
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "name": "Govindaraja Swamy Temple",
+   "district": "Tirupati",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 13.633,
+   "lng": 79.42,
+   "why": "Huge 12th-century temple complex in the heart of Tirupati",
+   "n": 177,
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Tiruchanur Padmavathi Temple",
+   "district": "Tirupati",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 13.607,
+   "lng": 79.45,
+   "why": "Temple of Goddess Padmavathi, consort of Venkateswara",
+   "n": 178,
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Srinivasa Mangapuram",
+   "district": "Tirupati",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 13.61,
+   "lng": 79.32,
+   "why": "Kalyana Venkateswara temple at the foot of the Tirumala hills",
+   "n": 179,
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Narayanavanam",
+   "district": "Tirupati",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 13.42,
+   "lng": 79.58,
+   "why": "Where legend says Venkateswara married Padmavathi",
+   "n": 180,
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Sri Venkateswara Zoological Park",
+   "district": "Tirupati",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 13.625,
+   "lng": 79.38,
+   "why": "One of India's largest zoos, in the Seshachalam foothills",
+   "n": 181,
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "name": "Gudimallam",
+   "district": "Tirupati",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 13.61,
+   "lng": 79.58,
+   "why": "Parasurameswara temple with one of India's oldest lingams, c. 2nd century BCE",
+   "n": 182,
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Nagalapuram",
+   "district": "Tirupati",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 13.389,
+   "lng": 79.795,
+   "why": "Vedanarayana temple where sun rays reach the deity each March",
+   "n": 183,
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Surutupalli",
+   "district": "Tirupati",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 13.43,
+   "lng": 79.8,
+   "why": "Pallikondeswara temple with a rare reclining Shiva",
+   "n": 184,
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Gurramkonda Fort",
+   "district": "Annamayya",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 13.78,
+   "lng": 78.58,
+   "why": "Hill fort with a Persian-style Rangin Mahal palace",
+   "n": 185,
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2–3 hrs"
+  },
+  {
+   "name": "Nandalur Soumyanatha Temple",
+   "district": "Annamayya",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 14.25,
+   "lng": 79.12,
+   "why": "Chola-era temple on the Cheyyeru river",
+   "n": 186,
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Madanapalle",
+   "district": "Annamayya",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 13.55,
+   "lng": 78.5,
+   "why": "Town where Tagore translated 'Jana Gana Mana' into English in 1919",
+   "n": 187,
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2–3 hrs"
+  },
+  {
+   "name": "Rishi Valley",
+   "district": "Annamayya",
+   "category": "Nature",
+   "g": "hills",
+   "lat": 13.63,
+   "lng": 78.45,
+   "why": "Quiet valley famed for its school and excellent birding",
+   "n": 188,
+   "tier": "gem",
+   "months": [
+    10,
+    2
+   ],
+   "time": "Half day"
+  },
+  {
+   "name": "Lankamalleswara Sanctuary",
+   "district": "YSR Kadapa",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 14.68,
+   "lng": 78.95,
+   "why": "Scrub forest where the rare Jerdon's courser was rediscovered in 1986",
+   "n": 189,
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "name": "Brahmamgari Matham",
+   "district": "YSR Kadapa",
+   "category": "Spiritual",
+   "g": "temple",
+   "lat": 15.03,
+   "lng": 78.8,
+   "why": "Seat of the 17th-century seer Pothuluri Veerabrahmendra Swamy",
+   "n": 190,
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Ketavaram Rock Paintings",
+   "district": "Kurnool",
+   "category": "Heritage",
+   "g": "caves",
+   "lat": 15.72,
+   "lng": 78.15,
+   "why": "Prehistoric rock art in the Jurreru valley",
+   "n": 191,
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Bairluty Eco-Camp",
+   "district": "Nandyal",
+   "category": "Forest",
+   "g": "wildlife",
+   "lat": 15.53,
+   "lng": 78.72,
+   "why": "Jungle safaris and stays in the Nallamala tiger reserve",
+   "n": 192,
+   "tier": "top",
+   "months": [
+    10,
+    6
+   ],
+   "time": "Overnight"
+  },
+  {
+   "name": "Pathala Ganga & Srisailam Dam",
+   "district": "Nandyal",
+   "category": "River / Dam",
+   "g": "water",
+   "lat": 16.085,
+   "lng": 78.88,
+   "why": "Ropeway down to the Krishna below Srisailam, with dam views",
+   "n": 193,
+   "tier": "top",
+   "months": [
+    8,
+    2
+   ],
+   "time": "Half day"
+  },
+  {
+   "name": "Akka Mahadevi Caves",
+   "district": "Nandyal",
+   "category": "Caves",
+   "g": "caves",
+   "lat": 16.06,
+   "lng": 78.85,
+   "why": "Natural caves reached by a boat ride up the Krishna gorge",
+   "n": 194,
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "name": "Banaganapalle",
+   "district": "Nandyal",
+   "category": "Food / Heritage",
+   "g": "culture",
+   "lat": 15.32,
+   "lng": 78.23,
+   "why": "Home of the GI-tagged Banganapalli mango; go in May or June",
+   "n": 195,
+   "tier": "gem",
+   "months": [
+    5,
+    6
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Hemavathi",
+   "district": "Sri Sathya Sai",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 13.8,
+   "lng": 77.02,
+   "why": "Nolamba-era Siddheswara temples with fine black-stone carving",
+   "n": 196,
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Kadiri Lakshmi Narasimha Temple",
+   "district": "Sri Sathya Sai",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 14.11,
+   "lng": 78.16,
+   "why": "Major Narasimha shrine with a grand annual festival",
+   "n": 197,
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Dharmavaram",
+   "district": "Sri Sathya Sai",
+   "category": "Craft",
+   "g": "culture",
+   "lat": 14.41,
+   "lng": 77.72,
+   "why": "Silk town famous for heavy, gold-bordered Dharmavaram saris",
+   "n": 198,
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Nimmalakunta",
+   "district": "Sri Sathya Sai",
+   "category": "Craft village",
+   "g": "culture",
+   "lat": 14.39,
+   "lng": 77.72,
+   "why": "Leather puppet-makers of the Tholu Bommalata shadow-play tradition",
+   "n": 199,
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "name": "Rayadurgam Fort",
+   "district": "Ananthapuramu",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 14.7,
+   "lng": 76.85,
+   "why": "Hill fort with temples on the Karnataka border",
+   "n": 200,
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2–3 hrs"
+  },
+  {
+   "n": 201,
+   "name": "Nagarjunakonda Island Museum",
+   "district": "Palnadu",
+   "category": "Museum",
+   "g": "buddhist",
+   "lat": 16.53,
+   "lng": 79.24,
+   "why": "Island in the Nagarjuna Sagar reservoir with relocated Buddhist monuments and a museum",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 202,
+   "name": "Kothapatnam Beach",
+   "district": "Prakasam",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 15.45,
+   "lng": 80.17,
+   "why": "Ongole's beach, 18 km from the city, with casuarina groves and fishing boats",
+   "tier": "gem",
+   "months": [
+    11,
+    2
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 203,
+   "name": "Pakala Beach",
+   "district": "Prakasam",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 15.267,
+   "lng": 80.084,
+   "why": "Quiet beach where the Paleru meets the Bay of Bengal, east of Singarayakonda",
+   "tier": "gem",
+   "months": [
+    11,
+    2
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 204,
+   "name": "Chandavaram Buddhist Stupa",
+   "district": "Prakasam",
+   "category": "Buddhist site",
+   "g": "buddhist",
+   "lat": 15.8,
+   "lng": 79.4,
+   "why": "Terraced stupa of the 2nd century BCE on a hill by the Gundlakamma, among Andhra's largest",
+   "tier": "gem",
+   "months": [
+    10,
+    2
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 205,
+   "name": "Moganali Waterfalls",
+   "district": "Parvathipuram Manyam",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 18.972,
+   "lng": 83.714,
+   "why": "Forest waterfall in tribal Gummalaxmipuram, part of the district's new waterfall circuit",
+   "tier": "gem",
+   "months": [
+    7,
+    12
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 206,
+   "name": "Adali Viewpoint",
+   "district": "Parvathipuram Manyam",
+   "category": "Viewpoint",
+   "g": "hills",
+   "lat": 18.66,
+   "lng": 83.78,
+   "why": "Hilltop viewpoint over the Seethampeta tribal valleys, opened in 2024",
+   "tier": "gem",
+   "months": [
+    9,
+    2
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 207,
+   "name": "Kasi Visweswara Temple, Addapuseela",
+   "district": "Parvathipuram Manyam",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 18.79,
+   "lng": 83.45,
+   "why": "15th-century Shiva temple 4 km from Parvathipuram",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  }
+ ],
+ "festivals": [
+  {
+   "name": "Sankranti in Konaseema",
+   "months": [
+    1,
+    1
+   ],
+   "when": "Mid-January, over three days",
+   "n": 33,
+   "about": "The big harvest festival; Konaseema villages carry decorated prabhalas across fields and canals on Kanuma day."
+  },
+  {
+   "name": "Flamingo Festival",
+   "months": [
+    1,
+    1
+   ],
+   "when": "Usually January",
+   "n": 67,
+   "about": "Celebration of the winter flamingos and pelicans of Pulicat and Nelapattu."
+  },
+  {
+   "name": "Maha Shivaratri at Kotappakonda",
+   "months": [
+    2,
+    3
+   ],
+   "when": "February or March",
+   "n": 55,
+   "about": "Towering decorated prabhalu are brought to the hill temple through the night."
+  },
+  {
+   "name": "Ugadi",
+   "months": [
+    3,
+    4
+   ],
+   "when": "March or April",
+   "n": null,
+   "about": "Telugu New Year, with ugadi pachadi and temple visits across the state."
+  },
+  {
+   "name": "Chandanotsavam, Simhachalam",
+   "months": [
+    4,
+    5
+   ],
+   "when": "On Akshaya Tritiya, April or May",
+   "n": 18,
+   "about": "The one day a year the deity's sandalwood covering is removed for darshan."
+  },
+  {
+   "name": "Godavari Pushkaralu 2027",
+   "months": [
+    7,
+    8
+   ],
+   "when": "Once every 12 years; next in mid-2027",
+   "n": 32,
+   "about": "Millions bathe in the Godavari at Rajahmundry's ghats during this 12-day festival."
+  },
+  {
+   "name": "Dasara at Kanaka Durga",
+   "months": [
+    9,
+    10
+   ],
+   "when": "September or October",
+   "n": 47,
+   "about": "Ten days of worship on Indrakeeladri, ending with a river procession on the Krishna."
+  },
+  {
+   "name": "Tirumala Brahmotsavam",
+   "months": [
+    9,
+    10
+   ],
+   "when": "September or October",
+   "n": 71,
+   "about": "Nine-day festival of grand processions around the Tirumala temple."
+  }
+ ]
+}
