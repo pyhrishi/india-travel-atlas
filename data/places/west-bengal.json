@@ -1,1 +1,2535 @@
-{"name":"West Bengal","intro":"Kolkata's Victoria Memorial, Howrah Bridge and food, Durga Puja, Darjeeling's toy train and Kanchenjunga, the Sundarbans tigers, Shantiniketan, Bishnupur's terracotta temples, Murshidabad's nawabi palaces, and rhinos in the Dooars.","bases":[["Kolkata",22.5726,88.3639],["Darjeeling",27.036,88.2627],["Siliguri",26.7271,88.3953],["Shantiniketan",23.678,87.683],["Murshidabad",24.18,88.27],["Kalimpong",27.06,88.47],["Godkhali (Sundarbans)",22.1,88.79]],"trails":[{"name":"Kolkata heritage","note":"Victoria, the river, Kumartuli and College Street.","ids":[1,14,6,12,13,15,10,2,9,7,11]},{"name":"Along the Hooghly","note":"Temples and old European towns upriver.","ids":[3,4,69,66,68,67,73]},{"name":"Darjeeling hills","note":"Toy train, tea, monasteries and sunrise.","ids":[77,80,84,76,75,78,79,85,91]},{"name":"Kalimpong and the Dooars","note":"Hill villages, red pandas and rhinos.","ids":[93,96,97,98,107,101,103,104,105]},{"name":"Sundarbans","note":"Mangroves, tigers and the river mouth.","ids":[26,25,28,27]},{"name":"Rarh Bengal","note":"Tagore, terracotta and the Purulia hills.","ids":[33,34,38,41,39,44,45,47,46]},{"name":"Nawabi Bengal","note":"Murshidabad, Plassey and the old capitals.","ids":[55,56,57,59,61,110,111]},{"name":"Sandakphu","note":"Ridge trek to see Everest and Kanchenjunga.","ids":[87,86]}],"places":[{"n":1,"name":"Victoria Memorial","district":"Kolkata","category":"Heritage","g":"heritage","lat":22.5448,"lng":88.3426,"why":"White marble memorial and museum on the Maidan","tier":"icon","months":[10,3],"time":"2–3 hrs"},{"n":2,"name":"Howrah Bridge","district":"Kolkata","category":"Engineering","g":"culture","lat":22.5851,"lng":88.3468,"why":"Cantilever icon over the Hooghly","tier":"icon","months":[10,3],"time":"1–2 hrs"},{"n":3,"name":"Dakshineswar Kali Temple","district":"North 24 Parganas","category":"Temple","g":"temple","lat":22.655,"lng":88.3575,"why":"Riverside temple of Ramakrishna","tier":"icon","months":[10,3],"time":"1–2 hrs"},{"n":4,"name":"Belur Math","district":"Howrah","category":"Ashram","g":"temple","lat":22.632,"lng":88.356,"why":"Ramakrishna Mission headquarters on the Hooghly","tier":"icon","months":[10,3],"time":"1–2 hrs"},{"n":5,"name":"Kalighat Temple","district":"Kolkata","category":"Temple","g":"temple","lat":22.52,"lng":88.342,"why":"Shakti Peetha of Kolkata","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":6,"name":"Indian Museum","district":"Kolkata","category":"Museum","g":"culture","lat":22.558,"lng":88.351,"why":"India's oldest museum","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":7,"name":"Jorasanko Thakur Bari","district":"Kolkata","category":"Museum","g":"culture","lat":22.585,"lng":88.36,"why":"Tagore's family home","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":8,"name":"Marble Palace","district":"Kolkata","category":"Heritage","g":"heritage","lat":22.581,"lng":88.361,"why":"Mansion of marbles and paintings","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":9,"name":"Kumartuli","district":"Kolkata","category":"Craft","g":"culture","lat":22.6,"lng":88.36,"why":"Idol-makers' quarter","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":10,"name":"Mullick Ghat Flower Market","district":"Kolkata","category":"Market","g":"culture","lat":22.583,"lng":88.348,"why":"Marigold market under Howrah Bridge","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":11,"name":"College Street","district":"Kolkata","category":"Market","g":"culture","lat":22.575,"lng":88.363,"why":"Book market and Indian Coffee House","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":12,"name":"Park Street","district":"Kolkata","category":"Neighbourhood","g":"culture","lat":22.553,"lng":88.352,"why":"Restaurants and Christmas lights","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":13,"name":"South Park Street Cemetery","district":"Kolkata","category":"Heritage","g":"heritage","lat":22.547,"lng":88.36,"why":"18th-century colonial tombs","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":14,"name":"St Paul's Cathedral","district":"Kolkata","category":"Church","g":"heritage","lat":22.544,"lng":88.346,"why":"Gothic cathedral by the Maidan","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":15,"name":"Princep Ghat","district":"Kolkata","category":"River","g":"heritage","lat":22.555,"lng":88.333,"why":"Palladian ghat at sunset","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":16,"name":"Kolkata Food Trail","district":"Kolkata","category":"Food","g":"culture","lat":22.56,"lng":88.35,"why":"Kathi rolls, phuchka, mishti and Chinese at Tangra","tier":"icon","months":[10,3],"time":"Evening"},{"n":17,"name":"Mother House","district":"Kolkata","category":"Heritage","g":"culture","lat":22.539,"lng":88.368,"why":"Mother Teresa's tomb","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":18,"name":"Eden Gardens","district":"Kolkata","category":"Stadium","g":"culture","lat":22.565,"lng":88.343,"why":"Historic cricket ground","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":19,"name":"Science City Kolkata","district":"Kolkata","category":"Museum","g":"culture","lat":22.54,"lng":88.396,"why":"Science park","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":20,"name":"Academy of Fine Arts & Nandan","district":"Kolkata","category":"Culture","g":"culture","lat":22.542,"lng":88.344,"why":"Art and film district","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":21,"name":"Chinatown, Tiretta Bazaar","district":"Kolkata","category":"Food","g":"culture","lat":22.573,"lng":88.353,"why":"Chinese breakfast street","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":22,"name":"Armenian Church","district":"Kolkata","category":"Church","g":"heritage","lat":22.578,"lng":88.348,"why":"Oldest church in Kolkata","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":23,"name":"Kolkata Tram Ride","district":"Kolkata","category":"Heritage","g":"culture","lat":22.565,"lng":88.36,"why":"Ride Asia's oldest running tram line","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":24,"name":"Botanical Garden (Great Banyan)","district":"Howrah","category":"Garden","g":"wildlife","lat":22.559,"lng":88.287,"why":"Giant banyan with 3,600 aerial roots","tier":"top","months":[10,3],"time":"Full day"},{"n":25,"name":"Sundarbans National Park","district":"South 24 Parganas","category":"National park","g":"wildlife","lat":21.9497,"lng":88.88,"why":"UNESCO mangroves of the Royal Bengal tiger","tier":"icon","months":[10,3],"time":"2–3 days"},{"n":26,"name":"Sajnekhali","district":"South 24 Parganas","category":"Wildlife","g":"wildlife","lat":22.12,"lng":88.83,"why":"Watchtower base of the Sundarbans","tier":"top","months":[10,3],"time":"Full day"},{"n":27,"name":"Bakkhali","district":"South 24 Parganas","category":"Beach","g":"coast","lat":21.56,"lng":88.26,"why":"Quiet beach and Henry's Island","tier":"gem","months":[10,3],"time":"Half day"},{"n":28,"name":"Gangasagar","district":"South 24 Parganas","category":"Temple","g":"temple","lat":21.64,"lng":88.08,"why":"Where the Ganga meets the sea","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":29,"name":"Digha","district":"Purba Medinipur","category":"Beach","g":"coast","lat":21.63,"lng":87.51,"why":"Popular beach resort","tier":"top","months":[10,3],"time":"Half day"},{"n":30,"name":"Mandarmani","district":"Purba Medinipur","category":"Beach","g":"coast","lat":21.66,"lng":87.7,"why":"Drive-in beach","tier":"gem","months":[10,3],"time":"Half day"},{"n":31,"name":"Tajpur","district":"Purba Medinipur","category":"Beach","g":"coast","lat":21.65,"lng":87.61,"why":"Red-crab beach","tier":"gem","months":[10,3],"time":"Half day"},{"n":32,"name":"Bargabhima Temple, Tamluk","district":"Purba Medinipur","category":"Temple","g":"temple","lat":22.3,"lng":87.92,"why":"Ancient port's Shakti Peetha","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":33,"name":"Shantiniketan","district":"Birbhum","category":"Heritage","g":"culture","lat":23.678,"lng":87.683,"why":"UNESCO Tagore's university town","tier":"icon","months":[10,3],"time":"Overnight"},{"n":34,"name":"Sonajhuri Haat","district":"Birbhum","category":"Market","g":"culture","lat":23.69,"lng":87.66,"why":"Saturday crafts haat with Baul music","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":35,"name":"Tarapith","district":"Birbhum","category":"Temple","g":"temple","lat":24.12,"lng":87.8,"why":"Tantric temple of Tara","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":36,"name":"Bakreswar","district":"Birbhum","category":"Hot spring","g":"water","lat":23.88,"lng":87.37,"why":"Hot springs and temples","tier":"gem","months":[10,3],"time":"2 hrs"},{"n":37,"name":"Kenduli","district":"Birbhum","category":"Culture","g":"culture","lat":23.62,"lng":87.43,"why":"Jaydev's birthplace and Baul fair","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":38,"name":"Bishnupur Terracotta Temples","district":"Bankura","category":"Temple","g":"temple","lat":23.07,"lng":87.32,"why":"Terracotta temples of the Malla kings","tier":"icon","months":[10,3],"time":"Full day"},{"n":39,"name":"Mukutmanipur","district":"Bankura","category":"Lake","g":"water","lat":22.96,"lng":86.79,"why":"Dam lake among hills","tier":"top","months":[10,3],"time":"2 hrs"},{"n":40,"name":"Susunia Hill","district":"Bankura","category":"Hill","g":"hills","lat":23.4,"lng":86.98,"why":"Rock-climbing hill with an inscription","tier":"gem","months":[10,3],"time":"Half day"},{"n":41,"name":"Bankura Horse (Panchmura)","district":"Bankura","category":"Craft village","g":"culture","lat":23.15,"lng":87.15,"why":"Terracotta horse village","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":42,"name":"Biharinath","district":"Bankura","category":"Hill","g":"hills","lat":23.55,"lng":86.95,"why":"Bankura's highest hill","tier":"gem","months":[10,3],"time":"Half day"},{"n":43,"name":"Baluchari Weavers","district":"Bankura","category":"Craft","g":"culture","lat":23.07,"lng":87.32,"why":"Silk sarees woven with stories","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":44,"name":"Purulia Ayodhya Hills","district":"Purulia","category":"Hill","g":"hills","lat":23.2,"lng":86.1,"why":"Hills of falls and Chhau villages","tier":"top","months":[10,3],"time":"Half day"},{"n":45,"name":"Charida Chhau Mask Village","district":"Purulia","category":"Craft village","g":"culture","lat":23.29,"lng":86.09,"why":"Village of Chhau mask makers","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":46,"name":"Baranti","district":"Purulia","category":"Lake","g":"water","lat":23.62,"lng":86.82,"why":"Lake village below hills","tier":"top","months":[10,3],"time":"2 hrs"},{"n":47,"name":"Garh Panchkot","district":"Purulia","category":"Fort","g":"heritage","lat":23.62,"lng":86.78,"why":"Ruined fort below Panchet hill","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":48,"name":"Joychandi Pahar","district":"Purulia","category":"Hill","g":"hills","lat":23.37,"lng":86.67,"why":"Hill of the film Hirak Rajar Deshe","tier":"gem","months":[10,3],"time":"Half day"},{"n":49,"name":"Deulghata","district":"Purulia","category":"Temple","g":"temple","lat":23.2,"lng":86.15,"why":"Ancient brick temples on the Kangsabati","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":50,"name":"Turga Falls","district":"Purulia","category":"Waterfall","g":"water","lat":23.17,"lng":86.1,"why":"Falls in the Ayodhya hills","tier":"gem","months":[10,3],"time":"2 hrs"},{"n":51,"name":"Jhargram Palace","district":"Jhargram","category":"Heritage","g":"heritage","lat":22.45,"lng":86.99,"why":"Palace homestay in sal forest","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":52,"name":"Belpahari & Kankrajhore","district":"Jhargram","category":"Village","g":"hills","lat":22.65,"lng":86.77,"why":"Forested hill villages","tier":"gem","months":[10,3],"time":"Half day"},{"n":53,"name":"Kurumbera Fort","district":"Paschim Medinipur","category":"Fort","g":"heritage","lat":22.17,"lng":87.34,"why":"Laterite fort","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":54,"name":"Gangani","district":"Paschim Medinipur","category":"Canyon","g":"caves","lat":22.84,"lng":87.32,"why":"Bengal's grand canyon on the Shilabati","tier":"top","months":[10,3],"time":"2 hrs"},{"n":55,"name":"Murshidabad Hazarduari","district":"Murshidabad","category":"Heritage","g":"heritage","lat":24.187,"lng":88.268,"why":"Palace of a thousand doors","tier":"icon","months":[10,3],"time":"Full day"},{"n":56,"name":"Katra Masjid","district":"Murshidabad","category":"Heritage","g":"heritage","lat":24.19,"lng":88.28,"why":"Murshid Quli Khan's mosque and tomb","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":57,"name":"Khushbagh","district":"Murshidabad","category":"Heritage","g":"heritage","lat":24.18,"lng":88.27,"why":"Siraj-ud-Daulah's grave garden","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":58,"name":"Nashipur Rajbari","district":"Murshidabad","category":"Heritage","g":"heritage","lat":24.22,"lng":88.26,"why":"Palace of the Nashipur zamindars near Murshidabad","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":59,"name":"Kathgola Gardens","district":"Murshidabad","category":"Heritage","g":"heritage","lat":24.2,"lng":88.26,"why":"Merchant palace garden","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":60,"name":"Wasif Manzil & Nizamat Imambara","district":"Murshidabad","category":"Heritage","g":"heritage","lat":24.185,"lng":88.27,"why":"Nawabi buildings by the river","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":61,"name":"Plassey Monument","district":"Nadia","category":"Memorial","g":"heritage","lat":23.8,"lng":88.25,"why":"Site of the 1757 battle","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":62,"name":"Mayapur ISKCON","district":"Nadia","category":"Temple","g":"temple","lat":23.42,"lng":88.39,"why":"Huge ISKCON temple of Chaitanya's birthplace","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":63,"name":"Nabadwip","district":"Nadia","category":"Temple","g":"temple","lat":23.41,"lng":88.37,"why":"Chaitanya's town","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":64,"name":"Krishnanagar Clay Dolls","district":"Nadia","category":"Craft","g":"culture","lat":23.4,"lng":88.5,"why":"Lifelike clay figures","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":65,"name":"Shantipur Weavers","district":"Nadia","category":"Craft","g":"culture","lat":23.25,"lng":88.43,"why":"Handloom saree town","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":66,"name":"Chandannagar","district":"Hooghly","category":"Heritage","g":"heritage","lat":22.87,"lng":88.38,"why":"Old French town and strand","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":67,"name":"Bandel Church","district":"Hooghly","category":"Church","g":"heritage","lat":22.92,"lng":88.38,"why":"Bengal's oldest church","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":68,"name":"Hooghly Imambara","district":"Hooghly","category":"Heritage","g":"heritage","lat":22.91,"lng":88.39,"why":"Riverside imambara with a clock tower","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":69,"name":"Serampore","district":"Hooghly","category":"Heritage","g":"heritage","lat":22.75,"lng":88.34,"why":"Danish town and Carey's college","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":70,"name":"Tarakeswar","district":"Hooghly","category":"Temple","g":"temple","lat":22.89,"lng":88.02,"why":"Major Shiva pilgrimage","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":71,"name":"Kamarpukur","district":"Hooghly","category":"Heritage","g":"temple","lat":22.91,"lng":87.65,"why":"Ramakrishna's birthplace","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":72,"name":"Antpur Terracotta","district":"Hooghly","category":"Temple","g":"temple","lat":22.78,"lng":88.06,"why":"Radhagobindajiu terracotta temple","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":73,"name":"Kalna 108 Shiva Temples","district":"Purba Bardhaman","category":"Temple","g":"temple","lat":23.22,"lng":88.37,"why":"Concentric circles of 108 temples","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":74,"name":"Curzon Gate, Bardhaman","district":"Purba Bardhaman","category":"Heritage","g":"heritage","lat":23.24,"lng":87.86,"why":"Royal Bardhaman town","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":75,"name":"Darjeeling","district":"Darjeeling","category":"Hill station","g":"hills","lat":27.036,"lng":88.2627,"why":"Queen of the hills facing Kanchenjunga","tier":"icon","months":[10,5],"time":"2–3 days"},{"n":76,"name":"Darjeeling Himalayan Railway","district":"Darjeeling","category":"Heritage","g":"heritage","lat":27.04,"lng":88.265,"why":"UNESCO toy train and the Batasia loop","tier":"icon","months":[10,5],"time":"2 hrs (joyride)"},{"n":77,"name":"Tiger Hill","district":"Darjeeling","category":"Viewpoint","g":"hills","lat":26.99,"lng":88.29,"why":"Sunrise on Kanchenjunga","tier":"icon","months":[10,5],"time":"Dawn"},{"n":78,"name":"Happy Valley Tea Estate","district":"Darjeeling","category":"Tea estate","g":"hills","lat":27.05,"lng":88.26,"why":"Tea factory tours","tier":"top","months":[10,5],"time":"Half day"},{"n":79,"name":"Padmaja Naidu Zoo & HMI","district":"Darjeeling","category":"Wildlife","g":"wildlife","lat":27.06,"lng":88.25,"why":"Red pandas, snow leopards and the Mountaineering Institute","tier":"top","months":[10,5],"time":"Full day"},{"n":80,"name":"Ghoom Monastery","district":"Darjeeling","category":"Monastery","g":"buddhist","lat":27.0,"lng":88.25,"why":"Old monastery with a Maitreya statue","tier":"gem","months":[10,5],"time":"1 hr"},{"n":81,"name":"Peace Pagoda, Darjeeling","district":"Darjeeling","category":"Monastery","g":"buddhist","lat":27.04,"lng":88.27,"why":"Japanese peace pagoda","tier":"gem","months":[10,5],"time":"1 hr"},{"n":82,"name":"Chowrasta & Mall","district":"Darjeeling","category":"Promenade","g":"culture","lat":27.042,"lng":88.265,"why":"Darjeeling's square and cafés","tier":"gem","months":[10,5],"time":"1–2 hrs"},{"n":83,"name":"Glenary's & Keventer's","district":"Darjeeling","category":"Food","g":"culture","lat":27.042,"lng":88.265,"why":"Colonial-era cafés","tier":"gem","months":[10,5],"time":"1–2 hrs"},{"n":84,"name":"Batasia Loop","district":"Darjeeling","category":"Heritage","g":"heritage","lat":27.01,"lng":88.25,"why":"Railway loop with war memorial","tier":"gem","months":[10,5],"time":"1–2 hrs"},{"n":85,"name":"Mirik","district":"Darjeeling","category":"Lake","g":"water","lat":26.887,"lng":88.188,"why":"Lake town of tea and oranges","tier":"top","months":[10,5],"time":"2 hrs"},{"n":86,"name":"Sandakphu","district":"Darjeeling","category":"Trek","g":"hills","lat":27.106,"lng":88.001,"why":"Trek with four of the world's five highest peaks in view","tier":"icon","months":[10,5],"time":"5–6 days"},{"n":87,"name":"Singalila National Park","district":"Darjeeling","category":"National park","g":"wildlife","lat":27.1,"lng":88.0,"why":"Red panda forest on the ridge","tier":"top","months":[3,5],"time":"Full day"},{"n":88,"name":"Lamahatta","district":"Darjeeling","category":"Village","g":"hills","lat":27.07,"lng":88.36,"why":"Eco village of pines","tier":"gem","months":[10,5],"time":"Half day"},{"n":89,"name":"Takdah","district":"Darjeeling","category":"Village","g":"hills","lat":27.04,"lng":88.35,"why":"Colonial cantonment of orchids","tier":"gem","months":[10,5],"time":"Half day"},{"n":90,"name":"Tinchuley","district":"Darjeeling","category":"Village","g":"hills","lat":27.04,"lng":88.38,"why":"Homestay village with views","tier":"gem","months":[10,5],"time":"Half day"},{"n":91,"name":"Kurseong","district":"Darjeeling","category":"Hill station","g":"hills","lat":26.88,"lng":88.28,"why":"Land of white orchids and Netaji's house","tier":"top","months":[10,5],"time":"Half day"},{"n":92,"name":"Makaibari Tea Estate","district":"Darjeeling","category":"Tea estate","g":"hills","lat":26.86,"lng":88.29,"why":"Pioneering organic tea estate","tier":"gem","months":[10,5],"time":"Half day"},{"n":93,"name":"Kalimpong","district":"Kalimpong","category":"Hill station","g":"hills","lat":27.06,"lng":88.47,"why":"Flower nurseries and monasteries","tier":"top","months":[10,5],"time":"Half day"},{"n":94,"name":"Zang Dhok Palri Phodang","district":"Kalimpong","category":"Monastery","g":"buddhist","lat":27.06,"lng":88.48,"why":"Monastery on Durpin hill","tier":"gem","months":[10,5],"time":"1 hr"},{"n":95,"name":"Dr Graham's Homes","district":"Kalimpong","category":"Heritage","g":"heritage","lat":27.07,"lng":88.49,"why":"Historic school campus","tier":"gem","months":[10,5],"time":"1–2 hrs"},{"n":96,"name":"Lava & Neora Valley","district":"Kalimpong","category":"National park","g":"wildlife","lat":27.08,"lng":88.66,"why":"Mossy forest of red pandas","tier":"top","months":[10,5],"time":"Full day"},{"n":97,"name":"Rishop","district":"Kalimpong","category":"Village","g":"hills","lat":27.1,"lng":88.65,"why":"Kanchenjunga view village","tier":"gem","months":[10,5],"time":"Half day"},{"n":98,"name":"Lolegaon","district":"Kalimpong","category":"Village","g":"hills","lat":27.03,"lng":88.55,"why":"Canopy walk in forest","tier":"gem","months":[10,5],"time":"Half day"},{"n":99,"name":"Sillery Gaon & Old Silk Route (WB)","district":"Kalimpong","category":"Village","g":"hills","lat":27.13,"lng":88.59,"why":"Gateway villages to the Silk Route","tier":"gem","months":[10,5],"time":"Half day"},{"n":100,"name":"Delo","district":"Kalimpong","category":"Viewpoint","g":"hills","lat":27.08,"lng":88.5,"why":"Hilltop park and paragliding","tier":"gem","months":[10,5],"time":"Half day"},{"n":101,"name":"Gorumara National Park","district":"Jalpaiguri","category":"National park","g":"wildlife","lat":26.73,"lng":88.79,"why":"One-horned rhinos of the Dooars","tier":"top","months":[9,6],"time":"Overnight"},{"n":102,"name":"Chapramari Wildlife Sanctuary","district":"Jalpaiguri","category":"Wildlife","g":"wildlife","lat":26.88,"lng":88.84,"why":"Elephant forest","tier":"gem","months":[10,5],"time":"Full day"},{"n":103,"name":"Jaldapara National Park","district":"Alipurduar","category":"National park","g":"wildlife","lat":26.7,"lng":89.28,"why":"Rhinos by elephant and jeep","tier":"icon","months":[10,5],"time":"Overnight"},{"n":104,"name":"Buxa Tiger Reserve & Fort","district":"Alipurduar","category":"Wildlife","g":"wildlife","lat":26.76,"lng":89.58,"why":"Forest and the old Buxa fort","tier":"top","months":[10,5],"time":"Full day"},{"n":105,"name":"Jayanti","district":"Alipurduar","category":"River","g":"wildlife","lat":26.7,"lng":89.6,"why":"Riverbed village below Bhutan","tier":"top","months":[10,5],"time":"Full day"},{"n":106,"name":"Chilapata Forest","district":"Alipurduar","category":"Wildlife","g":"wildlife","lat":26.6,"lng":89.37,"why":"Forest with Nalraja ruins","tier":"gem","months":[10,5],"time":"Full day"},{"n":107,"name":"Samsing & Suntalekhola","district":"Jalpaiguri","category":"Village","g":"hills","lat":26.92,"lng":88.8,"why":"Tea-hill villages","tier":"gem","months":[10,5],"time":"Half day"},{"n":108,"name":"Murti River","district":"Jalpaiguri","category":"River","g":"water","lat":26.83,"lng":88.8,"why":"Riverside stays of the Dooars","tier":"gem","months":[10,5],"time":"2 hrs"},{"n":109,"name":"Bindu","district":"Kalimpong","category":"Village","g":"hills","lat":27.1058,"lng":88.8593,"why":"Last village on the Bhutan border","tier":"gem","months":[10,5],"time":"Half day"},{"n":110,"name":"Gaur & Pandua","district":"Malda","category":"Heritage","g":"heritage","lat":24.87,"lng":88.13,"why":"Ruined medieval capitals of Bengal","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":111,"name":"Adina Mosque","district":"Malda","category":"Heritage","g":"heritage","lat":25.15,"lng":88.15,"why":"Once the largest mosque in the subcontinent","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":112,"name":"Raiganj Wildlife Sanctuary","district":"Uttar Dinajpur","category":"Wetland","g":"wildlife","lat":25.6,"lng":88.1,"why":"Asia's large openbill heronry","tier":"top","months":[8,11],"time":"Full day"},{"n":113,"name":"Cooch Behar Palace","district":"Cooch Behar","category":"Heritage","g":"heritage","lat":26.32,"lng":89.44,"why":"Palace modelled on Buckingham","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":114,"name":"Madan Mohan Temple","district":"Cooch Behar","category":"Temple","g":"temple","lat":26.32,"lng":89.45,"why":"Royal temple of Cooch Behar","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":115,"name":"Rasikbil","district":"Cooch Behar","category":"Wetland","g":"wildlife","lat":26.4,"lng":89.65,"why":"Bird lake and mini zoo","tier":"gem","months":[10,3],"time":"Full day"},{"n":116,"name":"Bangarh","district":"Dakshin Dinajpur","category":"Heritage","g":"heritage","lat":25.33,"lng":88.48,"why":"Ancient city mound","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":117,"name":"Mahananda Wildlife Sanctuary","district":"Darjeeling","category":"Wildlife","g":"wildlife","lat":26.88,"lng":88.4,"why":"Forests near Siliguri","tier":"gem","months":[10,5],"time":"Full day"},{"n":118,"name":"Chandraketugarh","district":"North 24 Parganas","category":"Heritage","g":"heritage","lat":22.7,"lng":88.69,"why":"Ancient site of terracotta finds","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":119,"name":"Taki","district":"North 24 Parganas","category":"River","g":"water","lat":22.59,"lng":88.92,"why":"Ichamati river town on the border","tier":"gem","months":[10,3],"time":"2 hrs"},{"n":120,"name":"Bibhutibhushan Wildlife Sanctuary","district":"North 24 Parganas","category":"Wildlife","g":"wildlife","lat":23.12,"lng":88.8,"why":"Deer park of Parmadan","tier":"gem","months":[10,3],"time":"Full day"}],"festivals":[{"name":"Durga Puja","months":[9,10],"when":"September or October","n":9,"about":"UNESCO-listed festival of art-filled pandals across Kolkata."},{"name":"Gangasagar Mela","months":[1,1],"when":"Makar Sankranti","n":28,"about":"Huge bathing fair at the river mouth."},{"name":"Poush Mela","months":[12,12],"when":"December","n":33,"about":"Shantiniketan's winter fair of Baul music and crafts."},{"name":"Basanta Utsav","months":[3,3],"when":"Holi","n":33,"about":"Tagore's spring festival of colours and song."},{"name":"Kolkata Book Fair","months":[1,2],"when":"January–February","n":11,"about":"One of the world's largest book fairs."},{"name":"Christmas on Park Street","months":[12,12],"when":"December","n":12,"about":"Lights and festivities."},{"name":"Jagaddhatri Puja, Chandannagar","months":[11,11],"when":"November","n":66,"about":"Famous light displays of the French town."},{"name":"Bishnupur Mela","months":[12,12],"when":"December","n":38,"about":"Music and crafts fair of the temple town."},{"name":"Kenduli Baul Mela","months":[1,1],"when":"Makar Sankranti","n":37,"about":"Gathering of Baul singers at Jaydev's birthplace."},{"name":"Rash Mela, Cooch Behar","months":[11,11],"when":"November","n":114,"about":"North Bengal's biggest fair."},{"name":"Rath Yatra, Mahesh","months":[6,7],"when":"June or July","n":69,"about":"One of Bengal's oldest chariot festivals."}]}
+{
+ "name": "West Bengal",
+ "intro": "Kolkata's Victoria Memorial, Howrah Bridge and food, Durga Puja, Darjeeling's toy train and Kanchenjunga, the Sundarbans tigers, Shantiniketan, Bishnupur's terracotta temples, Murshidabad's nawabi palaces, and rhinos in the Dooars.",
+ "bases": [
+  [
+   "Kolkata",
+   22.5726,
+   88.3639
+  ],
+  [
+   "Darjeeling",
+   27.036,
+   88.2627
+  ],
+  [
+   "Siliguri",
+   26.7271,
+   88.3953
+  ],
+  [
+   "Shantiniketan",
+   23.678,
+   87.683
+  ],
+  [
+   "Murshidabad",
+   24.18,
+   88.27
+  ],
+  [
+   "Kalimpong",
+   27.06,
+   88.47
+  ],
+  [
+   "Godkhali (Sundarbans)",
+   22.1,
+   88.79
+  ]
+ ],
+ "trails": [
+  {
+   "name": "Kolkata heritage",
+   "note": "Victoria, the river, Kumartuli and College Street.",
+   "ids": [
+    1,
+    14,
+    6,
+    12,
+    13,
+    15,
+    10,
+    2,
+    9,
+    7,
+    11
+   ]
+  },
+  {
+   "name": "Along the Hooghly",
+   "note": "Temples and old European towns upriver.",
+   "ids": [
+    3,
+    4,
+    69,
+    66,
+    68,
+    67,
+    73
+   ]
+  },
+  {
+   "name": "Darjeeling hills",
+   "note": "Toy train, tea, monasteries and sunrise.",
+   "ids": [
+    77,
+    80,
+    84,
+    76,
+    75,
+    78,
+    79,
+    85,
+    91
+   ]
+  },
+  {
+   "name": "Kalimpong and the Dooars",
+   "note": "Hill villages, red pandas and rhinos.",
+   "ids": [
+    93,
+    96,
+    97,
+    98,
+    107,
+    101,
+    103,
+    104,
+    105
+   ]
+  },
+  {
+   "name": "Sundarbans",
+   "note": "Mangroves, tigers and the river mouth.",
+   "ids": [
+    26,
+    25,
+    28,
+    27
+   ]
+  },
+  {
+   "name": "Rarh Bengal",
+   "note": "Tagore, terracotta and the Purulia hills.",
+   "ids": [
+    33,
+    34,
+    38,
+    41,
+    39,
+    44,
+    45,
+    47,
+    46
+   ]
+  },
+  {
+   "name": "Nawabi Bengal",
+   "note": "Murshidabad, Plassey and the old capitals.",
+   "ids": [
+    55,
+    56,
+    57,
+    59,
+    61,
+    110,
+    111
+   ]
+  },
+  {
+   "name": "Sandakphu",
+   "note": "Ridge trek to see Everest and Kanchenjunga.",
+   "ids": [
+    87,
+    86
+   ]
+  }
+ ],
+ "places": [
+  {
+   "n": 1,
+   "name": "Victoria Memorial",
+   "district": "Kolkata",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 22.5448,
+   "lng": 88.3426,
+   "why": "White marble memorial and museum on the Maidan",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2–3 hrs"
+  },
+  {
+   "n": 2,
+   "name": "Howrah Bridge",
+   "district": "Kolkata",
+   "category": "Engineering",
+   "g": "culture",
+   "lat": 22.5851,
+   "lng": 88.3468,
+   "why": "Cantilever icon over the Hooghly",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 3,
+   "name": "Dakshineswar Kali Temple",
+   "district": "North 24 Parganas",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 22.655,
+   "lng": 88.3575,
+   "why": "Riverside temple of Ramakrishna",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 4,
+   "name": "Belur Math",
+   "district": "Howrah",
+   "category": "Ashram",
+   "g": "temple",
+   "lat": 22.632,
+   "lng": 88.356,
+   "why": "Ramakrishna Mission headquarters on the Hooghly",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 5,
+   "name": "Kalighat Temple",
+   "district": "Kolkata",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 22.52,
+   "lng": 88.342,
+   "why": "Shakti Peetha of Kolkata",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 6,
+   "name": "Indian Museum",
+   "district": "Kolkata",
+   "category": "Museum",
+   "g": "culture",
+   "lat": 22.558,
+   "lng": 88.351,
+   "why": "India's oldest museum",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 7,
+   "name": "Jorasanko Thakur Bari",
+   "district": "Kolkata",
+   "category": "Museum",
+   "g": "culture",
+   "lat": 22.585,
+   "lng": 88.36,
+   "why": "Tagore's family home",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 8,
+   "name": "Marble Palace",
+   "district": "Kolkata",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 22.581,
+   "lng": 88.361,
+   "why": "Mansion of marbles and paintings",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 9,
+   "name": "Kumartuli",
+   "district": "Kolkata",
+   "category": "Craft",
+   "g": "culture",
+   "lat": 22.6,
+   "lng": 88.36,
+   "why": "Idol-makers' quarter",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 10,
+   "name": "Mullick Ghat Flower Market",
+   "district": "Kolkata",
+   "category": "Market",
+   "g": "culture",
+   "lat": 22.583,
+   "lng": 88.348,
+   "why": "Marigold market under Howrah Bridge",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 11,
+   "name": "College Street",
+   "district": "Kolkata",
+   "category": "Market",
+   "g": "culture",
+   "lat": 22.575,
+   "lng": 88.363,
+   "why": "Book market and Indian Coffee House",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 12,
+   "name": "Park Street",
+   "district": "Kolkata",
+   "category": "Neighbourhood",
+   "g": "culture",
+   "lat": 22.553,
+   "lng": 88.352,
+   "why": "Restaurants and Christmas lights",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 13,
+   "name": "South Park Street Cemetery",
+   "district": "Kolkata",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 22.547,
+   "lng": 88.36,
+   "why": "18th-century colonial tombs",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 14,
+   "name": "St Paul's Cathedral",
+   "district": "Kolkata",
+   "category": "Church",
+   "g": "heritage",
+   "lat": 22.544,
+   "lng": 88.346,
+   "why": "Gothic cathedral by the Maidan",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 15,
+   "name": "Princep Ghat",
+   "district": "Kolkata",
+   "category": "River",
+   "g": "heritage",
+   "lat": 22.555,
+   "lng": 88.333,
+   "why": "Palladian ghat at sunset",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 16,
+   "name": "Kolkata Food Trail",
+   "district": "Kolkata",
+   "category": "Food",
+   "g": "culture",
+   "lat": 22.56,
+   "lng": 88.35,
+   "why": "Kathi rolls, phuchka, mishti and Chinese at Tangra",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Evening"
+  },
+  {
+   "n": 17,
+   "name": "Mother House",
+   "district": "Kolkata",
+   "category": "Heritage",
+   "g": "culture",
+   "lat": 22.539,
+   "lng": 88.368,
+   "why": "Mother Teresa's tomb",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 18,
+   "name": "Eden Gardens",
+   "district": "Kolkata",
+   "category": "Stadium",
+   "g": "culture",
+   "lat": 22.565,
+   "lng": 88.343,
+   "why": "Historic cricket ground",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 19,
+   "name": "Science City Kolkata",
+   "district": "Kolkata",
+   "category": "Museum",
+   "g": "culture",
+   "lat": 22.54,
+   "lng": 88.396,
+   "why": "Science park",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 20,
+   "name": "Academy of Fine Arts & Nandan",
+   "district": "Kolkata",
+   "category": "Culture",
+   "g": "culture",
+   "lat": 22.542,
+   "lng": 88.344,
+   "why": "Art and film district",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 21,
+   "name": "Chinatown, Tiretta Bazaar",
+   "district": "Kolkata",
+   "category": "Food",
+   "g": "culture",
+   "lat": 22.573,
+   "lng": 88.353,
+   "why": "Chinese breakfast street",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 22,
+   "name": "Armenian Church",
+   "district": "Kolkata",
+   "category": "Church",
+   "g": "heritage",
+   "lat": 22.578,
+   "lng": 88.348,
+   "why": "Oldest church in Kolkata",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 23,
+   "name": "Kolkata Tram Ride",
+   "district": "Kolkata",
+   "category": "Heritage",
+   "g": "culture",
+   "lat": 22.565,
+   "lng": 88.36,
+   "why": "Ride Asia's oldest running tram line",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 24,
+   "name": "Botanical Garden (Great Banyan)",
+   "district": "Howrah",
+   "category": "Garden",
+   "g": "wildlife",
+   "lat": 22.559,
+   "lng": 88.287,
+   "why": "Giant banyan with 3,600 aerial roots",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 25,
+   "name": "Sundarbans National Park",
+   "district": "South 24 Parganas",
+   "category": "National park",
+   "g": "wildlife",
+   "lat": 21.9497,
+   "lng": 88.88,
+   "why": "UNESCO mangroves of the Royal Bengal tiger",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2–3 days"
+  },
+  {
+   "n": 26,
+   "name": "Sajnekhali",
+   "district": "South 24 Parganas",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 22.12,
+   "lng": 88.83,
+   "why": "Watchtower base of the Sundarbans",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 27,
+   "name": "Bakkhali",
+   "district": "South 24 Parganas",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 21.56,
+   "lng": 88.26,
+   "why": "Quiet beach and Henry's Island",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 28,
+   "name": "Gangasagar",
+   "district": "South 24 Parganas",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 21.64,
+   "lng": 88.08,
+   "why": "Where the Ganga meets the sea",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 29,
+   "name": "Digha",
+   "district": "Purba Medinipur",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 21.63,
+   "lng": 87.51,
+   "why": "Popular beach resort",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 30,
+   "name": "Mandarmani",
+   "district": "Purba Medinipur",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 21.66,
+   "lng": 87.7,
+   "why": "Drive-in beach",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 31,
+   "name": "Tajpur",
+   "district": "Purba Medinipur",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 21.65,
+   "lng": 87.61,
+   "why": "Red-crab beach",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 32,
+   "name": "Bargabhima Temple, Tamluk",
+   "district": "Purba Medinipur",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 22.3,
+   "lng": 87.92,
+   "why": "Ancient port's Shakti Peetha",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 33,
+   "name": "Shantiniketan",
+   "district": "Birbhum",
+   "category": "Heritage",
+   "g": "culture",
+   "lat": 23.678,
+   "lng": 87.683,
+   "why": "UNESCO Tagore's university town",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Overnight"
+  },
+  {
+   "n": 34,
+   "name": "Sonajhuri Haat",
+   "district": "Birbhum",
+   "category": "Market",
+   "g": "culture",
+   "lat": 23.69,
+   "lng": 87.66,
+   "why": "Saturday crafts haat with Baul music",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 35,
+   "name": "Tarapith",
+   "district": "Birbhum",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 24.12,
+   "lng": 87.8,
+   "why": "Tantric temple of Tara",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 36,
+   "name": "Bakreswar",
+   "district": "Birbhum",
+   "category": "Hot spring",
+   "g": "water",
+   "lat": 23.88,
+   "lng": 87.37,
+   "why": "Hot springs and temples",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 37,
+   "name": "Kenduli",
+   "district": "Birbhum",
+   "category": "Culture",
+   "g": "culture",
+   "lat": 23.6298,
+   "lng": 87.4513,
+   "why": "Jaydev's birthplace and Baul fair",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 38,
+   "name": "Bishnupur Terracotta Temples",
+   "district": "Bankura",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 23.07,
+   "lng": 87.32,
+   "why": "Terracotta temples of the Malla kings",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 39,
+   "name": "Mukutmanipur",
+   "district": "Bankura",
+   "category": "Lake",
+   "g": "water",
+   "lat": 22.96,
+   "lng": 86.79,
+   "why": "Dam lake among hills",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 40,
+   "name": "Susunia Hill",
+   "district": "Bankura",
+   "category": "Hill",
+   "g": "hills",
+   "lat": 23.4,
+   "lng": 86.98,
+   "why": "Rock-climbing hill with an inscription",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 41,
+   "name": "Bankura Horse (Panchmura)",
+   "district": "Bankura",
+   "category": "Craft village",
+   "g": "culture",
+   "lat": 23.15,
+   "lng": 87.15,
+   "why": "Terracotta horse village",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 42,
+   "name": "Biharinath",
+   "district": "Bankura",
+   "category": "Hill",
+   "g": "hills",
+   "lat": 23.55,
+   "lng": 86.95,
+   "why": "Bankura's highest hill",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 43,
+   "name": "Baluchari Weavers",
+   "district": "Bankura",
+   "category": "Craft",
+   "g": "culture",
+   "lat": 23.07,
+   "lng": 87.32,
+   "why": "Silk sarees woven with stories",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 44,
+   "name": "Purulia Ayodhya Hills",
+   "district": "Purulia",
+   "category": "Hill",
+   "g": "hills",
+   "lat": 23.2,
+   "lng": 86.1,
+   "why": "Hills of falls and Chhau villages",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 45,
+   "name": "Charida Chhau Mask Village",
+   "district": "Purulia",
+   "category": "Craft village",
+   "g": "culture",
+   "lat": 23.29,
+   "lng": 86.09,
+   "why": "Village of Chhau mask makers",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 46,
+   "name": "Baranti",
+   "district": "Purulia",
+   "category": "Lake",
+   "g": "water",
+   "lat": 23.62,
+   "lng": 86.82,
+   "why": "Lake village below hills",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 47,
+   "name": "Garh Panchkot",
+   "district": "Purulia",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 23.62,
+   "lng": 86.78,
+   "why": "Ruined fort below Panchet hill",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 48,
+   "name": "Joychandi Pahar",
+   "district": "Purulia",
+   "category": "Hill",
+   "g": "hills",
+   "lat": 23.37,
+   "lng": 86.67,
+   "why": "Hill of the film Hirak Rajar Deshe",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 49,
+   "name": "Deulghata",
+   "district": "Purulia",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 23.2,
+   "lng": 86.15,
+   "why": "Ancient brick temples on the Kangsabati",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 50,
+   "name": "Turga Falls",
+   "district": "Purulia",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 23.17,
+   "lng": 86.1,
+   "why": "Falls in the Ayodhya hills",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 51,
+   "name": "Jhargram Palace",
+   "district": "Jhargram",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 22.45,
+   "lng": 86.99,
+   "why": "Palace homestay in sal forest",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 52,
+   "name": "Belpahari & Kankrajhore",
+   "district": "Jhargram",
+   "category": "Village",
+   "g": "hills",
+   "lat": 22.65,
+   "lng": 86.77,
+   "why": "Forested hill villages",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 53,
+   "name": "Kurumbera Fort",
+   "district": "Paschim Medinipur",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 22.17,
+   "lng": 87.34,
+   "why": "Laterite fort",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 54,
+   "name": "Gangani",
+   "district": "Paschim Medinipur",
+   "category": "Canyon",
+   "g": "caves",
+   "lat": 22.84,
+   "lng": 87.32,
+   "why": "Bengal's grand canyon on the Shilabati",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 55,
+   "name": "Murshidabad Hazarduari",
+   "district": "Murshidabad",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 24.187,
+   "lng": 88.268,
+   "why": "Palace of a thousand doors",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 56,
+   "name": "Katra Masjid",
+   "district": "Murshidabad",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 24.19,
+   "lng": 88.28,
+   "why": "Murshid Quli Khan's mosque and tomb",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 57,
+   "name": "Khushbagh",
+   "district": "Murshidabad",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 24.18,
+   "lng": 88.27,
+   "why": "Siraj-ud-Daulah's grave garden",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 58,
+   "name": "Nashipur Rajbari",
+   "district": "Murshidabad",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 24.22,
+   "lng": 88.26,
+   "why": "Palace of the Nashipur zamindars near Murshidabad",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 59,
+   "name": "Kathgola Gardens",
+   "district": "Murshidabad",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 24.2,
+   "lng": 88.26,
+   "why": "Merchant palace garden",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 60,
+   "name": "Wasif Manzil & Nizamat Imambara",
+   "district": "Murshidabad",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 24.185,
+   "lng": 88.27,
+   "why": "Nawabi buildings by the river",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 61,
+   "name": "Plassey Monument",
+   "district": "Nadia",
+   "category": "Memorial",
+   "g": "heritage",
+   "lat": 23.8,
+   "lng": 88.25,
+   "why": "Site of the 1757 battle",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 62,
+   "name": "Mayapur ISKCON",
+   "district": "Nadia",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 23.42,
+   "lng": 88.39,
+   "why": "Huge ISKCON temple of Chaitanya's birthplace",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 63,
+   "name": "Nabadwip",
+   "district": "Nadia",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 23.41,
+   "lng": 88.37,
+   "why": "Chaitanya's town",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 64,
+   "name": "Krishnanagar Clay Dolls",
+   "district": "Nadia",
+   "category": "Craft",
+   "g": "culture",
+   "lat": 23.4,
+   "lng": 88.5,
+   "why": "Lifelike clay figures",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 65,
+   "name": "Shantipur Weavers",
+   "district": "Nadia",
+   "category": "Craft",
+   "g": "culture",
+   "lat": 23.25,
+   "lng": 88.43,
+   "why": "Handloom saree town",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 66,
+   "name": "Chandannagar",
+   "district": "Hooghly",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 22.87,
+   "lng": 88.38,
+   "why": "Old French town and strand",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 67,
+   "name": "Bandel Church",
+   "district": "Hooghly",
+   "category": "Church",
+   "g": "heritage",
+   "lat": 22.92,
+   "lng": 88.38,
+   "why": "Bengal's oldest church",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 68,
+   "name": "Hooghly Imambara",
+   "district": "Hooghly",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 22.91,
+   "lng": 88.39,
+   "why": "Riverside imambara with a clock tower",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 69,
+   "name": "Serampore",
+   "district": "Hooghly",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 22.75,
+   "lng": 88.34,
+   "why": "Danish town and Carey's college",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 70,
+   "name": "Tarakeswar",
+   "district": "Hooghly",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 22.89,
+   "lng": 88.02,
+   "why": "Major Shiva pilgrimage",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 71,
+   "name": "Kamarpukur",
+   "district": "Hooghly",
+   "category": "Heritage",
+   "g": "temple",
+   "lat": 22.91,
+   "lng": 87.65,
+   "why": "Ramakrishna's birthplace",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 72,
+   "name": "Antpur Terracotta",
+   "district": "Hooghly",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 22.78,
+   "lng": 88.06,
+   "why": "Radhagobindajiu terracotta temple",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 73,
+   "name": "Kalna 108 Shiva Temples",
+   "district": "Purba Bardhaman",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 23.22,
+   "lng": 88.37,
+   "why": "Concentric circles of 108 temples",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 74,
+   "name": "Curzon Gate, Bardhaman",
+   "district": "Purba Bardhaman",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 23.24,
+   "lng": 87.86,
+   "why": "Royal Bardhaman town",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 75,
+   "name": "Darjeeling",
+   "district": "Darjeeling",
+   "category": "Hill station",
+   "g": "hills",
+   "lat": 27.036,
+   "lng": 88.2627,
+   "why": "Queen of the hills facing Kanchenjunga",
+   "tier": "icon",
+   "months": [
+    10,
+    5
+   ],
+   "time": "2–3 days"
+  },
+  {
+   "n": 76,
+   "name": "Darjeeling Himalayan Railway",
+   "district": "Darjeeling",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 27.04,
+   "lng": 88.265,
+   "why": "UNESCO toy train and the Batasia loop",
+   "tier": "icon",
+   "months": [
+    10,
+    5
+   ],
+   "time": "2 hrs (joyride)"
+  },
+  {
+   "n": 77,
+   "name": "Tiger Hill",
+   "district": "Darjeeling",
+   "category": "Viewpoint",
+   "g": "hills",
+   "lat": 26.99,
+   "lng": 88.29,
+   "why": "Sunrise on Kanchenjunga",
+   "tier": "icon",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Dawn"
+  },
+  {
+   "n": 78,
+   "name": "Happy Valley Tea Estate",
+   "district": "Darjeeling",
+   "category": "Tea estate",
+   "g": "hills",
+   "lat": 27.05,
+   "lng": 88.26,
+   "why": "Tea factory tours",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 79,
+   "name": "Padmaja Naidu Zoo & HMI",
+   "district": "Darjeeling",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 27.06,
+   "lng": 88.25,
+   "why": "Red pandas, snow leopards and the Mountaineering Institute",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 80,
+   "name": "Ghoom Monastery",
+   "district": "Darjeeling",
+   "category": "Monastery",
+   "g": "buddhist",
+   "lat": 27.0,
+   "lng": 88.25,
+   "why": "Old monastery with a Maitreya statue",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 81,
+   "name": "Peace Pagoda, Darjeeling",
+   "district": "Darjeeling",
+   "category": "Monastery",
+   "g": "buddhist",
+   "lat": 27.04,
+   "lng": 88.27,
+   "why": "Japanese peace pagoda",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 82,
+   "name": "Chowrasta & Mall",
+   "district": "Darjeeling",
+   "category": "Promenade",
+   "g": "culture",
+   "lat": 27.042,
+   "lng": 88.265,
+   "why": "Darjeeling's square and cafés",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 83,
+   "name": "Glenary's & Keventer's",
+   "district": "Darjeeling",
+   "category": "Food",
+   "g": "culture",
+   "lat": 27.042,
+   "lng": 88.265,
+   "why": "Colonial-era cafés",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 84,
+   "name": "Batasia Loop",
+   "district": "Darjeeling",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 27.01,
+   "lng": 88.25,
+   "why": "Railway loop with war memorial",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 85,
+   "name": "Mirik",
+   "district": "Darjeeling",
+   "category": "Lake",
+   "g": "water",
+   "lat": 26.887,
+   "lng": 88.188,
+   "why": "Lake town of tea and oranges",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 86,
+   "name": "Sandakphu",
+   "district": "Darjeeling",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 27.106,
+   "lng": 88.001,
+   "why": "Trek with four of the world's five highest peaks in view",
+   "tier": "icon",
+   "months": [
+    10,
+    5
+   ],
+   "time": "5–6 days"
+  },
+  {
+   "n": 87,
+   "name": "Singalila National Park",
+   "district": "Darjeeling",
+   "category": "National park",
+   "g": "wildlife",
+   "lat": 27.1,
+   "lng": 88.0,
+   "why": "Red panda forest on the ridge",
+   "tier": "top",
+   "months": [
+    3,
+    5
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 88,
+   "name": "Lamahatta",
+   "district": "Darjeeling",
+   "category": "Village",
+   "g": "hills",
+   "lat": 27.07,
+   "lng": 88.36,
+   "why": "Eco village of pines",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 89,
+   "name": "Takdah",
+   "district": "Darjeeling",
+   "category": "Village",
+   "g": "hills",
+   "lat": 27.04,
+   "lng": 88.35,
+   "why": "Colonial cantonment of orchids",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 90,
+   "name": "Tinchuley",
+   "district": "Darjeeling",
+   "category": "Village",
+   "g": "hills",
+   "lat": 27.04,
+   "lng": 88.38,
+   "why": "Homestay village with views",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 91,
+   "name": "Kurseong",
+   "district": "Darjeeling",
+   "category": "Hill station",
+   "g": "hills",
+   "lat": 26.88,
+   "lng": 88.28,
+   "why": "Land of white orchids and Netaji's house",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 92,
+   "name": "Makaibari Tea Estate",
+   "district": "Darjeeling",
+   "category": "Tea estate",
+   "g": "hills",
+   "lat": 26.86,
+   "lng": 88.29,
+   "why": "Pioneering organic tea estate",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 93,
+   "name": "Kalimpong",
+   "district": "Kalimpong",
+   "category": "Hill station",
+   "g": "hills",
+   "lat": 27.06,
+   "lng": 88.47,
+   "why": "Flower nurseries and monasteries",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 94,
+   "name": "Zang Dhok Palri Phodang",
+   "district": "Kalimpong",
+   "category": "Monastery",
+   "g": "buddhist",
+   "lat": 27.06,
+   "lng": 88.48,
+   "why": "Monastery on Durpin hill",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 95,
+   "name": "Dr Graham's Homes",
+   "district": "Kalimpong",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 27.07,
+   "lng": 88.49,
+   "why": "Historic school campus",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 96,
+   "name": "Lava & Neora Valley",
+   "district": "Kalimpong",
+   "category": "National park",
+   "g": "wildlife",
+   "lat": 27.08,
+   "lng": 88.66,
+   "why": "Mossy forest of red pandas",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 97,
+   "name": "Rishop",
+   "district": "Kalimpong",
+   "category": "Village",
+   "g": "hills",
+   "lat": 27.1,
+   "lng": 88.65,
+   "why": "Kanchenjunga view village",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 98,
+   "name": "Lolegaon",
+   "district": "Kalimpong",
+   "category": "Village",
+   "g": "hills",
+   "lat": 27.03,
+   "lng": 88.55,
+   "why": "Canopy walk in forest",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 99,
+   "name": "Sillery Gaon & Old Silk Route (WB)",
+   "district": "Kalimpong",
+   "category": "Village",
+   "g": "hills",
+   "lat": 27.13,
+   "lng": 88.59,
+   "why": "Gateway villages to the Silk Route",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 100,
+   "name": "Delo",
+   "district": "Kalimpong",
+   "category": "Viewpoint",
+   "g": "hills",
+   "lat": 27.08,
+   "lng": 88.5,
+   "why": "Hilltop park and paragliding",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 101,
+   "name": "Gorumara National Park",
+   "district": "Jalpaiguri",
+   "category": "National park",
+   "g": "wildlife",
+   "lat": 26.73,
+   "lng": 88.79,
+   "why": "One-horned rhinos of the Dooars",
+   "tier": "top",
+   "months": [
+    9,
+    6
+   ],
+   "time": "Overnight"
+  },
+  {
+   "n": 102,
+   "name": "Chapramari Wildlife Sanctuary",
+   "district": "Jalpaiguri",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 26.88,
+   "lng": 88.84,
+   "why": "Elephant forest",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 103,
+   "name": "Jaldapara National Park",
+   "district": "Alipurduar",
+   "category": "National park",
+   "g": "wildlife",
+   "lat": 26.7,
+   "lng": 89.28,
+   "why": "Rhinos by elephant and jeep",
+   "tier": "icon",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Overnight"
+  },
+  {
+   "n": 104,
+   "name": "Buxa Tiger Reserve & Fort",
+   "district": "Alipurduar",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 26.76,
+   "lng": 89.58,
+   "why": "Forest and the old Buxa fort",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 105,
+   "name": "Jayanti",
+   "district": "Alipurduar",
+   "category": "River",
+   "g": "wildlife",
+   "lat": 26.7,
+   "lng": 89.6,
+   "why": "Riverbed village below Bhutan",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 106,
+   "name": "Chilapata Forest",
+   "district": "Alipurduar",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 26.6,
+   "lng": 89.37,
+   "why": "Forest with Nalraja ruins",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 107,
+   "name": "Samsing & Suntalekhola",
+   "district": "Jalpaiguri",
+   "category": "Village",
+   "g": "hills",
+   "lat": 26.92,
+   "lng": 88.8,
+   "why": "Tea-hill villages",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 108,
+   "name": "Murti River",
+   "district": "Jalpaiguri",
+   "category": "River",
+   "g": "water",
+   "lat": 26.83,
+   "lng": 88.8,
+   "why": "Riverside stays of the Dooars",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 109,
+   "name": "Bindu",
+   "district": "Kalimpong",
+   "category": "Village",
+   "g": "hills",
+   "lat": 27.1058,
+   "lng": 88.8593,
+   "why": "Last village on the Bhutan border",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 110,
+   "name": "Gaur & Pandua",
+   "district": "Malda",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 24.87,
+   "lng": 88.13,
+   "why": "Ruined medieval capitals of Bengal",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 111,
+   "name": "Adina Mosque",
+   "district": "Malda",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 25.15,
+   "lng": 88.15,
+   "why": "Once the largest mosque in the subcontinent",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 112,
+   "name": "Raiganj Wildlife Sanctuary",
+   "district": "Uttar Dinajpur",
+   "category": "Wetland",
+   "g": "wildlife",
+   "lat": 25.6,
+   "lng": 88.1,
+   "why": "Asia's large openbill heronry",
+   "tier": "top",
+   "months": [
+    8,
+    11
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 113,
+   "name": "Cooch Behar Palace",
+   "district": "Cooch Behar",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 26.32,
+   "lng": 89.44,
+   "why": "Palace modelled on Buckingham",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 114,
+   "name": "Madan Mohan Temple",
+   "district": "Cooch Behar",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 26.32,
+   "lng": 89.45,
+   "why": "Royal temple of Cooch Behar",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 115,
+   "name": "Rasikbil",
+   "district": "Cooch Behar",
+   "category": "Wetland",
+   "g": "wildlife",
+   "lat": 26.4,
+   "lng": 89.65,
+   "why": "Bird lake and mini zoo",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 116,
+   "name": "Bangarh",
+   "district": "Dakshin Dinajpur",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 25.33,
+   "lng": 88.48,
+   "why": "Ancient city mound",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 117,
+   "name": "Mahananda Wildlife Sanctuary",
+   "district": "Darjeeling",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 26.88,
+   "lng": 88.4,
+   "why": "Forests near Siliguri",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 118,
+   "name": "Chandraketugarh",
+   "district": "North 24 Parganas",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 22.7,
+   "lng": 88.69,
+   "why": "Ancient site of terracotta finds",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 119,
+   "name": "Taki",
+   "district": "North 24 Parganas",
+   "category": "River",
+   "g": "water",
+   "lat": 22.59,
+   "lng": 88.92,
+   "why": "Ichamati river town on the border",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 120,
+   "name": "Bibhutibhushan Wildlife Sanctuary",
+   "district": "North 24 Parganas",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 23.12,
+   "lng": 88.8,
+   "why": "Deer park of Parmadan",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 121,
+   "name": "Kalyaneshwari Temple",
+   "district": "Paschim Bardhaman",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 23.77,
+   "lng": 86.84,
+   "why": "500-year-old goddess temple by the Barakar near Maithon",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 122,
+   "name": "Garh Jungle",
+   "district": "Paschim Bardhaman",
+   "category": "Forest",
+   "g": "culture",
+   "lat": 23.57,
+   "lng": 87.42,
+   "why": "Sal forest near Durgapur where, by legend, King Surath held the first Durga Puja at Medhas Muni's ashram",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 123,
+   "name": "Churulia",
+   "district": "Paschim Bardhaman",
+   "category": "Birthplace",
+   "g": "heritage",
+   "lat": 23.78,
+   "lng": 87.08,
+   "why": "Birthplace and museum of the rebel poet Kazi Nazrul Islam",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 124,
+   "name": "Ichhai Ghosher Deul",
+   "district": "Paschim Bardhaman",
+   "category": "Temple",
+   "g": "heritage",
+   "lat": 23.6,
+   "lng": 87.5,
+   "why": "Tall brick rekha deul by the Ajay river, an ASI monument linked to the Pala-era chieftain Ichhai Ghosh",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 125,
+   "name": "Kalna Rajbari & Lalji Temple",
+   "district": "Purba Bardhaman",
+   "category": "Temple",
+   "g": "heritage",
+   "lat": 23.222,
+   "lng": 88.364,
+   "why": "Bardhaman Rajas' terracotta temple complex beside the 108 Shiva temples",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 126,
+   "name": "Chupi Char",
+   "district": "Purba Bardhaman",
+   "category": "Bird lake",
+   "g": "wildlife",
+   "lat": 23.43,
+   "lng": 88.33,
+   "why": "Ganga oxbow lake at Purbasthali; winter boat rides among migratory ducks",
+   "tier": "top",
+   "months": [
+    11,
+    2
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 127,
+   "name": "108 Shiva Temples, Nababhat",
+   "district": "Purba Bardhaman",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 23.21,
+   "lng": 87.85,
+   "why": "1788 Bardhaman Raj temple ring on the city's edge",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 128,
+   "name": "Sarbamangala Temple, Bardhaman",
+   "district": "Purba Bardhaman",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 23.24,
+   "lng": 87.86,
+   "why": "Maharaja Kirtichand's 1702 temple to the town's presiding goddess",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 129,
+   "name": "Adina Deer Park",
+   "district": "Malda",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 25.14,
+   "lng": 88.15,
+   "why": "Deer park beside the Adina mosque, 21 km from Malda town",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 130,
+   "name": "Jagjivanpur Buddhist Site",
+   "district": "Malda",
+   "category": "Buddhist site",
+   "g": "buddhist",
+   "lat": 25.05,
+   "lng": 88.4,
+   "why": "Excavated 9th-century Pala monastery, Nandadirghika-Udranga Mahavihara",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 131,
+   "name": "Gadrasini Hill",
+   "district": "Jhargram",
+   "category": "Hill",
+   "g": "hills",
+   "lat": 22.62,
+   "lng": 86.75,
+   "why": "Rocky hill and ashram near Belpahari with views over the Jungle Mahal",
+   "tier": "gem",
+   "months": [
+    11,
+    2
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 132,
+   "name": "Khandarani Dam",
+   "district": "Jhargram",
+   "category": "Lake",
+   "g": "water",
+   "lat": 22.67,
+   "lng": 86.73,
+   "why": "Quiet reservoir ringed by hills on the Belpahari circuit",
+   "tier": "gem",
+   "months": [
+    10,
+    2
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 133,
+   "name": "Kanak Durga Temple, Chilkigarh",
+   "district": "Jhargram",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 22.36,
+   "lng": 86.84,
+   "why": "Forest temple of the Chilkigarh Rajas on the Dulung river",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 134,
+   "name": "Rameshwar Temple, Gopiballavpur",
+   "district": "Jhargram",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 22.12,
+   "lng": 87.06,
+   "why": "Old Odia-style Shiva temple near the Subarnarekha",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 135,
+   "name": "Moghalmari Buddhist Monastery",
+   "district": "Paschim Medinipur",
+   "category": "Buddhist site",
+   "g": "buddhist",
+   "lat": 21.96,
+   "lng": 87.31,
+   "why": "Excavated 6th-century monastery with stucco art, Bengal's largest Buddhist vihara south of the Ganga",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 136,
+   "name": "Pathra Temples",
+   "district": "Paschim Medinipur",
+   "category": "Temple",
+   "g": "heritage",
+   "lat": 22.4,
+   "lng": 87.37,
+   "why": "Cluster of 18th-century terracotta temples on the Kangsabati near Medinipur",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 137,
+   "name": "Narajole Rajbari",
+   "district": "Paschim Medinipur",
+   "category": "Palace",
+   "g": "heritage",
+   "lat": 22.58,
+   "lng": 87.63,
+   "why": "Centuries-old zamindar palace with temples and ponds at Daspur",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 138,
+   "name": "Nayapota Patachitra Village",
+   "district": "Paschim Medinipur",
+   "category": "Craft village",
+   "g": "culture",
+   "lat": 22.25,
+   "lng": 87.62,
+   "why": "Village of scroll painters at Pingla, with homestays and the Pot Maya fair",
+   "tier": "top",
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 139,
+   "name": "Mahishadal Rajbari",
+   "district": "Purba Medinipur",
+   "category": "Palace",
+   "g": "heritage",
+   "lat": 22.18,
+   "lng": 87.98,
+   "why": "Royal palace on the Haldia road with temples and a summer Rath Yatra",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 140,
+   "name": "Hangseswari Temple, Bansberia",
+   "district": "Hooghly",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 22.96,
+   "lng": 88.4,
+   "why": "13-towered 1814 temple shaped on the body's tantric chakras, with a terracotta Vasudeva temple next door",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 141,
+   "name": "Jalpesh Temple",
+   "district": "Jalpaiguri",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 26.52,
+   "lng": 88.85,
+   "why": "Ancient Shiva temple near Mainaguri, crowded at Shivratri and Shravan",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 142,
+   "name": "Baneswar Shiva Temple",
+   "district": "Cooch Behar",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 26.42,
+   "lng": 89.48,
+   "why": "Koch-era Shiva temple whose pond is famous for its old soft-shelled turtles",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  }
+ ],
+ "festivals": [
+  {
+   "name": "Durga Puja",
+   "months": [
+    9,
+    10
+   ],
+   "when": "September or October",
+   "n": 9,
+   "about": "UNESCO-listed festival of art-filled pandals across Kolkata."
+  },
+  {
+   "name": "Gangasagar Mela",
+   "months": [
+    1,
+    1
+   ],
+   "when": "Makar Sankranti",
+   "n": 28,
+   "about": "Huge bathing fair at the river mouth."
+  },
+  {
+   "name": "Poush Mela",
+   "months": [
+    12,
+    12
+   ],
+   "when": "December",
+   "n": 33,
+   "about": "Shantiniketan's winter fair of Baul music and crafts."
+  },
+  {
+   "name": "Basanta Utsav",
+   "months": [
+    3,
+    3
+   ],
+   "when": "Holi",
+   "n": 33,
+   "about": "Tagore's spring festival of colours and song."
+  },
+  {
+   "name": "Kolkata Book Fair",
+   "months": [
+    1,
+    2
+   ],
+   "when": "January–February",
+   "n": 11,
+   "about": "One of the world's largest book fairs."
+  },
+  {
+   "name": "Christmas on Park Street",
+   "months": [
+    12,
+    12
+   ],
+   "when": "December",
+   "n": 12,
+   "about": "Lights and festivities."
+  },
+  {
+   "name": "Jagaddhatri Puja, Chandannagar",
+   "months": [
+    11,
+    11
+   ],
+   "when": "November",
+   "n": 66,
+   "about": "Famous light displays of the French town."
+  },
+  {
+   "name": "Bishnupur Mela",
+   "months": [
+    12,
+    12
+   ],
+   "when": "December",
+   "n": 38,
+   "about": "Music and crafts fair of the temple town."
+  },
+  {
+   "name": "Kenduli Baul Mela",
+   "months": [
+    1,
+    1
+   ],
+   "when": "Makar Sankranti",
+   "n": 37,
+   "about": "Gathering of Baul singers at Jaydev's birthplace."
+  },
+  {
+   "name": "Rash Mela, Cooch Behar",
+   "months": [
+    11,
+    11
+   ],
+   "when": "November",
+   "n": 114,
+   "about": "North Bengal's biggest fair."
+  },
+  {
+   "name": "Rath Yatra, Mahesh",
+   "months": [
+    6,
+    7
+   ],
+   "when": "June or July",
+   "n": 69,
+   "about": "One of Bengal's oldest chariot festivals."
+  }
+ ]
+}
