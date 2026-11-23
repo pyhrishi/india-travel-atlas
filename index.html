@@ -480,6 +480,17 @@ details.tool summary{display:flex;align-items:center;gap:8px;cursor:pointer;list
 .shl{display:grid;gap:8px;margin-top:8px}.shr{display:grid;grid-template-columns:48px minmax(0,1fr);gap:10px;align-items:center}.shr .thumb{width:48px;height:48px}.swshc .act{background:rgba(255,255,255,.1);color:#fff;border-color:rgba(255,255,255,.2)}.swshc .act.pri{background:var(--pink);border-color:var(--pink)}
 .tb{display:grid;grid-template-columns:9.5em minmax(0,1fr);gap:8px;align-items:center;font-size:13px;margin:5px 0}.tbb{height:8px;border-radius:4px;background:rgba(255,255,255,.1);overflow:hidden}.tbb i{display:block;height:100%;background:var(--pink);border-radius:4px}.tbb i.neg{background:#667}
 .swh .sp{padding:0 12px;font-size:14px}.swh .sp+.sp{margin-left:0}#swtaste{margin-left:auto}
+
+/* v68 discover feed */
+.dsh{padding-top:14px}.dsh h2{font-size:30px;margin:2px 0 4px}
+.potd{display:block;position:relative;width:calc(100% - 32px);margin:6px 16px 4px;height:360px;border:0;border-radius:22px;overflow:hidden;padding:0;text-align:left;font:inherit;color:#fff;background:#16181d}.pimg{position:absolute;inset:0}.pimg .pic{border-radius:0}
+.ptx{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:flex-end;gap:4px;padding:18px 16px;background:linear-gradient(180deg,transparent 35%,rgba(0,0,0,.85))}.ptx b{font-size:28px;line-height:1.1}.ptx>span:nth-child(3){font-size:13.5px;opacity:.85}.pw{font-size:15px;line-height:1.4;opacity:.95}
+.shf{margin-top:26px}.shfh{display:flex;align-items:flex-end;gap:10px;padding:0 16px 10px}.shfh h3{margin:0;font-size:19px}.shfh p{margin:2px 0 0;font-size:13.5px;color:var(--soft)}.shfh .more{margin-left:auto;flex:none}
+.shfh .more{border:0;background:none;color:var(--pinkink);font-weight:700;font-size:14px;padding:4px 0}.mrail{scroll-padding-inline:16px}.shr2{display:flex;gap:12px;overflow-x:auto;padding:2px 16px 6px;scroll-padding-inline:16px;scroll-snap-type:x mandatory;scrollbar-width:none}
+.shc{flex:none;width:156px;height:220px;position:relative;border:0;border-radius:18px;overflow:hidden;padding:0;text-align:left;font:inherit;color:#fff;background:#16181d;scroll-snap-align:start}.shc.wide{width:240px;height:180px}.shi{position:absolute;inset:0}.shi .pic{border-radius:0}
+.sht{position:absolute;left:0;right:0;bottom:0;padding:40px 10px 10px;background:linear-gradient(transparent,rgba(0,0,0,.82));display:flex;flex-direction:column;gap:1px}.sht b{font-size:14.5px;line-height:1.2}.sht span{font-size:12px;opacity:.85}
+.shoff{position:absolute;top:8px;left:8px;font-style:normal;font-size:11px;font-weight:800;background:rgba(0,0,0,.6);border-radius:8px;padding:2px 7px}
+.shf ul{margin:0}
 </style>
 </head>
 <body>
@@ -924,7 +935,7 @@ function goBack(){if(navD>0&&history.state&&history.state.ita===depth()&&S.stack
 function doBack(){if(S.stack.length<2)return;S.stack.pop();S.hl=null;const top=S.stack[S.stack.length-1];if(top.v!=="place"){S.sel=null}else S.sel=byId(top.a);if(top.v==="trail")S.trail=curD().trails[top.a].ids.map(n=>curD().places.find(p=>p.n===n));else S.trail=null;paint(false,top.y||0);drawPins();drawRoute()}
 function paint(focus,y=0){const top=S.stack[S.stack.length-1]||{v:"explore"};if(top.v!=="shared")unsubShared();
   const nc=top.v==="coll"?top.a:null;if(nc!==S.coll){S.coll=nc;classStates();setTimeout(()=>{drawPins();if(nc)focusPts(collPlaces(nc));else if(S.slug)focusState()},0)}
-  ({explore:vExplore,list:vList,place:vPlace,trail:vTrail,trip:vTrip,passport:vPassport,states:vStates,search:vSearch,plan:vPlan,shared:vShared,fest:vFest,coll:vColl,near:vNear,bulk:vBulk,trails:vTrails,credits:vCredits,lists:vLists,listv:vListV,slist:vSList,getaway:vGetaway,journal:vJournal,stats:vStats,breaks:vBreaks,region:vRegion,mag:vMag,issue:vIssue,nature:vNature,nev:vNev,journeys:vJourneys,jrn:vJrn,h36:vH36,h36v:vH36v,curio:vCurio,exps:vExps,best:vBest,photo:vPhoto}[top.v]||vExplore)(top.a);
+  ({explore:vExplore,list:vList,place:vPlace,trail:vTrail,trip:vTrip,passport:vPassport,states:vStates,search:vSearch,plan:vPlan,shared:vShared,fest:vFest,coll:vColl,near:vNear,bulk:vBulk,trails:vTrails,credits:vCredits,lists:vLists,listv:vListV,slist:vSList,getaway:vGetaway,journal:vJournal,stats:vStats,breaks:vBreaks,region:vRegion,discover:vDiscover,shelf:vShelf,mag:vMag,issue:vIssue,nature:vNature,nev:vNev,journeys:vJourneys,jrn:vJrn,h36:vH36,h36v:vH36v,curio:vCurio,exps:vExps,best:vBest,photo:vPhoto}[top.v]||vExplore)(top.a);
   const b=$("#bk");if(b)b.onclick=goBack;V.scrollTop=y;bind();hdr();setHash();drawChips();syncNav();updCar();scanPhotos(V);fillLocal(V);if(S.slug)chkDist();else S._ld=S.f.dist;if(focus){const h=V.querySelector("h2");if(h){h.tabIndex=-1;h.focus({preventScroll:true})}}}
 function setHash(){const top=S.stack[S.stack.length-1];let h=S.slug||"";if(top&&top.v==="place"&&S.sel)h=S.sel.slug+"-"+S.sel.n;try{if(h&&location.hash.slice(1)!==h)history.replaceState(history.state,"","#"+h);else if(!h&&location.hash)history.replaceState(history.state,"",location.pathname+location.search)}catch(e){}}
 function bind(){V.querySelectorAll("[data-fz]").forEach(el=>el.onclick=()=>{const[la,ln]=el.dataset.fz.split(",").map(Number);if(mobile())snapTo(0);setTimeout(()=>{const[x,y]=P(ln,la);const v=vb();svg.transition().duration(dur(700)).call(zoom.transform,d3.zoomIdentity.translate(v.x,v.y).scale(6).translate(-x,-y))},mobile()?320:0)});
@@ -938,7 +949,7 @@ function bind(){V.querySelectorAll("[data-fz]").forEach(el=>el.onclick=()=>{cons
   const full=()=>{if(mobile())snapTo(2)};
   V.querySelectorAll("[data-cat]").forEach(el=>el.onclick=()=>{full();S.f={...S.f,cat:el.dataset.cat||null,tier:null,mon:0,dist:null,tm:null};root_("list")});
   V.querySelectorAll("[data-tier]").forEach(el=>el.onclick=()=>{full();S.f={...S.f,cat:null,tier:el.dataset.tier||null,mon:el.dataset.now==="1"?NOWM:0,dist:null,tm:null};root_("list")});
-  const su=$("#surp");if(su)su.onclick=surprise;const ds=$("#dscB");if(ds)ds.onclick=swOpen;magHome();bindMag();const nb=$("#nearB");if(nb)nb.onclick=nearMe}
+  const su=$("#surp");if(su)su.onclick=surprise;const ds=$("#dscB");if(ds)ds.onclick=()=>{root_("discover");if(mobile())snapTo(2)};magHome();bindMag();const nb=$("#nearB");if(nb)nb.onclick=nearMe}
 const base=()=>{const D=curD();const i=M.base[S.slug];return D&&i!=null&&D.bases[i]?{name:D.bases[i][0],lat:D.bases[i][1],lng:D.bases[i][2]}:null};
 const baseSel=()=>{const D=curD();return`<select id="base" aria-label="Distances from"><option value="">Distances from: not set</option>${D.bases.map((b,i)=>`<option value="${i}"${M.base[S.slug]==i?" selected":""}>From ${esc(b[0])}</option>`).join("")}</select>`};
 function bindBase(){const s=$("#base");if(s)s.onchange=e=>{if(e.target.value==="")delete M.base[S.slug];else M.base[S.slug]=+e.target.value;save();paint(false,V.scrollTop)}}
@@ -1159,7 +1170,7 @@ qi.addEventListener("input",()=>{const v=qi.value.trim();$("#srch").classList.to
 qi.addEventListener("keydown",e=>{if(e.key==="Escape"){closeSearch();qi.blur()}else if(e.key==="Enter"){qi.blur()}});
 $("#qx").onclick=()=>{clearQ();openSearch("");qi.focus()};
 addEventListener("keydown",e=>{if(e.key==="Escape"&&document.activeElement!==qi&&S.stack.length>1&&!e.target.closest("textarea")){e.preventDefault();goBack();return}if(e.key==="/"&&document.activeElement.tagName!=="INPUT"&&document.activeElement.tagName!=="TEXTAREA"){e.preventDefault();qi.focus()}});
-document.querySelectorAll("nav button").forEach(b=>b.onclick=()=>{if(b.dataset.v==="discover"){swOpen();return}const again=b.classList.contains("on")&&S.stack.length===1;clearQ();if(again&&mobile()){snapTo(si===0?1:0);return}root_(b.dataset.v);if(mobile()){if(b.dataset.v==="explore"){if(si<1)snapTo(1)}else snapTo(2)}});
+document.querySelectorAll("nav button").forEach(b=>b.onclick=()=>{const again=b.classList.contains("on")&&S.stack.length===1;clearQ();if(again&&mobile()){snapTo(si===0?1:0);return}root_(b.dataset.v);if(mobile()){if(b.dataset.v==="explore"){if(si<1)snapTo(1)}else snapTo(2)}});
 
 /* ================= v9 features ================= */
 const CITIES=[["Bengaluru",12.9716,77.5946],["Mumbai",19.076,72.8777],["Delhi",28.6139,77.209],["Chennai",13.0827,80.2707],["Hyderabad",17.385,78.4867],["Kolkata",22.5726,88.3639],["Pune",18.5204,73.8567],["Ahmedabad",23.0225,72.5714],["Jaipur",26.9124,75.7873],["Lucknow",26.8467,80.9462],["Kochi",9.9312,76.2673],["Chandigarh",30.7333,76.7794],["Bhubaneswar",20.2961,85.8245],["Guwahati",26.1445,91.7362],["Visakhapatnam",17.6868,83.2185],["Vijayawada",16.5062,80.648],["Tirupati",13.6288,79.4192],["Indore",22.7196,75.8577],["Bhopal",23.2599,77.4126],["Patna",25.5941,85.1376],["Nagpur",21.1458,79.0882],["Thiruvananthapuram",8.5241,76.9366],["Coimbatore",11.0168,76.9558],["Mysuru",12.2958,76.6394],["Panaji (Goa)",15.4909,73.8278],["Dehradun",30.3165,78.0322],["Srinagar",34.0837,74.7973],["Shillong",25.5788,91.8933],["Raipur",21.2514,81.6296],["Ranchi",23.3441,85.3096],["Madurai",9.9252,78.1198],["Dibrugarh",27.4728,94.912],["Itanagar",27.0844,93.6053]];
@@ -2105,6 +2116,72 @@ function vPassport(){const all=allPlaces(),been=all.filter(p=>M.been[id(p)]),wan
   V.querySelectorAll("[data-ws]").forEach(b=>b.onclick=()=>{S.wsort=b.dataset.ws;paint(false,V.scrollTop)});
   const wt=$("#wtrip");if(wt)wt.onclick=()=>{const pick=(wIn?W.filter(p=>inSeason(NOWM,p)):W).slice(0,8),before=[...M.trip];M.trip=optimise([...M.trip.map(byId).filter(Boolean),...pick.filter(p=>!M.trip.includes(id(p)))]).map(id);save();hdr();toast(`Trip planned with ${M.trip.length} stops, in a sensible order`,()=>{M.trip=before;save();hdr()});root_("trip");if(mobile())snapTo(2)};
   const fd=V.querySelector(".fold2");if(fd){fd.open=!!S.setOpen;fd.ontoggle=()=>{S.setOpen=fd.open}}}
+
+/* ======== v68: Discover as a daily feed of themed shelves (replaces swipe cards) ======== */
+const cat=re=>p=>re.test(p.category);const nm=re=>p=>re.test(p.name);const tgx=t=>p=>(p.tags||[]).includes(t);
+const dayKey=()=>{const d=new Date();return d.getFullYear()*10000+(d.getMonth()+1)*100+d.getDate()};
+/* themes: [id, title, intro, filter, {season:true to require in season}] */
+const THEMES=[
+ ["falls","Waterfalls in full flow","Falls at or near their best this month",p=>tgx("falls")(p)||cat(/waterfall/i)(p),{season:1}],
+ ["sunrise","Worth the early alarm","Viewpoints, peaks and passes for first light",cat(/viewpoint|pass|hill$|peak/i),{season:1}],
+ ["hillforts","Forts on the hilltops","Climb up for the walls and the views",p=>tgx("fort")(p)&&!cat(/beach/i)(p)&&!/sea|jal|water/i.test(p.name)],
+ ["seaforts","Forts by the sea","Sea forts, island citadels and coastal bastions",p=>tgx("fort")(p)&&(p.g==="coast"||/sea|jal|janjira|island|coast|beach/i.test(p.name+" "+p.category))],
+ ["rockcut","Carved from the rock","Cave temples and monasteries cut into cliffs",p=>p.g==="caves"||cat(/cave/i)(p)],
+ ["stepwells","Stepwells","Water architecture of the west",p=>tgx("stepwell")(p)||cat(/stepwell/i)(p)],
+ ["gompas","Monasteries in the clouds","Gompas of the Himalaya and the Northeast",p=>tgx("monastery")(p)||cat(/monastery/i)(p)],
+ ["tea","Tea and coffee country","Estates, plantations and planters' bungalows",p=>tgx("tea")(p)||cat(/tea|coffee|spice farm/i)(p)],
+ ["tigers","Tiger country","Reserves where tigers live wild",p=>tgx("tiger")(p),{season:1}],
+ ["birds","Birding hotspots","Wetlands and sanctuaries full of birds",p=>cat(/bird|wetland/i)(p),{season:1}],
+ ["quietbeach","Quiet beaches","Sand without the crowds",p=>(tgx("beach")(p)||cat(/beach/i)(p))&&p.tier==="gem",{season:1}],
+ ["islands","Island escapes","River islands, sea islands and atolls",cat(/island/i)],
+ ["lakes","Lakes worth the drive","High lakes, temple tanks and wetlands",cat(/lake/i),{season:1}],
+ ["hotsprings","Hot springs","Warm water in cold places",p=>cat(/hot spring/i)(p)||/hot spring/i.test(p.name)],
+ ["unesco","World Heritage","Places on or tied to the UNESCO list",tgx("unesco")],
+ ["hillstations","Hill stations","Cool towns in the hills",p=>tgx("hillstn")(p)||cat(/hill station/i)(p),{season:1}],
+ ["palaces","Palaces","Royal homes and durbar halls",p=>tgx("palace")(p)||cat(/palace/i)(p)],
+ ["museums","Museums worth a detour","Collections that justify the trip",cat(/museum/i)],
+ ["villages","Living villages","Homestays, crafts and village life",p=>cat(/village/i)(p)],
+ ["crafts","Made by hand","Craft villages and workshops to visit",p=>cat(/craft/i)(p)],
+ ["jyoti","The twelve Jyotirlingas","Shiva's sacred lingas of light",p=>p.g==="temple"&&tgx("jyotirlinga")(p)],
+ ["shakti","Shakti Peeths","Seats of the goddess",tgx("shakti")],
+ ["faith","Gurdwaras, dargahs and churches","Sacred places beyond the temples",cat(/gurdwara|dargah|church|mosque|basilica/i)],
+ ["treks","Day hikes and treks","Trails to stretch your legs",p=>cat(/trek|meadow|valley/i)(p),{season:1}],
+ ["rivers","Rivers and backwaters","Ghats, confluences and slow water",cat(/river|backwater|ghat/i),{season:1}],
+ ["ruins","Ancient ruins","Lost cities and archaeological sites",p=>cat(/archaeolog|ruin/i)(p)||(p.g==="heritage"&&/ruin|ancient|excavat/i.test(p.why||""))],
+ ["buddhist","On the Buddha's trail","Stupas, viharas and monasteries",p=>p.g==="buddhist"],
+ ["engineering","Engineering marvels","Bridges, dams, railways and tunnels",cat(/engineering|dam|rail|ropeway/i)],
+ ["markets","Markets to get lost in","Bazaars, haats and food streets",cat(/market|food/i)],
+ ["passes","High passes","The roads above 4,000 metres",p=>cat(/pass/i)(p),{season:1}],
+ ["desert","Desert nights","Dunes, salt flats and starry skies",p=>cat(/desert/i)(p)||/dune|rann|thar/i.test(p.name),{season:1}],
+ ["forests","Deep forests","Old-growth forest and sacred groves",p=>cat(/forest|national park/i)(p),{season:1}]];
+function themeItems(t){const[,,,f,o={}]=t;return spread(allPlaces().filter(p=>f(p)&&(!o.season||inSeason(NOWM,p))).sort((a,b)=>nowScore(b)-nowScore(a)),40,2)}
+function shelfCard(p,sub){return`<button class="shc" data-p="${id(p)}"><span class="shi" aria-hidden="true">${art(p)}</span><span class="sht"><b>${esc(p.name)}</b><span>${esc(sub||stOf(p.slug).name)}</span></span>${inSeason(NOWM,p)?"":`<i class="shoff">Best ${monthsTxt(p)}</i>`}</button>`}
+function shelf(sid,title,intro,cards,more){return`<section class="shf"><div class="shfh"><div><h3>${esc(title)}</h3>${intro?`<p>${esc(intro)}</p>`:""}</div>${more?`<button class="more" data-shelf="${sid}">See all</button>`:""}</div><div class="shr2">${cards}</div></section>`}
+function dayShelves(){const seed=dayKey(),h=home(),out=[],saved=Object.keys(M.want).map(byId).filter(Boolean),recent=(M.recent||[]).map(byId).filter(Boolean);
+  /* always first: what's best this week, and personal shelves */
+  out.push(["best",`At their best this week`,`Places at the peak of their season in ${MONL[NOWM-1]}`,top10().concat(spread(allPlaces().filter(p=>p.tier!=="gem"&&inSeason(NOWM,p)).sort((a,b)=>nowScore(b)-nowScore(a)),30,1)).filter((p,i,a)=>a.indexOf(p)===i).slice(0,14)]);
+  if(h){const L=spread(allPlaces().filter(p=>inSeason(NOWM,p)&&driveH(h,p)<=3&&km(h,p)>8).sort((a,b)=>nowScore(b)-nowScore(a)),14,4);if(L.length>=5)out.push(["near",`Within three hours of ${h.name}`,"Good for a day out or a night away",L])}
+  const anchor=seeded([...saved,...recent],seed,1)[0];if(anchor){const L=spread(allPlaces().filter(p=>p!==anchor&&p.category===anchor.category&&!M.been[id(p)]&&!M.want[id(p)]).sort((a,b)=>nowScore(b)-nowScore(a)),14,1);if(L.length>=5)out.push(["like",`Because you liked ${anchor.name}`,`More places like it across India: ${anchor.category.toLowerCase()}`,L])}
+  const inB=saved.filter(p=>inSeason(NOWM,p));if(inB.length>=3)out.push(["bucket","From your bucket list, in season now","Places you saved that are good to go to now",inB.slice(0,14)]);
+  /* today's themes: a fresh mix every day */
+  const pool=THEMES.map(t=>[t,themeItems(t)]).filter(x=>x[1].length>=6);seeded(pool,seed,10).forEach(([t,L])=>out.push([t[0],t[1],t[2],L.slice(0,14)]));
+  const rg=REG[seed%REG.length],gems=spread(allPlaces().filter(p=>p.tier==="gem"&&rg[3].includes(p.slug)&&inSeason(NOWM,p)).sort((a,b)=>nowScore(b)-nowScore(a)),14,3);if(gems.length>=5)out.splice(4,0,["gems:"+rg[0],`Hidden gems of ${rg[1].replace(/^The /,"the ")}`,rg[2],gems]);
+  return out}
+function vDiscover(){const seed=dayKey(),sh=dayShelves(),pick=seeded(allPlaces().filter(p=>p.tier!=="gem"&&inSeason(NOWM,p)&&photoOf(id(p))).sort((a,b)=>nowScore(b)-nowScore(a)).slice(0,60),seed,1)[0]||top10()[0],d=new Date();
+  const magS=MAG?[["nature","In nature this month",MAG.nature.filter(n=>inM(NOWM,n.m)).map(n=>nevCard(n,NOWM)).join("")],["journeys","Great journeys in season",MAG.journeys.filter(j=>inM(NOWM,j.months)).map(jrnCard).join("")],["curio","Curiosities",seeded(MAG.cur.filter(c=>c.id),seed,10).map(c=>`<button class="shc wide" data-p="${c.id}"><span class="shi" aria-hidden="true">${art(byId(c.id))}</span><span class="sht"><b>${esc(c.name)}</b><span>${esc(byId(c.id).name)}</span></span></button>`).join("")],["h36","A weekend in a small city",MAG.h36.filter(x=>inM(NOWM,x.months)).map(h36Card).join("")]]:[];
+  let html="";sh.forEach((s,i)=>{html+=shelf(s[0],s[1],s[2],s[3].map(p=>shelfCard(p)).join(""),s[3].length>=6);const m=magS[Math.floor(i/3)];if(i%3===2&&m&&m[2])html+=`<section class="shf"><div class="shfh"><div><h3>${esc(m[1])}</h3></div><button class="more" data-mg="${m[0]}">See all</button></div><div class="mrail">${m[2]}</div></section>`});
+  const fs=fests(NOWM).concat(fests(NOWM%12+1)).slice(0,10);
+  V.innerHTML=`<div class="pad dsh"><span class="cis" style="color:var(--pinkink)">${d.toLocaleDateString("en-IN",{weekday:"long",day:"numeric",month:"long"}).toUpperCase()}</span><h2>Discover</h2><p class="lead" style="margin-bottom:8px">A fresh set of themed picks every day, shaped by the season${home()?" and where you live":""}.</p></div>
+   ${pick?`<button class="potd" data-p="${id(pick)}"><span class="pimg" aria-hidden="true">${art(pick,{hero:1})}</span><span class="ptx"><span class="cis">PICK OF THE DAY</span><b>${esc(pick.name)}</b><span>${esc(pick.district)}, ${esc(stOf(pick.slug).name)} · ${esc(pick.category)}</span>${pick.why?`<span class="pw">${esc(pick.why)}</span>`:""}</span></button>`:""}
+   ${html}
+   ${fs.length?`<section class="shf"><div class="shfh"><div><h3>Festivals coming up</h3><p>${MONL[NOWM-1]} and ${MONL[NOWM%12]}</p></div><button class="more" data-go="fest">All</button></div><ul>${fs.map(f=>festRow(f,true)).join("")}</ul></section>`:""}
+   <div class="pad" style="padding-bottom:24px"><button class="act" id="dsSurp" style="width:100%"><svg class="bi" aria-hidden="true"><use href="#i-dice"/></svg>Surprise me with one place</button><p class="note" style="text-align:center">New shelves tomorrow.</p></div>`;
+  V.querySelectorAll("[data-shelf]").forEach(b=>b.onclick=()=>go2("shelf",b.dataset.shelf));$("#dsSurp").onclick=surprise;bindMag();
+  if(!MAG)loadMag().then(()=>{if(S.stack[S.stack.length-1]?.v==="discover")paint(false,V.scrollTop)}).catch(()=>{})}
+function vShelf(k){const s=dayShelves().find(x=>x[0]===k)||(()=>{const t=THEMES.find(x=>x[0]===k);return t?[t[0],t[1],t[2],themeItems(t)]:null})();if(!s){V.innerHTML=`<div class="pad">${crumbBtn()}<p class="empty">This shelf has changed. Today's shelves are on Discover.</p></div>`;return}
+  const all=k.startsWith("gems:")||k==="best"||k==="near"||k==="like"||k==="bucket"?s[3]:(()=>{const t=THEMES.find(x=>x[0]===k);const[,,,f,o={}]=t;return allPlaces().filter(p=>f(p)&&(!o.season||inSeason(NOWM,p))).sort((a,b)=>nowScore(b)-nowScore(a))})();
+  V.innerHTML=`<div class="pad">${crumbBtn()}<div class="kick">Discover</div><h2>${esc(s[1])}</h2><p class="lead">${esc(s[2])}. ${plural(all.length,"place")}.</p><div class="acts"><button class="act pri" id="shMap">Show on map</button><button class="act" id="shList">Save as a list</button></div></div><ul class="pgrid" id="shg">${all.slice(0,24).map(p=>gridCard(p,1)).join("")}</ul>`;
+  chunkUl($("#shg"),all.slice(24).map(p=>gridCard(p,1)),0);$("#shMap").onclick=()=>showOnMap(all);$("#shList").onclick=()=>{const l=newList(s[1],all.slice(0,60).map(id));toast(`Saved “${l.name}” to your lists`)}}
 
 function route(silent,h0){const h=h0!=null?h0:location.hash.slice(1);const m=h.match(/^(.*)-(\d+)$/);
   if(m&&S.data[m[1]]){const p=S.data[m[1]].places.find(x=>x.n==m[2]);if(p){S.slug=m[1];classStates();S.stack=[{v:"explore"}];openPlace(p,!silent);return}}
