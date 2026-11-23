@@ -491,6 +491,14 @@ details.tool summary{display:flex;align-items:center;gap:8px;cursor:pointer;list
 .sht{position:absolute;left:0;right:0;bottom:0;padding:40px 10px 10px;background:linear-gradient(transparent,rgba(0,0,0,.82));display:flex;flex-direction:column;gap:1px}.sht b{font-size:14.5px;line-height:1.2}.sht span{font-size:12px;opacity:.85}
 .shoff{position:absolute;top:8px;left:8px;font-style:normal;font-size:11px;font-weight:800;background:rgba(0,0,0,.6);border-radius:8px;padding:2px 7px}
 .shf ul{margin:0}
+
+/* v69 */
+.sht{padding:56px 10px 10px;background:linear-gradient(180deg,transparent,rgba(0,0,0,.35) 35%,rgba(0,0,0,.78))}.shc{width:160px;height:224px;box-shadow:0 1px 3px rgba(0,0,0,.12)}.shc .pic .pi{transform:translateY(-22px)}
+.shtag{position:absolute;top:8px;left:8px;font-size:11px;font-weight:800;color:#fff;background:rgba(0,0,0,.55);border-radius:8px;padding:2px 8px;backdrop-filter:blur(4px)}
+.coll2 .cbar{position:absolute;left:0;right:0;top:0;height:6px;background:var(--cc)}.coll2 .sht{background:linear-gradient(180deg,transparent,color-mix(in srgb,var(--cc) 55%,transparent) 30%,color-mix(in srgb,var(--cc) 92%,#000))}
+.thc{display:flex;flex-wrap:wrap;gap:6px}.thc .chip{height:38px;font-size:13.5px}
+.cgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;padding:0 16px 20px}.cg{position:relative;height:190px;border:0;border-radius:18px;overflow:hidden;padding:0;text-align:left;font:inherit;color:#fff;background:var(--cc)}.cgi{position:absolute;inset:0}.cgi .pic{border-radius:0}.cgt{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:flex-end;gap:2px;padding:12px;background:linear-gradient(180deg,transparent 20%,color-mix(in srgb,var(--cc) 70%,transparent) 55%,color-mix(in srgb,var(--cc) 95%,#000))}.cgt b{font-size:15.5px;line-height:1.2}.cgt span{font-size:12px;opacity:.9;line-height:1.3}.cgt i{font-style:normal;font-size:11.5px;font-weight:800;opacity:.9}
+@media(min-width:600px){.cgrid{grid-template-columns:repeat(auto-fill,minmax(180px,1fr))}}
 </style>
 </head>
 <body>
@@ -935,7 +943,7 @@ function goBack(){if(navD>0&&history.state&&history.state.ita===depth()&&S.stack
 function doBack(){if(S.stack.length<2)return;S.stack.pop();S.hl=null;const top=S.stack[S.stack.length-1];if(top.v!=="place"){S.sel=null}else S.sel=byId(top.a);if(top.v==="trail")S.trail=curD().trails[top.a].ids.map(n=>curD().places.find(p=>p.n===n));else S.trail=null;paint(false,top.y||0);drawPins();drawRoute()}
 function paint(focus,y=0){const top=S.stack[S.stack.length-1]||{v:"explore"};if(top.v!=="shared")unsubShared();
   const nc=top.v==="coll"?top.a:null;if(nc!==S.coll){S.coll=nc;classStates();setTimeout(()=>{drawPins();if(nc)focusPts(collPlaces(nc));else if(S.slug)focusState()},0)}
-  ({explore:vExplore,list:vList,place:vPlace,trail:vTrail,trip:vTrip,passport:vPassport,states:vStates,search:vSearch,plan:vPlan,shared:vShared,fest:vFest,coll:vColl,near:vNear,bulk:vBulk,trails:vTrails,credits:vCredits,lists:vLists,listv:vListV,slist:vSList,getaway:vGetaway,journal:vJournal,stats:vStats,breaks:vBreaks,region:vRegion,discover:vDiscover,shelf:vShelf,mag:vMag,issue:vIssue,nature:vNature,nev:vNev,journeys:vJourneys,jrn:vJrn,h36:vH36,h36v:vH36v,curio:vCurio,exps:vExps,best:vBest,photo:vPhoto}[top.v]||vExplore)(top.a);
+  ({explore:vExplore,list:vList,place:vPlace,trail:vTrail,trip:vTrip,passport:vPassport,states:vStates,search:vSearch,plan:vPlan,shared:vShared,fest:vFest,coll:vColl,near:vNear,bulk:vBulk,trails:vTrails,credits:vCredits,lists:vLists,listv:vListV,slist:vSList,getaway:vGetaway,journal:vJournal,stats:vStats,breaks:vBreaks,region:vRegion,discover:vDiscover,shelf:vShelf,colls:vColls,mag:vMag,issue:vIssue,nature:vNature,nev:vNev,journeys:vJourneys,jrn:vJrn,h36:vH36,h36v:vH36v,curio:vCurio,exps:vExps,best:vBest,photo:vPhoto}[top.v]||vExplore)(top.a);
   const b=$("#bk");if(b)b.onclick=goBack;V.scrollTop=y;bind();hdr();setHash();drawChips();syncNav();updCar();scanPhotos(V);fillLocal(V);if(S.slug)chkDist();else S._ld=S.f.dist;if(focus){const h=V.querySelector("h2");if(h){h.tabIndex=-1;h.focus({preventScroll:true})}}}
 function setHash(){const top=S.stack[S.stack.length-1];let h=S.slug||"";if(top&&top.v==="place"&&S.sel)h=S.sel.slug+"-"+S.sel.n;try{if(h&&location.hash.slice(1)!==h)history.replaceState(history.state,"","#"+h);else if(!h&&location.hash)history.replaceState(history.state,"",location.pathname+location.search)}catch(e){}}
 function bind(){V.querySelectorAll("[data-fz]").forEach(el=>el.onclick=()=>{const[la,ln]=el.dataset.fz.split(",").map(Number);if(mobile())snapTo(0);setTimeout(()=>{const[x,y]=P(ln,la);const v=vb();svg.transition().duration(dur(700)).call(zoom.transform,d3.zoomIdentity.translate(v.x,v.y).scale(6).translate(-x,-y))},mobile()?320:0)});
@@ -968,7 +976,6 @@ function row(p,opt={}){const b=base(),pid=id(p),m=M.been[pid]?"Been":M.want[pid]
   if(!opt.q)return`<li>${inner}</li>`;const on=!!M.want[pid];return`<li class="qrow">${inner}<button class="qs${on?" on":""}" data-qs="${pid}" aria-pressed="${on}" aria-label="Want to go: ${esc(p.name)}"><svg aria-hidden="true"><use href="#i-heart"/></svg></button></li>`}
 
 function recentRail(){const L=(M.recent||[]).map(byId).filter(Boolean);return L.length?`<h3 class="pad">Recently viewed</h3><div class="rail">${L.map(p=>card(p,true)).join("")}</div>`:""}
-function collRail(){return`<h3 class="pad">Collections<small>across India</small></h3><div class="rail">${colls().map(c=>{const n=collPlaces(c[0]).length;return n?`<button class="coll" data-coll="${c[0]}" style="background:${c[3]}"><b>${esc(c[1])}</b><span>${n} places</span></button>`:""}).join("")}</div>`}
 function vExplore(){const D=curD();if(!D){vIndia();return}
   const st=stOf(S.slug),L=D.places,cnt=g=>L.filter(p=>p.g===g).length,cats=Object.keys(G).filter(cnt);
   const now=L.filter(p=>inSeason(NOWM,p)),icons=L.filter(p=>p.tier==="icon"),gems=L.filter(p=>p.tier==="gem"),dist=new Set(L.map(p=>p.district.split(" / ")[0])).size;
@@ -2102,7 +2109,7 @@ function vPassport(){const all=allPlaces(),been=all.filter(p=>M.been[id(p)]),wan
    ${ns.length?`<h3>Your next stamp<small>new states, in season now</small></h3><div class="nst">${ns.map(x=>`<button class="nsc" data-s="${x.s.slug}"><span class="thumb" aria-hidden="true">${art(x.ic[0])}</span><span><b class="blk">${esc(x.s.name)}</b><span class="blk m2">${esc(x.ic.slice(0,2).map(p=>p.name).join(" · "))}</span><span class="blk m2">${Math.round(x.ins*100)}% in season${h?` · ~${road(x.d).toLocaleString("en-IN")} km`:""}</span></span><span aria-hidden="true" style="font-size:20px">›</span></button>`).join("")}</div>`:""}
    ${cc?`<button class="nbk" data-coll="${cc.c[0]}" style="margin-top:14px"><span class="brkd" aria-hidden="true"><b>${cc.left}</b>left</span><span><span class="blk" style="font-size:12.5px;color:var(--soft);font-weight:700">CLOSE TO COMPLETING</span><b class="blk">${esc(cc.c[1])}: ${cc.n} of ${cc.L.length}</b><span class="blk" style="font-size:13.5px;color:var(--soft)">${cc.left} more to finish the collection ›</span></span></button>`:""}
    <h3>Kinds of places<small>stamps by type</small></h3><div class="stamps">${Object.keys(G).map(g=>{const n=been.filter(p=>p.g===g).length,t=all.filter(p=>p.g===g).length;return`<div class="stamp${S.fresh&&S.fresh.g===g&&Date.now()-S.fresh.t<120000?" fresh":""}" role="img" aria-label="${G[g][0]}: ${n} of ${t} visited" style="color:${n?G[g][1]:"var(--faint)"};transform:rotate(${(g.length*7%13)-6}deg)">${stampSVG(G[g][1],n)}<div>${ico(g,22)}<b>${n}</b>${G[g][0].split(" & ")[0]}<br><span style="font-weight:500;opacity:.8">of ${t}</span></div></div>`}).join("")}</div>
-   <h3>Collections<small>your progress</small></h3>${colls().filter(c=>c[0]!=="iconic").map(c=>{const L=collPlaces(c[0]);if(!L.length)return"";const n=L.filter(p=>M.been[id(p)]).length;return`<button class="series" data-coll="${c[0]}"><b>${esc(c[1])}</b><span>${n} of ${L.length}</span><span class="sbar"><i style="width:${n/L.length*100}%"></i></span></button>`}).join("")}
+   <h3>Collections<small>your progress</small><button class="more" data-go="colls">All ${colls().length}</button></h3>${(()=>{const C=colls().filter(c=>c[0]!=="iconic"&&c[0]!=="gems").map(c=>{const L=collPlaces(c[0]);return[c,L,L.filter(p=>M.been[id(p)]).length]}).filter(x=>x[1].length);const S2=C.filter(x=>x[2]).sort((a,b)=>b[2]/b[1].length-a[2]/a[1].length),sh=(S2.length?S2:C.slice(0,4)).slice(0,8);return sh.map(([c,L,n])=>`<button class="series" data-coll="${c[0]}"><b>${esc(c[1])}</b><span>${n} of ${L.length}</span><span class="sbar"><i style="width:${n/L.length*100}%"></i></span></button>`).join("")+(C.length>sh.length?`<p class="note">${C.length-sh.length} more collections to start. <button class="lnk2" data-go="colls">See all</button></p>`:"")})()}
    ${been.length?`<h3>Latest stamps<button class="more" data-go="journal">Journal</button></h3>`:""}</div>
    ${been.length?`<ul>${been.map(p=>[p,vis[id(p)]?.date||"",M.been[id(p)]]).sort((a,b)=>(b[1]||"").localeCompare(a[1]||"")||b[2]-a[2]).slice(0,5).map(([p,d])=>row(p,{state:1,mb:0}).replace('<span class="r">',`<span class="r"><span>${d?new Date(d+"T00:00").toLocaleDateString("en-IN",{day:"numeric",month:"short"}):""}</span>`)).join("")}</ul>`:""}
    <h3 class="pad">Bucket list<small>${want.length} saved${want.length?` · ${wIn} in season now`:""}</small></h3>
@@ -2118,14 +2125,14 @@ function vPassport(){const all=allPlaces(),been=all.filter(p=>M.been[id(p)]),wan
   const fd=V.querySelector(".fold2");if(fd){fd.open=!!S.setOpen;fd.ontoggle=()=>{S.setOpen=fd.open}}}
 
 /* ======== v68: Discover as a daily feed of themed shelves (replaces swipe cards) ======== */
-const cat=re=>p=>re.test(p.category);const nm=re=>p=>re.test(p.name);const tgx=t=>p=>(p.tags||[]).includes(t);
+const cat=re=>p=>re.test(p.category);const isFort=p=>/fort/i.test(p.category)||/\bfort\b|qila|killa|kila|durg|garh\b|janjira|citadel/i.test(p.name);const seaF=p=>p.g==="coast"||/\bsea\b|janjira|island|coast|beach|sindhudurg|vijaydurg|aguada|bekal|diu|daman|murud|kolaba|chapora|cabo|thalassery|tellicherry|angelo|anjengo|dansborg|tharangambadi|reis magos|bandstand|jaigad|suvarnadurg|padmadurg|kanakdurg/i.test(p.name+" "+p.category);const nm=re=>p=>re.test(p.name);const tgx=t=>p=>(p.tags||[]).includes(t);
 const dayKey=()=>{const d=new Date();return d.getFullYear()*10000+(d.getMonth()+1)*100+d.getDate()};
 /* themes: [id, title, intro, filter, {season:true to require in season}] */
 const THEMES=[
  ["falls","Waterfalls in full flow","Falls at or near their best this month",p=>tgx("falls")(p)||cat(/waterfall/i)(p),{season:1}],
  ["sunrise","Worth the early alarm","Viewpoints, peaks and passes for first light",cat(/viewpoint|pass|hill$|peak/i),{season:1}],
- ["hillforts","Forts on the hilltops","Climb up for the walls and the views",p=>tgx("fort")(p)&&!cat(/beach/i)(p)&&!/sea|jal|water/i.test(p.name)],
- ["seaforts","Forts by the sea","Sea forts, island citadels and coastal bastions",p=>tgx("fort")(p)&&(p.g==="coast"||/sea|jal|janjira|island|coast|beach/i.test(p.name+" "+p.category))],
+ ["hillforts","Forts on the hilltops","Climb up for the walls and the views",p=>isFort(p)&&!seaF(p)],
+ ["seaforts","Forts by the sea","Sea forts, island citadels and coastal bastions",p=>isFort(p)&&seaF(p)],
  ["rockcut","Carved from the rock","Cave temples and monasteries cut into cliffs",p=>p.g==="caves"||cat(/cave/i)(p)],
  ["stepwells","Stepwells","Water architecture of the west",p=>tgx("stepwell")(p)||cat(/stepwell/i)(p)],
  ["gompas","Monasteries in the clouds","Gompas of the Himalaya and the Northeast",p=>tgx("monastery")(p)||cat(/monastery/i)(p)],
@@ -2161,20 +2168,22 @@ function dayShelves(){const seed=dayKey(),h=home(),out=[],saved=Object.keys(M.wa
   /* always first: what's best this week, and personal shelves */
   out.push(["best",`At their best this week`,`Places at the peak of their season in ${MONL[NOWM-1]}`,top10().concat(spread(allPlaces().filter(p=>p.tier!=="gem"&&inSeason(NOWM,p)).sort((a,b)=>nowScore(b)-nowScore(a)),30,1)).filter((p,i,a)=>a.indexOf(p)===i).slice(0,14)]);
   if(h){const L=spread(allPlaces().filter(p=>inSeason(NOWM,p)&&driveH(h,p)<=3&&km(h,p)>8).sort((a,b)=>nowScore(b)-nowScore(a)),14,4);if(L.length>=5)out.push(["near",`Within three hours of ${h.name}`,"Good for a day out or a night away",L])}
-  const anchor=seeded([...saved,...recent],seed,1)[0];if(anchor){const L=spread(allPlaces().filter(p=>p!==anchor&&p.category===anchor.category&&!M.been[id(p)]&&!M.want[id(p)]).sort((a,b)=>nowScore(b)-nowScore(a)),14,1);if(L.length>=5)out.push(["like",`Because you liked ${anchor.name}`,`More places like it across India: ${anchor.category.toLowerCase()}`,L])}
+  const anchor=seeded([...saved,...recent],seed,1)[0];if(anchor){const L=spread(allPlaces().filter(p=>p!==anchor&&p.category===anchor.category&&!M.been[id(p)]&&!M.want[id(p)]).sort((a,b)=>nowScore(b)-nowScore(a)),14,1);if(L.length>=5)out.push(["like",`Because you liked ${anchor.name}`,`More ${G[anchor.g][0].toLowerCase()} like it, across India`,L])}
   const inB=saved.filter(p=>inSeason(NOWM,p));if(inB.length>=3)out.push(["bucket","From your bucket list, in season now","Places you saved that are good to go to now",inB.slice(0,14)]);
   /* today's themes: a fresh mix every day */
   const pool=THEMES.map(t=>[t,themeItems(t)]).filter(x=>x[1].length>=6);seeded(pool,seed,10).forEach(([t,L])=>out.push([t[0],t[1],t[2],L.slice(0,14)]));
   const rg=REG[seed%REG.length],gems=spread(allPlaces().filter(p=>p.tier==="gem"&&rg[3].includes(p.slug)&&inSeason(NOWM,p)).sort((a,b)=>nowScore(b)-nowScore(a)),14,3);if(gems.length>=5)out.splice(4,0,["gems:"+rg[0],`Hidden gems of ${rg[1].replace(/^The /,"the ")}`,rg[2],gems]);
   return out}
 function vDiscover(){const seed=dayKey(),sh=dayShelves(),pick=seeded(allPlaces().filter(p=>p.tier!=="gem"&&inSeason(NOWM,p)&&photoOf(id(p))).sort((a,b)=>nowScore(b)-nowScore(a)).slice(0,60),seed,1)[0]||top10()[0],d=new Date();
-  const magS=MAG?[["nature","In nature this month",MAG.nature.filter(n=>inM(NOWM,n.m)).map(n=>nevCard(n,NOWM)).join("")],["journeys","Great journeys in season",MAG.journeys.filter(j=>inM(NOWM,j.months)).map(jrnCard).join("")],["curio","Curiosities",seeded(MAG.cur.filter(c=>c.id),seed,10).map(c=>`<button class="shc wide" data-p="${c.id}"><span class="shi" aria-hidden="true">${art(byId(c.id))}</span><span class="sht"><b>${esc(c.name)}</b><span>${esc(byId(c.id).name)}</span></span></button>`).join("")],["h36","A weekend in a small city",MAG.h36.filter(x=>inM(NOWM,x.months)).map(h36Card).join("")]]:[];
-  let html="";sh.forEach((s,i)=>{html+=shelf(s[0],s[1],s[2],s[3].map(p=>shelfCard(p)).join(""),s[3].length>=6);const m=magS[Math.floor(i/3)];if(i%3===2&&m&&m[2])html+=`<section class="shf"><div class="shfh"><div><h3>${esc(m[1])}</h3></div><button class="more" data-mg="${m[0]}">See all</button></div><div class="mrail">${m[2]}</div></section>`});
+  const trs=trailsFit(1,10,NOWM,null,0),cl=seeded(colls().filter(c=>collPlaces(c[0]).length>=6),seed+9,12);
+  const magS=[...(MAG?[["nature","In nature this month",MAG.nature.filter(n=>inM(NOWM,n.m)).map(natX).join("")],["journeys","Great journeys in season",MAG.journeys.filter(j=>inM(NOWM,j.months)).map(jrnX).join("")]]:[]),["trails","Trails to try this month",trs.map(trailX).join("")],["colls","Collections",cl.map(collX).join("")],...(MAG?[["curio","Curiosities",seeded(MAG.cur.filter(c=>c.id&&byId(c.id)),seed,10).map(curX).join("")],["h36","A weekend in a small city",MAG.h36.filter(x=>inM(NOWM,x.months)).map(h36X).join("")]]:[])];
+  let html="";sh.forEach((s,i)=>{html+=shelf(s[0],s[1],s[2],s[3].map(p=>shelfCard(p)).join(""),s[3].length>=6);const m=magS[Math.floor(i/2)];if(i%2===1&&m&&m[2])html+=`<section class="shf"><div class="shfh"><div><h3>${esc(m[1])}</h3></div><button class="more" ${m[0]==="trails"?'data-go="trails"':m[0]==="colls"?'data-go="colls"':`data-mg="${m[0]}"`}>See all</button></div><div class="shr2">${m[2]}</div></section>`});
   const fs=fests(NOWM).concat(fests(NOWM%12+1)).slice(0,10);
   V.innerHTML=`<div class="pad dsh"><span class="cis" style="color:var(--pinkink)">${d.toLocaleDateString("en-IN",{weekday:"long",day:"numeric",month:"long"}).toUpperCase()}</span><h2>Discover</h2><p class="lead" style="margin-bottom:8px">A fresh set of themed picks every day, shaped by the season${home()?" and where you live":""}.</p></div>
    ${pick?`<button class="potd" data-p="${id(pick)}"><span class="pimg" aria-hidden="true">${art(pick,{hero:1})}</span><span class="ptx"><span class="cis">PICK OF THE DAY</span><b>${esc(pick.name)}</b><span>${esc(pick.district)}, ${esc(stOf(pick.slug).name)} · ${esc(pick.category)}</span>${pick.why?`<span class="pw">${esc(pick.why)}</span>`:""}</span></button>`:""}
    ${html}
    ${fs.length?`<section class="shf"><div class="shfh"><div><h3>Festivals coming up</h3><p>${MONL[NOWM-1]} and ${MONL[NOWM%12]}</p></div><button class="more" data-go="fest">All</button></div><ul>${fs.map(f=>festRow(f,true)).join("")}</ul></section>`:""}
+   <section class="shf"><div class="shfh"><div><h3>Browse every theme</h3><p>Not just today's picks</p></div></div><div class="pad thc">${THEMES.map(t=>`<button class="chip" data-shelf="${t[0]}">${esc(t[1])}</button>`).join("")}</div></section>
    <div class="pad" style="padding-bottom:24px"><button class="act" id="dsSurp" style="width:100%"><svg class="bi" aria-hidden="true"><use href="#i-dice"/></svg>Surprise me with one place</button><p class="note" style="text-align:center">New shelves tomorrow.</p></div>`;
   V.querySelectorAll("[data-shelf]").forEach(b=>b.onclick=()=>go2("shelf",b.dataset.shelf));$("#dsSurp").onclick=surprise;bindMag();
   if(!MAG)loadMag().then(()=>{if(S.stack[S.stack.length-1]?.v==="discover")paint(false,V.scrollTop)}).catch(()=>{})}
@@ -2182,6 +2191,43 @@ function vShelf(k){const s=dayShelves().find(x=>x[0]===k)||(()=>{const t=THEMES.
   const all=k.startsWith("gems:")||k==="best"||k==="near"||k==="like"||k==="bucket"?s[3]:(()=>{const t=THEMES.find(x=>x[0]===k);const[,,,f,o={}]=t;return allPlaces().filter(p=>f(p)&&(!o.season||inSeason(NOWM,p))).sort((a,b)=>nowScore(b)-nowScore(a))})();
   V.innerHTML=`<div class="pad">${crumbBtn()}<div class="kick">Discover</div><h2>${esc(s[1])}</h2><p class="lead">${esc(s[2])}. ${plural(all.length,"place")}.</p><div class="acts"><button class="act pri" id="shMap">Show on map</button><button class="act" id="shList">Save as a list</button></div></div><ul class="pgrid" id="shg">${all.slice(0,24).map(p=>gridCard(p,1)).join("")}</ul>`;
   chunkUl($("#shg"),all.slice(24).map(p=>gridCard(p,1)),0);$("#shMap").onclick=()=>showOnMap(all);$("#shList").onclick=()=>{const l=newList(s[1],all.slice(0,60).map(id));toast(`Saved “${l.name}” to your lists`)}}
+
+/* ======== v69: more collections, unified Discover cards, theme browser, collections hub ======== */
+/* new collections built from the same rules as the Discover themes (existing ones keep their ids) */
+[["hotsprings","Hot springs","Warm water in cold places","#b45309",p=>cat(/hot spring/i)(p)||/hot spring/i.test(p.name)],
+ ["lakes","Lakes","High lakes, temple tanks and wetlands","#1f78d1",cat(/lake/i)],
+ ["islands","Island escapes","River islands, sea islands and atolls","#0891b2",cat(/island/i)],
+ ["rockcut","Caves and rock-cut temples","Shrines carved into cliffs","#6b5b4b",p=>p.g==="caves"||cat(/cave/i)(p)],
+ ["hillforts","Hill forts","Climb up for the walls and the views","#7c4a1e",p=>isFort(p)&&!seaF(p)],
+ ["seaforts","Sea forts","Island citadels and coastal bastions","#0e7490",p=>isFort(p)&&seaF(p)],
+ ["views","Viewpoints and sunrise spots","Peaks, passes and lookouts","#c2410c",cat(/viewpoint|peak/i)],
+ ["birds","Birding hotspots","Wetlands and bird sanctuaries","#15803d",cat(/bird|wetland/i)],
+ ["museums","Museums","Collections worth a detour","#475569",cat(/museum/i)],
+ ["villages","Living villages","Village life, homestays and heritage hamlets","#a16207",p=>cat(/village/i)(p)&&!cat(/craft/i)(p)],
+ ["crafts","Craft villages","Where things are still made by hand","#be185d",cat(/craft/i)],
+ ["faith","Gurdwaras, dargahs and churches","Sacred places beyond the temples","#7e22ce",cat(/gurdwara|dargah|church|mosque|basilica/i)],
+ ["treks","Treks, meadows and valleys","Trails to stretch your legs","#166534",cat(/trek|meadow|valley/i)],
+ ["rivers","Rivers, ghats and backwaters","Slow water and sacred banks","#0369a1",cat(/river|backwater|ghat/i)],
+ ["ruins","Ancient ruins","Lost cities and archaeological sites","#78350f",p=>cat(/archaeolog|ruin/i)(p)||(p.g==="heritage"&&/ruin|ancient|excavat/i.test(p.why||""))],
+ ["buddhist","The Buddha's trail","Stupas, viharas and monasteries","#ca8a04",p=>p.g==="buddhist"],
+ ["engineering","Engineering marvels","Bridges, dams, railways and tunnels","#334155",cat(/engineering|dam|rail|ropeway/i)],
+ ["markets","Markets and food streets","Bazaars, haats and street food","#dc2626",cat(/market|food/i)],
+ ["passes","High passes","Roads above 4,000 metres","#64748b",cat(/pass/i)],
+ ["desert","Deserts and salt flats","Dunes, the Rann and starry nights","#d97706",p=>cat(/desert/i)(p)||/dune|rann|thar/i.test(p.name)],
+ ["parks","National parks","Protected forests and grasslands","#3f6212",cat(/national park|forest/i)],
+ ["gems","Hidden gems","Every place rated Hidden gem","#9d174d",p=>p.tier==="gem"]].forEach(c=>{if(!COLL.some(x=>x[0]===c[0]))COLL.push(c)});
+/* Discover: one card style for everything */
+function shcX(o){return`<button class="shc" ${o.attr}><span class="shi" aria-hidden="true">${o.p?art(o.p):magPic(null,o.c)}</span>${o.tag?`<span class="shtag">${esc(o.tag)}</span>`:""}<span class="sht"><b>${esc(o.t)}</b><span>${esc(o.s)}</span></span></button>`}
+const natX=n=>shcX({attr:`data-nev="${n.id}"`,p:firstP(n.ids),tag:NK[n.kind]||"Nature",t:n.name,s:`Peak ${n.peak}`,c:"#2e8b4a"});
+const jrnX=j=>shcX({attr:`data-jrn="${j.id}"`,p:firstP(j.stops.map(s=>s.id).filter(Boolean).reverse()),tag:j.kind==="rail"?"By rail":"By road",t:j.name,s:`${j.days.split(",")[0]} · ~${j.km.toLocaleString("en-IN")} km`,c:"#1f78d1"});
+const h36X=h=>shcX({attr:`data-h36="${h.id}"`,p:firstP(h.ids),tag:"36 hours",t:h.base,s:stOf(h.slug)?.name||"",c:"#e4572e"});
+const curX=c=>shcX({attr:`data-p="${c.id}"`,p:byId(c.id),tag:"Curiosity",t:c.name,s:byId(c.id)?.name||""});
+const trailX=x=>shcX({attr:`data-tr="${x.s}|${x.i}"`,p:x.ps[0],tag:"Trail",t:x.t.name,s:`${stOf(x.s).name} · ${x.ps.length} stops`});
+const collX=c=>{const L=collPlaces(c[0]),p=spread(L.filter(x=>photoOf(id(x))).sort((a,b)=>tierW[b.tier]-tierW[a.tier]),1)[0]||L[0];return`<button class="shc coll2" data-coll="${c[0]}" style="--cc:${c[3]}"><span class="shi" aria-hidden="true">${p?art(p):""}</span><span class="cbar" aria-hidden="true"></span><span class="sht"><b>${esc(c[1])}</b><span>${L.length} places</span></span></button>`};
+function vColls(){const L=colls().map(c=>[c,collPlaces(c[0])]).filter(x=>x[1].length);
+  V.innerHTML=`<div class="pad">${crumbBtn()}<div class="kick">Collections</div><h2>Every collection</h2><p class="lead">${L.length} hand-built sets of places across India, from Jyotirlingas and sea forts to hot springs and craft villages. Each one tracks your progress in Passport.</p></div>
+   <div class="cgrid">${L.map(([c,ps])=>{const n=ps.filter(p=>M.been[id(p)]).length,p=spread(ps.filter(x=>photoOf(id(x))).sort((a,b)=>tierW[b.tier]-tierW[a.tier]),1)[0]||ps[0];return`<button class="cg" data-coll="${c[0]}" style="--cc:${c[3]}"><span class="cgi" aria-hidden="true">${p?art(p):""}</span><span class="cgt"><b>${esc(c[1])}</b><span>${esc(c[2])}</span><i>${ps.length} places${n?` · ${n} visited`:""}</i></span></button>`}).join("")}</div>`}
+function collRail(){const L=colls().filter(c=>collPlaces(c[0]).length);return`<h3 class="pad">Collections<small>${L.length} across India</small><button class="more" data-go="colls">See all</button></h3><div class="shr2">${L.map(collX).join("")}</div>`}
 
 function route(silent,h0){const h=h0!=null?h0:location.hash.slice(1);const m=h.match(/^(.*)-(\d+)$/);
   if(m&&S.data[m[1]]){const p=S.data[m[1]].places.find(x=>x.n==m[2]);if(p){S.slug=m[1];classStates();S.stack=[{v:"explore"}];openPlace(p,!silent);return}}
