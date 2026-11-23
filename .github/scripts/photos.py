@@ -5,7 +5,10 @@ photos, retries misses after 30 days. Rules match the app: an article's coordina
 to the place (50 km for a direct title, 30 km for search, 3 km for nearby articles)."""
 import json, os, re, sys, time, math, glob, urllib.parse, urllib.request, html
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-OUT = os.path.join(ROOT, 'data', 'photos.json')
+OUT = os.path.join(ROOT, 'data', 'photos.json')          # small: key -> thumbnail path (loaded by the app at start)
+CRED = os.path.join(ROOT, 'data', 'photo-credits.json')  # credits: loaded only on the credits screen
+STATE = os.path.join(ROOT, '.github', 'photos-state.json')  # full records + miss timestamps for the job
+BASE = 'https://upload.wikimedia.org/wikipedia/commons/thumb/'
 UA = 'IndiaTravelAtlas/1.0 (https://pyhrishi.github.io/india-travel-atlas/; github.com/pyhrishi)'
 API = 'https://en.wikipedia.org/w/api.php'
 COM = 'https://commons.wikimedia.org/w/api.php'
@@ -55,7 +58,7 @@ def main():
         for p in json.load(open(f))['places']:
             places.append(dict(k=f"{slug}:{p['n']}", name=p['name'], dist=p.get('district', ''), st=states.get(slug, ''),
                                ll=(p['lat'], p['lng'])))
-    old = json.load(open(OUT)) if os.path.exists(OUT) else {'p': {}, 'miss': {}}
+    old = json.load(open(STATE)) if os.path.exists(STATE) else (json.load(open(OUT)) if os.path.exists(OUT) and json.load(open(OUT)).get('v') == 1 else {'p': {}, 'miss': {}})
     P, M = old.get('p', {}), old.get('miss', {})
     keys = {p['k'] for p in places}
     P = {k: v for k, v in P.items() if k in keys}; M = {k: v for k, v in M.items() if k in keys}
@@ -122,7 +125,12 @@ def main():
         P[k] = r; M.pop(k, None)
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     json.dump({'v': 1, 'updated': NOW, 'p': dict(sorted(P.items())), 'miss': dict(sorted(M.items()))},
+              open(STATE, 'w'), ensure_ascii=False, separators=(',', ':'))
+    short = {k: (r['t'][len(BASE):] if r['t'].startswith(BASE) else r['t']) for k, r in sorted(P.items())}
+    json.dump({'v': 2, 'base': BASE, 'updated': NOW, 'p': short, 'miss': sorted(M)},
               open(OUT, 'w'), ensure_ascii=False, separators=(',', ':'))
+    json.dump({k: {x: r[x] for x in ('f', 'w', 'a', 'l', 'lu') if r.get(x)} for k, r in sorted(P.items())},
+              open(CRED, 'w'), ensure_ascii=False, separators=(',', ':'))
     print(f'done: {len(P)} of {len(places)} places have photos ({len(found)} new)')
 
 if __name__ == '__main__':

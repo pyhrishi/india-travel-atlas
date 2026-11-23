@@ -547,10 +547,13 @@ function paintPic(el){const k=el.dataset.pk,r=photoOf(k);if(!r||el.classList.con
 function paintPics(keys){const sel=keys?keys.map(k=>`.pic[data-pk="${CSS.escape(k)}"]:not(.has)`).join(","):".pic[data-pk]:not(.has)";if(sel)document.querySelectorAll(sel).forEach(paintPic)}
 /* photos found ahead of time by a GitHub job (data/photos.json); the on-device lookup fills any gaps */
 let phBundle=null;
-const phReady=fetch("data/photos.json",{cache:"no-cache"}).then(r=>r.ok?r.json():null).then(j=>{if(j&&j.p){phBundle=j;for(const k in j.p)PH[k]=j.p[k];for(const k in j.miss||{})if(!(k in PH))PH[k]=-1;paintPics()}else phBundle={}}).catch(()=>{phBundle={}});
-document.addEventListener("click",e=>{const b=e.target.closest(".pcr");if(!b)return;e.stopPropagation();const r=photoOf(b.dataset.cr),p=byId(b.dataset.cr);if(!r||!p)return;
+const phReady=fetch("data/photos.json",{cache:"no-cache"}).then(r=>r.ok?r.json():null).then(j=>{if(j&&j.p){phBundle=j;
+    if(j.v===2){for(const k in j.p){const t=j.p[k],o=PH[k]&&PH[k].t?PH[k]:{};PH[k]=Object.assign(o,{t:/^https?:/.test(t)?t:j.base+t})}for(const k of j.miss||[])if(!(k in PH))PH[k]=-1}
+    else{for(const k in j.p)PH[k]=j.p[k];for(const k in j.miss||{})if(!(k in PH))PH[k]=-1}paintPics()}else phBundle={}}).catch(()=>{phBundle={}});
+let phCred=null;function loadCredits(){if(!phCred)phCred=fetch("data/photo-credits.json").then(r=>r.ok?r.json():{}).then(c=>{for(const k in c)if(PH[k]&&PH[k].t)Object.assign(PH[k],c[k])}).catch(()=>{});return phCred}
+document.addEventListener("click",async e=>{const b=e.target.closest(".pcr");if(!b)return;e.stopPropagation();await loadCredits();const r=photoOf(b.dataset.cr),p=byId(b.dataset.cr);if(!r||!p)return;
   toast(`Photo of ${p.name}: ${r.a||"Wikimedia Commons contributor"}${r.l?", "+r.l:""}`);});
-function vCredits(){const L=Object.entries(PH).filter(([k,r])=>r&&r.t&&byId(k)).map(([k,r])=>[byId(k),r]).sort((a,b)=>a[0].name.localeCompare(b[0].name));
+function vCredits(){if(!phCred||!phCred.done){loadCredits().then(()=>{phCred.done=1;if(S.stack[S.stack.length-1]?.v==="credits")paint()})}const L=Object.entries(PH).filter(([k,r])=>r&&r.t&&byId(k)).map(([k,r])=>[byId(k),r]).sort((a,b)=>a[0].name.localeCompare(b[0].name));
   V.innerHTML=`<div class="pad">${crumbBtn()}<h2>Photo credits</h2><p class="lead">Place photos come from Wikipedia and Wikimedia Commons, under the licences shown. Thank you to every photographer. Each photo is matched to its place through Wikipedia and checked against the place's location.</p></div>
   <ul>${L.map(([p,r])=>`<li class="srow" style="cursor:default"><span><span class="blk" style="font-weight:700">${esc(p.name)}</span><span class="blk" style="font-size:13px;color:var(--soft)">${esc(r.a||"Wikimedia Commons contributor")}${r.l?` · ${r.lu?`<a href="${esc(r.lu)}" target="_blank" rel="noopener" style="color:inherit">${esc(r.l)}</a>`:esc(r.l)}`:""} · <a href="https://commons.wikimedia.org/wiki/File:${encodeURIComponent(r.f||"")}" target="_blank" rel="noopener" style="color:var(--pinkink)">source</a></span></span></li>`).join("")||`<li class="empty">No photos have loaded on this device yet.</li>`}</ul>`}
 
@@ -612,26 +615,38 @@ const relK=()=>K/(S.fitK||1);
 function pinSet(){if(S.coll)return collPlaces(S.coll);if(S.trail&&!S.slug)return S.trail;return S.slug?curD().places:allPlaces()}
 function tierOn(p){if(S.coll||S.f.tier)return true;if(S.trail&&S.trail.includes(p))return true;if(S.slug)return p.tier!=="gem"||relK()>=1.7;return p.tier==="icon"?K>=2.6:p.tier==="top"?K>=4.5:K>=8}
 function selKey(){return S.hl||(S.sel?id(S.sel):null)}
+/* only the pins that can be seen right now are in the DOM: on-filter, tier shown at this zoom, inside the view */
+let PS={all:[],on:new Set(),sel:null,sig:""};
 function drawPins(){
-  const all=pinSet(),on=new Set((S.coll?all:all.filter(match)).map(id)),sel=selKey();
+  const all=pinSet(),on=new Set((S.coll?all:all.filter(match)).map(id));
   if(S.trail)S.trail.forEach(p=>on.add(id(p)));
-  const g=gPins.selectAll("g.pin").data(all,id).join(en=>{const a=en.append("g").attr("class","pin").attr("role","button");a.append("circle").attr("class","hit");a.append("circle").attr("class","ol");a.append("circle").attr("class","dot");a.append("use");a.append("title");return a});
-  g.classed("sel",p=>id(p)===sel).each(function(p){const[x,y]=P(p.lng,p.lat);this._x=x;this._y=y;this._on=on.has(id(p))})
-   .attr("aria-label",p=>`${p.name}, ${TIER[p.tier]}, ${G[p.g][0]}, ${p.district}${M.been[id(p)]?", visited":M.want[id(p)]?", saved":""}`)
-   .on("click",(e,p)=>{e.stopPropagation();pinTap(p)}).on("keydown",(e,p)=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();pinTap(p,true)}});
+  all.forEach(p=>{if(!p._xy)p._xy=P(p.lng,p.lat)});
+  PS={all,on,sel:selKey(),sig:"",ver:(PS.ver||0)+1};
+  svg.classed("instate",!!S.slug&&!S.coll);
+  syncPins(true);queueLabels();updCar()}
+function pinsWanted(){const sel=selKey(),m=90,out=[];if(gPins.style("display")==="none")return PS.all.filter(p=>id(p)===sel);
+  for(const p of PS.all){const k=id(p);if(k===sel){out.push(p);continue}if(!PS.on.has(k)||!tierOn(p))continue;const x=p._xy[0]*K+T.x,y=p._xy[1]*K+T.y;if(x<-m||y<-m||x>W+m||y>H+m)continue;out.push(p)}return out}
+function syncPins(force){const want=pinsWanted(),sig=PS.ver+"|"+selKey()+"|"+want.map(id).join(",");
+  if(!force&&sig===PS.sig)return false;PS.sig=sig;const sel=selKey();
+  const g=gPins.selectAll("g.pin").data(want,id).join(en=>{const a=en.append("g").attr("class","pin").attr("role","button").attr("tabindex",0);a.append("circle").attr("class","hit");a.append("circle").attr("class","ol");a.append("circle").attr("class","dot");a.append("use");a.append("title");
+      a.on("click",(e,p)=>{e.stopPropagation();pinTap(p)}).on("keydown",(e,p)=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();pinTap(p,true)}});return a});
+  g.classed("sel",p=>id(p)===sel).each(function(p){this._x=p._xy[0];this._y=p._xy[1];this._on=true})
+   .attr("aria-label",p=>`${p.name}, ${TIER[p.tier]}, ${G[p.g][0]}, ${p.district}${M.been[id(p)]?", visited":M.want[id(p)]?", saved":""}`);
   g.select("circle.dot").attr("fill",p=>M.been[id(p)]?"#16181d":G[p.g][1]);
   g.select("use").attr("href",p=>M.been[id(p)]?"#i-check":M.want[id(p)]?"#i-heart":"#i-"+p.g).style("color","#fff");
   g.select("title").text(p=>p.name);
-  gPins.selectAll("g.pin.sel").raise();svg.classed("instate",!!S.slug&&!S.coll);
-  sizePins();queueLabels();if(S.season)paintSeason();updCar()}
+  gPins.selectAll("g.pin.sel").raise();if(S.season)paintSeason();lastR=-1;lastK=-1;return true}
 function pinTap(p,z){if(p.slug!==S.slug){S.slug=p.slug;classStates();ensureFull(p.slug).catch(()=>{})}
   if(mobile()&&si===0&&!z&&!S.coll){S.hl=null;updCar();hlPlace(p,true);return}
   S.hl=null;openPlace(p,!!z)}
 function pinR(){return S.slug&&!S.coll?Math.max(5,Math.min(9,3.8+relK()*1.8)):Math.max(3.6,Math.min(12,1.9+K*.55))}
+let lastR=-1,lastK=-1;
 function sizePins(){try{gHome.selectAll(".homept,.me").attr("r",(d,i,n)=>(n[i].classList.contains("me")?7:5)/K);gHome.selectAll(".mering").attr("r",16/K)}catch(e){}const r0=pinR(),hitR=mobile()?18:11;
-  gPins.selectAll("g.pin").each(function(p){const sel=this.classList.contains("sel"),vis=sel||(this._on&&tierOn(p));this.classList.toggle("hide",!vis);this.setAttribute("tabindex",vis?0:-1);if(!vis)return;
+  syncPins(false);const rch=r0!==lastR,kch=K!==lastK;lastR=r0;lastK=K;if(!rch&&!kch)return;
+  gPins.selectAll("g.pin").each(function(p){const sel=this.classList.contains("sel");
+    if(kch)this.setAttribute("transform",`translate(${this._x},${this._y}) scale(${1/K})`);if(!rch&&!this._new)return;this._new=0;
     const r=r0*(TIERR[p.tier]||1)*(sel?1.35:1),h=this.firstChild,o=h.nextSibling,c=o.nextSibling,u=c.nextSibling;
-    this.setAttribute("transform",`translate(${this._x},${this._y}) scale(${1/K})`);h.setAttribute("r",Math.max(r,hitR));o.setAttribute("r",r+1.5);c.setAttribute("r",r);
+    h.setAttribute("r",Math.max(r,hitR));o.setAttribute("r",r+1.5);c.setAttribute("r",r);
     if(r>=7.2){u.setAttribute("x",-r*.62);u.setAttribute("y",-r*.62);u.setAttribute("width",r*1.24);u.setAttribute("height",r*1.24);u.style.display=""}else u.style.display="none"});
   gRoute.selectAll("g.rn").attr("transform",function(){return`translate(${this._x},${this._y}) scale(${1/K})`})}
 let lq=0;function queueLabels(){if(lq)return;lq=requestAnimationFrame(()=>{lq=0;labels()})}
@@ -700,7 +715,7 @@ function updCar(){const c=$("#car"),show=mobile()&&si===0&&!!S.slug&&!S.coll&&in
   markCar(hl,!!hl);if(!was&&queueLabels)queueLabels()}
 function markCar(k,scroll){const r=$("#carr");r.querySelectorAll(".cc").forEach(b=>{const on=b.dataset.cc===k;b.classList.toggle("on",on);if(on)b.setAttribute("aria-current","true");else b.removeAttribute("aria-current")});if(scroll&&k){const b=r.querySelector(`[data-cc="${CSS.escape(k)}"]`);if(b){carLock=Date.now();r.scrollTo({left:b.offsetLeft-(r.clientWidth-b.offsetWidth)/2,behavior:RM?"auto":"smooth"})}}}
 $("#carr").addEventListener("scroll",()=>{clearTimeout(carT);carT=setTimeout(()=>{if(Date.now()-carLock<800)return;const r=$("#carr"),mid=r.scrollLeft+r.clientWidth/2;let best=null,bd=1e9;r.querySelectorAll(".cc").forEach(b=>{const d=Math.abs(b.offsetLeft+b.offsetWidth/2-mid);if(d<bd){bd=d;best=b}});if(best&&best.dataset.cc!==selKey()){const p=byId(best.dataset.cc);if(p)hlPlace(p,false)}},160)},{passive:true});
-function hlPlace(p,scroll){S.hl=id(p);ping(p,480);gPins.selectAll("g.pin").classed("sel",q=>id(q)===S.hl);gPins.selectAll("g.pin.sel").raise();sizePins();queueLabels();markCar(S.hl,scroll);panTo(p)}
+function hlPlace(p,scroll){S.hl=id(p);ping(p,480);syncPins(true);sizePins();queueLabels();markCar(S.hl,scroll);panTo(p)}
 
 /* ---------- bottom sheet (phone) ---------- */
 const sheet=$("#sheet");let snaps=[136,400,700],si=0;
@@ -1084,7 +1099,7 @@ function drawMe(){gHome.selectAll(".me,.mering").remove();if(!S.me||!S.me.you)re
 
 /* ---- India view: one count chip per state instead of overlapping bubbles ---- */
 const gClu=svg.insert("g",()=>gTop.node());
-function clusters(){const on=!S.slug&&!S.coll&&!S.trail&&K<2.6;gPins.style("display",on?"none":null);if(!on){gClu.selectAll("*").remove();S._cb=null;return}
+function clusters(){const on=!S.slug&&!S.coll&&!S.trail&&K<2.6,was=gPins.node().style.display==="none";gPins.style("display",on?"none":null);if(was!==on)sizePins();if(!on){gClu.selectAll("*").remove();S._cb=null;return}
   const ov=(b,o)=>b[0]<o[2]&&b[2]>o[0]&&b[1]<o[3]&&b[3]>o[1],boxes=[],keep=[];
   S.states.filter(s=>S.data[s.slug]).map(s=>{const f=S.feats.find(d=>d.properties.st_nm===s.name);if(!f)return null;const n=S.data[s.slug].places.filter(p=>match(p)&&(!S.season||inSeason(S.season,p))).length;const[x,y]=T.apply(f.c);return{s,n,x,y:y+(f.a*K*K>=900?15:0)}}).filter(d=>d&&d.n).sort((a,b)=>b.n-a.n).forEach(d=>{const w=String(d.n).length*7+16;let b=[d.x-w/2,d.y-11,d.x+w/2,d.y+11];if(boxes.some(o=>ov(b,o))){let ok=false;for(const[dx,dy]of[[0,24],[w,0],[-w,0],[0,-24]]){const c=[b[0]+dx,b[1]+dy,b[2]+dx,b[3]+dy];if(!boxes.some(o=>ov(c,o))){b=c;d.x+=dx;d.y+=dy;ok=true;break}}if(!ok)return}d.w=w;boxes.push(b);keep.push(d)});
   const g=gClu.selectAll("g.schip").data(keep,d=>d.s.slug).join(en=>{const a=en.append("g").attr("class","schip").attr("role","button").attr("tabindex",0);a.append("rect");a.append("text");return a});
