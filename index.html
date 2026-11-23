@@ -64,7 +64,7 @@ button{cursor:pointer}
 #sheet.drag{transition:none}}
 @media(min-width:900px),(orientation:landscape) and (max-height:540px){#sheet{border-right:1px solid var(--line);height:100%}.grab{display:none}}
 .grab{height:28px;width:100%;border:0;background:none;padding:0;display:grid;place-items:center;touch-action:none;cursor:grab;flex:none}
-.grab i{width:42px;height:5px;border-radius:3px;background:var(--line)}
+.grab i{width:42px;height:5px;border-radius:3px;background:var(--line);transition:width .15s,background .15s}#sheet.drag .grab i{width:56px;background:var(--faint)}
 @media(min-width:900px),(orientation:landscape) and (max-height:540px){.grab{display:none}}
 .head{padding:0 16px 0;flex:none;touch-action:none}
 .brand{display:flex;align-items:center;gap:10px;padding:2px 0 10px}
@@ -701,14 +701,41 @@ function hlPlace(p,scroll){S.hl=id(p);ping(p,480);gPins.selectAll("g.pin").class
 const sheet=$("#sheet");let snaps=[136,400,700],si=0;
 function calcSnaps(){const h=innerHeight-tabH();snaps=[136,Math.round(h*.5),Math.round(h-10)]}
 let rft=0;function refit(){if(S.manual||!S.feats.length)return;const t=S.stack[S.stack.length-1]?.v;if(S.coll)focusPts(collPlaces(S.coll),500);else if(S.trail)focusPts(S.trail,500);else if(t==="place"&&S.sel)focusPlace(S.sel);else if(S.hl)panTo(byId(S.hl));else if(S.slug)focusState(500);else fitIndia()}
-function snapTo(i,user){calcSnaps();const was=si;si=Math.max(0,Math.min(2,i));if(was!==si&&si<2&&!user){clearTimeout(rft);rft=setTimeout(refit,320)}sheet.style.removeProperty("--snap");document.documentElement.style.setProperty("--snap",snaps[si]+"px");const g=$("#grab");if(g)g.setAttribute("aria-label",["Panel collapsed. Tap to expand","Panel half open. Tap to expand","Panel full. Tap to shrink"][si]);if(typeof updCar==="function"&&S.feats.length){updCar();queueLabels()}}
+function snapTo(i,user){calcSnaps();const was=si;si=Math.max(0,Math.min(2,i));if(si===0&&was!==0){const v=$("#view");if(v)setTimeout(()=>{if(si===0)v.scrollTop=0},320)}if(was!==si&&si<2&&!user){clearTimeout(rft);rft=setTimeout(refit,320)}sheet.style.removeProperty("--snap");document.documentElement.style.setProperty("--snap",snaps[si]+"px");const g=$("#grab");if(g)g.setAttribute("aria-label",["Panel collapsed. Tap to expand","Panel half open. Tap to expand","Panel full. Tap to shrink"][si]);if(typeof updCar==="function"&&S.feats.length){updCar();queueLabels()}}
 calcSnaps();snapTo(0);addEventListener("resize",()=>snapTo(si));MQ.addEventListener?.("change",()=>{snapTo(si);paint(false,V.scrollTop)});
-{let y0=0,h0=0,drag=false,moved=false;
- const down=e=>{if(!mobile()||e.target.closest("input,button,select,textarea,nav"))return;drag=true;moved=false;y0=e.clientY;h0=snaps[si];sheet.classList.add("drag");e.currentTarget.setPointerCapture(e.pointerId)};
- const move=e=>{if(!drag)return;const h=Math.max(110,Math.min(innerHeight*.95,h0+(y0-e.clientY)));if(Math.abs(y0-e.clientY)>4)moved=true;sheet.style.setProperty("--snap",h+"px")};
- const up=e=>{if(!drag)return;drag=false;sheet.classList.remove("drag");const h=parseFloat(sheet.style.getPropertyValue("--snap"))||snaps[si];if(!moved){if(e.currentTarget.id==="grab")snapTo(si===0?1:si===1?2:0);else snapTo(si);return}let b=0;snaps.forEach((s,i)=>{if(Math.abs(s-h)<Math.abs(snaps[b]-h))b=i});const v=h-h0;if(Math.abs(v)>50&&b===si)b=si+(v>0?1:-1);snapTo(b)};
- $("#grab").addEventListener("keydown",e=>{if(e.key==="ArrowUp"){e.preventDefault();snapTo(si+1)}else if(e.key==="ArrowDown"){e.preventDefault();snapTo(si-1)}});
- for(const el of[$("#grab"),$("#head")]){el.addEventListener("pointerdown",down);el.addEventListener("pointermove",move);el.addEventListener("pointerup",up);el.addEventListener("pointercancel",up)}}
+{/* tray gestures: drag the handle, the header or the content; flick to jump a stop */
+ let y0=0,h0=0,drag=0,moved=false,src=null,smp=[],pid=null,cap=false;
+ const maxH=()=>snaps[2],minH=()=>snaps[0];
+ const rub=h=>{const lo=minH()-24,hi=maxH();if(h>hi)return hi+Math.sqrt(h-hi)*4;if(h<lo)return lo-Math.sqrt(lo-h)*4;return h};
+ const begin=(y,from)=>{calcSnaps();drag=1;moved=false;src=from;y0=y;h0=parseFloat(getComputedStyle(sheet).height)||snaps[si];smp=[{y,t:performance.now()}]};
+ const track=y=>{const now=performance.now();smp.push({y,t:now});while(smp.length>2&&now-smp[0].t>100)smp.shift()};
+ const go=y=>{if(!moved){moved=true;sheet.classList.add("drag")}track(y);sheet.style.setProperty("--snap",rub(h0+(y0-y))+"px")};
+ const finish=y=>{if(!drag)return;drag=0;sheet.classList.remove("drag");if(!moved)return false;track(y);
+   const h=h0+(y0-y),f=smp[0],l=smp[smp.length-1],v=l.t>f.t?(f.y-l.y)/(l.t-f.t):0;/* px per ms, + = up */
+   let b=0;snaps.forEach((s,i)=>{if(Math.abs(s-h)<Math.abs(snaps[b]-h))b=i});
+   if(Math.abs(v)>.3||Math.abs(h-h0)>60){const dir=Math.abs(v)>.3?(v>0?1:-1):(h>h0?1:-1);let k=0;snaps.forEach((s,i)=>{if(Math.abs(s-h0)<Math.abs(snaps[k]-h0))k=i});const nx=k+dir;b=dir>0?Math.max(b,nx):Math.min(b,nx)}
+   sheet.style.removeProperty("--snap");snapTo(Math.max(0,Math.min(2,b)),true);return true};
+ /* handle + header: pointer events (touch-action:none on both) */
+ const pd=e=>{if(!mobile()||e.button>0||e.target.closest("nav"))return;pid=e.pointerId;cap=false;begin(e.clientY,e.currentTarget)};
+ const pm=e=>{if(!drag||e.pointerId!==pid)return;if(!moved&&Math.abs(e.clientY-y0)<6)return;if(!cap){try{e.currentTarget.setPointerCapture(pid)}catch(_){}cap=true;const q=$("#q");if(document.activeElement===q&&src.id==="head")q.blur()}go(e.clientY)};
+ const pu=e=>{if(!drag||e.pointerId!==pid)return;const was=src;if(!finish(e.clientY)&&was.id==="grab"&&e.type==="pointerup")snapTo(si===0?1:si===1?2:0,true)};
+ for(const el of[$("#grab"),$("#head")]){el.addEventListener("pointerdown",pd);el.addEventListener("pointermove",pm);el.addEventListener("pointerup",pu);el.addEventListener("pointercancel",pu)}
+ $("#grab").addEventListener("click",e=>e.preventDefault());
+ $("#grab").addEventListener("keydown",e=>{if(e.key==="ArrowUp"){e.preventDefault();snapTo(si+1,true)}else if(e.key==="ArrowDown"){e.preventDefault();snapTo(si-1,true)}});
+ /* content: pull down at the top to shrink, push up when not full to grow, otherwise scroll */
+ const V=$("#view");let ty0=0,tx0=0,mode=0;/* 0 undecided, 1 sheet, 2 native */
+ V.addEventListener("touchstart",e=>{if(!mobile()||e.touches.length>1){mode=2;return}mode=0;ty0=e.touches[0].clientY;tx0=e.touches[0].clientX},{passive:true});
+ V.addEventListener("touchmove",e=>{if(mode===2||!mobile())return;const t=e.touches[0],dy=t.clientY-ty0,dx=t.clientX-tx0;
+   if(mode===0){if(Math.abs(dy)<7&&Math.abs(dx)<7)return;
+     const hz=e.target.closest(".car,.carr,.rail,.chips,.mchips,.mstrip,[data-hscroll]");
+     if(Math.abs(dx)>Math.abs(dy)||(hz&&Math.abs(dx)*1.2>Math.abs(dy))){mode=2;return}
+     if((dy<0&&si<2)||(dy>0&&V.scrollTop<=0)){mode=1;begin(ty0,V)}else{mode=2;return}}
+   if(e.cancelable)e.preventDefault();go(t.clientY)},{passive:false});
+ const tend=e=>{if(mode===1){const t=e.changedTouches[0];finish(t?t.clientY:y0)}mode=0};
+ V.addEventListener("touchend",tend);V.addEventListener("touchcancel",tend);
+ /* tapping the map while the tray is full brings it back to half */
+ $("#mapwrap").addEventListener("pointerdown",()=>{if(mobile()&&si===2)snapTo(1,true)});
+}
 const halfUp=()=>{if(mobile()&&si<1)snapTo(1)};
 
 /* ---------- views ---------- */
