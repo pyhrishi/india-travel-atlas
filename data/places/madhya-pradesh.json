@@ -2876,6 +2876,166 @@
     2
    ],
    "time": "2–3 hrs"
+  },
+  {
+   "n": 172,
+   "name": "Maksi Parshwanath Jain Temple",
+   "district": "Shajapur",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 23.26,
+   "lng": 76.15,
+   "why": "Big Shwetambar Jain pilgrimage temple at Maksi, between Ujjain and Shajapur",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 173,
+   "name": "Rajrajeshwari Mata Temple, Shajapur",
+   "district": "Shajapur",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 23.43,
+   "lng": 76.27,
+   "why": "Shajapur's goddess temple, crowded at Navratri",
+   "tier": "gem",
+   "months": [
+    9,
+    10
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 174,
+   "name": "Gohad Fort",
+   "district": "Bhind",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 26.4258,
+   "lng": 78.4467,
+   "why": "Round Jat fort begun in 1505, with 11 gates each named after a village",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 175,
+   "name": "Holkar Chhatri, Alampur",
+   "district": "Bhind",
+   "category": "Memorial",
+   "g": "heritage",
+   "lat": 26.03,
+   "lng": 78.79,
+   "why": "Cenotaph of Malhar Rao Holkar, founder of the Holkar dynasty, who died here in 1766",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 176,
+   "name": "Dholawad Dam",
+   "district": "Ratlam",
+   "category": "Dam",
+   "g": "water",
+   "lat": 23.3,
+   "lng": 74.8,
+   "why": "Reservoir in the hills west of Ratlam, the city's favourite monsoon outing",
+   "tier": "gem",
+   "months": [
+    7,
+    10
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 177,
+   "name": "Bilpakeshwar Temple, Bilpank",
+   "district": "Ratlam",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 23.23,
+   "lng": 75.12,
+   "why": "Tall 12th-century Paramara-era Shiva temple in a village near Ratlam",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 178,
+   "name": "Kolar Dam",
+   "district": "Sehore",
+   "category": "Dam",
+   "g": "water",
+   "lat": 22.95,
+   "lng": 77.36,
+   "why": "Forested reservoir that supplies Bhopal; boating and the winding Kolar road",
+   "tier": "gem",
+   "months": [
+    7,
+    2
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 179,
+   "name": "Saru Maru Stupas & Rock Shelters",
+   "district": "Sehore",
+   "category": "Buddhist site",
+   "g": "buddhist",
+   "lat": 22.86,
+   "lng": 77.73,
+   "why": "Buddhist monastery caves with an Ashokan edict in the Vindhyan hills near Budhni",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2–3 hrs"
+  },
+  {
+   "n": 180,
+   "name": "Son Gharial Sanctuary",
+   "district": "Sidhi",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 24.3,
+   "lng": 81.8,
+   "why": "River reserve for gharial, mugger and Indian skimmers along the Son",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 181,
+   "name": "Jalpa Devi Temple, Rajgarh",
+   "district": "Rajgarh",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 24.0,
+   "lng": 76.72,
+   "why": "Hilltop goddess temple above Rajgarh, busy at both Navratris",
+   "tier": "gem",
+   "months": [
+    9,
+    10
+   ],
+   "time": "1 hr"
   }
  ],
  "festivals": [
