@@ -1547,6 +1547,70 @@
     3
    ],
    "time": "1 hr"
+  },
+  {
+   "n": 92,
+   "name": "Samadhi of Bhai Gurdas, Mansa",
+   "district": "Mansa",
+   "category": "Shrine",
+   "g": "temple",
+   "lat": 29.99,
+   "lng": 75.4,
+   "why": "Samadhi of Mansa's founder, with an annual fair in his memory",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 93,
+   "name": "Gurdwara Rakabsar, Bhaini Bagha",
+   "district": "Mansa",
+   "category": "Gurdwara",
+   "g": "temple",
+   "lat": 30.08,
+   "lng": 75.4,
+   "why": "Historic gurdwara 10 km north of Mansa, marking Guru Tegh Bahadur's visit",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 94,
+   "name": "Dera Baba Gandha Singh",
+   "district": "Barnala",
+   "category": "Gurdwara",
+   "g": "temple",
+   "lat": 30.38,
+   "lng": 75.55,
+   "why": "Barnala's best-known historic gurdwara on Bajakhana Road",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 95,
+   "name": "Gurdwara Patshahi Naumi, Sekha",
+   "district": "Barnala",
+   "category": "Gurdwara",
+   "g": "temple",
+   "lat": 30.35,
+   "lng": 75.48,
+   "why": "Gurdwara where Guru Tegh Bahadur meditated, 7 km from Barnala",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
   }
  ],
  "festivals": [

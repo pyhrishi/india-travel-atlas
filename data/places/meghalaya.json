@@ -1376,6 +1376,38 @@
     4
    ],
    "time": "2 hrs"
+  },
+  {
+   "n": 80,
+   "name": "Kata Beel",
+   "district": "South West Garo Hills",
+   "category": "Lake",
+   "g": "wildlife",
+   "lat": 25.46,
+   "lng": 89.94,
+   "why": "Oxbow wetland near Ampati, a winter birding spot",
+   "tier": "gem",
+   "months": [
+    11,
+    2
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 81,
+   "name": "Chenga Benga Lake",
+   "district": "South West Garo Hills",
+   "category": "Lake",
+   "g": "water",
+   "lat": 25.4,
+   "lng": 89.92,
+   "why": "Plains lake on the Bangladesh border listed by Meghalaya Tourism",
+   "tier": "gem",
+   "months": [
+    11,
+    2
+   ],
+   "time": "2 hrs"
   }
  ],
  "festivals": [
