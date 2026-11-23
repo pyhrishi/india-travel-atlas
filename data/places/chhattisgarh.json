@@ -2047,6 +2047,22 @@
     1
    ],
    "time": "Half day"
+  },
+  {
+   "n": 121,
+   "name": "Narayanpur Mavli Madai",
+   "district": "Narayanpur",
+   "category": "Festival",
+   "g": "culture",
+   "lat": 19.72,
+   "lng": 81.25,
+   "why": "Big tribal fair at the edge of Abujhmarh where village deities gather each February",
+   "tier": "gem",
+   "months": [
+    2,
+    2
+   ],
+   "time": "Full day"
   }
  ],
  "festivals": [
