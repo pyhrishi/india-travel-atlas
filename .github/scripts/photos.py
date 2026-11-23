@@ -126,7 +126,10 @@ def main():
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     json.dump({'v': 1, 'updated': NOW, 'p': dict(sorted(P.items())), 'miss': dict(sorted(M.items()))},
               open(STATE, 'w'), ensure_ascii=False, separators=(',', ':'))
-    short = {k: (r['t'][len(BASE):] if r['t'].startswith(BASE) else r['t']) for k, r in sorted(P.items())}
+    def rel(u):
+        u = u.split('?')[0].replace('https://thumb.wikimedia.org/', 'https://upload.wikimedia.org/')
+        return u[len(BASE):] if u.startswith(BASE) else u
+    short = {k: rel(r['t']) for k, r in sorted(P.items())}
     json.dump({'v': 2, 'base': BASE, 'updated': NOW, 'p': short, 'miss': sorted(M)},
               open(OUT, 'w'), ensure_ascii=False, separators=(',', ':'))
     json.dump({k: {x: r[x] for x in ('f', 'w', 'a', 'l', 'lu') if r.get(x)} for k, r in sorted(P.items())},
