@@ -229,6 +229,12 @@ input[type=text],input[type=date],input[type=search]{height:44px;border-radius:1
 .legend{border:0;color:var(--ink);font:inherit;text-align:left;min-height:44px;background:var(--bg);box-shadow:var(--shadow);border-radius:14px;padding:5px 8px 5px 6px;display:flex;align-items:center;gap:8px;font-size:14px;max-width:100%}
 .legend .mark{width:30px;height:30px}.lgx{display:grid;line-height:1.15;min-width:0}
 .legend b{font-weight:800;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:15px}.legend #lgS{color:var(--soft);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:12.5px}
+.pic{position:absolute;inset:0;display:grid;place-items:center;overflow:hidden;background:color-mix(in srgb,var(--c) 15%,var(--bg))}
+.pic .pi{width:40%;height:40%;max-width:44px;max-height:44px;color:var(--c);opacity:.9}.hero-pic .pi{max-width:72px;max-height:72px}
+.pic img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;animation:fadein .35s ease-out}
+.pic .pb{position:absolute;right:8px;top:8px;width:26px;height:26px;border-radius:13px;background:var(--c);display:none;place-items:center}.pic.has .pb{display:grid}.pb svg{width:16px;height:16px;color:#fff}
+.pcr{position:absolute;right:10px;bottom:10px;width:28px;height:28px;border-radius:14px;border:0;background:rgba(0,0,0,.45);color:#fff;font:700 14px Georgia,serif;font-style:italic;z-index:2}
+.hero,.pc .art,.thumb,.trail .art{position:relative}
 .bi{width:19px;height:19px;flex:none}.ib svg,.up svg,.pn svg{width:22px;height:22px;display:block;margin:auto}.mc svg{width:16px;height:16px}
 .legend .chev{width:18px;height:18px;flex:none;color:var(--soft)}
 .mchips{display:flex;gap:6px;overflow-x:auto;max-width:100%;scrollbar-width:none;padding:2px;margin:-2px}
@@ -470,7 +476,10 @@ let AID=0;
 function rng(seed){let a=seed>>>0;return()=>{a=a+0x6D2B79F5|0;let t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}}
 const SKIES=[["#ffcf99","#ff8f6b","#fff1dc"],["#9fd6ff","#e8f6ff","#ffffff"],["#ffd9a8","#f7a6a1","#fff4e4"],["#2f4b7c","#f4a46b","#ffd8a8"],["#bfe7d7","#fff3cf","#ffffff"],["#a9c8ff","#ffe3c4","#fff8ec"]];
 function ridge(R,y,amp,col,op=1){let d="M0,200 L0,"+y.toFixed(1),yy=y;for(let x=0;x<=330;x+=22){yy=Math.max(y-amp,Math.min(y+amp,yy+(R()-.5)*amp));d+=` L${x},${yy.toFixed(1)}`}return`<path d="${d} L330,200Z" fill="${col}" opacity="${op}"/>`}
-function art(p,opt={}){
+/* pictures: a real photo where one is found, otherwise a clean icon tile */
+function art(p,opt={}){const k=id(p),ph=photoOf(k),c=G[p.g][1];
+  return`<span class="pic${ph?" has":""}${opt.hero?" hero-pic":""}" data-pk="${k}" style="--c:${c}"><svg class="pi" aria-hidden="true"><use href="#i-${p.g}"/></svg>${ph?`<img src="${esc(ph.t)}" alt="" loading="lazy" decoding="async" onerror="this.parentNode.classList.remove('has');this.remove()">`:""}${opt.badge?`<span class="pb"><svg aria-hidden="true"><use href="#i-${p.g}"/></svg></span>`:""}${opt.hero&&ph?`<button class="pcr" data-cr="${k}" aria-label="Photo credit">i</button>`:""}</span>`}
+function artOld(p,opt={}){
   const R=rng((p.slug||"x").split("").reduce((a,c)=>a*31+c.charCodeAt(0)|0,7)*97+p.n*7919);
   const k=++AID,sk=SKIES[Math.floor(R()*SKIES.length)],gc=G[p.g][1],c=p.category.toLowerCase();
   let o=`<svg viewBox="0 0 320 200" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><defs><linearGradient id="s${k}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${sk[0]}"/><stop offset="1" stop-color="${sk[1]}"/></linearGradient><linearGradient id="w${k}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5fb6dc"/><stop offset="1" stop-color="#1f6f9f"/></linearGradient></defs><rect width="320" height="200" fill="url(#s${k})"/>`;
@@ -501,6 +510,39 @@ function art(p,opt={}){
     o+=`<path d="M0,200 L0,${base} Q160,${base-6} 330,${base+2} L330,200Z" fill="${d3.interpolateRgb(mid,"#1d2b1f")(.4)}"/>`}
   if(opt.badge)o+=`<g transform="translate(286,10)"><circle cx="12" cy="12" r="14" fill="${gc}"/><use href="#i-${g}" x="3" y="3" width="18" height="18" style="color:#fff"/></g>`;
   return o+"</svg>"}
+
+/* ---------- photos from Wikipedia (fetched on the device; credits on one screen) ---------- */
+const PH=(()=>{try{return JSON.parse(localStorage.getItem("ita-ph")||"{}")}catch(e){return{}}})();let phOff=false,phQ=new Set(),phT=0,phBusy=false;
+const photoOf=k=>{const r=PH[k];return r&&r.t?r:null};
+const phSave=()=>{try{localStorage.setItem("ita-ph",JSON.stringify(PH))}catch(e){}};
+const strip=h=>{const d=document.createElement("div");d.innerHTML=h||"";return(d.textContent||"").replace(/\s+/g," ").trim()};
+function needPhotos(keys){if(phOff)return;keys.forEach(k=>{if(!(k in PH))phQ.add(k)});clearTimeout(phT);if(phQ.size)phT=setTimeout(runPhotos,250)}
+function scanPhotos(root){const ks=[...(root||document).querySelectorAll(".pic:not(.has)[data-pk]")].map(e=>e.dataset.pk);if(ks.length)needPhotos([...new Set(ks)])}
+const WAPI="https://en.wikipedia.org/w/api.php?format=json&origin=*&";
+async function runPhotos(){if(phBusy||phOff)return;phBusy=true;try{while(phQ.size&&!phOff){const ks=[...phQ].slice(0,40);ks.forEach(k=>phQ.delete(k));await photoBatch(ks)}}catch(e){phOff=true}phBusy=false}
+async function wj(u){const r=await fetch(u);if(!r.ok)throw 0;return r.json()}
+async function photoBatch(ks){const ps=ks.map(byId).filter(Boolean),byT={};
+  ps.forEach(p=>{const t=p.name.replace(/\s*\(.*?\)\s*/g," ").trim();(byT[t]=byT[t]||[]).push(p)});
+  const titles=Object.keys(byT);
+  const j=await wj(WAPI+"action=query&redirects=1&prop=pageimages|coordinates|pageprops&piprop=thumbnail|name&pithumbsize=720&pilicense=free&ppprop=disambiguation&colimit=max&titles="+encodeURIComponent(titles.join("|")));
+  const q=j.query||{},map={};titles.forEach(t=>map[t]=t);(q.normalized||[]).forEach(n=>{for(const t in map)if(map[t]===n.from)map[t]=n.to});(q.redirects||[]).forEach(r=>{for(const t in map)if(map[t]===r.from)map[t]=r.to});
+  const pages={};Object.values(q.pages||{}).forEach(pg=>pages[pg.title]=pg);const files={};
+  titles.forEach(t=>{const pg=pages[map[t]];byT[t].forEach(p=>{const k=id(p);PH[k]=0;if(!pg||pg.missing!==undefined||!pg.thumbnail||(pg.pageprops&&"disambiguation"in pg.pageprops))return;const co=pg.coordinates&&pg.coordinates[0];
+    if(co){if(km(p,{lat:co.lat,lng:co.lon})>50)return}else if(map[t]!==t)return;
+    PH[k]={t:pg.thumbnail.source,f:pg.pageimage,w:pg.title};files[pg.pageimage]=1})});
+  const miss=ps.filter(p=>PH[id(p)]===0).sort((a,b)=>tierW[b.tier]-tierW[a.tier]).slice(0,12);
+  for(const p of miss){try{const s=await wj(WAPI+"action=query&generator=search&gsrlimit=3&gsrnamespace=0&prop=pageimages|coordinates|pageprops&piprop=thumbnail|name&pithumbsize=720&pilicense=free&ppprop=disambiguation&gsrsearch="+encodeURIComponent(p.name.replace(/&/g," ")+" "+stOf(p.slug).name));
+    const cand=Object.values(s.query?.pages||{}).sort((a,b)=>(a.index||9)-(b.index||9)).find(pg=>pg.thumbnail&&pg.coordinates&&!(pg.pageprops&&"disambiguation"in pg.pageprops)&&km(p,{lat:pg.coordinates[0].lat,lng:pg.coordinates[0].lon})<=30);
+    PH[id(p)]=cand?{t:cand.thumbnail.source,f:cand.pageimage,w:cand.title}:-1;if(cand)files[cand.pageimage]=1}catch(e){PH[id(p)]=-1}}
+  const fl=Object.keys(files);if(fl.length){try{const m=await wj("https://commons.wikimedia.org/w/api.php?format=json&origin=*&action=query&prop=imageinfo&iiprop=extmetadata&iiextmetadatafilter=Artist|LicenseShortName|LicenseUrl&titles="+encodeURIComponent(fl.map(f=>"File:"+f).join("|")));
+    const meta={};Object.values(m.query?.pages||{}).forEach(pg=>{const e=pg.imageinfo?.[0]?.extmetadata||{};meta[pg.title.replace(/^File:/,"").replace(/ /g,"_")]={a:strip(e.Artist?.value).slice(0,120),l:e.LicenseShortName?.value||"",lu:e.LicenseUrl?.value||""}});
+    for(const k in PH){const r=PH[k];if(r&&r.f&&files[r.f]){const mm=meta[r.f.replace(/ /g,"_")];if(mm)Object.assign(r,mm)}}}catch(e){}}
+  phSave();ps.forEach(p=>{const r=photoOf(id(p));if(!r)return;document.querySelectorAll(`.pic[data-pk="${CSS.escape(id(p))}"]:not(.has)`).forEach(el=>{el.classList.add("has");const im=new Image();im.alt="";im.decoding="async";im.src=r.t;im.onerror=()=>{el.classList.remove("has");im.remove()};el.insertBefore(im,el.querySelector(".pb"));if(el.classList.contains("hero-pic")&&!el.querySelector(".pcr"))el.insertAdjacentHTML("beforeend",`<button class="pcr" data-cr="${id(p)}" aria-label="Photo credit">i</button>`)})})}
+document.addEventListener("click",e=>{const b=e.target.closest(".pcr");if(!b)return;e.stopPropagation();const r=photoOf(b.dataset.cr),p=byId(b.dataset.cr);if(!r||!p)return;
+  toast(`Photo of ${p.name}: ${r.a||"Wikimedia Commons contributor"}${r.l?", "+r.l:""}`);});
+function vCredits(){const L=Object.entries(PH).filter(([k,r])=>r&&r.t&&byId(k)).map(([k,r])=>[byId(k),r]).sort((a,b)=>a[0].name.localeCompare(b[0].name));
+  V.innerHTML=`<div class="pad">${crumbBtn()}<h2>Photo credits</h2><p class="lead">Place photos come from Wikipedia and Wikimedia Commons, under the licences shown. Thank you to every photographer. This list grows as photos load on this device.</p></div>
+  <ul>${L.map(([p,r])=>`<li class="srow" style="cursor:default"><span><span class="blk" style="font-weight:700">${esc(p.name)}</span><span class="blk" style="font-size:13px;color:var(--soft)">${esc(r.a||"Wikimedia Commons contributor")}${r.l?` · ${r.lu?`<a href="${esc(r.lu)}" target="_blank" rel="noopener" style="color:inherit">${esc(r.l)}</a>`:esc(r.l)}`:""} · <a href="https://commons.wikimedia.org/wiki/File:${encodeURIComponent(r.f||"")}" target="_blank" rel="noopener" style="color:var(--pinkink)">source</a></span></span></li>`).join("")||`<li class="empty">No photos have loaded on this device yet.</li>`}</ul>`}
 
 /* ---------- map ---------- */
 const svg=d3.select("#map"),root=svg.append("g"),gSea=root.append("g"),gLand=root.append("g"),gDist=root.append("g"),gGeo=root.append("g"),gRoute=root.append("g"),gPins=root.append("g"),gTop=svg.append("g");
@@ -644,7 +686,7 @@ let carKey="",carT=0,carLock=0;
 function updCar(){const c=$("#car"),show=mobile()&&si===0&&!!S.slug&&!S.coll&&innerHeight>=560;const was=!c.hidden;c.hidden=!show;if(!show){carKey="";return}
   const L=carList().slice(0,60),hl=selKey();if(hl&&!L.some(p=>id(p)===hl)){const p=byId(hl);if(p)L.unshift(p)}
   const key=L.map(id).join(",");if(key!==carKey){carKey=key;const r=$("#carr");r.innerHTML=L.map(p=>`<button class="cc" data-cc="${id(p)}"><span class="thumb" aria-hidden="true">${art(p)}</span><span><b>${esc(p.name)}</b><span class="s">${p.tier!=="top"?TIER[p.tier]+" · ":""}${esc(p.district)} · ${esc(p.time)}</span><span class="open">${inSeason(NOWM,p)?"In season · ":""}Open ›</span></span></button>`).join("");
-    r.querySelectorAll("[data-cc]").forEach(b=>b.onclick=()=>{const p=byId(b.dataset.cc);if(!p)return;if(selKey()!==id(p)){hlPlace(p,true);return}S.hl=null;openPlace(p,false);snapTo(1)});r.scrollLeft=0}
+    scanPhotos(r);r.querySelectorAll("[data-cc]").forEach(b=>b.onclick=()=>{const p=byId(b.dataset.cc);if(!p)return;if(selKey()!==id(p)){hlPlace(p,true);return}S.hl=null;openPlace(p,false);snapTo(1)});r.scrollLeft=0}
   markCar(hl,!!hl);if(!was&&queueLabels)queueLabels()}
 function markCar(k,scroll){const r=$("#carr");r.querySelectorAll(".cc").forEach(b=>{const on=b.dataset.cc===k;b.classList.toggle("on",on);if(on)b.setAttribute("aria-current","true");else b.removeAttribute("aria-current")});if(scroll&&k){const b=r.querySelector(`[data-cc="${CSS.escape(k)}"]`);if(b){carLock=Date.now();r.scrollTo({left:b.offsetLeft-(r.clientWidth-b.offsetWidth)/2,behavior:RM?"auto":"smooth"})}}}
 $("#carr").addEventListener("scroll",()=>{clearTimeout(carT);carT=setTimeout(()=>{if(Date.now()-carLock<800)return;const r=$("#carr"),mid=r.scrollLeft+r.clientWidth/2;let best=null,bd=1e9;r.querySelectorAll(".cc").forEach(b=>{const d=Math.abs(b.offsetLeft+b.offsetWidth/2-mid);if(d<bd){bd=d;best=b}});if(best&&best.dataset.cc!==selKey()){const p=byId(best.dataset.cc);if(p)hlPlace(p,false)}},160)},{passive:true});
@@ -691,8 +733,8 @@ function goBack(){if(navD>0&&history.state&&history.state.ita===depth()&&S.stack
 function doBack(){if(S.stack.length<2)return;S.stack.pop();S.hl=null;const top=S.stack[S.stack.length-1];if(top.v!=="place"){S.sel=null}else S.sel=byId(top.a);if(top.v==="trail")S.trail=curD().trails[top.a].ids.map(n=>curD().places.find(p=>p.n===n));else S.trail=null;paint(false,top.y||0);drawPins();drawRoute()}
 function paint(focus,y=0){const top=S.stack[S.stack.length-1]||{v:"explore"};if(top.v!=="shared")unsubShared();
   const nc=top.v==="coll"?top.a:null;if(nc!==S.coll){S.coll=nc;classStates();setTimeout(()=>{drawPins();if(nc)focusPts(collPlaces(nc));else if(S.slug)focusState()},0)}
-  ({explore:vExplore,list:vList,place:vPlace,trail:vTrail,trip:vTrip,passport:vPassport,states:vStates,search:vSearch,plan:vPlan,shared:vShared,fest:vFest,coll:vColl,near:vNear,bulk:vBulk,trails:vTrails}[top.v]||vExplore)(top.a);
-  const b=$("#bk");if(b)b.onclick=goBack;V.scrollTop=y;bind();hdr();setHash();drawChips();syncNav();updCar();if(S.slug)chkDist();else S._ld=S.f.dist;if(focus){const h=V.querySelector("h2");if(h){h.tabIndex=-1;h.focus({preventScroll:true})}}}
+  ({explore:vExplore,list:vList,place:vPlace,trail:vTrail,trip:vTrip,passport:vPassport,states:vStates,search:vSearch,plan:vPlan,shared:vShared,fest:vFest,coll:vColl,near:vNear,bulk:vBulk,trails:vTrails,credits:vCredits}[top.v]||vExplore)(top.a);
+  const b=$("#bk");if(b)b.onclick=goBack;V.scrollTop=y;bind();hdr();setHash();drawChips();syncNav();updCar();scanPhotos(V);if(S.slug)chkDist();else S._ld=S.f.dist;if(focus){const h=V.querySelector("h2");if(h){h.tabIndex=-1;h.focus({preventScroll:true})}}}
 function setHash(){const top=S.stack[S.stack.length-1];let h=S.slug||"";if(top&&top.v==="place"&&S.sel)h=S.sel.slug+"-"+S.sel.n;try{if(h&&location.hash.slice(1)!==h)history.replaceState(history.state,"","#"+h);else if(!h&&location.hash)history.replaceState(history.state,"",location.pathname+location.search)}catch(e){}}
 function bind(){V.querySelectorAll("[data-fz]").forEach(el=>el.onclick=()=>{const[la,ln]=el.dataset.fz.split(",").map(Number);if(mobile())snapTo(0);setTimeout(()=>{const[x,y]=P(ln,la);const v=vb();svg.transition().duration(dur(700)).call(zoom.transform,d3.zoomIdentity.translate(v.x,v.y).scale(6).translate(-x,-y))},mobile()?320:0)});
   V.querySelectorAll("[data-p]").forEach(el=>el.onclick=()=>{const p=byId(el.dataset.p);if(p){if(p.slug!==S.slug){S.slug=p.slug;classStates()}S.hl=null;openPlace(p,true)}});
@@ -718,7 +760,7 @@ function whereMap(p){const D=S.data[p.slug],st=stOf(p.slug),f=S.feats.find(d=>d.
 function ping(p,delay=0){setTimeout(()=>{const[x,y]=T.apply(P(p.lng,p.lat));gTop.append("circle").attr("class","ping").attr("cx",x).attr("cy",y).attr("r",16).on("animationend",function(){this.remove()})},delay)}
 /* long lists render 40 rows at a time, more as you scroll */
 function chunkUl(ul,items,first=40){if(!ul)return;let i=first;if(items.length<=first)return;const more=document.createElement("li");more.className="more-li";more.textContent=`${items.length} more. Scroll to load`;ul.appendChild(more);
-  const io=new IntersectionObserver(es=>{if(!es.some(e=>e.isIntersecting))return;const n=items.slice(i,i+60);i+=n.length;more.insertAdjacentHTML("beforebegin",n.join(""));bind();if(i>=items.length){io.disconnect();more.remove()}else more.textContent=`${items.length-i} more. Scroll to load`},{root:V,rootMargin:"400px"});io.observe(more)}
+  const io=new IntersectionObserver(es=>{if(!es.some(e=>e.isIntersecting))return;const n=items.slice(i,i+60);i+=n.length;more.insertAdjacentHTML("beforebegin",n.join(""));bind();scanPhotos(ul);if(i>=items.length){io.disconnect();more.remove()}else more.textContent=`${items.length-i} more. Scroll to load`},{root:V,rootMargin:"400px"});io.observe(more)}
 function mbar(p){return`<span class="mbar" aria-hidden="true">${MON.map((m,i)=>`<i class="${inSeason(i+1,p)?"on":""}${i+1===NOWM?" now":""}"></i>`).join("")}</span>`}
 function row(p,opt={}){const b=base(),pid=id(p),m=M.been[pid]?"Been":M.want[pid]&&!opt.q?"Saved":"";const inner=`<button class="it" data-p="${pid}"><span class="thumb" aria-hidden="true">${art(p)}</span><span><span class="nm">${esc(p.name)}</span><span class="sub">${p.tier!=="top"?`<span class="badge b-${p.tier}">${TIER[p.tier]}</span> `:""}${ico(p.g,12,G[p.g][1])} ${esc(opt.state?stOf(p.slug).name:p.district)} · ${esc(p.category)}${M.notes[pid]?" · has notes":""}</span>${opt.mb!==0?`<span class="sub">${mbar(p)} <span class="sr">Best </span>${monthsTxt(p)}</span>`:""}</span><span class="r">${b&&!opt.state?`<span>~${road(km(b,p))} km</span>`:""}${m?`<span class="flag">${m}</span>`:""}</span></button>`;
   if(!opt.q)return`<li>${inner}</li>`;const on=!!M.want[pid];return`<li class="qrow">${inner}<button class="qs${on?" on":""}" data-qs="${pid}" aria-pressed="${on}" aria-label="Want to go: ${esc(p.name)}"><svg aria-hidden="true"><use href="#i-heart"/></svg></button></li>`}
@@ -786,7 +828,7 @@ function vPlace(k){const p=byId(k);if(!p){V.innerHTML=`<div class="pad">${crumbB
   const inTrip=M.trip.includes(pid),ok=inSeason(NOWM,p);
   const from=b?["From "+b.name,"~"+road(km(b,p))+" km"]:h?["From "+h.name,"~"+road(km(h,p)).toLocaleString("en-IN")+" km"]:["Right now",ok?"In season":"Off season"];
   const warns=[];if((p.tags||[]).includes("permit"))warns.push("Permit needed");if((p.tags||[]).includes("adv"))warns.push("Check before going");if(SNOTE[p.slug])warns.push(SNOTE[p.slug]);
-  V.innerHTML=`<div class="hero" id="hero"><span aria-hidden="true">${art(p)}</span>${backBtn()}<div class="pn"><button id="pv" aria-label="Previous place"><svg aria-hidden="true"><use href="#i-left"/></svg></button><button id="nx" aria-label="Next place"><svg aria-hidden="true"><use href="#i-right"/></svg></button></div></div>
+  V.innerHTML=`<div class="hero" id="hero">${art(p,{hero:1})}${backBtn()}<div class="pn"><button id="pv" aria-label="Previous place"><svg aria-hidden="true"><use href="#i-left"/></svg></button><button id="nx" aria-label="Next place"><svg aria-hidden="true"><use href="#i-right"/></svg></button></div></div>
   <div class="pad"><div class="kick">${ico(p.g,16,G[p.g][1])}<span>${G[p.g][0]}</span>${p.tier!=="top"?`<span class="badge b-${p.tier}">${TIER[p.tier]}</span>`:""}<span style="margin-left:auto">${esc(st.name)}</span></div>
    <h2>${esc(p.name)}</h2><div style="color:var(--soft)">${esc(p.category)} · ${esc(p.district)} district</div>
    ${p.why?`<p class="why">${esc(p.why)}</p>`:`<div aria-label="Loading description"><div class="skel" style="width:94%;margin-top:14px"></div><div class="skel" style="width:68%;margin-bottom:16px"></div></div>`}
@@ -890,7 +932,7 @@ function vPassport(){const all=allPlaces(),been=all.filter(p=>M.been[id(p)]),wan
    <h3>Stamps</h3><div class="stamps">${Object.keys(G).map(g=>{const n=been.filter(p=>p.g===g).length,t=all.filter(p=>p.g===g).length;return`<div class="stamp${S.fresh&&S.fresh.g===g&&Date.now()-S.fresh.t<120000?" fresh":""}" role="img" aria-label="${G[g][0]}: ${n} of ${t} visited" style="color:${n?G[g][1]:"var(--faint)"};transform:rotate(${(g.length*7%13)-6}deg)">${stampSVG(G[g][1],n)}<div>${ico(g,22)}<b>${n}</b>${G[g][0].split(" & ")[0]}<br><span style="font-weight:500;opacity:.8">of ${t}</span></div></div>`}).join("")}</div>
    <h3>Collections<small>your progress</small></h3>${colls().filter(c=>c[0]!=="iconic").map(c=>{const L=collPlaces(c[0]);if(!L.length)return"";const n=L.filter(p=>M.been[id(p)]).length;return`<button class="series" data-coll="${c[0]}"><b>${esc(c[1])}</b><span>${n} of ${L.length}</span><span class="sbar"><i style="width:${n/L.length*100}%"></i></span></button>`}).join("")}
    ${passportDiary(been)}
-   <h3>Settings</h3><button class="act" style="width:100%" id="setMe2">Home city and interests${M.home?` · ${esc(M.home.name)}`:""}</button>
+   <h3>Settings</h3><button class="act" style="width:100%;margin-bottom:8px" data-go="credits">Photo credits</button><button class="act" style="width:100%" id="setMe2">Home city and interests${M.home?` · ${esc(M.home.name)}`:""}</button>
    ${PWA?(STANDALONE?`<p class="note">Installed on this device. The atlas works offline, and your visits and saves stay on this phone.</p>`:`<div class="pcard"><b>Install on your iPhone</b><p class="note" style="margin:4px 0 0">In Safari, tap the Share button, then <b>Add to Home Screen</b>. The atlas then opens full-screen like an app and works offline.</p></div>`):OFFLINE?`<p class="note">This is your offline copy. Visits and saves you make here stay on this device.</p>`:`<button class="act" style="width:100%;margin-top:8px" id="offDl">Download offline copy (about 4 MB)</button><p class="note">One file with the whole atlas, its maps and your saved places. Open it from your phone's Files or Downloads to use the atlas with no internet. Asking Claude, photo upload and sync need a connection.</p>`}
    <div class="sync" id="syncNote" style="padding-left:0">${esc(syncMsg)}</div></div>
    <h3 class="pad">Want to go<small>${want.length}</small></h3><ul>${want.map(p=>row(p,{state:1,mb:0})).join("")||`<li class="empty">Tap the heart on any place to save it here.</li>`}</ul>`;
