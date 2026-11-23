@@ -1268,6 +1268,6 @@ function route(silent,h0){const h=h0!=null?h0:location.hash.slice(1);const m=h.m
 })();
 }
 </script>
-<script>if("serviceWorker"in navigator)addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{}))</script>
+<script>if("serviceWorker"in navigator)addEventListener("load",()=>{const sw=navigator.serviceWorker,had=!!sw.controller;let re=0;sw.addEventListener("controllerchange",()=>{if(had&&!re){re=1;location.reload()}});sw.register("sw.js",{updateViaCache:"none"}).then(g=>{const u=()=>g.update().catch(()=>{});document.addEventListener("visibilitychange",()=>{if(!document.hidden)u()});setInterval(u,36e5)}).catch(()=>{})})</script>
 </body>
 </html>
