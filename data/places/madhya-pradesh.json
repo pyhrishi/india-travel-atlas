@@ -1,1 +1,2983 @@
-{"name":"Madhya Pradesh","intro":"Khajuraho's temples, Sanchi's stupa and Bhimbetka's rock art, the forts and palaces of Gwalior, Orchha and Mandu, Mahakal and Omkareshwar, the marble gorge at Bhedaghat, and tiger country at Kanha, Bandhavgarh, Pench, Panna and Satpura.","bases":[["Bhopal",23.2599,77.4126],["Indore",22.7196,75.8577],["Jabalpur",23.1815,79.9864],["Gwalior",26.2183,78.1828],["Khajuraho",24.8318,79.9199],["Ujjain",23.1765,75.7885],["Pachmarhi",22.467,78.434]],"trails":[{"name":"Bundelkhand classics","note":"Gwalior, Orchha and Khajuraho with Panna's tigers.","ids":[12,13,28,9,10,11,1,3,4]},{"name":"Bhopal and around","note":"Museums, a lake city, stupas and rock art.","ids":[60,62,58,59,69,67,68,72]},{"name":"Malwa and the Narmada","note":"Indore's food, Mahakal, Mandu's palaces and Maheshwar's ghats.","ids":[50,52,31,32,39,42,136,43,44,45]},{"name":"Tiger heartland","note":"Kanha, Bandhavgarh and Pench.","ids":[90,92,93,85,86]},{"name":"Satpura and Pachmarhi","note":"Sunsets, caves, falls and canoe safaris.","ids":[76,79,78,80,81,77,84]},{"name":"Chambal temple trail","note":"Bateshwar, the yogini temple and gharials.","ids":[19,21,20,22]},{"name":"Rewa waterfalls","note":"Tall monsoon falls of the Vindhyan plateau.","ids":[104,105,107,106,103]},{"name":"Mughal Burhanpur","note":"Asirgarh and the city where Mumtaz Mahal died.","ids":[115,116,117,118]}],"places":[{"n":1,"name":"Khajuraho Western Group","district":"Chhatarpur","category":"Temple","g":"temple","lat":24.852,"lng":79.922,"why":"UNESCO Chandela temples of sublime carving","tier":"icon","months":[10,3],"time":"Half day"},{"n":2,"name":"Khajuraho Eastern & Southern Temples","district":"Chhatarpur","category":"Temple","g":"temple","lat":24.848,"lng":79.937,"why":"Jain temples and quieter shrines of Khajuraho","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":3,"name":"Raneh Falls","district":"Chhatarpur","category":"Waterfall","g":"water","lat":24.88,"lng":79.78,"why":"Canyon of coloured granite on the Ken","tier":"top","months":[7,10],"time":"2 hrs"},{"n":4,"name":"Panna National Park","district":"Panna","category":"National park","g":"wildlife","lat":24.73,"lng":80.0,"why":"Tigers back from local extinction, Ken river gorges","tier":"icon","months":[10,6],"time":"Overnight"},{"n":5,"name":"Pandav Falls","district":"Panna","category":"Waterfall","g":"water","lat":24.69,"lng":80.03,"why":"Falls and caves linked to the Pandavas","tier":"gem","months":[7,10],"time":"2 hrs"},{"n":6,"name":"Panna Diamond Mines","district":"Panna","category":"Industrial","g":"culture","lat":24.72,"lng":80.18,"why":"Asia's only diamond mines","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":7,"name":"Prannath Temple, Panna","district":"Panna","category":"Temple","g":"temple","lat":24.72,"lng":80.19,"why":"Main shrine of the Pranami sect","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":8,"name":"Ajaigarh Fort","district":"Panna","category":"Fort","g":"heritage","lat":24.9,"lng":80.26,"why":"Chandela hill fort with carved gates","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":9,"name":"Orchha","district":"Niwari","category":"Heritage","g":"heritage","lat":25.35,"lng":78.64,"why":"Bundela palaces, temples and riverside cenotaphs","tier":"icon","months":[10,3],"time":"Full day"},{"n":10,"name":"Orchha Chhatris","district":"Niwari","category":"Heritage","g":"heritage","lat":25.346,"lng":78.647,"why":"Royal cenotaphs on the Betwa at sunset","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":11,"name":"Ram Raja Temple","district":"Niwari","category":"Temple","g":"temple","lat":25.353,"lng":78.642,"why":"Rama worshipped as a king, with a gun salute","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":12,"name":"Gwalior Fort","district":"Gwalior","category":"Fort","g":"heritage","lat":26.23,"lng":78.169,"why":"Massive hill fort of the Man Mandir palace","tier":"icon","months":[10,3],"time":"Half day"},{"n":13,"name":"Jai Vilas Palace","district":"Gwalior","category":"Heritage","g":"heritage","lat":26.203,"lng":78.168,"why":"Scindia palace with giant chandeliers","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":14,"name":"Teli ka Mandir","district":"Gwalior","category":"Temple","g":"temple","lat":26.225,"lng":78.166,"why":"8th-century temple inside the fort","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":15,"name":"Sas-Bahu Temples","district":"Gwalior","category":"Temple","g":"temple","lat":26.233,"lng":78.17,"why":"Ornate twin temples in Gwalior Fort","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":16,"name":"Tansen's Tomb","district":"Gwalior","category":"Heritage","g":"heritage","lat":26.23,"lng":78.18,"why":"Tomb of the great musician, venue of a music festival","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":17,"name":"Gopachal Jain Rock Carvings","district":"Gwalior","category":"Heritage","g":"heritage","lat":26.223,"lng":78.166,"why":"Giant Tirthankara figures cut into the fort rock","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":18,"name":"Gurudwara Data Bandi Chhod","district":"Gwalior","category":"Gurdwara","g":"temple","lat":26.228,"lng":78.168,"why":"Gurdwara where Guru Hargobind was held","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":19,"name":"Bateshwar Temples","district":"Morena","category":"Temple","g":"temple","lat":26.43,"lng":78.19,"why":"200 restored Gurjara-Pratihara temples","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":20,"name":"Mitaoli Chausath Yogini Temple","district":"Morena","category":"Temple","g":"temple","lat":26.49,"lng":78.22,"why":"Circular yogini temple said to have inspired Parliament","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":21,"name":"Padavali","district":"Morena","category":"Temple","g":"temple","lat":26.45,"lng":78.2,"why":"Richly carved temple ruins near Bateshwar","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":22,"name":"National Chambal Sanctuary","district":"Morena","category":"Wildlife","g":"wildlife","lat":26.65,"lng":78.4,"why":"Gharials and dolphins in the Chambal ravines","tier":"top","months":[10,3],"time":"Full day"},{"n":23,"name":"Kuno National Park","district":"Sheopur","category":"National park","g":"wildlife","lat":25.6,"lng":77.4,"why":"India's cheetah reintroduction site","tier":"top","months":[10,6],"time":"Full day"},{"n":24,"name":"Madhav National Park","district":"Shivpuri","category":"National park","g":"wildlife","lat":25.45,"lng":77.73,"why":"Lakes, forest and Scindia cenotaphs","tier":"top","months":[10,6],"time":"Full day"},{"n":25,"name":"Scindia Chhatris, Shivpuri","district":"Shivpuri","category":"Heritage","g":"heritage","lat":25.42,"lng":77.66,"why":"Marble cenotaphs with Mughal and Rajput styles","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":26,"name":"Chanderi","district":"Ashoknagar","category":"Heritage","g":"heritage","lat":24.72,"lng":78.14,"why":"Fort town of handwoven saris and old gateways","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":27,"name":"Chanderi Fort","district":"Ashoknagar","category":"Fort","g":"heritage","lat":24.71,"lng":78.13,"why":"Fort above the weaving town","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":28,"name":"Datia Palace","district":"Datia","category":"Heritage","g":"heritage","lat":25.67,"lng":78.46,"why":"Seven-storey Bir Singh Palace","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":29,"name":"Pitambara Peeth","district":"Datia","category":"Temple","g":"temple","lat":25.68,"lng":78.47,"why":"Popular temple of Baglamukhi","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":30,"name":"Sonagiri","district":"Datia","category":"Temple","g":"temple","lat":25.72,"lng":78.4,"why":"Hill of over 100 Jain temples","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":31,"name":"Mahakaleshwar Temple","district":"Ujjain","category":"Temple","g":"temple","lat":23.183,"lng":75.768,"why":"Jyotirlinga with the dawn Bhasma Aarti","tier":"icon","months":[10,3],"time":"Half day"},{"n":32,"name":"Mahakal Lok","district":"Ujjain","category":"Monument","g":"temple","lat":23.184,"lng":75.766,"why":"New corridor of murals and statues by Mahakal","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":33,"name":"Ram Ghat, Ujjain","district":"Ujjain","category":"River","g":"temple","lat":23.18,"lng":75.76,"why":"Shipra ghats of the Simhastha Kumbh","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":34,"name":"Kal Bhairav Temple","district":"Ujjain","category":"Temple","g":"temple","lat":23.21,"lng":75.77,"why":"Temple where liquor is offered to the deity","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":35,"name":"Harsiddhi Temple","district":"Ujjain","category":"Temple","g":"temple","lat":23.183,"lng":75.765,"why":"Shakti Peetha with tall lamp towers","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":36,"name":"Jantar Mantar, Ujjain","district":"Ujjain","category":"Heritage","g":"heritage","lat":23.17,"lng":75.77,"why":"Jai Singh's observatory","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":37,"name":"Sandipani Ashram","district":"Ujjain","category":"Temple","g":"temple","lat":23.195,"lng":75.78,"why":"Where Krishna is said to have studied","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":38,"name":"Mangalnath Temple","district":"Ujjain","category":"Temple","g":"temple","lat":23.21,"lng":75.78,"why":"Temple at Mars' birthplace by legend","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":39,"name":"Omkareshwar","district":"Khandwa","category":"Temple","g":"temple","lat":22.245,"lng":76.151,"why":"Jyotirlinga on an Om-shaped island in the Narmada","tier":"icon","months":[10,3],"time":"1–2 hrs"},{"n":40,"name":"Statue of Oneness, Omkareshwar","district":"Khandwa","category":"Monument","g":"temple","lat":22.24,"lng":76.15,"why":"108-ft statue of Adi Shankaracharya","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":41,"name":"Hanuwantiya","district":"Khandwa","category":"Island","g":"water","lat":22.26,"lng":76.6,"why":"Island resort on the Indira Sagar backwaters","tier":"gem","months":[10,3],"time":"2 hrs"},{"n":42,"name":"Maheshwar","district":"Khargone","category":"Heritage","g":"heritage","lat":22.177,"lng":75.585,"why":"Ahilyabai's ghats, fort and Maheshwari weaving","tier":"icon","months":[10,3],"time":"Overnight"},{"n":43,"name":"Mandu","district":"Dhar","category":"Heritage","g":"heritage","lat":22.35,"lng":75.4,"why":"Afghan-era hill city of palaces and pavilions","tier":"icon","months":[7,2],"time":"Full day"},{"n":44,"name":"Jahaz Mahal","district":"Dhar","category":"Heritage","g":"heritage","lat":22.356,"lng":75.395,"why":"Ship palace between two lakes","tier":"top","months":[7,2],"time":"1–2 hrs"},{"n":45,"name":"Roopmati Pavilion","district":"Dhar","category":"Heritage","g":"heritage","lat":22.333,"lng":75.395,"why":"Pavilion of the Baz Bahadur–Roopmati love story","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":46,"name":"Hoshang Shah's Tomb","district":"Dhar","category":"Heritage","g":"heritage","lat":22.345,"lng":75.4,"why":"India's first marble tomb","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":47,"name":"Dhar Fort","district":"Dhar","category":"Fort","g":"heritage","lat":22.6,"lng":75.3,"why":"Red sandstone fort of the Parmars","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":48,"name":"Bagh Caves","district":"Dhar","category":"Caves","g":"caves","lat":22.37,"lng":74.8,"why":"Buddhist caves with Ajanta-era paintings","tier":"top","months":[10,3],"time":"2 hrs"},{"n":49,"name":"Bagh Print Workshops","district":"Dhar","category":"Craft","g":"culture","lat":22.36,"lng":74.8,"why":"Natural-dye block printing","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":50,"name":"Indore Rajwada","district":"Indore","category":"Heritage","g":"heritage","lat":22.718,"lng":75.855,"why":"Seven-storey Holkar palace","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":51,"name":"Lal Bagh Palace","district":"Indore","category":"Heritage","g":"heritage","lat":22.7,"lng":75.84,"why":"Holkar palace modelled on Versailles","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":52,"name":"Sarafa Bazaar","district":"Indore","category":"Food","g":"culture","lat":22.718,"lng":75.856,"why":"Jewellery market by day, street food by night","tier":"icon","months":[10,3],"time":"Evening"},{"n":53,"name":"Chhappan Dukan","district":"Indore","category":"Food","g":"culture","lat":22.724,"lng":75.884,"why":"56 shops of Indore's snacks","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":54,"name":"Kanch Mandir","district":"Indore","category":"Temple","g":"temple","lat":22.719,"lng":75.857,"why":"Jain temple made of glass mosaic","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":55,"name":"Patalpani Falls","district":"Indore","category":"Waterfall","g":"water","lat":22.51,"lng":75.8,"why":"Monsoon falls and heritage train","tier":"gem","months":[7,10],"time":"2 hrs"},{"n":56,"name":"Tincha Falls","district":"Indore","category":"Waterfall","g":"water","lat":22.58,"lng":75.82,"why":"Monsoon falls near Indore","tier":"gem","months":[7,10],"time":"2 hrs"},{"n":57,"name":"Janapav","district":"Indore","category":"Temple","g":"temple","lat":22.45,"lng":75.76,"why":"Hill revered as Parashurama's birthplace","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":58,"name":"Bhopal Upper Lake","district":"Bhopal","category":"Lake","g":"water","lat":23.25,"lng":77.37,"why":"Lake of a thousand years with boating","tier":"top","months":[10,3],"time":"2 hrs"},{"n":59,"name":"Taj-ul-Masajid","district":"Bhopal","category":"Heritage","g":"heritage","lat":23.262,"lng":77.393,"why":"One of Asia's largest mosques","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":60,"name":"Tribal Museum, Bhopal","district":"Bhopal","category":"Museum","g":"culture","lat":23.237,"lng":77.381,"why":"Stunning museum of MP's tribal worlds","tier":"icon","months":[10,3],"time":"3 hrs"},{"n":61,"name":"Bharat Bhavan","district":"Bhopal","category":"Culture","g":"culture","lat":23.24,"lng":77.39,"why":"Charles Correa's arts centre on the lake","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":62,"name":"Indira Gandhi Rashtriya Manav Sangrahalaya","district":"Bhopal","category":"Museum","g":"culture","lat":23.233,"lng":77.383,"why":"Open-air museum of Indian homes","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":63,"name":"Van Vihar National Park","district":"Bhopal","category":"Wildlife","g":"wildlife","lat":23.23,"lng":77.36,"why":"Lakeside wildlife park","tier":"gem","months":[10,3],"time":"Full day"},{"n":64,"name":"State Museum Bhopal","district":"Bhopal","category":"Museum","g":"culture","lat":23.24,"lng":77.39,"why":"Fine museum of sculpture","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":65,"name":"Gauhar Mahal","district":"Bhopal","category":"Heritage","g":"heritage","lat":23.26,"lng":77.4,"why":"Palace of the begums","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":66,"name":"Chowk Bazaar, Bhopal","district":"Bhopal","category":"Market","g":"culture","lat":23.26,"lng":77.4,"why":"Old city market of zari and batua bags","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":67,"name":"Bhimbetka Rock Shelters","district":"Raisen","category":"Caves","g":"caves","lat":22.938,"lng":77.613,"why":"UNESCO rock art spanning thousands of years","tier":"icon","months":[10,3],"time":"2–3 hrs"},{"n":68,"name":"Sanchi Stupa","district":"Raisen","category":"Heritage","g":"buddhist","lat":23.479,"lng":77.74,"why":"UNESCO Great Stupa with carved gateways","tier":"icon","months":[10,3],"time":"Half day"},{"n":69,"name":"Bhojpur Temple","district":"Raisen","category":"Temple","g":"temple","lat":23.1,"lng":77.58,"why":"Unfinished temple with a giant linga","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":70,"name":"Raisen Fort","district":"Raisen","category":"Fort","g":"heritage","lat":23.33,"lng":77.79,"why":"Hill fort with old tanks","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":71,"name":"Satdhara Stupas","district":"Raisen","category":"Heritage","g":"buddhist","lat":23.48,"lng":77.66,"why":"Buddhist stupas above a gorge","tier":"gem","months":[10,3],"time":"2 hrs"},{"n":72,"name":"Udayagiri Caves, Vidisha","district":"Vidisha","category":"Caves","g":"caves","lat":23.537,"lng":77.772,"why":"Gupta caves with the great Varaha panel","tier":"top","months":[10,3],"time":"2 hrs"},{"n":73,"name":"Heliodorus Pillar","district":"Vidisha","category":"Heritage","g":"heritage","lat":23.55,"lng":77.79,"why":"2nd-century BCE pillar of a Greek devotee","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":74,"name":"Gyaraspur","district":"Vidisha","category":"Temple","g":"temple","lat":23.67,"lng":78.11,"why":"Maladevi temple on a hillside","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":75,"name":"Udaypur Neelkantheshwar Temple","district":"Vidisha","category":"Temple","g":"temple","lat":23.9,"lng":78.06,"why":"Paramara temple rivalling Khajuraho","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":76,"name":"Pachmarhi","district":"Narmadapuram","category":"Hill station","g":"hills","lat":22.467,"lng":78.434,"why":"MP's only hill station in the Satpura","tier":"icon","months":[7,2],"time":"2–3 days"},{"n":77,"name":"Satpura National Park","district":"Narmadapuram","category":"National park","g":"wildlife","lat":22.5,"lng":78.35,"why":"Walking and canoe safaris in the Satpura","tier":"top","months":[10,6],"time":"2 days"},{"n":78,"name":"Bee Falls","district":"Narmadapuram","category":"Waterfall","g":"water","lat":22.47,"lng":78.44,"why":"Pachmarhi's popular falls","tier":"gem","months":[7,10],"time":"2 hrs"},{"n":79,"name":"Dhoopgarh","district":"Narmadapuram","category":"Viewpoint","g":"hills","lat":22.45,"lng":78.38,"why":"Highest point of the Satpura, famous for sunsets","tier":"top","months":[7,2],"time":"Half day"},{"n":80,"name":"Jata Shankar Cave","district":"Narmadapuram","category":"Caves","g":"caves","lat":22.47,"lng":78.43,"why":"Cave Shiva shrine in a gorge","tier":"gem","months":[10,3],"time":"2 hrs"},{"n":81,"name":"Pandav Caves, Pachmarhi","district":"Narmadapuram","category":"Caves","g":"caves","lat":22.47,"lng":78.43,"why":"Five rock-cut Buddhist caves","tier":"gem","months":[10,3],"time":"2 hrs"},{"n":82,"name":"Bori Wildlife Sanctuary","district":"Narmadapuram","category":"Wildlife","g":"wildlife","lat":22.4,"lng":78.05,"why":"India's oldest reserved forest","tier":"gem","months":[10,3],"time":"Full day"},{"n":83,"name":"Sethani Ghat","district":"Narmadapuram","category":"River","g":"temple","lat":22.76,"lng":77.73,"why":"Grand ghat on the Narmada","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":84,"name":"Tawa Reservoir","district":"Narmadapuram","category":"Lake","g":"water","lat":22.56,"lng":77.98,"why":"Reservoir with a cruise into Satpura","tier":"gem","months":[10,3],"time":"2 hrs"},{"n":85,"name":"Bhedaghat Marble Rocks","district":"Jabalpur","category":"River","g":"water","lat":23.13,"lng":79.8,"why":"Boat through white marble gorges of the Narmada","tier":"icon","months":[10,3],"time":"Half day"},{"n":86,"name":"Dhuandhar Falls","district":"Jabalpur","category":"Waterfall","g":"water","lat":23.13,"lng":79.8,"why":"Smoke-cascade falls of the Narmada","tier":"top","months":[7,10],"time":"2 hrs"},{"n":87,"name":"Chausath Yogini Temple, Bhedaghat","district":"Jabalpur","category":"Temple","g":"temple","lat":23.13,"lng":79.8,"why":"Hilltop circle of 64 yoginis","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":88,"name":"Madan Mahal Fort","district":"Jabalpur","category":"Fort","g":"heritage","lat":23.15,"lng":79.91,"why":"Gond fort on a boulder","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":89,"name":"Balancing Rock","district":"Jabalpur","category":"Nature","g":"hills","lat":23.15,"lng":79.91,"why":"Rock balanced on another","tier":"gem","months":[10,3],"time":"Half day"},{"n":90,"name":"Kanha National Park","district":"Mandla","category":"National park","g":"wildlife","lat":22.33,"lng":80.61,"why":"Meadows of barasingha and tigers, the Jungle Book land","tier":"icon","months":[10,6],"time":"2–3 days"},{"n":91,"name":"Ramnagar Palace, Mandla","district":"Mandla","category":"Heritage","g":"heritage","lat":22.61,"lng":80.5,"why":"Gond palace on the Narmada","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":92,"name":"Bandhavgarh National Park","district":"Umaria","category":"National park","g":"wildlife","lat":23.7,"lng":81.0,"why":"India's densest tiger population and a hill fort","tier":"icon","months":[10,6],"time":"2–3 days"},{"n":93,"name":"Pench National Park","district":"Seoni","category":"National park","g":"wildlife","lat":21.7,"lng":79.3,"why":"Teak forests of Kipling's Mowgli stories","tier":"top","months":[10,6],"time":"2 days"},{"n":94,"name":"Amarkantak","district":"Anuppur","category":"Temple","g":"temple","lat":22.6827,"lng":81.7313,"why":"Source of the Narmada, temple town in the hills","tier":"top","months":[10,3],"time":"Full day"},{"n":95,"name":"Kapildhara Falls","district":"Anuppur","category":"Waterfall","g":"water","lat":22.68,"lng":81.73,"why":"Narmada's first fall","tier":"gem","months":[7,10],"time":"2 hrs"},{"n":96,"name":"Sonmuda","district":"Anuppur","category":"Viewpoint","g":"hills","lat":22.6804,"lng":81.7298,"why":"Source of the Son with valley views","tier":"gem","months":[10,3],"time":"Half day"},{"n":97,"name":"Sanjay-Dubri Tiger Reserve","district":"Sidhi","category":"Wildlife","g":"wildlife","lat":23.9,"lng":81.7,"why":"Quiet tiger forest in the east","tier":"gem","months":[10,6],"time":"Full day"},{"n":98,"name":"Maihar Sharda Temple","district":"Maihar","category":"Temple","g":"temple","lat":24.26,"lng":80.73,"why":"Hilltop goddess temple with a ropeway","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":99,"name":"Chitrakoot (Ramghat)","district":"Satna","category":"Temple","g":"temple","lat":25.1659,"lng":80.8458,"why":"Ghats where Rama spent his exile","tier":"top","months":[10,3],"time":"Full day"},{"n":100,"name":"Gupt Godavari","district":"Satna","category":"Caves","g":"caves","lat":25.09,"lng":80.84,"why":"Cave river shrine near Chitrakoot","tier":"gem","months":[10,3],"time":"2 hrs"},{"n":101,"name":"Kamadgiri","district":"Satna","category":"Temple","g":"temple","lat":25.154,"lng":80.8492,"why":"Hill circumambulated by pilgrims","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":102,"name":"Rewa Fort","district":"Rewa","category":"Fort","g":"heritage","lat":24.53,"lng":81.3,"why":"Fort and museum of the Rewa kings","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":103,"name":"Mukundpur White Tiger Safari","district":"Satna","category":"Wildlife","g":"wildlife","lat":24.42,"lng":81.2,"why":"World's first white tiger safari","tier":"gem","months":[10,3],"time":"Full day"},{"n":104,"name":"Chachai Falls","district":"Rewa","category":"Waterfall","g":"water","lat":24.95,"lng":81.66,"why":"One of India's tallest single-drop falls","tier":"top","months":[7,10],"time":"2 hrs"},{"n":105,"name":"Keoti Falls","district":"Rewa","category":"Waterfall","g":"water","lat":24.81,"lng":81.41,"why":"Deep gorge falls","tier":"gem","months":[7,10],"time":"2 hrs"},{"n":106,"name":"Bahuti Falls","district":"Mauganj","category":"Waterfall","g":"water","lat":24.73,"lng":81.94,"why":"MP's highest waterfall","tier":"top","months":[7,10],"time":"2 hrs"},{"n":107,"name":"Purwa Falls","district":"Rewa","category":"Waterfall","g":"water","lat":24.8,"lng":81.38,"why":"Wide falls on the Tamsa","tier":"gem","months":[7,10],"time":"2 hrs"},{"n":108,"name":"Bhimkund","district":"Chhatarpur","category":"Water","g":"water","lat":24.75,"lng":79.4,"why":"Clear blue cave pool","tier":"gem","months":[10,3],"time":"2 hrs"},{"n":109,"name":"Jatashankar, Chhatarpur","district":"Chhatarpur","category":"Temple","g":"temple","lat":24.71,"lng":79.39,"why":"Forest Shiva shrine with springs","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":110,"name":"Bageshwar Dham","district":"Chhatarpur","category":"Temple","g":"temple","lat":24.8,"lng":79.85,"why":"Hugely popular Hanuman shrine","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":111,"name":"Kundalpur Jain Temple","district":"Damoh","category":"Temple","g":"temple","lat":23.99,"lng":79.15,"why":"Hill of Jain temples with the giant Bade Baba","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":112,"name":"Nauradehi (Veerangana Durgavati) Tiger Reserve","district":"Sagar","category":"Wildlife","g":"wildlife","lat":23.45,"lng":79.15,"why":"MP's largest tiger reserve","tier":"gem","months":[10,6],"time":"Full day"},{"n":113,"name":"Eran","district":"Sagar","category":"Heritage","g":"heritage","lat":24.1,"lng":78.18,"why":"Gupta-era Varaha and pillar","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":114,"name":"Garhpehra","district":"Sagar","category":"Fort","g":"heritage","lat":23.85,"lng":78.8,"why":"Hilltop palace ruins near Sagar","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":115,"name":"Asirgarh Fort","district":"Burhanpur","category":"Fort","g":"heritage","lat":21.47,"lng":76.29,"why":"Key to the Deccan, a huge hill fort","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":116,"name":"Burhanpur Shahi Qila","district":"Burhanpur","category":"Heritage","g":"heritage","lat":21.31,"lng":76.23,"why":"Where Mumtaz Mahal died, with Mughal hammams","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":117,"name":"Kundi Bhandara","district":"Burhanpur","category":"Heritage","g":"heritage","lat":21.32,"lng":76.25,"why":"Mughal underground water system","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":118,"name":"Dargah-e-Hakimi","district":"Burhanpur","category":"Heritage","g":"heritage","lat":21.3,"lng":76.22,"why":"Bohra shrine with gardens","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":119,"name":"Patalkot","district":"Chhindwara","category":"Valley","g":"hills","lat":22.4,"lng":78.72,"why":"Deep horseshoe valley of Bharia villages","tier":"top","months":[7,2],"time":"Full day"},{"n":120,"name":"Tamia","district":"Chhindwara","category":"Hill","g":"hills","lat":22.34,"lng":78.66,"why":"Hill viewpoint over Patalkot","tier":"gem","months":[7,2],"time":"Half day"},{"n":121,"name":"Chhindwara Tribal Museum","district":"Chhindwara","category":"Museum","g":"culture","lat":22.06,"lng":78.94,"why":"Tribal art museum","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":122,"name":"Pashupatinath Temple, Mandsaur","district":"Mandsaur","category":"Temple","g":"temple","lat":24.07,"lng":75.07,"why":"Eight-faced Shiva linga on the Shivna","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":123,"name":"Gandhi Sagar","district":"Mandsaur","category":"Lake","g":"water","lat":24.7,"lng":75.55,"why":"Reservoir and sanctuary with cheetahs and a floating festival","tier":"top","months":[10,3],"time":"2 hrs"},{"n":124,"name":"Chaturbhuj Nala Rock Art","district":"Mandsaur","category":"Caves","g":"caves","lat":24.6,"lng":75.6,"why":"One of India's longest rock art galleries","tier":"gem","months":[10,3],"time":"2 hrs"},{"n":125,"name":"Hinglajgarh Fort","district":"Mandsaur","category":"Fort","g":"heritage","lat":24.66,"lng":75.78,"why":"Fort with superb Paramara sculpture","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":126,"name":"Dharmrajeshwar","district":"Mandsaur","category":"Temple","g":"temple","lat":24.43,"lng":75.7,"why":"Monolithic rock-cut temple","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":127,"name":"Sailana Cactus Garden","district":"Ratlam","category":"Garden","g":"culture","lat":23.46,"lng":74.92,"why":"Royal cactus garden","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":128,"name":"Kadwaha Temples","district":"Ashoknagar","category":"Temple","g":"temple","lat":24.95,"lng":77.92,"why":"Kachchhapaghata temple cluster","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":129,"name":"Tigawa","district":"Katni","category":"Temple","g":"temple","lat":23.68,"lng":80.08,"why":"Early Gupta temple","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":130,"name":"Vijayraghavgarh Fort","district":"Katni","category":"Fort","g":"heritage","lat":23.98,"lng":80.62,"why":"Fort with a royal palace","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":131,"name":"Ghughua Fossil Park","district":"Dindori","category":"Museum","g":"culture","lat":23.07,"lng":80.9,"why":"Fossilised plants 65 million years old","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":132,"name":"Kanha Mukki Gate","district":"Balaghat","category":"Wildlife","g":"wildlife","lat":22.18,"lng":80.9,"why":"Kanha's eastern gate","tier":"gem","months":[10,6],"time":"Full day"},{"n":133,"name":"Gangulpara Falls","district":"Balaghat","category":"Waterfall","g":"water","lat":21.96,"lng":80.2,"why":"Falls and dam near Balaghat","tier":"gem","months":[7,10],"time":"2 hrs"},{"n":134,"name":"Hanumantal & Jain Temples, Jabalpur","district":"Jabalpur","category":"Temple","g":"temple","lat":23.17,"lng":79.93,"why":"Old tank and temples","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":135,"name":"Rani Durgavati Museum","district":"Jabalpur","category":"Museum","g":"culture","lat":23.17,"lng":79.94,"why":"Sculpture from the Kalachuri era","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":136,"name":"Ahilya Fort","district":"Khargone","category":"Heritage","g":"heritage","lat":22.177,"lng":75.586,"why":"Ahilyabai's fort above the ghats","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":137,"name":"Mandleshwar","district":"Khargone","category":"Temple","g":"temple","lat":22.18,"lng":75.66,"why":"Ghat town by Maheshwar","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":138,"name":"Un Temples","district":"Khargone","category":"Temple","g":"temple","lat":21.8,"lng":75.46,"why":"Paramara temples","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":139,"name":"Sirpur Lake Indore","district":"Indore","category":"Wetland","g":"wildlife","lat":22.7,"lng":75.81,"why":"Ramsar city lake for birds","tier":"gem","months":[10,3],"time":"Full day"},{"n":140,"name":"Kerwa Dam","district":"Bhopal","category":"Lake","g":"water","lat":23.2,"lng":77.32,"why":"Forest dam near Bhopal","tier":"gem","months":[10,3],"time":"2 hrs"},{"n":141,"name":"Halali Dam","district":"Raisen","category":"Lake","g":"water","lat":23.45,"lng":77.53,"why":"Reservoir near Bhopal","tier":"gem","months":[10,3],"time":"2 hrs"},{"n":142,"name":"Dewas Tekri","district":"Dewas","category":"Temple","g":"temple","lat":22.97,"lng":76.05,"why":"Hill of Chamunda and Tulja Bhavani","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":143,"name":"Kheoni Sanctuary","district":"Dewas","category":"Wildlife","g":"wildlife","lat":22.8,"lng":76.75,"why":"Forest sanctuary","tier":"gem","months":[10,3],"time":"Full day"},{"n":144,"name":"Nemawar","district":"Dewas","category":"Temple","g":"temple","lat":22.49,"lng":77.02,"why":"Siddheshwar temple on the Narmada","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":145,"name":"Salkanpur","district":"Sehore","category":"Temple","g":"temple","lat":22.63,"lng":77.3,"why":"Hill goddess temple","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":146,"name":"Ratapani Tiger Reserve","district":"Raisen","category":"Wildlife","g":"wildlife","lat":23.0,"lng":77.6,"why":"New tiger reserve near Bhopal","tier":"gem","months":[10,6],"time":"Full day"},{"n":147,"name":"Virateshwar Temple","district":"Shahdol","category":"Temple","g":"temple","lat":23.3,"lng":81.36,"why":"Kalachuri temple","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":148,"name":"Narsinghgarh Fort","district":"Rajgarh","category":"Fort","g":"heritage","lat":23.71,"lng":77.09,"why":"Fort above a lake, the 'Kashmir of Malwa'","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":149,"name":"Sheopur Fort","district":"Sheopur","category":"Fort","g":"heritage","lat":25.67,"lng":76.7,"why":"Fort with Gaur and Mughal styles","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":150,"name":"Ater Fort","district":"Bhind","category":"Fort","g":"heritage","lat":26.75,"lng":78.65,"why":"Ravine fort on the Chambal","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":151,"name":"Garh Kundar","district":"Niwari","category":"Fort","g":"heritage","lat":25.48,"lng":78.92,"why":"Mysterious fort of the Khangars","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":152,"name":"Kundeshwar","district":"Tikamgarh","category":"Temple","g":"temple","lat":24.7,"lng":78.83,"why":"Shiva temple and falls","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":153,"name":"Papora Jain Temples","district":"Tikamgarh","category":"Temple","g":"temple","lat":24.71,"lng":78.89,"why":"Over 100 Jain temples","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":154,"name":"Kukru","district":"Betul","category":"Hill","g":"hills","lat":21.769,"lng":77.3546,"why":"Coffee hill of the Satpura","tier":"gem","months":[10,3],"time":"Half day"},{"n":155,"name":"Muktagiri","district":"Betul","category":"Temple","g":"temple","lat":21.49,"lng":77.69,"why":"Jain temples by a waterfall","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":156,"name":"Handia","district":"Harda","category":"Temple","g":"temple","lat":22.49,"lng":77.01,"why":"Narmada ghats and temples","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":157,"name":"Bawangaja","district":"Barwani","category":"Temple","g":"temple","lat":21.95,"lng":74.88,"why":"84-ft Jain Rishabhdev carved in rock","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":158,"name":"Pench Karmajhiri Gate","district":"Seoni","category":"Wildlife","g":"wildlife","lat":21.8,"lng":79.2,"why":"Pench's buffer gate","tier":"gem","months":[10,6],"time":"Full day"},{"n":159,"name":"Mada Caves","district":"Singrauli","category":"Caves","g":"caves","lat":24.06,"lng":82.52,"why":"Rock-cut caves","tier":"gem","months":[10,3],"time":"2 hrs"},{"n":160,"name":"Baijnath Temple, Agar","district":"Agar Malwa","category":"Temple","g":"temple","lat":23.71,"lng":76.02,"why":"Temple linked to an English couple's prayer","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":161,"name":"Bajrang Garh Fort","district":"Guna","category":"Fort","g":"heritage","lat":24.6,"lng":77.27,"why":"Fort with a Hanuman temple","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":162,"name":"Baglamukhi Temple, Nalkheda","district":"Agar Malwa","category":"Temple","g":"temple","lat":23.84,"lng":76.23,"why":"Tantric goddess temple","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":163,"name":"Kaliadeh Palace","district":"Ujjain","category":"Heritage","g":"heritage","lat":23.24,"lng":75.78,"why":"Island palace on the Shipra","tier":"gem","months":[10,3],"time":"1–2 hrs"}],"festivals":[{"name":"Khajuraho Dance Festival","months":[2,2],"when":"February","n":1,"about":"Classical dance against the floodlit temples."},{"name":"Bhagoria Haat","months":[2,3],"when":"The week before Holi","n":null,"about":"Bhil and Bhilala festival markets in Jhabua and Alirajpur."},{"name":"Mahashivratri at Mahakal","months":[2,3],"when":"February or March","n":31,"about":"Ujjain's biggest night at the Jyotirlinga."},{"name":"Orchha Ram Vivah","months":[11,12],"when":"November–December","n":11,"about":"Re-enactment of Rama's wedding in Orchha."},{"name":"Tansen Samaroh","months":[12,12],"when":"December","n":16,"about":"Hindustani music festival at Tansen's tomb."},{"name":"Malwa Utsav","months":[5,5],"when":"May","n":50,"about":"Folk arts and food fair in Indore."},{"name":"Gotmar Mela","months":[8,9],"when":"Day after Pola","n":null,"about":"Pandhurna's stone-pelting fair across the Jam river."},{"name":"Narmada Jayanti","months":[1,2],"when":"January or February","n":94,"about":"Birthday of the Narmada, celebrated at its source and along the ghats."},{"name":"Simhastha Kumbh","months":[4,5],"when":"Every 12 years; next in 2028","n":33,"about":"Ujjain's great Kumbh on the Shipra."},{"name":"Jal Mahotsav, Hanuwantiya","months":[11,2],"when":"Winter","n":41,"about":"Tent city and water sports festival on the backwaters."}]}
+{
+ "name": "Madhya Pradesh",
+ "intro": "Khajuraho's temples, Sanchi's stupa and Bhimbetka's rock art, the forts and palaces of Gwalior, Orchha and Mandu, Mahakal and Omkareshwar, the marble gorge at Bhedaghat, and tiger country at Kanha, Bandhavgarh, Pench, Panna and Satpura.",
+ "bases": [
+  [
+   "Bhopal",
+   23.2599,
+   77.4126
+  ],
+  [
+   "Indore",
+   22.7196,
+   75.8577
+  ],
+  [
+   "Jabalpur",
+   23.1815,
+   79.9864
+  ],
+  [
+   "Gwalior",
+   26.2183,
+   78.1828
+  ],
+  [
+   "Khajuraho",
+   24.8318,
+   79.9199
+  ],
+  [
+   "Ujjain",
+   23.1765,
+   75.7885
+  ],
+  [
+   "Pachmarhi",
+   22.467,
+   78.434
+  ]
+ ],
+ "trails": [
+  {
+   "name": "Bundelkhand classics",
+   "note": "Gwalior, Orchha and Khajuraho with Panna's tigers.",
+   "ids": [
+    12,
+    13,
+    28,
+    9,
+    10,
+    11,
+    1,
+    3,
+    4
+   ]
+  },
+  {
+   "name": "Bhopal and around",
+   "note": "Museums, a lake city, stupas and rock art.",
+   "ids": [
+    60,
+    62,
+    58,
+    59,
+    69,
+    67,
+    68,
+    72
+   ]
+  },
+  {
+   "name": "Malwa and the Narmada",
+   "note": "Indore's food, Mahakal, Mandu's palaces and Maheshwar's ghats.",
+   "ids": [
+    50,
+    52,
+    31,
+    32,
+    39,
+    42,
+    136,
+    43,
+    44,
+    45
+   ]
+  },
+  {
+   "name": "Tiger heartland",
+   "note": "Kanha, Bandhavgarh and Pench.",
+   "ids": [
+    90,
+    92,
+    93,
+    85,
+    86
+   ]
+  },
+  {
+   "name": "Satpura and Pachmarhi",
+   "note": "Sunsets, caves, falls and canoe safaris.",
+   "ids": [
+    76,
+    79,
+    78,
+    80,
+    81,
+    77,
+    84
+   ]
+  },
+  {
+   "name": "Chambal temple trail",
+   "note": "Bateshwar, the yogini temple and gharials.",
+   "ids": [
+    19,
+    21,
+    20,
+    22
+   ]
+  },
+  {
+   "name": "Rewa waterfalls",
+   "note": "Tall monsoon falls of the Vindhyan plateau.",
+   "ids": [
+    104,
+    105,
+    107,
+    106,
+    103
+   ]
+  },
+  {
+   "name": "Mughal Burhanpur",
+   "note": "Asirgarh and the city where Mumtaz Mahal died.",
+   "ids": [
+    115,
+    116,
+    117,
+    118
+   ]
+  }
+ ],
+ "places": [
+  {
+   "n": 1,
+   "name": "Khajuraho Western Group",
+   "district": "Chhatarpur",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 24.852,
+   "lng": 79.922,
+   "why": "UNESCO Chandela temples of sublime carving",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 2,
+   "name": "Khajuraho Eastern & Southern Temples",
+   "district": "Chhatarpur",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 24.848,
+   "lng": 79.937,
+   "why": "Jain temples and quieter shrines of Khajuraho",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 3,
+   "name": "Raneh Falls",
+   "district": "Chhatarpur",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 24.88,
+   "lng": 79.78,
+   "why": "Canyon of coloured granite on the Ken",
+   "tier": "top",
+   "months": [
+    7,
+    10
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 4,
+   "name": "Panna National Park",
+   "district": "Panna",
+   "category": "National park",
+   "g": "wildlife",
+   "lat": 24.73,
+   "lng": 80.02,
+   "why": "Tigers back from local extinction, Ken river gorges",
+   "tier": "icon",
+   "months": [
+    10,
+    6
+   ],
+   "time": "Overnight"
+  },
+  {
+   "n": 5,
+   "name": "Pandav Falls",
+   "district": "Panna",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 24.69,
+   "lng": 80.03,
+   "why": "Falls and caves linked to the Pandavas",
+   "tier": "gem",
+   "months": [
+    7,
+    10
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 6,
+   "name": "Panna Diamond Mines",
+   "district": "Panna",
+   "category": "Industrial",
+   "g": "culture",
+   "lat": 24.72,
+   "lng": 80.18,
+   "why": "Asia's only diamond mines",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 7,
+   "name": "Prannath Temple, Panna",
+   "district": "Panna",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 24.72,
+   "lng": 80.19,
+   "why": "Main shrine of the Pranami sect",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 8,
+   "name": "Ajaigarh Fort",
+   "district": "Panna",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 24.9,
+   "lng": 80.26,
+   "why": "Chandela hill fort with carved gates",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 9,
+   "name": "Orchha",
+   "district": "Niwari",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 25.35,
+   "lng": 78.64,
+   "why": "Bundela palaces, temples and riverside cenotaphs",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 10,
+   "name": "Orchha Chhatris",
+   "district": "Niwari",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 25.346,
+   "lng": 78.647,
+   "why": "Royal cenotaphs on the Betwa at sunset",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 11,
+   "name": "Ram Raja Temple",
+   "district": "Niwari",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 25.353,
+   "lng": 78.642,
+   "why": "Rama worshipped as a king, with a gun salute",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 12,
+   "name": "Gwalior Fort",
+   "district": "Gwalior",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 26.23,
+   "lng": 78.169,
+   "why": "Massive hill fort of the Man Mandir palace",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 13,
+   "name": "Jai Vilas Palace",
+   "district": "Gwalior",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 26.203,
+   "lng": 78.168,
+   "why": "Scindia palace with giant chandeliers",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 14,
+   "name": "Teli ka Mandir",
+   "district": "Gwalior",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 26.225,
+   "lng": 78.166,
+   "why": "8th-century temple inside the fort",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 15,
+   "name": "Sas-Bahu Temples",
+   "district": "Gwalior",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 26.233,
+   "lng": 78.17,
+   "why": "Ornate twin temples in Gwalior Fort",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 16,
+   "name": "Tansen's Tomb",
+   "district": "Gwalior",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 26.23,
+   "lng": 78.18,
+   "why": "Tomb of the great musician, venue of a music festival",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 17,
+   "name": "Gopachal Jain Rock Carvings",
+   "district": "Gwalior",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 26.223,
+   "lng": 78.166,
+   "why": "Giant Tirthankara figures cut into the fort rock",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 18,
+   "name": "Gurudwara Data Bandi Chhod",
+   "district": "Gwalior",
+   "category": "Gurdwara",
+   "g": "temple",
+   "lat": 26.228,
+   "lng": 78.168,
+   "why": "Gurdwara where Guru Hargobind was held",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 19,
+   "name": "Bateshwar Temples",
+   "district": "Morena",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 26.43,
+   "lng": 78.19,
+   "why": "200 restored Gurjara-Pratihara temples",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 20,
+   "name": "Mitaoli Chausath Yogini Temple",
+   "district": "Morena",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 26.49,
+   "lng": 78.22,
+   "why": "Circular yogini temple said to have inspired Parliament",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 21,
+   "name": "Padavali",
+   "district": "Morena",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 26.45,
+   "lng": 78.2,
+   "why": "Richly carved temple ruins near Bateshwar",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 22,
+   "name": "National Chambal Sanctuary",
+   "district": "Morena",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 26.65,
+   "lng": 78.4,
+   "why": "Gharials and dolphins in the Chambal ravines",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 23,
+   "name": "Kuno National Park",
+   "district": "Sheopur",
+   "category": "National park",
+   "g": "wildlife",
+   "lat": 25.6747,
+   "lng": 77.3057,
+   "why": "India's cheetah reintroduction site",
+   "tier": "top",
+   "months": [
+    10,
+    6
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 24,
+   "name": "Madhav National Park",
+   "district": "Shivpuri",
+   "category": "National park",
+   "g": "wildlife",
+   "lat": 25.45,
+   "lng": 77.73,
+   "why": "Lakes, forest and Scindia cenotaphs",
+   "tier": "top",
+   "months": [
+    10,
+    6
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 25,
+   "name": "Scindia Chhatris, Shivpuri",
+   "district": "Shivpuri",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 25.42,
+   "lng": 77.66,
+   "why": "Marble cenotaphs with Mughal and Rajput styles",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 26,
+   "name": "Chanderi",
+   "district": "Ashoknagar",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 24.72,
+   "lng": 78.14,
+   "why": "Fort town of handwoven saris and old gateways",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 27,
+   "name": "Chanderi Fort",
+   "district": "Ashoknagar",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 24.71,
+   "lng": 78.13,
+   "why": "Fort above the weaving town",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 28,
+   "name": "Datia Palace",
+   "district": "Datia",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 25.67,
+   "lng": 78.46,
+   "why": "Seven-storey Bir Singh Palace",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 29,
+   "name": "Pitambara Peeth",
+   "district": "Datia",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 25.68,
+   "lng": 78.47,
+   "why": "Popular temple of Baglamukhi",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 30,
+   "name": "Sonagiri",
+   "district": "Datia",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 25.72,
+   "lng": 78.4,
+   "why": "Hill of over 100 Jain temples",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 31,
+   "name": "Mahakaleshwar Temple",
+   "district": "Ujjain",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 23.183,
+   "lng": 75.768,
+   "why": "Jyotirlinga with the dawn Bhasma Aarti",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 32,
+   "name": "Mahakal Lok",
+   "district": "Ujjain",
+   "category": "Monument",
+   "g": "temple",
+   "lat": 23.184,
+   "lng": 75.766,
+   "why": "New corridor of murals and statues by Mahakal",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 33,
+   "name": "Ram Ghat, Ujjain",
+   "district": "Ujjain",
+   "category": "River",
+   "g": "temple",
+   "lat": 23.18,
+   "lng": 75.76,
+   "why": "Shipra ghats of the Simhastha Kumbh",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 34,
+   "name": "Kal Bhairav Temple",
+   "district": "Ujjain",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 23.21,
+   "lng": 75.77,
+   "why": "Temple where liquor is offered to the deity",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 35,
+   "name": "Harsiddhi Temple",
+   "district": "Ujjain",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 23.183,
+   "lng": 75.765,
+   "why": "Shakti Peetha with tall lamp towers",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 36,
+   "name": "Jantar Mantar, Ujjain",
+   "district": "Ujjain",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 23.17,
+   "lng": 75.77,
+   "why": "Jai Singh's observatory",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 37,
+   "name": "Sandipani Ashram",
+   "district": "Ujjain",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 23.195,
+   "lng": 75.78,
+   "why": "Where Krishna is said to have studied",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 38,
+   "name": "Mangalnath Temple",
+   "district": "Ujjain",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 23.21,
+   "lng": 75.78,
+   "why": "Temple at Mars' birthplace by legend",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 39,
+   "name": "Omkareshwar",
+   "district": "Khandwa",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 22.245,
+   "lng": 76.151,
+   "why": "Jyotirlinga on an Om-shaped island in the Narmada",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 40,
+   "name": "Statue of Oneness, Omkareshwar",
+   "district": "Khandwa",
+   "category": "Monument",
+   "g": "temple",
+   "lat": 22.24,
+   "lng": 76.15,
+   "why": "108-ft statue of Adi Shankaracharya",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 41,
+   "name": "Hanuwantiya",
+   "district": "Khandwa",
+   "category": "Island",
+   "g": "water",
+   "lat": 22.26,
+   "lng": 76.6,
+   "why": "Island resort on the Indira Sagar backwaters",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 42,
+   "name": "Maheshwar",
+   "district": "Khargone",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 22.177,
+   "lng": 75.585,
+   "why": "Ahilyabai's ghats, fort and Maheshwari weaving",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Overnight"
+  },
+  {
+   "n": 43,
+   "name": "Mandu",
+   "district": "Dhar",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 22.35,
+   "lng": 75.4,
+   "why": "Afghan-era hill city of palaces and pavilions",
+   "tier": "icon",
+   "months": [
+    7,
+    2
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 44,
+   "name": "Jahaz Mahal",
+   "district": "Dhar",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 22.356,
+   "lng": 75.395,
+   "why": "Ship palace between two lakes",
+   "tier": "top",
+   "months": [
+    7,
+    2
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 45,
+   "name": "Roopmati Pavilion",
+   "district": "Dhar",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 22.333,
+   "lng": 75.395,
+   "why": "Pavilion of the Baz Bahadur–Roopmati love story",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 46,
+   "name": "Hoshang Shah's Tomb",
+   "district": "Dhar",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 22.345,
+   "lng": 75.4,
+   "why": "India's first marble tomb",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 47,
+   "name": "Dhar Fort",
+   "district": "Dhar",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 22.6,
+   "lng": 75.3,
+   "why": "Red sandstone fort of the Parmars",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 48,
+   "name": "Bagh Caves",
+   "district": "Dhar",
+   "category": "Caves",
+   "g": "caves",
+   "lat": 22.37,
+   "lng": 74.8,
+   "why": "Buddhist caves with Ajanta-era paintings",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 49,
+   "name": "Bagh Print Workshops",
+   "district": "Dhar",
+   "category": "Craft",
+   "g": "culture",
+   "lat": 22.36,
+   "lng": 74.8,
+   "why": "Natural-dye block printing",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 50,
+   "name": "Indore Rajwada",
+   "district": "Indore",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 22.718,
+   "lng": 75.855,
+   "why": "Seven-storey Holkar palace",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 51,
+   "name": "Lal Bagh Palace",
+   "district": "Indore",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 22.7,
+   "lng": 75.84,
+   "why": "Holkar palace modelled on Versailles",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 52,
+   "name": "Sarafa Bazaar",
+   "district": "Indore",
+   "category": "Food",
+   "g": "culture",
+   "lat": 22.718,
+   "lng": 75.856,
+   "why": "Jewellery market by day, street food by night",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Evening"
+  },
+  {
+   "n": 53,
+   "name": "Chhappan Dukan",
+   "district": "Indore",
+   "category": "Food",
+   "g": "culture",
+   "lat": 22.724,
+   "lng": 75.884,
+   "why": "56 shops of Indore's snacks",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 54,
+   "name": "Kanch Mandir",
+   "district": "Indore",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 22.719,
+   "lng": 75.857,
+   "why": "Jain temple made of glass mosaic",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 55,
+   "name": "Patalpani Falls",
+   "district": "Indore",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 22.51,
+   "lng": 75.8,
+   "why": "Monsoon falls and heritage train",
+   "tier": "gem",
+   "months": [
+    7,
+    10
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 56,
+   "name": "Tincha Falls",
+   "district": "Indore",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 22.58,
+   "lng": 75.82,
+   "why": "Monsoon falls near Indore",
+   "tier": "gem",
+   "months": [
+    7,
+    10
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 57,
+   "name": "Janapav",
+   "district": "Indore",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 22.45,
+   "lng": 75.76,
+   "why": "Hill revered as Parashurama's birthplace",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 58,
+   "name": "Bhopal Upper Lake",
+   "district": "Bhopal",
+   "category": "Lake",
+   "g": "water",
+   "lat": 23.25,
+   "lng": 77.37,
+   "why": "Lake of a thousand years with boating",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 59,
+   "name": "Taj-ul-Masajid",
+   "district": "Bhopal",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 23.262,
+   "lng": 77.393,
+   "why": "One of Asia's largest mosques",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 60,
+   "name": "Tribal Museum, Bhopal",
+   "district": "Bhopal",
+   "category": "Museum",
+   "g": "culture",
+   "lat": 23.237,
+   "lng": 77.381,
+   "why": "Stunning museum of MP's tribal worlds",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "3 hrs"
+  },
+  {
+   "n": 61,
+   "name": "Bharat Bhavan",
+   "district": "Bhopal",
+   "category": "Culture",
+   "g": "culture",
+   "lat": 23.24,
+   "lng": 77.39,
+   "why": "Charles Correa's arts centre on the lake",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 62,
+   "name": "Indira Gandhi Rashtriya Manav Sangrahalaya",
+   "district": "Bhopal",
+   "category": "Museum",
+   "g": "culture",
+   "lat": 23.233,
+   "lng": 77.383,
+   "why": "Open-air museum of Indian homes",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 63,
+   "name": "Van Vihar National Park",
+   "district": "Bhopal",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 23.23,
+   "lng": 77.36,
+   "why": "Lakeside wildlife park",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 64,
+   "name": "State Museum Bhopal",
+   "district": "Bhopal",
+   "category": "Museum",
+   "g": "culture",
+   "lat": 23.24,
+   "lng": 77.39,
+   "why": "Fine museum of sculpture",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 65,
+   "name": "Gauhar Mahal",
+   "district": "Bhopal",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 23.26,
+   "lng": 77.4,
+   "why": "Palace of the begums",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 66,
+   "name": "Chowk Bazaar, Bhopal",
+   "district": "Bhopal",
+   "category": "Market",
+   "g": "culture",
+   "lat": 23.26,
+   "lng": 77.4,
+   "why": "Old city market of zari and batua bags",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 67,
+   "name": "Bhimbetka Rock Shelters",
+   "district": "Raisen",
+   "category": "Caves",
+   "g": "caves",
+   "lat": 22.938,
+   "lng": 77.613,
+   "why": "UNESCO rock art spanning thousands of years",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2–3 hrs"
+  },
+  {
+   "n": 68,
+   "name": "Sanchi Stupa",
+   "district": "Raisen",
+   "category": "Heritage",
+   "g": "buddhist",
+   "lat": 23.479,
+   "lng": 77.74,
+   "why": "UNESCO Great Stupa with carved gateways",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 69,
+   "name": "Bhojpur Temple",
+   "district": "Raisen",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 23.1,
+   "lng": 77.58,
+   "why": "Unfinished temple with a giant linga",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 70,
+   "name": "Raisen Fort",
+   "district": "Raisen",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 23.33,
+   "lng": 77.79,
+   "why": "Hill fort with old tanks",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 71,
+   "name": "Satdhara Stupas",
+   "district": "Raisen",
+   "category": "Heritage",
+   "g": "buddhist",
+   "lat": 23.48,
+   "lng": 77.66,
+   "why": "Buddhist stupas above a gorge",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 72,
+   "name": "Udayagiri Caves, Vidisha",
+   "district": "Vidisha",
+   "category": "Caves",
+   "g": "caves",
+   "lat": 23.537,
+   "lng": 77.772,
+   "why": "Gupta caves with the great Varaha panel",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 73,
+   "name": "Heliodorus Pillar",
+   "district": "Vidisha",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 23.55,
+   "lng": 77.79,
+   "why": "2nd-century BCE pillar of a Greek devotee",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 74,
+   "name": "Gyaraspur",
+   "district": "Vidisha",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 23.67,
+   "lng": 78.11,
+   "why": "Maladevi temple on a hillside",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 75,
+   "name": "Udaypur Neelkantheshwar Temple",
+   "district": "Vidisha",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 23.9,
+   "lng": 78.06,
+   "why": "Paramara temple rivalling Khajuraho",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 76,
+   "name": "Pachmarhi",
+   "district": "Narmadapuram",
+   "category": "Hill station",
+   "g": "hills",
+   "lat": 22.467,
+   "lng": 78.434,
+   "why": "MP's only hill station in the Satpura",
+   "tier": "icon",
+   "months": [
+    7,
+    2
+   ],
+   "time": "2–3 days"
+  },
+  {
+   "n": 77,
+   "name": "Satpura National Park",
+   "district": "Narmadapuram",
+   "category": "National park",
+   "g": "wildlife",
+   "lat": 22.5,
+   "lng": 78.35,
+   "why": "Walking and canoe safaris in the Satpura",
+   "tier": "top",
+   "months": [
+    10,
+    6
+   ],
+   "time": "2 days"
+  },
+  {
+   "n": 78,
+   "name": "Bee Falls",
+   "district": "Narmadapuram",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 22.47,
+   "lng": 78.44,
+   "why": "Pachmarhi's popular falls",
+   "tier": "gem",
+   "months": [
+    7,
+    10
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 79,
+   "name": "Dhoopgarh",
+   "district": "Narmadapuram",
+   "category": "Viewpoint",
+   "g": "hills",
+   "lat": 22.45,
+   "lng": 78.38,
+   "why": "Highest point of the Satpura, famous for sunsets",
+   "tier": "top",
+   "months": [
+    7,
+    2
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 80,
+   "name": "Jata Shankar Cave",
+   "district": "Narmadapuram",
+   "category": "Caves",
+   "g": "caves",
+   "lat": 22.47,
+   "lng": 78.43,
+   "why": "Cave Shiva shrine in a gorge",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 81,
+   "name": "Pandav Caves, Pachmarhi",
+   "district": "Narmadapuram",
+   "category": "Caves",
+   "g": "caves",
+   "lat": 22.47,
+   "lng": 78.43,
+   "why": "Five rock-cut Buddhist caves",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 82,
+   "name": "Bori Wildlife Sanctuary",
+   "district": "Narmadapuram",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 22.4,
+   "lng": 78.05,
+   "why": "India's oldest reserved forest",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 83,
+   "name": "Sethani Ghat",
+   "district": "Narmadapuram",
+   "category": "River",
+   "g": "temple",
+   "lat": 22.76,
+   "lng": 77.73,
+   "why": "Grand ghat on the Narmada",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 84,
+   "name": "Tawa Reservoir",
+   "district": "Narmadapuram",
+   "category": "Lake",
+   "g": "water",
+   "lat": 22.56,
+   "lng": 77.98,
+   "why": "Reservoir with a cruise into Satpura",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 85,
+   "name": "Bhedaghat Marble Rocks",
+   "district": "Jabalpur",
+   "category": "River",
+   "g": "water",
+   "lat": 23.13,
+   "lng": 79.8,
+   "why": "Boat through white marble gorges of the Narmada",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 86,
+   "name": "Dhuandhar Falls",
+   "district": "Jabalpur",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 23.13,
+   "lng": 79.8,
+   "why": "Smoke-cascade falls of the Narmada",
+   "tier": "top",
+   "months": [
+    7,
+    10
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 87,
+   "name": "Chausath Yogini Temple, Bhedaghat",
+   "district": "Jabalpur",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 23.13,
+   "lng": 79.8,
+   "why": "Hilltop circle of 64 yoginis",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 88,
+   "name": "Madan Mahal Fort",
+   "district": "Jabalpur",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 23.15,
+   "lng": 79.91,
+   "why": "Gond fort on a boulder",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 89,
+   "name": "Balancing Rock",
+   "district": "Jabalpur",
+   "category": "Nature",
+   "g": "hills",
+   "lat": 23.15,
+   "lng": 79.91,
+   "why": "Rock balanced on another",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 90,
+   "name": "Kanha National Park",
+   "district": "Mandla",
+   "category": "National park",
+   "g": "wildlife",
+   "lat": 22.33,
+   "lng": 80.61,
+   "why": "Meadows of barasingha and tigers, the Jungle Book land",
+   "tier": "icon",
+   "months": [
+    10,
+    6
+   ],
+   "time": "2–3 days"
+  },
+  {
+   "n": 91,
+   "name": "Ramnagar Palace, Mandla",
+   "district": "Mandla",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 22.61,
+   "lng": 80.5,
+   "why": "Gond palace on the Narmada",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 92,
+   "name": "Bandhavgarh National Park",
+   "district": "Umaria",
+   "category": "National park",
+   "g": "wildlife",
+   "lat": 23.7,
+   "lng": 81.0,
+   "why": "India's densest tiger population and a hill fort",
+   "tier": "icon",
+   "months": [
+    10,
+    6
+   ],
+   "time": "2–3 days"
+  },
+  {
+   "n": 93,
+   "name": "Pench National Park",
+   "district": "Seoni",
+   "category": "National park",
+   "g": "wildlife",
+   "lat": 21.7,
+   "lng": 79.3,
+   "why": "Teak forests of Kipling's Mowgli stories",
+   "tier": "top",
+   "months": [
+    10,
+    6
+   ],
+   "time": "2 days"
+  },
+  {
+   "n": 94,
+   "name": "Amarkantak",
+   "district": "Anuppur",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 22.6827,
+   "lng": 81.7313,
+   "why": "Source of the Narmada, temple town in the hills",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 95,
+   "name": "Kapildhara Falls",
+   "district": "Anuppur",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 22.68,
+   "lng": 81.73,
+   "why": "Narmada's first fall",
+   "tier": "gem",
+   "months": [
+    7,
+    10
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 96,
+   "name": "Sonmuda",
+   "district": "Anuppur",
+   "category": "Viewpoint",
+   "g": "hills",
+   "lat": 22.6804,
+   "lng": 81.7298,
+   "why": "Source of the Son with valley views",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 97,
+   "name": "Sanjay-Dubri Tiger Reserve",
+   "district": "Sidhi",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 23.9,
+   "lng": 81.7,
+   "why": "Quiet tiger forest in the east",
+   "tier": "gem",
+   "months": [
+    10,
+    6
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 98,
+   "name": "Maihar Sharda Temple",
+   "district": "Maihar",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 24.2661,
+   "lng": 80.7421,
+   "why": "Hilltop goddess temple with a ropeway",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 99,
+   "name": "Chitrakoot (Ramghat)",
+   "district": "Satna",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 25.1659,
+   "lng": 80.8458,
+   "why": "Ghats where Rama spent his exile",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 100,
+   "name": "Gupt Godavari",
+   "district": "Satna",
+   "category": "Caves",
+   "g": "caves",
+   "lat": 25.09,
+   "lng": 80.84,
+   "why": "Cave river shrine near Chitrakoot",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 101,
+   "name": "Kamadgiri",
+   "district": "Satna",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 25.154,
+   "lng": 80.8492,
+   "why": "Hill circumambulated by pilgrims",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 102,
+   "name": "Rewa Fort",
+   "district": "Rewa",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 24.53,
+   "lng": 81.3,
+   "why": "Fort and museum of the Rewa kings",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 103,
+   "name": "Mukundpur White Tiger Safari",
+   "district": "Satna",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 24.42,
+   "lng": 81.2,
+   "why": "World's first white tiger safari",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 104,
+   "name": "Chachai Falls",
+   "district": "Rewa",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 24.95,
+   "lng": 81.66,
+   "why": "One of India's tallest single-drop falls",
+   "tier": "top",
+   "months": [
+    7,
+    10
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 105,
+   "name": "Keoti Falls",
+   "district": "Rewa",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 24.81,
+   "lng": 81.41,
+   "why": "Deep gorge falls",
+   "tier": "gem",
+   "months": [
+    7,
+    10
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 106,
+   "name": "Bahuti Falls",
+   "district": "Mauganj",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 24.73,
+   "lng": 81.94,
+   "why": "MP's highest waterfall",
+   "tier": "top",
+   "months": [
+    7,
+    10
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 107,
+   "name": "Purwa Falls",
+   "district": "Rewa",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 24.8,
+   "lng": 81.38,
+   "why": "Wide falls on the Tamsa",
+   "tier": "gem",
+   "months": [
+    7,
+    10
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 108,
+   "name": "Bhimkund",
+   "district": "Chhatarpur",
+   "category": "Water",
+   "g": "water",
+   "lat": 24.75,
+   "lng": 79.4,
+   "why": "Clear blue cave pool",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 109,
+   "name": "Jatashankar, Chhatarpur",
+   "district": "Chhatarpur",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 24.71,
+   "lng": 79.39,
+   "why": "Forest Shiva shrine with springs",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 110,
+   "name": "Bageshwar Dham",
+   "district": "Chhatarpur",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 24.8,
+   "lng": 79.85,
+   "why": "Hugely popular Hanuman shrine",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 111,
+   "name": "Kundalpur Jain Temple",
+   "district": "Damoh",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 23.99,
+   "lng": 79.15,
+   "why": "Hill of Jain temples with the giant Bade Baba",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 112,
+   "name": "Nauradehi (Veerangana Durgavati) Tiger Reserve",
+   "district": "Sagar",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 23.45,
+   "lng": 79.15,
+   "why": "MP's largest tiger reserve",
+   "tier": "gem",
+   "months": [
+    10,
+    6
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 113,
+   "name": "Eran",
+   "district": "Sagar",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 24.1,
+   "lng": 78.18,
+   "why": "Gupta-era Varaha and pillar",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 114,
+   "name": "Garhpehra",
+   "district": "Sagar",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 23.85,
+   "lng": 78.8,
+   "why": "Hilltop palace ruins near Sagar",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 115,
+   "name": "Asirgarh Fort",
+   "district": "Burhanpur",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 21.47,
+   "lng": 76.29,
+   "why": "Key to the Deccan, a huge hill fort",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 116,
+   "name": "Burhanpur Shahi Qila",
+   "district": "Burhanpur",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 21.31,
+   "lng": 76.23,
+   "why": "Where Mumtaz Mahal died, with Mughal hammams",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 117,
+   "name": "Kundi Bhandara",
+   "district": "Burhanpur",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 21.32,
+   "lng": 76.25,
+   "why": "Mughal underground water system",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 118,
+   "name": "Dargah-e-Hakimi",
+   "district": "Burhanpur",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 21.3,
+   "lng": 76.22,
+   "why": "Bohra shrine with gardens",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 119,
+   "name": "Patalkot",
+   "district": "Chhindwara",
+   "category": "Valley",
+   "g": "hills",
+   "lat": 22.4,
+   "lng": 78.72,
+   "why": "Deep horseshoe valley of Bharia villages",
+   "tier": "top",
+   "months": [
+    7,
+    2
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 120,
+   "name": "Tamia",
+   "district": "Chhindwara",
+   "category": "Hill",
+   "g": "hills",
+   "lat": 22.34,
+   "lng": 78.66,
+   "why": "Hill viewpoint over Patalkot",
+   "tier": "gem",
+   "months": [
+    7,
+    2
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 121,
+   "name": "Chhindwara Tribal Museum",
+   "district": "Chhindwara",
+   "category": "Museum",
+   "g": "culture",
+   "lat": 22.06,
+   "lng": 78.94,
+   "why": "Tribal art museum",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 122,
+   "name": "Pashupatinath Temple, Mandsaur",
+   "district": "Mandsaur",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 24.07,
+   "lng": 75.07,
+   "why": "Eight-faced Shiva linga on the Shivna",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 123,
+   "name": "Gandhi Sagar",
+   "district": "Mandsaur",
+   "category": "Lake",
+   "g": "water",
+   "lat": 24.6871,
+   "lng": 75.5798,
+   "why": "Reservoir and sanctuary with cheetahs and a floating festival",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 124,
+   "name": "Chaturbhuj Nala Rock Art",
+   "district": "Mandsaur",
+   "category": "Caves",
+   "g": "caves",
+   "lat": 24.6,
+   "lng": 75.6,
+   "why": "One of India's longest rock art galleries",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 125,
+   "name": "Hinglajgarh Fort",
+   "district": "Mandsaur",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 24.66,
+   "lng": 75.78,
+   "why": "Fort with superb Paramara sculpture",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 126,
+   "name": "Dharmrajeshwar",
+   "district": "Mandsaur",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 24.43,
+   "lng": 75.7,
+   "why": "Monolithic rock-cut temple",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 127,
+   "name": "Sailana Cactus Garden",
+   "district": "Ratlam",
+   "category": "Garden",
+   "g": "culture",
+   "lat": 23.46,
+   "lng": 74.92,
+   "why": "Royal cactus garden",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 128,
+   "name": "Kadwaha Temples",
+   "district": "Ashoknagar",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 24.95,
+   "lng": 77.92,
+   "why": "Kachchhapaghata temple cluster",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 129,
+   "name": "Tigawa",
+   "district": "Katni",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 23.68,
+   "lng": 80.08,
+   "why": "Early Gupta temple",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 130,
+   "name": "Vijayraghavgarh Fort",
+   "district": "Katni",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 23.98,
+   "lng": 80.62,
+   "why": "Fort with a royal palace",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 131,
+   "name": "Ghughua Fossil Park",
+   "district": "Dindori",
+   "category": "Museum",
+   "g": "culture",
+   "lat": 23.07,
+   "lng": 80.9,
+   "why": "Fossilised plants 65 million years old",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 132,
+   "name": "Kanha Mukki Gate",
+   "district": "Balaghat",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 22.18,
+   "lng": 80.9,
+   "why": "Kanha's eastern gate",
+   "tier": "gem",
+   "months": [
+    10,
+    6
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 133,
+   "name": "Gangulpara Falls",
+   "district": "Balaghat",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 21.96,
+   "lng": 80.2,
+   "why": "Falls and dam near Balaghat",
+   "tier": "gem",
+   "months": [
+    7,
+    10
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 134,
+   "name": "Hanumantal & Jain Temples, Jabalpur",
+   "district": "Jabalpur",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 23.17,
+   "lng": 79.93,
+   "why": "Old tank and temples",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 135,
+   "name": "Rani Durgavati Museum",
+   "district": "Jabalpur",
+   "category": "Museum",
+   "g": "culture",
+   "lat": 23.17,
+   "lng": 79.94,
+   "why": "Sculpture from the Kalachuri era",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 136,
+   "name": "Ahilya Fort",
+   "district": "Khargone",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 22.177,
+   "lng": 75.586,
+   "why": "Ahilyabai's fort above the ghats",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 137,
+   "name": "Mandleshwar",
+   "district": "Khargone",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 22.18,
+   "lng": 75.66,
+   "why": "Ghat town by Maheshwar",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 138,
+   "name": "Un Temples",
+   "district": "Khargone",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 21.8,
+   "lng": 75.46,
+   "why": "Paramara temples",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 139,
+   "name": "Sirpur Lake Indore",
+   "district": "Indore",
+   "category": "Wetland",
+   "g": "wildlife",
+   "lat": 22.7,
+   "lng": 75.81,
+   "why": "Ramsar city lake for birds",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 140,
+   "name": "Kerwa Dam",
+   "district": "Bhopal",
+   "category": "Lake",
+   "g": "water",
+   "lat": 23.2,
+   "lng": 77.32,
+   "why": "Forest dam near Bhopal",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 141,
+   "name": "Halali Dam",
+   "district": "Raisen",
+   "category": "Lake",
+   "g": "water",
+   "lat": 23.45,
+   "lng": 77.53,
+   "why": "Reservoir near Bhopal",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 142,
+   "name": "Dewas Tekri",
+   "district": "Dewas",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 22.97,
+   "lng": 76.05,
+   "why": "Hill of Chamunda and Tulja Bhavani",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 143,
+   "name": "Kheoni Sanctuary",
+   "district": "Dewas",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 22.8,
+   "lng": 76.75,
+   "why": "Forest sanctuary",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 144,
+   "name": "Nemawar",
+   "district": "Dewas",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 22.5116,
+   "lng": 77.0169,
+   "why": "Siddheshwar temple on the Narmada",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 145,
+   "name": "Salkanpur",
+   "district": "Sehore",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 22.63,
+   "lng": 77.3,
+   "why": "Hill goddess temple",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 146,
+   "name": "Ratapani Tiger Reserve",
+   "district": "Raisen",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 23.0,
+   "lng": 77.6,
+   "why": "New tiger reserve near Bhopal",
+   "tier": "gem",
+   "months": [
+    10,
+    6
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 147,
+   "name": "Virateshwar Temple",
+   "district": "Shahdol",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 23.3,
+   "lng": 81.36,
+   "why": "Kalachuri temple",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 148,
+   "name": "Narsinghgarh Fort",
+   "district": "Rajgarh",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 23.71,
+   "lng": 77.09,
+   "why": "Fort above a lake, the 'Kashmir of Malwa'",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 149,
+   "name": "Sheopur Fort",
+   "district": "Sheopur",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 25.67,
+   "lng": 76.7,
+   "why": "Fort with Gaur and Mughal styles",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 150,
+   "name": "Ater Fort",
+   "district": "Bhind",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 26.75,
+   "lng": 78.65,
+   "why": "Ravine fort on the Chambal",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 151,
+   "name": "Garh Kundar",
+   "district": "Niwari",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 25.48,
+   "lng": 78.92,
+   "why": "Mysterious fort of the Khangars",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 152,
+   "name": "Kundeshwar",
+   "district": "Tikamgarh",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 24.7,
+   "lng": 78.83,
+   "why": "Shiva temple and falls",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 153,
+   "name": "Papora Jain Temples",
+   "district": "Tikamgarh",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 24.71,
+   "lng": 78.89,
+   "why": "Over 100 Jain temples",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 154,
+   "name": "Kukru",
+   "district": "Betul",
+   "category": "Hill",
+   "g": "hills",
+   "lat": 21.769,
+   "lng": 77.3546,
+   "why": "Coffee hill of the Satpura",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 155,
+   "name": "Muktagiri",
+   "district": "Betul",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 21.49,
+   "lng": 77.69,
+   "why": "Jain temples by a waterfall",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 156,
+   "name": "Handia",
+   "district": "Harda",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 22.49,
+   "lng": 77.01,
+   "why": "Narmada ghats and temples",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 157,
+   "name": "Bawangaja",
+   "district": "Barwani",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 21.95,
+   "lng": 74.88,
+   "why": "84-ft Jain Rishabhdev carved in rock",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 158,
+   "name": "Pench Karmajhiri Gate",
+   "district": "Seoni",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 21.7496,
+   "lng": 79.2377,
+   "why": "Pench's buffer gate",
+   "tier": "gem",
+   "months": [
+    10,
+    6
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 159,
+   "name": "Mada Caves",
+   "district": "Singrauli",
+   "category": "Caves",
+   "g": "caves",
+   "lat": 24.06,
+   "lng": 82.52,
+   "why": "Rock-cut caves",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 160,
+   "name": "Baijnath Temple, Agar",
+   "district": "Agar Malwa",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 23.71,
+   "lng": 76.02,
+   "why": "Temple linked to an English couple's prayer",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 161,
+   "name": "Bajrang Garh Fort",
+   "district": "Guna",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 24.6,
+   "lng": 77.27,
+   "why": "Fort with a Hanuman temple",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 162,
+   "name": "Baglamukhi Temple, Nalkheda",
+   "district": "Agar Malwa",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 23.84,
+   "lng": 76.23,
+   "why": "Tantric goddess temple",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 163,
+   "name": "Kaliadeh Palace",
+   "district": "Ujjain",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 23.24,
+   "lng": 75.78,
+   "why": "Island palace on the Shipra",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 164,
+   "name": "Bhagoria Haat, Alirajpur",
+   "district": "Alirajpur",
+   "category": "Festival",
+   "g": "culture",
+   "lat": 22.3,
+   "lng": 74.36,
+   "why": "Bhil and Bhilala harvest fair a week before Holi: silver jewellery, drums, swings and flashy dress",
+   "tier": "top",
+   "months": [
+    2,
+    3
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 165,
+   "name": "Jhabua Tribal Haats & Beadwork",
+   "district": "Jhabua",
+   "category": "Craft",
+   "g": "culture",
+   "lat": 22.77,
+   "lng": 74.59,
+   "why": "Weekly tribal markets and Bhil bead jewellery; Jhabua hosts dozens of Bhagoria haats before Holi",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 166,
+   "name": "Barman Ghat",
+   "district": "Narsinghpur",
+   "category": "Ghat",
+   "g": "temple",
+   "lat": 23.03,
+   "lng": 79.02,
+   "why": "Narmada ghat where the river splits into seven channels; big fair from Makar Sankranti to Basant Panchami",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 167,
+   "name": "Narsingh Temple, Narsinghpur",
+   "district": "Narsinghpur",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 22.95,
+   "lng": 79.19,
+   "why": "18th-century temple built by Jat chiefs, after which the town is named",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 168,
+   "name": "Gotmar Mela, Pandhurna",
+   "district": "Pandhurna",
+   "category": "Festival",
+   "g": "culture",
+   "lat": 21.6,
+   "lng": 78.52,
+   "why": "Centuries-old stone-throwing duel across the Jam river between two villages, held the day after Pola",
+   "tier": "gem",
+   "months": [
+    8,
+    9
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 169,
+   "name": "Barukheda Shiva Temple",
+   "district": "Neemuch",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 24.5,
+   "lng": 74.87,
+   "why": "Old Rajput-era Shiva temple just north of Neemuch",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 170,
+   "name": "Nohleshwar Temple, Nohta",
+   "district": "Damoh",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 23.66,
+   "lng": 79.57,
+   "why": "10th-century Kalachuri Shiva temple on a high platform, the district's finest monument",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 171,
+   "name": "Singorgarh Fort",
+   "district": "Damoh",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 23.4,
+   "lng": 79.7,
+   "why": "Hill fort strengthened by Rani Durgavati's Gonds, near Singrampur's waterfall",
+   "tier": "gem",
+   "months": [
+    7,
+    2
+   ],
+   "time": "2–3 hrs"
+  }
+ ],
+ "festivals": [
+  {
+   "name": "Khajuraho Dance Festival",
+   "months": [
+    2,
+    2
+   ],
+   "when": "February",
+   "n": 1,
+   "about": "Classical dance against the floodlit temples."
+  },
+  {
+   "name": "Bhagoria Haat",
+   "months": [
+    2,
+    3
+   ],
+   "when": "The week before Holi",
+   "n": null,
+   "about": "Bhil and Bhilala festival markets in Jhabua and Alirajpur."
+  },
+  {
+   "name": "Mahashivratri at Mahakal",
+   "months": [
+    2,
+    3
+   ],
+   "when": "February or March",
+   "n": 31,
+   "about": "Ujjain's biggest night at the Jyotirlinga."
+  },
+  {
+   "name": "Orchha Ram Vivah",
+   "months": [
+    11,
+    12
+   ],
+   "when": "November–December",
+   "n": 11,
+   "about": "Re-enactment of Rama's wedding in Orchha."
+  },
+  {
+   "name": "Tansen Samaroh",
+   "months": [
+    12,
+    12
+   ],
+   "when": "December",
+   "n": 16,
+   "about": "Hindustani music festival at Tansen's tomb."
+  },
+  {
+   "name": "Malwa Utsav",
+   "months": [
+    5,
+    5
+   ],
+   "when": "May",
+   "n": 50,
+   "about": "Folk arts and food fair in Indore."
+  },
+  {
+   "name": "Gotmar Mela",
+   "months": [
+    8,
+    9
+   ],
+   "when": "Day after Pola",
+   "n": null,
+   "about": "Pandhurna's stone-pelting fair across the Jam river."
+  },
+  {
+   "name": "Narmada Jayanti",
+   "months": [
+    1,
+    2
+   ],
+   "when": "January or February",
+   "n": 94,
+   "about": "Birthday of the Narmada, celebrated at its source and along the ghats."
+  },
+  {
+   "name": "Simhastha Kumbh",
+   "months": [
+    4,
+    5
+   ],
+   "when": "Every 12 years; next in 2028",
+   "n": 33,
+   "about": "Ujjain's great Kumbh on the Shipra."
+  },
+  {
+   "name": "Jal Mahotsav, Hanuwantiya",
+   "months": [
+    11,
+    2
+   ],
+   "when": "Winter",
+   "n": 41,
+   "about": "Tent city and water sports festival on the backwaters."
+  }
+ ]
+}
