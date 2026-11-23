@@ -305,7 +305,7 @@ li.dh{position:sticky;top:0;z-index:1;background:var(--card);padding:6px 16px;fo
 .chk{width:24px;height:24px;border-radius:7px;border:2px solid var(--line);display:grid;place-items:center;flex:none}.chk.on{background:#16181d;border-color:#16181d;color:#fff}
 .dlg{position:fixed;inset:0;z-index:30;background:rgba(10,14,20,.5);display:grid;place-items:end center}
 .dlg[hidden]{display:none}
-.dlgc{background:var(--bg);width:min(560px,100%);max-height:86%;border-radius:22px 22px 0 0;display:flex;flex-direction:column;box-shadow:var(--shadow);padding-bottom:env(safe-area-inset-bottom,0px)}
+.dlgc{background:var(--bg);width:min(560px,100%);max-height:86vh;max-height:86dvh;border-radius:22px 22px 0 0;display:flex;flex-direction:column;box-shadow:var(--shadow);padding-bottom:env(safe-area-inset-bottom,0px)}
 @media(min-width:600px){.dlg{place-items:center}.dlgc{border-radius:22px}}
 .dlgh{padding:14px 16px 8px;display:grid;gap:10px}.dlgh b{font-size:20px;font-weight:800}
 .dlgb{overflow-y:auto;flex:1;min-height:0;padding-bottom:12px}
@@ -437,6 +437,18 @@ details.tool summary{display:flex;align-items:center;gap:8px;cursor:pointer;list
 .allst{margin-top:22px}.allst summary{display:flex;align-items:center;gap:8px;cursor:pointer;list-style:none;min-height:48px;border:1px solid var(--line);border-radius:14px;padding:0 14px;background:var(--card)}.allst summary::-webkit-details-marker{display:none}.allst summary span{margin-left:auto;color:var(--soft);font-size:13px}.allst ul{margin:8px -16px 0}
 @media(max-width:899px) and (orientation:portrait),(max-width:899px) and (min-height:541px){.hero{height:190px}}
 .fold{margin:12px 16px 0;border:1px solid var(--line);border-radius:16px;background:var(--bg);overflow:hidden}.fold>summary{display:flex;align-items:center;gap:10px;padding:14px;cursor:pointer;list-style:none;min-height:56px}.fold>summary::-webkit-details-marker{display:none}.fold>summary>span{display:flex;flex-direction:column;gap:2px;min-width:0}.fold>summary b{font-size:17px}.fs{font-size:13px;color:var(--soft);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.fold>summary::after{content:"›";margin-left:auto;font-size:24px;color:var(--soft);transition:transform .2s;flex:none}.fold[open]>summary::after{transform:rotate(90deg)}.fold[open]>summary{border-bottom:1px solid var(--line)}.fold ul{margin:0}.fold .chips{padding-top:10px}
+
+/* v65 places */
+.scope{display:flex;align-items:center;gap:8px;padding-top:10px}.seg2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:4px;padding:4px;border-radius:14px;background:var(--card);border:1px solid var(--line);flex:1}.seg2 button{height:38px;border:0;border-radius:10px;background:none;font:inherit;font-weight:700;font-size:14px;color:var(--soft);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.seg2 button[aria-pressed=true]{background:var(--bg);color:var(--ink);box-shadow:0 1px 4px rgba(0,0,0,.12)}
+.qf .chip{height:38px;font-weight:600}.fbtn svg{width:16px;height:16px}.qf .chip svg{flex:none}
+.kinds{gap:8px;padding-top:6px}.kchip{flex:none;display:flex;flex-direction:column;align-items:center;gap:3px;width:78px;padding:8px 4px;border-radius:14px;border:1px solid var(--line);background:var(--bg);font:inherit;font-size:12px;font-weight:700;color:var(--ink);line-height:1.15;text-align:center}.kchip small{font-weight:600;color:var(--soft);font-size:11px}.kic{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:color-mix(in srgb,var(--c,#e5246b) 14%,var(--bg));color:var(--c,var(--pink));font-size:16px}.kchip.on{border-color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink);background:var(--card)}
+.act2{padding-top:4px}.act2 .chip{height:34px;font-size:13px}
+.vsw{display:flex;gap:2px;margin-left:auto;border:1px solid var(--line);border-radius:10px;padding:2px}.vsw button{width:34px;height:30px;border:0;border-radius:8px;background:none;color:var(--soft);font-size:16px}.vsw button[aria-pressed=true]{background:var(--ink);color:var(--bg)}
+.pgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;padding:10px 16px 16px;margin:0;list-style:none}.pgrid li{content-visibility:visible}.pgrid .gh{grid-column:1/-1;font-weight:800;font-size:14px;padding:8px 0 0;border-bottom:1px solid var(--line)}.pgrid .more-li{grid-column:1/-1}
+.gc{display:block;width:100%;border:0;background:none;padding:0;text-align:left;font:inherit;color:inherit}.gi{display:block;position:relative;aspect-ratio:4/3;border-radius:14px;overflow:hidden}.gi .tier{position:absolute;left:8px;bottom:8px;top:auto;font-size:12px}.gt{display:flex;flex-direction:column;gap:1px;padding:6px 2px 0}.gt b{font-size:14.5px;line-height:1.25;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.gt>span{font-size:12.5px;color:var(--soft)}.g2 i{font-style:normal}.ins{color:#1d7a3c;font-weight:700}
+.fsl{margin:16px 0 6px}.fwrap{display:flex;flex-wrap:wrap;gap:6px}.fwrap .chip{height:38px;font-size:13.5px}.mgrid12 .chip{min-width:54px;justify-content:center}.fsel{width:100%;height:46px;border-radius:12px;border:1px solid var(--line);background:var(--bg);color:var(--ink);padding:0 10px;font-size:15px}
+.fsfoot{display:grid;grid-template-columns:1fr 2fr;gap:8px;padding:10px 16px 14px;border-top:1px solid var(--line)}
+@media(min-width:600px){.pgrid{grid-template-columns:repeat(auto-fill,minmax(170px,1fr))}}
 </style>
 </head>
 <body>
@@ -534,7 +546,7 @@ const toast=(m,undo)=>{const t=$("#toast");t.innerHTML=`<span>${esc(m)}</span>${
 const say=m=>{const l=$("#live");l.textContent="";setTimeout(()=>l.textContent=m,60)};
 
 /* ---------- state ---------- */
-const S={states:[],data:{},full:{},slug:null,stack:[],tab:"explore",sel:null,hl:null,coll:null,trail:null,f:{cat:null,tier:null,mon:0,tm:null,dist:null,sort:"n"},q:"",feats:[],topo:null,fitK:1};
+const S={states:[],data:{},full:{},slug:null,stack:[],tab:"explore",sel:null,hl:null,coll:null,trail:null,f:{cat:null,tier:null,mon:0,tm:null,dist:null,sort:"now"},q:"",feats:[],topo:null,fitK:1};
 const blankM=()=>({want:{},been:{},notes:{},trip:[],base:{},t:0,home:null,interests:[],onboarded:false,visits:{},photos:{},plans:[],lists:[],skip:{},taste:{g:{},s:{}}});
 let M=blankM();
 try{const l=JSON.parse(localStorage.getItem("ita-v2")||"null");if(l)M=Object.assign(M,l);else if(window.__SEED)M=Object.assign(M,window.__SEED)}catch(e){if(window.__SEED)M=Object.assign(M,window.__SEED)}
@@ -704,7 +716,7 @@ function distTap(f){const n=f.properties.n;if(!curD().places.some(p=>p.district=
 function stateTap(d){const s=S.states.find(x=>x.name===d.properties.st_nm);if(!s)return;if(s.slug===S.slug&&!S.coll)return;if(s.status==="done"){openState(s.slug,true);if(mobile())snapTo(0)}else toast(s.name+" isn't in the atlas yet.")}
 function classStates(){setTimeout(()=>{if(S.slug)loadDists(S.slug);drawDists()},0);const done=new Set(S.states.filter(s=>s.status==="done").map(s=>s.name)),cn=stOf(S.slug)?.name;gLand.selectAll("path").attr("class",d=>"st"+(done.has(d.properties.st_nm)?" done":"")+(d.properties.st_nm===cn?" cur":""));svg.classed("instate",!!S.slug&&!S.coll)}
 function shown(){const D=curD();if(!D)return[];return D.places.filter(match)}
-function match(p){const f=S.f;return(!f.dist||p.district===f.dist)&&(!f.cat||p.g===f.cat)&&(!f.tier||p.tier===f.tier)&&(!f.mon||inSeason(f.mon,p))&&(!f.tm||(h=>h>=TM[f.tm][0]&&h<=TM[f.tm][1])(hrs(p)))}
+function match(p){const f=S.f;return(!f.reg||(regOf(p.slug)||[])[0]===f.reg)&&(!f.rad||!home()||road(km(home(),p))<=f.rad)&&(!f.hb||!M.been[id(p)])&&(!f.dist||p.district===f.dist)&&(!f.cat||p.g===f.cat)&&(!f.tier||p.tier===f.tier)&&(!f.mon||inSeason(f.mon,p))&&(!f.tm||(h=>h>=TM[f.tm][0]&&h<=TM[f.tm][1])(hrs(p)))}
 /* pins: only the open state's places; size by tier; hidden gems appear as you zoom in */
 const TIERR={icon:1.3,top:1,gem:.74};
 const relK=()=>K/(S.fitK||1);
@@ -938,24 +950,6 @@ function vExplore(){const D=curD();if(!D){vIndia();return}
   V.querySelectorAll("[data-dist]").forEach(el=>el.onclick=()=>{if(mobile())snapTo(2);S.f={...S.f,cat:null,tier:null,mon:0,tm:null,dist:el.dataset.dist};root_("list")});
   bindBase();$("#toIndia").onclick=goIndia}
 
-function vList(){const D=curD();if(!D){V.innerHTML=`<div class="pad"><h2>Places</h2><p class="lead">Choose a state to browse and filter its places, open a collection, or search above to look across all of India.</p></div>${collRail()}<h3 class="pad">States & UTs</h3><ul>${[...S.states].filter(s=>s.status==="done").sort((a,b)=>a.name.localeCompare(b.name)).map(s=>`<li><button class="it" data-ls="${s.slug}"><span class="thumb" aria-hidden="true">${art(S.data[s.slug].places.find(p=>p.tier==="icon")||S.data[s.slug].places[0])}</span><span><span class="nm">${esc(s.name)}</span><span class="sub">${S.data[s.slug].places.length} places</span></span><span class="r" aria-hidden="true" style="font-size:20px">›</span></button></li>`).join("")}</ul>`;V.querySelectorAll("[data-ls]").forEach(b=>b.onclick=async()=>{await openState(b.dataset.ls,true);root_("list");if(mobile())snapTo(2)});return}
-  const L=D.places,f=S.f,b=base(),h=home();let A=L.filter(match);const pr={icon:0,top:1,gem:2};
-  if(f.sort==="n")A=[...A].sort((x,y)=>y.lat-x.lat);else if(f.sort==="az")A=[...A].sort((x,y)=>x.name.localeCompare(y.name));else if(f.sort==="near"&&b)A=[...A].sort((x,y)=>km(b,x)-km(b,y));else if(f.sort==="home"&&h)A=[...A].sort((x,y)=>km(h,x)-km(h,y));else if(f.sort==="tier")A=[...A].sort((x,y)=>pr[x.tier]-pr[y.tier]||y.lat-x.lat);else if(f.sort==="now")A=[...A].sort((x,y)=>(inSeason(NOWM,y)-inSeason(NOWM,x))||pr[x.tier]-pr[y.tier]);else if(f.sort==="dist")A=[...A].sort((x,y)=>x.district.localeCompare(y.district)||pr[x.tier]-pr[y.tier]);
-  const cats=Object.keys(G).filter(g=>L.some(p=>p.g===g)),any=f.cat||f.tier||f.mon||f.dist||f.tm;
-  const LI=[];if(f.sort==="dist"){let cur="";A.forEach(p=>{if(p.district!==cur){cur=p.district;LI.push(`<li class="dh" role="presentation">${esc(cur)}</li>`)}LI.push(row(p,{q:1}))})}else A.forEach(p=>LI.push(row(p,{q:1})));const lis=LI.slice(0,40).join("");
-  V.innerHTML=`<div class="lhead"><div class="pad" style="display:flex;align-items:center;gap:10px;padding-top:10px">${S.stack.length>1?`<button class="ib" id="bk" aria-label="Back">‹</button>`:""}<b style="font-size:20px;font-weight:800">${esc(stOf(S.slug).name)}</b><button class="crumb" id="swSt" style="margin:0 0 0 auto;min-height:36px;font-size:14px">Change state</button><h2 class="sr">Places in ${esc(stOf(S.slug).name)}</h2></div>
-    <div class="chips"><button class="chip${!f.cat?" on":""}" data-fc="" aria-pressed="${!f.cat}">All kinds ${L.length}</button>${cats.map(g=>`<button class="chip${f.cat===g?" on":""}" data-fc="${g}" aria-pressed="${f.cat===g}">${ico(g,16,f.cat===g?"currentColor":G[g][1])}${G[g][0]} ${L.filter(p=>p.g===g).length}</button>`).join("")}</div>
-    <div class="chips" style="padding-top:2px">${["icon","top","gem"].map(t=>`<button class="chip${f.tier===t?" on":""}" data-ft="${t}" aria-pressed="${f.tier===t}">${TIER[t]}</button>`).join("")}${Object.entries(TM).map(([k,v])=>`<button class="chip${f.tm===k?" on":""}" data-tm="${k}" aria-pressed="${f.tm===k}">${v[2]}</button>`).join("")}</div>
-    <div class="pad" style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;padding-top:6px"><select id="fmon" aria-label="Month"><option value="0">Any month</option>${MON.map((m,i)=>`<option value="${i+1}"${f.mon===i+1?" selected":""}>Good in ${m}</option>`).join("")}</select><select id="dist" aria-label="District"><option value="">All districts</option>${[...new Set(L.map(p=>p.district))].sort().map(d=>`<option${f.dist===d?" selected":""}>${esc(d)}</option>`).join("")}</select></div>
-    <div class="tbar"><span role="status">${A.length} of ${L.length}</span><select id="sort" aria-label="Sort" class="ssel"><option value="n">North to south</option><option value="tier">Iconic first</option><option value="now">Best right now</option><option value="dist">By district</option><option value="az">A–Z</option>${b?`<option value="near">Nearest ${esc(b.name)}</option>`:""}${h?`<option value="home">Nearest ${esc(h.name)}</option>`:""}</select>${any?`<button class="lnk" id="fclr">Clear</button>`:""}<button class="lnk" id="cmp" style="${any?"margin-left:0":""}">${M.compact?"Pictures":"Compact"}</button></div></div>
-    <ul id="plist" class="${M.compact?"compact":""}">${lis||`<li class="empty">No places match these filters.<br><button class="act" id="fclr2" style="margin:12px auto 0;padding:0 20px">Clear filters</button></li>`}</ul>`;
-  $("#dist").onchange=e=>{f.dist=e.target.value||null;afterFilter()};$("#fmon").onchange=e=>{f.mon=+e.target.value;afterFilter()};
-  $("#sort").value=(f.sort==="near"&&!b)||(f.sort==="home"&&!h)?"n":f.sort;$("#sort").onchange=e=>{f.sort=e.target.value;paint()};
-  V.querySelectorAll("[data-fc]").forEach(c=>c.onclick=()=>{f.cat=c.dataset.fc||null;afterFilter()});
-  V.querySelectorAll("[data-ft]").forEach(c=>c.onclick=()=>{f.tier=f.tier===c.dataset.ft?null:c.dataset.ft;afterFilter()});
-  V.querySelectorAll("[data-tm]").forEach(c=>c.onclick=()=>{f.tm=f.tm===c.dataset.tm?null:c.dataset.tm;afterFilter()});
-  const clr=()=>{f.cat=null;f.tier=null;f.mon=0;f.dist=null;f.tm=null;afterFilter();say("Filters cleared")};[$("#fclr"),$("#fclr2")].forEach(x=>{if(x)x.onclick=clr});
-  $("#cmp").onclick=()=>{M.compact=!M.compact;save();paint(false,V.scrollTop)};$("#swSt").onclick=()=>stPicker();bindBase();chunkUl($("#plist"),LI.slice(40),0)}
 
 function openPlace(p,zoomIn){remember();S.sel=p;S.hl=null;S.trail=null;const pid=id(p);M.recent=[pid,...(M.recent||[]).filter(x=>x!==pid)].slice(0,12);try{localStorage.setItem("ita-v2",JSON.stringify(M))}catch(e){}
   const top=S.stack[S.stack.length-1];if(top&&top.v==="place")top.a=pid;else S.stack.push({v:"place",a:pid});paint(true);drawPins();drawRoute();halfUp();if(zoomIn){focusPlace(p);ping(p,700)}
@@ -1115,7 +1109,7 @@ function stPicker(){let d=$("#stdlg");if(!d){d=document.createElement("div");d.i
   const close=()=>{d.hidden=true;document.removeEventListener("keydown",ek);$("#legend").focus({preventScroll:true})},ek=e=>{if(e.key==="Escape"){e.preventDefault();e.stopPropagation();close()}};
   const draw=q=>{const t=norm(q);const L=[...S.states].sort((a,b)=>a.name.localeCompare(b.name)).filter(s=>!t||norm(s.name).includes(t));
     d.querySelector(".dlgb").innerHTML=`${!t?`<button class="srow" data-pk=""><span><span class="blk" style="font-weight:700">All of India${!S.slug?" ✓":""}</span><span class="blk" style="font-size:13px;color:var(--soft)">${allPlaces().length.toLocaleString("en-IN")} places</span></span><span aria-hidden="true">›</span></button>`:""}${L.map(s=>{const L2=S.data[s.slug]?.places||[],b=L2.filter(p=>M.been[id(p)]).length,cur=s.slug===S.slug;return`<button class="srow" data-pk="${s.slug}"${cur?' aria-current="true"':""}><span><span class="blk" style="font-weight:700">${esc(s.name)}${cur?" ✓":""}</span><span class="blk" style="font-size:13px;color:var(--soft)">${s.type} · ${L2.length} places${b?` · ${b} visited`:""}</span></span><span aria-hidden="true">›</span></button>`}).join("")||`<p class="empty">No state matches.</p>`}`;
-    d.querySelectorAll("[data-pk]").forEach(b=>b.onclick=()=>{close();const k=b.dataset.pk;if(k){if(k!==S.slug||S.stack.length>1)openState(k,true);else focusState();if(mobile())snapTo(0)}else goIndia()})};
+    d.querySelectorAll("[data-pk]").forEach(b=>b.onclick=async()=>{close();const k=b.dataset.pk,inList=S.tab==="list";if(k){if(k!==S.slug||S.stack.length>1)await openState(k,true);else focusState();if(inList){root_("list");if(mobile())snapTo(2)}else if(mobile())snapTo(0)}else{await goIndia();if(inList){root_("list");if(mobile())snapTo(2)}}})};
   d.hidden=false;document.addEventListener("keydown",ek);d.onclick=e=>{if(e.target===d)close()};d.querySelector("#stx").onclick=close;const qq=d.querySelector("#stq");qq.oninput=()=>draw(qq.value);draw("");setTimeout(()=>(mobile()?d.querySelector("#stx"):qq).focus(),30)}
 /* ---- search ---- */
 function hay(p){const w=p.why||"";if(p._h&&p._hw===w.length)return p._h;p._hw=w.length;p._h=" "+canon(`${p.name} ${p.district} ${p.category} ${stOf(p.slug).name} ${(p.tags||[]).join(" ")} ${G[p.g][0]} ${w}`)+" ";return p._h}
@@ -1939,6 +1933,62 @@ function vRegion(k){const r=REG.find(x=>x[0]===k);if(!r){V.innerHTML=`<div class
   V.innerHTML=`<div class="hero">${hp?art(hp,{hero:1}):""}${backBtn()}</div><div class="pad"><div class="kick">Region</div><h2>${esc(r[1])}</h2><p class="lead">${esc(r[2])}. ${ps.length.toLocaleString("en-IN")} places in ${plural(sts.length,"state")}; ${Math.round(ins.length/Math.max(1,ps.length)*100)}% are in season in ${MONL[NOWM-1]}.</p></div>
    ${best.length?`<h3 class="pad">Best right now</h3><div class="rail">${best.map(p=>card(p,true)).join("")}</div>`:""}
    ${sts.map(s=>{const L=S.data[s].places,ic=spread(L.filter(p=>p.tier==="icon").sort((a,b)=>nowScore(b)-nowScore(a)),8,8);return`<h3 class="pad">${esc(stOf(s).name)}<small>${L.length} places</small><button class="more" data-s="${s}">Open</button></h3><div class="rail">${(ic.length?ic:L.slice(0,8)).map(p=>card(p,true)).join("")}</div>`}).join("")}`}
+
+/* ======== v65: Places tab — all-India or one state, one clean filter row, a filter sheet, grid/list/compact ======== */
+const SORTS=[["now","Best right now"],["tier","Iconic first"],["n","North to south"],["az","A–Z"],["dist","By district"],["state","By state"],["home","Nearest home"],["near","Nearest base"]];
+function sortPlaces(A,f,b,h,D){const pr={icon:0,top:1,gem:2},s=f.sort||"now";
+  if(s==="n")return[...A].sort((x,y)=>y.lat-x.lat);if(s==="az")return[...A].sort((x,y)=>x.name.localeCompare(y.name));
+  if(s==="near"&&b)return[...A].sort((x,y)=>km(b,x)-km(b,y));if(s==="home"&&h)return[...A].sort((x,y)=>km(h,x)-km(h,y));
+  if(s==="tier")return[...A].sort((x,y)=>pr[x.tier]-pr[y.tier]||nowScore(y)-nowScore(x));
+  if(s==="dist"&&D)return[...A].sort((x,y)=>x.district.localeCompare(y.district)||pr[x.tier]-pr[y.tier]);
+  if(s==="state"&&!D)return[...A].sort((x,y)=>stOf(x.slug).name.localeCompare(stOf(y.slug).name)||pr[x.tier]-pr[y.tier]);
+  return[...A].sort((x,y)=>nowScore(y)-nowScore(x)||pr[x.tier]-pr[y.tier])}
+function fCount(f,D){return["cat","tier","tm","dist","reg","rad"].filter(k=>f[k]).length+(f.mon?1:0)+(f.hb?1:0)}
+function gridCard(p,showState){const h=home(),ok=inSeason(NOWM,p);return`<li><button class="gc" data-p="${id(p)}"><span class="gi" aria-hidden="true">${art(p,{badge:1})}${p.tier!=="top"?`<span class="tier ${p.tier}">${TIER[p.tier]}</span>`:""}</span><span class="gt"><b>${esc(p.name)}</b><span>${esc(showState?stOf(p.slug).name:p.district)}</span><span class="g2">${ok?`<i class="ins">In season</i>`:`<i>${monthsTxt(p)}</i>`}${h?` · ~${road(km(h,p)).toLocaleString("en-IN")} km`:""}</span></span></button></li>`}
+function vList(){const D=curD(),f=S.f,b=base(),h=home(),L=D?D.places:allPlaces(),india=!D;
+  if(!f.sort||(f.sort==="dist"&&india)||(f.sort==="state"&&!india)||(f.sort==="near"&&!b)||(f.sort==="home"&&!h))f.sort="now";
+  if(india&&f.dist)f.dist=null;if(!india&&f.reg)f.reg=null;
+  const A=sortPlaces(L.filter(match),f,b,h,D),view=M.view||"grid",nf=fCount(f,D),cats=Object.keys(G).filter(g=>L.some(p=>p.g===g));
+  const act=[];if(f.tier&&f.tier!=="icon")act.push(["tier",TIER[f.tier]]);if(f.mon&&f.mon!==NOWM)act.push(["mon","Good in "+MONL[f.mon-1]]);if(f.tm)act.push(["tm",TM[f.tm][2]]);if(f.dist)act.push(["dist",f.dist]);if(f.reg)act.push(["reg",REG.find(r=>r[0]===f.reg)[1]]);if(f.rad&&f.rad!==300)act.push(["rad",`Within ${f.rad} km`]);if(f.hb)act.push(["hb","Not visited"]);
+  const grp=(f.sort==="dist"&&D)?"district":(f.sort==="state"&&india)?"state":null,LI=[];let cur="";
+  A.forEach(p=>{const g=grp==="district"?p.district:grp==="state"?stOf(p.slug).name:null;if(g&&g!==cur){cur=g;LI.push(view==="grid"?`<li class="gh" role="presentation">${esc(g)}</li>`:`<li class="dh" role="presentation">${esc(g)}</li>`)}LI.push(view==="grid"?gridCard(p,india):row(p,{q:1,state:india?1:0}))});
+  V.innerHTML=`<div class="lhead"><div class="scope pad">${S.stack.length>1?`<button class="ib" id="bk" aria-label="Back">‹</button>`:""}<div class="seg2" role="group" aria-label="Where"><button type="button" id="scI" aria-pressed="${india}">All India</button><button type="button" id="scS" aria-pressed="${!india}">${D?esc(stOf(S.slug).name):"Pick a state"} ▾</button></div><h2 class="sr">Places${D?" in "+esc(stOf(S.slug).name):" across India"}</h2></div>
+    <div class="chips qf" role="group" aria-label="Quick filters"><button class="chip fbtn${nf?" on":""}" id="fopen"><svg aria-hidden="true"><use href="#i-list"/></svg>Filters${nf?` · ${nf}`:""}</button><button class="chip${f.mon===NOWM?" on":""}" id="qNow" aria-pressed="${f.mon===NOWM}">In season now</button><button class="chip${f.tier==="icon"?" on":""}" id="qIcon" aria-pressed="${f.tier==="icon"}">${ico("star",14)} Iconic</button>${h?`<button class="chip${f.rad===300?" on":""}" id="qNear" aria-pressed="${f.rad===300}">Within 300 km of ${esc(h.name)}</button>`:""}</div>
+    <div class="chips kinds" role="group" aria-label="Kind of place"><button class="kchip${!f.cat?" on":""}" data-fc="" aria-pressed="${!f.cat}"><span class="kic" aria-hidden="true">✦</span>All<small>${L.length.toLocaleString("en-IN")}</small></button>${cats.map(g=>`<button class="kchip${f.cat===g?" on":""}" data-fc="${g}" aria-pressed="${f.cat===g}" style="--c:${G[g][1]}"><span class="kic" aria-hidden="true">${ico(g,20)}</span>${G[g][0].split(" & ")[0]}<small>${L.filter(p=>p.g===g).length}</small></button>`).join("")}</div>
+    ${act.length?`<div class="chips act2" role="group" aria-label="Active filters">${act.map(([k,l])=>`<button class="chip on" data-rmf="${k}" aria-label="Remove filter: ${esc(l)}">${esc(l)} ✕</button>`).join("")}<button class="lnk" id="fclr">Clear all</button></div>`:""}
+    <div class="tbar"><span role="status"><b style="color:var(--ink)">${A.length.toLocaleString("en-IN")}</b> place${A.length===1?"":"s"}</span><select id="sort" aria-label="Sort" class="ssel">${SORTS.filter(([k])=>!(k==="dist"&&india)&&!(k==="state"&&!india)&&!(k==="home"&&!h)&&!(k==="near"&&!b)).map(([k,l])=>`<option value="${k}"${f.sort===k?" selected":""}>${k==="home"?"Nearest "+esc(h.name):k==="near"?"Nearest "+esc(b.name):l}</option>`).join("")}</select><div class="vsw" role="group" aria-label="View"><button type="button" data-vw="grid" aria-pressed="${view==="grid"}" aria-label="Photo grid">▦</button><button type="button" data-vw="list" aria-pressed="${view==="list"}" aria-label="List">☰</button><button type="button" data-vw="compact" aria-pressed="${view==="compact"}" aria-label="Compact list">≡</button></div></div></div>
+    <ul id="plist" class="${view==="grid"?"pgrid":view==="compact"?"compact":""}">${LI.slice(0,view==="grid"?24:40).join("")||`<li class="empty" style="grid-column:1/-1">No places match these filters.<br><button class="act" id="fclr2" style="margin:12px auto 0;padding:0 20px">Clear filters</button></li>`}</ul>`;
+  const F=()=>afterFilter();
+  $("#scI").onclick=async()=>{if(D){await goIndia();root_("list");if(mobile())snapTo(2)}};$("#scS").onclick=()=>stPicker();
+  $("#qNow").onclick=()=>{f.mon=f.mon===NOWM?0:NOWM;F()};$("#qIcon").onclick=()=>{f.tier=f.tier==="icon"?null:"icon";F()};const qn=$("#qNear");if(qn)qn.onclick=()=>{f.rad=f.rad===300?0:300;F()};
+  V.querySelectorAll("[data-fc]").forEach(c=>c.onclick=()=>{f.cat=c.dataset.fc||null;F()});
+  V.querySelectorAll("[data-rmf]").forEach(c=>c.onclick=()=>{const k=c.dataset.rmf;if(k==="mon")f.mon=0;else if(k==="hb")f.hb=false;else if(k==="rad")f.rad=0;else f[k]=null;F()});
+  const clr=()=>{Object.assign(f,{cat:null,tier:null,mon:0,dist:null,tm:null,reg:null,rad:0,hb:false});F();say("Filters cleared")};[$("#fclr"),$("#fclr2")].forEach(x=>{if(x)x.onclick=clr});
+  $("#sort").onchange=e=>{f.sort=e.target.value;paint()};V.querySelectorAll("[data-vw]").forEach(x=>x.onclick=()=>{M.view=x.dataset.vw;M.compact=M.view==="compact";save();paint(false,V.scrollTop)});
+  $("#fopen").onclick=()=>filterSheet();const ck=V.querySelector(".kinds .on");if(ck){const ch=ck.parentNode;ch.scrollLeft=ck.offsetLeft-16}
+  bindBase();chunkUl($("#plist"),LI.slice(view==="grid"?24:40),0)}
+function filterSheet(){const D=curD(),india=!D,h=home(),L=D?D.places:allPlaces(),t={...S.f},d=mkDlg("fsdlg","fsT"),back=document.activeElement;
+  const close=()=>{d.hidden=true;document.removeEventListener("keydown",ek);back?.focus?.({preventScroll:true})},ek=e=>{if(e.key==="Escape"){e.preventDefault();e.stopPropagation();close()}};
+  const cnt=()=>{const o=S.f;S.f=t;const n=L.filter(match).length;S.f=o;return n};
+  const sec=(lab,k,opts)=>`<p class="slab fsl">${lab}</p><div class="fwrap" role="group" aria-label="${lab}">${opts.map(([v,l])=>`<button type="button" class="chip${t[k]===v||(!t[k]&&v===null)?" on":""}" data-sk="${k}" data-sv="${v===null?"":v}" aria-pressed="${t[k]===v||(!t[k]&&v===null)}">${l}</button>`).join("")}</div>`;
+  const draw=()=>{d.innerHTML=`<div class="dlgc"><div class="dlgh"><div style="display:flex;align-items:center"><b id="fsT" style="font-size:18px">Filters</b><button class="ib" id="fsx" style="margin-left:auto" aria-label="Close"><svg aria-hidden="true"><use href="#i-close"/></svg></button></div></div><div class="dlgb" style="padding:0 16px 8px">
+    ${sec("Kind of place","cat",[[null,"Any"],...Object.keys(G).filter(g=>L.some(p=>p.g===g)).map(g=>[g,G[g][0]])])}
+    ${sec("How special","tier",[[null,"Any"],["icon","Iconic"],["top","Top picks"],["gem","Hidden gems"]])}
+    ${sec("Time you need there","tm",[[null,"Any"],...Object.entries(TM).map(([k,v])=>[k,v[2]])])}
+    <p class="slab fsl">Good to visit in</p><div class="fwrap mgrid12" role="group" aria-label="Month"><button type="button" class="chip${!t.mon?" on":""}" data-mo="0" aria-pressed="${!t.mon}">Any</button>${MON.map((m,i)=>`<button type="button" class="chip${t.mon===i+1?" on":""}" data-mo="${i+1}" aria-pressed="${t.mon===i+1}">${m}${i+1===NOWM?" •":""}</button>`).join("")}</div>
+    ${india?sec("Region","reg",[[null,"All India"],...REG.map(r=>[r[0],r[1].replace(/^The /,"")])]):`<p class="slab fsl">District</p><select id="fsd" class="fsel"><option value="">All districts</option>${[...new Set(L.map(p=>p.district))].sort().map(x=>`<option${t.dist===x?" selected":""}>${esc(x)}</option>`).join("")}</select>`}
+    ${h?`<p class="slab fsl">Distance from ${esc(h.name)}</p><div class="fwrap" role="group"><button type="button" class="chip${!t.rad?" on":""}" data-rd="0" aria-pressed="${!t.rad}">Any</button>${[100,200,300,500,800].map(r=>`<button type="button" class="chip${t.rad===r?" on":""}" data-rd="${r}" aria-pressed="${t.rad===r}">${r} km</button>`).join("")}</div>`:""}
+    <label class="chk" style="margin-top:12px"><input type="checkbox" id="fhb"${t.hb?" checked":""}> Hide places I've been</label></div>
+    <div class="fsfoot"><button class="act" id="fsc">Clear all</button><button class="act pri" id="fsg">Show ${cnt().toLocaleString("en-IN")} places</button></div></div>`;
+    d.querySelector("#fsx").onclick=close;
+    d.querySelectorAll("[data-sk]").forEach(b=>b.onclick=()=>{t[b.dataset.sk]=b.dataset.sv||null;draw();d.querySelector(`[data-sk="${b.dataset.sk}"][data-sv="${b.dataset.sv}"]`)?.focus()});
+    d.querySelectorAll("[data-mo]").forEach(b=>b.onclick=()=>{t.mon=+b.dataset.mo;draw();d.querySelector(`[data-mo="${b.dataset.mo}"]`)?.focus()});
+    d.querySelectorAll("[data-rd]").forEach(b=>b.onclick=()=>{t.rad=+b.dataset.rd;draw();d.querySelector(`[data-rd="${b.dataset.rd}"]`)?.focus()});
+    const sd=d.querySelector("#fsd");if(sd)sd.onchange=()=>{t.dist=sd.value||null;draw();d.querySelector("#fsd")?.focus()};
+    d.querySelector("#fhb").onchange=e=>{t.hb=e.target.checked;draw();d.querySelector("#fhb")?.focus()};
+    d.querySelector("#fsc").onclick=()=>{Object.assign(t,{cat:null,tier:null,mon:0,dist:null,tm:null,reg:null,rad:0,hb:false});draw()};
+    d.querySelector("#fsg").onclick=()=>{Object.assign(S.f,t);close();afterFilter()}};
+  d.hidden=false;draw();document.addEventListener("keydown",ek);d.onclick=e=>{if(e.target===d)close()};setTimeout(()=>d.querySelector("#fsx")?.focus(),30)}
 
 function route(silent,h0){const h=h0!=null?h0:location.hash.slice(1);const m=h.match(/^(.*)-(\d+)$/);
   if(m&&S.data[m[1]]){const p=S.data[m[1]].places.find(x=>x.n==m[2]);if(p){S.slug=m[1];classStates();S.stack=[{v:"explore"}];openPlace(p,!silent);return}}
