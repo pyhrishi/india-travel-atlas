@@ -119,14 +119,25 @@ def main():
                                st=states.get(slug, ''), cat=p.get('category', ''), ll=(p['lat'], p['lng'])))
             broad.add(norm(p.get('district', '')).strip()); broad.add(norm(p.get('district', '') + ' district').strip())
     old = json.load(open(STATE)) if os.path.exists(STATE) else {}
-    R = old.get('r', {}); M = old.get('m', {}); H = old.get('h', {})
+    R = old.get('r', {}); M = old.get('m', {}); H = old.get('h', {}); PEND = old.get('p', {}); M2 = set(old.get('m2', []))
     fp = lambda p: hashlib.md5(f"{p['name']}|{p['ll'][0]:.3f}|{p['ll'][1]:.3f}".encode()).hexdigest()[:10]
     keys = {p['k'] for p in places}
     R = {k: v for k, v in R.items() if k in keys}; M = {k: v for k, v in M.items() if k in keys}
-    todo = [p for p in places if FORCE or H.get(p['k']) != fp(p) or (p['k'] in M and NOW - M[p['k']] > 60*DAY)
+    MV = 2  # matching rules version; results from older rules get re-checked
+    todo = [p for p in places if FORCE or (p['k'] in R and R[p['k']].get('mv', 1) < MV) or (p['k'] in M and p['k'] not in M2) or H.get(p['k']) != fp(p) or (p['k'] in M and NOW - M[p['k']] > 60*DAY)
             or (p['k'] in R and NOW - R[p['k']].get('at', 0) > 60*DAY) or (p['k'] not in R and p['k'] not in M)]
-    print(f'{len(places)} places, {len(todo)} to check', flush=True)
-    hit = {}
+    hit = {k: v for k, v in PEND.items() if k in keys}
+    todo = [p for p in todo if p['k'] not in hit]
+    print(f'{len(places)} places, {len(todo)} to check, {len(hit)} matched earlier and waiting for details', flush=True)
+    KEEP = ('title', 'fullurl', 'pageprops', 'thumbnail', 'pageimage', 'coordinates')
+    def checkpoint():
+        pend = {k: {x: pg[x] for x in KEEP if x in pg} for k, pg in hit.items() if k not in R or R[k].get('osm')}
+        json.dump({'v': 1, 'r': R, 'm': M, 'h': H, 'p': pend, 'm2': sorted(M2 & set(M))}, open(STATE, 'w'), ensure_ascii=False, separators=(',', ':'))
+        print(f'checkpoint: {len(R)} done, {len(pend)} waiting, {len(M)} unmatched', flush=True)
+    import signal
+    def bye(*a):
+        checkpoint(); sys.exit(0)
+    signal.signal(signal.SIGTERM, bye); signal.signal(signal.SIGINT, bye)
     # 1) direct titles (all name variants), 40 titles per request
     reqs = []
     for p in todo:
@@ -144,6 +155,9 @@ def main():
             pg = pages.get(alias[v])
             if good(pg, p, True, broad): hit[p['k']] = pg
     print(f'titles: {len(hit)} matched', flush=True)
+    for p in todo:
+        if p['k'] in hit: H[p['k']] = fp(p)
+    checkpoint()
     # 2) search with district and state, 3) articles within 2 km that share a distinctive word
     rest = [p for p in todo if p['k'] not in hit]
     for n, p in enumerate(rest):
@@ -161,10 +175,11 @@ def main():
         if got: hit[p['k']] = got
         else:
             o = osm(p)
-            if o: R[p['k']] = dict(o, at=NOW); M.pop(p['k'], None)
-            else: M[p['k']] = NOW; R.pop(p['k'], None)
+            if o: R[p['k']] = dict(o, at=NOW, mv=2); M.pop(p['k'], None)
+            else: M[p['k']] = NOW; M2.add(p['k']); R.pop(p['k'], None)
         H[p['k']] = fp(p)
-        if n % 200 == 0: print(f'search {n}/{len(rest)}: {len(hit)} matched', flush=True)
+        if n % 150 == 0:
+            print(f'search {n}/{len(rest)}: {len(hit)} matched', flush=True); checkpoint()
     for p in todo:
         if p['k'] in hit: H[p['k']] = fp(p)
     # 4) summaries (intro, plain text), 20 per request
@@ -197,7 +212,7 @@ def main():
         for q, e in (j.get('entities') or {}).items(): labels[q] = ((e.get('labels') or {}).get('en') or {}).get('value', '')
     for k, pg in hit.items():
         q = (pg.get('pageprops') or {}).get('wikibase_item'); c = claims.get(q, {})
-        r = {'w': pg['title'], 'u': pg.get('fullurl', ''), 'x': ext.get(pg['title'], ''), 'q': q or '', 'at': NOW}
+        r = {'w': pg['title'], 'u': pg.get('fullurl', ''), 'x': ext.get(pg['title'], ''), 'q': q or '', 'at': NOW, 'mv': 2}
         web = [v for v in vals(c, 'P856') if isinstance(v, str)]
         if web: r['web'] = web[0]
         her = [labels.get(v['id'], '') for v in vals(c, 'P1435') if isinstance(v, dict)]
@@ -222,12 +237,12 @@ def main():
     by = {}
     for p in places:
         r = R.get(p['k'])
-        if r: by.setdefault(p['slug'], {})[str(p['n'])] = {k: v for k, v in r.items() if k != 'at'}
+        if r: by.setdefault(p['slug'], {})[str(p['n'])] = {k: v for k, v in r.items() if k not in ('at', 'mv')}
     for slug in {p['slug'] for p in places}:
         json.dump(by.get(slug, {}), open(os.path.join(OUTD, slug + '.json'), 'w'), ensure_ascii=False, separators=(',', ':'))
     unv = [{'k': p['k'], 'name': p['name'], 'district': p['dist'], 'state': p['st'], 'category': p['cat']} for p in places if p['k'] not in R]
     json.dump(unv, open(os.path.join(OUTD, '_unverified.json'), 'w'), ensure_ascii=False, indent=0)
-    json.dump({'v': 1, 'r': R, 'm': M, 'h': H}, open(STATE, 'w'), ensure_ascii=False, separators=(',', ':'))
+    json.dump({'v': 1, 'r': R, 'm': M, 'h': H, 'p': {}, 'm2': sorted(M2 & set(M))}, open(STATE, 'w'), ensure_ascii=False, separators=(',', ':'))
     print(f'done: {len(R)} verified, {len(unv)} unverified', flush=True)
 
 if __name__ == '__main__':
