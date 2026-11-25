@@ -132,6 +132,11 @@ for k, new, filename, title in candidates:
     if prev.get('f') == filename: same += 1
     elif prev: changed += 1
     else: added += 1
+# Fail closed on Commons API outages. Do not publish a partial photo map;
+# the workflow retries this step and preserves the previously committed photo data.
+if failed_files:
+    raise SystemExit(f"Commons verification incomplete for {len(failed_files)} files; refusing to write partial photo outputs.")
+
 # A photo is published only when it is the lead image of that place's own verified article.
 # Unverified places deliberately show the illustrated fallback rather than a nearby/wrong photo.
 ph['p'] = dict(sorted(P.items()))
