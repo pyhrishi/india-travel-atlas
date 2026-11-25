@@ -12,7 +12,7 @@ on:
         default: ''
   push:
     branches: [main]
-    paths: ['data/places/**', '.github/scripts/facts.py', '.github/workflows/facts.yml']
+    paths: ['data/places/**', '.github/scripts/facts.py', '.github/scripts/photos_verified.py', '.github/workflows/facts.yml']
   schedule:
     - cron: '41 20 * * 3'
 permissions:
