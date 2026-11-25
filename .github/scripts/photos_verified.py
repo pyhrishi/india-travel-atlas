@@ -12,7 +12,7 @@ P, cred = {}, {}
 all_keys = set()
 UA = 'IndiaTravelAtlas/1.0 (https://pyhrishi.github.io/india-travel-atlas/; github.com/pyhrishi)'
 def clean(value):
-    return re.sub(r'\\s+', ' ', html.unescape(re.sub(r'<[^>]+>', '', value or ''))).strip()[:160]
+    return re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]+>', '', value or ''))).strip()[:160]
 def commons_info(files):
     """Confirm each Commons file exists, is a real raster image, and exposes free-use licence metadata."""
     out = {}
