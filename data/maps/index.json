@@ -344,6 +344,45 @@
    "boundary_license": "Open Data Commons Open Database License 1.0",
    "data_file": "data/maps/tj.json",
    "validated_at": "2026-11-25"
+  },
+  "am": {
+   "name": "Armenia",
+   "iso3": "ARM",
+   "m49": "051",
+   "map_status": "ready",
+   "admin_level": "ADM1",
+   "admin_unit_count": 11,
+   "boundary_year": "2005",
+   "boundary_source": "geoBoundaries, Wikimedia",
+   "boundary_license": "Creative Commons Attribution 2.5 Generic",
+   "data_file": "data/maps/am.json",
+   "validated_at": "2026-11-25"
+  },
+  "az": {
+   "name": "Azerbaijan",
+   "iso3": "AZE",
+   "m49": "031",
+   "map_status": "ready",
+   "admin_level": "ADM1",
+   "admin_unit_count": 2,
+   "boundary_year": "2021",
+   "boundary_source": "geoBoundaries, OpenStreetMap",
+   "boundary_license": "Open Data Commons Open Database License 1.0",
+   "data_file": "data/maps/az.json",
+   "validated_at": "2026-11-25"
+  },
+  "ge": {
+   "name": "Georgia",
+   "iso3": "GEO",
+   "m49": "268",
+   "map_status": "ready",
+   "admin_level": "ADM1",
+   "admin_unit_count": 12,
+   "boundary_year": "2015",
+   "boundary_source": "geoBoundaries, Wikimedia",
+   "boundary_license": "Creative Commons Attribution 3.0 License",
+   "data_file": "data/maps/ge.json",
+   "validated_at": "2026-11-25"
   }
  }
 }
