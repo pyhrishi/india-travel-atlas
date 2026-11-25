@@ -16,7 +16,7 @@ for pf in sorted(glob.glob(os.path.join(ROOT, 'data', 'places', '*.json'))):
         all_keys.add(f"{slug}:{place['n']}")
 def rel(u):
     u = u.split('?')[0].replace('https://thumb.wikimedia.org/', 'https://upload.wikimedia.org/')
-    u = re.sub(r'/(\\d+)px-', '/1600px-', u)
+    u = re.sub(r'/(\d+)px-', '/1600px-', u)
     return u[len(base):] if u.startswith(base) else u
 changed = added = same = rejected = 0
 for f in sorted(glob.glob(os.path.join(ROOT, 'data', 'facts', '*.json'))):
@@ -26,11 +26,11 @@ for f in sorted(glob.glob(os.path.join(ROOT, 'data', 'facts', '*.json'))):
         if not r.get('img') or not r.get('w') or not r.get('file'): continue
         k = f'{slug}:{n}'
         fn = (r.get('file') or '').lower()
-        if re.search(r'\\.svg|\\bmap\\b|_map|map_|locator|location|flag|logo|emblem|seal|coat_of_arms|diagram|plan_of|bust|portrait', fn):
+        if re.search(r'\.svg|\bmap\b|_map|map_|locator|location|flag|logo|emblem|seal|coat_of_arms|diagram|plan_of|bust|portrait', fn):
             rejected += 1
             continue
         new = rel(r['img'])
-        if not new.startswith('http') and not new.startswith(''):
+        if not new or (new.startswith('http') and 'upload.wikimedia.org' not in new):
             rejected += 1
             continue
         P[k] = new
