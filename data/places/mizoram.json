@@ -527,7 +527,21 @@
     10,
     4
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "rail": {
+    "kind": "Mountain railway",
+    "from": "Bairabi",
+    "to": "Sairang",
+    "km": 51,
+    "hours": "About 2 hours",
+    "train": "Passenger and express trains",
+    "gauge": "Broad gauge",
+    "hi": [
+     "Tall bridges and tunnels into the Mizo hills"
+    ],
+    "book": "IRCTC",
+    "note": "Brought Aizawl's region onto the rail map in 2025"
+   }
   },
   {
    "n": 27,

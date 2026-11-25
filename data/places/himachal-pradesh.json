@@ -321,7 +321,23 @@
     1,
     12
    ],
-   "time": "5–6 hrs"
+   "time": "5–6 hrs",
+   "rail": {
+    "kind": "UNESCO mountain railway",
+    "from": "Kalka",
+    "to": "Shimla",
+    "km": 96,
+    "hours": "About 5–6 hours",
+    "train": "Shivalik Deluxe, Himalayan Queen, rail motor car",
+    "gauge": "2 ft 6 in narrow gauge",
+    "hi": [
+     "Over 100 tunnels including the 1 km Barog tunnel",
+     "Arched gallery bridges",
+     "Barog station"
+    ],
+    "book": "IRCTC",
+    "note": "UNESCO World Heritage Site since 2008; opened 1903"
+   }
   },
   {
    "n": 9,
@@ -1831,7 +1847,24 @@
     10,
     6
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "rail": {
+    "kind": "Mountain railway",
+    "from": "Pathankot",
+    "to": "Joginder Nagar",
+    "km": 164,
+    "hours": "About 9–10 hours",
+    "train": "Passenger trains",
+    "gauge": "2 ft 6 in narrow gauge",
+    "hi": [
+     "Dhauladhar views",
+     "Baijnath temple stop",
+     "Reond bridge"
+    ],
+    "book": "IRCTC",
+    "note": "Built in 1929 for the Shanan hydel project",
+    "warn": "Sections are sometimes suspended after monsoon damage; check before planning"
+   }
   },
   {
    "n": 93,
@@ -2025,6 +2058,19 @@
     "diff": "Moderate",
     "el": 4420,
     "base": "Bairagarh"
+   },
+   "drive": {
+    "from": "Bairagarh",
+    "to": "Killar (Pangi)",
+    "km": 72,
+    "days": "5–6 hours",
+    "road": "Rough mountain road over the Sach Pass (4,420 m)",
+    "best": "Jul–Sep",
+    "hi": [
+     "Snow walls early in the season",
+     "Pangi valley"
+    ],
+    "warn": "One of India's most dangerous roads; 4x4 and good weather only"
    }
   },
   {
@@ -4720,6 +4766,103 @@
     "el": 4500,
     "diff": "Moderate",
     "base": "Kaza"
+   }
+  },
+  {
+   "n": 249,
+   "name": "Manali–Leh Highway",
+   "district": "Lahaul and Spiti",
+   "category": "Great drive",
+   "g": "hills",
+   "lat": 32.55,
+   "lng": 77.4,
+   "why": "Classic Himalayan road over five high passes, through the Atal Tunnel",
+   "tier": "icon",
+   "months": [
+    6,
+    9
+   ],
+   "time": "2 days",
+   "drive": {
+    "from": "Manali",
+    "to": "Leh",
+    "km": 430,
+    "days": "2 days with a night at Jispa or Sarchu",
+    "road": "Mountain highway",
+    "best": "Mid-Jun–Sep",
+    "hi": [
+     "Atal Tunnel",
+     "Baralacha La",
+     "Gata Loops",
+     "More Plains",
+     "Tanglang La"
+    ],
+    "note": "One of the world's great road journeys",
+    "warn": "High passes close for snow and landslides; check road status and carry permits"
+   }
+  },
+  {
+   "n": 250,
+   "name": "Spiti Circuit",
+   "district": "Lahaul and Spiti",
+   "category": "Great drive",
+   "g": "hills",
+   "lat": 32.23,
+   "lng": 78.07,
+   "why": "Loop through Kinnaur and Spiti's high desert villages and monasteries",
+   "tier": "icon",
+   "months": [
+    6,
+    9
+   ],
+   "time": "8–10 days",
+   "drive": {
+    "from": "Shimla",
+    "to": "Manali (via Kaza)",
+    "days": "8–10 days",
+    "road": "Mountain roads, some rough",
+    "best": "Jun–Sep",
+    "hi": [
+     "Kalpa",
+     "Nako",
+     "Tabo",
+     "Kaza",
+     "Key monastery",
+     "Kunzum La",
+     "Chandratal"
+    ],
+    "note": "Drive in from the Kinnaur side for better acclimatisation",
+    "warn": "High passes close for snow and landslides; check road status and carry permits"
+   }
+  },
+  {
+   "n": 251,
+   "name": "Hindustan–Tibet Road (Kinnaur)",
+   "district": "Kinnaur",
+   "category": "Great drive",
+   "g": "hills",
+   "lat": 31.5,
+   "lng": 78.0,
+   "why": "Cliff road cut into the Sutlej gorge toward Tibet",
+   "tier": "top",
+   "months": [
+    4,
+    10
+   ],
+   "time": "2–3 days",
+   "drive": {
+    "from": "Rampur",
+    "to": "Nako",
+    "days": "2–3 days",
+    "road": "Mountain road, often cut into rock",
+    "best": "Apr–Oct",
+    "hi": [
+     "Taranda cliff section",
+     "Sangla and Chitkul",
+     "Kalpa's view of Kinner Kailash",
+     "Nako lake"
+    ],
+    "warn": "Landslide-prone; check road status"
    }
   }
  ],

@@ -1139,6 +1139,38 @@
     3
    ],
    "time": "1–2 hrs"
+  },
+  {
+   "n": 67,
+   "name": "Palace on Wheels",
+   "district": "New Delhi",
+   "category": "Rail journey",
+   "g": "heritage",
+   "lat": 28.59,
+   "lng": 77.21,
+   "why": "Luxury train round Rajasthan's forts and palaces",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "7 nights",
+   "rail": {
+    "kind": "Luxury train",
+    "from": "Delhi",
+    "to": "Delhi",
+    "hours": "7 nights",
+    "train": "Palace on Wheels",
+    "gauge": "Broad gauge",
+    "hi": [
+     "Jaipur",
+     "Udaipur",
+     "Jaisalmer",
+     "Ranthambore"
+    ],
+    "book": "RTDC",
+    "warn": "Departures and routes change by season; check current schedules"
+   }
   }
  ],
  "festivals": [

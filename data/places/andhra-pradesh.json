@@ -2264,7 +2264,22 @@
     7,
     2
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "rail": {
+    "kind": "Scenic train",
+    "from": "Visakhapatnam",
+    "to": "Araku",
+    "km": 128,
+    "hours": "About 4 hours",
+    "train": "Vistadome glass-roof coach",
+    "gauge": "Broad gauge",
+    "hi": [
+     "Over 50 tunnels",
+     "Borra Caves station",
+     "Eastern Ghats valleys"
+    ],
+    "book": "IRCTC"
+   }
   },
   {
    "name": "Padmapuram Gardens",

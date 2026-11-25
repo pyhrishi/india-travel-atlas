@@ -2125,6 +2125,21 @@
     "kind": "Pass",
     "diff": "Easy",
     "el": 1724
+   },
+   "drive": {
+    "from": "Bhalukpong",
+    "to": "Tawang",
+    "km": 320,
+    "days": "2 days",
+    "road": "Hill road via Bomdila and the Sela tunnel",
+    "best": "Oct–Apr",
+    "hi": [
+     "Sela Pass and lake",
+     "Nuranang falls",
+     "Jaswant Garh war memorial"
+    ],
+    "note": "The Sela tunnel (2024) keeps Tawang open in winter",
+    "warn": "Inner Line Permit needed"
    }
   },
   {

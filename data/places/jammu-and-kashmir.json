@@ -1112,7 +1112,22 @@
     5,
     10
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "drive": {
+    "from": "Bafliaz (Poonch)",
+    "to": "Shopian",
+    "km": 84,
+    "days": "3–4 hours",
+    "road": "Mountain road over the Pir Ki Gali (3,490 m)",
+    "best": "May–Oct",
+    "hi": [
+     "Pir Ki Gali",
+     "Meadows of Peer Ki Gali",
+     "Mughal sarais"
+    ],
+    "note": "Old imperial route into Kashmir",
+    "warn": "High passes close for snow and landslides; check road status and carry permits"
+   }
   },
   {
    "n": 57,
@@ -1199,7 +1214,23 @@
     10,
     4
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "rail": {
+    "kind": "Mountain railway",
+    "from": "Katra",
+    "to": "Srinagar",
+    "km": 190,
+    "hours": "About 3 hours",
+    "train": "Vande Bharat Express",
+    "gauge": "Broad gauge",
+    "hi": [
+     "Chenab bridge, the world's highest railway arch bridge (359 m above the river)",
+     "Anji Khad cable-stayed bridge",
+     "Long Himalayan tunnels"
+    ],
+    "book": "IRCTC",
+    "note": "The Kashmir line opened through to Srinagar in 2025"
+   }
   },
   {
    "n": 62,
@@ -2318,6 +2349,37 @@
     "how": [
      "Walking"
     ]
+   }
+  },
+  {
+   "n": 118,
+   "name": "Srinagar–Leh Highway",
+   "district": "Ganderbal",
+   "category": "Great drive",
+   "g": "hills",
+   "lat": 34.3,
+   "lng": 75.5,
+   "why": "Road over the Zojila into Ladakh, via Drass and Kargil",
+   "tier": "top",
+   "months": [
+    5,
+    10
+   ],
+   "time": "2 days",
+   "drive": {
+    "from": "Srinagar",
+    "to": "Leh",
+    "km": 420,
+    "days": "2 days with a night at Kargil",
+    "road": "Mountain highway",
+    "best": "May–Oct",
+    "hi": [
+     "Sonamarg",
+     "Zojila",
+     "Drass war memorial",
+     "Lamayuru moonland"
+    ],
+    "warn": "High passes close for snow and landslides; check road status and carry permits"
    }
   }
  ],

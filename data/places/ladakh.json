@@ -500,6 +500,20 @@
     "el": 5359,
     "base": "Leh",
     "permit": "Inner Line Permit"
+   },
+   "drive": {
+    "from": "Leh",
+    "to": "Diskit (Nubra)",
+    "km": 120,
+    "days": "4–5 hours",
+    "road": "One of the world's highest motorable passes (5,359 m)",
+    "best": "May–Oct",
+    "hi": [
+     "Khardung La top",
+     "Shyok river",
+     "Hunder dunes"
+    ],
+    "warn": "Inner Line Permit; altitude sickness risk at the top, don't linger"
    }
   },
   {
@@ -788,6 +802,20 @@
     "el": 5360,
     "base": "Sakti",
     "permit": "Inner Line Permit"
+   },
+   "drive": {
+    "from": "Leh",
+    "to": "Pangong Tso",
+    "km": 225,
+    "days": "5–6 hours",
+    "road": "Pass road at 5,360 m",
+    "best": "May–Oct",
+    "hi": [
+     "Chang La",
+     "Tangtse",
+     "First sight of Pangong"
+    ],
+    "warn": "Inner Line Permit; altitude"
    }
   },
   {

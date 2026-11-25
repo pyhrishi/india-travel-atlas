@@ -596,6 +596,22 @@
     "el": 600,
     "diff": "Moderate",
     "base": "Bhivpuri"
+   },
+   "rail": {
+    "kind": "Mountain railway",
+    "from": "Neral",
+    "to": "Matheran",
+    "km": 21,
+    "hours": "About 2 hours",
+    "train": "Toy train",
+    "gauge": "2 ft narrow gauge",
+    "hi": [
+     "Horseshoe curves",
+     "One-kiss tunnel"
+    ],
+    "book": "IRCTC",
+    "note": "Opened 1907",
+    "warn": "The line is often suspended in the monsoon; a shuttle runs Aman Lodge–Matheran"
    }
   },
   {
@@ -4547,6 +4563,100 @@
      "Boat"
     ],
     "start": "Airoli"
+   }
+  },
+  {
+   "n": 236,
+   "name": "Konkan Railway",
+   "district": "Ratnagiri",
+   "category": "Rail journey",
+   "g": "heritage",
+   "lat": 16.99,
+   "lng": 73.3,
+   "why": "741 km line along the Sahyadri and the sea, opened in 1998",
+   "tier": "top",
+   "months": [
+    6,
+    10
+   ],
+   "time": "10–12 hours end to end",
+   "rail": {
+    "kind": "Scenic railway",
+    "from": "Roha",
+    "to": "Thokur (Mangaluru)",
+    "km": 741,
+    "hours": "About 12–14 hours",
+    "train": "Mandovi Express, Netravati, Jan Shatabdi",
+    "gauge": "Broad gauge",
+    "hi": [
+     "About 90 tunnels",
+     "Panval viaduct, one of India's tallest",
+     "Rivers and paddy in the monsoon"
+    ],
+    "book": "IRCTC",
+    "note": "Most beautiful from July to September"
+   }
+  },
+  {
+   "n": 237,
+   "name": "Deccan Queen (Bhor Ghat)",
+   "district": "Pune",
+   "category": "Rail journey",
+   "g": "heritage",
+   "lat": 18.75,
+   "lng": 73.4,
+   "why": "India's first deluxe train (1930), climbing the Bhor Ghat between Mumbai and Pune",
+   "tier": "gem",
+   "months": [
+    6,
+    9
+   ],
+   "time": "About 3 hours",
+   "rail": {
+    "kind": "Historic train",
+    "from": "Mumbai CSMT",
+    "to": "Pune",
+    "km": 192,
+    "hours": "About 3 hours 15 min",
+    "train": "Deccan Queen",
+    "gauge": "Broad gauge",
+    "hi": [
+     "Bhor Ghat tunnels",
+     "Monsoon waterfalls near Khandala",
+     "Dining car"
+    ],
+    "book": "IRCTC",
+    "note": "Running since 1 June 1930"
+   }
+  },
+  {
+   "n": 238,
+   "name": "Konkan Coastal Road",
+   "district": "Ratnagiri",
+   "category": "Great drive",
+   "g": "hills",
+   "lat": 16.9,
+   "lng": 73.3,
+   "why": "Slow coast road of creeks, ferries and fort villages from Mumbai to Goa",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "3–4 days",
+   "drive": {
+    "from": "Alibag",
+    "to": "Vengurla",
+    "days": "3–4 days",
+    "road": "Coastal state highway with ferries",
+    "best": "Oct–Mar",
+    "hi": [
+     "Murud-Janjira",
+     "Harihareshwar",
+     "Ganpatipule",
+     "Sindhudurg"
+    ],
+    "note": "Slower and more beautiful than the NH-66"
    }
   }
  ],

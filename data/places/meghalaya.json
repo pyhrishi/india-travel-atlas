@@ -171,7 +171,20 @@
     10,
     4
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "drive": {
+    "from": "Shillong",
+    "to": "Sohra",
+    "km": 55,
+    "days": "1.5 hours",
+    "road": "Plateau road along gorges",
+    "best": "Oct–May",
+    "hi": [
+     "Mawkdok Dympep valley",
+     "Seven Sisters falls",
+     "Nohkalikai"
+    ]
+   }
   },
   {
    "n": 4,

@@ -397,7 +397,21 @@
     11,
     3
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "rail": {
+    "kind": "Sea bridge",
+    "from": "Mandapam",
+    "to": "Rameswaram",
+    "hours": "About 20 minutes across the bridge",
+    "train": "Trains to Rameswaram",
+    "gauge": "Broad gauge",
+    "hi": [
+     "2.1 km over the Palk Strait",
+     "Lift span for ships"
+    ],
+    "book": "IRCTC",
+    "note": "New bridge opened in 2025 beside the 1914 original"
+   }
   },
   {
    "n": 16,
@@ -648,7 +662,24 @@
     11,
     3
    ],
-   "time": "5 hrs"
+   "time": "5 hrs",
+   "rail": {
+    "kind": "UNESCO mountain railway",
+    "from": "Mettupalayam",
+    "to": "Udhagamandalam (Ooty)",
+    "km": 46,
+    "hours": "About 5 hours up",
+    "train": "Nilgiri Passenger, steam on the rack section",
+    "gauge": "Metre gauge with a rack section",
+    "hi": [
+     "Rack-and-pinion climb to Coonoor",
+     "Tunnels and viaducts",
+     "Tea gardens"
+    ],
+    "book": "IRCTC",
+    "note": "UNESCO World Heritage Site since 2005; India's only rack railway",
+    "warn": "Seats sell out fast; book well ahead"
+   }
   },
   {
    "n": 30,
@@ -1028,7 +1059,19 @@
     10,
     6
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "drive": {
+    "from": "Karavalli",
+    "to": "Kolli Hills",
+    "km": 25,
+    "days": "1 hour",
+    "road": "70 hairpin bends",
+    "best": "Sep–Mar",
+    "hi": [
+     "Valley views",
+     "Agaya Gangai falls at the top"
+    ]
+   }
   },
   {
    "n": 52,
@@ -1092,7 +1135,21 @@
     10,
     6
    ],
-   "time": "Overnight"
+   "time": "Overnight",
+   "drive": {
+    "from": "Aliyar",
+    "to": "Valparai",
+    "km": 40,
+    "days": "2 hours",
+    "road": "40 numbered hairpin bends",
+    "best": "Sep–Mar",
+    "hi": [
+     "Aliyar dam views",
+     "Lion-tailed macaques on the road",
+     "Tea estates"
+    ],
+    "warn": "Elephants cross at dusk; drive slowly"
+   }
   },
   {
    "n": 56,
@@ -3717,6 +3774,64 @@
     "how": [
      "Walking"
     ]
+   }
+  },
+  {
+   "n": 200,
+   "name": "East Coast Road",
+   "district": "Chengalpattu",
+   "category": "Great drive",
+   "g": "hills",
+   "lat": 12.8,
+   "lng": 80.24,
+   "why": "Seaside road from Chennai to Puducherry past Mamallapuram",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day",
+   "drive": {
+    "from": "Chennai",
+    "to": "Puducherry",
+    "km": 150,
+    "days": "3–4 hours",
+    "road": "Coastal highway",
+    "best": "Oct–Mar",
+    "hi": [
+     "Cholamandal artists' village",
+     "Mamallapuram",
+     "Backwaters at Muttukadu"
+    ]
+   }
+  },
+  {
+   "n": 201,
+   "name": "Kalhatti Ghat (Ooty–Masinagudi)",
+   "district": "Nilgiris",
+   "category": "Great drive",
+   "g": "hills",
+   "lat": 11.48,
+   "lng": 76.7,
+   "why": "Steep shortcut of 36 hairpins from Ooty down to Mudumalai",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1 hour",
+   "drive": {
+    "from": "Ooty",
+    "to": "Masinagudi",
+    "km": 29,
+    "days": "1 hour",
+    "road": "36 hairpin bends",
+    "best": "Oct–May",
+    "hi": [
+     "Moyar valley views",
+     "Wildlife near Masinagudi"
+    ],
+    "warn": "Very steep; use low gear downhill, buses and large vehicles restricted"
    }
   }
  ],

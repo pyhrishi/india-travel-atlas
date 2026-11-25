@@ -3196,6 +3196,37 @@
     ],
     "gate": "Poopara"
    }
+  },
+  {
+   "n": 175,
+   "name": "Punalur–Sengottai Ghat Line",
+   "district": "Kollam",
+   "category": "Rail journey",
+   "g": "heritage",
+   "lat": 8.96,
+   "lng": 77.13,
+   "why": "Ghat line through Thenmala forests with the 13-arch Kazhuthurutty bridge",
+   "tier": "gem",
+   "months": [
+    6,
+    12
+   ],
+   "time": "About 2 hours",
+   "rail": {
+    "kind": "Scenic railway",
+    "from": "Punalur",
+    "to": "Sengottai",
+    "km": 49,
+    "hours": "About 2 hours",
+    "train": "Express and passenger trains",
+    "gauge": "Broad gauge",
+    "hi": [
+     "13 Kannara arch bridge",
+     "Aryankavu tunnel",
+     "Western Ghats forest"
+    ],
+    "book": "IRCTC"
+   }
   }
  ],
  "festivals": [

@@ -1409,7 +1409,23 @@
     10,
     5
    ],
-   "time": "2 hrs (joyride)"
+   "time": "2 hrs (joyride)",
+   "rail": {
+    "kind": "UNESCO mountain railway",
+    "from": "New Jalpaiguri",
+    "to": "Darjeeling",
+    "km": 88,
+    "hours": "About 7–8 hours",
+    "train": "Toy train; steam joy rides Darjeeling–Ghum",
+    "gauge": "2 ft narrow gauge",
+    "hi": [
+     "Batasia Loop",
+     "Ghum, the highest station on the line",
+     "Zig-zag reverses"
+    ],
+    "book": "IRCTC",
+    "note": "UNESCO World Heritage Site since 1999; opened 1881"
+   }
   },
   {
    "n": 77,

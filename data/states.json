@@ -108,7 +108,7 @@
   "slug": "himachal-pradesh",
   "type": "State",
   "status": "done",
-  "count": 248,
+  "count": 251,
   "best": [
    [
     3,
@@ -138,7 +138,7 @@
   "slug": "karnataka",
   "type": "State",
   "status": "done",
-  "count": 247,
+  "count": 248,
   "best": [
    [
     10,
@@ -151,7 +151,7 @@
   "slug": "kerala",
   "type": "State",
   "status": "done",
-  "count": 174,
+  "count": 175,
   "best": [
    [
     9,
@@ -177,7 +177,7 @@
   "slug": "maharashtra",
   "type": "State",
   "status": "done",
-  "count": 235,
+  "count": 238,
   "best": [
    [
     10,
@@ -298,7 +298,7 @@
   "slug": "tamil-nadu",
   "type": "State",
   "status": "done",
-  "count": 199,
+  "count": 201,
   "best": [
    [
     11,
@@ -419,7 +419,7 @@
   "slug": "delhi",
   "type": "UT",
   "status": "done",
-  "count": 66,
+  "count": 67,
   "best": [
    [
     10,
@@ -432,7 +432,7 @@
   "slug": "jammu-and-kashmir",
   "type": "UT",
   "status": "done",
-  "count": 117,
+  "count": 118,
   "best": [
    [
     3,

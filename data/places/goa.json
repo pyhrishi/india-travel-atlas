@@ -959,6 +959,19 @@
     "diff": "Moderate",
     "base": "Kulem",
     "permit": "Forest permit; follow current rules"
+   },
+   "rail": {
+    "kind": "Scenic train",
+    "from": "Londa",
+    "to": "Madgaon",
+    "hours": "Passes the falls about midway",
+    "train": "Express trains on the Londa–Vasco line",
+    "gauge": "Broad gauge",
+    "hi": [
+     "The train crosses right in front of the four-tier falls"
+    ],
+    "book": "IRCTC",
+    "note": "Best in the monsoon; sit on the right side heading toward Goa"
    }
   },
   {

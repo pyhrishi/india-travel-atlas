@@ -351,7 +351,22 @@
     10,
     5
    ],
-   "time": "2 days"
+   "time": "2 days",
+   "drive": {
+    "from": "Rongli",
+    "to": "Kupup",
+    "km": 90,
+    "days": "1–2 days",
+    "road": "Zuluk's 32 hairpins",
+    "best": "Oct–Apr (snow in winter)",
+    "hi": [
+     "Zuluk zig-zags",
+     "Thambi viewpoint",
+     "Kupup elephant lake"
+    ],
+    "note": "Part of the old Lhasa–Kalimpong trade route",
+    "warn": "Restricted area permit; sudden snow closures"
+   }
   },
   {
    "n": 15,

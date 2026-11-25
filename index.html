@@ -2987,6 +2987,8 @@ function xBlocks(p){return XF.filter(f=>f!=="trek"&&p[f]&&XCARD[f]).map(f=>{cons
  ["birding","Birding hotspots","Where and when to see India's great birds","#7c5c2e",tg("bird")],
  ["caves","Caves","Limestone systems, rock-cut monasteries and prehistoric shelters","#5b4636",tg("cave")],
  ["darksky","Dark skies","Places to see the Milky Way","#1e293b",tg("sky")],
+ ["rail","Great rail journeys","Toy trains, ghat lines and sea bridges","#7c2d12",tg("rail")],
+ ["drives","Great drives","High passes, hairpin ghats and coast roads","#334155",tg("drive")],
 ].forEach(c=>{if(!COLL.some(x=>x[0]===c[0]))COLL.push(c)});
 
 function route(silent,h0){const h=h0!=null?h0:location.hash.slice(1);const m=h.match(/^(.*)-(\d+)$/);

@@ -1306,7 +1306,22 @@
     10,
     4
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "rail": {
+    "kind": "Mountain railway",
+    "from": "Lumding",
+    "to": "Silchar",
+    "km": 200,
+    "hours": "About 6–8 hours",
+    "train": "Express and passenger trains",
+    "gauge": "Broad gauge (converted 2015)",
+    "hi": [
+     "Tunnels and high bridges of the Dima Hasao hills",
+     "Haflong station"
+    ],
+    "book": "IRCTC",
+    "note": "The old metre-gauge line was famed for its spirals; the new line keeps the hill views"
+   }
   },
   {
    "n": 65,

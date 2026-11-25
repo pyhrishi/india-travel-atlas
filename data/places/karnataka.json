@@ -1143,7 +1143,19 @@
     6,
     1
    ],
-   "time": "Overnight"
+   "time": "Overnight",
+   "drive": {
+    "from": "Agumbe",
+    "to": "Someshwara",
+    "days": "1 hour",
+    "road": "14 hairpin bends",
+    "best": "Sep–Feb",
+    "hi": [
+     "Sunset point",
+     "Rainforest"
+    ],
+    "warn": "Heavy rain in the monsoon"
+   }
   },
   {
    "n": 59,
@@ -4572,6 +4584,38 @@
     "how": [
      "Walking"
     ]
+   }
+  },
+  {
+   "n": 248,
+   "name": "Golden Chariot",
+   "district": "Bengaluru Urban",
+   "category": "Rail journey",
+   "g": "heritage",
+   "lat": 12.98,
+   "lng": 77.57,
+   "why": "Luxury train through Karnataka's heritage and wildlife",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "6 nights",
+   "rail": {
+    "kind": "Luxury train",
+    "from": "Bengaluru",
+    "to": "Bengaluru",
+    "hours": "6 nights",
+    "train": "Golden Chariot",
+    "gauge": "Broad gauge",
+    "hi": [
+     "Mysuru",
+     "Hampi",
+     "Badami",
+     "Kabini"
+    ],
+    "book": "IRCTC",
+    "warn": "Departures change by season; check current schedules"
    }
   }
  ],
