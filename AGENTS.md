@@ -1,6 +1,9 @@
-# India Travel Atlas: notes for coding agents
+# Hrishikesh's Atlas (formerly India Travel Atlas): notes for coding agents
 
 Live site: https://pyhrishi.github.io/india-travel-atlas/ (GitHub Pages serves the `main` branch root; there is no build step on GitHub).
+
+## Levels
+World → country → state/province → district → place. Countries live in `CC`/`CTRY` in index.html; each region in `data/states.json` has `cc` (`in` default, `np` Nepal). `S.cc` is the current scope (`w` = all countries); `S.states` is the scoped list and `S.ALL` everything. The magazine (`data/mag.json`) is India-only.
 
 ## What's where
 - `index.html` — the whole app (HTML, CSS and JS in one file). Edit it directly.

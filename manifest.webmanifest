@@ -1,7 +1,7 @@
 {
- "name": "India Travel Atlas",
- "short_name": "India Atlas",
- "description": "The best places in every Indian state and union territory, on one map.",
+ "name": "Hrishikesh's Atlas",
+ "short_name": "Atlas",
+ "description": "The best places in India and Nepal, region by region, on one map.",
  "start_url": "./",
  "scope": "./",
  "display": "standalone",
