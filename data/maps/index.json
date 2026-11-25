@@ -292,6 +292,58 @@
    "boundary_license": "Open Data Commons Open Database License 1.0",
    "data_file": "data/maps/mn.json",
    "validated_at": "2026-11-25"
+  },
+  "kz": {
+   "name": "Kazakhstan",
+   "iso3": "KAZ",
+   "m49": "398",
+   "map_status": "ready",
+   "admin_level": "ADM1",
+   "admin_unit_count": 16,
+   "boundary_year": "2017",
+   "boundary_source": "OpenStreetMap, Wambacher",
+   "boundary_license": "Open Data Commons Open Database License 1.0",
+   "data_file": "data/maps/kz.json",
+   "validated_at": "2026-11-25"
+  },
+  "uz": {
+   "name": "Uzbekistan",
+   "iso3": "UZB",
+   "m49": "860",
+   "map_status": "ready",
+   "admin_level": "ADM1",
+   "admin_unit_count": 14,
+   "boundary_year": "2017",
+   "boundary_source": "OpenStreetMap, Wambacher",
+   "boundary_license": "Open Data Commons Open Database License 1.0",
+   "data_file": "data/maps/uz.json",
+   "validated_at": "2026-11-25"
+  },
+  "kg": {
+   "name": "Kyrgyzstan",
+   "iso3": "KGZ",
+   "m49": "417",
+   "map_status": "ready",
+   "admin_level": "ADM1",
+   "admin_unit_count": 7,
+   "boundary_year": "2017",
+   "boundary_source": "OpenStreetMap, Wambacher",
+   "boundary_license": "Open Data Commons Open Database License 1.0",
+   "data_file": "data/maps/kg.json",
+   "validated_at": "2026-11-25"
+  },
+  "tj": {
+   "name": "Tajikistan",
+   "iso3": "TJK",
+   "m49": "762",
+   "map_status": "ready",
+   "admin_level": "ADM1",
+   "admin_unit_count": 5,
+   "boundary_year": "2017",
+   "boundary_source": "OpenStreetMap, Wambacher",
+   "boundary_license": "Open Data Commons Open Database License 1.0",
+   "data_file": "data/maps/tj.json",
+   "validated_at": "2026-11-25"
   }
  }
 }
