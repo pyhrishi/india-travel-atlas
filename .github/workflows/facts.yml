@@ -72,6 +72,24 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+      - name: Restore checkpoint from an earlier attempt of this run
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: region-${{ matrix.state }}
+          path: recovery
+      - name: Resume from recovered checkpoint when available
+        shell: bash
+        run: |
+          if [ -f "recovery/.github/facts-state/${{ matrix.state }}.json" ]; then
+            mkdir -p .github/facts-state data/facts
+            cp "recovery/.github/facts-state/${{ matrix.state }}.json" ".github/facts-state/${{ matrix.state }}.json"
+            echo "Restored region checkpoint from an earlier attempt."
+          fi
+          if [ -f "recovery/data/facts/${{ matrix.state }}.json" ]; then
+            mkdir -p data/facts
+            cp "recovery/data/facts/${{ matrix.state }}.json" "data/facts/${{ matrix.state }}.json"
+          fi
       - name: Verify region with checkpoint-aware retries
         env:
           FACTS_STATE: ${{ matrix.state }}
@@ -106,6 +124,7 @@ jobs:
           if-no-files-found: warn
           retention-days: 30
           include-hidden-files: true
+          overwrite: true
 
   publish:
     name: Validate, merge and publish complete catalogue only
