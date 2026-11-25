@@ -239,7 +239,7 @@ def main():
         print(f'checkpoint: {len(R)} done, {len(pend)} waiting, {len(M)} unmatched', flush=True)
     import signal
     def bye(*a):
-        checkpoint(); sys.exit(0)
+        checkpoint(); sys.exit(75)
     signal.signal(signal.SIGTERM, bye); signal.signal(signal.SIGINT, bye)
     # Persist a usable checkpoint and empty result file before any external API calls.
     os.makedirs(OUTD, exist_ok=True)
@@ -294,7 +294,7 @@ def main():
             if o: R[p['k']] = dict(o, at=NOW, mv=MV); M.pop(p['k'], None)
             else: M[p['k']] = NOW; M2.add(p['k']); R.pop(p['k'], None)
         H[p['k']] = fp(p)
-        if n % 150 == 0:
+        if n % 25 == 0:
             print(f'search {n}/{len(rest)}: {len(hit)} matched', flush=True); checkpoint()
     for p in todo:
         if p['k'] in hit: H[p['k']] = fp(p)
