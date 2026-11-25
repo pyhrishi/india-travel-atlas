@@ -547,6 +547,18 @@ h3 small{font-weight:600;color:var(--soft);margin-left:6px;font-size:13px}
 .acc{display:flex;flex-direction:column;align-items:center;gap:6px;padding:10px 2px 8px;border-radius:14px;border:1px solid var(--line);background:var(--bg);font:inherit;font-size:11.5px;font-weight:700;color:var(--ink);line-height:1.15;text-align:center;min-height:76px}
 .acc i{width:30px;height:30px;border-radius:50%;background:var(--a);box-shadow:inset 0 0 0 2px color-mix(in srgb,#fff 25%,transparent)}
 .acc i{outline:1px solid color-mix(in srgb,var(--ink) 22%,transparent);outline-offset:0}.acc[aria-checked=true]{border-color:var(--pink);box-shadow:0 0 0 2px var(--pink)}.acc[aria-checked=true] i{box-shadow:inset 0 0 0 3px var(--bg),0 0 0 2px var(--pink)}
+/* this weekend */
+.wkc{margin:14px 16px 4px;border-radius:22px;overflow:hidden;border:1px solid var(--line);background:var(--card);box-shadow:0 6px 22px rgba(10,20,40,.08)}
+.wkimg{position:relative;display:block;width:100%;height:170px;border:0;padding:0;background:#16181d;cursor:pointer}.wkimg>.pic,.wkimg img{border-radius:0}
+.wkx{padding:14px 16px 12px}
+.wke{display:block;font-size:11px;font-weight:800;letter-spacing:.09em;text-transform:uppercase;color:var(--pinkink)}
+.wkc h3{margin:4px 0 2px;font-size:23px;line-height:1.15;letter-spacing:-.01em}.wkn{border:0;background:none;padding:0;font:inherit;color:inherit;text-align:left;cursor:pointer}
+.wks{margin:0;color:var(--soft);font-size:14px}
+.wkr{list-style:none;margin:10px 0 0;padding:0;display:grid;gap:5px;font-size:14.5px;line-height:1.35}
+.wkw{margin:10px 0 0;font-size:13.5px;color:var(--soft);line-height:1.5}.wkw .lnk2{font-size:13.5px;padding:2px 0;min-height:0;color:var(--ink);text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:3px}
+.wka{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:8px;margin-top:12px}.wka .act{margin:0}.wk0 .wka{grid-template-columns:1fr}
+.wko{list-style:none;margin:10px -16px 0;padding:0;border-top:1px solid var(--line)}.wko .it{background:none}
+.wkn2{font-size:12.5px;margin:10px 0 0}
 </style>
 </head>
 <body>
@@ -2027,6 +2039,7 @@ function vIndia(){const ready=S.states.filter(s=>s.status==="done"&&S.data[s.slu
   const line=nat.length?seeded(nat,new Date().getFullYear()*100+NOWM,3).map(n=>n.name.replace(/^(The |A )/,"")).join(" · "):"";
   V.innerHTML=`<div class="xhero">${hp?art(hp,{hero:1}):""}<div class="xhx"><span class="cis">${phase().toUpperCase()} ${MONL[NOWM-1].toUpperCase()} IN INDIA</span><h2>${cov?esc(cov.name):"Where to go in "+MONL[NOWM-1]}</h2>${line?`<p>${esc(line)}</p>`:""}<div class="xha">${MAG?`<button class="act pri" data-mg="issue" data-ma="${NOWM}">Read the ${MONL[NOWM-1]} issue</button>`:""}<button class="act ghost" id="surp"><svg class="bi" aria-hidden="true"><use href="#i-dice"/></svg>Surprise me</button></div></div></div>
    <div class="qpills" role="group" aria-label="Quick links"><button class="qp" id="nearB"><svg aria-hidden="true"><use href="#i-loc"/></svg>Near me</button><button class="qp" id="dscB"><svg aria-hidden="true"><use href="#i-cards"/></svg>Discover</button><button class="qp" data-go="getaway"><svg aria-hidden="true"><use href="#i-route"/></svg>Getaways</button><button class="qp" data-go="onway"><svg aria-hidden="true"><use href="#i-dir"/></svg>On the way</button><button class="qp" data-go="breaks"><svg aria-hidden="true"><use href="#i-cal"/></svg>Long weekends</button><button class="qp" data-go="trails"><svg aria-hidden="true"><use href="#i-map"/></svg>Trails</button><button class="qp" data-go="fest"><svg aria-hidden="true"><use href="#i-star"/></svg>Festivals</button><button class="qp" data-go="mag"><svg aria-hidden="true"><use href="#i-book"/></svg>Magazine</button></div>
+   ${wkCard()}
    ${(()=>{const tp=M.trip.map(byId).filter(Boolean);return tp.length?`<button class="cont" id="contTrip"><span class="thumb" aria-hidden="true">${art(tp[0])}</span><span><span class="blk m2">CONTINUE PLANNING</span><b class="blk">Your trip · ${tp.length} stop${tp.length>1?"s":""}</b><span class="blk m2">${esc(tp.slice(0,3).map(p=>p.name).join(", "))}${tp.length>3?"…":""}</span></span><span aria-hidden="true" style="font-size:20px">›</span></button>`:""})()}
    <h3 class="pad xh">How much time do you have?</h3><div class="seg4" role="tablist" aria-label="Trip length">${[["day","A day"],["wknd","Weekend"],["long","3–4 days"],["week","A week+"]].map(([k,l])=>`<button type="button" role="tab" data-xt="${k}" aria-selected="${tk===k}">${l}</button>`).join("")}</div><div id="xtp" role="tabpanel">${timePanel(tk)}</div>
    <h3 class="pad xh">In the mood for…</h3><div class="chips" role="group" aria-label="Mood">${MOODS.map(([k,l,g])=>`<button class="chip${mood===g?" on":""}" data-xm="${g}" aria-pressed="${mood===g}">${ico(g,15,G[g][1])} ${l}</button>`).join("")}</div><div id="xmr">${moodRail(mood)}</div><div class="pad" style="margin-top:4px"><button class="lnk2" data-cat="${mood}">See every ${esc(G[mood][0].toLowerCase())} place ›</button></div>
@@ -2038,7 +2051,7 @@ function vIndia(){const ready=S.states.filter(s=>s.status==="done"&&S.data[s.slu
    <details class="pad allst"><summary><b>All ${ready.length} states and UTs</b><span>A–Z</span></summary><ul>${[...ready].sort((a,b)=>a.name.localeCompare(b.name)).map(s=>{const L=S.data[s.slug].places,ic=L.find(p=>p.tier==="icon")||L[0],b=L.filter(p=>M.been[id(p)]).length;return`<li><button class="it" data-s="${s.slug}"><span class="thumb" aria-hidden="true">${art(ic)}</span><span><span class="nm">${esc(s.name)}</span><span class="sub">${L.length} places · ${S.data[s.slug].trails.length} trails${b?` · ${b} visited`:""}</span></span><span class="r" aria-hidden="true" style="font-size:20px">›</span></button></li>`}).join("")}</ul></details>
    <div class="pad"><div class="stats" style="margin-top:18px"><button class="stat" data-go="states"><b>${ready.length}</b><span>states & UTs</span></button><button class="stat" data-go="list"><b>${all.length.toLocaleString("en-IN")}</b><span>places</span></button><button class="stat" data-coll="iconic"><b>${icons.length}</b><span>iconic</span></button><button class="stat" data-go="trails"><b>${tr}</b><span>trails</span></button></div></div>`;
   if(!MAG)loadMag().then(()=>{if(!S.slug&&S.stack.length===1&&S.stack[0].v==="explore")paint(false,V.scrollTop)}).catch(()=>{});
-  bindIndia();bindX()}
+  bindIndia();bindX();bindWk()}
 function bindX(){const re=()=>{const p=$("#xtp");p.innerHTML=timePanel(S.xt||"wknd");bind();bindMag();bindX2();scanPhotos(p)};
   V.querySelectorAll("[data-xt]").forEach(b=>b.onclick=()=>{S.xt=b.dataset.xt;V.querySelectorAll("[data-xt]").forEach(x=>x.setAttribute("aria-selected",x===b));re()});
   V.querySelectorAll("[data-xm]").forEach(b=>b.onclick=()=>{S.xm=b.dataset.xm;V.querySelectorAll("[data-xm]").forEach(x=>{const on=x===b;x.classList.toggle("on",on);x.setAttribute("aria-pressed",on)});$("#xmr").innerHTML=moodRail(S.xm);const sl=V.querySelector("#xmr + .pad [data-cat]");if(sl){sl.dataset.cat=S.xm;sl.textContent=`See every ${G[S.xm][0].toLowerCase()} place ›`}bind();scanPhotos($("#xmr"))});
@@ -2469,6 +2482,58 @@ async function fillTripWx(ps,dd){const box=$("#twxs");if(!box||!M.tripStart||!ps
   const d=bad[0],bp=byDay[d].find(x=>x.lv==="bad"),ns=shift!=null?addD(s,shift):null;
   box.innerHTML=`<div class="twxa" role="status"><b>${(WMO[bp.w.c]||["⚠"])[0]} Day ${d+1}: ${esc(wxWhy(bp.w))} at ${esc(bp.p.name)}.</b>${bad.length>1?`<span class="m2">Also rough: day ${bad.slice(1).map(x=>x+1).join(", day ")}.</span>`:""}${ns?`<span>Starting on ${fmtD(ns,{weekday:"long",day:"numeric",month:"short"})} instead keeps every stop out of heavy weather.</span><button class="act" id="twsw">Start on ${fmtD(ns,{day:"numeric",month:"short"})}</button>`:`<span>No start date in the next two weeks avoids it. Keep an indoor backup for that day.</span>`}</div>`;
   const sw=$("#twsw");if(sw)sw.onclick=()=>{const before=M.tripStart;M.tripStart=isoD(ns);save();paint(false,V.scrollTop);toast(`Trip now starts ${fmtD(ns,{day:"numeric",month:"short"})}`,()=>{M.tripStart=before;save();paint()})}}
+
+/* ================= This weekend: one confident pick, with real reasons ================= */
+/* the coming weekend, stretched to a long weekend when a holiday touches it */
+function wkWin(){const t=dOf(today()),w=t.getDay();let sat=w===6?t:w===0?addD(t,6):addD(t,6-w),s=sat,e=addD(sat,1),hs=[];
+  if(w===0){/* Sunday: today is the last of it, so look at the next one */}
+  try{const b=breaks(0).find(x=>x.s<=e&&x.e>=s&&x.len>=3);if(b){s=b.s<t?t:b.s;e=b.e;hs=b.hs||[]}}catch(err){}
+  const len=Math.round((e-s)/864e5)+1;return{s,e,len,hs,long:len>=3}}
+function wkCands(W){const h=home();if(!h)return[];const m=W.s.getMonth()+1,ints=M.interests||[],maxH=W.long?6:4.5,all=allPlaces();
+  const ideal=W.long?4.5:3,sc=p=>{const t=driveH(h,p);return tierW[p.tier]*1.3+(ints.includes(p.g)?.6:0)+tasteOf(p)*.25+(M.want[id(p)]?1:0)-Math.abs(t-ideal)*.45-(cond(p,m).some(c=>c[0]==="crowd")?.4:0)};
+  const L=all.filter(p=>p.tier!=="gem"&&!M.been[id(p)]&&inSeason(m,p)&&km(h,p)>=35&&driveH(h,p)<=maxH&&driveH(h,p)>=1.5).map(p=>({p,s:sc(p)})).sort((a,b)=>b.s-a.s);
+  const out=[];
+  for(const a of L){if(out.length>=6)break;if(out.some(o=>km(o.p,a.p)<45))continue;
+    const near=all.filter(x=>x!==a.p&&!M.been[id(x)]&&inSeason(m,x)&&km(a.p,x)<=35).sort((x,y)=>(tierW[y.tier]+(ints.includes(y.g)?.5:0))-(tierW[x.tier]+(ints.includes(x.g)?.5:0)));
+    const ps=[a.p];let tot=Math.min(hrs(a.p),10);const cap=W.long?24:17;for(const x of near){if(ps.length>=(W.long?7:5))break;const need=Math.min(hrs(x),10);if(tot+need>cap)continue;ps.push(x);tot+=need}
+    if(ps.length<2)continue;out.push({p:a.p,ps,s:a.s,t:driveH(h,a.p)})}
+  return out}
+function wkDays(W){const o=[];for(let i=0;i<W.len;i++)o.push(isoD(addD(W.s,i)));return o}
+/* weather over the weekend for a pick: worst level, and a one-line summary */
+function wkWx(c,W,w){if(!w)return null;const ds=wkDays(W).map(k=>w.days[k]).filter(Boolean);if(!ds.length)return null;
+  const lv=ds.map(d=>wxLevel(d,c.p)),bad=lv.filter(x=>x==="bad").length,meh=lv.filter(x=>x==="meh").length,tx=Math.round(Math.max(...ds.map(d=>d.tx))),tn=Math.round(Math.min(...ds.map(d=>d.tn)));
+  const dn=W.long?"all three days":"both days",nm=i=>fmtD(addD(W.s,i),{weekday:"short"});
+  const line=bad?`${(WMO[ds[lv.indexOf("bad")].c]||["⛈"])[0]} ${wxWhy(ds[lv.indexOf("bad")])} on ${lv.map((x,i)=>x==="bad"?nm(i):null).filter(Boolean).join(" and ")}`:meh?`🌦 Mostly fine, some rain possible ${lv.map((x,i)=>x==="meh"?nm(i):null).filter(Boolean).join(", ")}`:`☀ Dry ${W.len>3?"all weekend":dn}`;
+  return{bad,meh,line:`${line} · ${tx}°/${tn}°`,full:ds.length===W.len}}
+function wkReasons(c,W,wx){const p=c.p,m=W.s.getMonth()+1,r=[],[sr]=sunTimes(p.lat,p.lng,W.s),fs=(S.data[p.slug].festivals||[]).filter(x=>x.n===p.n&&inR(m,x.months[0],x.months[1]));
+  r.push(wx?wx.line:W.s-dOf(today())>15*864e5?"☁ Forecast opens closer to the date":"☁ Checking the forecast…");
+  if(fs.length)r.push(`🎉 ${fs[0].name} around this time`);else r.push(`✓ In season (best ${monthsTxt(p)})${p.why?": "+p.why.charAt(0).toLowerCase()+p.why.slice(1):""}`);
+  r.push(`🌅 Sunrise ${clk(sr)} on ${fmtD(W.s,{weekday:"long"})}`);
+  const cr=cond(p,m).find(x=>x[0]==="crowd");if(cr)r.push(`👥 ${cr[1]}`);
+  return r}
+function wkCard(){const h=home(),W=wkWin(),dd=d=>`${fmtD(d,{weekday:"short"})} ${d.getDate()}`,rng=`${dd(W.s)} – ${dd(W.e)} ${MON[W.e.getMonth()]}`,lab=W.long?`Long weekend · ${rng}${W.hs.length?" · "+W.hs[0]:""}`:`This weekend · ${rng}`;
+  if(!h)return`<section class="wkc wk0" aria-label="This weekend"><div class="wkx"><span class="wke">${esc(lab)}</span><h3>Where to go this weekend</h3><p class="wks">Set your home city and this card picks one weekend trip for you every week, checked against the live forecast.</p><div class="wka"><button class="act pri" id="wkset">Set home city</button></div></div></section>`;
+  const st=S.wk&&S.wk.key===ymd(W.s)+":"+h.name+":"+Object.keys(M.been).length?S.wk:(S.wk={key:ymd(W.s)+":"+h.name+":"+Object.keys(M.been).length,W,C:wkCands(W),wx:null,i:0,more:0,asked:0});
+  const C=st.C;if(!C.length)return"";
+  if(!st.asked){st.asked=1;wkFetch(st)}
+  const c=C[st.i]||C[0],wx=st.wx&&st.wx[C.indexOf(c)],R=wkReasons(c,W,wx),others=C.filter(x=>x!==c).slice(0,2);
+  return`<section class="wkc" id="wkc" aria-label="This weekend"><button class="wkimg" data-p="${id(c.p)}" aria-label="Open ${esc(c.p.name)}">${art(c.p,{big:1})}</button>
+   <div class="wkx"><span class="wke">${esc(lab)}</span><h3><button class="wkn" data-p="${id(c.p)}">${esc(c.p.name)}</button></h3><p class="wks">${esc(c.p.district)}, ${esc(stOf(c.p.slug).name)} · about ${hmd(c.t)} from ${esc(h.name)}</p>
+   <ul class="wkr">${R.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>
+   <p class="wkw"><b>Also there:</b> ${c.ps.slice(1).map(p=>`<button class="lnk2" data-p="${id(p)}">${esc(p.name)}</button>`).join(" · ")}</p>
+   <div class="wka"><button class="act pri" id="wkplan">Plan this ${W.long?"long weekend":"weekend"}</button>${others.length?`<button class="act" id="wkmore" aria-expanded="${!!st.more}">${st.more?"Fewer ideas":`${others.length} more idea${others.length>1?"s":""}`}</button>`:""}</div>
+   ${st.more?`<ul class="wko">${others.map(o=>{const ow=st.wx&&st.wx[C.indexOf(o)];return`<li><button class="it" data-wki="${C.indexOf(o)}"><span class="thumb" aria-hidden="true">${art(o.p)}</span><span><span class="nm">${esc(o.p.name)}</span><span class="sub">${hmd(o.t)} away · ${esc(stOf(o.p.slug).name)}${ow?` · ${esc(ow.line.split(" · ")[0])}`:""}</span></span><span class="r" aria-hidden="true">›</span></button></li>`}).join("")}</ul>`:""}
+   <p class="note wkn2">Picked for your home city, the season${st.wx?" and the live forecast (Open-Meteo)":""}. Changes every week.</p></div></section>`}
+async function wkFetch(st){const ws=await wxGet(st.C.map(c=>c.p));if(!ws.some(Boolean))return;st.wx=st.C.map((c,i)=>wkWx(c,st.W,ws[i]));
+  /* re-rank: keep the season pick unless the weather spoils it */
+  const sc=i=>st.C[i].s-(st.wx[i]?st.wx[i].bad*2.5+st.wx[i].meh*.6:0),ord=st.C.map((c,i)=>i).sort((a,b)=>sc(b)-sc(a));st.C=ord.map(i=>st.C[i]);st.wx=ord.map(i=>st.wx[i]);st.i=0;wkRefresh()}
+function wkRefresh(){const el=$("#wkc");if(!el)return;const y=V.scrollTop;el.outerHTML=wkCard();bindWk();V.scrollTop=y}
+function bindWk(){const el=$("#wkc")||$(".wkc");if(!el)return;const st=S.wk;
+  const ws=$("#wkset");if(ws)ws.onclick=()=>showOnboard(true);
+  el.querySelectorAll("[data-p]").forEach(b=>b.onclick=()=>{const p=byId(b.dataset.p);if(p){if(p.slug!==S.slug){S.slug=p.slug;classStates()}openPlace(p,true)}});
+  const mo=$("#wkmore");if(mo)mo.onclick=()=>{st.more=!st.more;wkRefresh();$("#wkmore")?.focus()};
+  el.querySelectorAll("[data-wki]").forEach(b=>b.onclick=()=>{st.i=+b.dataset.wki;st.more=0;wkRefresh();$("#wkc .wkn")?.focus()});
+  const pl=$("#wkplan");if(pl)pl.onclick=()=>{const c=st.C[st.i]||st.C[0],W=st.W;syncTrip();const r={id:uid_(),t:Date.now(),name:`${c.p.name} ${W.long?"long weekend":"weekend"}`,stops:c.ps.map(id),start:ymd(W.s),budget:0,note:""};tripsAll().unshift(r);loadTrip(r);save();hdr();S.ttab="plan";root_("trip");toast(`${c.ps.length} stops planned for ${fmtD(W.s,{day:"numeric",month:"short"})}`)}}
 
 function route(silent,h0){const h=h0!=null?h0:location.hash.slice(1);const m=h.match(/^(.*)-(\d+)$/);
   if(m&&S.data[m[1]]){const p=S.data[m[1]].places.find(x=>x.n==m[2]);if(p){S.slug=m[1];classStates();S.stack=[{v:"explore"}];openPlace(p,!silent);return}}
