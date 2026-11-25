@@ -20,32 +20,30 @@
  ],
  "trails": [
   {
-   "name": "Tutong town, beach and forest",
-   "note": "A relaxed district route combining the town market, Seri Kenangan coast and nearby recreation areas.",
+   "name": "Tutong town and heritage",
+   "note": "A gentle town visit with the local market and heritage centre.",
    "ids": [
     4,
     5,
-    2,
-    3,
-    6
+    7
    ]
   },
   {
-   "name": "Tasek Merimbun nature and heritage day",
-   "note": "Make the lake and wetland heritage park the anchor for a slower day; confirm facilities and weather before travelling.",
+   "name": "Merimbun lake and forest day",
+   "note": "Visit Brunei's heritage lake landscape and nearby recreation areas; check park conditions before travel.",
    "ids": [
     1,
-    4,
-    3
+    3,
+    9
    ]
   },
   {
-   "name": "Tutong hills and coastal stops",
-   "note": "A short drive linking local outdoor stops with the coast; check access to smaller recreation sites before setting out.",
+   "name": "Tutong coast",
+   "note": "A relaxed coastal outing to Seri Kenangan and Telisai; confirm beach and forest-park access locally.",
    "ids": [
-    9,
-    6,
-    2
+    2,
+    8,
+    6
    ]
   }
  ],
@@ -202,6 +200,41 @@
    ],
    "time": "1–2 hrs",
    "tags": []
+  }
+ ],
+ "festivals": [
+  {
+   "name": "Brunei National Day",
+   "months": [
+    2,
+    2
+   ],
+   "when": "23 February each year",
+   "about": "National celebrations and community activities; check the annual district programme.",
+   "lat": 4.806,
+   "lng": 114.66
+  },
+  {
+   "name": "His Majesty the Sultan's Birthday celebrations",
+   "months": [
+    7,
+    8
+   ],
+   "when": "July–August celebration period",
+   "about": "Royal birthday festivities are held nationwide; local schedules vary.",
+   "lat": 4.806,
+   "lng": 114.66
+  },
+  {
+   "name": "Brunei December Festival",
+   "months": [
+    12,
+    12
+   ],
+   "when": "December",
+   "about": "A nationwide programme of year-end events; check the official calendar for Tutong activities.",
+   "lat": 4.806,
+   "lng": 114.66
   }
  ]
 }
