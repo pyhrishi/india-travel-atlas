@@ -710,7 +710,10 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "circ": [
+    "jyotirlinga"
+   ]
   },
   {
    "n": 32,
@@ -742,7 +745,10 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "circ": [
+    "kumbh"
+   ]
   },
   {
    "n": 34,
@@ -838,7 +844,10 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "circ": [
+    "jyotirlinga"
+   ]
   },
   {
    "n": 40,

@@ -253,7 +253,10 @@
     11,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "circ": [
+    "arupadai"
+   ]
   },
   {
    "n": 7,
@@ -372,7 +375,11 @@
     11,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "circ": [
+    "dham4",
+    "jyotirlinga"
+   ]
   },
   {
    "n": 14,
@@ -1026,7 +1033,10 @@
     11,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "circ": [
+    "arupadai"
+   ]
   },
   {
    "n": 49,
@@ -1653,7 +1663,10 @@
     11,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "circ": [
+    "panchabhoota"
+   ]
   },
   {
    "n": 83,
@@ -1966,7 +1979,10 @@
     11,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "circ": [
+    "panchabhoota"
+   ]
   },
   {
    "n": 100,
@@ -2262,7 +2278,10 @@
     11,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "circ": [
+    "arupadai"
+   ]
   },
   {
    "n": 118,
@@ -2326,7 +2345,10 @@
     11,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "circ": [
+    "panchabhoota"
+   ]
   },
   {
    "n": 122,
@@ -2444,7 +2466,10 @@
     11,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "circ": [
+    "panchabhoota"
+   ]
   },
   {
    "n": 129,
@@ -2611,7 +2636,10 @@
     11,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "circ": [
+    "arupadai"
+   ]
   },
   {
    "n": 138,
@@ -3872,6 +3900,44 @@
     ],
     "warn": "Very steep; use low gear downhill, buses and large vehicles restricted"
    }
+  },
+  {
+   "n": 202,
+   "name": "Swamimalai Murugan Temple",
+   "district": "Thanjavur",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 10.957,
+   "lng": 79.326,
+   "why": "Arupadai Veedu hill shrine where Murugan is said to have taught his father the meaning of Om",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs",
+   "circ": [
+    "arupadai"
+   ]
+  },
+  {
+   "n": 203,
+   "name": "Pazhamudircholai",
+   "district": "Madurai",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 10.096,
+   "lng": 78.218,
+   "why": "Murugan shrine in the forest above Alagar Koil, the sixth of the six abodes",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs",
+   "circ": [
+    "arupadai"
+   ]
   }
  ],
  "festivals": [

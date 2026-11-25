@@ -255,7 +255,10 @@
     10,
     3
    ],
-   "time": "Thursday evening"
+   "time": "Thursday evening",
+   "circ": [
+    "sufi"
+   ]
   },
   {
    "n": 13,

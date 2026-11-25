@@ -616,7 +616,10 @@
     "el": 1069,
     "diff": "Moderate",
     "base": "Junagadh"
-   }
+   },
+   "circ": [
+    "jaintirtha"
+   ]
   },
   {
    "n": 21,
@@ -680,7 +683,10 @@
     1,
     12
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "circ": [
+    "jyotirlinga"
+   ]
   },
   {
    "n": 25,
@@ -728,7 +734,10 @@
     1,
     12
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "circ": [
+    "dham4"
+   ]
   },
   {
    "n": 28,
@@ -760,7 +769,10 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "circ": [
+    "jyotirlinga"
+   ]
   },
   {
    "n": 30,
@@ -1013,7 +1025,10 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "circ": [
+    "jaintirtha"
+   ]
   },
   {
    "n": 44,

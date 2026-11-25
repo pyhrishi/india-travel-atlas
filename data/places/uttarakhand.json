@@ -190,7 +190,12 @@
     "diff": "Moderate",
     "base": "Gaurikund",
     "permit": "Yatra registration"
-   }
+   },
+   "circ": [
+    "chardham",
+    "jyotirlinga",
+    "panchkedar"
+   ]
   },
   {
    "n": 2,
@@ -206,7 +211,11 @@
     5,
     10
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "circ": [
+    "chardham",
+    "dham4"
+   ]
   },
   {
    "n": 3,
@@ -222,7 +231,10 @@
     5,
     10
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "circ": [
+    "chardham"
+   ]
   },
   {
    "n": 4,
@@ -238,7 +250,10 @@
     5,
     10
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "circ": [
+    "chardham"
+   ]
   },
   {
    "n": 5,
@@ -671,7 +686,10 @@
     "el": 3680,
     "diff": "Moderate",
     "base": "Chopta"
-   }
+   },
+   "circ": [
+    "panchkedar"
+   ]
   },
   {
    "n": 28,
@@ -757,7 +775,10 @@
     5,
     10
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "circ": [
+    "panchkedar"
+   ]
   },
   {
    "n": 33,
@@ -779,7 +800,10 @@
     "el": 2200,
     "diff": "Easy",
     "base": "Urgam"
-   }
+   },
+   "circ": [
+    "panchkedar"
+   ]
   },
   {
    "n": 34,
@@ -801,7 +825,10 @@
     "el": 3600,
     "diff": "Difficult",
     "base": "Sagar"
-   }
+   },
+   "circ": [
+    "panchkedar"
+   ]
   },
   {
    "n": 35,
@@ -1053,7 +1080,10 @@
     10,
     4
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "circ": [
+    "kumbh"
+   ]
   },
   {
    "n": 50,

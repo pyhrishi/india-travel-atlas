@@ -1546,7 +1546,10 @@
     "see": "Artists' workshops",
     "buy": "Directly from artists",
     "note": "Freehand pen-drawn Kalamkari, unlike Pedana's block prints"
-   }
+   },
+   "circ": [
+    "panchabhoota"
+   ]
   },
   {
    "n": 77,
@@ -1738,7 +1741,10 @@
     10,
     3
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "circ": [
+    "jyotirlinga"
+   ]
   },
   {
    "n": 88,

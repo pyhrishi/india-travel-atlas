@@ -148,7 +148,10 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "circ": [
+    "dham4"
+   ]
   },
   {
    "n": 3,

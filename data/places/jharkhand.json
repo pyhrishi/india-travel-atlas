@@ -143,7 +143,10 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "circ": [
+    "jyotirlinga"
+   ]
   },
   {
    "n": 2,
@@ -283,7 +286,10 @@
     "el": 1350,
     "diff": "Moderate",
     "base": "Madhuban"
-   }
+   },
+   "circ": [
+    "jaintirtha"
+   ]
   },
   {
    "n": 10,

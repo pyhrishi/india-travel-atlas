@@ -309,7 +309,10 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "circ": [
+    "sufi"
+   ]
   },
   {
    "n": 10,
@@ -778,7 +781,10 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "circ": [
+    "ashtavinayak"
+   ]
   },
   {
    "n": 36,
@@ -1068,7 +1074,10 @@
     "len": "About 30 caves",
     "time": "2 hours",
     "note": "About 300 steps up"
-   }
+   },
+   "circ": [
+    "ashtavinayak"
+   ]
   },
   {
    "n": 51,
@@ -1090,7 +1099,10 @@
     "el": 1034,
     "diff": "Moderate",
     "base": "Khandas"
-   }
+   },
+   "circ": [
+    "jyotirlinga"
+   ]
   },
   {
    "n": 52,
@@ -1150,7 +1162,10 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "circ": [
+    "ashtavinayak"
+   ]
   },
   {
    "n": 55,
@@ -1951,7 +1966,10 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "circ": [
+    "jyotirlinga"
+   ]
   },
   {
    "n": 100,
@@ -2068,7 +2086,10 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "circ": [
+    "kumbh"
+   ]
   },
   {
    "n": 106,
@@ -2084,7 +2105,10 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "circ": [
+    "jyotirlinga"
+   ]
   },
   {
    "n": 107,
@@ -2438,7 +2462,10 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "circ": [
+    "takhts"
+   ]
   },
   {
    "n": 127,
@@ -4681,6 +4708,101 @@
     ],
     "note": "Slower and more beautiful than the NH-66"
    }
+  },
+  {
+   "n": 239,
+   "name": "Siddhatek Siddhivinayak",
+   "district": "Ahilyanagar",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 18.443,
+   "lng": 74.727,
+   "why": "Ashtavinayak shrine on the Bhima, the only one with the trunk turned to the right",
+   "tier": "gem",
+   "months": [
+    7,
+    2
+   ],
+   "time": "1–2 hrs",
+   "circ": [
+    "ashtavinayak"
+   ]
+  },
+  {
+   "n": 240,
+   "name": "Mahad Varadvinayak",
+   "district": "Raigad",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 18.81,
+   "lng": 73.3,
+   "why": "Ashtavinayak temple near Khopoli with a lamp said to have burned since 1892",
+   "tier": "gem",
+   "months": [
+    7,
+    2
+   ],
+   "time": "1 hr",
+   "circ": [
+    "ashtavinayak"
+   ]
+  },
+  {
+   "n": 241,
+   "name": "Theur Chintamani",
+   "district": "Pune",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 18.524,
+   "lng": 74.05,
+   "why": "Ashtavinayak temple near Pune, linked to the Peshwa Madhavrao I",
+   "tier": "gem",
+   "months": [
+    7,
+    2
+   ],
+   "time": "1 hr",
+   "circ": [
+    "ashtavinayak"
+   ]
+  },
+  {
+   "n": 242,
+   "name": "Ozar Vighneshwar",
+   "district": "Pune",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 19.188,
+   "lng": 73.958,
+   "why": "Ashtavinayak temple with a gilded dome and spire on the Kukadi river",
+   "tier": "gem",
+   "months": [
+    7,
+    2
+   ],
+   "time": "1 hr",
+   "circ": [
+    "ashtavinayak"
+   ]
+  },
+  {
+   "n": 243,
+   "name": "Ranjangaon Mahaganapati",
+   "district": "Pune",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 18.756,
+   "lng": 74.24,
+   "why": "Ashtavinayak temple on the Pune–Ahilyanagar road, where Shiva is said to have worshipped Ganesha",
+   "tier": "gem",
+   "months": [
+    7,
+    2
+   ],
+   "time": "1 hr",
+   "circ": [
+    "ashtavinayak"
+   ]
   }
  ],
  "festivals": [

@@ -269,7 +269,10 @@
     10,
     3
    ],
-   "time": "1 hr"
+   "time": "1 hr",
+   "circ": [
+    "sufi"
+   ]
   },
   {
    "n": 8,
@@ -553,7 +556,10 @@
     10,
     3
    ],
-   "time": "1 hr"
+   "time": "1 hr",
+   "circ": [
+    "jyotirlinga"
+   ]
   },
   {
    "n": 25,
@@ -633,7 +639,10 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "circ": [
+    "buddhist"
+   ]
   },
   {
    "n": 30,
@@ -883,7 +892,10 @@
     10,
     3
    ],
-   "time": "1 hr"
+   "time": "1 hr",
+   "circ": [
+    "kumbh"
+   ]
   },
   {
    "n": 44,
@@ -1512,7 +1524,10 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "circ": [
+    "buddhist"
+   ]
   },
   {
    "n": 79,
@@ -2443,7 +2458,10 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "circ": [
+    "buddhist"
+   ]
   },
   {
    "n": 133,
