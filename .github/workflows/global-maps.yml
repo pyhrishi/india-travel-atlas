@@ -11,6 +11,8 @@ on:
     paths:
       - "tools/build_global_maps.py"
       - "tests/test_global_maps.py"
+      - "index.html"
+      - "sw.js"
       - ".github/workflows/global-maps.yml"
   workflow_dispatch:
     inputs:
