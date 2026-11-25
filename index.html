@@ -591,7 +591,7 @@ details.tool summary{display:flex;align-items:center;gap:8px;cursor:pointer;list
 {
 /* ---------- constants ---------- */
 const G={temple:["Temples & shrines","#e4572e"],heritage:["Forts & heritage","#8d5524"],buddhist:["Buddhist sites","#e3a008"],hills:["Hills & forests","#2e8b4a"],water:["Waterfalls & rivers","#1f78d1"],coast:["Beaches & islands","#0aa1ad"],wildlife:["Wildlife & birds","#7b4fc4"],caves:["Caves & rock","#5d6676"],culture:["Culture & crafts","#b5179e"]};
-const TIER={icon:"Iconic",top:"Top pick",gem:"Hidden gem"};
+const TIER={icon:"Iconic",top:"Top pick",gem:"Worth a stop"};
 const MON=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
 const NOWM=new Date().getMonth()+1;
 const HRS={"1 hr":1,"2 hrs":2,"1–2 hrs":1.5,"2–3 hrs":2.5,"Half day":4,"Full day":8,"Overnight":14,"Evening":2,"Pre-dawn trip":4,"2–3 days":20};
@@ -998,7 +998,7 @@ function vExplore(){const D=curD();if(!D){vIndia();return}
   const b=base(),near=b?[...L].sort((x,y)=>km(b,x)-km(b,y)).slice(0,10):null,note=SNOTE[S.slug];
   V.innerHTML=`<div class="pad"><div class="ttl"><h2>${esc(st.name)}</h2><button type="button" class="crumb" id="toIndia">‹ All of India</button></div><p class="lead">${esc(D.intro)}</p>
    ${note?`<div class="warns"><span class="warn"><svg aria-hidden="true"><use href="#i-warn"/></svg>${esc(note)}</span></div>`:""}
-   <div class="stats"><button class="stat" data-tier=""><b>${L.length}</b><span>places</span></button><button class="stat" data-go="dist"><b>${dist}</b><span>districts</span></button><button class="stat" data-tier="icon"><b>${icons.length}</b><span>iconic</span></button><button class="stat" data-tier="gem"><b>${gems.length}</b><span>gems</span></button></div>
+   <div class="stats"><button class="stat" data-tier=""><b>${L.length}</b><span>places</span></button><button class="stat" data-go="dist"><b>${dist}</b><span>districts</span></button><button class="stat" data-tier="icon"><b>${icons.length}</b><span>iconic</span></button><button class="stat" data-tier="gem"><b>${gems.length}</b><span>lesser-known</span></button></div>
    <div class="mix" aria-hidden="true">${cats.map(g=>`<i style="flex:${cnt(g)};background:${G[g][1]}"></i>`).join("")}</div>
    <div class="mixkey" role="group" aria-label="Browse by kind">${cats.map(g=>`<button data-cat="${g}"><span class="dot" style="background:${G[g][1]}"></span>${G[g][0]} ${cnt(g)}</button>`).join("")}</div>
    <div class="acts" style="margin-top:14px"><button type="button" class="act pri" data-tier="">Browse all ${L.length}</button><button class="act" id="surp"><svg class="bi" aria-hidden="true"><use href="#i-dice"/></svg>Surprise me</button></div>
@@ -1008,7 +1008,7 @@ function vExplore(){const D=curD();if(!D){vIndia();return}
    ${(M.interests||[]).length?`<h3 class="pad">For you<small>your interests</small></h3><div class="rail">${[...L].sort((a,b)=>score(b)-score(a)).slice(0,12).map(p=>card(p)).join("")}</div>`:""}
    <h3 class="pad">Iconic<small>${icons.length}</small><button class="more" data-tier="icon">See all</button></h3><div class="rail">${icons.map(p=>card(p)).join("")}</div>
    <h3 class="pad">Trails<small>${D.trails.length} routes</small></h3><div class="rail">${D.trails.map((t,i)=>{const ps=t.ids.map(n=>L.find(p=>p.n===n)).filter(Boolean);let d=0;for(let j=1;j<ps.length;j++)d+=km(ps[j-1],ps[j]);return`<button class="trail" data-t="${i}"><span class="art blk" aria-hidden="true">${art(ps[0])}</span><span class="b blk"><b>${esc(t.name)}</b><span>${ps.length} stops · ~${road(d)} km</span></span></button>`}).join("")}</div>
-   <h3 class="pad">Hidden gems<small>${gems.length}</small><button class="more" data-tier="gem">See all</button></h3><div class="rail">${gems.slice(0,14).map(p=>card(p)).join("")}</div>
+   <h3 class="pad">Lesser-known places<small>${gems.length}</small><button class="more" data-tier="gem">See all</button></h3><div class="rail">${gems.slice(0,14).map(p=>card(p)).join("")}</div>
    ${(D.festivals||[]).length?`<h3 class="pad">Festivals<small>${D.festivals.length}</small></h3><ul>${[...D.festivals].sort((a,b)=>((a.months[0]-NOWM+12)%12)-((b.months[0]-NOWM+12)%12)).map(f=>festRow({...f,slug:S.slug})).join("")}</ul>`:""}
    <h3 class="pad" id="distH">By district<small>${dists.length}</small></h3><p class="pad note" style="margin-top:-4px">Tap a district on the map to show only its places.${DNOTE[S.slug]?" "+DNOTE[S.slug]:""} District lines: open data from the INDIAN-SHAPEFILES project.</p><div class="pad mixkey" role="group" aria-label="Browse by district">${dists.map(([d,n])=>`<button type="button" data-dist="${esc(d)}">${esc(d)} <span style="color:var(--soft)">${n}</span></button>`).join("")}</div>`;
   V.querySelectorAll("[data-dist]").forEach(el=>el.onclick=()=>{if(mobile())snapTo(2);S.f={...S.f,cat:null,tier:null,mon:0,tm:null,dist:el.dataset.dist};root_("list")});
@@ -1551,7 +1551,7 @@ function vStats(){const all=allPlaces(),vis=M.visits||{},been=all.filter(p=>M.be
    ${ys.length?`<h3>By year</h3>${ys.map(y=>bar(y,byY[y],maxY)).join("")}${dated.length<been.length?`<p class="note">${plural(been.length-dated.length,"visit")} without a date. Add dates in your <button class="lnk2" data-go="journal">journal</button>.</p>`:""}
    <h3>When you travel</h3><div class="vbs" role="img" aria-label="Visits by month: ${MON.map((m,i)=>m+" "+byM[i]).join(", ")}">${byM.map((n,i)=>`<div><span>${n||""}</span><i class="${n?"":"z"}" style="height:${n?Math.max(6,n/maxM*80):2}px"></i>${MON[i][0]}</div>`).join("")}</div>`:`<p class="note">Add dates to your visits in the <button class="lnk2" data-go="journal">journal</button> to see years and months here.</p>`}
    <h3>What you visit</h3>${types.map(([g,n,t])=>bar(`${ico(g,14,G[g][1])} ${G[g][0]}`,n,maxT,`${Math.round(n/t*1000)/10}% of ${t} in the atlas`,G[g][1])).join("")}
-   <h3>Iconic, top picks, hidden gems</h3>${tiers.map(([t,n,tt])=>bar(TIER[t],n,Math.max(1,...tiers.map(x=>x[1])),`of ${tt.toLocaleString("en-IN")}`)).join("")}
+   <h3>Iconic, top picks, lesser-known</h3>${tiers.map(([t,n,tt])=>bar(TIER[t],n,Math.max(1,...tiers.map(x=>x[1])),`of ${tt.toLocaleString("en-IN")}`)).join("")}
    <h3>States<small>${nS} of 36</small></h3>${sts.slice(0,12).map(([s,n,t])=>bar(esc(stOf(s).name),n,maxS,`of ${t} places`)).join("")}${sts.length>12?`<p class="note">and ${plural(sts.length-12,"more state")}.</p>`:""}
    <h3>Your far corners</h3></div><ul>${ext.map(([l,p])=>row(p,{state:1,mb:0}).replace('<span class="sub">',`<span class="sub"><b style="color:var(--pinkink)">${esc(l)}</b> · `)).join("")}</ul>
    ${fav.length?`<h3 class="pad">Favourites<small>rated 4★ and up</small></h3><ul>${fav.map(p=>row(p,{state:1,mb:0}).replace('<span class="r">',`<span class="r"><span style="color:#e3a008">${"★".repeat(vis[id(p)].rating)}</span>`)).join("")}</ul>`:""}
@@ -1559,7 +1559,7 @@ function vStats(){const all=allPlaces(),vis=M.visits||{},been=all.filter(p=>M.be
 
 /* ---------- Discover v2: decks, flip cards, swipe up to plan, taste insights, session summary ---------- */
 const SW={on:false,cur:null,next:null,hist:[],deck:"foryou",busy:false,sess:[],n:0,flip:false};
-const DECKS=()=>{const h=home(),o=[["foryou","For you"],["season","In season"]];if(h)o.push(["near","Near "+h.name],["wknd","Weekend trips"]);o.push(["icon","Iconic"],["gem","Hidden gems"]);if(MAG)o.push(["nature","Nature now"],["curio","Curiosities"]);MOODS.forEach(([g,l])=>o.push(["g:"+g,l]));if(S.slug)o.push(["st","Only "+stOf(S.slug).name]);return o};
+const DECKS=()=>{const h=home(),o=[["foryou","For you"],["season","In season"]];if(h)o.push(["near","Near "+h.name],["wknd","Weekend trips"]);o.push(["icon","Iconic"],["gem","Lesser-known"]);if(MAG)o.push(["nature","Nature now"],["curio","Curiosities"]);MOODS.forEach(([g,l])=>o.push(["g:"+g,l]));if(S.slug)o.push(["st","Only "+stOf(S.slug).name]);return o};
 /* a card is a place plus optional story framing */
 function swItems(excl){const h=home(),sk=M.skip||{},now=Date.now(),ex=new Set(excl),d=SW.deck,fresh=p=>{const k=id(p);return!ex.has(k)&&!M.been[k]&&!M.want[k]&&!(sk[k]&&now-sk[k]<45*864e5)};
   if(d==="nature"&&MAG)return MAG.nature.filter(n=>inM(NOWM,n.m)).map(n=>({p:firstP(n.ids),tag:NK[n.kind]||"Nature",title:n.name,text:n.what,extra:`When: ${mRange(n.m)}, peak ${n.peak}`})).filter(x=>x.p&&fresh(x.p));
@@ -1570,7 +1570,7 @@ function swItems(excl){const h=home(),sk=M.skip||{},now=Date.now(),ex=new Set(ex
     return inSeason(NOWM,p)}).map(p=>({p}))}
 function swPick(excl){const pool=swItems(excl);if(!pool.length)return null;const ints=M.interests||[],last=SW.hist.slice(-3).map(x=>x.p.slug),n=Math.min(300,pool.length);let best=null,bs=-1e9;
   for(let i=0;i<n;i++){const it=pool.length<=300?pool[i]:pool[Math.floor(Math.random()*pool.length)],p=it.p,s=tierW[p.tier]+tasteOf(p)*.7+(ints.includes(p.g)?.7:0)+(photoOf(id(p))?1.1:0)-(last.includes(p.slug)?1.4:0)+Math.random()*1.8;if(s>bs){bs=s;best=it}}return best}
-function swWhy(p){const t=(M.taste||{}).g?.[p.g]||0;return t>=1.5?`More ${G[p.g][0].toLowerCase()}: you've been saving these`:(M.interests||[]).includes(p.g)?`Matches your interest in ${G[p.g][0].toLowerCase()}`:p.tier==="gem"?"A hidden gem most people miss":inSeason(NOWM,p)?`In season now · ${monthsTxt(p)}`:`Best ${monthsTxt(p)}`}
+function swWhy(p){const t=(M.taste||{}).g?.[p.g]||0;return t>=1.5?`More ${G[p.g][0].toLowerCase()}: you've been saving these`:(M.interests||[]).includes(p.g)?`Matches your interest in ${G[p.g][0].toLowerCase()}`:p.tier==="gem"?"Less visited than the big names nearby":inSeason(NOWM,p)?`In season now · ${monthsTxt(p)}`:`Best ${monthsTxt(p)}`}
 function tasteTop(){const t=M.taste||{},g=Object.entries(t.g||{}).filter(x=>x[1]>0).sort((a,b)=>b[1]-a[1]),s=Object.entries(t.s||{}).filter(x=>x[1]>0).sort((a,b)=>b[1]-a[1]);return{g,s}}
 function insightCard(){const{g,s}=tasteTop();if(!g.length)return null;const k=g[0][0],k2=g[1]?.[0],st=s[0]?.[0],rg=st?regOf(st):null,T=trailsFit(1,9,NOWM,null,0).filter(t=>t.ps.some(p=>p.g===k)),tr=T[0];
   return{ins:true,title:"Your taste so far",text:`You keep saving ${G[k][0].toLowerCase()}${k2?` and ${G[k2][0].toLowerCase()}`:""}${rg?`, especially in ${rg[1].replace(/^The /,"the ")}`:""}.`,tr}}
@@ -2036,7 +2036,7 @@ function filterSheet(){const D=curD(),india=!D,h=home(),L=D?D.places:allPlaces()
   const sec=(lab,k,opts)=>`<p class="slab fsl">${lab}</p><div class="fwrap" role="group" aria-label="${lab}">${opts.map(([v,l])=>`<button type="button" class="chip${t[k]===v||(!t[k]&&v===null)?" on":""}" data-sk="${k}" data-sv="${v===null?"":v}" aria-pressed="${t[k]===v||(!t[k]&&v===null)}">${l}</button>`).join("")}</div>`;
   const draw=()=>{d.innerHTML=`<div class="dlgc"><div class="dlgh"><div style="display:flex;align-items:center"><b id="fsT" style="font-size:18px">Filters</b><button class="ib" id="fsx" style="margin-left:auto" aria-label="Close"><svg aria-hidden="true"><use href="#i-close"/></svg></button></div></div><div class="dlgb" style="padding:0 16px 8px">
     ${sec("Kind of place","cat",[[null,"Any"],...Object.keys(G).filter(g=>L.some(p=>p.g===g)).map(g=>[g,G[g][0]])])}
-    ${sec("How special","tier",[[null,"Any"],["icon","Iconic"],["top","Top picks"],["gem","Hidden gems"]])}
+    ${sec("How special","tier",[[null,"Any"],["icon","Iconic"],["top","Top picks"],["gem","Lesser-known"]])}
     ${sec("Time you need there","tm",[[null,"Any"],...Object.entries(TM).map(([k,v])=>[k,v[2]])])}
     <p class="slab fsl">Good to visit in</p><div class="fwrap mgrid12" role="group" aria-label="Month"><button type="button" class="chip${!t.mon?" on":""}" data-mo="0" aria-pressed="${!t.mon}">Any</button>${MON.map((m,i)=>`<button type="button" class="chip${t.mon===i+1?" on":""}" data-mo="${i+1}" aria-pressed="${t.mon===i+1}">${m}${i+1===NOWM?" •":""}</button>`).join("")}</div>
     ${india?sec("Region","reg",[[null,"All India"],...REG.map(r=>[r[0],r[1].replace(/^The /,"")])]):`<p class="slab fsl">District</p><select id="fsd" class="fsel"><option value="">All districts</option>${[...new Set(L.map(p=>p.district))].sort().map(x=>`<option${t.dist===x?" selected":""}>${esc(x)}</option>`).join("")}</select>`}
@@ -2073,7 +2073,7 @@ function badges(been){const vis=M.visits||{},st=new Set(been.map(p=>p.slug)),reg
    ["unesco","World Heritage","Ten UNESCO-linked sites",Math.min(cnt(tgB("unesco")),10),10,"#1f5fa8"],
    ["jyoti","Jyotirlinga pilgrim","All twelve Jyotirlingas",Math.min(12,cnt(p=>p.g==="temple"&&tgB("jyotirlinga")(p))),12,"#c2410c"],
    ["icons","Iconic 25","Twenty-five Iconic places",Math.min(cnt(p=>p.tier==="icon"),25),25,"#f2a007"],
-   ["gems","Gem hunter","Ten Hidden gems",Math.min(cnt(p=>p.tier==="gem"),10),10,"#9d174d"],
+   ["gems","Off the list","Ten lesser-known places",Math.min(cnt(p=>p.tier==="gem"),10),10,"#9d174d"],
    ["high","High altitude","A place in the high Himalaya",been.some(p=>p.slug==="ladakh"||(HIM.has(p.slug)&&p.lat>=32.2))?1:0,1,"#64748b"],
    ["island","Island hopper","The Andamans or Lakshadweep",been.some(p=>["andaman-and-nicobar-islands","lakshadweep"].includes(p.slug))?1:0,1,"#0891b2"],
    ["monsoon","Monsoon chaser","A waterfall between June and September",dated.some(([p,d])=>p.g==="water"&&+d.slice(5,7)>=6&&+d.slice(5,7)<=9)?1:0,1,"#0a7ea4"],
@@ -2163,7 +2163,7 @@ function dayShelves(){const seed=dayKey(),h=home(),out=[],saved=Object.keys(M.wa
   const inB=saved.filter(p=>inSeason(NOWM,p));if(inB.length>=3)out.push(["bucket","From your bucket list, in season now","Places you saved that are good to go to now",inB.slice(0,14)]);
   /* today's themes: a fresh mix every day */
   const pool=THEMES.map(t=>[t,themeItems(t)]).filter(x=>x[1].length>=6);seeded(pool,seed,10).forEach(([t,L])=>out.push([t[0],t[1],t[2],L.slice(0,14)]));
-  const rg=REG[seed%REG.length],gems=spread(allPlaces().filter(p=>p.tier==="gem"&&rg[3].includes(p.slug)&&inSeason(NOWM,p)).sort((a,b)=>nowScore(b)-nowScore(a)),14,3);if(gems.length>=5)out.splice(4,0,["gems:"+rg[0],`Hidden gems of ${rg[1].replace(/^The /,"the ")}`,rg[2],gems]);
+  const rg=REG[seed%REG.length],gems=spread(allPlaces().filter(p=>p.tier==="gem"&&rg[3].includes(p.slug)&&inSeason(NOWM,p)).sort((a,b)=>nowScore(b)-nowScore(a)),14,3);if(gems.length>=5)out.splice(4,0,["gems:"+rg[0],`Lesser-known in ${rg[1].replace(/^The /,"the ")}`,rg[2],gems]);
   return out}
 function vDiscover(){const seed=dayKey(),sh=dayShelves(),pick=seeded(allPlaces().filter(p=>p.tier!=="gem"&&inSeason(NOWM,p)&&photoOf(id(p))).sort((a,b)=>nowScore(b)-nowScore(a)).slice(0,60),seed,1)[0]||top10()[0],d=new Date();
   const trs=trailsFit(1,10,NOWM,null,0),cl=seeded(colls().filter(c=>collPlaces(c[0]).length>=6),seed+9,12);
@@ -2206,7 +2206,7 @@ function vShelf(k){const s=dayShelves().find(x=>x[0]===k)||(()=>{const t=THEMES.
  ["passes","High passes","Roads above 4,000 metres","#64748b",cat(/pass/i)],
  ["desert","Deserts and salt flats","Dunes, the Rann and starry nights","#d97706",p=>cat(/desert/i)(p)||/dune|rann|thar/i.test(p.name)],
  ["parks","National parks","Protected forests and grasslands","#3f6212",cat(/national park|forest/i)],
- ["gems","Hidden gems","Every place rated Hidden gem","#9d174d",p=>p.tier==="gem"]].forEach(c=>{if(!COLL.some(x=>x[0]===c[0]))COLL.push(c)});
+ ["gems","Lesser-known places","Beyond the iconic and top picks","#9d174d",p=>p.tier==="gem"]].forEach(c=>{if(!COLL.some(x=>x[0]===c[0]))COLL.push(c)});
 /* Discover: one card style for everything */
 function shcX(o){return`<button class="shc" ${o.attr}><span class="shi" aria-hidden="true">${o.p?art(o.p):magPic(null,o.c)}</span>${o.tag?`<span class="shtag">${esc(o.tag)}</span>`:""}<span class="sht"><b>${esc(o.t)}</b><span>${esc(o.s)}</span></span></button>`}
 const natX=n=>shcX({attr:`data-nev="${n.id}"`,p:firstP(n.ids),tag:NK[n.kind]||"Nature",t:n.name,s:`Peak ${n.peak}`,c:"#2e8b4a"});
