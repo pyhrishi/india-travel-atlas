@@ -559,6 +559,23 @@ h3 small{font-weight:600;color:var(--soft);margin-left:6px;font-size:13px}
 .wka{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:8px;margin-top:12px}.wka .act{margin:0}.wk0 .wka{grid-template-columns:1fr}
 .wko{list-style:none;margin:10px -16px 0;padding:0;border-top:1px solid var(--line)}.wko .it{background:none}
 .wkn2{font-size:12.5px;margin:10px 0 0}
+/* on-trip mode */
+.seg5{grid-template-columns:repeat(5,minmax(0,1fr))}.seg5 button{font-size:13.5px}
+.tde{display:block;font-size:11px;font-weight:800;letter-spacing:.09em;text-transform:uppercase;color:var(--pinkink)}
+.tdy{margin-top:6px}.tdh2{padding:12px 14px;border-radius:18px;background:var(--pinksoft)}.tdl{display:grid;gap:3px;margin-top:6px;font-size:14.5px}
+.tdwx.wx-bad,.tdw.wx-bad{color:light-dark(#b42318,#ff7b6e)}.tdwx.wx-meh,.tdw.wx-meh{color:light-dark(#8a5a00,#e3b341)}
+.tdn{margin-top:12px;padding:14px;border-radius:20px;border:2px solid var(--pink);background:var(--bg)}
+.tdnb{display:grid;grid-template-columns:64px minmax(0,1fr);gap:12px;align-items:center;width:100%;margin-top:8px;padding:0;border:0;background:none;font:inherit;color:inherit;text-align:left;cursor:pointer}.tdnb .thumb{width:64px;height:64px;border-radius:14px}.tdnb b{font-size:19px;line-height:1.2}
+.tdw{font-size:13px;margin-top:3px}
+.tda{display:grid;grid-template-columns:1.3fr 1fr auto;gap:8px;margin-top:12px}.tda .act{margin:0;min-height:48px}.tda .ghost{padding:0 14px}
+.tdone{border-style:dashed;display:flex;flex-direction:column;gap:2px}.tdone b{font-size:19px}
+.tdls{list-style:none;margin:0;padding:0;border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.tdls li{display:grid;grid-template-columns:52px minmax(0,1fr) auto;gap:8px;align-items:center;padding:6px 12px;border-bottom:1px solid var(--line);font-size:14.5px}.tdls li:last-child{border-bottom:0}
+.tdls .tdt{color:var(--soft);font-size:13px;font-variant-numeric:tabular-nums}.tdls .lnk2{text-align:left;font-weight:700;color:var(--ink);min-height:40px}.tdls .tds{font-size:12.5px;color:var(--soft)}
+.tdls li.dn .lnk2{color:var(--soft);text-decoration:line-through}.tdls li.dn .tds{color:light-dark(#18794e,#4cc38a);font-weight:800}.tdls li.nx{background:color-mix(in srgb,var(--pink) 7%,var(--bg))}.tdls li.nx .tds{color:var(--pinkink);font-weight:800}
+.tdnt{margin-top:12px;padding:10px 14px;border-radius:14px;background:var(--card);font-size:14.5px}
+.tdtm{margin-top:10px;padding:10px 14px;border-radius:14px;border:1px solid var(--line);display:grid;gap:2px;font-size:14.5px}
+.tnc{display:grid;grid-template-columns:56px minmax(0,1fr) auto;gap:12px;align-items:center;margin:14px 16px 0;width:calc(100% - 32px);padding:12px;border-radius:18px;border:2px solid var(--pink);background:var(--bg);font:inherit;color:inherit;text-align:left;cursor:pointer}.tnc .thumb{width:56px;height:56px;border-radius:14px}.tnc b{font-size:17px}.tnc .r{font-size:22px;color:var(--soft)}.tnc.soon{border-style:dashed}
 </style>
 </head>
 <body>
@@ -2039,7 +2056,7 @@ function vIndia(){const ready=S.states.filter(s=>s.status==="done"&&S.data[s.slu
   const line=nat.length?seeded(nat,new Date().getFullYear()*100+NOWM,3).map(n=>n.name.replace(/^(The |A )/,"")).join(" · "):"";
   V.innerHTML=`<div class="xhero">${hp?art(hp,{hero:1}):""}<div class="xhx"><span class="cis">${phase().toUpperCase()} ${MONL[NOWM-1].toUpperCase()} IN INDIA</span><h2>${cov?esc(cov.name):"Where to go in "+MONL[NOWM-1]}</h2>${line?`<p>${esc(line)}</p>`:""}<div class="xha">${MAG?`<button class="act pri" data-mg="issue" data-ma="${NOWM}">Read the ${MONL[NOWM-1]} issue</button>`:""}<button class="act ghost" id="surp"><svg class="bi" aria-hidden="true"><use href="#i-dice"/></svg>Surprise me</button></div></div></div>
    <div class="qpills" role="group" aria-label="Quick links"><button class="qp" id="nearB"><svg aria-hidden="true"><use href="#i-loc"/></svg>Near me</button><button class="qp" id="dscB"><svg aria-hidden="true"><use href="#i-cards"/></svg>Discover</button><button class="qp" data-go="getaway"><svg aria-hidden="true"><use href="#i-route"/></svg>Getaways</button><button class="qp" data-go="onway"><svg aria-hidden="true"><use href="#i-dir"/></svg>On the way</button><button class="qp" data-go="breaks"><svg aria-hidden="true"><use href="#i-cal"/></svg>Long weekends</button><button class="qp" data-go="trails"><svg aria-hidden="true"><use href="#i-map"/></svg>Trails</button><button class="qp" data-go="fest"><svg aria-hidden="true"><use href="#i-star"/></svg>Festivals</button><button class="qp" data-go="mag"><svg aria-hidden="true"><use href="#i-book"/></svg>Magazine</button></div>
-   ${wkCard()}
+   ${tripNowCard()}${wkCard()}
    ${(()=>{const tp=M.trip.map(byId).filter(Boolean);return tp.length?`<button class="cont" id="contTrip"><span class="thumb" aria-hidden="true">${art(tp[0])}</span><span><span class="blk m2">CONTINUE PLANNING</span><b class="blk">Your trip · ${tp.length} stop${tp.length>1?"s":""}</b><span class="blk m2">${esc(tp.slice(0,3).map(p=>p.name).join(", "))}${tp.length>3?"…":""}</span></span><span aria-hidden="true" style="font-size:20px">›</span></button>`:""})()}
    <h3 class="pad xh">How much time do you have?</h3><div class="seg4" role="tablist" aria-label="Trip length">${[["day","A day"],["wknd","Weekend"],["long","3–4 days"],["week","A week+"]].map(([k,l])=>`<button type="button" role="tab" data-xt="${k}" aria-selected="${tk===k}">${l}</button>`).join("")}</div><div id="xtp" role="tabpanel">${timePanel(tk)}</div>
    <h3 class="pad xh">In the mood for…</h3><div class="chips" role="group" aria-label="Mood">${MOODS.map(([k,l,g])=>`<button class="chip${mood===g?" on":""}" data-xm="${g}" aria-pressed="${mood===g}">${ico(g,15,G[g][1])} ${l}</button>`).join("")}</div><div id="xmr">${moodRail(mood)}</div><div class="pad" style="margin-top:4px"><button class="lnk2" data-cat="${mood}">See every ${esc(G[mood][0].toLowerCase())} place ›</button></div>
@@ -2051,7 +2068,7 @@ function vIndia(){const ready=S.states.filter(s=>s.status==="done"&&S.data[s.slu
    <details class="pad allst"><summary><b>All ${ready.length} states and UTs</b><span>A–Z</span></summary><ul>${[...ready].sort((a,b)=>a.name.localeCompare(b.name)).map(s=>{const L=S.data[s.slug].places,ic=L.find(p=>p.tier==="icon")||L[0],b=L.filter(p=>M.been[id(p)]).length;return`<li><button class="it" data-s="${s.slug}"><span class="thumb" aria-hidden="true">${art(ic)}</span><span><span class="nm">${esc(s.name)}</span><span class="sub">${L.length} places · ${S.data[s.slug].trails.length} trails${b?` · ${b} visited`:""}</span></span><span class="r" aria-hidden="true" style="font-size:20px">›</span></button></li>`}).join("")}</ul></details>
    <div class="pad"><div class="stats" style="margin-top:18px"><button class="stat" data-go="states"><b>${ready.length}</b><span>states & UTs</span></button><button class="stat" data-go="list"><b>${all.length.toLocaleString("en-IN")}</b><span>places</span></button><button class="stat" data-coll="iconic"><b>${icons.length}</b><span>iconic</span></button><button class="stat" data-go="trails"><b>${tr}</b><span>trails</span></button></div></div>`;
   if(!MAG)loadMag().then(()=>{if(!S.slug&&S.stack.length===1&&S.stack[0].v==="explore")paint(false,V.scrollTop)}).catch(()=>{});
-  bindIndia();bindX();bindWk()}
+  bindIndia();bindX();bindWk();bindTripNow()}
 function bindX(){const re=()=>{const p=$("#xtp");p.innerHTML=timePanel(S.xt||"wknd");bind();bindMag();bindX2();scanPhotos(p)};
   V.querySelectorAll("[data-xt]").forEach(b=>b.onclick=()=>{S.xt=b.dataset.xt;V.querySelectorAll("[data-xt]").forEach(x=>x.setAttribute("aria-selected",x===b));re()});
   V.querySelectorAll("[data-xm]").forEach(b=>b.onclick=()=>{S.xm=b.dataset.xm;V.querySelectorAll("[data-xm]").forEach(x=>{const on=x===b;x.classList.toggle("on",on);x.setAttribute("aria-pressed",on)});$("#xmr").innerHTML=moodRail(S.xm);const sl=V.querySelector("#xmr + .pad [data-cat]");if(sl){sl.dataset.cat=S.xm;sl.textContent=`See every ${G[S.xm][0].toLowerCase()} place ›`}bind();scanPhotos($("#xmr"))});
@@ -2302,18 +2319,19 @@ function delTrip(){const all=tripsAll(),i=all.findIndex(t=>t.id===M.tripId),gone
 const tripDates=days=>{if(!M.tripStart)return null;const s=dOf(M.tripStart),e=addD(s,days-1),t0=dOf(today()),dd=Math.round((s-t0)/864e5),de=Math.round((e-t0)/864e5);return{s,e,label:dd>1?`in ${dd} days`:dd===1?"tomorrow":dd===0?"starts today":de>=0?"happening now":"done"}};
 function stayAt(p){const D=S.data[p.slug],b=(D?.bases||[]).map(x=>[x,km(p,{lat:x[1],lng:x[2]})]).sort((a,c)=>a[1]-c[1])[0];return b?b[0][0]:p.district}
 function legChip(k){const r=road(k);return r>600?`<div class="tleg far"><span>✈ 🚆</span> ~${r.toLocaleString("en-IN")} km. Fly or take a train</div>`:r<2?"":`<div class="tleg"><span>🚗</span> ~${r} km · ${hmd(r/45)}</div>`}
-function vMyTrip(){syncTrip();const ps=M.trip.map(byId).filter(Boolean),tab=S.ttab||"plan",others=tripsAll().filter(t=>t.id!==M.tripId);
+function vMyTrip(){syncTrip();const A_=tripNow(),onT=!!(A_&&A_.st==="on"&&A_.cur);let tab=S.ttab||(onT?"today":"plan");if(tab==="today"&&!onT)tab="plan";const ps=M.trip.map(byId).filter(Boolean),others=tripsAll().filter(t=>t.id!==M.tripId);
   const L=legs(ps),tot=L.reduce((a,b)=>a+b,0),pl=ps.length?tripPlan(ps):[],dd=pl.map(x=>x.d),last=pl[pl.length-1],days=ps.length?(last.multi?last.d2:last.d)+1:0,bud=+M.tripBudget||0,dt=tripDates(Math.max(1,days)),cov=ps.find(p=>photoOf(id(p)))||ps[0];
   const m=M.tripStart?dOf(M.tripStart).getMonth()+1:NOWM;
   const hero=`<div class="thero">${cov?art(cov,{hero:1}):`<span class="pic" style="--c:var(--pink)"><svg class="pi"><use href="#i-route"/></svg></span>`}<div class="thx"><span class="cis">${dt?`${fmtD(dt.s,{day:"numeric",month:"short"})} – ${fmtD(dt.e,{day:"numeric",month:"short",year:"numeric"})} · ${dt.label.toUpperCase()}`:"YOUR TRIP"}</span><button class="tname" id="tname" aria-label="Rename trip">${esc(M.tripName||autoTripName())} <span aria-hidden="true">✎</span></button><div class="tstats"><span><b>${ps.length}</b> stops</span><span><b>${days||"–"}</b> days</span><span><b>~${road(tot).toLocaleString("en-IN")}</b> km</span>${bud?`<span><b>₹${bud.toLocaleString("en-IN")}</b></span>`:""}</div></div></div>`;
-  const tabs=`<div class="seg4 ttabs" role="tablist" aria-label="Trip sections">${[["plan","Itinerary"],["pack","Pack"],["budget","Budget"],["notes","Notes"]].map(([k,l])=>`<button type="button" role="tab" data-tt="${k}" aria-selected="${tab===k}">${l}</button>`).join("")}</div>`;
+  const tabs=`<div class="seg4 ttabs${onT?" seg5":""}" role="tablist" aria-label="Trip sections">${[...(onT?[["today","Today"]]:[]),["plan","Itinerary"],["pack","Pack"],["budget","Budget"],["notes","Notes"]].map(([k,l])=>`<button type="button" role="tab" data-tt="${k}" aria-selected="${tab===k}">${l}</button>`).join("")}</div>`;
   const tripsRow=`<div class="trow"><div class="trw">${[{id:M.tripId,name:M.tripName||autoTripName(),stops:M.trip,start:M.tripStart,cur:1},...others].map(t=>{const f=(t.stops||[]).map(byId).find(Boolean);return`<button class="tchip${t.cur?" on":""}" ${t.cur?'aria-current="true"':`data-tsw="${t.id}"`}><span class="thumb" aria-hidden="true">${f?art(f):`<span class="pic" style="--c:var(--pink)"><svg class="pi"><use href="#i-route"/></svg></span>`}</span><span><b class="blk">${esc(t.name||"Trip")}</b><span class="blk m2">${(t.stops||[]).length} stops${t.start?" · "+fmtD(dOf(t.start),{day:"numeric",month:"short"}):""}</span></span></button>`}).join("")}<button class="tchip new" id="tnew"><span class="tplus" aria-hidden="true">＋</span><span><b class="blk">New trip</b><span class="blk m2">Start fresh</span></span></button></div></div>`;
   if(!ps.length){V.innerHTML=`${tripsRow}${hero}<div class="pad"><p class="lead" style="margin-top:12px">Add stops by searching below, tap <b>Add to trip</b> on any place, or start from an idea.</p>${addStopBox()}
      <h3>Start from an idea</h3><div class="idea">${(()=>{const b=nextBreak();return b?`<button class="nbk" data-go="breaks"><span class="brkd" aria-hidden="true"><b>${b.s.getDate()}</b>${MON[b.s.getMonth()]}</span><span><b class="blk">${esc(b.hs.join(", "))} · ${b.len} days off</b><span class="blk m2">Plan around the next long weekend ›</span></span></button>`:""})()}
      <div class="acts" style="margin-top:10px"><button class="act" data-go="onway"><svg class="bi" aria-hidden="true"><use href="#i-dir"/></svg>Road trip: on the way</button><button class="act" data-go="getaway"><svg class="bi" aria-hidden="true"><use href="#i-route"/></svg>Weekend getaways</button><button class="act" data-go="journeys"><svg class="bi" aria-hidden="true"><use href="#i-map"/></svg>Great journeys</button><button class="act" data-go="trails">Browse trails</button><button class="act" data-go="lists">From a list</button></div></div>
      ${others.length||M.tripId?`<div class="pad"><button class="lnk2" id="tdel" style="color:var(--pinkink)">Delete this trip</button></div>`:""}</div>`;bindTripsTop();return}
   let body="";
-  if(tab==="plan"){const byDay={};ps.forEach((p,i)=>{(byDay[dd[i]]=byDay[dd[i]]||[]).push(i)});
+  if(tab==="today")body=`<div class="pad">${todayBlock(A_)}</div>`;
+  else if(tab==="plan"){const byDay={};ps.forEach((p,i)=>{(byDay[dd[i]]=byDay[dd[i]]||[]).push(i)});
     body=`<div class="pad"><div class="tgrid" style="margin:12px 0 8px"><label class="lbl">Start date<input type="date" id="tstart" value="${esc(M.tripStart||"")}"></label><div class="lbl">Order<button class="act" id="opt" style="width:100%;margin-top:4px;height:46px">Shortest route</button></div></div>${paceCheck(ps)}<div id="twxs"></div></div>
      <div class="tdays">${Object.entries(byDay).map(([d,ix])=>{const f=ps[ix[0]],lp=ps[ix[ix.length-1]],[sr,ss]=sunTimes(f.lat,f.lng,M.tripStart?addD(dOf(M.tripStart),+d):new Date()),drive=ix.reduce((a,i)=>a+(i&&road(L[i-1])<=600?road(L[i-1])/45:0),0),multi=pl[ix[0]].multi&&pl[ix[0]].d2>pl[ix[0]].d;
       return`<section class="tday"><div class="tdh"><b>Day ${+d+1}${multi?`–${pl[ix[0]].d2+1}`:""}</b><span>${M.tripStart?dayDate(+d)+" · ":""}☀ ${clk(sr)} – ${clk(ss)}${drive>=.3?` · ${hmd(drive)} on the road`:""}</span><span class="twx" data-wd="${d}"></span></div>
@@ -2343,7 +2361,7 @@ function vMyTrip(){syncTrip();const ps=M.trip.map(byId).filter(Boolean),tab=S.tt
   const sh=$("#tshare");if(sh)sh.onclick=async()=>{try{if(navigator.share){await navigator.share({title:M.tripName||"My trip",text:txt()});return}}catch(e){if(e&&e.name==="AbortError")return}try{await navigator.clipboard.writeText(txt());toast("Trip copied, ready to paste")}catch(e){toast("Couldn't share here")}};
   const tm=$("#tmap");if(tm)tm.onclick=()=>{drawRoute();showOnMap(ps)};
   let tn=0;const tno=$("#tnote");if(tno)tno.oninput=e=>{clearTimeout(tn);tn=setTimeout(()=>{M.tripNote=e.target.value.trim();save()},700)};
-  bindTripTools(ps,days);if(tab==="plan")fillTripWx(ps,dd);drawRoute();if(S.tab==="trip"&&tab==="plan")focusPts(ps)}
+  bindTripTools(ps,days);if(tab==="plan")fillTripWx(ps,dd);if(tab==="today")bindToday(A_);drawRoute();if(S.tab==="trip"&&tab==="plan")focusPts(ps)}
 function bindTripsTop(){const n=$("#tnew");if(n)n.onclick=newTrip;V.querySelectorAll("[data-tsw]").forEach(b=>b.onclick=()=>switchTrip(b.dataset.tsw));const d=$("#tdel");if(d)d.onclick=delTrip;
   const tn=$("#tname");if(tn)tn.onclick=()=>{const inp=document.createElement("input");inp.value=M.tripName||autoTripName();inp.maxLength=50;inp.className="tnin";inp.setAttribute("aria-label","Trip name");tn.replaceWith(inp);inp.focus();inp.select();const done=()=>{M.tripName=inp.value.trim();save();paint(false,V.scrollTop)};inp.onblur=done;inp.onkeydown=e=>{if(e.key==="Enter")inp.blur();if(e.key==="Escape"){inp.value=M.tripName||"";inp.blur()}}};
   bindTrip();const cur=V.querySelector(".tchip.on");if(cur){const r=cur.parentNode;r.scrollLeft=cur.offsetLeft-16}}
@@ -2534,6 +2552,45 @@ function bindWk(){const el=$("#wkc")||$(".wkc");if(!el)return;const st=S.wk;
   const mo=$("#wkmore");if(mo)mo.onclick=()=>{st.more=!st.more;wkRefresh();$("#wkmore")?.focus()};
   el.querySelectorAll("[data-wki]").forEach(b=>b.onclick=()=>{st.i=+b.dataset.wki;st.more=0;wkRefresh();$("#wkc .wkn")?.focus()});
   const pl=$("#wkplan");if(pl)pl.onclick=()=>{const c=st.C[st.i]||st.C[0],W=st.W;syncTrip();const r={id:uid_(),t:Date.now(),name:`${c.p.name} ${W.long?"long weekend":"weekend"}`,stops:c.ps.map(id),start:ymd(W.s),budget:0,note:""};tripsAll().unshift(r);loadTrip(r);save();hdr();S.ttab="plan";root_("trip");toast(`${c.ps.length} stops planned for ${fmtD(W.s,{day:"numeric",month:"short"})}`)}}
+
+/* ================= On-trip mode: the app opens to today when you're travelling ================= */
+const nowH=()=>{const n=new Date();return n.getHours()+n.getMinutes()/60};
+const doneToday=k=>(M.visits||{})[k]?.date===today()||(M.tskip||{})[k]===today();
+/* which trip (if any) is happening today, or starts tomorrow */
+function tripNow(){syncTrip();const t0=dOf(today());let best=null;
+  for(const t of tripsAll()){if(!t.start||!(t.stops||[]).length)continue;const ps=t.stops.map(byId).filter(Boolean);if(!ps.length)continue;
+    const pl=tripPlan(ps),last=pl[pl.length-1],days=(last.multi?last.d2:last.d)+1,s=dOf(t.start),d=Math.round((t0-s)/864e5);
+    const st=d>=0&&d<days?"on":d===-1?"soon":null;if(!st)continue;const o={t,ps,pl,days,d,st,cur:t.id===M.tripId};
+    if(!best||(st==="on"&&best.st!=="on")||(st===best.st&&o.cur))best=o}
+  return best}
+function dayIdx(A,d){return A.ps.map((p,i)=>i).filter(i=>{const x=A.pl[i];return x.multi?d>=x.d&&d<=x.d2:x.d===d})}
+function sunLeft(p){const[sr,ss]=sunTimes(p.lat,p.lng,new Date()),h=nowH();if(h<sr)return`🌅 Sunrise ${clk(sr)} · sunset ${clk(ss)}`;if(h<ss){const m=Math.round((ss-h)*60);return`🌇 Sunset ${clk(ss)} · in ${m<60?m+" min":Math.floor(m/60)+" h"+(m%60?" "+m%60+" min":"")}`}return`🌙 Sun set at ${clk(ss)}`}
+const dirUrl=p=>`https://www.google.com/maps/dir/?api=1&destination=${p.lat},${p.lng}&travelmode=driving`;
+function todayBlock(A){const ix=dayIdx(A,A.d),ps=ix.map(i=>A.ps[i]),nx=ix.find(i=>!doneToday(id(A.ps[i]))),np=nx!=null?A.ps[nx]:null,first=ps[0]||A.ps[0],last=ps[ps.length-1]||first;
+  const tmr=A.d+1<A.days?dayIdx(A,A.d+1).map(i=>A.ps[i]):[],h=home();
+  const nxCard=np?`<div class="tdn"><span class="tde">Next${A.pl[nx].multi?"":` · planned ${hm(A.pl[nx].a)}`}</span><button class="tdnb" data-p="${id(np)}"><span class="thumb" aria-hidden="true">${art(np)}</span><span><b class="blk">${esc(np.name)}</b><span class="blk m2">${esc(np.category)} · ${esc(np.time)} there${(()=>{const pi=ix.indexOf(nx)>0?A.ps[ix[ix.indexOf(nx)-1]]:null;return pi?` · ~${road(km(pi,np))} km from ${esc(pi.name)}`:""})()}</span><span class="blk tdw" data-tw="${id(np)}"></span></span></button>
+     <div class="tda"><a class="act pri" href="${dirUrl(np)}" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-dir"/></svg>Directions</a><button class="act" data-here="${id(np)}">✓ I'm here</button><button class="act ghost" data-skip="${id(np)}">Skip</button></div></div>`
+    :`<div class="tdn tdone"><b>${ps.length?"Day done ✓":"A free day"}</b><span class="m2">${ps.length?`${ps.length} stop${ps.length>1?"s":""} today. `:""}${A.d+1<A.days?"Rest up for tomorrow.":"That's the trip. Safe journey home."}</span>${A.d+1>=A.days&&h?`<a class="act" href="${dirUrl(h)}" target="_blank" rel="noopener" style="margin-top:8px"><svg aria-hidden="true"><use href="#i-dir"/></svg>Directions home to ${esc(h.name)}</a>`:""}</div>`;
+  return`<div class="tdy" id="tdy"><div class="tdh2"><span class="tde">On the road · Day ${A.d+1} of ${A.days} · ${fmtD(new Date(),{weekday:"long"})} ${new Date().getDate()} ${MON[new Date().getMonth()]}</span>
+     <div class="tdl"><span>${sunLeft(np||last)}</span><span class="tdwx" id="tdwx"></span></div></div>
+   ${nxCard}
+   ${ps.length?`<h3>Today</h3><ol class="tdls">${ix.map(i=>{const p=A.ps[i],dn=doneToday(id(p)),sk=(M.tskip||{})[id(p)]===today();return`<li class="${dn?"dn":""}${i===nx?" nx":""}"><span class="tdt">${A.pl[i].multi?"All day":hm(A.pl[i].a)}</span><button class="lnk2" data-p="${id(p)}">${esc(p.name)}</button><span class="tds">${sk?"skipped":dn?"✓":i===nx?"next":""}</span></li>`}).join("")}</ol>`:""}
+   ${A.d+1<A.days?`<div class="tdnt">🛏 Tonight: around <b>${esc(stayAt(last))}</b></div>`:""}
+   ${tmr.length?`<div class="tdtm"><span class="tde">Tomorrow</span><span>${esc(tmr.map(p=>p.name).slice(0,3).join(" → "))}${tmr.length>3?" …":""}</span><span class="tdw" data-tw="${id(tmr[0])}" data-tom="1"></span></div>`:""}
+   </div>`}
+async function fillToday(A){const ix=dayIdx(A,A.d),first=A.ps[ix[0]]||A.ps[0],tmr=A.d+1<A.days?A.ps[dayIdx(A,A.d+1)[0]]:null,want=[first,...ix.map(i=>A.ps[i]),tmr].filter(Boolean);
+  const ws=await wxGet(want),k0=isoD(new Date()),k1=isoD(addD(new Date(),1));if(!$("#tdy"))return;
+  const w0=ws[0]&&ws[0].days[k0];if(w0){const el=$("#tdwx");if(el){el.textContent=`${(WMO[w0.c]||["·"])[0]} ${wxWhy(w0)} · ${Math.round(w0.tx)}°/${Math.round(w0.tn)}°`;el.className="tdwx wx-"+wxLevel(w0,first)}}
+  V.querySelectorAll("[data-tw]").forEach(el=>{const p=byId(el.dataset.tw),i=want.indexOf(p),w=i>=0&&ws[i]&&ws[i].days[el.dataset.tom?k1:k0];if(!w)return;const lv=wxLevel(w,p);el.textContent=`${(WMO[w.c]||["·"])[0]} ${wxWhy(w)}${lv==="bad"?" · consider swapping this one":""}`;el.className="blk tdw wx-"+lv})}
+function bindToday(A){V.querySelectorAll("[data-here]").forEach(b=>b.onclick=()=>{const k=b.dataset.here,p=byId(k);M.been[k]=M.been[k]||Date.now();M.visits=M.visits||{};M.visits[k]={...(M.visits[k]||{rating:0}),date:today()};save();drawPins();try{navigator.vibrate&&navigator.vibrate([15,40,15])}catch(e){}paint(false,V.scrollTop);toast(`Checked in at ${p.name}`,()=>{delete M.visits[k].date;save();paint(false,V.scrollTop)});say(`Checked in at ${p.name}`)});
+  V.querySelectorAll("[data-skip]").forEach(b=>b.onclick=()=>{const k=b.dataset.skip;M.tskip=M.tskip||{};M.tskip[k]=today();save();paint(false,V.scrollTop);toast(`Skipped ${byId(k).name}`,()=>{delete M.tskip[k];save();paint(false,V.scrollTop)})});
+  fillToday(A)}
+/* Explore: a compact card on trip days, and the day before */
+function tripNowCard(){const A=tripNow();if(!A)return"";
+  if(A.st==="soon"){const f=A.ps[0];return`<button class="tnc soon" id="tncGo"><span class="thumb" aria-hidden="true">${art(f)}</span><span><span class="tde">Starts tomorrow</span><b class="blk">${esc(A.t.name||"Your trip")}</b><span class="blk m2">First stop ${esc(f.name)} · ${A.days} day${A.days>1?"s":""}. Packed?</span></span><span class="r" aria-hidden="true">›</span></button>`}
+  const ix=dayIdx(A,A.d),nx=ix.find(i=>!doneToday(id(A.ps[i]))),np=nx!=null?A.ps[nx]:null,ref=np||A.ps[ix[ix.length-1]]||A.ps[0];
+  return`<button class="tnc" id="tncGo"><span class="thumb" aria-hidden="true">${art(ref)}</span><span><span class="tde">On the road · Day ${A.d+1} of ${A.days}</span><b class="blk">${np?"Next: "+esc(np.name):"Day done ✓"}</b><span class="blk m2">${esc(sunLeft(ref).replace(/^\S+\s/,""))}</span></span><span class="r" aria-hidden="true">›</span></button>`}
+function bindTripNow(){const b=$("#tncGo");if(!b)return;b.onclick=()=>{const A=tripNow();if(!A)return;if(!A.cur){syncTrip();loadTrip(A.t);save();hdr()}S.ttab=A.st==="soon"?"pack":"today";root_("trip")}}
 
 function route(silent,h0){const h=h0!=null?h0:location.hash.slice(1);const m=h.match(/^(.*)-(\d+)$/);
   if(m&&S.data[m[1]]){const p=S.data[m[1]].places.find(x=>x.n==m[2]);if(p){S.slug=m[1];classStates();S.stack=[{v:"explore"}];openPlace(p,!silent);return}}
