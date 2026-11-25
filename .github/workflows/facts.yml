@@ -96,7 +96,7 @@ jobs:
         id: attempt1
         env:
           FACTS_STATE: ${{ matrix.state }}
-          FORCE: ${{ github.event.inputs.force }}
+          FORCE: ${{ github.event.inputs.force && github.run_attempt == 1 }}
         shell: bash
         run: |
           set +e
