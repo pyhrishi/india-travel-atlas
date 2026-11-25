@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "standard": "UNSD M49",
+  "source": "https://unstats.un.org/unsd/methodology/m49/",
+  "source_note": "M49 is a statistical classification of countries or areas. It explicitly does not imply political affiliation, sovereignty, or boundary delimitation. Do not treat M49 codes as a sovereignty classification.",
+  "entity_types": [
+    "sovereign-state",
+    "territory",
+    "dependency",
+    "special-administrative-area",
+    "disputed-or-partially-recognised",
+    "other-area"
+  ],
+  "fields": {
+    "id": "stable internal ID",
+    "name": "display name",
+    "m49": "UN M49 numeric code where assigned",
+    "iso2": "ISO 3166-1 alpha-2 where assigned",
+    "iso3": "ISO 3166-1 alpha-3 where assigned",
+    "entity_type": "one of entity_types",
+    "status_note": "neutral factual note about status/administration",
+    "parent_id": "parent sovereign/administrative entity when applicable",
+    "source": "source URL",
+    "reviewed_at": "ISO date"
+  },
+  "entities": [
+    {
+      "id": "country:in",
+      "name": "India",
+      "m49": "356",
+      "iso2": "IN",
+      "iso3": "IND",
+      "entity_type": "sovereign-state",
+      "status_note": "UN M49 statistical country/area entry",
+      "source": "https://unstats.un.org/unsd/methodology/m49/"
+    },
+    {
+      "id": "country:np",
+      "name": "Nepal",
+      "m49": "524",
+      "iso2": "NP",
+      "iso3": "NPL",
+      "entity_type": "sovereign-state",
+      "status_note": "UN M49 statistical country/area entry",
+      "source": "https://unstats.un.org/unsd/methodology/m49/"
+    }
+  ],
+  "coverage": {
+    "status": "seed",
+    "note": "This is the registry schema and seed for countries already represented in the Atlas. Expand from the complete UN M49 country-or-area list, then supplement with carefully sourced disputed and partially recognised entities. Never infer legal status from inclusion."
+  }
+}
