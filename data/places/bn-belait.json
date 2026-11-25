@@ -1,0 +1,245 @@
+{
+ "name": "Belait",
+ "intro": "Belait is Brunei’s largest district, known for its oil and gas heritage, forest recreation, wetlands, waterfalls and Iban longhouse culture around Labi.",
+ "bases": [
+  [
+   "Kuala Belait",
+   4.583,
+   114.19
+  ],
+  [
+   "Seria",
+   4.61,
+   114.32
+  ],
+  [
+   "Labi",
+   4.45,
+   114.45
+  ]
+ ],
+ "trails": [],
+ "places": [
+  {
+   "n": 1,
+   "name": "Luagan Lalak Forest Recreation Park",
+   "district": "Labi",
+   "category": "Wetland park",
+   "g": "nature",
+   "lat": 4.48,
+   "lng": 114.48,
+   "why": "Freshwater swamp and forest park with a boardwalk across the lake-like wetland landscape",
+   "tier": "icon",
+   "months": [
+    2,
+    4
+   ],
+   "time": "1–2 hrs",
+   "tags": []
+  },
+  {
+   "n": 2,
+   "name": "Billionth Barrel Monument",
+   "district": "Seria",
+   "category": "Monument",
+   "g": "heritage",
+   "lat": 4.61,
+   "lng": 114.32,
+   "why": "Monument commemorating the production of Brunei’s billionth barrel of oil",
+   "tier": "top",
+   "months": [
+    2,
+    4
+   ],
+   "time": "30–45 min",
+   "tags": []
+  },
+  {
+   "n": 3,
+   "name": "Oil and Gas Discovery Centre",
+   "district": "Seria",
+   "category": "Science museum",
+   "g": "museum",
+   "lat": 4.61,
+   "lng": 114.32,
+   "why": "Interactive science centre focused on energy, engineering and the oil and gas industry; check current operating status",
+   "tier": "top",
+   "months": [
+    2,
+    4
+   ],
+   "time": "1–2 hrs",
+   "tags": []
+  },
+  {
+   "n": 4,
+   "name": "Teraja Waterfall",
+   "district": "Labi",
+   "category": "Waterfall",
+   "g": "nature",
+   "lat": 4.46,
+   "lng": 114.45,
+   "why": "Forest waterfall reached by a walk through the Labi area; use a local guide and check river conditions",
+   "tier": "top",
+   "months": [
+    2,
+    4
+   ],
+   "time": "Half day",
+   "tags": []
+  },
+  {
+   "n": 5,
+   "name": "Teraja Longhouse",
+   "district": "Labi",
+   "category": "Longhouse",
+   "g": "culture",
+   "lat": 4.47,
+   "lng": 114.45,
+   "why": "Iban longhouse community where visits and cultural introductions should be arranged in advance",
+   "tier": "top",
+   "months": [
+    2,
+    4
+   ],
+   "time": "1–2 hrs",
+   "tags": []
+  },
+  {
+   "n": 6,
+   "name": "Mendaram Besar Longhouse",
+   "district": "Labi",
+   "category": "Longhouse",
+   "g": "culture",
+   "lat": 4.46,
+   "lng": 114.43,
+   "why": "Traditional Iban longhouse in the Labi area; arrange visits with the community before arrival",
+   "tier": "gem",
+   "months": [
+    2,
+    4
+   ],
+   "time": "1–2 hrs",
+   "tags": []
+  },
+  {
+   "n": 7,
+   "name": "Wasai Wong Kadir",
+   "district": "Labi",
+   "category": "Waterfall",
+   "g": "nature",
+   "lat": 4.45,
+   "lng": 114.46,
+   "why": "Forest waterfall and natural pools reached by a short jungle walk; check access and weather",
+   "tier": "gem",
+   "months": [
+    2,
+    4
+   ],
+   "time": "Half day",
+   "tags": []
+  },
+  {
+   "n": 8,
+   "name": "Sungai Liang Forest Recreation Park",
+   "district": "Sungai Liang",
+   "category": "Forest park",
+   "g": "nature",
+   "lat": 4.68,
+   "lng": 114.5,
+   "why": "Forest recreation park with shaded trails and picnic areas",
+   "tier": "top",
+   "months": [
+    2,
+    4
+   ],
+   "time": "1–2 hrs",
+   "tags": []
+  },
+  {
+   "n": 9,
+   "name": "Lumut Beach",
+   "district": "Lumut",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 4.66,
+   "lng": 114.4,
+   "why": "Coastal recreation area in the Lumut area",
+   "tier": "gem",
+   "months": [
+    2,
+    9
+   ],
+   "time": "1–2 hrs",
+   "tags": []
+  },
+  {
+   "n": 10,
+   "name": "Kuala Belait Waterfront",
+   "district": "Kuala Belait",
+   "category": "Waterfront",
+   "g": "culture",
+   "lat": 4.583,
+   "lng": 114.19,
+   "why": "Riverside and coastal town waterfront in western Brunei",
+   "tier": "top",
+   "months": [
+    2,
+    4
+   ],
+   "time": "1 hr",
+   "tags": []
+  },
+  {
+   "n": 11,
+   "name": "Seria Energy Lab",
+   "district": "Seria",
+   "category": "Energy museum",
+   "g": "museum",
+   "lat": 4.61,
+   "lng": 114.32,
+   "why": "Visitor attraction presenting Brunei’s energy story and petroleum heritage; verify current access and opening arrangements",
+   "tier": "gem",
+   "months": [
+    2,
+    4
+   ],
+   "time": "1–2 hrs",
+   "tags": []
+  },
+  {
+   "n": 12,
+   "name": "Anduki Recreational Park",
+   "district": "Anduki",
+   "category": "Recreation park",
+   "g": "nature",
+   "lat": 4.64,
+   "lng": 114.38,
+   "why": "Recreation area near Anduki with open green space and a lake setting",
+   "tier": "gem",
+   "months": [
+    2,
+    4
+   ],
+   "time": "1–2 hrs",
+   "tags": []
+  },
+  {
+   "n": 13,
+   "name": "Wasai Teraja",
+   "district": "Labi",
+   "category": "Waterfall",
+   "g": "nature",
+   "lat": 4.46,
+   "lng": 114.45,
+   "why": "Waterfall and forest stream area near Teraja; visit with local guidance and avoid unsafe river conditions",
+   "tier": "gem",
+   "months": [
+    2,
+    4
+   ],
+   "time": "Half day",
+   "tags": []
+  }
+ ]
+}
