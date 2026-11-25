@@ -60,6 +60,25 @@ def compact(s): return norm(s).replace(' ', '')
 
 # Specific title alias: the Bijapur citadel/Arkilla and Malik-e-Maidan are covered by this fort article.
 PLACE_ALIASES = {'vijayapuracitadelmalikemaidan': ['Bijapur Fort']}
+
+# Known same-name search results that are not the listed attraction itself.
+# Keep these places in the manual-review queue instead of publishing misleading facts/photos.
+MANUAL_ARTICLE_EXCLUSIONS = {
+    'andhra-pradesh:112': 'Bheemili Beach article does not describe the Vizag–Bheemili scenic road',
+    'andhra-pradesh:123': 'Araku Valley article is not an article about the Araku Coffee Museum',
+    'andhra-pradesh:137': 'Dindi search result is a Brazilian song, not the Konaseema backwater destination',
+    'andhra-pradesh:138': 'Kadiyam locality article does not verify the Kadiyam nursery belt',
+    'andhra-pradesh:152': 'Jaggayyapeta town article does not verify the Buddhist stupa site',
+    'andhra-pradesh:153': 'Five Tathagatas article is unrelated to the Dhyana Buddha statue at Amaravati',
+    'andhra-pradesh:170': 'Jonnawada village article does not verify the Kamakshi temple itself',
+    'andhra-pradesh:176': 'Alipiri neighbourhood article does not verify the Alipiri footpath',
+    'andhra-pradesh:182': 'Gudimallam village article does not verify the Parasurameswara temple itself',
+    'andhra-pradesh:183': 'Nagalapuram village article does not verify the Vedanarayana temple itself',
+    'andhra-pradesh:193': 'Srisailam town article does not verify Pathala Ganga or the dam',
+    'andhra-pradesh:196': 'Hemavathi result is a film, not the Hemavathi temple complex',
+    'andhra-pradesh:197': 'Kadiri town article does not verify the Lakshmi Narasimha temple itself',
+    'andhra-pradesh:200': 'Rayadurgam town article does not verify the fort itself',
+}
 def sig(s):
     return {w for w in norm(s).split() if len(w) >= 4 and w not in GENERIC}
 def strip_name(n):
@@ -275,6 +294,9 @@ def main():
         j = get(WD, dict(action='wbgetentities', ids='|'.join(need[i:i+50]), props='labels', languages='en'))
         for q, e in (j.get('entities') or {}).items(): labels[q] = ((e.get('labels') or {}).get('en') or {}).get('value', '')
     for k, pg in hit.items():
+        if k in MANUAL_ARTICLE_EXCLUSIONS:
+            M[k] = NOW; M2.add(k); R.pop(k, None)
+            continue
         q = (pg.get('pageprops') or {}).get('wikibase_item'); c = claims.get(q, {})
         r = {'w': pg['title'], 'u': pg.get('fullurl', ''), 'x': ext.get(pg['title'], ''), 'q': q or '', 'at': NOW, 'mv': MV}
         co = (pg.get('coordinates') or [None])[0] or pg.get('_wc')
