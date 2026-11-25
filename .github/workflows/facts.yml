@@ -31,7 +31,7 @@ jobs:
         continue-on-error: true
         env:
           FACTS_DEBUG: ${{ inputs.debug }}
-        run: python3 .github/scripts/facts.py ${{ inputs.force && '--force' || (github.event_name == 'push' && '--force' || '') }}
+        run: python3 .github/scripts/facts.py ${{ inputs.force && '--force' || (github.event_name == 'push' && (contains(github.event.head_commit.modified, '.github/workflows/facts.yml') || contains(github.event.head_commit.modified, '.github/scripts/facts.py')) && '--force' || '') }}
       - name: Verify Commons files and publish only verified article photos
         if: always() && inputs.debug == ''
         continue-on-error: true
