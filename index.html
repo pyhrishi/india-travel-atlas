@@ -761,8 +761,9 @@ async function loadCountryGeometry(cc){
 }
 async function setCountry(cc){
   if(!CC[cc])return;
-  try{S.cc=cc;try{localStorage.setItem("ita-cc",cc)}catch(e){}await loadCountryGeometry(cc);S.slug=null;S.sel=null;S.hl=null;S.trail=null;S.coll=null;S.stack=[{v:"explore"}];S.tab="explore";setTabs("explore");clearQ();_AP=null;S.f={...S.f,dist:null,reg:null};fit();drawBase();await goIndia();toast(`Now showing ${CN()}`)}
-  catch(e){toast(e.message||"Could not load this country's map.");console.error(e)}
+  const previous=S.cc;
+  try{S.cc=cc;await loadCountryGeometry(cc);try{localStorage.setItem("ita-cc",cc)}catch(e){}S.slug=null;S.sel=null;S.hl=null;S.trail=null;S.coll=null;S.stack=[{v:"explore"}];S.tab="explore";setTabs("explore");clearQ();_AP=null;S.f={...S.f,dist:null,reg:null};fit();drawBase();await goIndia();toast(`Now showing ${CN()}`)}
+  catch(e){S.cc=previous;try{await loadCountryGeometry(previous);fit();drawBase();await goIndia()}catch(_){}toast(e.message||"Could not load this country's map.");console.error(e)}
 }
 const stOf=slug=>(S.states||[]).find(s=>s.slug===slug)||(S.ALL||[]).find(s=>s.slug===slug);
 const curD=()=>S.data[S.slug];
@@ -911,7 +912,7 @@ function drawBase(){
   const coast=S.mapMode?{type:"FeatureCollection",features:S.feats}:topojson.merge(S.topo,S.topo.objects.states.geometries);
   gSea.append("path").attr("class","shore").attr("d",path(coast));
   const done=new Set(S.states.filter(s=>s.status==="done"||s.status==="map-ready").map(s=>s.name)),cn=stOf(S.slug)?.name;
-  gLand.attr("role","group").attr("aria-label","States and union territories");
+  gLand.attr("role","group").attr("aria-label",CC[S.cc]?.reg||"Administrative regions");
   gLand.selectAll("path").data(S.feats).join("path").attr("d",path).attr("class",d=>"st"+(featCC(d)!==S.cc?" oc":"")+(done.has(d.properties.st_nm)?" done":"")+(d.properties.st_nm===cn?" cur":""))
     .attr("tabindex",d=>done.has(d.properties.st_nm)?0:null).attr("role",d=>done.has(d.properties.st_nm)?"button":null)
     .attr("aria-label",d=>{const s=S.states.find(x=>x.name===d.properties.st_nm);return s&&s.status==="done"?`${s.name} on the map, ${s.count} places`:null})
@@ -945,7 +946,7 @@ function match(p){const f=S.f;return(!f.reg||(regOf(p.slug)||[])[0]===f.reg)&&(!
 /* pins: only the open state's places; size by tier; hidden gems appear as you zoom in */
 const TIERR={icon:1.3,top:1,gem:.74};
 const relK=()=>K/(S.fitK||1);
-function pinSet(){if(S.coll)return collPlaces(S.coll);if(S.trail&&!S.slug)return S.trail;return S.slug?curD().places:allPlaces()}
+function pinSet(){if(S.mapMode&&!S.slug)return[];if(S.coll)return collPlaces(S.coll);if(S.trail&&!S.slug)return S.trail;return S.slug?curD().places:allPlaces()}
 function tierOn(p){if(S.coll||S.f.tier)return true;if(S.trail&&S.trail.includes(p))return true;if(S.slug)return p.tier!=="gem"||relK()>=1.7;return p.tier==="icon"?K>=2.6:p.tier==="top"?K>=4.5:K>=8}
 function selKey(){return S.hl||(S.sel?id(S.sel):null)}
 /* only the pins that can be seen right now are in the DOM: on-filter, tier shown at this zoom, inside the view */
