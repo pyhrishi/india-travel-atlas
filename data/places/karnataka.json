@@ -231,7 +231,7 @@
    "g": "temple",
    "lat": 15.335,
    "lng": 76.459,
-   "why": "Living temple at the heart of Hampi's bazaar",
+   "why": "7th-century Shiva temple on the Tungabhadra, still in daily worship at the head of Hampi Bazaar",
    "tier": "icon",
    "months": [
     10,
@@ -247,7 +247,7 @@
    "g": "heritage",
    "lat": 15.3316,
    "lng": 76.4756,
-   "why": "The stone chariot and musical pillars of Hampi",
+   "why": "Hampi's finest temple: the stone chariot and the carved pillars of its halls",
    "tier": "icon",
    "months": [
     10,
@@ -263,7 +263,7 @@
    "g": "heritage",
    "lat": 15.318,
    "lng": 76.468,
-   "why": "Mahanavami Dibba, the stepped tank and the Lotus Mahal",
+   "why": "The Mahanavami Dibba platform, the stepped tank and the Lotus Mahal of Vijayanagara's rulers",
    "tier": "top",
    "months": [
     10,
@@ -279,7 +279,7 @@
    "g": "hills",
    "lat": 15.333,
    "lng": 76.468,
-   "why": "Sunrise over Hampi's boulders and ruins",
+   "why": "Rocky hill on Hampi's old boundary, climbed for sunrise over the ruins",
    "tier": "top",
    "months": [
     10,
@@ -295,7 +295,7 @@
    "g": "culture",
    "lat": 15.306,
    "lng": 76.473,
-   "why": "Sculptures and a model of the old city",
+   "why": "ASI museum at Kamalapura with Vijayanagara sculpture and a scale model of the city",
    "tier": "gem",
    "months": [
     10,
@@ -311,7 +311,7 @@
    "g": "wildlife",
    "lat": 15.2019,
    "lng": 76.552,
-   "why": "Watch sloth bears on rocky hills near Hampi",
+   "why": "Asia's first sloth bear sanctuary, 83 km² of rocky scrub; bears are watched from a hide",
    "tier": "top",
    "months": [
     10,
@@ -327,7 +327,7 @@
    "g": "water",
    "lat": 15.26,
    "lng": 76.34,
-   "why": "Huge dam with gardens at Hosapete",
+   "why": "Tungabhadra reservoir (Pampa Sagar) at Hosapete, with gardens below the dam",
    "tier": "gem",
    "months": [
     10,
@@ -343,7 +343,7 @@
    "g": "heritage",
    "lat": 15.35,
    "lng": 76.49,
-   "why": "Village older than Hampi across the Tungabhadra",
+   "why": "Village on the north bank of the Tungabhadra, older than Hampi and linked to Kishkindha",
    "tier": "top",
    "months": [
     10,
@@ -375,7 +375,7 @@
    "g": "water",
    "lat": 15.37,
    "lng": 76.46,
-   "why": "Reservoir among boulders, coracle rides",
+   "why": "Lake fed by the Tungabhadra canal at Sanapur, among boulders; coracle rides",
    "tier": "gem",
    "months": [
     10,
@@ -391,7 +391,7 @@
    "g": "temple",
    "lat": 15.46,
    "lng": 75.96,
-   "why": "Chalukya temple called the emperor of temples",
+   "why": "Chalukya Mahadeva temple of 1112, called the 'emperor among temples' in its inscription",
    "tier": "gem",
    "months": [
     10,
@@ -407,7 +407,7 @@
    "g": "caves",
    "lat": 15.918,
    "lng": 75.685,
-   "why": "6th-century rock-cut caves above Agastya Lake",
+   "why": "Hindu, Jain and Buddhist rock-cut caves from the 6th century, above Agastya Lake in Badami",
    "tier": "icon",
    "months": [
     10,
@@ -423,7 +423,7 @@
    "g": "heritage",
    "lat": 16.02,
    "lng": 75.883,
-   "why": "Cradle of temple architecture, with the Durga temple",
+   "why": "Over a hundred temples from the 6th–12th centuries, among the earliest in south India",
    "tier": "icon",
    "months": [
     10,
@@ -439,7 +439,7 @@
    "g": "heritage",
    "lat": 15.948,
    "lng": 75.816,
-   "why": "UNESCO group of Chalukya temples",
+   "why": "UNESCO group of 7th–8th-century Chalukya temples on the Malaprabha",
    "tier": "icon",
    "months": [
     10,
@@ -455,7 +455,7 @@
    "g": "temple",
    "lat": 15.94,
    "lng": 75.73,
-   "why": "Temple group with a sacred tank",
+   "why": "6th–7th-century early Chalukya temples around a spring-fed tank, with a Shaiva monastery",
    "tier": "gem",
    "months": [
     10,
@@ -471,7 +471,7 @@
    "g": "temple",
    "lat": 15.89,
    "lng": 75.7,
-   "why": "Goddess temple with a big January fair",
+   "why": "Goddess Banashankari (Shakambhari) temple near Badami; a big fair in January",
    "tier": "gem",
    "months": [
     10,
@@ -487,7 +487,7 @@
    "g": "temple",
    "lat": 16.2,
    "lng": 76.06,
-   "why": "Confluence where the saint Basavanna rests",
+   "why": "Where the Krishna meets the Malaprabha; the samadhi of Basavanna, a Lingayat pilgrimage",
    "tier": "gem",
    "months": [
     10,
@@ -503,7 +503,7 @@
    "g": "heritage",
    "lat": 16.83,
    "lng": 75.736,
-   "why": "One of the world's largest domes, with a whispering gallery",
+   "why": "Mausoleum of Mohammad Adil Shah (1656), one of the world's largest domes, with a whispering gallery",
    "tier": "icon",
    "months": [
     10,
@@ -519,7 +519,7 @@
    "g": "heritage",
    "lat": 16.83,
    "lng": 75.705,
-   "why": "Elegant tomb said to have inspired the Taj Mahal",
+   "why": "Tomb, mosque and gardens of Ibrahim Adil Shah II, twin buildings facing each other",
    "tier": "top",
    "months": [
     10,
@@ -535,7 +535,7 @@
    "g": "heritage",
    "lat": 16.83,
    "lng": 75.72,
-   "why": "Giant cannon, Jal Manzil and Adil Shahi palaces",
+   "why": "Adil Shahi citadel with the 55-tonne Malik-e-Maidan cannon and the Jal Manzil",
    "tier": "gem",
    "months": [
     10,
@@ -551,7 +551,7 @@
    "g": "heritage",
    "lat": 16.83,
    "lng": 75.72,
-   "why": "Unfinished mausoleum of 12 arches",
+   "why": "Unfinished 17th-century tomb of Ali Adil Shah II, planned with twelve tiers of arches",
    "tier": "gem",
    "months": [
     10,
@@ -567,7 +567,7 @@
    "g": "water",
    "lat": 16.33,
    "lng": 75.89,
-   "why": "Dam with terraced gardens on the Krishna",
+   "why": "Lal Bahadur Shastri Dam (2005) on the Krishna, with terraced gardens",
    "tier": "gem",
    "months": [
     10,
@@ -583,7 +583,7 @@
    "g": "heritage",
    "lat": 17.92,
    "lng": 77.53,
-   "why": "Bahmani fort with Persian tilework palaces",
+   "why": "Bahmani fort of 1427 with palaces once lined in Persian tilework",
    "tier": "top",
    "months": [
     10,
@@ -599,7 +599,7 @@
    "g": "heritage",
    "lat": 17.915,
    "lng": 77.525,
-   "why": "15th-century college with blue tiles",
+   "why": "Mahmud Gawan's college of 1472, a three-storey madrasa with traces of glazed tiles",
    "tier": "top",
    "months": [
     10,
@@ -615,7 +615,7 @@
    "g": "heritage",
    "lat": 17.93,
    "lng": 77.55,
-   "why": "Domed tombs of the Bahmani sultans",
+   "why": "15th–16th-century domed tombs of the Bahmani sultans at Ashtur",
    "tier": "gem",
    "months": [
     10,
@@ -631,7 +631,7 @@
    "g": "temple",
    "lat": 17.92,
    "lng": 77.51,
-   "why": "Gurdwara at a spring linked to Guru Nanak",
+   "why": "Sikh shrine of 1948 at a spring linked to Guru Nanak's visit",
    "tier": "gem",
    "months": [
     10,
@@ -647,7 +647,7 @@
    "g": "caves",
    "lat": 17.91,
    "lng": 77.53,
-   "why": "Cave temple waded through waist-deep water",
+   "why": "Narasimha shrine at the end of a 300 m cave tunnel, reached by wading through water",
    "tier": "gem",
    "months": [
     10,
@@ -663,7 +663,7 @@
    "g": "culture",
    "lat": 17.91,
    "lng": 77.52,
-   "why": "Silver-inlay metalwork named after the city",
+   "why": "Bidriware: blackened zinc alloy inlaid with silver, a craft named after the city",
    "tier": "gem",
    "months": [
     10,
@@ -679,7 +679,7 @@
    "g": "heritage",
    "lat": 17.34,
    "lng": 76.83,
-   "why": "Fort with a unique fully roofed mosque",
+   "why": "Bahmani fort enlarged in 1347; its Jama Masjid is covered entirely by domes, without a courtyard",
    "tier": "top",
    "months": [
     10,
@@ -695,7 +695,7 @@
    "g": "temple",
    "lat": 17.35,
    "lng": 76.84,
-   "why": "Great Sufi shrine of the Deccan",
+   "why": "Dargah of the 15th-century Sufi saint Khwaja Bande Nawaz Gesu Daraz",
    "tier": "top",
    "months": [
     10,
@@ -711,7 +711,7 @@
    "g": "buddhist",
    "lat": 16.88,
    "lng": 76.95,
-   "why": "Site of an Ashokan-era stupa on the Bhima",
+   "why": "Riverside site on the Bhima where the ASI excavated a Buddhist stupa with Ashokan inscriptions",
    "tier": "gem",
    "months": [
     10,
@@ -727,7 +727,7 @@
    "g": "temple",
    "lat": 17.06,
    "lng": 76.69,
-   "why": "Datta pilgrimage on the Bhima",
+   "why": "Riverside village of Dattatreya pilgrims, linked to the saint Narasimha Saraswati",
    "tier": "gem",
    "months": [
     10,
@@ -743,7 +743,7 @@
    "g": "heritage",
    "lat": 16.2,
    "lng": 77.36,
-   "why": "Fort with long inscriptions on the Krishna–Tungabhadra doab",
+   "why": "13th-century fort between the Krishna and Tungabhadra, with long inscriptions on its walls",
    "tier": "gem",
    "months": [
     10,
@@ -759,7 +759,7 @@
    "g": "heritage",
    "lat": 16.01,
    "lng": 76.44,
-   "why": "Massive moated fort",
+   "why": "Large moated fort in Lingsugur taluk, held in turn by the Yadavas, Bahmanis and Adil Shahis",
    "tier": "gem",
    "months": [
     10,
@@ -775,7 +775,7 @@
    "g": "heritage",
    "lat": 15.96,
    "lng": 76.66,
-   "why": "Edict where Ashoka's name first appears",
+   "why": "Site of the Ashokan edict where the emperor is first named as Ashoka",
    "tier": "gem",
    "months": [
     10,
@@ -791,7 +791,7 @@
    "g": "heritage",
    "lat": 16.77,
    "lng": 77.14,
-   "why": "Hill fort above the Bhima",
+   "why": "Fort built on top of a 100 m monolith above Yadgir town",
    "tier": "gem",
    "months": [
     10,
@@ -807,7 +807,7 @@
    "g": "heritage",
    "lat": 15.86,
    "lng": 74.52,
-   "why": "Fort with Kamal Basadi Jain temple",
+   "why": "Old fort in the heart of Belagavi, with the Jain Kamal Basadi inside its walls",
    "tier": "gem",
    "months": [
     10,
@@ -823,7 +823,7 @@
    "g": "water",
    "lat": 16.19,
    "lng": 74.78,
-   "why": "Horseshoe falls with a hanging bridge",
+   "why": "Horseshoe falls on the Ghataprabha, 6.5 km from Gokak, with a hanging bridge",
    "tier": "top",
    "months": [
     7,
@@ -839,7 +839,7 @@
    "g": "heritage",
    "lat": 15.6,
    "lng": 74.78,
-   "why": "Fort of Rani Chennamma, who fought the British in 1824",
+   "why": "Capital of Kittur, whose Rani Chennamma fought the East India Company in 1824",
    "tier": "gem",
    "months": [
     10,
@@ -855,7 +855,7 @@
    "g": "water",
    "lat": 16.1,
    "lng": 74.8,
-   "why": "Forest falls near Gokak",
+   "why": "Falls on the Markandeya river in forest near Godachinamalaki",
    "tier": "gem",
    "months": [
     7,
@@ -871,7 +871,7 @@
    "g": "temple",
    "lat": 15.77,
    "lng": 75.12,
-   "why": "Hilltop goddess temple with huge fairs",
+   "why": "Hilltop temple of Goddess Renuka-Yellamma near Saundatti; huge fairs",
    "tier": "gem",
    "months": [
     10,
@@ -887,7 +887,7 @@
    "g": "wildlife",
    "lat": 15.55,
    "lng": 74.3,
-   "why": "Western Ghats forest with rare bat caves",
+   "why": "Western Ghats forest; its Barapede caves are the only known breeding site of Wroughton's free-tailed bat",
    "tier": "gem",
    "months": [
     10,
@@ -903,7 +903,7 @@
    "g": "culture",
    "lat": 15.46,
    "lng": 75.01,
-   "why": "Town of Hindustani music and the famous peda",
+   "why": "Hubballi's twin city, a centre of Hindustani music, known for the Dharwad peda",
    "tier": "gem",
    "months": [
     10,
@@ -935,7 +935,7 @@
    "g": "heritage",
    "lat": 15.39,
    "lng": 75.72,
-   "why": "Village of Chalukya temples and stepwells",
+   "why": "Former mint town with Chalukya temples and stepwells, a major city before the 14th century",
    "tier": "top",
    "months": [
     10,
@@ -951,7 +951,7 @@
    "g": "temple",
    "lat": 15.43,
    "lng": 75.63,
-   "why": "Ornate Chalukya temple",
+   "why": "Shiva temple with three lingas on one stone, carved in Chalukya style",
    "tier": "gem",
    "months": [
     10,
@@ -967,7 +967,7 @@
    "g": "temple",
    "lat": 15.3,
    "lng": 75.76,
-   "why": "Star-shaped Chalukya temple",
+   "why": "12th-century Chalukya temple with a 24-pointed star-shaped plan at Dambal",
    "tier": "gem",
    "months": [
     10,
@@ -983,7 +983,7 @@
    "g": "temple",
    "lat": 14.79,
    "lng": 75.4,
-   "why": "Chalukya temple in Haveri town",
+   "why": "Western Chalukya Siddheshwara temple in Haveri town",
    "tier": "gem",
    "months": [
     10,
@@ -999,7 +999,7 @@
    "g": "temple",
    "lat": 14.72,
    "lng": 75.75,
-   "why": "Riverside Chalukya temple",
+   "why": "Western Chalukya Galageshwara temple on the Tungabhadra at Galaganatha",
    "tier": "gem",
    "months": [
     10,
@@ -1015,7 +1015,7 @@
    "g": "wildlife",
    "lat": 14.62,
    "lng": 75.63,
-   "why": "Grassland sanctuary for blackbuck",
+   "why": "Blackbuck sanctuary of 119 km² near Ranebennur",
    "tier": "gem",
    "months": [
     10,
@@ -1031,7 +1031,7 @@
    "g": "heritage",
    "lat": 14.22,
    "lng": 76.4,
-   "why": "Seven-walled fort of the Nayakas and Obavva's legend",
+   "why": "Nayaka fort of seven concentric walls; Onake Obavva held off Hyder Ali's troops here",
    "tier": "top",
    "months": [
     10,
@@ -1047,7 +1047,7 @@
    "g": "water",
    "lat": 13.9,
    "lng": 76.4,
-   "why": "Karnataka's oldest dam",
+   "why": "Mari Kanive dam on the Vedavathi, the state's oldest dam still in use (1907)",
    "tier": "gem",
    "months": [
     10,
@@ -1063,7 +1063,7 @@
    "g": "hills",
    "lat": 14.18,
    "lng": 76.39,
-   "why": "Windy hill forest above Chitradurga",
+   "why": "Forest reserve and hill station 10 km from Chitradurga, with a British-era bungalow",
    "tier": "gem",
    "months": [
     10,
@@ -1079,7 +1079,7 @@
    "g": "culture",
    "lat": 14.46,
    "lng": 75.92,
-   "why": "Home of the butter dosa",
+   "why": "Home of the benne (butter) dosa, cooked crisp in plenty of butter",
    "tier": "gem",
    "months": [
     10,
@@ -1111,7 +1111,7 @@
    "g": "water",
    "lat": 14.229,
    "lng": 74.812,
-   "why": "India's second-highest plunge falls, roaring in the monsoon",
+   "why": "Sharavathi drops 253 m at Jog, one of India's highest plunge falls; fullest in the monsoon",
    "tier": "icon",
    "months": [
     7,
@@ -1127,7 +1127,7 @@
    "g": "wildlife",
    "lat": 13.5,
    "lng": 75.09,
-   "why": "Rainforest village of king cobras and sunsets",
+   "why": "Western Ghats village called the Cherrapunji of the South; king cobra research and sunsets",
    "tier": "top",
    "months": [
     6,
@@ -1143,7 +1143,7 @@
    "g": "hills",
    "lat": 13.86,
    "lng": 74.88,
-   "why": "Peak trek with Shankara's Sarvajna Peetha",
+   "why": "Highest peak in Shivamogga district (1,343 m), with the Sarvajna Peetha linked to Shankaracharya",
    "tier": "top",
    "months": [
     10,
@@ -1159,7 +1159,7 @@
    "g": "heritage",
    "lat": 13.74,
    "lng": 75.14,
-   "why": "Hill fort trek near Thirthahalli",
+   "why": "Last capital of the Keladi Nayakas on a forested hill, 18 km from Thirthahalli",
    "tier": "gem",
    "months": [
     10,
@@ -1175,7 +1175,7 @@
    "g": "temple",
    "lat": 14.18,
    "lng": 75.05,
-   "why": "Temples of the Keladi Nayakas",
+   "why": "Temples of the Keladi Nayakas at Keladi and Ikkeri, near Sagara",
    "tier": "gem",
    "months": [
     10,
@@ -1191,7 +1191,7 @@
    "g": "wildlife",
    "lat": 13.9,
    "lng": 75.5,
-   "why": "Elephant camp on the Tunga",
+   "why": "Forest department elephant camp on the Tunga; elephants bathe in the morning",
    "tier": "gem",
    "months": [
     10,
@@ -1207,7 +1207,7 @@
    "g": "temple",
    "lat": 13.54,
    "lng": 75.09,
-   "why": "Jain hill temple with grand views near Agumbe",
+   "why": "826 m hill with a 17th-century Parshvanatha temple, linked to Acharya Kundakunda",
    "tier": "gem",
    "months": [
     10,
@@ -1223,7 +1223,7 @@
    "g": "water",
    "lat": 13.69,
    "lng": 75.24,
-   "why": "Town on the Tunga with Kuvempu's Kuppalli home nearby",
+   "why": "Town on the Tunga; Kuvempu's childhood home at Kuppalli is 15 km away",
    "tier": "gem",
    "months": [
     10,
@@ -1239,7 +1239,7 @@
    "g": "culture",
    "lat": 13.65,
    "lng": 75.27,
-   "why": "Childhood home of the poet Kuvempu",
+   "why": "Kuppalli: Kuvempu's childhood home, now a museum to the Kannada poet",
    "tier": "gem",
    "months": [
     10,
@@ -1255,7 +1255,7 @@
    "g": "water",
    "lat": 14.09,
    "lng": 74.88,
-   "why": "Backwater islands of the Sharavathi for kayaking",
+   "why": "Islands in the Sharavathi backwaters, for kayaking and coracles",
    "tier": "gem",
    "months": [
     10,
@@ -1271,7 +1271,7 @@
    "g": "culture",
    "lat": 13.96,
    "lng": 75.61,
-   "why": "Village where people still speak Sanskrit",
+   "why": "Village known for speaking Sanskrit in daily life",
    "tier": "gem",
    "months": [
     10,
@@ -1287,7 +1287,7 @@
    "g": "wildlife",
    "lat": 14.44,
    "lng": 75.0,
-   "why": "Nesting colony of waterbirds",
+   "why": "Waterbird nesting colony on a 0.74 km² lake; over 200 bird species recorded",
    "tier": "gem",
    "months": [
     10,
@@ -1303,7 +1303,7 @@
    "g": "temple",
    "lat": 13.418,
    "lng": 75.252,
-   "why": "Shankara's first math on the Tunga",
+   "why": "Seat of the Sringeri Sharada Peetham founded by Adi Shankaracharya, on the Tunga",
    "tier": "top",
    "months": [
     10,
@@ -1319,7 +1319,7 @@
    "g": "hills",
    "lat": 13.39,
    "lng": 75.72,
-   "why": "Karnataka's highest peak",
+   "why": "Karnataka's highest peak (1,930 m), reached by road and a final flight of steps",
    "tier": "top",
    "months": [
     9,
@@ -1335,7 +1335,7 @@
    "g": "hills",
    "lat": 13.43,
    "lng": 75.75,
-   "why": "Hill shrine where coffee first came to India",
+   "why": "Hill range named after Baba Budan, who by legend planted India's first coffee here",
    "tier": "top",
    "months": [
     10,
@@ -1351,7 +1351,7 @@
    "g": "hills",
    "lat": 13.22,
    "lng": 75.25,
-   "why": "Grassy rolling peaks and a classic trek",
+   "why": "Grassy peak (1,894 m) of the Western Ghats, the start of a classic trek",
    "tier": "icon",
    "months": [
     9,
@@ -1367,7 +1367,7 @@
    "g": "hills",
    "lat": 13.55,
    "lng": 75.76,
-   "why": "Hill station with Z Point and Hebbe Falls",
+   "why": "Old hill station of the Mysore kings, with Z Point and Hebbe Falls nearby",
    "tier": "gem",
    "months": [
     10,
@@ -1383,7 +1383,7 @@
    "g": "water",
    "lat": 13.53,
    "lng": 75.78,
-   "why": "Two-stage falls reached by jeep",
+   "why": "Falls in a coffee estate 10 km from Kemmangundi, reached by jeep",
    "tier": "gem",
    "months": [
     7,
@@ -1399,7 +1399,7 @@
    "g": "wildlife",
    "lat": 13.5,
    "lng": 75.65,
-   "why": "Tiger forest with a big reservoir",
+   "why": "Tiger reserve around the Bhadra reservoir, with river safaris",
    "tier": "top",
    "months": [
     10,
@@ -1415,7 +1415,7 @@
    "g": "temple",
    "lat": 13.26,
    "lng": 75.33,
-   "why": "Annapoorneshwari temple in coffee hills",
+   "why": "Annapoorneshwari temple in the coffee hills, known for feeding every visitor",
    "tier": "gem",
    "months": [
     10,
@@ -1431,7 +1431,7 @@
    "g": "temple",
    "lat": 13.23,
    "lng": 75.36,
-   "why": "Temple town on the Bhadra",
+   "why": "Kalaseshwara temple and Chandranatha Jain basadi on the Bhadra",
    "tier": "gem",
    "months": [
     10,
@@ -1447,7 +1447,7 @@
    "g": "water",
    "lat": 13.33,
    "lng": 75.73,
-   "why": "Sunset lake below Mullayanagiri",
+   "why": "Lake below Mullayanagiri, a sunset stop on the road up",
    "tier": "gem",
    "months": [
     10,
@@ -1463,7 +1463,7 @@
    "g": "hills",
    "lat": 13.32,
    "lng": 75.77,
-   "why": "Plantation homestays in India's coffee birthplace",
+   "why": "Coffee country around Chikkamagaluru, with estate homestays",
    "tier": "top",
    "months": [
     10,
@@ -1479,7 +1479,7 @@
    "g": "temple",
    "lat": 13.163,
    "lng": 75.866,
-   "why": "UNESCO Hoysala temple of astonishing carving",
+   "why": "Chennakeshava temple begun in 1117 by Vishnuvardhana and built over 103 years; UNESCO",
    "tier": "icon",
    "months": [
     10,
@@ -1495,7 +1495,7 @@
    "g": "temple",
    "lat": 13.213,
    "lng": 75.994,
-   "why": "UNESCO Hoysaleswara temple",
+   "why": "Hoysaleswara temple at Dvarasamudra, the 12th-century Hoysala capital; UNESCO",
    "tier": "icon",
    "months": [
     10,
@@ -1511,7 +1511,7 @@
    "g": "temple",
    "lat": 12.854,
    "lng": 76.484,
-   "why": "58-ft monolithic Bahubali on a hill",
+   "why": "57-ft (17 m) monolithic Gommateshwara of 983, Jainism's great pilgrimage on Vindhyagiri",
    "tier": "icon",
    "months": [
     10,
@@ -1527,7 +1527,7 @@
    "g": "hills",
    "lat": 12.94,
    "lng": 75.78,
-   "why": "Coffee and cardamom hill town",
+   "why": "Coffee and cardamom town on the Hemavati at the foot of the Western Ghats",
    "tier": "top",
    "months": [
     10,
@@ -1543,7 +1543,7 @@
    "g": "heritage",
    "lat": 12.94,
    "lng": 75.73,
-   "why": "Star-shaped Tipu fort",
+   "why": "Star fort built by Tipu Sultan in 1792 to the French Vauban design",
    "tier": "gem",
    "months": [
     10,
@@ -1559,7 +1559,7 @@
    "g": "hills",
    "lat": 12.72,
    "lng": 75.69,
-   "why": "View over three ranges of the Western Ghats",
+   "why": "Viewpoint in the Bisle reserve forest over the Western Ghats",
    "tier": "gem",
    "months": [
     10,
@@ -1575,7 +1575,7 @@
    "g": "heritage",
    "lat": 12.97,
    "lng": 76.12,
-   "why": "Ruined church that floods in the monsoon",
+   "why": "Gothic church built by French missionaries in the 1860s, half-submerged by the Hemavati reservoir",
    "tier": "top",
    "months": [
     8,
@@ -1591,7 +1591,7 @@
    "g": "temple",
    "lat": 13.1,
    "lng": 76.03,
-   "why": "Early Hoysala temple",
+   "why": "Lakshmi Devi temple of 1114, the first temple of the Hoysalas",
    "tier": "gem",
    "months": [
     10,
@@ -1607,7 +1607,7 @@
    "g": "temple",
    "lat": 12.95,
    "lng": 76.07,
-   "why": "Twin Hoysala temples",
+   "why": "Twin Hoysala temples at Mosale, one to Shiva, one to Vishnu, almost identical",
    "tier": "gem",
    "months": [
     10,
@@ -1623,7 +1623,7 @@
    "g": "hills",
    "lat": 12.42,
    "lng": 75.74,
-   "why": "Coorg's hill town with Raja's Seat and the fort",
+   "why": "Kodagu's hill town (old Mercara), with Raja's Seat and the fort",
    "tier": "top",
    "months": [
     10,
@@ -1639,7 +1639,7 @@
    "g": "water",
    "lat": 12.46,
    "lng": 75.72,
-   "why": "Falls in coffee estates near Madikeri",
+   "why": "Falls on the early Kaveri, 8 km from Madikeri among coffee and spice estates",
    "tier": "top",
    "months": [
     7,
@@ -1655,7 +1655,7 @@
    "g": "wildlife",
    "lat": 12.37,
    "lng": 75.9,
-   "why": "Elephant camp on the Kaveri",
+   "why": "Forest camp on the Kaveri where trained elephants are bathed",
    "tier": "top",
    "months": [
     10,
@@ -1671,7 +1671,7 @@
    "g": "buddhist",
    "lat": 12.43,
    "lng": 75.97,
-   "why": "Golden temple of India's largest Tibetan settlement at Bylakuppe",
+   "why": "Largest teaching centre of the Nyingma school, in the Tibetan settlement of Bylakuppe",
    "tier": "icon",
    "months": [
     10,
@@ -1687,7 +1687,7 @@
    "g": "temple",
    "lat": 12.38,
    "lng": 75.49,
-   "why": "Source of the Kaveri on Brahmagiri",
+   "why": "Spring on Brahmagiri revered as the source of the Kaveri",
    "tier": "top",
    "months": [
     10,
@@ -1703,7 +1703,7 @@
    "g": "temple",
    "lat": 12.39,
    "lng": 75.53,
-   "why": "Temple at the triveni below Talacauvery",
+   "why": "Bhagandeshwara temple where the Kaveri, Kannike and Sujyothi meet",
    "tier": "gem",
    "months": [
     10,
@@ -1719,7 +1719,7 @@
    "g": "wildlife",
    "lat": 12.05,
    "lng": 76.15,
-   "why": "Tigers, leopards and elephants along the Kabini",
+   "why": "Tiger reserve since 2003 in Kodagu and Mysuru, part of the Nilgiri Biosphere",
    "tier": "icon",
    "months": [
     10,
@@ -1735,7 +1735,7 @@
    "g": "water",
    "lat": 11.95,
    "lng": 75.99,
-   "why": "Falls in the Brahmagiri forest",
+   "why": "Falls in the Brahmagiri forest with the Rameshwara temple near the path",
    "tier": "gem",
    "months": [
     7,
@@ -1751,7 +1751,7 @@
    "g": "hills",
    "lat": 12.22,
    "lng": 75.62,
-   "why": "Coorg's highest peak trek",
+   "why": "Highest peak in Kodagu (1,748 m), a half-day trek",
    "tier": "top",
    "months": [
     10,
@@ -1767,7 +1767,7 @@
    "g": "hills",
    "lat": 12.5236,
    "lng": 75.6522,
-   "why": "Jeep ride to grassland views",
+   "why": "Jeep track from Madikeri up to grassland viewpoints of the Pushpagiri range",
    "tier": "gem",
    "months": [
     10,
@@ -1783,7 +1783,7 @@
    "g": "water",
    "lat": 12.49,
    "lng": 75.93,
-   "why": "Bamboo island in the Kaveri",
+   "why": "Bamboo island in the Kaveri near Kushalnagar, reached by a hanging bridge",
    "tier": "gem",
    "months": [
     10,
@@ -1799,7 +1799,7 @@
    "g": "heritage",
    "lat": 12.24,
    "lng": 75.64,
-   "why": "Old Kodava palace below Tadiandamol",
+   "why": "Nalknad Palace of the Kodagu kings (1792), below Tadiandamol",
    "tier": "gem",
    "months": [
     10,
@@ -1815,7 +1815,7 @@
    "g": "heritage",
    "lat": 12.305,
    "lng": 76.655,
-   "why": "Indo-Saracenic palace lit by 100,000 bulbs on Sundays",
+   "why": "Indo-Saracenic palace of the Wadiyars (1912), lit by nearly 100,000 bulbs on Sunday evenings",
    "tier": "icon",
    "months": [
     10,
@@ -1831,7 +1831,7 @@
    "g": "temple",
    "lat": 12.273,
    "lng": 76.67,
-   "why": "Goddess temple and giant Nandi above Mysuru",
+   "why": "Chamundeshwari temple at 1,060 m above Mysuru, with a 5 m Nandi on the stairway",
    "tier": "top",
    "months": [
     10,
@@ -1847,7 +1847,7 @@
    "g": "water",
    "lat": 12.42,
    "lng": 76.57,
-   "why": "Terraced gardens and musical fountains below KRS dam",
+   "why": "Gardens laid out in 1927–32 below the KRS dam, with musical fountains in the evening",
    "tier": "top",
    "months": [
     10,
@@ -1863,7 +1863,7 @@
    "g": "culture",
    "lat": 12.307,
    "lng": 76.648,
-   "why": "Raja Ravi Varma paintings in an old palace",
+   "why": "Wadiyar mansion of 1861, now an art gallery with works by Raja Ravi Varma",
    "tier": "gem",
    "months": [
     10,
@@ -1879,7 +1879,7 @@
    "g": "heritage",
    "lat": 12.32,
    "lng": 76.66,
-   "why": "Neo-Gothic church with tall spires",
+   "why": "Neo-Gothic cathedral of St Joseph and St Philomena with twin spires",
    "tier": "top",
    "months": [
     10,
@@ -1895,7 +1895,7 @@
    "g": "culture",
    "lat": 12.31,
    "lng": 76.652,
-   "why": "Flower, fruit and incense market",
+   "why": "Market of flowers, fruit, kumkum, spices and sandalwood under old arcades",
    "tier": "top",
    "months": [
     10,
@@ -1911,7 +1911,7 @@
    "g": "wildlife",
    "lat": 12.302,
    "lng": 76.664,
-   "why": "One of India's oldest zoos",
+   "why": "Zoo founded in 1892 by the Mysore royal family, one of India's oldest",
    "tier": "gem",
    "months": [
     10,
@@ -1927,7 +1927,7 @@
    "g": "culture",
    "lat": 12.317,
    "lng": 76.642,
-   "why": "Royal saloons and old engines",
+   "why": "Open-air rail museum with the Mysore Maharani's saloon carriage",
    "tier": "gem",
    "months": [
     10,
@@ -1943,7 +1943,7 @@
    "g": "wildlife",
    "lat": 12.302,
    "lng": 76.67,
-   "why": "Lake with a walk-through aviary",
+   "why": "Lake with a nature park and India's biggest walk-through aviary",
    "tier": "gem",
    "months": [
     10,
@@ -1959,7 +1959,7 @@
    "g": "temple",
    "lat": 12.276,
    "lng": 76.881,
-   "why": "Exquisite star-shaped Hoysala temple",
+   "why": "Chennakeshava temple of 1258, a star-shaped Hoysala gem; UNESCO since 2023",
    "tier": "icon",
    "months": [
     10,
@@ -1975,7 +1975,7 @@
    "g": "temple",
    "lat": 12.18,
    "lng": 77.02,
-   "why": "Temples buried in sand dunes on the Kaveri",
+   "why": "Town on the Kaveri where more than 30 temples lie buried in sand",
    "tier": "top",
    "months": [
     10,
@@ -1991,7 +1991,7 @@
    "g": "wildlife",
    "lat": 11.95,
    "lng": 76.35,
-   "why": "Riverside safaris of Nagarhole's south",
+   "why": "Kabini reservoir at Nagarhole's edge, known for elephants and boat safaris",
    "tier": "icon",
    "months": [
     10,
@@ -2007,7 +2007,7 @@
    "g": "temple",
    "lat": 12.12,
    "lng": 76.68,
-   "why": "Great Srikanteshwara temple",
+   "why": "Srikanteshwara temple on the Kabini, 23 km from Mysuru",
    "tier": "gem",
    "months": [
     10,
@@ -2023,7 +2023,7 @@
    "g": "heritage",
    "lat": 12.42,
    "lng": 76.69,
-   "why": "Tipu Sultan's island capital with the Ranganatha temple",
+   "why": "Tipu Sultan's island capital on the Kaveri, named after the Ranganathaswamy temple (c. 984)",
    "tier": "top",
    "months": [
     10,
@@ -2039,7 +2039,7 @@
    "g": "heritage",
    "lat": 12.41,
    "lng": 76.7,
-   "why": "Tipu's painted summer palace",
+   "why": "Tipu Sultan's teakwood summer palace (1784) with painted walls",
    "tier": "top",
    "months": [
     10,
@@ -2055,7 +2055,7 @@
    "g": "wildlife",
    "lat": 12.42,
    "lng": 76.66,
-   "why": "River islands of nesting birds and crocodiles",
+   "why": "Six islets on the Kaveri, Karnataka's largest bird sanctuary and a Ramsar site",
    "tier": "top",
    "months": [
     12,
@@ -2071,7 +2071,7 @@
    "g": "temple",
    "lat": 12.66,
    "lng": 76.65,
-   "why": "Hill temple town of Ramanuja with stepped tanks",
+   "why": "Hill town of Ramanuja's Cheluvanarayana temple and Yoga Narasimha shrine",
    "tier": "top",
    "months": [
     10,
@@ -2087,7 +2087,7 @@
    "g": "water",
    "lat": 12.29,
    "lng": 77.17,
-   "why": "Twin Kaveri falls of Gaganachukki and Bharachukki",
+   "why": "Kaveri falls in two parts, Gagana Chukki and Bhara Chukki",
    "tier": "top",
    "months": [
     7,
@@ -2103,7 +2103,7 @@
    "g": "wildlife",
    "lat": 11.67,
    "lng": 76.63,
-   "why": "Tigers and elephants in the Nilgiri biosphere",
+   "why": "1,456 km² tiger reserve since 1973, part of the Nilgiri Biosphere",
    "tier": "icon",
    "months": [
     10,
@@ -2119,7 +2119,7 @@
    "g": "temple",
    "lat": 11.72,
    "lng": 76.6,
-   "why": "Misty hilltop temple inside Bandipur",
+   "why": "Highest point of Bandipur (1,450 m), a hilltop Krishna temple often in mist",
    "tier": "top",
    "months": [
     10,
@@ -2135,7 +2135,7 @@
    "g": "wildlife",
    "lat": 11.99,
    "lng": 77.14,
-   "why": "Biligiriranga hills of tigers and the Soliga people",
+   "why": "Biligiriranga hills tiger reserve, home of the Soliga people",
    "tier": "top",
    "months": [
     10,
@@ -2151,7 +2151,7 @@
    "g": "temple",
    "lat": 12.03,
    "lng": 77.57,
-   "why": "Forest hill temple of the Shaiva saint",
+   "why": "Hill temple of Male Mahadeshwara in Hanur taluk, a forest pilgrimage",
    "tier": "gem",
    "months": [
     10,
@@ -2167,7 +2167,7 @@
    "g": "culture",
    "lat": 12.95,
    "lng": 77.585,
-   "why": "Botanical garden with a glasshouse and Republic Day flower shows",
+   "why": "Botanical garden laid out by Hyder Ali in 1760, with a glasshouse for flower shows",
    "tier": "top",
    "months": [
     10,
@@ -2183,7 +2183,7 @@
    "g": "culture",
    "lat": 12.976,
    "lng": 77.593,
-   "why": "Green heart of Bengaluru",
+   "why": "Park of 1870 in central Bengaluru, now about 300 acres, with Attara Kacheri",
    "tier": "top",
    "months": [
     10,
@@ -2199,7 +2199,7 @@
    "g": "heritage",
    "lat": 12.998,
    "lng": 77.592,
-   "why": "Tudor-style palace of the Wodeyars",
+   "why": "Tudor-style palace of the Wadiyars (1887), inspired by Windsor Castle",
    "tier": "top",
    "months": [
     10,
@@ -2215,7 +2215,7 @@
    "g": "heritage",
    "lat": 12.959,
    "lng": 77.574,
-   "why": "Teak palace near the old fort",
+   "why": "Teakwood palace inside the old Bangalore Fort, completed in 1791",
    "tier": "gem",
    "months": [
     10,
@@ -2231,7 +2231,7 @@
    "g": "heritage",
    "lat": 12.979,
    "lng": 77.591,
-   "why": "Neo-Dravidian seat of the legislature",
+   "why": "Neo-Dravidian seat of Karnataka's legislature (1956), lit up on Sundays",
    "tier": "top",
    "months": [
     10,
@@ -2247,7 +2247,7 @@
    "g": "temple",
    "lat": 12.942,
    "lng": 77.568,
-   "why": "Giant monolithic Nandi in Basavanagudi",
+   "why": "16th-century temple of a monolithic Nandi on Bugle Rock in Basavanagudi",
    "tier": "top",
    "months": [
     10,
@@ -2263,7 +2263,7 @@
    "g": "temple",
    "lat": 13.01,
    "lng": 77.551,
-   "why": "Large hilltop Krishna temple",
+   "why": "Radha Krishna temple on a hill in Rajajinagar, one of the largest ISKCON temples",
    "tier": "gem",
    "months": [
     10,
@@ -2279,7 +2279,7 @@
    "g": "temple",
    "lat": 12.948,
    "lng": 77.565,
-   "why": "Cave temple lit by the sun on Makar Sankranti",
+   "why": "16th-century cave temple of Kempe Gowda I, where the sun reaches the linga on Makar Sankranti",
    "tier": "gem",
    "months": [
     10,
@@ -2295,7 +2295,7 @@
    "g": "culture",
    "lat": 12.989,
    "lng": 77.588,
-   "why": "Modern Indian art in a mansion",
+   "why": "Modern Indian art in the old Manikyavelu Mansion and a new wing",
    "tier": "gem",
    "months": [
     10,
@@ -2311,7 +2311,7 @@
    "g": "culture",
    "lat": 12.975,
    "lng": 77.596,
-   "why": "New museum of art and photography",
+   "why": "Museum opened in 2023: Indian art, textiles and photography from the 12th century on",
    "tier": "top",
    "months": [
     10,
@@ -2327,7 +2327,7 @@
    "g": "culture",
    "lat": 12.975,
    "lng": 77.596,
-   "why": "Science and technology museum",
+   "why": "Science museum opened by Nehru in 1962, in memory of Sir M. Visvesvaraya",
    "tier": "gem",
    "months": [
     10,
@@ -2343,7 +2343,7 @@
    "g": "culture",
    "lat": 12.964,
    "lng": 77.577,
-   "why": "Chaotic flower market at dawn",
+   "why": "City market under the old fort; the flower trade peaks before dawn",
    "tier": "gem",
    "months": [
     10,
@@ -2359,7 +2359,7 @@
    "g": "culture",
    "lat": 12.949,
    "lng": 77.573,
-   "why": "Evening street of dosas and sweets",
+   "why": "Short street of 20-plus vegetarian food stalls in Basavanagudi; evenings",
    "tier": "top",
    "months": [
     10,
@@ -2375,7 +2375,7 @@
    "g": "wildlife",
    "lat": 12.8,
    "lng": 77.577,
-   "why": "Safari park and butterfly park",
+   "why": "National park since 1974, with a safari park, zoo and butterfly park",
    "tier": "top",
    "months": [
     10,
@@ -2391,7 +2391,7 @@
    "g": "culture",
    "lat": 12.975,
    "lng": 77.605,
-   "why": "Bookshops, cafés and pubs",
+   "why": "Central streets of bookshops, cafés and pubs, between Brigade Road and St Mark's Road",
    "tier": "gem",
    "months": [
     10,
@@ -2407,7 +2407,7 @@
    "g": "culture",
    "lat": 12.91,
    "lng": 77.585,
-   "why": "Beloved theatre in JP Nagar",
+   "why": "Theatre in JP Nagar founded by Arundhati Nag in 2004, with shows most days",
    "tier": "gem",
    "months": [
     10,
@@ -2423,7 +2423,7 @@
    "g": "hills",
    "lat": 13.37,
    "lng": 77.683,
-   "why": "Sunrise above the clouds near Bengaluru",
+   "why": "Ganga-era hill fort 60 km from Bengaluru, known for sunrise above the clouds",
    "tier": "icon",
    "months": [
     10,
@@ -2439,7 +2439,7 @@
    "g": "temple",
    "lat": 13.38,
    "lng": 77.7,
-   "why": "9th-century temple at the foot of Nandi Hills",
+   "why": "9th-century Shiva temple at the foot of Nandi Hills, added to by several dynasties",
    "tier": "top",
    "months": [
     10,
@@ -2455,7 +2455,7 @@
    "g": "hills",
    "lat": 13.41,
    "lng": 77.68,
-   "why": "Night trek for sunrise over the clouds",
+   "why": "Hill fort (1,450 m) facing Nandi Hills, climbed at night for sunrise",
    "tier": "gem",
    "months": [
     10,
@@ -2471,7 +2471,7 @@
    "g": "heritage",
    "lat": 13.67,
    "lng": 77.7,
-   "why": "Boulder hill fort with water tanks",
+   "why": "17th-century fort of Byre Gowda on a boulder hill with tanks",
    "tier": "gem",
    "months": [
     10,
@@ -2487,7 +2487,7 @@
    "g": "temple",
    "lat": 13.4,
    "lng": 77.73,
-   "why": "Giant Adiyogi bust near Nandi Hills",
+   "why": "34 m steel Adiyogi face of Isha Foundation, unveiled in 2023",
    "tier": "gem",
    "months": [
     10,
@@ -2503,7 +2503,7 @@
    "g": "culture",
    "lat": 12.96,
    "lng": 78.27,
-   "why": "Colonial mining town of a closed gold mine",
+   "why": "Gold-mining town that ran for over a century until the mines closed in 2001",
    "tier": "gem",
    "months": [
     10,
@@ -2519,7 +2519,7 @@
    "g": "temple",
    "lat": 13.14,
    "lng": 78.13,
-   "why": "Chola-era temple",
+   "why": "Kolaramma temple, Chola work in stone",
    "tier": "gem",
    "months": [
     10,
@@ -2535,7 +2535,7 @@
    "g": "hills",
    "lat": 13.16,
    "lng": 78.16,
-   "why": "Boulder hill with caves and a spring",
+   "why": "Hill of boulders and caves 3 km from Kolar, with a spring from a Nandi's mouth",
    "tier": "gem",
    "months": [
     10,
@@ -2551,7 +2551,7 @@
    "g": "temple",
    "lat": 12.98,
    "lng": 78.22,
-   "why": "Temple with a giant linga among ten million smaller ones",
+   "why": "Temple with a 33 m linga surrounded by lakhs of smaller ones",
    "tier": "gem",
    "months": [
     10,
@@ -2567,7 +2567,7 @@
    "g": "temple",
    "lat": 13.1,
    "lng": 78.33,
-   "why": "Temple hill linked to Valmiki",
+   "why": "Hill village linked to Valmiki's ashram, with temples and rock climbing",
    "tier": "gem",
    "months": [
     10,
@@ -2583,7 +2583,7 @@
    "g": "hills",
    "lat": 12.92,
    "lng": 77.29,
-   "why": "One of Asia's largest monolith hills",
+   "why": "One of Asia's largest monolith hills (1,226 m), 60 km west of Bengaluru",
    "tier": "top",
    "months": [
     10,
@@ -2599,7 +2599,7 @@
    "g": "hills",
    "lat": 12.72,
    "lng": 77.28,
-   "why": "Granite hills of the film Sholay, now a vulture sanctuary",
+   "why": "Granite hills where Sholay was filmed in 1975, now a long-billed vulture sanctuary",
    "tier": "gem",
    "months": [
     10,
@@ -2615,7 +2615,7 @@
    "g": "culture",
    "lat": 12.65,
    "lng": 77.21,
-   "why": "Lacquered wooden toy town",
+   "why": "Town of lacquered wooden toys, with a GI tag, between Bengaluru and Mysuru",
    "tier": "top",
    "months": [
     10,
@@ -2631,7 +2631,7 @@
    "g": "water",
    "lat": 12.2694,
    "lng": 77.4601,
-   "why": "Narrow Kaveri gorge, the goat's leap",
+   "why": "Gorge where the Kaveri squeezes through rock: 'goat's leap' in Kannada",
    "tier": "gem",
    "months": [
     10,
@@ -2647,7 +2647,7 @@
    "g": "water",
    "lat": 12.33,
    "lng": 77.43,
-   "why": "Falls on the Arkavathi",
+   "why": "Falls on the Arkavathi near Kanakapura, best after the rains",
    "tier": "gem",
    "months": [
     7,
@@ -2663,7 +2663,7 @@
    "g": "hills",
    "lat": 12.5,
    "lng": 77.35,
-   "why": "Rocky hill trek near Kanakapura",
+   "why": "Rocky hill with a fort and temple, a short climb near Kanakapura",
    "tier": "gem",
    "months": [
     10,
@@ -2679,7 +2679,7 @@
    "g": "heritage",
    "lat": 13.25,
    "lng": 77.71,
-   "why": "Birthplace of Tipu Sultan",
+   "why": "Fort begun in 1501, enlarged by Hyder Ali; Tipu Sultan was born nearby",
    "tier": "gem",
    "months": [
     10,
@@ -2695,7 +2695,7 @@
    "g": "temple",
    "lat": 13.38,
    "lng": 77.48,
-   "why": "Snake-god temple near Doddaballapur",
+   "why": "Temple where Subramanya and Narasimha are seen together on one stone",
    "tier": "gem",
    "months": [
     10,
@@ -2711,7 +2711,7 @@
    "g": "hills",
    "lat": 13.417,
    "lng": 77.5329,
-   "why": "Hill fort trek above a lake and rail line",
+   "why": "Hill fort with a Shiva temple, above a lake and the railway",
    "tier": "gem",
    "months": [
     10,
@@ -2727,7 +2727,7 @@
    "g": "wildlife",
    "lat": 13.14,
    "lng": 77.48,
-   "why": "Lake and grasslands for birding",
+   "why": "Grassland and the 1894 Hesaraghatta reservoir, good for birding",
    "tier": "gem",
    "months": [
     10,
@@ -2743,7 +2743,7 @@
    "g": "temple",
    "lat": 13.17,
    "lng": 77.22,
-   "why": "Conical hill of temples and steep climbs",
+   "why": "1,368 m conical hill of temples and steep rock-cut steps",
    "tier": "top",
    "months": [
     10,
@@ -2759,7 +2759,7 @@
    "g": "heritage",
    "lat": 13.66,
    "lng": 77.21,
-   "why": "Fort on one of Asia's largest monoliths",
+   "why": "Fort on a massive monolith, one of the largest in Asia",
    "tier": "top",
    "months": [
     10,
@@ -2775,7 +2775,7 @@
    "g": "temple",
    "lat": 13.37,
    "lng": 77.21,
-   "why": "Forest hill temples near Tumakuru",
+   "why": "Forest hills (1,204 m) with the Yoganarasimha and Bhoganarasimha temples",
    "tier": "gem",
    "months": [
     10,
@@ -2791,7 +2791,7 @@
    "g": "culture",
    "lat": 13.34,
    "lng": 77.14,
-   "why": "Famous math that feeds thousands daily",
+   "why": "Lingayat math famed for free meals and schooling for thousands of children",
    "tier": "gem",
    "months": [
     10,
@@ -2807,7 +2807,7 @@
    "g": "temple",
    "lat": 14.094,
    "lng": 74.484,
-   "why": "Giant Shiva statue and temple tower on the sea",
+   "why": "37 m Shiva statue and a 20-storey gopura on Kanduka hill by the sea",
    "tier": "icon",
    "months": [
     10,
@@ -2823,7 +2823,7 @@
    "g": "coast",
    "lat": 14.548,
    "lng": 74.319,
-   "why": "Temple town with Om, Kudle and Half Moon beaches",
+   "why": "Temple town of the Mahabaleshwar shrine, with Om, Kudle and Half Moon beaches",
    "tier": "icon",
    "months": [
     11,
@@ -2839,7 +2839,7 @@
    "g": "coast",
    "lat": 14.519,
    "lng": 74.324,
-   "why": "Beach shaped like the Om symbol",
+   "why": "Beach whose two coves form the shape of the Om symbol",
    "tier": "top",
    "months": [
     11,
@@ -2855,7 +2855,7 @@
    "g": "coast",
    "lat": 14.53,
    "lng": 74.32,
-   "why": "Laid-back cove beach at Gokarna",
+   "why": "Long cove beach north of Om Beach, a short walk over the headland",
    "tier": "gem",
    "months": [
     11,
@@ -2871,7 +2871,7 @@
    "g": "caves",
    "lat": 14.59,
    "lng": 74.56,
-   "why": "Black karst towers in the forest",
+   "why": "Two black karst rocks in the forest, a national geological monument",
    "tier": "top",
    "months": [
     10,
@@ -2887,7 +2887,7 @@
    "g": "wildlife",
    "lat": 15.25,
    "lng": 74.62,
-   "why": "Rafting on the Kali and hornbill forests",
+   "why": "Rafting on the Kali river and hornbill forests",
    "tier": "top",
    "months": [
     10,
@@ -2903,7 +2903,7 @@
    "g": "wildlife",
    "lat": 15.15,
    "lng": 74.5,
-   "why": "Forests of hornbills and black panthers",
+   "why": "Tiger reserve (formerly Dandeli-Anshi) with black panthers and great hornbills",
    "tier": "top",
    "months": [
     10,
@@ -2919,7 +2919,7 @@
    "g": "water",
    "lat": 14.9,
    "lng": 74.74,
-   "why": "Mini-Niagara in the forest",
+   "why": "15 m falls in the forest, 32 km from Yellapur",
    "tier": "gem",
    "months": [
     7,
@@ -2935,7 +2935,7 @@
    "g": "water",
    "lat": 14.48,
    "lng": 74.74,
-   "why": "Deep forest falls near Sirsi",
+   "why": "Aghanashini drops 116 m into a forest gorge near Sirsi",
    "tier": "gem",
    "months": [
     7,
@@ -2951,7 +2951,7 @@
    "g": "water",
    "lat": 14.86,
    "lng": 74.76,
-   "why": "Falls dropping into a gorge",
+   "why": "Bedti river falls about 200 m in two steps into a gorge",
    "tier": "gem",
    "months": [
     7,
@@ -2967,7 +2967,7 @@
    "g": "temple",
    "lat": 14.62,
    "lng": 74.84,
-   "why": "Goddess temple with a huge fair every two years",
+   "why": "Marikamba temple of 1688; its fair is held every two years",
    "tier": "gem",
    "months": [
     10,
@@ -2983,7 +2983,7 @@
    "g": "temple",
    "lat": 14.53,
    "lng": 75.02,
-   "why": "One of Karnataka's oldest towns",
+   "why": "Ancient Kadamba capital with the Madhukeshwara temple",
    "tier": "gem",
    "months": [
     10,
@@ -2999,7 +2999,7 @@
    "g": "coast",
    "lat": 14.81,
    "lng": 74.12,
-   "why": "Coastal town where Tagore wrote his first play",
+   "why": "Port at the mouth of the Kali; Tagore stayed here in 1882, aged 22",
    "tier": "gem",
    "months": [
     11,
@@ -3015,7 +3015,7 @@
    "g": "culture",
    "lat": 14.81,
    "lng": 74.12,
-   "why": "Warship museum on Karwar beach",
+   "why": "Decommissioned missile boat INS Chapal, now a museum on Tagore Beach",
    "tier": "gem",
    "months": [
     10,
@@ -3031,7 +3031,7 @@
    "g": "coast",
    "lat": 14.82,
    "lng": 74.09,
-   "why": "Islands off Karwar",
+   "why": "Islands off Karwar where the Kali meets the sea, by boat from Devbagh",
    "tier": "gem",
    "months": [
     11,
@@ -3047,7 +3047,7 @@
    "g": "water",
    "lat": 14.28,
    "lng": 74.45,
-   "why": "Mangrove river boat trips",
+   "why": "Boat trips through the Sharavathi mangroves at Honnavar",
    "tier": "gem",
    "months": [
     10,
@@ -3063,7 +3063,7 @@
    "g": "coast",
    "lat": 14.02,
    "lng": 74.33,
-   "why": "India's best dive site off Murudeshwar",
+   "why": "Heart-shaped island 19 km off Murudeshwar with coral reefs for diving",
    "tier": "top",
    "months": [
     11,
@@ -3079,7 +3079,7 @@
    "g": "heritage",
    "lat": 14.49,
    "lng": 74.42,
-   "why": "Laterite fort of the pepper queen",
+   "why": "16th-century laterite fort near Gokarna, linked to the pepper queen Chennabhairadevi",
    "tier": "top",
    "months": [
     10,
@@ -3095,7 +3095,7 @@
    "g": "temple",
    "lat": 14.23,
    "lng": 74.47,
-   "why": "Popular Ganapati temple",
+   "why": "Maha Ganapati temple near Murudeshwar, visited by about a million people a year",
    "tier": "gem",
    "months": [
     10,
@@ -3111,7 +3111,7 @@
    "g": "heritage",
    "lat": 13.99,
    "lng": 74.56,
-   "why": "Old port with Jain and Hindu temples",
+   "why": "Old port town with Jain basadis and temples on the Konkan line",
    "tier": "gem",
    "months": [
     10,
@@ -3127,7 +3127,7 @@
    "g": "temple",
    "lat": 13.341,
    "lng": 74.752,
-   "why": "Krishna seen through the Kanakana Kindi window",
+   "why": "Krishna temple and Dvaita matha founded by Madhvacharya, seen through the Kanakana Kindi window",
    "tier": "icon",
    "months": [
     10,
@@ -3143,7 +3143,7 @@
    "g": "coast",
    "lat": 13.36,
    "lng": 74.69,
-   "why": "Basalt column islands off Malpe",
+   "why": "Fishing harbour of Malpe and St Mary's Island, made of basalt columns",
    "tier": "top",
    "months": [
     11,
@@ -3159,7 +3159,7 @@
    "g": "coast",
    "lat": 13.22,
    "lng": 74.74,
-   "why": "Lighthouse beach south of Udupi",
+   "why": "Beach with a lighthouse you can climb, south of Udupi",
    "tier": "gem",
    "months": [
     11,
@@ -3175,7 +3175,7 @@
    "g": "coast",
    "lat": 13.7,
    "lng": 74.64,
-   "why": "Highway between sea and river",
+   "why": "Beach where NH-66 runs between the sea and the Souparnika river",
    "tier": "top",
    "months": [
     11,
@@ -3191,7 +3191,7 @@
    "g": "temple",
    "lat": 13.86,
    "lng": 74.81,
-   "why": "Goddess temple at the foot of Kodachadri",
+   "why": "Mookambika temple at the foot of the Kodachadri hills",
    "tier": "top",
    "months": [
     10,
@@ -3207,7 +3207,7 @@
    "g": "temple",
    "lat": 13.21,
    "lng": 74.99,
-   "why": "Bahubali statue and Chaturmukha Basadi",
+   "why": "Jain town with a 42-ft 15th-century Bahubali and the Chaturmukha Basadi",
    "tier": "top",
    "months": [
     10,
@@ -3223,7 +3223,7 @@
    "g": "hills",
    "lat": 13.35,
    "lng": 74.78,
-   "why": "Sunset view over the Swarna",
+   "why": "Hilltop viewpoint at Manipal over the Swarna river at sunset",
    "tier": "gem",
    "months": [
     10,
@@ -3239,7 +3239,7 @@
    "g": "coast",
    "lat": 13.43,
    "lng": 74.68,
-   "why": "Where the river meets the sea",
+   "why": "Beach on the sandbar where the Swarna meets the Arabian Sea",
    "tier": "gem",
    "months": [
     11,
@@ -3255,7 +3255,7 @@
    "g": "culture",
    "lat": 13.35,
    "lng": 74.79,
-   "why": "Relocated heritage houses at Manipal",
+   "why": "Heritage houses moved from across south India and rebuilt at Manipal",
    "tier": "top",
    "months": [
     10,
@@ -3271,7 +3271,7 @@
    "g": "culture",
    "lat": 12.914,
    "lng": 74.856,
-   "why": "Port city of fish curry, ghee roast and churches",
+   "why": "Port city of ghee roast, fish curry and old churches",
    "tier": "top",
    "months": [
     10,
@@ -3287,7 +3287,7 @@
    "g": "heritage",
    "lat": 12.874,
    "lng": 74.846,
-   "why": "Chapel covered in Italian-style frescoes",
+   "why": "Chapel of St Aloysius College (1880s), its walls covered with paintings by Antonio Moscheni",
    "tier": "top",
    "months": [
     10,
@@ -3303,7 +3303,7 @@
    "g": "temple",
    "lat": 12.887,
    "lng": 74.855,
-   "why": "Temple with a Buddhist past",
+   "why": "Kadri Manjunatha temple with 10th-century bronzes and a past linked to Buddhism",
    "tier": "gem",
    "months": [
     10,
@@ -3319,7 +3319,7 @@
    "g": "coast",
    "lat": 12.94,
    "lng": 74.8,
-   "why": "Mangaluru's beaches",
+   "why": "City beaches at Panambur and Tannirbhavi",
    "tier": "gem",
    "months": [
     11,
@@ -3335,7 +3335,7 @@
    "g": "coast",
    "lat": 12.79,
    "lng": 74.85,
-   "why": "Rocky beach with a temple",
+   "why": "Rocky beach with a Someshwara temple, south of Mangaluru",
    "tier": "gem",
    "months": [
     11,
@@ -3351,7 +3351,7 @@
    "g": "heritage",
    "lat": 12.89,
    "lng": 74.82,
-   "why": "Tipu's watchtower on the Gurupura",
+   "why": "Tipu Sultan's watchtower (1784) on the Gurupura river",
    "tier": "gem",
    "months": [
     10,
@@ -3367,7 +3367,7 @@
    "g": "temple",
    "lat": 12.95,
    "lng": 75.38,
-   "why": "Manjunatha temple and Bahubali statue",
+   "why": "Manjunatha temple on the Nethravathi, with a 39-ft Bahubali",
    "tier": "top",
    "months": [
     10,
@@ -3383,7 +3383,7 @@
    "g": "temple",
    "lat": 12.66,
    "lng": 75.61,
-   "why": "Serpent-god temple below Kumara Parvatha",
+   "why": "Subramanya temple on the Kumaradhara, below Kumara Parvatha",
    "tier": "top",
    "months": [
     10,
@@ -3399,7 +3399,7 @@
    "g": "hills",
    "lat": 12.6853,
    "lng": 75.6512,
-   "why": "One of south India's toughest treks",
+   "why": "Two-day trek to a 1,712 m peak from Kukke Subramanya",
    "tier": "top",
    "months": [
     10,
@@ -3415,7 +3415,7 @@
    "g": "temple",
    "lat": 13.07,
    "lng": 74.99,
-   "why": "Jain temple of 1,000 carved pillars",
+   "why": "Saavira Kambada Basadi of 1430, a Jain temple of a thousand carved pillars",
    "tier": "top",
    "months": [
     10,
@@ -3431,7 +3431,7 @@
    "g": "temple",
    "lat": 13.01,
    "lng": 75.16,
-   "why": "Bahubali statue by the river",
+   "why": "35-ft Bahubali of 1604 on the Phalguni river",
    "tier": "gem",
    "months": [
     10,
@@ -3447,7 +3447,7 @@
    "g": "culture",
    "lat": 12.93,
    "lng": 74.9,
-   "why": "Heritage village, zoo and science centre",
+   "why": "Park with a heritage village, zoo and science centre in eastern Mangaluru",
    "tier": "gem",
    "months": [
     10,
@@ -3463,7 +3463,7 @@
    "g": "culture",
    "lat": 12.9,
    "lng": 74.9,
-   "why": "All-night dance-drama of the coast (Nov–May)",
+   "why": "All-night Yakshagana dance-drama of the coast, staged from November to May",
    "tier": "top",
    "months": [
     11,
@@ -3479,7 +3479,7 @@
    "g": "heritage",
    "lat": 14.24,
    "lng": 74.65,
-   "why": "Forest ruins of a Jain town",
+   "why": "Ruins of a Jain town in the forest, with the 1562 Chaturmukha Basadi",
    "tier": "gem",
    "months": [
     10,
@@ -3495,7 +3495,7 @@
    "g": "heritage",
    "lat": 15.141,
    "lng": 76.925,
-   "why": "Vijayanagara-era hill fort over a giant granite boulder, one of Karnataka's largest",
+   "why": "Hill fort over a huge granite rock in Ballari, rebuilt under Hyder Ali",
    "tier": "top",
    "months": [
     10,
@@ -3511,7 +3511,7 @@
    "g": "temple",
    "lat": 15.05,
    "lng": 76.55,
-   "why": "Twin Chalukya-era temples of Kumaraswamy and Parvati on Krauncha Giri in the Sandur hills",
+   "why": "Kumaraswamy and Parvati temples on a hill in the Sandur range",
    "tier": "gem",
    "months": [
     7,
@@ -3527,7 +3527,7 @@
    "g": "wildlife",
    "lat": 16.53,
    "lng": 76.62,
-   "why": "17th-century tank among rocky hillocks, Karnataka's second-largest bird sanctuary",
+   "why": "Wetland at Bonal, Karnataka's second-largest bird sanctuary, on an old tank",
    "tier": "gem",
    "months": [
     11,
@@ -3559,7 +3559,7 @@
    "g": "water",
    "lat": 16.22,
    "lng": 76.36,
-   "why": "Big Krishna river reservoir, a popular picnic spot when the gates are open",
+   "why": "Basava Sagara reservoir on the Krishna, busy when the dam gates are open",
    "tier": "gem",
    "months": [
     8,
@@ -3575,7 +3575,7 @@
    "g": "temple",
    "lat": 14.513,
    "lng": 75.805,
-   "why": "1224 Hoysala temple to the combined Shiva-Vishnu form, by the Tungabhadra",
+   "why": "Hoysala temple of 1224 to Harihara, half Shiva, half Vishnu, by the Tungabhadra",
    "tier": "gem",
    "months": [
     10,
@@ -3591,7 +3591,7 @@
    "g": "heritage",
    "lat": 14.17,
    "lng": 76.0,
-   "why": "16th-century stepped tank with a pavilion in the middle and watch-towers on its corners",
+   "why": "Stepped tank with a pavilion in the middle and watch-towers at its corners",
    "tier": "gem",
    "months": [
     8,
@@ -3607,7 +3607,7 @@
    "g": "water",
    "lat": 14.2,
    "lng": 75.98,
-   "why": "Centuries-old man-made lake, often called Asia's second-largest",
+   "why": "Sulekere, a centuries-old man-made lake, often called Asia's second-largest",
    "tier": "gem",
    "months": [
     8,
@@ -3623,7 +3623,7 @@
    "g": "wildlife",
    "lat": 14.93,
    "lng": 75.27,
-   "why": "Ruined Bankapura fort grounds turned into one of Karnataka's two peacock sanctuaries",
+   "why": "Peacock sanctuary inside the ruined Bankapura fort",
    "tier": "gem",
    "months": [
     11,
@@ -3639,7 +3639,7 @@
    "g": "culture",
    "lat": 14.98,
    "lng": 75.21,
-   "why": "Open-air garden of 2,000+ sculptures of village life, on the Pune–Bengaluru highway",
+   "why": "Open-air garden of hundreds of sculptures of village life beside NH-48",
    "tier": "gem",
    "months": [
     10,
@@ -3655,7 +3655,7 @@
    "g": "heritage",
    "lat": 16.31,
    "lng": 76.58,
-   "why": "Island fort among the rocks of the Krishna river, near Lingsugur",
+   "why": "Fort on an island of rocks in the Krishna, near Lingsugur",
    "tier": "gem",
    "months": [
     8,
@@ -3671,7 +3671,7 @@
    "g": "temple",
    "lat": 15.43,
    "lng": 75.43,
-   "why": "1050 Chalukya temple in black schist, the first of its kind in the region",
+   "why": "Amrutesvara temple of 1050, an early Western Chalukya temple in soapstone",
    "tier": "gem",
    "months": [
     10,
@@ -3687,7 +3687,7 @@
    "g": "hills",
    "lat": 15.37,
    "lng": 75.13,
-   "why": "Hubballi's hilltop park with sunset views over the twin cities",
+   "why": "Hilltop park in Hubballi with sunset views over the twin cities",
    "tier": "gem",
    "months": [
     10,
@@ -3703,7 +3703,7 @@
    "g": "temple",
    "lat": 15.13,
    "lng": 75.47,
-   "why": "Someshwara temple complex and an Adil Shahi mosque built like a Hindu temple",
+   "why": "Temple town with the Someshwara complex and an Adil Shahi mosque",
    "tier": "gem",
    "months": [
     10,
