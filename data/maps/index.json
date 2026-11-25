@@ -149,6 +149,58 @@
    "boundary_license": "Open Data Commons Open Database License 1.0",
    "data_file": "data/maps/my.json",
    "validated_at": "2026-11-25"
+  },
+  "la": {
+   "name": "Lao People's Democratic Republic",
+   "iso3": "LAO",
+   "m49": "418",
+   "map_status": "ready",
+   "admin_level": "ADM1",
+   "admin_unit_count": 18,
+   "boundary_year": "2017",
+   "boundary_source": "OpenStreetMap, Wambacher",
+   "boundary_license": "Open Data Commons Open Database License 1.0",
+   "data_file": "data/maps/la.json",
+   "validated_at": "2026-11-25"
+  },
+  "bn": {
+   "name": "Brunei Darussalam",
+   "iso3": "BRN",
+   "m49": "096",
+   "map_status": "ready",
+   "admin_level": "ADM1",
+   "admin_unit_count": 4,
+   "boundary_year": "2007",
+   "boundary_source": "Wikimedia Commons",
+   "boundary_license": "Public Domain",
+   "data_file": "data/maps/bn.json",
+   "validated_at": "2026-11-25"
+  },
+  "sg": {
+   "name": "Singapore",
+   "iso3": "SGP",
+   "m49": "702",
+   "map_status": "ready",
+   "admin_level": "ADM1",
+   "admin_unit_count": 5,
+   "boundary_year": "2016",
+   "boundary_source": "Urban Redevelopment Authority, derived from ADM 3",
+   "boundary_license": "Open Data Commons Open Database License 1.0",
+   "data_file": "data/maps/sg.json",
+   "validated_at": "2026-11-25"
+  },
+  "tl": {
+   "name": "Timor-Leste",
+   "iso3": "TLS",
+   "m49": "626",
+   "map_status": "ready",
+   "admin_level": "ADM1",
+   "admin_unit_count": 13,
+   "boundary_year": "2017",
+   "boundary_source": "OpenStreetMap, Wambacher",
+   "boundary_license": "Open Data Commons Open Database License 1.0",
+   "data_file": "data/maps/tl.json",
+   "validated_at": "2026-11-25"
   }
  }
 }
