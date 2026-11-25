@@ -11,3 +11,10 @@ The Atlas separates **current geographical entities** from destination records.
 - Before publishing an entity, record a source and review date. Boundary datasets must carry their own source, version, and dispute/claim metadata.
 
 The first seed contains India and Nepal because those are the countries already represented by the destination catalogue. It is not yet a complete world registry.
+
+
+## Global boundary display
+
+The interactive world overview in `index.html` loads the generalised 1:110m country polygons from `world-atlas` (Natural Earth-derived) at runtime. Polygon IDs are matched to the three-digit UN M49 numeric codes in `data/entities/current.json`. The display reports how many registry entries have a polygon at this scale; it does not claim that every statistical area has a separate polygon. Small islands and areas may be omitted at 1:110m resolution.
+
+Boundary geometry is a cartographic reference, not a legal boundary dataset. It must not be interpreted as a sovereignty, recognition, affiliation, or delimitation position. The boundary service is an external runtime dependency; if it is unavailable, the searchable entity registry remains usable. The India/Nepal administrative map and historical sites layer remain separate.
