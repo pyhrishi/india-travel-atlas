@@ -2959,7 +2959,7 @@ const HIMS=new Set(["uttarakhand","himachal-pradesh","jammu-and-kashmir","ladakh
 try{THEMES.push(["mtreks","Treks for this season","Trails and summits at their best this month",p=>tg("trek")(p)&&!tg("easy")(p),{season:1}],["easywalks","Easy hikes with big views","Short climbs anyone can do",tg("easy"),{season:1}])}catch(e){}
 
 /* ================= Detail cards for the new layers ================= */
-const XF=["trek","park","wet","bird","cave","sky","rail","drive","gi","art","eat","beach","fall"];
+const XF=["trek","park","wet","bird","cave","sky","rail","drive","gi","art","eat","beach","fall","fort"];
 const lst=a=>(a||[]).filter(Boolean).map(esc).join(" · ");
 const lnk=(u,t)=>u?`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(t||"Official site")} ↗</a>`:esc(t||"");
 /* each layer: card title, a kind badge, rows [label, html], and notes */
@@ -2975,6 +2975,7 @@ const XCARD={
  art:d=>({t:"See it performed",k:d.kind||"Living tradition",rows:[["Where",esc(d.where||"")],["When",esc(d.when||"")],["Lasts",esc(d.length||"")],["What you'll see",esc(d.what||"")]],note:d.note}),
  beach:d=>({t:"On the beach",k:"Beach",rows:[["Swimming",esc(d.swim||"")],["Crowds",esc(d.crowd||"")],["Feel",esc(d.vibe||"")],["Do",lst(d.sports)],["Surf",esc(d.surf||"")],["Sunset",d.sunset?"Faces the sunset":""]],warn:d.warn,note:d.note,foot:"West-coast seas turn rough from June to September; most beaches put up red flags then."}),
  fall:d=>({t:"The falls",k:d.h?`About ${d.h} m`:"Waterfall",rows:[["Height",d.h?`About ${d.h} m`:""],["Shape",esc(d.tiers||"")],["Flowing",esc(d.flow||"")],["Getting close",esc(d.walk||"")],["Bathing",d.bathe===true?"Allowed in parts":d.bathe===false?"Not safe or not allowed":""]],warn:d.warn,note:d.note}),
+ fort:d=>({t:d.kind==="Stepwell"?"The stepwell":d.kind==="Palace"?"The palace":"The fort",k:d.unesco?"UNESCO":d.kind,rows:[["Built",esc(d.built||"")],["By",esc(d.by||"")],["Don't miss",lst(d.see)],["World Heritage",esc(d.unesco||"")],["Stay",esc(d.stay||"")],["Evenings",esc(d.show||"")]],warn:d.warn,note:d.note}),
  eat:d=>({t:"What to eat",k:d.kind||"Eatery",rows:[["Since",d.since?String(d.since):""],["Known for",lst(d.dishes)],["Food",d.veg===true?"Vegetarian":d.veg===false?"Non-vegetarian too":""],["Go",esc(d.when||"")]],note:d.note,foot:"Hours and prices change; old favourites sometimes move. Check before you go."}),
 };
 function xBlocks(p){return XF.filter(f=>f!=="trek"&&p[f]&&XCARD[f]).map(f=>{const c=XCARD[f](p[f]),rows=c.rows.filter(r=>r[1]);
@@ -2997,6 +2998,9 @@ function xBlocks(p){return XF.filter(f=>f!=="trek"&&p[f]&&XCARD[f]).map(f=>{cons
  ["eats","Legendary eateries","Old tiffin rooms, Irani cafés, dhabas and night markets","#b45309",tg("eat")],
  ["beaches","Beaches & islands","Swimmable bays, surf breaks and coral islands","#0e7490",tg("beach")],
  ["monsoonfalls","Monsoon waterfalls","Falls at their best from July to October","#1d4ed8",tg("fall")],
+ ["unescoforts","World Heritage forts","Rajasthan's hill forts, Maratha forts, Red Fort and Agra Fort","#7f1d1d",tg("unescofort")],
+ ["forts","Forts & palaces","Who built them, what not to miss, and where you can stay","#78350f",tg("fort")],
+ ["stepwells","Stepwells","Carved stairways down to water, from Rani ki Vav to Chand Baori","#a16207",tg("stepwell")],
  ["c-chardham","Char Dham (Uttarakhand)","Yamunotri, Gangotri, Kedarnath, Badrinath — traditionally west to east","#9f1239",tg("c-chardham")],
  ["c-dham4","The four dhams","Badrinath, Dwarka, Puri and Rameswaram at India's four corners","#7c2d12",tg("c-dham4")],
  ["c-jyotirlinga","12 Jyotirlingas","The twelve shrines where Shiva is worshipped as a pillar of light","#4c1d95",tg("c-jyotirlinga")],

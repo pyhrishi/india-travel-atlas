@@ -1363,7 +1363,12 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "fort": {
+    "kind": "Stepwell",
+    "built": "1499",
+    "by": "Bai Harir Sultani"
+   }
   },
   {
    "n": 59,
@@ -1411,7 +1416,15 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "fort": {
+    "kind": "Stepwell",
+    "built": "1499",
+    "by": "Rana Veer Singh and Queen Rudabai",
+    "see": [
+     "Five storeys of carved pillars"
+    ]
+   }
   },
   {
    "n": 62,
@@ -1513,7 +1526,17 @@
     10,
     3
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "fort": {
+    "kind": "Stepwell",
+    "built": "11th century",
+    "by": "Queen Udayamati",
+    "unesco": "Rani-ki-Vav (2014)",
+    "see": [
+     "About 500 sculptures",
+     "Seven levels"
+    ]
+   }
   },
   {
    "n": 68,
@@ -1727,6 +1750,14 @@
     "length": "Nine nights",
     "what": "Huge Garba grounds with live music",
     "note": "Garba of Gujarat is on UNESCO's intangible heritage list"
+   },
+   "fort": {
+    "kind": "Palace",
+    "built": "1890",
+    "by": "Maharaja Sayajirao Gaekwad III",
+    "see": [
+     "Said to be four times the size of Buckingham Palace"
+    ]
    }
   },
   {
@@ -3386,6 +3417,31 @@
     ],
     "veg": true,
     "when": "Lunch or dinner"
+   }
+  },
+  {
+   "n": 180,
+   "name": "Helical Vav (spiral stepwell)",
+   "district": "Panchmahal",
+   "category": "Stepwell",
+   "g": "heritage",
+   "lat": 22.488,
+   "lng": 73.537,
+   "why": "Spiral stepwell within the Champaner-Pavagadh park",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "30 min",
+   "fort": {
+    "kind": "Stepwell",
+    "built": "About 1523–26",
+    "by": "Gujarat Sultanate",
+    "unesco": "Champaner-Pavagadh (2004)",
+    "see": [
+     "Spiral stairway around the shaft"
+    ]
    }
   }
  ],

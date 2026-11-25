@@ -2206,7 +2206,15 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "fort": {
+    "kind": "Palace",
+    "built": "1887",
+    "by": "Maharaja Nripendra Narayan",
+    "see": [
+     "Modelled on Buckingham Palace"
+    ]
+   }
   },
   {
    "n": 114,

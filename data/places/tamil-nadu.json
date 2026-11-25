@@ -571,7 +571,17 @@
     11,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "fort": {
+    "kind": "Palace",
+    "built": "About 1601, rebuilt 1750",
+    "by": "Travancore kings",
+    "note": "In Tamil Nadu but run by Kerala",
+    "see": [
+     "Wooden halls",
+     "Mural paintings"
+    ]
+   }
   },
   {
    "n": 23,
@@ -2351,7 +2361,18 @@
     11,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "fort": {
+    "kind": "Fort",
+    "built": "9th century onward",
+    "by": "Cholas, then Vijayanagara nayaks",
+    "unesco": "Maratha Military Landscapes (2025)",
+    "note": "Called the 'Troy of the East'",
+    "see": [
+     "Rajagiri",
+     "Krishnagiri"
+    ]
+   }
   },
   {
    "n": 119,
@@ -2472,7 +2493,16 @@
     11,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "fort": {
+    "kind": "Fort",
+    "built": "16th century",
+    "by": "Vijayanagara chieftains",
+    "see": [
+     "Jalakandeswarar temple",
+     "Moat"
+    ]
+   }
   },
   {
    "n": 126,

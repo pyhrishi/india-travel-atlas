@@ -116,7 +116,16 @@
     5,
     10
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "fort": {
+    "kind": "Palace",
+    "built": "17th century",
+    "by": "King Sengge Namgyal",
+    "see": [
+     "Nine storeys",
+     "Views over Leh"
+    ]
+   }
   },
   {
    "n": 2,

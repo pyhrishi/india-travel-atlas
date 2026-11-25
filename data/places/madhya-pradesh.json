@@ -355,7 +355,18 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "fort": {
+    "kind": "Fort",
+    "built": "8th century onward",
+    "by": "Many dynasties; Man Mandir by Raja Man Singh Tomar",
+    "show": "Light and sound show",
+    "see": [
+     "Man Mandir palace",
+     "Teli ka Mandir",
+     "Saas-Bahu temples"
+    ]
+   }
   },
   {
    "n": 13,
@@ -371,7 +382,16 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "fort": {
+    "kind": "Palace",
+    "built": "1874",
+    "by": "Jayajirao Scindia",
+    "see": [
+     "Durbar Hall chandeliers",
+     "Silver toy train"
+    ]
+   }
   },
   {
    "n": 14,
@@ -656,7 +676,15 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "fort": {
+    "kind": "Palace",
+    "built": "1614",
+    "by": "Bir Singh Deo",
+    "see": [
+     "Seven-storey palace built without timber"
+    ]
+   }
   },
   {
    "n": 29,
@@ -2350,7 +2378,13 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "fort": {
+    "kind": "Fort",
+    "built": "15th century onward",
+    "by": "Faruqi sultans",
+    "note": "Called the key to the Deccan"
+   }
   },
   {
    "n": 116,

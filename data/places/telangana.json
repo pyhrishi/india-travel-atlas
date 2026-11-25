@@ -147,7 +147,16 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "fort": {
+    "kind": "Palace",
+    "built": "18th–19th century",
+    "by": "Asaf Jahi Nizams",
+    "see": [
+     "Khilwat Mubarak durbar hall",
+     "Vintage cars"
+    ]
+   }
   },
   {
    "n": 5,
@@ -179,7 +188,17 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "fort": {
+    "kind": "Fort",
+    "built": "12th century onward",
+    "by": "Kakatiyas, then Qutb Shahis",
+    "show": "Light and sound show",
+    "see": [
+     "Clapping portico acoustics",
+     "Bala Hissar"
+    ]
+   }
   },
   {
    "n": 7,
@@ -227,7 +246,17 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "fort": {
+    "kind": "Palace",
+    "built": "1893",
+    "by": "Nawab Vikar-ul-Umra",
+    "stay": "Taj palace hotel; visits mostly for hotel guests or diners",
+    "see": [
+     "Venetian chandeliers",
+     "Jade room"
+    ]
+   }
   },
   {
    "n": 10,

@@ -68,7 +68,15 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "fort": {
+    "kind": "Palace",
+    "built": "1901",
+    "by": "Maharaja Radha Kishore Manikya",
+    "see": [
+     "State museum"
+    ]
+   }
   },
   {
    "n": 2,

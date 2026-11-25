@@ -79,7 +79,20 @@
     10,
     3
    ],
-   "time": "2–3 hrs"
+   "time": "2–3 hrs",
+   "fort": {
+    "kind": "Fort",
+    "built": "1639–48",
+    "by": "Shah Jahan",
+    "unesco": "Red Fort Complex (2007)",
+    "show": "Light and sound show",
+    "warn": "Closed Mondays",
+    "see": [
+     "Diwan-i-Aam",
+     "Diwan-i-Khas",
+     "Rang Mahal"
+    ]
+   }
   },
   {
    "n": 2,
@@ -413,7 +426,15 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "fort": {
+    "kind": "Fort",
+    "built": "1321–25",
+    "by": "Ghiyas-ud-din Tughlaq",
+    "see": [
+     "Vast ruined walls"
+    ]
+   }
   },
   {
    "n": 22,
@@ -618,7 +639,16 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "fort": {
+    "kind": "Stepwell",
+    "built": "Rebuilt in the 14th century",
+    "by": "Tughlaq period (by tradition Raja Agrasen)",
+    "see": [
+     "104 steps",
+     "Arched niches"
+    ]
+   }
   },
   {
    "n": 34,
@@ -746,7 +776,17 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "fort": {
+    "kind": "Fort",
+    "built": "16th century",
+    "by": "Humayun and Sher Shah Suri",
+    "show": "Light and sound show; boating in the moat",
+    "see": [
+     "Qila-i-Kuhna mosque",
+     "Sher Mandal"
+    ]
+   }
   },
   {
    "n": 42,
@@ -1145,7 +1185,16 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "fort": {
+    "kind": "Stepwell",
+    "built": "1506",
+    "by": "Daulat Khan, in the Lodi period",
+    "see": [
+     "Four levels",
+     "Mosque beside it"
+    ]
+   }
   },
   {
    "n": 66,

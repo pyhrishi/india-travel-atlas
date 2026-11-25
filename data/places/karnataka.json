@@ -599,7 +599,16 @@
     10,
     2
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "fort": {
+    "kind": "Fort",
+    "built": "1429 onward",
+    "by": "Bahmani sultans",
+    "see": [
+     "Rangin Mahal",
+     "Persian tilework"
+    ]
+   }
   },
   {
    "n": 25,
@@ -1065,7 +1074,16 @@
     10,
     2
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "fort": {
+    "kind": "Fort",
+    "built": "17th–18th century",
+    "by": "Nayakas of Chitradurga",
+    "see": [
+     "Seven concentric walls",
+     "Onake Obavva's hole"
+    ]
+   }
   },
   {
    "n": 53,
@@ -1959,6 +1977,16 @@
     "when": "Mysuru Dasara, ten days ending on Vijayadashami (Sept–Oct)",
     "length": "Ten days",
     "what": "Lit-up palace, the Jamboo Savari elephant procession and torchlight parade"
+   },
+   "fort": {
+    "kind": "Palace",
+    "built": "1897–1912",
+    "by": "Wadiyars",
+    "show": "Lit by about 100,000 bulbs on Sunday and holiday evenings",
+    "see": [
+     "Durbar Hall",
+     "Kalyana Mantapa"
+    ]
    }
   },
   {

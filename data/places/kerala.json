@@ -1284,7 +1284,16 @@
     10,
     4
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "fort": {
+    "kind": "Palace",
+    "built": "1555",
+    "by": "Portuguese, for the Raja of Kochi",
+    "note": "Also called the Dutch Palace",
+    "see": [
+     "Ramayana murals"
+    ]
+   }
   },
   {
    "n": 63,
@@ -2653,6 +2662,14 @@
     "crowd": "Moderate",
     "sunset": true,
     "vibe": "Fort on the headland"
+   },
+   "fort": {
+    "kind": "Fort",
+    "built": "1650",
+    "by": "Shivappa Nayaka",
+    "see": [
+     "Keyhole-shaped laterite fort by the sea"
+    ]
    }
   },
   {

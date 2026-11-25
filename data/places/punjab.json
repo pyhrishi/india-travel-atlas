@@ -170,7 +170,15 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "fort": {
+    "kind": "Fort",
+    "built": "1760 onward",
+    "by": "Bhangi Misl, later Ranjit Singh",
+    "see": [
+     "Evening show"
+    ]
+   }
   },
   {
    "n": 6,
@@ -588,7 +596,15 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "fort": {
+    "kind": "Fort",
+    "built": "1763",
+    "by": "Maharaja Ala Singh",
+    "see": [
+     "Durbar Hall"
+    ]
+   }
   },
   {
    "n": 28,

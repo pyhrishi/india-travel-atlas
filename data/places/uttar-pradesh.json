@@ -189,7 +189,18 @@
     10,
     3
    ],
-   "time": "2–3 hrs"
+   "time": "2–3 hrs",
+   "fort": {
+    "kind": "Fort",
+    "built": "1565 onward",
+    "by": "Akbar, rebuilt by Shah Jahan",
+    "unesco": "Agra Fort (1983)",
+    "see": [
+     "Musamman Burj",
+     "Diwan-i-Khas",
+     "Taj Mahal views"
+    ]
+   }
   },
   {
    "n": 3,
@@ -1683,7 +1694,15 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "fort": {
+    "kind": "Fort",
+    "built": "1613",
+    "by": "Bir Singh Deo",
+    "see": [
+     "Rani Lakshmibai's jump point"
+    ]
+   }
   },
   {
    "n": 86,
@@ -1747,7 +1766,15 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "fort": {
+    "kind": "Fort",
+    "built": "Ancient; current works medieval",
+    "by": "Chandelas among others",
+    "see": [
+     "Neelkanth temple"
+    ]
+   }
   },
   {
    "n": 90,

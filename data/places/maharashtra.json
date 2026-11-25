@@ -675,7 +675,17 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "fort": {
+    "kind": "Fort",
+    "built": "15th–17th century",
+    "by": "Siddis of Janjira",
+    "note": "Never captured; reached by sailboat",
+    "warn": "Boats stop in the monsoon",
+    "see": [
+     "Kalal Bangadi cannon"
+    ]
+   }
   },
   {
    "n": 29,
@@ -723,6 +733,17 @@
     "el": 820,
     "diff": "Easy",
     "base": "Pachad"
+   },
+   "fort": {
+    "kind": "Fort",
+    "built": "1656 onward",
+    "by": "Chhatrapati Shivaji Maharaj",
+    "unesco": "Maratha Military Landscapes (2025)",
+    "see": [
+     "Samadhi of Shivaji",
+     "Ropeway",
+     "Takmak Tok"
+    ]
    }
   },
   {
@@ -915,6 +936,14 @@
     "el": 1033,
     "diff": "Easy",
     "base": "Malavli"
+   },
+   "fort": {
+    "kind": "Fort",
+    "built": "Ancient; strengthened by the Marathas",
+    "unesco": "Maratha Military Landscapes (2025)",
+    "see": [
+     "Vinchu Kata spur"
+    ]
    }
   },
   {
@@ -1023,6 +1052,14 @@
     "el": 1312,
     "diff": "Easy",
     "base": "Atkarwadi"
+   },
+   "fort": {
+    "kind": "Fort",
+    "built": "Ancient",
+    "see": [
+     "Tanaji's memorial",
+     "Pithla-bhakri stalls"
+    ]
    }
   },
   {
@@ -1077,6 +1114,14 @@
     "el": 1060,
     "diff": "Easy",
     "base": "Junnar"
+   },
+   "fort": {
+    "kind": "Fort",
+    "built": "Ancient, rebuilt in medieval times",
+    "unesco": "Maratha Military Landscapes (2025)",
+    "see": [
+     "Shivaji's birthplace"
+    ]
    }
   },
   {
@@ -1174,6 +1219,17 @@
     "el": 1376,
     "diff": "Moderate",
     "base": "Gunjavane"
+   },
+   "fort": {
+    "kind": "Fort",
+    "built": "17th century",
+    "by": "Chhatrapati Shivaji Maharaj",
+    "unesco": "Maratha Military Landscapes (2025)",
+    "note": "Shivaji's capital for about 26 years",
+    "see": [
+     "Padmavati machi",
+     "Balekilla"
+    ]
    }
   },
   {
@@ -1318,6 +1374,15 @@
     "el": 1080,
     "diff": "Easy",
     "base": "Wada"
+   },
+   "fort": {
+    "kind": "Fort",
+    "built": "1656",
+    "by": "Chhatrapati Shivaji Maharaj",
+    "unesco": "Maratha Military Landscapes (2025)",
+    "see": [
+     "Bhavani temple"
+    ]
    }
   },
   {
@@ -1516,6 +1581,16 @@
     "el": 977,
     "diff": "Easy",
     "base": "Panhala"
+   },
+   "fort": {
+    "kind": "Fort",
+    "built": "12th century onward",
+    "by": "Shilaharas, later Marathas",
+    "unesco": "Maratha Military Landscapes (2025)",
+    "see": [
+     "Teen Darwaza",
+     "Sajja Kothi"
+    ]
    }
   },
   {
@@ -1785,7 +1860,17 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "fort": {
+    "kind": "Fort",
+    "built": "1664–67",
+    "by": "Chhatrapati Shivaji Maharaj",
+    "unesco": "Maratha Military Landscapes (2025)",
+    "note": "Reached by boat from Malvan",
+    "see": [
+     "Shivaji's handprint and footprint"
+    ]
+   }
   },
   {
    "n": 87,
@@ -1860,7 +1945,16 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "fort": {
+    "kind": "Fort",
+    "built": "12th century onward",
+    "by": "Shilaharas, expanded by Shivaji",
+    "unesco": "Maratha Military Landscapes (2025)",
+    "see": [
+     "Sea walls"
+    ]
+   }
   },
   {
    "n": 91,
@@ -2017,7 +2111,16 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "fort": {
+    "kind": "Fort",
+    "built": "12th century onward",
+    "by": "Yadavas, later the Delhi Sultanate",
+    "see": [
+     "Chand Minar",
+     "Dark spiral tunnel"
+    ]
+   }
   },
   {
    "n": 99,
@@ -3973,6 +4076,14 @@
     "el": 1567,
     "diff": "Moderate",
     "base": "Salher village"
+   },
+   "fort": {
+    "kind": "Fort",
+    "built": "Ancient; Maratha from 1671",
+    "unesco": "Maratha Military Landscapes (2025)",
+    "see": [
+     "Parshuram temple at the top"
+    ]
    }
   },
   {
@@ -5071,6 +5182,54 @@
     "h": 52,
     "walk": "Viewpoint",
     "bathe": false
+   }
+  },
+  {
+   "n": 252,
+   "name": "Suvarnadurg Fort",
+   "district": "Ratnagiri",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 17.828,
+   "lng": 73.084,
+   "why": "Island sea fort off Harnai",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Half day",
+   "fort": {
+    "kind": "Fort",
+    "built": "16th century onward",
+    "by": "Adil Shahis, then Marathas",
+    "unesco": "Maratha Military Landscapes (2025)",
+    "note": "Reached by boat from Harnai"
+   }
+  },
+  {
+   "n": 253,
+   "name": "Khanderi Fort",
+   "district": "Raigad",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 18.703,
+   "lng": 72.813,
+   "why": "Island fort at the mouth of Mumbai harbour",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Half day",
+   "fort": {
+    "kind": "Fort",
+    "built": "1679",
+    "by": "Chhatrapati Shivaji Maharaj",
+    "unesco": "Maratha Military Landscapes (2025)",
+    "see": [
+     "Lighthouse"
+    ]
    }
   }
  ],

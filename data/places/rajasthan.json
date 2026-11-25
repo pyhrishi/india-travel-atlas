@@ -166,7 +166,19 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "fort": {
+    "kind": "Fort",
+    "built": "1592 onward",
+    "by": "Raja Man Singh I",
+    "unesco": "Hill Forts of Rajasthan (2013)",
+    "show": "Light and sound show each evening",
+    "see": [
+     "Sheesh Mahal",
+     "Ganesh Pol",
+     "Maota lake"
+    ]
+   }
   },
   {
    "n": 2,
@@ -198,7 +210,18 @@
     10,
     3
    ],
-   "time": "2–3 hrs"
+   "time": "2–3 hrs",
+   "fort": {
+    "kind": "Palace",
+    "built": "1727 onward",
+    "by": "Sawai Jai Singh II",
+    "note": "The royal family still lives in part of it",
+    "see": [
+     "Chandra Mahal",
+     "Pritam Niwas gates",
+     "Mubarak Mahal"
+    ]
+   }
   },
   {
    "n": 4,
@@ -236,6 +259,15 @@
     "el": 600,
     "diff": "Easy",
     "base": "Jaipur"
+   },
+   "fort": {
+    "kind": "Fort",
+    "built": "1734",
+    "by": "Sawai Jai Singh II",
+    "see": [
+     "Madhavendra Bhawan",
+     "Sunset over Jaipur"
+    ]
    }
   },
   {
@@ -252,7 +284,15 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "fort": {
+    "kind": "Fort",
+    "built": "1726",
+    "by": "Sawai Jai Singh II",
+    "see": [
+     "Jaivana cannon"
+    ]
+   }
   },
   {
    "n": 7,
@@ -268,7 +308,15 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "fort": {
+    "kind": "Stepwell",
+    "built": "16th century",
+    "note": "Walking on the steps is usually not allowed",
+    "see": [
+     "Zig-zag stairs on all four sides"
+    ]
+   }
   },
   {
    "n": 8,
@@ -458,7 +506,17 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "fort": {
+    "kind": "Palace",
+    "built": "18th–19th century",
+    "by": "Rawal family of Samode",
+    "stay": "Heritage hotel",
+    "see": [
+     "Sheesh Mahal",
+     "Durbar Hall"
+    ]
+   }
   },
   {
    "n": 19,
@@ -521,7 +579,16 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "fort": {
+    "kind": "Stepwell",
+    "built": "9th century",
+    "by": "Raja Chanda of the Nikumbha dynasty",
+    "note": "One of India's deepest stepwells",
+    "see": [
+     "About 3,500 steps in 13 storeys"
+    ]
+   }
   },
   {
    "n": 22,
@@ -537,7 +604,17 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "fort": {
+    "kind": "Fort",
+    "built": "17th century",
+    "by": "Raja Madho Singh",
+    "note": "Famed as India's most haunted fort",
+    "warn": "Entry is not allowed between sunset and sunrise",
+    "see": [
+     "Ruined town of temples and havelis"
+    ]
+   }
   },
   {
    "n": 23,
@@ -663,7 +740,17 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "fort": {
+    "kind": "Fort",
+    "built": "1464",
+    "by": "Chauhan rulers",
+    "stay": "Heritage hotel; day visits on a paid pass",
+    "see": [
+     "Zipline",
+     "Terraced gardens"
+    ]
+   }
   },
   {
    "n": 29,
@@ -733,7 +820,17 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "fort": {
+    "kind": "Fort",
+    "built": "10th century onward",
+    "by": "Chauhans",
+    "unesco": "Hill Forts of Rajasthan (2013)",
+    "see": [
+     "Trinetra Ganesh temple",
+     "Views over the tiger reserve"
+    ]
+   }
   },
   {
    "n": 32,
@@ -940,7 +1037,19 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "fort": {
+    "kind": "Fort",
+    "built": "1459",
+    "by": "Rao Jodha",
+    "show": "Zipline (Flying Fox) on the walls",
+    "note": "One of India's best-run fort museums",
+    "see": [
+     "Phool Mahal",
+     "Sheesh Mahal",
+     "Museum"
+    ]
+   }
   },
   {
    "n": 42,
@@ -972,7 +1081,17 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "fort": {
+    "kind": "Palace",
+    "built": "1929–43",
+    "by": "Maharaja Umaid Singh",
+    "stay": "Taj palace hotel in part of it",
+    "note": "The royal family lives in one wing",
+    "see": [
+     "Art Deco museum wing"
+    ]
+   }
   },
   {
    "n": 44,
@@ -1020,7 +1139,15 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "fort": {
+    "kind": "Stepwell",
+    "built": "1740s",
+    "by": "A queen of Maharaja Abhay Singh",
+    "see": [
+     "Carved red sandstone"
+    ]
+   }
   },
   {
    "n": 47,
@@ -1139,7 +1266,19 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "fort": {
+    "kind": "Fort",
+    "built": "1156",
+    "by": "Rawal Jaisal",
+    "unesco": "Hill Forts of Rajasthan (2013)",
+    "note": "One of the few forts where people still live",
+    "see": [
+     "Living fort with homes and shops",
+     "Jain temples",
+     "Raj Mahal"
+    ]
+   }
   },
   {
    "n": 53,
@@ -1388,7 +1527,17 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "fort": {
+    "kind": "Fort",
+    "built": "1589–94",
+    "by": "Raja Rai Singh",
+    "note": "Built on the plain, not a hill; never conquered",
+    "see": [
+     "Anup Mahal",
+     "Badal Mahal"
+    ]
+   }
   },
   {
    "n": 66,
@@ -1420,7 +1569,16 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "fort": {
+    "kind": "Palace",
+    "built": "1902–26",
+    "by": "Maharaja Ganga Singh",
+    "stay": "Heritage hotel",
+    "see": [
+     "Red sandstone Indo-Saracenic design"
+    ]
+   }
   },
   {
    "n": 68,
@@ -1863,7 +2021,13 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "fort": {
+    "kind": "Fort",
+    "built": "1523",
+    "by": "Rao Karamsji",
+    "stay": "Heritage hotel"
+   }
   },
   {
    "n": 94,
@@ -1920,6 +2084,18 @@
     "el": 1100,
     "diff": "Moderate",
     "base": "Kumbhalgarh"
+   },
+   "fort": {
+    "kind": "Fort",
+    "built": "15th century",
+    "by": "Rana Kumbha",
+    "unesco": "Hill Forts of Rajasthan (2013)",
+    "show": "Light and sound show",
+    "see": [
+     "Wall of about 36 km",
+     "Badal Mahal",
+     "Over 300 temples"
+    ]
    }
   },
   {
@@ -2016,7 +2192,18 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "fort": {
+    "kind": "Palace",
+    "built": "1559 onward",
+    "by": "Maharana Udai Singh II and successors",
+    "stay": "Shiv Niwas and Fateh Prakash palace hotels",
+    "see": [
+     "Mor Chowk",
+     "Crystal gallery",
+     "Lake Pichola views"
+    ]
+   }
   },
   {
    "n": 103,
@@ -2199,7 +2386,20 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "fort": {
+    "kind": "Fort",
+    "built": "7th century onward",
+    "by": "Mauryas, later the Sisodia Ranas",
+    "unesco": "Hill Forts of Rajasthan (2013)",
+    "show": "Light and sound show",
+    "note": "One of India's largest forts, about 280 hectares",
+    "see": [
+     "Vijay Stambha",
+     "Rani Padmini's palace",
+     "Kirti Stambha"
+    ]
+   }
   },
   {
    "n": 114,
@@ -2295,7 +2495,15 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "fort": {
+    "kind": "Palace",
+    "built": "17th century",
+    "by": "Hada Chauhans",
+    "see": [
+     "Chitrashala murals"
+    ]
+   }
   },
   {
    "n": 120,
@@ -2311,7 +2519,15 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "fort": {
+    "kind": "Stepwell",
+    "built": "1699",
+    "by": "Rani Nathavati",
+    "see": [
+     "Carved pillars and elephants"
+    ]
+   }
   },
   {
    "n": 121,
@@ -2327,7 +2543,16 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "fort": {
+    "kind": "Fort",
+    "built": "1354",
+    "by": "Rao Bar Singh",
+    "warn": "Langurs and monkeys can be aggressive",
+    "see": [
+     "Bhim Burj"
+    ]
+   }
   },
   {
    "n": 122,
@@ -2536,7 +2761,16 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "fort": {
+    "kind": "Fort",
+    "built": "12th century onward",
+    "by": "Khichi Chauhans",
+    "unesco": "Hill Forts of Rajasthan (2013)",
+    "see": [
+     "Water fort on two rivers"
+    ]
+   }
   },
   {
    "n": 133,
