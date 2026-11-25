@@ -18,7 +18,38 @@
    114.45
   ]
  ],
- "trails": [],
+ "trails": [
+  {
+   "name": "Labi rainforest and longhouse circuit",
+   "note": "A full-day route through the Labi area, combining community-arranged longhouse visits with forest walks and waterfalls; arrange visits and local guidance in advance.",
+   "ids": [
+    5,
+    6,
+    4,
+    7,
+    13
+   ]
+  },
+  {
+   "name": "Seria oil heritage and western waterfront",
+   "note": "Explore Brunei's petroleum story before continuing west to the Kuala Belait waterfront; verify current opening arrangements for indoor attractions.",
+   "ids": [
+    2,
+    3,
+    11,
+    10
+   ]
+  },
+  {
+   "name": "Belait forest parks and coast",
+   "note": "A relaxed outdoor route linking forest recreation, Anduki and the Lumut coast; check facilities and weather locally.",
+   "ids": [
+    8,
+    12,
+    9
+   ]
+  }
+ ],
  "places": [
   {
    "n": 1,
