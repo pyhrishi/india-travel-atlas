@@ -72,7 +72,7 @@ jobs:
           PY
       - name: Build and validate map files
         env:
-          ISO2: ${{ inputs.iso2 || 'BD,BT,LK,MV,KH' }}
+          ISO2: ${{ github.event_name == 'workflow_dispatch' && inputs.iso2 || 'ID,PH,TH,VN,MY' }}
         run: python tools/build_global_maps.py --iso2 "$ISO2"
       - name: Refresh offline cache version
         run: python tools/bump_sw.py
