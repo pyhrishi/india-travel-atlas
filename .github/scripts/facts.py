@@ -177,6 +177,7 @@ def main():
     keys = {p['k'] for p in places}
     R = {k: v for k, v in R.items() if k in keys}; M = {k: v for k, v in M.items() if k in keys}
     MV = 3  # matching rules version; results from older rules get re-checked
+    if old.get('m2v') != MV: M2 = set()  # misses from older rules get another look too
     todo = [p for p in places if FORCE or (p['k'] in R and R[p['k']].get('mv', 1) < MV) or (p['k'] in M and p['k'] not in M2) or H.get(p['k']) != fp(p) or (p['k'] in M and NOW - M[p['k']] > 60*DAY)
             or (p['k'] in R and NOW - R[p['k']].get('at', 0) > 60*DAY) or (p['k'] not in R and p['k'] not in M)]
     hit = {k: v for k, v in PEND.items() if k in keys}
@@ -185,7 +186,7 @@ def main():
     KEEP = ('title', 'fullurl', 'pageprops', 'thumbnail', 'pageimage', 'coordinates', '_wc')
     def checkpoint():
         pend = {k: {x: pg[x] for x in KEEP if x in pg} for k, pg in hit.items() if k not in R or R[k].get('osm') or R[k].get('mv', 1) < MV}
-        json.dump({'v': 1, 'r': R, 'm': M, 'h': H, 'p': pend, 'm2': sorted(M2 & set(M))}, open(STATE, 'w'), ensure_ascii=False, separators=(',', ':'))
+        json.dump({'v': 1, 'r': R, 'm': M, 'h': H, 'p': pend, 'm2': sorted(M2 & set(M)), 'm2v': MV}, open(STATE, 'w'), ensure_ascii=False, separators=(',', ':'))
         print(f'checkpoint: {len(R)} done, {len(pend)} waiting, {len(M)} unmatched', flush=True)
     import signal
     def bye(*a):
@@ -303,7 +304,7 @@ def main():
         json.dump(by.get(slug, {}), open(os.path.join(OUTD, slug + '.json'), 'w'), ensure_ascii=False, separators=(',', ':'))
     unv = [{'k': p['k'], 'name': p['name'], 'district': p['dist'], 'state': p['st'], 'category': p['cat']} for p in places if p['k'] not in R]
     json.dump(unv, open(os.path.join(OUTD, '_unverified.json'), 'w'), ensure_ascii=False, indent=0)
-    json.dump({'v': 1, 'r': R, 'm': M, 'h': H, 'p': {}, 'm2': sorted(M2 & set(M))}, open(STATE, 'w'), ensure_ascii=False, separators=(',', ':'))
+    json.dump({'v': 1, 'r': R, 'm': M, 'h': H, 'p': {}, 'm2': sorted(M2 & set(M)), 'm2v': MV}, open(STATE, 'w'), ensure_ascii=False, separators=(',', ':'))
     print(f'done: {len(R)} verified, {len(unv)} unverified', flush=True)
 
 if __name__ == '__main__':
