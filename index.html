@@ -596,6 +596,21 @@ h3 small{font-weight:600;color:var(--soft);margin-left:6px;font-size:13px}
 /* offline packs */
 .pkl{list-style:none;margin:6px 0 0;padding:0;border:1px solid var(--line);border-radius:14px;overflow:hidden}.pkl:empty{display:none}
 .pkr{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:8px 8px 8px 14px;border-bottom:1px solid var(--line)}.pkr:last-child{border-bottom:0}.pkr .act{margin:0;min-width:104px}
+/* friends */
+.tfrb{margin-top:10px;padding:12px 14px;border-radius:16px;background:var(--card);font-size:14px;display:grid;gap:3px}.tfra{display:flex;gap:8px;margin-top:6px;flex-wrap:wrap}.tfra .act{margin:0;flex:1}
+.tvt{font-size:12.5px;font-weight:700;color:var(--pinkink);margin-top:2px}
+.vtl{list-style:none;margin:0;padding:0}.vtr{display:flex;align-items:center;border-bottom:1px solid var(--line)}.vtr .it{flex:1;min-width:0;border-bottom:0}
+.vtb{display:flex;gap:6px;padding-right:14px}.vtb button{width:46px;height:46px;border-radius:50%;border:1px solid var(--line);background:var(--bg);font-size:19px;filter:grayscale(1);opacity:.65}.vtb button[aria-pressed=true]{filter:none;opacity:1;border-color:var(--pink);background:var(--pinksoft)}
+/* crowd calendar */
+.crc summary{display:flex;justify-content:space-between;align-items:center;cursor:pointer;min-height:40px;list-style:none}.crc summary::-webkit-details-marker{display:none}
+.crh,.crg{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px}.crh{margin:8px 0 4px;font-size:11px;color:var(--soft);text-align:center}
+.crd{position:relative;aspect-ratio:1;border-radius:10px;display:flex;flex-direction:column;align-items:center;justify-content:center;font-size:13px}.crd b{font-weight:700}.crd i{font-style:normal;font-size:9.5px;line-height:1;position:absolute;top:3px;left:4px;color:var(--soft);font-weight:700}
+.cr-good{background:light-dark(#dff3e6,#173a26)}.cr-ok{background:light-dark(#eef6f0,#1a2a20)}.cr-busy{background:light-dark(#fff1cc,#3a2f12)}.cr-rush{background:light-dark(#ffd9d3,#4a1f1a)}.cr-off,.cr-no{background:light-dark(#eceef2,#232831);color:var(--soft)}.cr-past{opacity:.3}
+.crl{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px;font-size:12px;color:var(--soft)}.crl i{display:inline-block;width:12px;height:12px;border-radius:4px;margin-right:4px;vertical-align:-1px}
+/* ask */
+.askf{display:grid;gap:8px;margin-top:10px}.askf textarea{width:100%;font:inherit;font-size:16px;padding:12px 14px;border-radius:14px;border:1px solid var(--line);background:var(--bg);color:var(--ink);resize:vertical}
+.askr{margin-top:12px}.askp{margin-top:14px;padding:14px;border-radius:18px;border:1px solid var(--line)}.askp h3{margin:4px 0 6px}.askp h3 small{font-weight:600;color:var(--soft);font-size:14px}
+.askl{margin:0 0 12px;padding-left:20px;display:grid;gap:4px;font-size:14.5px}.askl .lnk2{font-weight:700;color:var(--ink);min-height:0;padding:2px 0}
 </style>
 </head>
 <body>
@@ -1057,7 +1072,7 @@ function goBack(){if(navD>0&&history.state&&history.state.ita===depth()&&S.stack
 function doBack(){if(S.stack.length<2)return;S.stack.pop();S.hl=null;const top=S.stack[S.stack.length-1];if(top.v!=="place"){S.sel=null}else S.sel=byId(top.a);if(top.v==="trail")S.trail=curD().trails[top.a].ids.map(n=>curD().places.find(p=>p.n===n));else S.trail=null;paint(false,top.y||0);drawPins();drawRoute()}
 function paint(focus,y=0){const top=S.stack[S.stack.length-1]||{v:"explore"};if(top.v!=="shared")unsubShared();if(top.v!=="onway")wayClr();
   const nc=top.v==="coll"?top.a:null;if(nc!==S.coll){S.coll=nc;classStates();setTimeout(()=>{drawPins();if(nc)focusPts(collPlaces(nc));else if(S.slug)focusState()},0)}
-  ({explore:vExplore,list:vList,place:vPlace,trail:vTrail,trip:vTrip,passport:vPassport,states:vStates,search:vSearch,plan:vPlan,shared:vShared,fest:vFest,coll:vColl,near:vNear,nearnow:vNearNow,bulk:vBulk,trails:vTrails,credits:vCredits,lists:vLists,listv:vListV,slist:vSList,getaway:vGetaway,onway:vOnWay,journal:vJournal,stats:vStats,breaks:vBreaks,region:vRegion,discover:vDiscover,shelf:vShelf,colls:vColls,mag:vMag,issue:vIssue,nature:vNature,nev:vNev,journeys:vJourneys,jrn:vJrn,h36:vH36,h36v:vH36v,curio:vCurio,exps:vExps,best:vBest,photo:vPhoto}[top.v]||vExplore)(top.a);
+  ({explore:vExplore,list:vList,place:vPlace,trail:vTrail,trip:vTrip,passport:vPassport,states:vStates,search:vSearch,plan:vPlan,shared:vShared,fest:vFest,coll:vColl,near:vNear,nearnow:vNearNow,vote:vVote,ask:vAsk,bulk:vBulk,trails:vTrails,credits:vCredits,lists:vLists,listv:vListV,slist:vSList,getaway:vGetaway,onway:vOnWay,journal:vJournal,stats:vStats,breaks:vBreaks,region:vRegion,discover:vDiscover,shelf:vShelf,colls:vColls,mag:vMag,issue:vIssue,nature:vNature,nev:vNev,journeys:vJourneys,jrn:vJrn,h36:vH36,h36v:vH36v,curio:vCurio,exps:vExps,best:vBest,photo:vPhoto}[top.v]||vExplore)(top.a);
   const b=$("#bk");if(b)b.onclick=goBack;V.scrollTop=y;bind();hdr();setHash();drawChips();syncNav();updCar();scanPhotos(V);fillLocal(V);if(S.slug)chkDist();else S._ld=S.f.dist;if(focus){const h=V.querySelector("h2");if(h){h.tabIndex=-1;h.focus({preventScroll:true})}}}
 function setHash(){const top=S.stack[S.stack.length-1];let h=S.slug||"";if(top&&top.v==="place"&&S.sel)h=S.sel.slug+"-"+S.sel.n;try{if(h&&location.hash.slice(1)!==h)history.replaceState(history.state,"","#"+h);else if(!h&&location.hash)history.replaceState(history.state,"",location.pathname+location.search)}catch(e){}}
 function bind(){V.querySelectorAll("[data-fz]").forEach(el=>el.onclick=()=>{const[la,ln]=el.dataset.fz.split(",").map(Number);if(mobile())snapTo(0);setTimeout(()=>{const[x,y]=P(ln,la);const v=vb();svg.transition().duration(dur(700)).call(zoom.transform,d3.zoomIdentity.translate(v.x,v.y).scale(6).translate(-x,-y))},mobile()?320:0)});
@@ -1133,7 +1148,7 @@ function vPlace(k){const p=byId(k);if(!p){V.innerHTML=`<div class="pad">${crumbB
    ${warns.length?`<div class="warns">${warns.map(w=>`<span class="warn"><svg aria-hidden="true"><use href="#i-warn"/></svg>${esc(w)}</span>`).join("")}</div>`:""}
    <div class="facts"><div class="fact"><span>Best time</span><b class="${ok?"ok":""}">${monthsTxt(p)}</b>${mbar(p)}</div><div class="fact"><span>Time needed</span><b>${esc(p.time)}</b></div><div class="fact"><span>${esc(from[0])}</span><b>${esc(from[1])}</b></div></div><div class="facts sunf">${sunLine(p)}</div>
    ${aboutBlock()}${storyBlock(p)}
-   ${bygBlock()}${wxBlock(p)}${condBlock(p)}${reachBlock(p)}${foodBlock()}${magBlock(p)}
+   ${bygBlock()}${wxBlock(p)}${condBlock(p)}${crowdBlock(p)}${reachBlock(p)}${foodBlock()}${magBlock(p)}
    <button class="where" id="where" aria-label="Show ${esc(p.name)} on the big map">${whereMap(p)}</button>
    ${fs.map(f=>`<p class="note" style="margin:0 0 10px"><b style="color:var(--ink)">${esc(f.name)}</b> · ${esc(f.when)}. ${esc(f.about)}</p>`).join("")}
    <div class="note" style="margin-top:0"><a href="${gm}" target="_blank" rel="noopener" style="color:var(--pinkink)">See photos and reviews on Google Maps ↗</a></div>
@@ -1155,7 +1170,7 @@ function vPlace(k){const p=byId(k);if(!p){V.innerHTML=`<div class="pad">${crumbB
   $("#atrip").onclick=()=>{const j=M.trip.indexOf(pid);if(j>=0){M.trip.splice(j,1);toast("Removed from trip",()=>{M.trip.splice(j,0,pid);save();paint(false,V.scrollTop);drawRoute()})}else{M.trip.push(pid);toast(`Added to trip (${M.trip.length} stop${M.trip.length>1?"s":""})`,()=>{M.trip=M.trip.filter(x=>x!==pid);save();paint(false,V.scrollTop);drawRoute()})}save();paint(false,V.scrollTop);drawRoute();fx("atrip")};
   $("#ashare").onclick=async()=>{const url=location.href.split("#")[0]+"#"+p.slug+"-"+p.n,text=`${p.name}, ${p.district}, ${st.name}.${p.why?" "+p.why+".":""}`;try{if(navigator.share){await navigator.share({title:p.name,text,url});return}}catch(e){if(e&&e.name==="AbortError")return}try{await navigator.clipboard.writeText(text+"\n"+gm);toast("Copied, ready to paste")}catch(e){toast("Couldn't share from here")}};
   $("#rep").onclick=async()=>{try{await navigator.clipboard.writeText(`Atlas fix for ${p.name} (${p.district}, ${st.name}): `);toast("Copied. Paste it to Claude in chat and say what's wrong")}catch(e){toast(`Tell Claude in chat: "Atlas fix for ${p.name}, ${st.name}"`)}};
-  let nt=0;$("#note").oninput=e=>{clearTimeout(nt);nt=setTimeout(()=>{const v=e.target.value.trim();if(v)M.notes[pid]=v;else delete M.notes[pid];save()},700)};bindDiary(p);bindAsk(p);bindStory(p);$("#alist").onclick=()=>listPicker(pid,()=>paint(false,V.scrollTop));fillReach(p);fillFood(p);fillMag(p);fillAbout(p);fillWx(p);fillBYG(p)}
+  let nt=0;$("#note").oninput=e=>{clearTimeout(nt);nt=setTimeout(()=>{const v=e.target.value.trim();if(v)M.notes[pid]=v;else delete M.notes[pid];save()},700)};bindDiary(p);bindAsk(p);bindStory(p);$("#alist").onclick=()=>listPicker(pid,()=>paint(false,V.scrollTop));fillReach(p);fillFood(p);fillMag(p);fillAbout(p);fillWx(p);fillBYG(p);fillCrowd(p)}
 
 function openTrail(i){remember();const D=curD();S.trail=D.trails[i].ids.map(n=>D.places.find(p=>p.n===n));S.sel=null;S.stack.push({v:"trail",a:i});paint(true);drawPins();drawRoute();halfUp();focusPts(S.trail)}
 function vTrail(i){const D=curD(),t=D.trails[i],ps=t.ids.map(n=>D.places.find(p=>p.n===n));let d=0;for(let j=1;j<ps.length;j++)d+=km(ps[j-1],ps[j]);
@@ -2076,7 +2091,7 @@ function vIndia(){const ready=S.states.filter(s=>s.status==="done"&&S.data[s.slu
   const iss=MAG?issueOf(NOWM):null,nat=MAG?MAG.nature.filter(n=>inM(NOWM,n.m)):[],cov=iss&&iss.cover,hp=(cov&&firstP(cov.ids))||top10()[0],T10=top10(),tk=S.xt||"wknd",mood=S.xm||((M.interests||[])[0])||"hills";
   const line=nat.length?seeded(nat,new Date().getFullYear()*100+NOWM,3).map(n=>n.name.replace(/^(The |A )/,"")).join(" · "):"";
   V.innerHTML=`<div class="xhero">${hp?art(hp,{hero:1}):""}<div class="xhx"><span class="cis">${phase().toUpperCase()} ${MONL[NOWM-1].toUpperCase()} IN INDIA</span><h2>${cov?esc(cov.name):"Where to go in "+MONL[NOWM-1]}</h2>${line?`<p>${esc(line)}</p>`:""}<div class="xha">${MAG?`<button class="act pri" data-mg="issue" data-ma="${NOWM}">Read the ${MONL[NOWM-1]} issue</button>`:""}<button class="act ghost" id="surp"><svg class="bi" aria-hidden="true"><use href="#i-dice"/></svg>Surprise me</button></div></div></div>
-   <div class="qpills" role="group" aria-label="Quick links"><button class="qp" id="nearB"><svg aria-hidden="true"><use href="#i-loc"/></svg>Near me</button><button class="qp" id="dscB"><svg aria-hidden="true"><use href="#i-cards"/></svg>Discover</button><button class="qp" data-go="getaway"><svg aria-hidden="true"><use href="#i-route"/></svg>Getaways</button><button class="qp" data-go="onway"><svg aria-hidden="true"><use href="#i-dir"/></svg>On the way</button><button class="qp" data-go="breaks"><svg aria-hidden="true"><use href="#i-cal"/></svg>Long weekends</button><button class="qp" data-go="trails"><svg aria-hidden="true"><use href="#i-map"/></svg>Trails</button><button class="qp" data-go="fest"><svg aria-hidden="true"><use href="#i-star"/></svg>Festivals</button><button class="qp" data-go="mag"><svg aria-hidden="true"><use href="#i-book"/></svg>Magazine</button></div>
+   <div class="qpills" role="group" aria-label="Quick links"><button class="qp" data-go="ask"><svg aria-hidden="true"><use href="#i-search"/></svg>Ask the atlas</button><button class="qp" id="nearB"><svg aria-hidden="true"><use href="#i-loc"/></svg>Near me</button><button class="qp" id="dscB"><svg aria-hidden="true"><use href="#i-cards"/></svg>Discover</button><button class="qp" data-go="getaway"><svg aria-hidden="true"><use href="#i-route"/></svg>Getaways</button><button class="qp" data-go="onway"><svg aria-hidden="true"><use href="#i-dir"/></svg>On the way</button><button class="qp" data-go="breaks"><svg aria-hidden="true"><use href="#i-cal"/></svg>Long weekends</button><button class="qp" data-go="trails"><svg aria-hidden="true"><use href="#i-map"/></svg>Trails</button><button class="qp" data-go="fest"><svg aria-hidden="true"><use href="#i-star"/></svg>Festivals</button><button class="qp" data-go="mag"><svg aria-hidden="true"><use href="#i-book"/></svg>Magazine</button></div>
    ${tripNowCard()}${memCard()}${wkCard()}
    ${(()=>{const tp=M.trip.map(byId).filter(Boolean);return tp.length?`<button class="cont" id="contTrip"><span class="thumb" aria-hidden="true">${art(tp[0])}</span><span><span class="blk m2">CONTINUE PLANNING</span><b class="blk">Your trip · ${tp.length} stop${tp.length>1?"s":""}</b><span class="blk m2">${esc(tp.slice(0,3).map(p=>p.name).join(", "))}${tp.length>3?"…":""}</span></span><span aria-hidden="true" style="font-size:20px">›</span></button>`:""})()}
    <h3 class="pad xh">How much time do you have?</h3><div class="seg4" role="tablist" aria-label="Trip length">${[["day","A day"],["wknd","Weekend"],["long","3–4 days"],["week","A week+"]].map(([k,l])=>`<button type="button" role="tab" data-xt="${k}" aria-selected="${tk===k}">${l}</button>`).join("")}</div><div id="xtp" role="tabpanel">${timePanel(tk)}</div>
@@ -2354,7 +2369,7 @@ function vMyTrip(){syncTrip();const A_=tripNow(),onT=!!(A_&&A_.st==="on"&&A_.cur
   let body="";
   if(tab==="today")body=`<div class="pad">${todayBlock(A_)}</div>`;
   else if(tab==="plan"){const byDay={};ps.forEach((p,i)=>{(byDay[dd[i]]=byDay[dd[i]]||[]).push(i)});
-    body=`<div class="pad"><div class="tgrid" style="margin:12px 0 8px"><label class="lbl">Start date<input type="date" id="tstart" value="${esc(M.tripStart||"")}"></label><div class="lbl">Order<button class="act" id="opt" style="width:100%;margin-top:4px;height:46px">Shortest route</button></div></div>${paceCheck(ps)}<div id="twxs"></div>${tripPackBtn(ps)}</div>
+    body=`<div class="pad"><div class="tgrid" style="margin:12px 0 8px"><label class="lbl">Start date<input type="date" id="tstart" value="${esc(M.tripStart||"")}"></label><div class="lbl">Order<button class="act" id="opt" style="width:100%;margin-top:4px;height:46px">Shortest route</button></div></div>${paceCheck(ps)}<div id="twxs"></div>${tripPackBtn(ps)}${friendsBlock(ps)}</div>
      <div class="tdays">${Object.entries(byDay).map(([d,ix])=>{const f=ps[ix[0]],lp=ps[ix[ix.length-1]],[sr,ss]=sunTimes(f.lat,f.lng,M.tripStart?addD(dOf(M.tripStart),+d):new Date()),drive=ix.reduce((a,i)=>a+(i&&road(L[i-1])<=600?road(L[i-1])/45:0),0),multi=pl[ix[0]].multi&&pl[ix[0]].d2>pl[ix[0]].d;
       return`<section class="tday"><div class="tdh"><b>Day ${+d+1}${multi?`–${pl[ix[0]].d2+1}`:""}</b><span>${M.tripStart?dayDate(+d)+" · ":""}☀ ${clk(sr)} – ${clk(ss)}${drive>=.3?` · ${hmd(drive)} on the road`:""}</span><span class="twx" data-wd="${d}"></span><span class="tfood" data-fd="${d}" hidden></span></div>
        ${ix.map(i=>{const p=ps[i],c=cond(p,m).find(x=>x[0]!=="good");return`${i&&dd[i]===dd[i-1]?legChip(L[i-1]):i?legChip(L[i-1]):""}<div class="tst"><span class="thumb" aria-hidden="true">${art(p)}</span><button class="tsb" data-p="${id(p)}"><span class="stime blk">${pl[i].multi?"All day · "+esc(p.time):hm(pl[i].a)+"–"+hm(pl[i].b)}</span><b class="blk">${esc(p.name)}</b><span class="blk m2">${esc(p.category)} · ${esc(p.district)}, ${esc(stOf(p.slug).name)}</span>${c?`<span class="tcond blk">${CI[c[0]]||"!"} ${esc(c[1])}</span>`:""}</button><span class="tord"><button class="ib" data-up="${i}" aria-label="Move ${esc(p.name)} earlier"${i?"":" disabled"}>▲</button><button class="ib" data-dn="${i}" aria-label="Move ${esc(p.name)} later"${i<ps.length-1?"":" disabled"}>▼</button><button class="ib" data-rm="${i}" aria-label="Remove ${esc(p.name)}">✕</button></span></div>`}).join("")}
@@ -2383,7 +2398,7 @@ function vMyTrip(){syncTrip();const A_=tripNow(),onT=!!(A_&&A_.st==="on"&&A_.cur
   const sh=$("#tshare");if(sh)sh.onclick=async()=>{try{if(navigator.share){await navigator.share({title:M.tripName||"My trip",text:txt()});return}}catch(e){if(e&&e.name==="AbortError")return}try{await navigator.clipboard.writeText(txt());toast("Trip copied, ready to paste")}catch(e){toast("Couldn't share here")}};
   const tm=$("#tmap");if(tm)tm.onclick=()=>{drawRoute();showOnMap(ps)};
   let tn=0;const tno=$("#tnote");if(tno)tno.oninput=e=>{clearTimeout(tn);tn=setTimeout(()=>{M.tripNote=e.target.value.trim();save()},700)};
-  bindTripTools(ps,days);bindTripPack(ps);if(tab==="plan"){fillTripWx(ps,dd);fillTripFood(ps,dd)}if(tab==="today")bindToday(A_);drawRoute();if(S.tab==="trip"&&tab==="plan")focusPts(ps)}
+  bindTripTools(ps,days);bindTripPack(ps);bindFriends(ps);if(tab==="plan"){fillTripWx(ps,dd);fillTripFood(ps,dd)}if(tab==="today")bindToday(A_);drawRoute();if(S.tab==="trip"&&tab==="plan")focusPts(ps)}
 function bindTripsTop(){const n=$("#tnew");if(n)n.onclick=newTrip;V.querySelectorAll("[data-tsw]").forEach(b=>b.onclick=()=>switchTrip(b.dataset.tsw));const d=$("#tdel");if(d)d.onclick=delTrip;
   const tn=$("#tname");if(tn)tn.onclick=()=>{const inp=document.createElement("input");inp.value=M.tripName||autoTripName();inp.maxLength=50;inp.className="tnin";inp.setAttribute("aria-label","Trip name");tn.replaceWith(inp);inp.focus();inp.select();const done=()=>{M.tripName=inp.value.trim();save();paint(false,V.scrollTop)};inp.onblur=done;inp.onkeydown=e=>{if(e.key==="Enter")inp.blur();if(e.key==="Escape"){inp.value=M.tripName||"";inp.blur()}}};
   bindTrip();const cur=V.querySelector(".tchip.on");if(cur){const r=cur.parentNode;r.scrollLeft=cur.offsetLeft-16}}
@@ -2798,6 +2813,110 @@ function tripPackBtn(ps){const sl=[...new Set(ps.map(p=>p.slug))],miss=sl.filter
 function bindTripPack(ps){const b=$("#tpk");if(!b)return;b.onclick=async()=>{b.disabled=true;const sl=[...new Set(ps.map(p=>p.slug))].filter(s=>!(M.packs||{})[s]);
   for(const s of sl)await packState(s,(d,t)=>{b.textContent=`Saving ${stOf(s).name}… ${Math.round(d/t*100)}%`});toast("Trip saved for offline use");paint(false,V.scrollTop)}}
 
+/* ================= Plan with friends: a link to vote on, and a link back with the votes (no accounts) ================= */
+const b64e=o=>btoa(unescape(encodeURIComponent(JSON.stringify(o)))).replace(/\+/g,"-").replace(/\//g,"_").replace(/=+$/,"");
+const b64d=s=>{try{s=s.replace(/-/g,"+").replace(/_/g,"/");while(s.length%4)s+="=";return JSON.parse(decodeURIComponent(escape(atob(s))))}catch(e){return null}};
+/* "karnataka:101,karnataka:102,kerala:5" → "karnataka.101.102~kerala.5" (keeps links short) */
+const packIds=ids=>{const o=[];ids.forEach(k=>{const[s,n]=k.split(":");const l=o[o.length-1];if(l&&l[0]===s)l.push(n);else o.push([s,n])});return o.map(x=>x.join(".")).join("~")};
+const unpackIds=t=>(t||"").split("~").filter(Boolean).flatMap(g=>{const[s,...ns]=g.split(".");return ns.map(n=>s+":"+n)});
+const appUrl=()=>location.origin+location.pathname;
+function friendLink(){syncTrip();return`${appUrl()}#go=${b64e({i:M.tripId,n:M.tripName||autoTripName(),s:M.tripStart||"",p:packIds(M.trip),f:(M.me||{}).name||""})}`}
+async function shareLink(url,title,text){try{if(navigator.share){await navigator.share({title,text,url});return}}catch(e){if(e&&e.name==="AbortError")return}
+  try{await navigator.clipboard.writeText(text+" "+url);toast("Link copied. Paste it in WhatsApp or anywhere")}catch(e){prompt("Copy this link",url)}}
+function votesOf(tid){return((M.votes||{})[tid])||{}}
+function voteTally(tid,k){const V_=votesOf(tid);let up=0,dn=0;const who=[];for(const[n,v]of Object.entries(V_)){if(v[k]>0){up++;who.push(n)}else if(v[k]<0)dn++}return{up,dn,who}}
+function friendsBlock(ps){const V_=votesOf(M.tripId),n=Object.keys(V_).length;if(!ps.length)return"";
+  if(!n)return`<button class="act" id="tfr" style="width:100%;margin-top:10px"><svg class="bi" aria-hidden="true"><use href="#i-share"/></svg>Ask friends to vote on the stops</button>`;
+  const sc=ps.map(p=>({p,...voteTally(M.tripId,id(p))})),fav=sc.filter(x=>x.up>x.dn).sort((a,b)=>(b.up-b.dn)-(a.up-a.dn)).slice(0,3),neg=sc.filter(x=>x.dn>x.up);
+  return`<div class="tfrb"><b>🗳 ${n} friend${n>1?"s":""} voted</b> <span class="m2">(${esc(Object.keys(V_).join(", "))})</span>
+   ${fav.length?`<span class="blk">Favourites: ${fav.map(x=>esc(x.p.name)).join(", ")}</span>`:""}${neg.length?`<span class="blk">Most voted out: ${neg.map(x=>esc(x.p.name)).join(", ")}</span>`:""}
+   <div class="tfra">${neg.length?`<button class="act" id="tfrd">Drop ${neg.length} voted-out stop${neg.length>1?"s":""}</button>`:""}<button class="act" id="tfr">Ask more friends</button></div></div>`}
+function fillVotes(ps){if(!Object.keys(votesOf(M.tripId)).length)return;ps.forEach(p=>{const t=voteTally(M.tripId,id(p));if(!t.up&&!t.dn)return;const b=V.querySelector(`.tsb[data-p="${id(p)}"]`);if(b&&!b.querySelector(".tvt"))b.insertAdjacentHTML("beforeend",`<span class="tvt blk">${t.up?`👍 ${t.up}`:""}${t.up&&t.dn?" · ":""}${t.dn?`👎 ${t.dn}`:""}</span>`)})}
+function bindFriends(ps){const b=$("#tfr");if(b)b.onclick=()=>shareLink(friendLink(),M.tripName||"Trip",`Help me plan "${M.tripName||autoTripName()}". Tap 👍 or 👎 on each stop:`);
+  const d=$("#tfrd");if(d)d.onclick=()=>{const before=[...M.trip];M.trip=M.trip.filter(k=>{const t=voteTally(M.tripId,k);return!(t.dn>t.up)});save();paint(false,V.scrollTop);drawRoute();toast(`Dropped ${before.length-M.trip.length} stops`,()=>{M.trip=before;save();paint();drawRoute()})};
+  fillVotes(ps)}
+/* the friend's side: vote, then send the votes back */
+function vVote(raw){const o=b64d(raw);if(!o||!o.p){V.innerHTML=`<div class="pad">${crumbBtn()}<p class="empty">This trip link looks broken. Ask for it again.</p></div>`;return}
+  const ids=unpackIds(o.p).filter(k=>byId(k)),st=S.vote&&S.vote.raw===raw?S.vote:(S.vote={raw,v:{},name:(M.me||{}).name||""});
+  const row=k=>{const p=byId(k),v=st.v[k]||0;return`<li class="vtr"><button class="it" data-p="${k}"><span class="thumb" aria-hidden="true">${art(p)}</span><span><span class="nm">${esc(p.name)}</span><span class="sub">${esc(p.category)} · ${esc(stOf(p.slug).name)}</span></span></button><span class="vtb" role="group" aria-label="Vote on ${esc(p.name)}"><button data-vt="${k}" data-v="1" aria-pressed="${v>0}" aria-label="Yes to ${esc(p.name)}">👍</button><button data-vt="${k}" data-v="-1" aria-pressed="${v<0}" aria-label="Skip ${esc(p.name)}">👎</button></span></li>`};
+  const n=Object.values(st.v).filter(Boolean).length;
+  V.innerHTML=`<div class="pad">${crumbBtn()}<span class="tde">${o.f?esc(o.f)+" is planning a trip":"A friend is planning a trip"}</span><h2>${esc(o.n||"Trip")}</h2><p class="lead">${o.s?`From ${fmtD(dOf(o.s),{weekday:"short",day:"numeric",month:"short"})} · `:""}${ids.length} stops. Tap 👍 for places you want, 👎 for ones to skip, then send your votes back.</p></div>
+   <ul class="vtl">${ids.map(row).join("")}</ul>
+   <div class="pad"><label class="lbl" for="vtn">Your name</label><input id="vtn" maxlength="30" value="${esc(st.name)}" placeholder="So they know who voted" autocomplete="given-name">
+   <button class="act pri" id="vts" style="width:100%;margin-top:12px"${n?"":" disabled"}>Send my ${n||""} vote${n===1?"":"s"} back</button>
+   <button class="act" id="vtc" style="width:100%;margin-top:8px">Copy this trip into my app</button></div>`;
+  V.querySelectorAll("[data-vt]").forEach(b=>b.onclick=()=>{const k=b.dataset.vt,v=+b.dataset.v;st.v[k]=st.v[k]===v?0:v;const y=V.scrollTop;vVote(raw);V.scrollTop=y;V.querySelector(`[data-vt="${k}"][data-v="${v}"]`)?.focus()});
+  V.querySelectorAll(".vtr [data-p]").forEach(b=>b.onclick=()=>{const p=byId(b.dataset.p);if(p.slug!==S.slug){S.slug=p.slug;classStates()}openPlace(p,true)});
+  $("#vtn").oninput=e=>{st.name=e.target.value.trim()};
+  $("#vts").onclick=()=>{if(!st.name){$("#vtn").focus();toast("Add your name first");return}M.me=M.me||{};M.me.name=st.name;save();const v=ids.map(k=>st.v[k]>0?"+":st.v[k]<0?"-":"0").join("");
+    shareLink(`${appUrl()}#votes=${b64e({i:o.i,w:st.name,p:o.p,v})}`,"My votes",`My votes for "${o.n||"the trip"}":`)};
+  $("#vtc").onclick=()=>{syncTrip();const r={id:uid_(),t:Date.now(),name:o.n||"Shared trip",stops:ids,start:o.s||"",budget:0,note:""};tripsAll().unshift(r);loadTrip(r);save();hdr();S.ttab="plan";root_("trip");toast("Trip copied to your trips")}}
+/* the organiser opens the reply link: votes land on the right trip */
+function takeVotes(raw){const o=b64d(raw);if(!o||!o.i){toast("That votes link looks broken");return}syncTrip();const t=tripsAll().find(x=>x.id===o.i);
+  if(!t){toast("These votes are for a trip that isn't on this phone");return}const ids=unpackIds(o.p),v={};ids.forEach((k,i)=>{const c=(o.v||"")[i];if(c==="+")v[k]=1;else if(c==="-")v[k]=-1});
+  M.votes=M.votes||{};M.votes[o.i]=M.votes[o.i]||{};M.votes[o.i][o.w||"Friend"]=v;if(M.tripId!==o.i)loadTrip(t);save();hdr();S.ttab="plan";root_("trip");toast(`${o.w||"A friend"}'s votes added`)}
+
+/* ================= Crowd calendar: the next six weeks, day by day ================= */
+function dayKind(p,d){const k=ymd(d),w=d.getDay(),m=d.getMonth()+1,pop=p.tier!=="gem",inS=inSeason(m,p),C=cond(p,m);
+  let hol=null;try{hol=(holCfg().on||[]).includes(k)?(HOL.find(h=>h[0]===k)||[])[1]:null}catch(e){}
+  let lw=false;try{lw=(S._lwk||(S._lwk=breaks(0))).some(b=>d>=b.s&&d<=b.e)}catch(e){}
+  const fs=(S.data[p.slug].festivals||[]).find(x=>x.n===p.n&&inR(m,x.months[0],x.months[1]));
+  if(C.some(c=>c[0]==="snow"&&/closed|cut off/.test(c[1])))return["no","Likely closed or cut off"];
+  if(!inS)return["off",C.find(c=>["rain","hot","snow","cold"].includes(c[0]))?.[1]||"Off season"];
+  if(hol||lw)return["rush",hol?`${hol}: expect crowds`:"Long weekend: expect crowds"];
+  if(w===0||w===6)return[pop?"busy":"ok",pop?"Weekend: busier":"Weekend"];
+  return["good",fs&&p.tier!=="gem"?`Weekday · ${fs.name} season`:"Weekday: quieter"]}
+function crowdBlock(p){return`<details class="pcard crc" id="crc"><summary><b>Crowd calendar</b><span class="m2">Next six weeks</span></summary><div id="crcb"></div></details>`}
+function fillCrowd(p){const det=$("#crc");if(!det)return;const draw=()=>{if($("#crcb").childElementCount)return;const t0=dOf(today()),start=addD(t0,-((t0.getDay()+6)%7)),cells=[],best=[];
+    for(let i=0;i<42;i++){const d=addD(start,i),past=d<t0,[k,why]=past?["past",""]:dayKind(p,d);cells.push(`<span class="crd cr-${k}" title="${esc(fmtD(d)+(why?": "+why:""))}"${past?' aria-hidden="true"':""}><b>${d.getDate()}</b>${d.getDate()===1||i===0?`<i>${MON[d.getMonth()]}</i>`:""}<span class="sr">${esc(fmtD(d,{weekday:"long",day:"numeric",month:"long"}))}: ${esc(why)}</span></span>`);if(!past&&k==="good")best.push(d)}
+    const run=(()=>{let b=null,cur=[];best.forEach(d=>{if(cur.length&&(d-cur[cur.length-1])/864e5===1)cur.push(d);else cur=[d];if(!b||cur.length>b.length)b=[...cur]});return b})();
+    $("#crcb").innerHTML=`<div class="crh" aria-hidden="true">${["M","T","W","T","F","S","S"].map(x=>`<span>${x}</span>`).join("")}</div><div class="crg">${cells.join("")}</div>
+     <div class="crl"><span><i class="cr-good"></i>Quiet</span><span><i class="cr-busy"></i>Weekend</span><span><i class="cr-rush"></i>Holiday rush</span><span><i class="cr-off"></i>Off season</span></div>
+     ${run&&run.length?`<p class="cnow" style="margin:8px 0 0"><b>Best stretch:</b> ${fmtD(run[0],{weekday:"short",day:"numeric",month:"short"})}${run.length>1?` – ${fmtD(run[run.length-1],{weekday:"short",day:"numeric",month:"short"})}`:""}</p>`:`<p class="cnow" style="margin:8px 0 0">No quiet in-season days in the next six weeks.</p>`}
+     <p class="note" style="margin:4px 0 0">From the season, weekends and the holiday list in Settings. Not live crowd data.</p>`};
+  det.ontoggle=()=>{if(det.open)draw()}}
+
+/* ================= Ask the atlas: a trip from one sentence, worked out on the phone ================= */
+const ASKW={temple:/temple|shrine|pilgrim|spiritual|darshan|jyotirlinga|mandir/,heritage:/fort|palace|heritage|history|histor|ruin|monument|architecture/,buddhist:/buddh|monaster|gompa|stupa/,hills:/hill|mountain|forest|trek|cool|misty|tea|coffee/,water:/waterfall|falls|river|lake|backwater/,coast:/beach|sea|island|coast/,wildlife:/wildlife|safari|tiger|bird|elephant|jungle/,caves:/cave|rock/,culture:/culture|craft|market|food|art|village/};
+function askParse(q){q=" "+q.toLowerCase()+" ";const o={days:2,from:null,month:null,gs:[],maxH:null,kids:/kid|child|family|parents|elderly/.test(q),easy:/easy|relax|slow|chill/.test(q)};
+  const nm={one:1,two:2,three:3,four:4,five:5,six:6,seven:7,eight:8,nine:9,ten:10,a:1};let m=q.match(/(\d+|one|two|three|four|five|six|seven|eight|nine|ten|a)\s*-?\s*(day|night)s?\b/);if(m)o.days=(+m[1]||nm[m[1]])+(m[2]==="night"?1:0);
+  else if(/long weekend/.test(q))o.days=3;else if(/weekend/.test(q))o.days=2;else if(/\bweek\b/.test(q))o.days=7;else if(/day trip|one day|today|tomorrow/.test(q))o.days=1;
+  o.days=Math.max(1,Math.min(o.days,12));
+  m=q.match(/(\d+)\s*(h|hr|hrs|hour|hours)\b/);if(m)o.maxH=+m[1];m=q.match(/(\d{2,4})\s*km/);if(m)o.maxH=+m[1]/45;
+  const fm=q.match(/\bfrom\s+([a-z .]+?)(?=\s+(?:in|for|with|to|during|this|next|no|under|within|and|,)|\s*$|[,.])/);
+  const cityHit=t=>{t=t.trim();const h=home();if(h&&(/^(home|here)$/.test(t)||canon(h.name)===canon(t)))return{name:h.name,lat:h.lat,lng:h.lng};const c=CITIES.find(c=>canon(c[0])===canon(t)||canon(c[0]).startsWith(canon(t)));return c?{name:c[0],lat:c[1],lng:c[2]}:null};
+  if(fm)o.from=cityHit(fm[1]);if(!o.from){for(const c of CITIES)if(q.includes(" "+c[0].toLowerCase()+" ")){o.from={name:c[0],lat:c[1],lng:c[2]};break}}if(!o.from&&home())o.from=home();
+  MONL.forEach((n,i)=>{if(new RegExp("\\b("+n.toLowerCase()+"|"+MON[i].toLowerCase()+")\\b").test(q))o.month=i+1});
+  if(/next month/.test(q))o.month=NOWM%12+1;if(!o.month)o.month=/this weekend|now|today|tomorrow/.test(q)?NOWM:NOWM;
+  for(const[g,re]of Object.entries(ASKW))if(re.test(q))o.gs.push(g);
+  if(!o.maxH)o.maxH=o.days<=1?2.5:o.days<=2?4.5:o.days<=4?7:12;if(o.kids||o.easy)o.maxH=Math.min(o.maxH,o.days<=2?3.5:6);
+  return o}
+function atlasPlan(o){if(!o.from)return null;const all=allPlaces(),m=o.month,cap=o.days*(o.easy||o.kids?6:8.5),gs=o.gs;
+  const fit=p=>(!gs.length||gs.includes(p.g))&&inSeason(m,p)&&!M.been[id(p)];
+  const sc=p=>tierW[p.tier]*1.3+(gs.includes(p.g)?1.2:0)+(M.want[id(p)]?.8:0)+tasteOf(p)*.2-(o.days>1&&driveH(o.from,p)<1?1:0);
+  const anchors=all.filter(p=>fit(p)&&p.tier!=="gem"&&driveH(o.from,p)<=o.maxH).sort((a,b)=>sc(b)-sc(a)),plans=[];
+  for(const a of anchors){if(plans.length>=3)break;if(plans.some(x=>km(x.a,a)<80))continue;
+    const R=o.days<=2?40:o.days<=4?90:180,pool=all.filter(p=>p!==a&&km(a,p)<=R&&inSeason(m,p)&&!M.been[id(p)]&&(!gs.length||gs.includes(p.g)||p.tier==="icon")).sort((x,y)=>(sc(y)-km(a,y)/60)-(sc(x)-km(a,x)/60));
+    const ps=[a];let used=Math.min(hrs(a),9);for(const p of pool){const need=Math.min(hrs(p),9)+km(ps[ps.length-1],p)/40;if(used+need>cap)continue;ps.push(p);used+=need;if(ps.length>=o.days*3)break}
+    const ord=ps.length>2?[ps[0],...ps.slice(1).sort((x,y)=>km(ps[0],x)-km(ps[0],y))]:ps;plans.push({a,ps:ord,h:driveH(o.from,a)})}
+  return plans}
+function vAsk(){const q=S.askQ||"",o=q?askParse(q):null,plans=o?atlasPlan(o):null;
+  const ex=["3 days from Bengaluru in January, forts and food","A relaxed weekend with kids near Mumbai","Waterfalls in the monsoon, no drive over 4 hours","A week of temples from Chennai","Day trip from Delhi"];
+  V.innerHTML=`<div class="pad">${crumbBtn()}<h2>Ask the atlas</h2><p class="lead">Describe the trip in your own words. Days, where from, when, what you like, how far you'll drive.</p>
+   <form id="askF" class="askf"><label class="sr" for="askQ">Your trip</label><textarea id="askQ" rows="2" maxlength="200" placeholder="3 days from Bengaluru in January, forts and food, no drive over 4 hours">${esc(q)}</textarea><button class="act pri" type="submit">Plan it</button></form>
+   ${!q?`<div class="wideas"><h3>Try</h3>${ex.map(x=>`<button class="chip" data-ask="${esc(x)}">${esc(x)}</button>`).join("")}</div>`:""}
+   ${o?`<p class="note askr">Read as: <b>${o.days} day${o.days>1?"s":""}</b> · from <b>${esc(o.from?o.from.name:"?")}</b> · <b>${MONL[o.month-1]}</b>${o.gs.length?` · ${o.gs.map(g=>esc(G[g][0].toLowerCase())).join(", ")}`:""} · up to <b>${hmd(o.maxH)}</b> away${o.kids?" · family-friendly pace":o.easy?" · relaxed pace":""}</p>`:""}
+   ${o&&!o.from?`<p class="empty">Where are you starting from? Add "from Pune", or set your home city in Passport.</p>`:""}
+   ${plans&&!plans.length?`<p class="empty">Nothing fits all of that. Try a longer drive, another month, or fewer interests.</p>`:""}
+   ${plans&&plans.length?plans.map((pl,i)=>`<section class="askp"><span class="tde">${i?"Or":"Best fit"} · ${esc(pl.a.district)}, ${esc(stOf(pl.a.slug).name)} · ~${hmd(pl.h)} from ${esc(o.from.name)}</span><h3>${esc(pl.a.name)}${pl.ps.length>1?` <small>+ ${pl.ps.length-1} more</small>`:""}</h3>
+      <ol class="askl">${pl.ps.map(p=>`<li><button class="lnk2" data-p="${id(p)}">${esc(p.name)}</button><span class="m2"> · ${esc(p.time)}</span></li>`).join("")}</ol>
+      <button class="act${i?"":" pri"}" data-askt="${i}" style="width:100%">Make this the trip</button></section>`).join(""):""}</div>`;
+  const f=$("#askF");f.onsubmit=e=>{e.preventDefault();S.askQ=$("#askQ").value.trim();paint(false,0)};$("#askQ").onkeydown=e=>{if(e.key==="Enter"&&!e.shiftKey){e.preventDefault();f.requestSubmit()}};
+  V.querySelectorAll("[data-ask]").forEach(b=>b.onclick=()=>{S.askQ=b.dataset.ask;paint(false,0)});
+  V.querySelectorAll(".askp [data-p]").forEach(b=>b.onclick=()=>{const p=byId(b.dataset.p);if(p.slug!==S.slug){S.slug=p.slug;classStates()}openPlace(p,true)});
+  V.querySelectorAll("[data-askt]").forEach(b=>b.onclick=()=>{const pl=plans[+b.dataset.askt];syncTrip();const r={id:uid_(),t:Date.now(),name:`${pl.a.name}, ${o.days} day${o.days>1?"s":""}`,stops:pl.ps.map(id),start:"",budget:0,note:`Asked: ${q}`};tripsAll().unshift(r);loadTrip(r);save();hdr();S.ttab="plan";root_("trip");toast("Trip made. Add your dates")});
+  if(!q)setTimeout(()=>$("#askQ")?.focus(),50)}
+
 function route(silent,h0){const h=h0!=null?h0:location.hash.slice(1);const m=h.match(/^(.*)-(\d+)$/);
   if(m&&S.data[m[1]]){const p=S.data[m[1]].places.find(x=>x.n==m[2]);if(p){S.slug=m[1];classStates();S.stack=[{v:"explore"}];openPlace(p,!silent);return}}
   paint()}
@@ -2813,14 +2932,16 @@ function route(silent,h0){const h=h0!=null?h0:location.hash.slice(1);const m=h.m
     Promise.all([fetch("data/rivers.json").then(r=>r.json()),fetch("data/terrain.json").then(r=>r.json())]).then(([r,t])=>{S.riv=r;S.ter=t;drawGeo();queueLabels()}).catch(()=>{});
     const h=location.hash.slice(1),m=h.match(/^(.*?)(?:-(\d+))?$/);
     const first=h?states.find(s=>s.status==="done"&&(h===s.slug||h.startsWith(s.slug+"-"))):null;
-    if(h.startsWith("list=")){S.slug=null;S.stack=[{v:"explore"},{v:"slist",a:h.slice(5)}];classStates();paint(true);drawPins();drawHome();setTimeout(fitIndia,250);if(mobile())setTimeout(()=>snapTo(2),300)}
+    if(h.startsWith("go=")){S.slug=null;S.stack=[{v:"explore"},{v:"vote",a:h.slice(3)}];classStates();paint(true);drawPins();drawHome();setTimeout(fitIndia,250);if(mobile())setTimeout(()=>snapTo(2),300)}
+    else if(h.startsWith("votes=")){S.slug=null;S.stack=[{v:"explore"}];classStates();paint();drawPins();drawHome();setTimeout(fitIndia,250);takeVotes(h.slice(6));if(mobile())setTimeout(()=>snapTo(2),300)}
+    else if(h.startsWith("list=")){S.slug=null;S.stack=[{v:"explore"},{v:"slist",a:h.slice(5)}];classStates();paint(true);drawPins();drawHome();setTimeout(fitIndia,250);if(mobile())setTimeout(()=>snapTo(2),300)}
     else if(first){await openState(first.slug,false);if(h!==first.slug&&h.startsWith(first.slug+"-"))route(false,h);else setTimeout(()=>focusState(1000),250)}
     else{S.slug=null;S.stack=[{v:"explore"}];classStates();paint();drawPins();drawHome();setTimeout(fitIndia,250)}
     if(!M.onboarded)setTimeout(()=>{if(!M.onboarded)showOnboard(false)},900);
     requestAnimationFrame(()=>setTimeout(()=>phGo&&phGo(),50));
     {const L=allPlaces();let i=0;const idle=window.requestIdleCallback||(f=>setTimeout(()=>f({timeRemaining:()=>8}),60));const step=dl=>{const t0=performance.now();while(i<L.length&&(dl.timeRemaining()>2||performance.now()-t0<6)){hay(L[i]);L[i]._cn||(L[i]._cn=" "+canon(L[i].name)+" ");i++}if(i<L.length)idle(step)};setTimeout(()=>idle(step),2500)}
   }catch(e){phGo&&phGo();V.innerHTML=`<div class="empty">Couldn't load the atlas. Reload to try again.</div>`;console.error(e)}
-  addEventListener("hashchange",()=>{if(Date.now()-ignHashT<600)return;const h=location.hash.slice(1);if(h.startsWith("list=")){remember();S.stack.push({v:"slist",a:h.slice(5)});paint(true);if(mobile())snapTo(2);return}const s=S.states.find(x=>x.slug===h);if(s&&s.status==="done"&&h!==S.slug)openState(s.slug,true);else if(/-\d+$/.test(h)&&!(S.sel&&h===S.sel.slug+"-"+S.sel.n))route(false)});
+  addEventListener("hashchange",()=>{const h=location.hash.slice(1);/* links from friends are never set by the app itself */if(h.startsWith("go=")){remember();S.stack.push({v:"vote",a:h.slice(3)});paint(true);if(mobile())snapTo(2);return}if(h.startsWith("votes=")){takeVotes(h.slice(6));return}if(Date.now()-ignHashT<600)return;if(h.startsWith("list=")){remember();S.stack.push({v:"slist",a:h.slice(5)});paint(true);if(mobile())snapTo(2);return}const s=S.states.find(x=>x.slug===h);if(s&&s.status==="done"&&h!==S.slug)openState(s.slug,true);else if(/-\d+$/.test(h)&&!(S.sel&&h===S.sel.slug+"-"+S.sel.n))route(false)});
 })();
 }
 </script>
