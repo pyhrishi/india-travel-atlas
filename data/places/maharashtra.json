@@ -1780,6 +1780,15 @@
     "crowd": "Quiet",
     "sunset": true,
     "vibe": "Watch hatchlings released at dawn and dusk (Feb–Apr)"
+   },
+   "wild": {
+    "sp": [
+     "turtle"
+    ],
+    "best": "Feb–Apr",
+    "odds": "Hatchlings likely at the festival",
+    "how": "Dawn and dusk releases",
+    "note": "Turtle festival run by villagers"
    }
   },
   {
@@ -5230,6 +5239,30 @@
     "see": [
      "Lighthouse"
     ]
+   }
+  },
+  {
+   "n": 254,
+   "name": "Thane Creek Flamingo Sanctuary",
+   "district": "Thane",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 19.09,
+   "lng": 72.985,
+   "why": "Mumbai creek where tens of thousands of flamingos winter",
+   "tier": "gem",
+   "months": [
+    12,
+    5
+   ],
+   "time": "Half day",
+   "wild": {
+    "sp": [
+     "flamingo"
+    ],
+    "best": "Dec–May",
+    "odds": "Flamingos almost certain",
+    "how": "Boat rides from Airoli"
    }
   }
  ],

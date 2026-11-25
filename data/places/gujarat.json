@@ -551,6 +551,17 @@
     "stars": [
      "Wide flat horizons"
     ]
+   },
+   "wild": {
+    "sp": [
+     "wildass",
+     "flamingo"
+    ],
+    "best": "Oct–Mar",
+    "odds": "Wild ass almost certain",
+    "how": "Jeep safari from Bajana or Dasada",
+    "note": "The only home of the Indian wild ass",
+    "warn": "Closed in the monsoon"
    }
   },
   {
@@ -588,6 +599,17 @@
     "book": "Gir lion safari booking",
     "url": "https://girlion.gujarat.gov.in",
     "note": "Last wild home of the Asiatic lion"
+   },
+   "wild": {
+    "sp": [
+     "lion",
+     "leopard"
+    ],
+    "best": "Dec–Apr (open mid-Oct to mid-Jun)",
+    "odds": "Lions likely on most safaris",
+    "how": "Permit safari booked online; Devalia interpretation zone as backup",
+    "note": "The only wild Asiatic lions anywhere",
+    "warn": "Safari permits sell out; book early"
    }
   },
   {
@@ -1089,6 +1111,14 @@
     ],
     "start": "Velavadar",
     "note": "One of the world's largest harrier roosts"
+   },
+   "wild": {
+    "sp": [
+     "blackbuck"
+    ],
+    "best": "Oct–Mar",
+    "odds": "Blackbuck almost certain; wolves and harriers possible",
+    "how": "Jeep or own car"
    }
   },
   {
@@ -1179,6 +1209,14 @@
      "Boat"
     ],
     "start": "Vekaria"
+   },
+   "wild": {
+    "sp": [
+     "flamingo"
+    ],
+    "best": "Nov–Feb",
+    "odds": "Flamingos likely",
+    "how": "Boat rides"
    }
   },
   {
@@ -1726,7 +1764,15 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "wild": {
+    "sp": [
+     "slothbear"
+    ],
+    "best": "Oct–Mar",
+    "odds": "Fair",
+    "how": "Forest walks"
+   }
   },
   {
    "n": 79,

@@ -2368,7 +2368,16 @@
     6,
     9
    ],
-   "time": "Overnight"
+   "time": "Overnight",
+   "wild": {
+    "sp": [
+     "snowleopard"
+    ],
+    "best": "Jan–Mar",
+    "odds": "Fair to good",
+    "how": "Village homestays with spotters",
+    "note": "Also ibex and blue sheep"
+   }
   },
   {
    "n": 119,

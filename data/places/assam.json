@@ -586,6 +586,15 @@
      "Elephant"
     ],
     "gate": "Mayong, 50 km from Guwahati"
+   },
+   "wild": {
+    "sp": [
+     "rhino"
+    ],
+    "best": "Nov–Apr",
+    "odds": "Rhinos almost certain",
+    "how": "Jeep safari",
+    "note": "Highest rhino density in the world, an hour from Guwahati"
    }
   },
   {
@@ -689,6 +698,15 @@
     "gate": "Barpeta Road",
     "closed": "Usually closes in the monsoon",
     "note": "One of Project Tiger's first nine reserves (1973); UNESCO World Heritage Site"
+   },
+   "wild": {
+    "sp": [
+     "elephant",
+     "rhino"
+    ],
+    "best": "Nov–Apr",
+    "odds": "Elephants likely; golden langur on the Bhutan side",
+    "how": "Jeep safari"
    }
   },
   {
@@ -863,6 +881,15 @@
     ],
     "gate": "Orang",
     "note": "Called 'mini Kaziranga'"
+   },
+   "wild": {
+    "sp": [
+     "rhino"
+    ],
+    "best": "Nov–Apr",
+    "odds": "Rhinos likely",
+    "how": "Jeep safari",
+    "note": "Called mini-Kaziranga"
    }
   },
   {
@@ -1005,6 +1032,15 @@
      "Rafting on the Jia Bhoroli"
     ],
     "gate": "Potasali"
+   },
+   "wild": {
+    "sp": [
+     "hornbill",
+     "elephant"
+    ],
+    "best": "Nov–Apr",
+    "odds": "Hornbills likely",
+    "how": "Walking safari and rafting"
    }
   },
   {
@@ -1106,6 +1142,16 @@
      "Jeep"
     ],
     "start": "Kohora"
+   },
+   "wild": {
+    "sp": [
+     "rhino",
+     "elephant"
+    ],
+    "best": "Nov–Apr (closed in the monsoon)",
+    "odds": "Rhinos almost certain; elephants and wild buffalo likely",
+    "how": "Jeep safari; elephant rides at dawn in some ranges",
+    "note": "Also one of the densest tiger populations, though they're hard to see"
    }
   },
   {
@@ -1621,6 +1667,15 @@
      "Walking"
     ],
     "start": "Mariani"
+   },
+   "wild": {
+    "sp": [
+     "gibbon"
+    ],
+    "best": "Oct–Apr",
+    "odds": "Gibbons likely in the early morning",
+    "how": "Guided forest walk",
+    "note": "Their whooping calls carry for kilometres"
    }
   },
   {

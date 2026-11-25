@@ -2259,6 +2259,15 @@ const THEMES=[
  ["seaforts","Forts by the sea","Sea forts, island citadels and coastal bastions",p=>isFort(p)&&seaF(p)],
  ["rockcut","Carved from the rock","Cave temples and monasteries cut into cliffs",p=>p.g==="caves"||cat(/cave/i)(p)],
  ["stepwells","Stepwells","Water architecture of the west",p=>tgx("stepwell")(p)||cat(/stepwell/i)(p)],
+ ["wildlife","Wildlife beyond tigers","Rhinos, lions, snow leopards, gharials, red pandas and more","#3f6212",tg("wild")],
+ ["sp-rhino","One-horned rhino","Assam's grasslands, where most of the world's greater one-horned rhinos live","#475569",tg("sp-rhino")],
+ ["sp-snowleopard","Snow leopard","Winter tracking in Ladakh and Spiti","#64748b",tg("sp-snowleopard")],
+ ["sp-elephant","Wild elephants","Herds in the forests of the south and north","#57534e",tg("sp-elephant")],
+ ["sp-redpanda","Red panda","Bamboo forests of the eastern Himalaya","#c2410c",tg("sp-redpanda")],
+ ["sp-dolphin","River and lagoon dolphins","Gangetic and Irrawaddy dolphins","#0369a1",tg("sp-dolphin")],
+ ["sp-leopard","Leopards","Places with good leopard odds","#ca8a04",tg("sp-leopard")],
+ ["sp-hornbill","Hornbills","Great hornbills in the Ghats and the north-east","#ca8a04",tg("sp-hornbill")],
+ ["sp-flamingo","Flamingos","Pink flocks in winter","#db2777",tg("sp-flamingo")],
  ["gompas","Monasteries in the clouds","Gompas of the Himalaya and the Northeast",p=>tgx("monastery")(p)||cat(/monastery/i)(p)],
  ["tea","Tea and coffee country","Estates, plantations and planters' bungalows",p=>tgx("tea")(p)||cat(/tea|coffee|spice farm/i)(p)],
  ["tigers","Tiger country","Reserves where tigers live wild",p=>tgx("tiger")(p),{season:1}],
@@ -2959,7 +2968,8 @@ const HIMS=new Set(["uttarakhand","himachal-pradesh","jammu-and-kashmir","ladakh
 try{THEMES.push(["mtreks","Treks for this season","Trails and summits at their best this month",p=>tg("trek")(p)&&!tg("easy")(p),{season:1}],["easywalks","Easy hikes with big views","Short climbs anyone can do",tg("easy"),{season:1}])}catch(e){}
 
 /* ================= Detail cards for the new layers ================= */
-const XF=["trek","park","wet","bird","cave","sky","rail","drive","gi","art","eat","beach","fall","fort"];
+const XF=["trek","park","wet","bird","cave","sky","rail","drive","gi","art","eat","beach","fall","fort","wild"];const SPN={"rhino": "One-horned rhino", "lion": "Asiatic lion", "snowleopard": "Snow leopard", "elephant": "Wild elephants", "wildass": "Indian wild ass", "blackbuck": "Blackbuck", "gibbon": "Hoolock gibbon", "redpanda": "Red panda", "dolphin": "River and lagoon dolphins", "gharial": "Gharial", "sangai": "Sangai deer", "turtle": "Olive ridley turtles", "slothbear": "Sloth bear", "leopard": "Leopards", "cheetah": "Cheetah", "tahr": "Nilgiri tahr", "macaque": "Lion-tailed macaque", "hornbill": "Hornbills", "flamingo": "Flamingos"};
+
 const lst=a=>(a||[]).filter(Boolean).map(esc).join(" · ");
 const lnk=(u,t)=>u?`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(t||"Official site")} ↗</a>`:esc(t||"");
 /* each layer: card title, a kind badge, rows [label, html], and notes */
@@ -2976,6 +2986,7 @@ const XCARD={
  beach:d=>({t:"On the beach",k:"Beach",rows:[["Swimming",esc(d.swim||"")],["Crowds",esc(d.crowd||"")],["Feel",esc(d.vibe||"")],["Do",lst(d.sports)],["Surf",esc(d.surf||"")],["Sunset",d.sunset?"Faces the sunset":""]],warn:d.warn,note:d.note,foot:"West-coast seas turn rough from June to September; most beaches put up red flags then."}),
  fall:d=>({t:"The falls",k:d.h?`About ${d.h} m`:"Waterfall",rows:[["Height",d.h?`About ${d.h} m`:""],["Shape",esc(d.tiers||"")],["Flowing",esc(d.flow||"")],["Getting close",esc(d.walk||"")],["Bathing",d.bathe===true?"Allowed in parts":d.bathe===false?"Not safe or not allowed":""]],warn:d.warn,note:d.note}),
  fort:d=>({t:d.kind==="Stepwell"?"The stepwell":d.kind==="Palace"?"The palace":"The fort",k:d.unesco?"UNESCO":d.kind,rows:[["Built",esc(d.built||"")],["By",esc(d.by||"")],["Don't miss",lst(d.see)],["World Heritage",esc(d.unesco||"")],["Stay",esc(d.stay||"")],["Evenings",esc(d.show||"")]],warn:d.warn,note:d.note}),
+ wild:d=>({t:"Wildlife to look for",k:"Wildlife",rows:[["Star species",lst((d.sp||[]).map(x=>SPN[x]||x))],["Best time",esc(d.best||"")],["Your odds",esc(d.odds||"")],["How",esc(d.how||"")]],warn:d.warn,note:d.note,foot:"Sightings are never guaranteed; odds are typical, not promised."}),
  eat:d=>({t:"What to eat",k:d.kind||"Eatery",rows:[["Since",d.since?String(d.since):""],["Known for",lst(d.dishes)],["Food",d.veg===true?"Vegetarian":d.veg===false?"Non-vegetarian too":""],["Go",esc(d.when||"")]],note:d.note,foot:"Hours and prices change; old favourites sometimes move. Check before you go."}),
 };
 function xBlocks(p){return XF.filter(f=>f!=="trek"&&p[f]&&XCARD[f]).map(f=>{const c=XCARD[f](p[f]),rows=c.rows.filter(r=>r[1]);

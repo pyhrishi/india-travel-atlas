@@ -572,6 +572,16 @@
     "book": "MP Forest online booking",
     "url": "https://forest.mponline.gov.in",
     "note": "Home of India's reintroduced cheetahs since 2022"
+   },
+   "wild": {
+    "sp": [
+     "cheetah",
+     "leopard"
+    ],
+    "best": "Oct–Mar",
+    "odds": "Low to fair",
+    "how": "Jeep safari",
+    "note": "Cheetahs were reintroduced from 2022"
    }
   },
   {

@@ -247,6 +247,16 @@
     ],
     "start": "Mangalajodi or Nalabana",
     "note": "Mangalajodi's former bird hunters now guide birders"
+   },
+   "wild": {
+    "sp": [
+     "dolphin",
+     "flamingo"
+    ],
+    "best": "Nov–Feb",
+    "odds": "Irrawaddy dolphins likely",
+    "how": "Boat from Satapada",
+    "note": "Flamingos at Nalabana in winter"
    }
   },
   {
@@ -733,7 +743,16 @@
     2,
     4
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "wild": {
+    "sp": [
+     "turtle"
+    ],
+    "best": "Feb–Mar for nesting; hatchlings about 45 days later",
+    "odds": "Good when an arribada happens",
+    "how": "Beach walks with the forest department",
+    "note": "Mass nesting dates vary each year"
+   }
   },
   {
    "n": 35,

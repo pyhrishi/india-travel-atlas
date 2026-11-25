@@ -846,7 +846,16 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "wild": {
+    "sp": [
+     "gharial",
+     "dolphin"
+    ],
+    "best": "Nov–Mar",
+    "odds": "Gharials almost certain",
+    "how": "Boat safari"
+   }
   },
   {
    "n": 33,
@@ -1781,6 +1790,15 @@
      "Jeep"
     ],
     "start": "Chhapar"
+   },
+   "wild": {
+    "sp": [
+     "blackbuck"
+    ],
+    "best": "Sep–Mar",
+    "odds": "Blackbuck almost certain",
+    "how": "Walk or drive",
+    "note": "Raptor migration in winter"
    }
   },
   {
@@ -4208,6 +4226,55 @@
     ],
     "veg": true,
     "when": "Morning"
+   }
+  },
+  {
+   "n": 216,
+   "name": "Jawai Leopard Hills",
+   "district": "Pali",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 25.106,
+   "lng": 73.149,
+   "why": "Granite hills where leopards live around temples and shepherd villages",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 days",
+   "wild": {
+    "sp": [
+     "leopard"
+    ],
+    "best": "Oct–Mar",
+    "odds": "Leopards likely on most drives",
+    "how": "Jeep drives from local camps",
+    "note": "Leopards share the hills with Rabari herders and temples"
+   }
+  },
+  {
+   "n": 217,
+   "name": "Jhalana Leopard Reserve",
+   "district": "Jaipur",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 26.876,
+   "lng": 75.833,
+   "why": "City-edge leopard reserve in Jaipur",
+   "tier": "gem",
+   "months": [
+    10,
+    6
+   ],
+   "time": "Half day",
+   "wild": {
+    "sp": [
+     "leopard"
+    ],
+    "best": "Oct–Jun",
+    "odds": "Leopards fair to good",
+    "how": "Jeep safari"
    }
   }
  ],

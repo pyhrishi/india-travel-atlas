@@ -317,7 +317,16 @@
     10,
     2
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "wild": {
+    "sp": [
+     "slothbear"
+    ],
+    "best": "Oct–Mar",
+    "odds": "Bears likely in the evening",
+    "how": "Watchtower overlooking feeding rocks",
+    "note": "Near Hampi"
+   }
   },
   {
    "n": 8,
@@ -1861,6 +1870,15 @@
     "gate": "Kabini",
     "book": "Karnataka Forest (Aranya Vihaara)",
     "url": "https://aranyavihaara.karnataka.gov.in"
+   },
+   "wild": {
+    "sp": [
+     "elephant",
+     "leopard"
+    ],
+    "best": "Oct–Jun",
+    "odds": "Elephants likely",
+    "how": "Jeep safari"
    }
   },
   {
@@ -2179,6 +2197,15 @@
     "gate": "Kabini",
     "book": "Karnataka Forest (Aranya Vihaara) or Jungle Lodges",
     "url": "https://aranyavihaara.karnataka.gov.in"
+   },
+   "wild": {
+    "sp": [
+     "elephant",
+     "leopard"
+    ],
+    "best": "Mar–Jun for elephant gatherings by the lake",
+    "odds": "Elephants almost certain; leopards and the black panther possible",
+    "how": "Jeep and boat safari"
    }
   },
   {
@@ -2343,6 +2370,14 @@
     "book": "Karnataka Forest (Aranya Vihaara)",
     "url": "https://aranyavihaara.karnataka.gov.in",
     "note": "One of Project Tiger's first nine reserves (1973)"
+   },
+   "wild": {
+    "sp": [
+     "elephant"
+    ],
+    "best": "Oct–Jun",
+    "odds": "Elephants likely",
+    "how": "Jeep safari"
    }
   },
   {
@@ -3227,7 +3262,15 @@
     10,
     6
    ],
-   "time": "Overnight"
+   "time": "Overnight",
+   "wild": {
+    "sp": [
+     "hornbill"
+    ],
+    "best": "Nov–Apr",
+    "odds": "Great and Malabar pied hornbills likely",
+    "how": "Birding walks and river trips"
+   }
   },
   {
    "n": 169,

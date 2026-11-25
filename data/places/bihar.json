@@ -1324,7 +1324,15 @@
     10,
     4
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "wild": {
+    "sp": [
+     "dolphin"
+    ],
+    "best": "Oct–Jun",
+    "odds": "Gangetic dolphins likely",
+    "how": "Boat on the Ganges near Bhagalpur"
+   }
   },
   {
    "n": 67,

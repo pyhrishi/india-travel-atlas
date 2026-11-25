@@ -1558,7 +1558,16 @@
     10,
     5
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "wild": {
+    "sp": [
+     "redpanda"
+    ],
+    "best": "Year round",
+    "odds": "Certain (in the zoo)",
+    "how": "Zoo visit",
+    "note": "Runs a red panda and snow leopard breeding programme"
+   }
   },
   {
    "n": 80,
@@ -1725,6 +1734,15 @@
      "Land Rover to Sandakphu"
     ],
     "gate": "Manebhanjan"
+   },
+   "wild": {
+    "sp": [
+     "redpanda"
+    ],
+    "best": "Mar–May and Oct–Dec",
+    "odds": "Low; you need luck",
+    "how": "Jeep or trek on the ridge",
+    "note": "Best chance is at dawn in bamboo"
    }
   },
   {
@@ -1880,6 +1898,14 @@
      "Walking"
     ],
     "start": "Lava"
+   },
+   "wild": {
+    "sp": [
+     "redpanda"
+    ],
+    "best": "Mar–May",
+    "odds": "Low",
+    "how": "Forest walks"
    }
   },
   {

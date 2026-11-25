@@ -1949,7 +1949,16 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "wild": {
+    "sp": [
+     "gharial",
+     "dolphin"
+    ],
+    "best": "Nov–Mar",
+    "odds": "Gharials almost certain on sandbanks; dolphins possible",
+    "how": "Boat safari"
+   }
   },
   {
    "n": 99,

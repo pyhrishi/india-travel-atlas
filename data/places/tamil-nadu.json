@@ -1214,6 +1214,16 @@
      "Tea estates"
     ],
     "warn": "Elephants cross at dusk; drive slowly"
+   },
+   "wild": {
+    "sp": [
+     "macaque",
+     "hornbill"
+    ],
+    "best": "Year round",
+    "odds": "Lion-tailed macaques likely",
+    "how": "Walk the road at the forest patch",
+    "note": "Don't feed them; drive slowly"
    }
   },
   {
@@ -1245,6 +1255,15 @@
     ],
     "gate": "Topslip",
     "book": "Tamil Nadu Forest booking"
+   },
+   "wild": {
+    "sp": [
+     "macaque",
+     "elephant"
+    ],
+    "best": "Oct–Apr",
+    "odds": "Lion-tailed macaques fair",
+    "how": "Jeep safari and walks"
    }
   },
   {

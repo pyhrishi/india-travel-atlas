@@ -362,6 +362,15 @@
     ],
     "gate": "Rumbak or Zingchen",
     "note": "Among the best places on earth to see a snow leopard, in Jan–Mar"
+   },
+   "wild": {
+    "sp": [
+     "snowleopard"
+    ],
+    "best": "Jan–Mar",
+    "odds": "Good over 5–7 days with local trackers",
+    "how": "Spotting scopes from ridges near Rumbak",
+    "note": "Bitter cold, down to −20 °C"
    }
   },
   {
@@ -384,6 +393,14 @@
     "el": 4000,
     "diff": "Moderate",
     "base": "Zingchen"
+   },
+   "wild": {
+    "sp": [
+     "snowleopard"
+    ],
+    "best": "Jan–Mar",
+    "odds": "Good with local spotters",
+    "how": "Homestay base for snow leopard trips"
    }
   },
   {

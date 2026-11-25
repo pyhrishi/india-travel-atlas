@@ -994,6 +994,16 @@
     "gate": "Munnar",
     "closed": "Usually closes Feb–Mar for tahr calving",
     "book": "Online ticket"
+   },
+   "wild": {
+    "sp": [
+     "tahr"
+    ],
+    "best": "Apr–Jan",
+    "odds": "Nilgiri tahr almost certain",
+    "how": "Park bus to Rajamala",
+    "note": "Neelakurinji blooms here every 12 years (next about 2030)",
+    "warn": "Closed about Feb–Mar for calving"
    }
   },
   {
@@ -1156,6 +1166,14 @@
     "gate": "Thekkady",
     "book": "Periyar Tiger Reserve eco-tourism",
     "url": "https://www.periyartigerreserve.org"
+   },
+   "wild": {
+    "sp": [
+     "elephant"
+    ],
+    "best": "Oct–May",
+    "odds": "Elephants likely at the lake edge",
+    "how": "Boat on Periyar lake"
    }
   },
   {
