@@ -1,0 +1,834 @@
+{
+  "schema_version": 1,
+  "title": "Historical places layer",
+  "scope": "Curated historical and archaeological places already present in the India and Nepal destination catalogue. This is a distinct thematic layer, not a complete world historical gazetteer.",
+  "periods": [
+    "Prehistory",
+    "Ancient",
+    "Early medieval",
+    "Medieval",
+    "Early modern",
+    "Modern"
+  ],
+  "places": [
+    {
+      "id": "andhra-pradesh:3",
+      "slug": "andhra-pradesh",
+      "n": 3,
+      "name": "Mukhalingam Temples",
+      "period": "Early medieval",
+      "kind": "Temple complex",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "andhra-pradesh:4",
+      "slug": "andhra-pradesh",
+      "n": 4,
+      "name": "Salihundam",
+      "period": "Ancient",
+      "kind": "Buddhist archaeological site",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "andhra-pradesh:8",
+      "slug": "andhra-pradesh",
+      "n": 8,
+      "name": "Vizianagaram Fort",
+      "period": "Early modern",
+      "kind": "Fort",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "andhra-pradesh:11",
+      "slug": "andhra-pradesh",
+      "n": 11,
+      "name": "Thotlakonda Buddhist Complex",
+      "period": "Ancient",
+      "kind": "Buddhist monastic site",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "andhra-pradesh:19",
+      "slug": "andhra-pradesh",
+      "n": 19,
+      "name": "Sankaram (Bojjannakonda)",
+      "period": "Ancient",
+      "kind": "Buddhist archaeological site",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "andhra-pradesh:22",
+      "slug": "andhra-pradesh",
+      "n": 22,
+      "name": "Borra Caves",
+      "period": "Prehistory",
+      "kind": "Cave system",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "andhra-pradesh:49",
+      "slug": "andhra-pradesh",
+      "n": 49,
+      "name": "Kondapalli Fort & Toy Village",
+      "period": "Medieval",
+      "kind": "Fort",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "andhra-pradesh:50",
+      "slug": "andhra-pradesh",
+      "n": 50,
+      "name": "Undavalli Caves",
+      "period": "Early medieval",
+      "kind": "Rock-cut monument",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "bihar:6",
+      "slug": "bihar",
+      "n": 6,
+      "name": "Kumhrar",
+      "period": "Ancient",
+      "kind": "Archaeological site",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "bihar:16",
+      "slug": "bihar",
+      "n": 16,
+      "name": "Nalanda Mahavihara",
+      "period": "Ancient",
+      "kind": "University and monastery ruins",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "bihar:22",
+      "slug": "bihar",
+      "n": 22,
+      "name": "Griddhakuta (Vulture Peak)",
+      "period": "Ancient",
+      "kind": "Buddhist sacred landscape",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "bihar:27",
+      "slug": "bihar",
+      "n": 27,
+      "name": "Saptaparni Cave",
+      "period": "Ancient",
+      "kind": "Cave and Buddhist heritage",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "bihar:28",
+      "slug": "bihar",
+      "n": 28,
+      "name": "Cyclopean Wall",
+      "period": "Ancient",
+      "kind": "Fortification",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "bihar:31",
+      "slug": "bihar",
+      "n": 31,
+      "name": "Mahabodhi Temple",
+      "period": "Ancient",
+      "kind": "Buddhist temple",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "bihar:39",
+      "slug": "bihar",
+      "n": 39,
+      "name": "Barabar Caves",
+      "period": "Ancient",
+      "kind": "Rock-cut caves",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "bihar:40",
+      "slug": "bihar",
+      "n": 40,
+      "name": "Kolhua Ashokan Pillar",
+      "period": "Ancient",
+      "kind": "Ashokan monument",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "delhi:1",
+      "slug": "delhi",
+      "n": 1,
+      "name": "Red Fort",
+      "period": "Early modern",
+      "kind": "Fort and palace complex",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "delhi:11",
+      "slug": "delhi",
+      "n": 11,
+      "name": "Humayun's Tomb",
+      "period": "Medieval",
+      "kind": "Mughal tomb",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "delhi:18",
+      "slug": "delhi",
+      "n": 18,
+      "name": "Qutub Minar",
+      "period": "Medieval",
+      "kind": "Minar and archaeological complex",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "delhi:19",
+      "slug": "delhi",
+      "n": 19,
+      "name": "Mehrauli Archaeological Park",
+      "period": "Medieval",
+      "kind": "Archaeological landscape",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "delhi:21",
+      "slug": "delhi",
+      "n": 21,
+      "name": "Tughlaqabad Fort",
+      "period": "Medieval",
+      "kind": "Fort",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "delhi:33",
+      "slug": "delhi",
+      "n": 33,
+      "name": "Agrasen ki Baoli",
+      "period": "Medieval",
+      "kind": "Stepwell",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "delhi:34",
+      "slug": "delhi",
+      "n": 34,
+      "name": "Jantar Mantar, Delhi",
+      "period": "Early modern",
+      "kind": "Astronomical observatory",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "delhi:41",
+      "slug": "delhi",
+      "n": 41,
+      "name": "Purana Qila",
+      "period": "Medieval",
+      "kind": "Fort",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "gujarat:3",
+      "slug": "gujarat",
+      "n": 3,
+      "name": "Dholavira",
+      "period": "Ancient",
+      "kind": "Harappan city",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "gujarat:15",
+      "slug": "gujarat",
+      "n": 15,
+      "name": "Lakhpat Fort",
+      "period": "Early modern",
+      "kind": "Fortified town",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "gujarat:21",
+      "slug": "gujarat",
+      "n": 21,
+      "name": "Uparkot Fort",
+      "period": "Ancient",
+      "kind": "Fort",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "gujarat:23",
+      "slug": "gujarat",
+      "n": 23,
+      "name": "Ashoka's Rock Edict, Junagadh",
+      "period": "Ancient",
+      "kind": "Rock inscription",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "gujarat:47",
+      "slug": "gujarat",
+      "n": 47,
+      "name": "Lothal",
+      "period": "Ancient",
+      "kind": "Harappan archaeological site",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "karnataka:1",
+      "slug": "karnataka",
+      "n": 1,
+      "name": "Hampi",
+      "period": "Medieval",
+      "kind": "Historic city",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "karnataka:3",
+      "slug": "karnataka",
+      "n": 3,
+      "name": "Vittala Temple & Stone Chariot",
+      "period": "Medieval",
+      "kind": "Temple complex",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "karnataka:13",
+      "slug": "karnataka",
+      "n": 13,
+      "name": "Badami Cave Temples",
+      "period": "Early medieval",
+      "kind": "Rock-cut temples",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "karnataka:14",
+      "slug": "karnataka",
+      "n": 14,
+      "name": "Aihole",
+      "period": "Early medieval",
+      "kind": "Temple town",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "karnataka:15",
+      "slug": "karnataka",
+      "n": 15,
+      "name": "Pattadakal",
+      "period": "Early medieval",
+      "kind": "Temple complex",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "karnataka:19",
+      "slug": "karnataka",
+      "n": 19,
+      "name": "Gol Gumbaz",
+      "period": "Early modern",
+      "kind": "Mausoleum",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "karnataka:24",
+      "slug": "karnataka",
+      "n": 24,
+      "name": "Bidar Fort",
+      "period": "Medieval",
+      "kind": "Fort",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "madhya-pradesh:1",
+      "slug": "madhya-pradesh",
+      "n": 1,
+      "name": "Khajuraho Western Group",
+      "period": "Medieval",
+      "kind": "Temple complex",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "madhya-pradesh:9",
+      "slug": "madhya-pradesh",
+      "n": 9,
+      "name": "Orchha",
+      "period": "Early modern",
+      "kind": "Historic town",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "madhya-pradesh:12",
+      "slug": "madhya-pradesh",
+      "n": 12,
+      "name": "Gwalior Fort",
+      "period": "Medieval",
+      "kind": "Fort",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "madhya-pradesh:17",
+      "slug": "madhya-pradesh",
+      "n": 17,
+      "name": "Gopachal Jain Rock Carvings",
+      "period": "Medieval",
+      "kind": "Rock-cut sculpture",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "madhya-pradesh:19",
+      "slug": "madhya-pradesh",
+      "n": 19,
+      "name": "Bateshwar Temples",
+      "period": "Early medieval",
+      "kind": "Temple complex",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "madhya-pradesh:20",
+      "slug": "madhya-pradesh",
+      "n": 20,
+      "name": "Mitaoli Chausath Yogini Temple",
+      "period": "Early medieval",
+      "kind": "Temple",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "maharashtra:1",
+      "slug": "maharashtra",
+      "n": 1,
+      "name": "Gateway of India",
+      "period": "Modern",
+      "kind": "Historic monument",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "maharashtra:2",
+      "slug": "maharashtra",
+      "n": 2,
+      "name": "Chhatrapati Shivaji Terminus",
+      "period": "Modern",
+      "kind": "Historic railway architecture",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "maharashtra:4",
+      "slug": "maharashtra",
+      "n": 4,
+      "name": "Elephanta Caves",
+      "period": "Ancient",
+      "kind": "Rock-cut cave temples",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "maharashtra:22",
+      "slug": "maharashtra",
+      "n": 22,
+      "name": "Kanheri Caves",
+      "period": "Ancient",
+      "kind": "Buddhist cave complex",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "maharashtra:27",
+      "slug": "maharashtra",
+      "n": 27,
+      "name": "Kolaba Fort",
+      "period": "Early modern",
+      "kind": "Coastal fort",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "maharashtra:28",
+      "slug": "maharashtra",
+      "n": 28,
+      "name": "Murud-Janjira",
+      "period": "Early modern",
+      "kind": "Sea fort",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "maharashtra:30",
+      "slug": "maharashtra",
+      "n": 30,
+      "name": "Raigad Fort",
+      "period": "Medieval",
+      "kind": "Hill fort",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "maharashtra:38",
+      "slug": "maharashtra",
+      "n": 38,
+      "name": "Karla Caves",
+      "period": "Ancient",
+      "kind": "Buddhist rock-cut caves",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "maharashtra:39",
+      "slug": "maharashtra",
+      "n": 39,
+      "name": "Bhaja Caves",
+      "period": "Ancient",
+      "kind": "Buddhist rock-cut caves",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "maharashtra:43",
+      "slug": "maharashtra",
+      "n": 43,
+      "name": "Shaniwar Wada",
+      "period": "Early modern",
+      "kind": "Palace fortification",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "odisha:1",
+      "slug": "odisha",
+      "n": 1,
+      "name": "Konark Sun Temple",
+      "period": "Medieval",
+      "kind": "Temple complex",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "odisha:19",
+      "slug": "odisha",
+      "n": 19,
+      "name": "Udayagiri & Khandagiri Caves",
+      "period": "Ancient",
+      "kind": "Jain rock-cut caves",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "odisha:20",
+      "slug": "odisha",
+      "n": 20,
+      "name": "Dhauli",
+      "period": "Ancient",
+      "kind": "Ashokan edicts and peace site",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "odisha:61",
+      "slug": "odisha",
+      "n": 61,
+      "name": "Ratnagiri Buddhist Site",
+      "period": "Ancient",
+      "kind": "Buddhist monastery and stupa",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "odisha:62",
+      "slug": "odisha",
+      "n": 62,
+      "name": "Lalitgiri",
+      "period": "Ancient",
+      "kind": "Buddhist archaeological site",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "odisha:63",
+      "slug": "odisha",
+      "n": 63,
+      "name": "Udayagiri Buddhist Site",
+      "period": "Ancient",
+      "kind": "Buddhist archaeological site",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "odisha:66",
+      "slug": "odisha",
+      "n": 66,
+      "name": "Barabati Fort",
+      "period": "Medieval",
+      "kind": "Fort",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "rajasthan:1",
+      "slug": "rajasthan",
+      "n": 1,
+      "name": "Amber Fort",
+      "period": "Early modern",
+      "kind": "Fort and palace",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "rajasthan:2",
+      "slug": "rajasthan",
+      "n": 2,
+      "name": "Hawa Mahal",
+      "period": "Early modern",
+      "kind": "Palace",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "rajasthan:4",
+      "slug": "rajasthan",
+      "n": 4,
+      "name": "Jantar Mantar, Jaipur",
+      "period": "Early modern",
+      "kind": "Astronomical observatory",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "rajasthan:21",
+      "slug": "rajasthan",
+      "n": 21,
+      "name": "Abhaneri Chand Baori",
+      "period": "Medieval",
+      "kind": "Stepwell",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "rajasthan:22",
+      "slug": "rajasthan",
+      "n": 22,
+      "name": "Bhangarh Fort",
+      "period": "Medieval",
+      "kind": "Fort and settlement ruins",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "rajasthan:31",
+      "slug": "rajasthan",
+      "n": 31,
+      "name": "Ranthambore Fort",
+      "period": "Medieval",
+      "kind": "Hill fort",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "tamil-nadu:2",
+      "slug": "tamil-nadu",
+      "n": 2,
+      "name": "Thirumalai Nayakkar Mahal",
+      "period": "Early modern",
+      "kind": "Palace",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "tamil-nadu:7",
+      "slug": "tamil-nadu",
+      "n": 7,
+      "name": "Keezhadi Museum",
+      "period": "Ancient",
+      "kind": "Archaeological museum",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "tamil-nadu:27",
+      "slug": "tamil-nadu",
+      "n": 27,
+      "name": "Chitharal Jain Monuments",
+      "period": "Medieval",
+      "kind": "Jain rock-cut monuments",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "tamil-nadu:64",
+      "slug": "tamil-nadu",
+      "n": 64,
+      "name": "Thanjavur Brihadeeswarar Temple",
+      "period": "Medieval",
+      "kind": "Temple",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "tamil-nadu:67",
+      "slug": "tamil-nadu",
+      "n": 67,
+      "name": "Gangaikonda Cholapuram",
+      "period": "Medieval",
+      "kind": "Temple and historic capital",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "telangana:1",
+      "slug": "telangana",
+      "n": 1,
+      "name": "Charminar",
+      "period": "Early modern",
+      "kind": "Monument",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "telangana:6",
+      "slug": "telangana",
+      "n": 6,
+      "name": "Golconda Fort",
+      "period": "Medieval",
+      "kind": "Fort",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "telangana:7",
+      "slug": "telangana",
+      "n": 7,
+      "name": "Qutb Shahi Tombs",
+      "period": "Early modern",
+      "kind": "Royal necropolis",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "telangana:24",
+      "slug": "telangana",
+      "n": 24,
+      "name": "Bhongir Fort",
+      "period": "Medieval",
+      "kind": "Hill fort",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "telangana:28",
+      "slug": "telangana",
+      "n": 28,
+      "name": "Ramappa Temple",
+      "period": "Medieval",
+      "kind": "Temple",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "telangana:34",
+      "slug": "telangana",
+      "n": 34,
+      "name": "Warangal Fort",
+      "period": "Medieval",
+      "kind": "Fort",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "uttar-pradesh:1",
+      "slug": "uttar-pradesh",
+      "n": 1,
+      "name": "Taj Mahal",
+      "period": "Early modern",
+      "kind": "Mausoleum",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "uttar-pradesh:2",
+      "slug": "uttar-pradesh",
+      "n": 2,
+      "name": "Agra Fort",
+      "period": "Early modern",
+      "kind": "Fort and palace",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "uttar-pradesh:6",
+      "slug": "uttar-pradesh",
+      "n": 6,
+      "name": "Fatehpur Sikri",
+      "period": "Early modern",
+      "kind": "Historic city",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "uttar-pradesh:29",
+      "slug": "uttar-pradesh",
+      "n": 29,
+      "name": "Sarnath",
+      "period": "Ancient",
+      "kind": "Buddhist archaeological site",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "uttar-pradesh:36",
+      "slug": "uttar-pradesh",
+      "n": 36,
+      "name": "Chunar Fort",
+      "period": "Medieval",
+      "kind": "Fort",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "west-bengal:1",
+      "slug": "west-bengal",
+      "n": 1,
+      "name": "Victoria Memorial",
+      "period": "Modern",
+      "kind": "Memorial and museum",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "west-bengal:33",
+      "slug": "west-bengal",
+      "n": 33,
+      "name": "Shantiniketan",
+      "period": "Modern",
+      "kind": "Cultural heritage landscape",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "west-bengal:38",
+      "slug": "west-bengal",
+      "n": 38,
+      "name": "Bishnupur Terracotta Temples",
+      "period": "Medieval",
+      "kind": "Temple complex",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "west-bengal:55",
+      "slug": "west-bengal",
+      "n": 55,
+      "name": "Murshidabad Hazarduari",
+      "period": "Early modern",
+      "kind": "Palace",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "bagmati:4",
+      "slug": "bagmati",
+      "n": 4,
+      "name": "Boudhanath Stupa",
+      "period": "Ancient",
+      "kind": "Buddhist stupa",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "bagmati:9",
+      "slug": "bagmati",
+      "n": 9,
+      "name": "Swayambhunath",
+      "period": "Ancient",
+      "kind": "Buddhist stupa complex",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "bagmati:12",
+      "slug": "bagmati",
+      "n": 12,
+      "name": "Kathmandu Durbar Square",
+      "period": "Medieval",
+      "kind": "Royal palace square",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "bagmati:13",
+      "slug": "bagmati",
+      "n": 13,
+      "name": "Hanuman Dhoka Palace Museum",
+      "period": "Medieval",
+      "kind": "Royal palace",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "bagmati:15",
+      "slug": "bagmati",
+      "n": 15,
+      "name": "Kasthamandap",
+      "period": "Medieval",
+      "kind": "Historic monument",
+      "source_ref": "destination-catalogue"
+    },
+    {
+      "id": "bagmati:44",
+      "slug": "bagmati",
+      "n": 44,
+      "name": "Kirtipur",
+      "period": "Medieval",
+      "kind": "Historic town",
+      "source_ref": "destination-catalogue"
+    }
+  ]
+}

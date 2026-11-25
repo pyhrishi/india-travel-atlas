@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "standard": "UNSD M49",
+  "source": "https://unstats.un.org/unsd/methodology/m49/",
+  "source_note": "M49 is a statistical classification of countries or areas. It explicitly does not imply political affiliation, sovereignty, or boundary delimitation. Do not treat M49 codes as a sovereignty classification.",
+  "entity_types": [
+    "m49-country-or-area",
+    "territory",
+    "dependency",
+    "special-administrative-area",
+    "disputed-or-partially-recognised",
+    "other-area"
+  ],
+  "fields": {
+    "id": "stable internal ID",
+    "name": "display name",
+    "m49": "UN M49 numeric code where assigned",
+    "iso2": "ISO 3166-1 alpha-2 where assigned",
+    "iso3": "ISO 3166-1 alpha-3 where assigned",
+    "entity_type": "one of entity_types",
+    "status_note": "neutral factual note about status/administration",
+    "parent_id": "parent sovereign/administrative entity when applicable",
+    "source": "source URL",
+    "reviewed_at": "ISO date"
+  },
+  "entities": [
+    {
+      "id": "country:in",
+      "name": "India",
+      "m49": "356",
+      "iso2": "IN",
+      "iso3": "IND",
+      "entity_type": "m49-country-or-area",
+      "status_note": "UN M49 statistical country-or-area entry; inclusion does not imply sovereignty or political affiliation.",
+      "source": "https://unstats.un.org/unsd/methodology/m49/"
+    },
+    {
+      "id": "country:np",
+      "name": "Nepal",
+      "m49": "524",
+      "iso2": "NP",
+      "iso3": "NPL",
+      "entity_type": "m49-country-or-area",
+      "status_note": "UN M49 statistical country-or-area entry; inclusion does not imply sovereignty or political affiliation.",
+      "source": "https://unstats.un.org/unsd/methodology/m49/"
+    }
+  ],
+  "coverage": {
+    "status": "seed",
+    "note": "Initial India/Nepal seed only. The scheduled/manual M49 importer expands this to the full UN M49 country-or-area list. Add separately sourced disputed or partially recognised entities as distinct records; never infer sovereignty from inclusion."
+  }
+}

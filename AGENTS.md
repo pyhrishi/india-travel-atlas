@@ -44,3 +44,8 @@ python3 tools/bump_sw.py
 - The central publish job must run only after every matrix job succeeds. `.github/scripts/merge_facts.py` must fail closed unless all 36 expected region artifacts exist and every catalogue place has an explicit terminal disposition. Do not weaken this guard to publish partial output.
 - Photo verification is part of the central publish job. Commons API batch failures must fail closed so the previous committed photo data remains intact. The separate photo workflow is scheduled/manual only and shares the facts concurrency group; do not add an independent push trigger that can race the central publisher.
 - A queued/pending Actions run is not proof that jobs started. Confirm the matrix jobs, artifacts, merge summary, and deployment status before reporting completion. If a run fails, inspect its uploaded region artifacts and rerun failed work; never claim all places are verified merely because the workflow succeeded.
+
+## Current entities and historical map layers
+- Current geographical entities live in `data/entities/current.json`; `tools/import_m49.py` refreshes the M49 country-or-area registry from the UN Statistics Division. M49 is statistical, not a sovereignty or boundary ruling. Keep disputed/partially recognised entities separately sourced and explicitly labelled.
+- Historical sites are a separate catalogue in `data/historical/index.json`, referenced to existing destination records by stable `slug:n` IDs. They are a thematic map layer and must not be mixed into current administrative entities or destination catalogue counts.
+- The map layer switch is implemented in `index.html`; when changing either layer, preserve the normal destination experience and ensure historical pins resolve to existing place records.
