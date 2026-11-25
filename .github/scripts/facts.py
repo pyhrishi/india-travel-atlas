@@ -65,6 +65,7 @@ PLACE_ALIASES = {'vijayapuracitadelmalikemaidan': ['Bijapur Fort']}
 # Keep these places in the manual-review queue instead of publishing misleading facts/photos.
 MANUAL_ARTICLE_EXCLUSIONS = {
     'andhra-pradesh:112': 'Bheemili Beach article does not describe the Vizag–Bheemili scenic road',
+    'andhra-pradesh:23': 'Araku Valley article is not an article about the Araku Tribal Museum',
     'andhra-pradesh:123': 'Araku Valley article is not an article about the Araku Coffee Museum',
     'andhra-pradesh:137': 'Dindi search result is a Brazilian song, not the Konaseema backwater destination',
     'andhra-pradesh:138': 'Kadiyam locality article does not verify the Kadiyam nursery belt',
@@ -196,6 +197,11 @@ def main():
         debug(os.environ['FACTS_DEBUG'].split('|'), places, broad); return
     old = json.load(open(STATE)) if os.path.exists(STATE) else {}
     R = old.get('r', {}); M = old.get('m', {}); H = old.get('h', {}); PEND = old.get('p', {}); M2 = set(old.get('m2', []))
+    # Enforce manual exclusions against previously published matches as well as new search results.
+    # Without this purge, an old false-positive can survive indefinitely when its match fingerprint is unchanged.
+    for k in MANUAL_ARTICLE_EXCLUSIONS:
+        if k in R:
+            R.pop(k, None); M[k] = NOW; M2.add(k)
     fp = lambda p: hashlib.md5(f"{p['name']}|{p['ll'][0]:.3f}|{p['ll'][1]:.3f}".encode()).hexdigest()[:10]
     keys = {p['k'] for p in places}
     R = {k: v for k, v in R.items() if k in keys}; M = {k: v for k, v in M.items() if k in keys}
