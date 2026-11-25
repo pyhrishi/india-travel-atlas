@@ -1081,7 +1081,7 @@ const halfUp=()=>{if(mobile()&&si<1)snapTo(1)};
 /* ---------- views ---------- */
 const V=$("#view");
 function hdr(){const done=S.states.filter(s=>s.status==="done"),n=allPlaces().length,b=Object.keys(M.been).length;
-  $("#pg").innerHTML=`<b>${done.length}</b> states & UTs · <b>${n.toLocaleString("en-IN")}</b> places<br>${b} visited · ${Object.keys(M.want).length} saved`;
+  $("#pg").innerHTML=`<b>${done.length}</b> ${S.cc==="np"?(done.length===1?"province":"provinces"):"states & UTs"} · <b>${n.toLocaleString("en-IN")}</b> places<br>${b} visited · ${Object.keys(M.want).length} saved`;
   const t=$("#tripN");t.hidden=!M.trip.length;t.textContent=M.trip.length;t.setAttribute("aria-hidden","true");$("#tripSr").textContent=M.trip.length?`, ${M.trip.length} stops`:"";
   const st=stOf(S.slug),up=$("#up");let lvl;
   const sub=(L,pre)=>{const ins=L.filter(p=>inSeason(NOWM,p)).length,v=L.filter(p=>M.been[id(p)]).length;return[(pre?pre+" · ":"")+(ins?`${ins.toLocaleString("en-IN")} in season now`:`${L.length.toLocaleString("en-IN")} places`)+(v?` · ${v} visited`:""),L.length?v/L.length:0]};
@@ -2147,7 +2147,7 @@ function vIndia(){const ready=S.states.filter(s=>s.status==="done"&&S.data[s.slu
    ${collRail()}
    ${recentRail()}${indiaExtras()}
    <details class="pad allst"><summary><b>All ${ready.length} states and UTs</b><span>A–Z</span></summary><ul>${[...ready].sort((a,b)=>a.name.localeCompare(b.name)).map(s=>{const L=S.data[s.slug].places,ic=L.find(p=>p.tier==="icon")||L[0],b=L.filter(p=>M.been[id(p)]).length;return`<li><button class="it" data-s="${s.slug}"><span class="thumb" aria-hidden="true">${art(ic)}</span><span><span class="nm">${esc(s.name)}</span><span class="sub">${L.length} places · ${S.data[s.slug].trails.length} trails${b?` · ${b} visited`:""}</span></span><span class="r" aria-hidden="true" style="font-size:20px">›</span></button></li>`}).join("")}</ul></details>
-   <div class="pad"><div class="stats" style="margin-top:18px"><button class="stat" data-go="states"><b>${ready.length}</b><span>states & UTs</span></button><button class="stat" data-go="list"><b>${all.length.toLocaleString("en-IN")}</b><span>places</span></button><button class="stat" data-coll="iconic"><b>${icons.length}</b><span>iconic</span></button><button class="stat" data-go="trails"><b>${tr}</b><span>trails</span></button></div></div>`;
+   <div class="pad"><div class="stats" style="margin-top:18px"><button class="stat" data-go="states"><b>${ready.length}</b><span>${S.cc==="np"?"provinces":"states & UTs"}</span></button><button class="stat" data-go="list"><b>${all.length.toLocaleString("en-IN")}</b><span>places</span></button><button class="stat" data-coll="iconic"><b>${icons.length}</b><span>iconic</span></button><button class="stat" data-go="trails"><b>${tr}</b><span>trails</span></button></div></div>`;
   if(!MAG)loadMag().then(()=>{if(!S.slug&&S.stack.length===1&&S.stack[0].v==="explore")paint(false,V.scrollTop)}).catch(()=>{});
   bindIndia();bindX();bindWk();bindTripNow()}
 function bindX(){const re=()=>{const p=$("#xtp");p.innerHTML=timePanel(S.xt||"wknd");bind();bindMag();bindX2();scanPhotos(p)};

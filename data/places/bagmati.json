@@ -1,0 +1,3299 @@
+{
+ "name": "Bagmati",
+ "intro": "The Kathmandu Valley's seven World Heritage monument zones (the Durbar Squares of Kathmandu, Patan and Bhaktapur, Swayambhu, Boudha, Pashupati and Changu Narayan), the valley-rim hikes and Nagarkot's sunrise, Dhulikhel and Namobuddha, Langtang and the holy lake of Gosaikunda, and the rhinos of Chitwan.",
+ "bases": [
+  [
+   "Kathmandu",
+   27.7172,
+   85.324
+  ],
+  [
+   "Patan",
+   27.6727,
+   85.3253
+  ],
+  [
+   "Bhaktapur",
+   27.6722,
+   85.4285
+  ],
+  [
+   "Nagarkot",
+   27.7155,
+   85.5205
+  ],
+  [
+   "Dhulikhel",
+   27.62,
+   85.556
+  ],
+  [
+   "Sauraha (Chitwan)",
+   27.578,
+   84.497
+  ],
+  [
+   "Syabrubesi",
+   28.162,
+   85.343
+  ]
+ ],
+ "trails": [
+  {
+   "name": "Kathmandu old city",
+   "note": "Durbar Square, the bazaars and the stupas.",
+   "ids": [
+    12,
+    13,
+    14,
+    16,
+    17,
+    19,
+    9
+   ]
+  },
+  {
+   "name": "Pashupati to Boudha",
+   "note": "The holiest temple and the great stupa, linked on foot.",
+   "ids": [
+    1,
+    3,
+    4,
+    5,
+    6
+   ]
+  },
+  {
+   "name": "Patan and its villages",
+   "note": "Durbar Square, monasteries and the Newar villages south.",
+   "ids": [
+    56,
+    57,
+    59,
+    60,
+    66,
+    68
+   ]
+  },
+  {
+   "name": "Bhaktapur and the eastern rim",
+   "note": "The old city, Changu Narayan and a Nagarkot sunrise.",
+   "ids": [
+    77,
+    78,
+    81,
+    84,
+    85
+   ]
+  },
+  {
+   "name": "Dhulikhel and Namobuddha",
+   "note": "Hill town, monastery walk and Panauti.",
+   "ids": [
+    90,
+    91,
+    92,
+    93,
+    94
+   ]
+  },
+  {
+   "name": "Langtang and Gosaikunda",
+   "note": "Valley trek with the holy lake.",
+   "ids": [
+    120,
+    113,
+    112,
+    119,
+    115,
+    114
+   ]
+  },
+  {
+   "name": "Chitwan",
+   "note": "Safaris, canoes and Tharu villages.",
+   "ids": [
+    142,
+    141,
+    143,
+    144,
+    146,
+    147
+   ]
+  }
+ ],
+ "places": [
+  {
+   "n": 1,
+   "name": "Pashupatinath Temple",
+   "district": "Kathmandu",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 27.7105,
+   "lng": 85.3487,
+   "why": "Nepal's holiest Shiva temple on the Bagmati, with cremation ghats along the river",
+   "tier": "icon",
+   "months": [
+    10,
+    5
+   ],
+   "time": "2–3 hrs",
+   "fort": {
+    "kind": "Temple",
+    "built": "Present temple 1692",
+    "by": "Rebuilt under the Malla kings",
+    "unesco": "Kathmandu Valley (1979)",
+    "note": "Only Hindus may enter the main temple courtyard",
+    "see": [
+     "Arya Ghat cremations",
+     "Sadhus",
+     "Evening aarati"
+    ]
+   }
+  },
+  {
+   "n": 2,
+   "name": "Evening aarati, Pashupatinath",
+   "district": "Kathmandu",
+   "category": "Culture",
+   "g": "culture",
+   "lat": 27.7108,
+   "lng": 85.349,
+   "why": "Lamp-lit Bagmati aarati on the ghats opposite the temple every evening",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Evening"
+  },
+  {
+   "n": 3,
+   "name": "Guhyeshwari Temple",
+   "district": "Kathmandu",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 27.7127,
+   "lng": 85.354,
+   "why": "Shakti Peetha of Guhyeshwari a short walk downriver from Pashupatinath",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 4,
+   "name": "Boudhanath Stupa",
+   "district": "Kathmandu",
+   "category": "Stupa",
+   "g": "buddhist",
+   "lat": 27.7215,
+   "lng": 85.362,
+   "why": "One of the world's largest stupas, ringed by Tibetan monasteries and a dusk kora",
+   "tier": "icon",
+   "months": [
+    10,
+    5
+   ],
+   "time": "2–3 hrs",
+   "fort": {
+    "kind": "Stupa",
+    "built": "Rebuilt after the 2015 earthquake",
+    "unesco": "Kathmandu Valley (1979)",
+    "see": [
+     "Dusk kora",
+     "Rooftop cafés",
+     "Surrounding gompas"
+    ]
+   }
+  },
+  {
+   "n": 5,
+   "name": "Shechen Monastery",
+   "district": "Kathmandu",
+   "category": "Monastery",
+   "g": "buddhist",
+   "lat": 27.7225,
+   "lng": 85.3625,
+   "why": "Painted Tibetan monastery a few lanes north of the Boudha stupa",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 6,
+   "name": "Kopan Monastery",
+   "district": "Kathmandu",
+   "category": "Monastery",
+   "g": "buddhist",
+   "lat": 27.742,
+   "lng": 85.362,
+   "why": "Hilltop monastery above Boudha known for its meditation courses",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 7,
+   "name": "Pullahari Monastery",
+   "district": "Kathmandu",
+   "category": "Monastery",
+   "g": "buddhist",
+   "lat": 27.748,
+   "lng": 85.378,
+   "why": "Quiet Karma Kagyu monastery on a ridge above Kopan",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 8,
+   "name": "Taragaon Museum",
+   "district": "Kathmandu",
+   "category": "Museum",
+   "g": "culture",
+   "lat": 27.7195,
+   "lng": 85.36,
+   "why": "Museum of 20th-century studies of the valley's architecture, near Boudha",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 9,
+   "name": "Swayambhunath",
+   "district": "Kathmandu",
+   "category": "Stupa",
+   "g": "buddhist",
+   "lat": 27.7149,
+   "lng": 85.2904,
+   "why": "Hilltop stupa watched over by painted Buddha eyes, reached by 365 steps",
+   "tier": "icon",
+   "months": [
+    10,
+    5
+   ],
+   "time": "2 hrs",
+   "fort": {
+    "kind": "Stupa",
+    "built": "Origins at least 5th century",
+    "unesco": "Kathmandu Valley (1979)",
+    "note": "Called the Monkey Temple for its resident macaques",
+    "see": [
+     "Eastern stairway",
+     "Harati temple",
+     "Valley views"
+    ]
+   }
+  },
+  {
+   "n": 10,
+   "name": "Buddha Park, Swayambhu",
+   "district": "Kathmandu",
+   "category": "Buddhist site",
+   "g": "buddhist",
+   "lat": 27.7155,
+   "lng": 85.285,
+   "why": "Three giant statues of the Buddha, Padmasambhava and Chenresig behind Swayambhu",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "45 min"
+  },
+  {
+   "n": 11,
+   "name": "Seto Gumba (Druk Amitabha Mountain)",
+   "district": "Kathmandu",
+   "category": "Monastery",
+   "g": "buddhist",
+   "lat": 27.7265,
+   "lng": 85.266,
+   "why": "White Drukpa nunnery on the hill west of Swayambhu, with wide valley views",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 12,
+   "name": "Kathmandu Durbar Square",
+   "district": "Kathmandu",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 27.7045,
+   "lng": 85.307,
+   "why": "Royal square of temples and palaces where Nepal's kings were crowned",
+   "tier": "icon",
+   "months": [
+    10,
+    5
+   ],
+   "time": "2–3 hrs",
+   "fort": {
+    "kind": "Palace square",
+    "built": "Mostly 16th–18th century",
+    "by": "Malla kings, later the Shahs",
+    "unesco": "Kathmandu Valley (1979)",
+    "note": "Entry ticket for foreign visitors; several temples are still being rebuilt after 2015",
+    "see": [
+     "Hanuman Dhoka palace",
+     "Kumari Ghar",
+     "Taleju temple"
+    ]
+   }
+  },
+  {
+   "n": 13,
+   "name": "Hanuman Dhoka Palace Museum",
+   "district": "Kathmandu",
+   "category": "Palace",
+   "g": "heritage",
+   "lat": 27.7043,
+   "lng": 85.3068,
+   "why": "Old royal palace with the Nasal Chowk coronation courtyard and the nine-storey Basantapur tower",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 14,
+   "name": "Kumari Ghar",
+   "district": "Kathmandu",
+   "category": "Heritage",
+   "g": "culture",
+   "lat": 27.704,
+   "lng": 85.3065,
+   "why": "Carved home of the Kumari, the living goddess, who sometimes appears at the window",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "30 min"
+  },
+  {
+   "n": 15,
+   "name": "Kasthamandap",
+   "district": "Kathmandu",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 27.7038,
+   "lng": 85.3058,
+   "why": "Rebuilt wooden pavilion said to have given Kathmandu its name",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "30 min"
+  },
+  {
+   "n": 16,
+   "name": "Indra Chowk & Akash Bhairav",
+   "district": "Kathmandu",
+   "category": "Market",
+   "g": "culture",
+   "lat": 27.7055,
+   "lng": 85.3086,
+   "why": "Bazaar crossroads under the Akash Bhairav temple, centre of Indra Jatra",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 17,
+   "name": "Asan Tole",
+   "district": "Kathmandu",
+   "category": "Market",
+   "g": "culture",
+   "lat": 27.7076,
+   "lng": 85.311,
+   "why": "Six-road market of spices and brass around the Annapurna temple",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 18,
+   "name": "Seto Machhindranath (Jana Bahal)",
+   "district": "Kathmandu",
+   "category": "Temple",
+   "g": "buddhist",
+   "lat": 27.7067,
+   "lng": 85.3098,
+   "why": "Courtyard shrine of the white Karunamaya, revered by Buddhists and Hindus",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "30 min"
+  },
+  {
+   "n": 19,
+   "name": "Kathesimbhu Stupa",
+   "district": "Kathmandu",
+   "category": "Stupa",
+   "g": "buddhist",
+   "lat": 27.7095,
+   "lng": 85.3105,
+   "why": "A small copy of Swayambhu hidden in an old-town courtyard",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "30 min"
+  },
+  {
+   "n": 20,
+   "name": "Itum Bahal",
+   "district": "Kathmandu",
+   "category": "Buddhist site",
+   "g": "buddhist",
+   "lat": 27.7083,
+   "lng": 85.3083,
+   "why": "One of the old city's largest monastery courtyards",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "30 min"
+  },
+  {
+   "n": 21,
+   "name": "Thamel",
+   "district": "Kathmandu",
+   "category": "Market",
+   "g": "culture",
+   "lat": 27.7154,
+   "lng": 85.3123,
+   "why": "Lanes of trekking shops, bookshops, cafés and guesthouses",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Evening"
+  },
+  {
+   "n": 22,
+   "name": "Garden of Dreams",
+   "district": "Kathmandu",
+   "category": "Garden",
+   "g": "heritage",
+   "lat": 27.7142,
+   "lng": 85.3149,
+   "why": "Restored 1920s neoclassical garden beside Thamel",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 23,
+   "name": "Kaiser Library",
+   "district": "Kathmandu",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 27.7129,
+   "lng": 85.3155,
+   "why": "Rana-era library of old books and stuffed tigers in a 19th-century palace",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "45 min"
+  },
+  {
+   "n": 24,
+   "name": "Narayanhiti Palace Museum",
+   "district": "Kathmandu",
+   "category": "Palace",
+   "g": "heritage",
+   "lat": 27.7151,
+   "lng": 85.3189,
+   "why": "Last royal palace, now a museum including the site of the 2001 massacre",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "2 hrs",
+   "fort": {
+    "kind": "Palace",
+    "built": "1960s (older palace on the site)",
+    "by": "King Mahendra",
+    "note": "Closed Tuesdays and Wednesdays; no cameras",
+    "see": [
+     "Throne room",
+     "State rooms",
+     "Massacre site"
+    ]
+   }
+  },
+  {
+   "n": 25,
+   "name": "Rani Pokhari",
+   "district": "Kathmandu",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 27.7083,
+   "lng": 85.3157,
+   "why": "17th-century royal pond with a temple in its centre, restored after 2015",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "30 min"
+  },
+  {
+   "n": 26,
+   "name": "Dharahara",
+   "district": "Kathmandu",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 27.7004,
+   "lng": 85.3121,
+   "why": "Rebuilt tower with a viewing gallery, next to the stump of the 1832 original",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 27,
+   "name": "Freak Street (Jhochhen)",
+   "district": "Kathmandu",
+   "category": "Market",
+   "g": "culture",
+   "lat": 27.7019,
+   "lng": 85.3082,
+   "why": "The 1960s–70s hippie-trail street off Basantapur",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 28,
+   "name": "National Museum, Chhauni",
+   "district": "Kathmandu",
+   "category": "Museum",
+   "g": "heritage",
+   "lat": 27.7058,
+   "lng": 85.2885,
+   "why": "Nepal's national collection of art, arms and history",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 29,
+   "name": "Chabahil Stupa",
+   "district": "Kathmandu",
+   "category": "Stupa",
+   "g": "buddhist",
+   "lat": 27.7176,
+   "lng": 85.3462,
+   "why": "Old stupa traditionally linked to Ashoka's daughter Charumati",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "30 min"
+  },
+  {
+   "n": 30,
+   "name": "Budhanilkantha Temple",
+   "district": "Kathmandu",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 27.7653,
+   "lng": 85.3653,
+   "why": "Giant reclining Vishnu on a bed of serpents in a pond",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 31,
+   "name": "Shivapuri Nagarjun National Park",
+   "district": "Kathmandu",
+   "category": "National park",
+   "g": "hills",
+   "lat": 27.8,
+   "lng": 85.38,
+   "why": "Forested hills along the valley's northern rim, the source of the Bagmati",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Full day",
+   "park": {
+    "kind": "National park",
+    "est": 2002,
+    "stars": [
+     "Leopard",
+     "Himalayan black bear",
+     "Barking deer",
+     "Many birds"
+    ],
+    "safari": [
+     "Hiking"
+    ],
+    "gate": "Budhanilkantha or Sundarijal",
+    "note": "Entry fee at the gates"
+   }
+  },
+  {
+   "n": 32,
+   "name": "Shivapuri Peak",
+   "district": "Kathmandu",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 27.818,
+   "lng": 85.396,
+   "why": "Steep forest climb to 2,732 m for Langtang and Ganesh Himal views",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Full day",
+   "trek": {
+    "kind": "Hike",
+    "diff": "Moderate",
+    "el": 2732,
+    "base": "Budhanilkantha",
+    "permit": "Park entry fee"
+   }
+  },
+  {
+   "n": 33,
+   "name": "Nagi Gompa",
+   "district": "Kathmandu",
+   "category": "Monastery",
+   "g": "buddhist",
+   "lat": 27.788,
+   "lng": 85.354,
+   "why": "Hillside nunnery in Shivapuri forest above Budhanilkantha",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 34,
+   "name": "Bagdwar",
+   "district": "Kathmandu",
+   "category": "River",
+   "g": "water",
+   "lat": 27.82,
+   "lng": 85.42,
+   "why": "Forest spring where the Bagmati river begins, on a Shivapuri hike",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 35,
+   "name": "Sundarijal",
+   "district": "Kathmandu",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 27.7655,
+   "lng": 85.4269,
+   "why": "Waterfalls and an old reservoir at the start of the Helambu trail",
+   "tier": "top",
+   "months": [
+    6,
+    11
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 36,
+   "name": "Nagarjun (Jamacho)",
+   "district": "Kathmandu",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 27.7466,
+   "lng": 85.2556,
+   "why": "Forest walk to Jamacho stupa at 2,128 m, with a Himalayan view",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Full day",
+   "trek": {
+    "kind": "Hike",
+    "diff": "Moderate",
+    "el": 2128,
+    "base": "Phulbari gate",
+    "permit": "Park entry fee"
+   }
+  },
+  {
+   "n": 37,
+   "name": "Chandragiri Hills",
+   "district": "Kathmandu",
+   "category": "Viewpoint",
+   "g": "hills",
+   "lat": 27.666,
+   "lng": 85.208,
+   "why": "Cable car to a 2,500 m ridge with a temple and views from Annapurna to Everest",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 38,
+   "name": "Champadevi Hike",
+   "district": "Kathmandu",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 27.62,
+   "lng": 85.23,
+   "why": "Ridge walk on the valley's south-west rim to a hilltop shrine",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Full day",
+   "trek": {
+    "kind": "Hike",
+    "diff": "Moderate",
+    "el": 2285,
+    "base": "Pharping or Hattiban"
+   }
+  },
+  {
+   "n": 39,
+   "name": "Gokarneshwar Mahadev",
+   "district": "Kathmandu",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 27.7509,
+   "lng": 85.3913,
+   "why": "Riverside Shiva temple where families honour their fathers on Kushe Aunsi",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 40,
+   "name": "Sankhu",
+   "district": "Kathmandu",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 27.746,
+   "lng": 85.462,
+   "why": "Old Newar trading town on the route to Tibet",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 41,
+   "name": "Vajrayogini Temple, Sankhu",
+   "district": "Kathmandu",
+   "category": "Temple",
+   "g": "buddhist",
+   "lat": 27.7545,
+   "lng": 85.4725,
+   "why": "Forest temple above Sankhu sacred to the Tantric goddess Vajrayogini",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 42,
+   "name": "Ichangu Narayan",
+   "district": "Kathmandu",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 27.7305,
+   "lng": 85.2715,
+   "why": "One of the valley's four main Vishnu temples",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 43,
+   "name": "Tokha",
+   "district": "Kathmandu",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 27.769,
+   "lng": 85.326,
+   "why": "Newar town known for chaku molasses sweets",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 44,
+   "name": "Kirtipur",
+   "district": "Kathmandu",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 27.6788,
+   "lng": 85.2775,
+   "why": "Hilltop Newar town of brick lanes, temples and valley views",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 45,
+   "name": "Bagh Bhairab Temple, Kirtipur",
+   "district": "Kathmandu",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 27.6779,
+   "lng": 85.279,
+   "why": "Kirtipur's tiger-god temple hung with old swords and shields",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "45 min"
+  },
+  {
+   "n": 46,
+   "name": "Newa Lahana, Kirtipur",
+   "district": "Kathmandu",
+   "category": "Food",
+   "g": "culture",
+   "lat": 27.678,
+   "lng": 85.278,
+   "why": "Community-run Newari kitchen for samay baji, choila and bara",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 47,
+   "name": "Chobhar Gorge",
+   "district": "Kathmandu",
+   "category": "Gorge",
+   "g": "caves",
+   "lat": 27.6625,
+   "lng": 85.2945,
+   "why": "Gorge where legend says Manjushri cut the hill to drain the valley lake",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 48,
+   "name": "Jal Binayak Temple",
+   "district": "Kathmandu",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 27.6617,
+   "lng": 85.295,
+   "why": "Three-tiered Ganesh temple at the mouth of Chobhar gorge",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "30 min"
+  },
+  {
+   "n": 49,
+   "name": "Adinath Lokeshwar, Chobhar",
+   "district": "Kathmandu",
+   "category": "Temple",
+   "g": "buddhist",
+   "lat": 27.665,
+   "lng": 85.292,
+   "why": "Hilltop shrine whose walls are covered in pots and pans offered by newlyweds",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "45 min"
+  },
+  {
+   "n": 50,
+   "name": "Taudaha Lake",
+   "district": "Kathmandu",
+   "category": "Lake",
+   "g": "water",
+   "lat": 27.645,
+   "lng": 85.281,
+   "why": "Small lake of migratory ducks south of Chobhar",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 51,
+   "name": "Pharping",
+   "district": "Kathmandu",
+   "category": "Buddhist site",
+   "g": "buddhist",
+   "lat": 27.614,
+   "lng": 85.264,
+   "why": "Cave where Padmasambhava meditated, ringed by monasteries and the Sesh Narayan temple",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 52,
+   "name": "Pharping Hydropower Station",
+   "district": "Kathmandu",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 27.62,
+   "lng": 85.255,
+   "why": "South Asia's first hydro plant, opened in 1911",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 53,
+   "name": "Dakshinkali Temple",
+   "district": "Kathmandu",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 27.6006,
+   "lng": 85.263,
+   "why": "Kali shrine in a gorge, busiest with sacrifices on Tuesdays and Saturdays",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 54,
+   "name": "Matatirtha",
+   "district": "Kathmandu",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 27.69,
+   "lng": 85.23,
+   "why": "Spring-fed ponds where families remember their mothers",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 55,
+   "name": "Everest mountain flight",
+   "district": "Kathmandu",
+   "category": "Viewpoint",
+   "g": "hills",
+   "lat": 27.6966,
+   "lng": 85.3591,
+   "why": "Hour-long dawn flight from Kathmandu along the Himalaya to Everest",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "2–3 hrs"
+  },
+  {
+   "n": 56,
+   "name": "Patan Durbar Square",
+   "district": "Lalitpur",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 27.6727,
+   "lng": 85.3253,
+   "why": "The valley's finest royal square of stone and wooden temples",
+   "tier": "icon",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Half day",
+   "fort": {
+    "kind": "Palace square",
+    "built": "Mostly 17th century",
+    "by": "Malla kings of Patan",
+    "unesco": "Kathmandu Valley (1979)",
+    "see": [
+     "Krishna Mandir",
+     "Sundari Chowk",
+     "Golden Window"
+    ]
+   }
+  },
+  {
+   "n": 57,
+   "name": "Patan Museum",
+   "district": "Lalitpur",
+   "category": "Museum",
+   "g": "heritage",
+   "lat": 27.673,
+   "lng": 85.325,
+   "why": "Bronze and stone sacred art in the restored Keshav Narayan Chowk",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 58,
+   "name": "Krishna Mandir, Patan",
+   "district": "Lalitpur",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 27.6726,
+   "lng": 85.3254,
+   "why": "1637 stone shikhara temple carved with scenes from the epics",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "30 min"
+  },
+  {
+   "n": 59,
+   "name": "Golden Temple (Hiranya Varna Mahavihar)",
+   "district": "Lalitpur",
+   "category": "Buddhist site",
+   "g": "buddhist",
+   "lat": 27.6747,
+   "lng": 85.3238,
+   "why": "Gilded 12th-century monastery courtyard north of Durbar Square",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "45 min"
+  },
+  {
+   "n": 60,
+   "name": "Mahabouddha Temple",
+   "district": "Lalitpur",
+   "category": "Buddhist site",
+   "g": "buddhist",
+   "lat": 27.6703,
+   "lng": 85.3274,
+   "why": "Terracotta shikhara covered in thousands of Buddha images",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "30 min"
+  },
+  {
+   "n": 61,
+   "name": "Uku Bahal",
+   "district": "Lalitpur",
+   "category": "Buddhist site",
+   "g": "buddhist",
+   "lat": 27.6705,
+   "lng": 85.3235,
+   "why": "Monastery courtyard full of metal animals and guardians",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "30 min"
+  },
+  {
+   "n": 62,
+   "name": "Kumbeshwar Temple",
+   "district": "Lalitpur",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 27.677,
+   "lng": 85.3245,
+   "why": "Five-roofed Shiva temple with ponds fed, by legend, from Gosaikunda",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "45 min"
+  },
+  {
+   "n": 63,
+   "name": "Pimbahal Pokhari",
+   "district": "Lalitpur",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 27.6705,
+   "lng": 85.3225,
+   "why": "Old pond with a 14th-century stupa, a quiet corner of Patan",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "30 min"
+  },
+  {
+   "n": 64,
+   "name": "Jawalakhel Tibetan Handicraft Centre",
+   "district": "Lalitpur",
+   "category": "Craft",
+   "g": "culture",
+   "lat": 27.6718,
+   "lng": 85.3135,
+   "why": "Tibetan refugee centre where carpets are spun, dyed and woven",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 65,
+   "name": "Central Zoo, Jawalakhel",
+   "district": "Lalitpur",
+   "category": "Zoo",
+   "g": "wildlife",
+   "lat": 27.673,
+   "lng": 85.311,
+   "why": "Nepal's only zoo, with rhinos and red pandas",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 66,
+   "name": "Bungamati",
+   "district": "Lalitpur",
+   "category": "Village",
+   "g": "heritage",
+   "lat": 27.6257,
+   "lng": 85.303,
+   "why": "Newar woodcarving village and home of the Rato Machhindranath temple",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 67,
+   "name": "Rato Machhindranath Temple, Bungamati",
+   "district": "Lalitpur",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 27.625,
+   "lng": 85.3035,
+   "why": "Home shrine of the rain god whose chariot is pulled through Patan each spring",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "45 min"
+  },
+  {
+   "n": 68,
+   "name": "Khokana",
+   "district": "Lalitpur",
+   "category": "Village",
+   "g": "heritage",
+   "lat": 27.6295,
+   "lng": 85.296,
+   "why": "Newar village known for its mustard-oil presses",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 69,
+   "name": "Godawari Botanical Garden",
+   "district": "Lalitpur",
+   "category": "Garden",
+   "g": "hills",
+   "lat": 27.596,
+   "lng": 85.381,
+   "why": "National botanical garden at the foot of Phulchowki",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 70,
+   "name": "Godawari Kunda",
+   "district": "Lalitpur",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 27.594,
+   "lng": 85.378,
+   "why": "Spring pond with a big fair every twelve years",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "45 min"
+  },
+  {
+   "n": 71,
+   "name": "Phulchowki",
+   "district": "Lalitpur",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 27.57,
+   "lng": 85.406,
+   "why": "Highest point of the valley rim at 2,782 m, famous for birds and spring rhododendrons",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Full day",
+   "trek": {
+    "kind": "Hike",
+    "diff": "Moderate",
+    "el": 2782,
+    "base": "Godawari"
+   },
+   "bird": {
+    "stars": [
+     "Spiny babbler",
+     "Laughingthrushes",
+     "Sunbirds"
+    ],
+    "season": "Oct–May",
+    "how": [
+     "Walk the forest road at dawn"
+    ]
+   }
+  },
+  {
+   "n": 72,
+   "name": "Bishankhu Narayan",
+   "district": "Lalitpur",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 27.613,
+   "lng": 85.365,
+   "why": "Vishnu cave shrine on a rocky hill south of Godawari",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 73,
+   "name": "Vajra Varahi, Chapagaon",
+   "district": "Lalitpur",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 27.596,
+   "lng": 85.329,
+   "why": "Forest-grove temple of the Tantric goddess Vajra Varahi",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 74,
+   "name": "Tika Bhairab",
+   "district": "Lalitpur",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 27.574,
+   "lng": 85.301,
+   "why": "Huge painted Bhairab on a wall in the Lele valley",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 75,
+   "name": "Lele Valley",
+   "district": "Lalitpur",
+   "category": "Valley",
+   "g": "hills",
+   "lat": 27.57,
+   "lng": 85.32,
+   "why": "Farm valley of rice terraces at the valley's southern edge",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 76,
+   "name": "Lubhu",
+   "district": "Lalitpur",
+   "category": "Craft village",
+   "g": "culture",
+   "lat": 27.645,
+   "lng": 85.385,
+   "why": "Weaving village of handloom cloth and an old Mahalakshmi temple",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 77,
+   "name": "Bhaktapur Durbar Square",
+   "district": "Bhaktapur",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 27.6722,
+   "lng": 85.4285,
+   "why": "Royal square of the best-preserved Newar city, with the 55-Window Palace",
+   "tier": "icon",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Half day",
+   "fort": {
+    "kind": "Palace square",
+    "built": "15th–18th century",
+    "by": "Malla kings of Bhaktapur",
+    "unesco": "Kathmandu Valley (1979)",
+    "note": "Entry ticket covers the whole old town",
+    "see": [
+     "55-Window Palace",
+     "Golden Gate",
+     "Vatsala temple"
+    ]
+   }
+  },
+  {
+   "n": 78,
+   "name": "Nyatapola Temple",
+   "district": "Bhaktapur",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 27.6714,
+   "lng": 85.4293,
+   "why": "Nepal's tallest pagoda (1702), five roofs above Taumadhi Square",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "45 min"
+  },
+  {
+   "n": 79,
+   "name": "Dattatreya Square",
+   "district": "Bhaktapur",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 27.6738,
+   "lng": 85.4352,
+   "why": "Old square with Dattatreya temple and the woodcarving museum",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 80,
+   "name": "Peacock Window",
+   "district": "Bhaktapur",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 27.674,
+   "lng": 85.4355,
+   "why": "Famous 15th-century carved window of a priest's house",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "15 min"
+  },
+  {
+   "n": 81,
+   "name": "Pottery Square",
+   "district": "Bhaktapur",
+   "category": "Craft",
+   "g": "culture",
+   "lat": 27.6705,
+   "lng": 85.428,
+   "why": "Square where potters throw and sun-dry pots",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 82,
+   "name": "Siddha Pokhari",
+   "district": "Bhaktapur",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 27.6726,
+   "lng": 85.4205,
+   "why": "Large 15th-century pond at the old city's west gate",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "30 min"
+  },
+  {
+   "n": 83,
+   "name": "Juju Dhau, Bhaktapur",
+   "district": "Bhaktapur",
+   "category": "Food",
+   "g": "culture",
+   "lat": 27.672,
+   "lng": 85.428,
+   "why": "Bhaktapur's 'king of curds', sold in clay bowls",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "30 min"
+  },
+  {
+   "n": 84,
+   "name": "Changu Narayan Temple",
+   "district": "Bhaktapur",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 27.7163,
+   "lng": 85.4278,
+   "why": "Hilltop Vishnu temple with Nepal's oldest dated inscription (464 CE)",
+   "tier": "icon",
+   "months": [
+    10,
+    5
+   ],
+   "time": "2 hrs",
+   "fort": {
+    "kind": "Temple",
+    "built": "Rebuilt 1702 on a 4th-century site",
+    "by": "Licchavi kings, later Malla",
+    "unesco": "Kathmandu Valley (1979)",
+    "see": [
+     "Licchavi stone sculptures",
+     "Garuda statue"
+    ]
+   }
+  },
+  {
+   "n": 85,
+   "name": "Nagarkot",
+   "district": "Bhaktapur",
+   "category": "Viewpoint",
+   "g": "hills",
+   "lat": 27.7155,
+   "lng": 85.5205,
+   "why": "Rim village at about 2,100 m for Himalayan sunrise from Dhaulagiri to Everest",
+   "tier": "icon",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Overnight"
+  },
+  {
+   "n": 86,
+   "name": "Nagarkot to Changu Narayan Hike",
+   "district": "Bhaktapur",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 27.716,
+   "lng": 85.48,
+   "why": "Downhill ridge walk through villages from Nagarkot to Changu Narayan",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "diff": "Easy",
+    "el": 2100,
+    "base": "Nagarkot"
+   }
+  },
+  {
+   "n": 87,
+   "name": "Ghyampe Danda",
+   "district": "Bhaktapur",
+   "category": "Viewpoint",
+   "g": "hills",
+   "lat": 27.69,
+   "lng": 85.44,
+   "why": "Low hill above Bhaktapur for sunset and mountain views",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 88,
+   "name": "Surya Binayak Temple",
+   "district": "Bhaktapur",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 27.663,
+   "lng": 85.4345,
+   "why": "Forest Ganesh temple on a hill south of Bhaktapur",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 89,
+   "name": "Thimi (Madhyapur)",
+   "district": "Bhaktapur",
+   "category": "Craft village",
+   "g": "culture",
+   "lat": 27.681,
+   "lng": 85.388,
+   "why": "Newar potters' and mask-makers' town, red with powder at Sindoor Jatra",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 90,
+   "name": "Dhulikhel",
+   "district": "Kavrepalanchok",
+   "category": "Town",
+   "g": "hills",
+   "lat": 27.62,
+   "lng": 85.556,
+   "why": "Old Newar hill town with a wide view of the Himalaya",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Overnight"
+  },
+  {
+   "n": 91,
+   "name": "Dhulikhel to Namobuddha Hike",
+   "district": "Kavrepalanchok",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 27.6,
+   "lng": 85.57,
+   "why": "Village and forest walk to Namobuddha, staying in the monastery or Balthali",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Full day",
+   "trek": {
+    "kind": "Hike",
+    "diff": "Easy",
+    "el": 1750,
+    "base": "Dhulikhel"
+   }
+  },
+  {
+   "n": 92,
+   "name": "Namobuddha",
+   "district": "Kavrepalanchok",
+   "category": "Monastery",
+   "g": "buddhist",
+   "lat": 27.572,
+   "lng": 85.585,
+   "why": "Hilltop where the Buddha is said to have fed his body to a tigress, with Thrangu monastery",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 93,
+   "name": "Balthali",
+   "district": "Kavrepalanchok",
+   "category": "Village",
+   "g": "hills",
+   "lat": 27.555,
+   "lng": 85.565,
+   "why": "Terraced farm village with homestays and mountain views",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Overnight"
+  },
+  {
+   "n": 94,
+   "name": "Panauti",
+   "district": "Kavrepalanchok",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 27.5845,
+   "lng": 85.513,
+   "why": "Riverside Newar town with the Indreshwor temple and a community homestay network",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 95,
+   "name": "Kailashnath Mahadev Statue",
+   "district": "Kavrepalanchok",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 27.64,
+   "lng": 85.485,
+   "why": "Giant 44 m Shiva statue on the hill at Sanga",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 96,
+   "name": "Banepa Chandeshwori",
+   "district": "Kavrepalanchok",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 27.638,
+   "lng": 85.53,
+   "why": "Cliff-top goddess temple with old murals",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 97,
+   "name": "Nala",
+   "district": "Kavrepalanchok",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 27.649,
+   "lng": 85.507,
+   "why": "Quiet Newar village with a four-roofed Bhagwati temple",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 98,
+   "name": "Palanchok Bhagwati",
+   "district": "Kavrepalanchok",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 27.633,
+   "lng": 85.625,
+   "why": "Ridge-top goddess temple with a fine black-stone image",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 99,
+   "name": "Dolalghat",
+   "district": "Kavrepalanchok",
+   "category": "River",
+   "g": "water",
+   "lat": 27.64,
+   "lng": 85.71,
+   "why": "River beach where the Indrawati meets the Sun Koshi, known for fried fish",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 100,
+   "name": "Bhote Koshi Rafting & Bungee",
+   "district": "Sindhupalchok",
+   "category": "River",
+   "g": "water",
+   "lat": 27.86,
+   "lng": 85.9,
+   "why": "Steep-river rafting and a bungee jump over the gorge near the Tibet border",
+   "tier": "top",
+   "months": [
+    10,
+    12
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 101,
+   "name": "Helambu Trek",
+   "district": "Sindhupalchok",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 28.03,
+   "lng": 85.53,
+   "why": "Sherpa and Hyolmo villages north of Kathmandu, walkable from the city edge",
+   "tier": "top",
+   "months": [
+    9,
+    11
+   ],
+   "time": "5–7 days",
+   "trek": {
+    "kind": "Trek",
+    "diff": "Moderate",
+    "el": 3640,
+    "base": "Sundarijal",
+    "permit": "Shivapuri and Langtang park permits. A licensed guide is required for foreign trekkers in Nepal's national parks and conservation areas (since 2023)",
+    "days": "5–7 days"
+   }
+  },
+  {
+   "n": 102,
+   "name": "Panch Pokhari",
+   "district": "Sindhupalchok",
+   "category": "Lake",
+   "g": "water",
+   "lat": 28.04,
+   "lng": 85.7,
+   "why": "Five holy lakes at about 4,100 m below Jugal Himal",
+   "tier": "gem",
+   "months": [
+    9,
+    11
+   ],
+   "time": "7–8 days",
+   "trek": {
+    "kind": "Trek",
+    "diff": "Moderate",
+    "el": 4100,
+    "base": "Chautara",
+    "permit": "A licensed guide is required for foreign trekkers in Nepal's national parks and conservation areas (since 2023)",
+    "days": "7–8 days"
+   }
+  },
+  {
+   "n": 103,
+   "name": "Bhairab Kunda",
+   "district": "Sindhupalchok",
+   "category": "Lake",
+   "g": "water",
+   "lat": 28.03,
+   "lng": 85.8,
+   "why": "High pilgrimage lake near the Tibet border, busy at Janai Purnima",
+   "tier": "gem",
+   "months": [
+    8,
+    10
+   ],
+   "time": "4–5 days",
+   "trek": {
+    "kind": "Trek",
+    "diff": "Moderate",
+    "el": 4100,
+    "base": "Tatopani (Sindhupalchok)",
+    "days": "4–5 days"
+   }
+  },
+  {
+   "n": 104,
+   "name": "Chautara Viewpoint",
+   "district": "Sindhupalchok",
+   "category": "Viewpoint",
+   "g": "hills",
+   "lat": 27.775,
+   "lng": 85.715,
+   "why": "District town ridge with views of Jugal and Langtang",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 105,
+   "name": "Tatopani, Sindhupalchok",
+   "district": "Sindhupalchok",
+   "category": "Hot spring",
+   "g": "water",
+   "lat": 27.95,
+   "lng": 85.94,
+   "why": "Roadside hot springs near the Kodari border with Tibet",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 106,
+   "name": "Nuwakot Durbar",
+   "district": "Nuwakot",
+   "category": "Palace",
+   "g": "heritage",
+   "lat": 27.9135,
+   "lng": 85.1645,
+   "why": "Seven-storey palace of Prithvi Narayan Shah above the Trishuli valley",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "2 hrs",
+   "fort": {
+    "kind": "Palace",
+    "built": "1762",
+    "by": "Prithvi Narayan Shah",
+    "note": "Restored after the 2015 earthquake",
+    "see": [
+     "Seven-storey tower",
+     "Bhairabi temple"
+    ]
+   }
+  },
+  {
+   "n": 107,
+   "name": "Kakani",
+   "district": "Nuwakot",
+   "category": "Viewpoint",
+   "g": "hills",
+   "lat": 27.81,
+   "lng": 85.246,
+   "why": "Ridge north-west of Kathmandu facing Ganesh Himal and Langtang",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 108,
+   "name": "Chisapani",
+   "district": "Nuwakot",
+   "category": "Village",
+   "g": "hills",
+   "lat": 27.79,
+   "lng": 85.46,
+   "why": "First night's stop on the Helambu trail, with a big mountain sunrise",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Overnight"
+  },
+  {
+   "n": 109,
+   "name": "Devighat",
+   "district": "Nuwakot",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 27.88,
+   "lng": 85.13,
+   "why": "Riverside temples at the meeting of the Trishuli and Tadi",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 110,
+   "name": "Belkot Gadhi",
+   "district": "Nuwakot",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 27.86,
+   "lng": 85.18,
+   "why": "Hill fort taken by Prithvi Narayan Shah in his first campaigns",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 111,
+   "name": "Langtang Valley Trek",
+   "district": "Rasuwa",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 28.21,
+   "lng": 85.56,
+   "why": "The closest big Himalayan valley to Kathmandu: yaks, glaciers and Kyanjin Gompa",
+   "tier": "icon",
+   "months": [
+    9,
+    11
+   ],
+   "time": "7–8 days",
+   "trek": {
+    "kind": "Trek",
+    "diff": "Moderate",
+    "el": 4773,
+    "base": "Syabrubesi",
+    "permit": "Langtang National Park entry permit. A licensed guide is required for foreign trekkers in Nepal's national parks and conservation areas (since 2023)",
+    "days": "7–8 days"
+   }
+  },
+  {
+   "n": 112,
+   "name": "Kyanjin Gompa",
+   "district": "Rasuwa",
+   "category": "Monastery",
+   "g": "buddhist",
+   "lat": 28.2117,
+   "lng": 85.564,
+   "why": "Monastery and cheese factory at 3,870 m, base for Kyanjin Ri and Tsergo Ri",
+   "tier": "top",
+   "months": [
+    9,
+    11
+   ],
+   "time": "Overnight"
+  },
+  {
+   "n": 113,
+   "name": "Langtang Village",
+   "district": "Rasuwa",
+   "category": "Village",
+   "g": "culture",
+   "lat": 28.214,
+   "lng": 85.523,
+   "why": "Tamang village rebuilt after the 2015 avalanche that buried the old one",
+   "tier": "gem",
+   "months": [
+    9,
+    11
+   ],
+   "time": "Overnight"
+  },
+  {
+   "n": 114,
+   "name": "Gosaikunda",
+   "district": "Rasuwa",
+   "category": "Lake",
+   "g": "water",
+   "lat": 28.083,
+   "lng": 85.414,
+   "why": "Sacred alpine lake at 4,380 m, thronged by pilgrims at Janai Purnima",
+   "tier": "icon",
+   "months": [
+    9,
+    11
+   ],
+   "time": "3–4 days",
+   "trek": {
+    "kind": "Trek",
+    "diff": "Moderate",
+    "el": 4380,
+    "base": "Dhunche",
+    "permit": "Langtang National Park entry permit. A licensed guide is required for foreign trekkers in Nepal's national parks and conservation areas (since 2023)",
+    "days": "3–4 days"
+   },
+   "wet": {
+    "kind": "Alpine lake",
+    "el": 4380,
+    "ramsar": 2007
+   }
+  },
+  {
+   "n": 115,
+   "name": "Chandanbari (Sing Gompa)",
+   "district": "Rasuwa",
+   "category": "Village",
+   "g": "hills",
+   "lat": 28.104,
+   "lng": 85.385,
+   "why": "Forest monastery village with a cheese factory on the way to Gosaikunda",
+   "tier": "gem",
+   "months": [
+    9,
+    11
+   ],
+   "time": "Overnight"
+  },
+  {
+   "n": 116,
+   "name": "Tamang Heritage Trail",
+   "district": "Rasuwa",
+   "category": "Trek",
+   "g": "culture",
+   "lat": 28.2,
+   "lng": 85.36,
+   "why": "Homestay trek through Tamang villages, hot springs and Tibet-border views",
+   "tier": "top",
+   "months": [
+    9,
+    11
+   ],
+   "time": "5–7 days",
+   "trek": {
+    "kind": "Trek",
+    "diff": "Easy",
+    "el": 3700,
+    "base": "Syabrubesi",
+    "permit": "A licensed guide is required for foreign trekkers in Nepal's national parks and conservation areas (since 2023)",
+    "days": "5–7 days"
+   }
+  },
+  {
+   "n": 117,
+   "name": "Gatlang",
+   "district": "Rasuwa",
+   "category": "Village",
+   "g": "culture",
+   "lat": 28.23,
+   "lng": 85.29,
+   "why": "Stone-walled Tamang village of weavers on the heritage trail",
+   "tier": "gem",
+   "months": [
+    9,
+    11
+   ],
+   "time": "Overnight"
+  },
+  {
+   "n": 118,
+   "name": "Briddim",
+   "district": "Rasuwa",
+   "category": "Village",
+   "g": "culture",
+   "lat": 28.2,
+   "lng": 85.33,
+   "why": "Tamang homestay village above Syabrubesi",
+   "tier": "gem",
+   "months": [
+    9,
+    11
+   ],
+   "time": "Overnight"
+  },
+  {
+   "n": 119,
+   "name": "Thulo Syabru",
+   "district": "Rasuwa",
+   "category": "Village",
+   "g": "culture",
+   "lat": 28.158,
+   "lng": 85.38,
+   "why": "Ridge village of Tamang houses on the Gosaikunda route",
+   "tier": "gem",
+   "months": [
+    9,
+    11
+   ],
+   "time": "Overnight"
+  },
+  {
+   "n": 120,
+   "name": "Syabrubesi",
+   "district": "Rasuwa",
+   "category": "Town",
+   "g": "hills",
+   "lat": 28.162,
+   "lng": 85.343,
+   "why": "Road-head town for Langtang and the Tamang Heritage Trail",
+   "tier": "gem",
+   "months": [
+    9,
+    11
+   ],
+   "time": "Overnight"
+  },
+  {
+   "n": 121,
+   "name": "Langtang National Park",
+   "district": "Rasuwa",
+   "category": "National park",
+   "g": "wildlife",
+   "lat": 28.17,
+   "lng": 85.5,
+   "why": "Nepal's first Himalayan national park, home to red pandas and snow leopards",
+   "tier": "top",
+   "months": [
+    9,
+    11
+   ],
+   "time": "Multi-day",
+   "park": {
+    "kind": "National park",
+    "est": 1976,
+    "stars": [
+     "Red panda",
+     "Himalayan tahr",
+     "Musk deer",
+     "Snow leopard"
+    ],
+    "safari": [
+     "Trekking"
+    ],
+    "gate": "Dhunche",
+    "note": "Entry permit at Dhunche or in Kathmandu"
+   }
+  },
+  {
+   "n": 122,
+   "name": "Rasuwagadhi Fort",
+   "district": "Rasuwa",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 28.276,
+   "lng": 85.379,
+   "why": "Border fort on the old trade route into Tibet",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 123,
+   "name": "Tatopani, Rasuwa",
+   "district": "Rasuwa",
+   "category": "Hot spring",
+   "g": "water",
+   "lat": 28.27,
+   "lng": 85.32,
+   "why": "Hot springs on the Tamang Heritage Trail",
+   "tier": "gem",
+   "months": [
+    9,
+    11
+   ],
+   "time": "Overnight"
+  },
+  {
+   "n": 124,
+   "name": "Kalinchowk Bhagwati",
+   "district": "Dolakha",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 27.78,
+   "lng": 86.03,
+   "why": "Goddess shrine at 3,842 m reached by cable car, snowy in winter",
+   "tier": "top",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 125,
+   "name": "Dolakha Bhimsen Temple",
+   "district": "Dolakha",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 27.678,
+   "lng": 86.07,
+   "why": "Open-air shrine whose idol is said to 'sweat' before national events",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 126,
+   "name": "Charikot",
+   "district": "Dolakha",
+   "category": "Viewpoint",
+   "g": "hills",
+   "lat": 27.666,
+   "lng": 86.05,
+   "why": "District town with views of Gaurishankar",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Overnight"
+  },
+  {
+   "n": 127,
+   "name": "Sailung",
+   "district": "Dolakha",
+   "category": "Viewpoint",
+   "g": "hills",
+   "lat": 27.58,
+   "lng": 85.98,
+   "why": "Grassy hills of many small summits with a long Himalayan view",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Overnight"
+  },
+  {
+   "n": 128,
+   "name": "Jiri",
+   "district": "Dolakha",
+   "category": "Town",
+   "g": "hills",
+   "lat": 27.63,
+   "lng": 86.23,
+   "why": "Old starting point of the walk-in route to Everest",
+   "tier": "gem",
+   "months": [
+    9,
+    11
+   ],
+   "time": "Overnight"
+  },
+  {
+   "n": 129,
+   "name": "Bigu Gompa",
+   "district": "Dolakha",
+   "category": "Monastery",
+   "g": "buddhist",
+   "lat": 27.83,
+   "lng": 86.17,
+   "why": "Remote nunnery in the Gaurishankar area",
+   "tier": "gem",
+   "months": [
+    9,
+    11
+   ],
+   "time": "Overnight"
+  },
+  {
+   "n": 130,
+   "name": "Rolwaling & Tsho Rolpa",
+   "district": "Dolakha",
+   "category": "Lake",
+   "g": "water",
+   "lat": 27.87,
+   "lng": 86.47,
+   "why": "Hidden valley under Gaurishankar to one of Nepal's largest glacial lakes",
+   "tier": "gem",
+   "months": [
+    9,
+    11
+   ],
+   "time": "10–12 days",
+   "trek": {
+    "kind": "Trek",
+    "diff": "Difficult",
+    "el": 4580,
+    "base": "Gongar",
+    "permit": "Gaurishankar Conservation Area permit. A licensed guide is required for foreign trekkers in Nepal's national parks and conservation areas (since 2023)",
+    "days": "10–12 days"
+   }
+  },
+  {
+   "n": 131,
+   "name": "Gaurishankar Conservation Area",
+   "district": "Dolakha",
+   "category": "National park",
+   "g": "wildlife",
+   "lat": 27.95,
+   "lng": 86.25,
+   "why": "Wild mountain area between Langtang and Everest",
+   "tier": "gem",
+   "months": [
+    9,
+    11
+   ],
+   "time": "Multi-day"
+  },
+  {
+   "n": 132,
+   "name": "Manthali (Ramechhap) Airport",
+   "district": "Ramechhap",
+   "category": "Town",
+   "g": "hills",
+   "lat": 27.395,
+   "lng": 86.06,
+   "why": "Airport used for most Lukla flights in the busy seasons",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 133,
+   "name": "Sindhuligadhi",
+   "district": "Sindhuli",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 27.3,
+   "lng": 85.95,
+   "why": "Hill fort where Gorkhali forces turned back a British expedition in 1767",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 134,
+   "name": "BP Highway",
+   "district": "Sindhuli",
+   "category": "Great drive",
+   "g": "hills",
+   "lat": 27.4,
+   "lng": 85.8,
+   "why": "Winding road from Dhulikhel down to the plains through the Sun Koshi valley",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Full day",
+   "drive": {
+    "from": "Dhulikhel",
+    "to": "Bardibas",
+    "km": 160,
+    "days": "5–6 hours",
+    "road": "Mountain highway",
+    "best": "Oct–May",
+    "hi": [
+     "Sun Koshi river",
+     "Sindhuli fort"
+    ],
+    "warn": "Landslides in the monsoon"
+   }
+  },
+  {
+   "n": 135,
+   "name": "Daman",
+   "district": "Makwanpur",
+   "category": "Viewpoint",
+   "g": "hills",
+   "lat": 27.605,
+   "lng": 85.09,
+   "why": "Hilltop on the Rajpath with one of the widest Himalayan panoramas",
+   "tier": "top",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Overnight"
+  },
+  {
+   "n": 136,
+   "name": "Tribhuvan Rajpath",
+   "district": "Makwanpur",
+   "category": "Great drive",
+   "g": "hills",
+   "lat": 27.55,
+   "lng": 85.1,
+   "why": "Narrow, twisting 1950s highway from Kathmandu over Daman to Hetauda",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Full day",
+   "drive": {
+    "from": "Naubise",
+    "to": "Hetauda",
+    "km": 116,
+    "days": "Full day",
+    "road": "Narrow mountain road",
+    "best": "Oct–May",
+    "hi": [
+     "Daman viewpoint",
+     "Simbhanjyang pass"
+    ],
+    "warn": "Narrow and steep; drive slowly"
+   }
+  },
+  {
+   "n": 137,
+   "name": "Chitlang",
+   "district": "Makwanpur",
+   "category": "Village",
+   "g": "hills",
+   "lat": 27.635,
+   "lng": 85.17,
+   "why": "Valley of homestays, goat cheese and an old Ashokan stupa",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Overnight"
+  },
+  {
+   "n": 138,
+   "name": "Kulekhani (Indrasarobar)",
+   "district": "Makwanpur",
+   "category": "Lake",
+   "g": "water",
+   "lat": 27.59,
+   "lng": 85.16,
+   "why": "Reservoir lake with boating and fish stalls at Markhu",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 139,
+   "name": "Palung",
+   "district": "Makwanpur",
+   "category": "Valley",
+   "g": "hills",
+   "lat": 27.63,
+   "lng": 85.07,
+   "why": "Farm valley known for its vegetables and strawberries",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 140,
+   "name": "Makwanpur Gadhi",
+   "district": "Makwanpur",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 27.4,
+   "lng": 85.18,
+   "why": "Ridge fort of the old Makwanpur kingdom",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 141,
+   "name": "Chitwan National Park",
+   "district": "Chitwan",
+   "category": "National park",
+   "g": "wildlife",
+   "lat": 27.5,
+   "lng": 84.33,
+   "why": "Grassland and sal forest of rhinos, gharials and tigers, Nepal's first national park",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2–3 days",
+   "park": {
+    "kind": "National park",
+    "est": 1973,
+    "stars": [
+     "One-horned rhino",
+     "Bengal tiger",
+     "Gharial",
+     "Sloth bear",
+     "Leopard"
+    ],
+    "safari": [
+     "Jeep",
+     "Canoe",
+     "Walking"
+    ],
+    "zones": [
+     "Sauraha",
+     "Meghauli",
+     "Kasara"
+    ],
+    "gate": "Sauraha",
+    "book": "Through licensed lodges or the park office",
+    "note": "UNESCO World Heritage Site (1984)"
+   },
+   "wild": {
+    "sp": [
+     "rhino",
+     "gharial"
+    ],
+    "best": "Oct–Mar",
+    "odds": "Rhinos very likely; tigers rare",
+    "how": "Jeep, canoe and walking safaris with guides"
+   }
+  },
+  {
+   "n": 142,
+   "name": "Sauraha",
+   "district": "Chitwan",
+   "category": "Town",
+   "g": "wildlife",
+   "lat": 27.578,
+   "lng": 84.497,
+   "why": "Lodge village on the Rapti, the main gateway to Chitwan",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Overnight"
+  },
+  {
+   "n": 143,
+   "name": "Rapti River canoe ride",
+   "district": "Chitwan",
+   "category": "River",
+   "g": "water",
+   "lat": 27.57,
+   "lng": 84.49,
+   "why": "Dugout-canoe drift past mugger crocodiles and kingfishers",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 144,
+   "name": "Elephant Breeding Centre, Khorsor",
+   "district": "Chitwan",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 27.56,
+   "lng": 84.47,
+   "why": "Breeding centre for working elephants near Sauraha",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 145,
+   "name": "Kasara & Gharial Breeding Centre",
+   "district": "Chitwan",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 27.56,
+   "lng": 84.35,
+   "why": "Park headquarters where gharials are bred for release",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 146,
+   "name": "Tharu Cultural Museum, Sauraha",
+   "district": "Chitwan",
+   "category": "Museum",
+   "g": "culture",
+   "lat": 27.585,
+   "lng": 84.495,
+   "why": "Tharu life and evening stick dances in Sauraha",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 147,
+   "name": "Bis Hazari Tal",
+   "district": "Chitwan",
+   "category": "Wetland",
+   "g": "wildlife",
+   "lat": 27.62,
+   "lng": 84.43,
+   "why": "'Twenty Thousand Lakes', a Ramsar wetland in the buffer zone known for birds",
+   "tier": "top",
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day",
+   "wet": {
+    "kind": "Lake complex",
+    "ramsar": 2003
+   },
+   "bird": {
+    "stars": [
+     "Storks",
+     "Kingfishers",
+     "Migratory ducks"
+    ],
+    "season": "Nov–Mar",
+    "how": [
+     "Guided walk"
+    ]
+   }
+  },
+  {
+   "n": 148,
+   "name": "Meghauli",
+   "district": "Chitwan",
+   "category": "Village",
+   "g": "wildlife",
+   "lat": 27.57,
+   "lng": 84.23,
+   "why": "Quieter western side of Chitwan with lodges and fine rhino country",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Overnight"
+  },
+  {
+   "n": 149,
+   "name": "Devghat",
+   "district": "Chitwan",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 27.73,
+   "lng": 84.43,
+   "why": "Pilgrim village where the Kali Gandaki meets the Trishuli",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "2 hrs"
+  },
+  {
+   "n": 150,
+   "name": "Upardanggadhi",
+   "district": "Chitwan",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 27.7,
+   "lng": 84.6,
+   "why": "Hill fort above the Chitwan valley with plains views",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 151,
+   "name": "Trishuli River Rafting",
+   "district": "Dhading",
+   "category": "River",
+   "g": "water",
+   "lat": 27.8,
+   "lng": 84.8,
+   "why": "Nepal's most popular rafting river, beside the Kathmandu–Pokhara road",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 152,
+   "name": "Malekhu",
+   "district": "Dhading",
+   "category": "Food",
+   "g": "culture",
+   "lat": 27.82,
+   "lng": 84.83,
+   "why": "Highway stop famous for fried river fish",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 153,
+   "name": "Ruby Valley Trek",
+   "district": "Dhading",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 28.2,
+   "lng": 85.08,
+   "why": "Little-walked Tamang and Gurung villages under Ganesh Himal",
+   "tier": "gem",
+   "months": [
+    9,
+    11
+   ],
+   "time": "6–8 days",
+   "trek": {
+    "kind": "Trek",
+    "diff": "Moderate",
+    "el": 3842,
+    "base": "Syabrubesi or Dhading Besi",
+    "permit": "A licensed guide is required for foreign trekkers in Nepal's national parks and conservation areas (since 2023)",
+    "days": "6–8 days"
+   }
+  },
+  {
+   "n": 154,
+   "name": "Balaju Baais Dhara",
+   "district": "Kathmandu",
+   "category": "Garden",
+   "g": "heritage",
+   "lat": 27.734,
+   "lng": 85.304,
+   "why": "Water garden of 22 stone spouts with a smaller copy of the reclining Vishnu",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 155,
+   "name": "Mrigasthali",
+   "district": "Kathmandu",
+   "category": "Forest",
+   "g": "hills",
+   "lat": 27.7095,
+   "lng": 85.351,
+   "why": "Wooded hill of deer and shrines above Pashupatinath's ghats",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "45 min"
+  },
+  {
+   "n": 156,
+   "name": "Natural History Museum, Swayambhu",
+   "district": "Kathmandu",
+   "category": "Museum",
+   "g": "wildlife",
+   "lat": 27.716,
+   "lng": 85.288,
+   "why": "Small museum of Nepal's birds, butterflies and animals below Swayambhu",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 157,
+   "name": "Thangka studios, Boudha",
+   "district": "Kathmandu",
+   "category": "Craft",
+   "g": "culture",
+   "lat": 27.721,
+   "lng": 85.361,
+   "why": "Painters' schools around the stupa where thangkas are made by hand",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 158,
+   "name": "Ashoka Stupas of Patan",
+   "district": "Lalitpur",
+   "category": "Stupa",
+   "g": "buddhist",
+   "lat": 27.6845,
+   "lng": 85.324,
+   "why": "Four grassy mound stupas at Patan's edges, by tradition built under Ashoka",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 159,
+   "name": "Harisiddhi Bhagwati",
+   "district": "Lalitpur",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 27.6385,
+   "lng": 85.345,
+   "why": "Goddess temple known for its masked dance-dramas",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "45 min"
+  },
+  {
+   "n": 160,
+   "name": "Woodcarving Museum (Pujari Math)",
+   "district": "Bhaktapur",
+   "category": "Museum",
+   "g": "heritage",
+   "lat": 27.6735,
+   "lng": 85.4355,
+   "why": "Priest's house of fine carving, home of the Peacock Window",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "45 min"
+  },
+  {
+   "n": 161,
+   "name": "Melamchi Ghyang",
+   "district": "Sindhupalchok",
+   "category": "Village",
+   "g": "culture",
+   "lat": 28.04,
+   "lng": 85.54,
+   "why": "Hyolmo monastery village on the Helambu trail",
+   "tier": "gem",
+   "months": [
+    9,
+    11
+   ],
+   "time": "Overnight"
+  },
+  {
+   "n": 162,
+   "name": "Tarkeghyang",
+   "district": "Sindhupalchok",
+   "category": "Village",
+   "g": "culture",
+   "lat": 28.0,
+   "lng": 85.56,
+   "why": "Largest Hyolmo village of Helambu, with an old gompa",
+   "tier": "gem",
+   "months": [
+    9,
+    11
+   ],
+   "time": "Overnight"
+  },
+  {
+   "n": 163,
+   "name": "Kyanjin Ri",
+   "district": "Rasuwa",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 28.22,
+   "lng": 85.57,
+   "why": "Side-climb from Kyanjin Gompa to 4,773 m for the Langtang Lirung view",
+   "tier": "top",
+   "months": [
+    9,
+    11
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "diff": "Moderate",
+    "el": 4773,
+    "base": "Kyanjin Gompa",
+    "permit": "A licensed guide is required for foreign trekkers in Nepal's national parks and conservation areas (since 2023)"
+   }
+  },
+  {
+   "n": 164,
+   "name": "Tsergo Ri",
+   "district": "Rasuwa",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 28.23,
+   "lng": 85.61,
+   "why": "Long climb from Kyanjin to about 4,985 m, Langtang's best viewpoint",
+   "tier": "gem",
+   "months": [
+    9,
+    11
+   ],
+   "time": "Full day",
+   "trek": {
+    "kind": "Hike",
+    "diff": "Difficult",
+    "el": 4985,
+    "base": "Kyanjin Gompa",
+    "permit": "A licensed guide is required for foreign trekkers in Nepal's national parks and conservation areas (since 2023)"
+   }
+  },
+  {
+   "n": 165,
+   "name": "Lama Hotel",
+   "district": "Rasuwa",
+   "category": "Village",
+   "g": "hills",
+   "lat": 28.17,
+   "lng": 85.43,
+   "why": "Forest stop in the Langtang gorge where red pandas are sometimes seen",
+   "tier": "gem",
+   "months": [
+    9,
+    11
+   ],
+   "time": "Overnight"
+  },
+  {
+   "n": 166,
+   "name": "Siraichuli",
+   "district": "Chitwan",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 27.87,
+   "lng": 84.67,
+   "why": "Chitwan's highest hill at about 1,945 m, a long ridge walk",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 167,
+   "name": "Lami Tal",
+   "district": "Chitwan",
+   "category": "Lake",
+   "g": "wildlife",
+   "lat": 27.55,
+   "lng": 84.39,
+   "why": "Oxbow lake inside Chitwan where rhinos and crocodiles come to drink",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 168,
+   "name": "Jalbire Canyon",
+   "district": "Chitwan",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 27.85,
+   "lng": 84.53,
+   "why": "Canyoning in a narrow gorge north of the Chitwan plains",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Full day"
+  },
+  {
+   "n": 169,
+   "name": "Simbhanjyang",
+   "district": "Makwanpur",
+   "category": "Viewpoint",
+   "g": "hills",
+   "lat": 27.58,
+   "lng": 85.1,
+   "why": "Highest point of the Rajpath at about 2,488 m, sometimes snowy",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1 hr"
+  },
+  {
+   "n": 170,
+   "name": "Hetauda Botanical Garden",
+   "district": "Makwanpur",
+   "category": "Garden",
+   "g": "hills",
+   "lat": 27.44,
+   "lng": 85.03,
+   "why": "Lowland botanical garden of tropical plants",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 171,
+   "name": "Bhimphedi",
+   "district": "Makwanpur",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 27.55,
+   "lng": 85.13,
+   "why": "Old Rana-era road-head where porters once carried cars to Kathmandu",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1 hr"
+  }
+ ],
+ "festivals": [
+  {
+   "name": "Indra Jatra",
+   "months": [
+    9,
+    9
+   ],
+   "when": "September",
+   "n": 12,
+   "about": "The Kumari's chariot and masked dances in Kathmandu's old city."
+  },
+  {
+   "name": "Bisket Jatra",
+   "months": [
+    4,
+    4
+   ],
+   "when": "Nepali New Year, mid-April",
+   "n": 77,
+   "about": "Chariot tug-of-war and a tall pole raised in Bhaktapur."
+  },
+  {
+   "name": "Rato Machhindranath Jatra",
+   "months": [
+    4,
+    6
+   ],
+   "when": "Spring, over several weeks",
+   "n": 56,
+   "about": "A towering chariot pulled through Patan for the rain god."
+  },
+  {
+   "name": "Maha Shivaratri",
+   "months": [
+    2,
+    3
+   ],
+   "when": "February or March",
+   "n": 1,
+   "about": "Hundreds of thousands of pilgrims and sadhus at Pashupatinath."
+  },
+  {
+   "name": "Losar",
+   "months": [
+    2,
+    3
+   ],
+   "when": "February or March",
+   "n": 4,
+   "about": "Tibetan and Sherpa New Year around the Boudha stupa."
+  },
+  {
+   "name": "Janai Purnima",
+   "months": [
+    8,
+    8
+   ],
+   "when": "August full moon",
+   "n": 114,
+   "about": "Pilgrims bathe in Gosaikunda and renew sacred threads."
+  },
+  {
+   "name": "Gai Jatra",
+   "months": [
+    8,
+    9
+   ],
+   "when": "August–September",
+   "n": 77,
+   "about": "Processions for the year's dead, most colourful in Bhaktapur."
+  },
+  {
+   "name": "Teej",
+   "months": [
+    8,
+    9
+   ],
+   "when": "August–September",
+   "n": 1,
+   "about": "Women in red fast and dance at Pashupatinath."
+  },
+  {
+   "name": "Buddha Jayanti",
+   "months": [
+    5,
+    5
+   ],
+   "when": "May full moon",
+   "n": 9,
+   "about": "Butter lamps and processions at Swayambhu and Boudha."
+  },
+  {
+   "name": "Dashain",
+   "months": [
+    9,
+    10
+   ],
+   "when": "September–October",
+   "n": 53,
+   "about": "Nepal's biggest festival: kites, swings and goddess temples."
+  }
+ ]
+}
