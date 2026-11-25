@@ -74,6 +74,7 @@ MANUAL_PHOTO_EXCLUSIONS = {
     'andhra-pradesh:16': 'underway submarine image, not the beachside museum',
     'andhra-pradesh:17': 'RK Beach sunset image, not Dolphin Nose or Yarada',
     'andhra-pradesh:20': 'banana fields image, not Etikoppaka lacquer toys',
+    'andhra-pradesh:23': 'Araku Valley landscape image, not the Tribal Museum',
 }
 for f in sorted(glob.glob(os.path.join(ROOT, 'data', 'facts', '*.json'))):
     slug = os.path.basename(f)[:-5]
