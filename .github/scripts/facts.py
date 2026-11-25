@@ -65,7 +65,11 @@ PLACE_ALIASES = {'vijayapuracitadelmalikemaidan': ['Bijapur Fort']}
 # Keep these places in the manual-review queue instead of publishing misleading facts/photos.
 MANUAL_ARTICLE_EXCLUSIONS = {
     'andhra-pradesh:112': 'Bheemili Beach article does not describe the Vizag–Bheemili scenic road',
+    'andhra-pradesh:17': 'Dolphin’s Nose article does not verify the combined Yarada Beach destination',
     'andhra-pradesh:23': 'Araku Valley article is not an article about the Araku Tribal Museum',
+    'andhra-pradesh:41': 'Uppada village article describes the sari and fishing locality, not Uppada Beach',
+    'andhra-pradesh:48': 'Bhavani Island article does not verify the combined Prakasam Barrage destination',
+    'andhra-pradesh:58': 'Pedana municipality article does not verify the listed Kalamkari craft destination',
     'andhra-pradesh:51': 'Mangalagiri–Tadepalli municipal corporation article does not verify the Mangalagiri temple or handloom destination',
     'andhra-pradesh:59': 'Machilipatnam city article does not verify the combined Machilipatnam and Manginapudi Beach destination',
     'andhra-pradesh:65': 'Udayagiri town article does not verify Udayagiri Fort',
