@@ -882,7 +882,21 @@
     4,
     1
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "park": {
+    "kind": "National park",
+    "est": 1978,
+    "stars": [
+     "Nilgiri tahr",
+     "Neelakurinji (every 12 years)"
+    ],
+    "safari": [
+     "Park bus to Rajamala"
+    ],
+    "gate": "Munnar",
+    "closed": "Usually closes Feb–Mar for tahr calving",
+    "book": "Online ticket"
+   }
   },
   {
    "n": 46,
@@ -1026,7 +1040,25 @@
     10,
     4
    ],
-   "time": "Overnight"
+   "time": "Overnight",
+   "park": {
+    "kind": "Tiger reserve",
+    "est": 1950,
+    "stars": [
+     "Elephants at the lake shore",
+     "Gaur",
+     "Otters"
+    ],
+    "safari": [
+     "Boat",
+     "Bamboo rafting",
+     "Border hiking",
+     "Nature walks"
+    ],
+    "gate": "Thekkady",
+    "book": "Periyar Tiger Reserve eco-tourism",
+    "url": "https://www.periyartigerreserve.org"
+   }
   },
   {
    "n": 55,
@@ -1602,7 +1634,20 @@
     10,
     4
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "park": {
+    "kind": "National park",
+    "est": 1984,
+    "stars": [
+     "Lion-tailed macaque",
+     "Rainforest"
+    ],
+    "safari": [
+     "Jeep with guide"
+    ],
+    "gate": "Mukkali",
+    "book": "Forest office at Mukkali"
+   }
   },
   {
    "n": 91,
@@ -1666,7 +1711,22 @@
     10,
     4
    ],
-   "time": "Overnight"
+   "time": "Overnight",
+   "park": {
+    "kind": "Tiger reserve",
+    "stars": [
+     "Gaur",
+     "Elephant",
+     "Kannimara teak (one of the largest teak trees)"
+    ],
+    "safari": [
+     "Jeep",
+     "Bamboo rafting",
+     "Trekking"
+    ],
+    "gate": "Anappady (via Pollachi)",
+    "book": "Parambikulam eco-tourism"
+   }
   },
   {
    "n": 95,
@@ -3004,6 +3064,63 @@
     "diff": "Moderate",
     "base": "Ponmudi",
     "permit": "Forest permit"
+   }
+  },
+  {
+   "n": 173,
+   "name": "Pambadum Shola National Park",
+   "district": "Idukki",
+   "category": "National park",
+   "g": "wildlife",
+   "lat": 10.12,
+   "lng": 77.25,
+   "why": "Smallest national park in Kerala, shola forest near Vattavada",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Half day",
+   "park": {
+    "kind": "National park",
+    "est": 2003,
+    "stars": [
+     "Nilgiri marten",
+     "Shola forest"
+    ],
+    "safari": [
+     "Walking",
+     "Camping"
+    ],
+    "gate": "Vattavada"
+   }
+  },
+  {
+   "n": 174,
+   "name": "Mathikettan Shola National Park",
+   "district": "Idukki",
+   "category": "National park",
+   "g": "wildlife",
+   "lat": 9.97,
+   "lng": 77.23,
+   "why": "Shola forest on the Tamil Nadu border near Poopara",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Half day",
+   "park": {
+    "kind": "National park",
+    "est": 2003,
+    "stars": [
+     "Elephant",
+     "Shola forest"
+    ],
+    "safari": [
+     "Walking"
+    ],
+    "gate": "Poopara"
    }
   }
  ],

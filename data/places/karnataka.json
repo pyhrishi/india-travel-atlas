@@ -1411,7 +1411,22 @@
     10,
     4
    ],
-   "time": "Overnight"
+   "time": "Overnight",
+   "park": {
+    "kind": "Tiger reserve",
+    "stars": [
+     "Tiger",
+     "Gaur",
+     "River tern colonies"
+    ],
+    "safari": [
+     "Jeep",
+     "Boat"
+    ],
+    "gate": "Lakkavalli or Muthodi",
+    "book": "Karnataka Forest (Aranya Vihaara)",
+    "url": "https://aranyavihaara.karnataka.gov.in"
+   }
   },
   {
    "n": 76,
@@ -1731,7 +1746,29 @@
     10,
     6
    ],
-   "time": "Overnight"
+   "time": "Overnight",
+   "park": {
+    "kind": "Tiger reserve",
+    "stars": [
+     "Tiger",
+     "Leopard",
+     "Elephant",
+     "Dhole"
+    ],
+    "safari": [
+     "Jeep",
+     "Canter",
+     "Boat at Kabini"
+    ],
+    "zones": [
+     "Kabini (Damanakatte)",
+     "Nanachi gate",
+     "Veeranahosahalli"
+    ],
+    "gate": "Kabini",
+    "book": "Karnataka Forest (Aranya Vihaara)",
+    "url": "https://aranyavihaara.karnataka.gov.in"
+   }
   },
   {
    "n": 96,
@@ -2009,7 +2046,23 @@
     10,
     6
    ],
-   "time": "Overnight"
+   "time": "Overnight",
+   "park": {
+    "kind": "Tiger reserve",
+    "stars": [
+     "Elephant herds by the reservoir",
+     "Black panther (sightings)",
+     "Tiger"
+    ],
+    "safari": [
+     "Jeep",
+     "Canter",
+     "Boat"
+    ],
+    "gate": "Kabini",
+    "book": "Karnataka Forest (Aranya Vihaara) or Jungle Lodges",
+    "url": "https://aranyavihaara.karnataka.gov.in"
+   }
   },
   {
    "n": 113,
@@ -2121,7 +2174,27 @@
     10,
     6
    ],
-   "time": "Overnight"
+   "time": "Overnight",
+   "park": {
+    "kind": "Tiger reserve",
+    "est": 1974,
+    "stars": [
+     "Tiger",
+     "Elephant",
+     "Leopard",
+     "Dhole",
+     "Gaur"
+    ],
+    "safari": [
+     "Jeep",
+     "Canter"
+    ],
+    "gate": "Bandipur reception, Melkamanahalli",
+    "closed": "Open most of the year; may close in fire season",
+    "book": "Karnataka Forest (Aranya Vihaara)",
+    "url": "https://aranyavihaara.karnataka.gov.in",
+    "note": "One of Project Tiger's first nine reserves (1973)"
+   }
   },
   {
    "n": 120,
@@ -2153,7 +2226,20 @@
     10,
     4
    ],
-   "time": "Overnight"
+   "time": "Overnight",
+   "park": {
+    "kind": "Tiger reserve",
+    "stars": [
+     "Tiger",
+     "Elephant",
+     "Champakaranya trees"
+    ],
+    "safari": [
+     "Jeep"
+    ],
+    "gate": "K Gudi",
+    "book": "Jungle Lodges"
+   }
   },
   {
    "n": 122,
@@ -2393,7 +2479,21 @@
     10,
     4
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "park": {
+    "kind": "National park",
+    "est": 1974,
+    "stars": [
+     "Butterfly park",
+     "Lion and tiger safari",
+     "Elephants"
+    ],
+    "safari": [
+     "Safari bus"
+    ],
+    "gate": "Bannerghatta",
+    "book": "At the gate or online"
+   }
   },
   {
    "n": 137,
@@ -2951,7 +3051,22 @@
     10,
     4
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "park": {
+    "kind": "Tiger reserve",
+    "stars": [
+     "Black panther",
+     "Great hornbill",
+     "Tiger"
+    ],
+    "safari": [
+     "Jeep",
+     "Rafting nearby"
+    ],
+    "gate": "Dandeli or Kulgi",
+    "book": "Karnataka Forest (Aranya Vihaara)",
+    "url": "https://aranyavihaara.karnataka.gov.in"
+   }
   },
   {
    "n": 170,

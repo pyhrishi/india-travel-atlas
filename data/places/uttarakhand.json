@@ -1085,7 +1085,27 @@
     11,
     6
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "park": {
+    "kind": "Tiger reserve",
+    "stars": [
+     "Elephant",
+     "Tiger",
+     "Leopard",
+     "Birds"
+    ],
+    "safari": [
+     "Jeep"
+    ],
+    "zones": [
+     "Chilla",
+     "Motichoor",
+     "Jhilmil"
+    ],
+    "gate": "Chilla, near Haridwar",
+    "closed": "Usually closes 15 Jun–15 Nov",
+    "book": "Uttarakhand Forest booking"
+   }
   },
   {
    "n": 52,
@@ -1551,7 +1571,35 @@
     11,
     6
    ],
-   "time": "2 days"
+   "time": "2 days",
+   "park": {
+    "kind": "Tiger reserve",
+    "est": 1936,
+    "stars": [
+     "Tiger",
+     "Elephant",
+     "Gharial",
+     "Leopard",
+     "Birds"
+    ],
+    "safari": [
+     "Jeep",
+     "Canter"
+    ],
+    "zones": [
+     "Dhikala",
+     "Bijrani",
+     "Jhirna",
+     "Dhela",
+     "Durga Devi",
+     "Sitabani (buffer)"
+    ],
+    "gate": "Ramnagar",
+    "closed": "Dhikala usually closes mid-Jun–mid-Nov; Jhirna and Dhela open all year",
+    "book": "Corbett online booking",
+    "url": "https://corbettonline.uk.gov.in",
+    "note": "India's first national park (1935, as Hailey National Park)"
+   }
   },
   {
    "n": 80,
@@ -3811,6 +3859,68 @@
     "diff": "Easy",
     "base": "Mana",
     "permit": "Restricted: Army permit"
+   }
+  },
+  {
+   "n": 199,
+   "name": "Gangotri National Park",
+   "district": "Uttarkashi",
+   "category": "National park",
+   "g": "wildlife",
+   "lat": 30.95,
+   "lng": 79.05,
+   "why": "Glacier country of the Bhagirathi's source, home of the snow leopard",
+   "tier": "top",
+   "months": [
+    5,
+    10
+   ],
+   "time": "Treks",
+   "park": {
+    "kind": "National park",
+    "est": 1989,
+    "stars": [
+     "Snow leopard",
+     "Bharal",
+     "Himalayan tahr"
+    ],
+    "safari": [
+     "Trekking"
+    ],
+    "gate": "Gangotri",
+    "closed": "Closes in winter (about Nov–Apr)",
+    "book": "Permit at Gangotri or Uttarkashi"
+   }
+  },
+  {
+   "n": 200,
+   "name": "Nanda Devi National Park",
+   "district": "Chamoli",
+   "category": "National park",
+   "g": "wildlife",
+   "lat": 30.42,
+   "lng": 79.85,
+   "why": "UNESCO site around Nanda Devi; the inner sanctuary has been closed to visitors since 1983",
+   "tier": "top",
+   "months": [
+    5,
+    10
+   ],
+   "time": "Lata–Tolma trails only",
+   "park": {
+    "kind": "National park",
+    "est": 1982,
+    "stars": [
+     "Snow leopard",
+     "Musk deer",
+     "Bharal"
+    ],
+    "safari": [
+     "Limited trekking from Lata"
+    ],
+    "gate": "Lata",
+    "closed": "Inner sanctuary closed",
+    "note": "UNESCO World Heritage Site with the Valley of Flowers"
    }
   }
  ],

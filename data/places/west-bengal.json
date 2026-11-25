@@ -545,7 +545,23 @@
     10,
     3
    ],
-   "time": "2–3 days"
+   "time": "2–3 days",
+   "park": {
+    "kind": "Tiger reserve",
+    "est": 1984,
+    "stars": [
+     "Swimming tiger",
+     "Saltwater crocodile",
+     "River terrapin",
+     "Mangroves"
+    ],
+    "safari": [
+     "Boat only"
+    ],
+    "gate": "Godkhali or Sajnekhali",
+    "book": "Boat permit through the forest office",
+    "note": "One of Project Tiger's first nine reserves (1973); UNESCO World Heritage Site"
+   }
   },
   {
    "n": 26,
@@ -1561,7 +1577,21 @@
     3,
     5
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "park": {
+    "kind": "National park",
+    "est": 1986,
+    "stars": [
+     "Red panda",
+     "Himalayan black bear",
+     "Rhododendrons"
+    ],
+    "safari": [
+     "Trekking",
+     "Land Rover to Sandakphu"
+    ],
+    "gate": "Manebhanjan"
+   }
   },
   {
    "n": 88,
@@ -1785,7 +1815,21 @@
     9,
     6
    ],
-   "time": "Overnight"
+   "time": "Overnight",
+   "park": {
+    "kind": "National park",
+    "est": 1994,
+    "stars": [
+     "One-horned rhino",
+     "Gaur",
+     "Elephant"
+    ],
+    "safari": [
+     "Jeep (watchtower trips)"
+    ],
+    "gate": "Lataguri",
+    "closed": "Usually closes 16 Jun–15 Sep"
+   }
   },
   {
    "n": 102,
@@ -1817,7 +1861,22 @@
     10,
     5
    ],
-   "time": "Overnight"
+   "time": "Overnight",
+   "park": {
+    "kind": "National park",
+    "est": 2012,
+    "stars": [
+     "One-horned rhino",
+     "Elephant",
+     "Hog deer"
+    ],
+    "safari": [
+     "Jeep",
+     "Elephant"
+    ],
+    "gate": "Madarihat",
+    "closed": "Usually closes 16 Jun–15 Sep"
+   }
   },
   {
    "n": 104,
@@ -1839,6 +1898,19 @@
     "el": 867,
     "diff": "Easy",
     "base": "Santalabari"
+   },
+   "park": {
+    "kind": "Tiger reserve",
+    "stars": [
+     "Elephant",
+     "Gaur",
+     "Hornbills"
+    ],
+    "safari": [
+     "Jeep",
+     "Walking to Buxa fort"
+    ],
+    "gate": "Rajabhatkhawa"
    }
   },
   {

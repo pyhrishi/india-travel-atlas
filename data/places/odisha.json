@@ -1063,7 +1063,22 @@
     11,
     3
    ],
-   "time": "2 days"
+   "time": "2 days",
+   "park": {
+    "kind": "National park",
+    "est": 1998,
+    "stars": [
+     "Saltwater crocodile",
+     "King cobra",
+     "Mangroves",
+     "Birds"
+    ],
+    "safari": [
+     "Boat"
+    ],
+    "gate": "Khola or Gupti",
+    "closed": "Usually closes 1 May–31 Jul for crocodile breeding"
+   }
   },
   {
    "n": 59,
@@ -1271,7 +1286,22 @@
     11,
     6
    ],
-   "time": "2 days"
+   "time": "2 days",
+   "park": {
+    "kind": "Tiger reserve",
+    "stars": [
+     "Tiger (incl. melanistic)",
+     "Elephant",
+     "Barehipani and Joranda falls"
+    ],
+    "safari": [
+     "Jeep"
+    ],
+    "gate": "Pithabata or Jashipur",
+    "closed": "Usually closes 16 Jun–31 Oct",
+    "book": "Simlipal online permit",
+    "note": "One of Project Tiger's first nine reserves (1973)"
+   }
   },
   {
    "n": 72,
@@ -1645,7 +1675,21 @@
     11,
     3
    ],
-   "time": "Overnight"
+   "time": "Overnight",
+   "park": {
+    "kind": "Tiger reserve",
+    "stars": [
+     "Gharial",
+     "Mugger",
+     "Leopard",
+     "Birds"
+    ],
+    "safari": [
+     "Boat",
+     "Jeep"
+    ],
+    "gate": "Tikarpada"
+   }
   },
   {
    "n": 95,

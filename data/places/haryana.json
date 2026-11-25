@@ -686,7 +686,21 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "park": {
+    "kind": "National park",
+    "est": 1989,
+    "stars": [
+     "Sarus crane",
+     "Greater flamingo",
+     "Winter ducks"
+    ],
+    "safari": [
+     "Walking"
+    ],
+    "gate": "Sultanpur, near Gurugram",
+    "book": "At the gate"
+   }
   },
   {
    "n": 36,

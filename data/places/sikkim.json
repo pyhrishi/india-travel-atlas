@@ -1272,7 +1272,19 @@
     10,
     5
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "park": {
+    "kind": "Sanctuary",
+    "stars": [
+     "Red panda",
+     "Rhododendrons",
+     "Blue poppy"
+    ],
+    "safari": [
+     "Walking"
+    ],
+    "gate": "Kyongnosla"
+   }
   },
   {
    "n": 71,
@@ -1685,6 +1697,38 @@
     "diff": "Difficult",
     "base": "Thangu",
     "permit": "Restricted area permit"
+   }
+  },
+  {
+   "n": 91,
+   "name": "Khangchendzonga National Park",
+   "district": "Gyalshing",
+   "category": "National park",
+   "g": "wildlife",
+   "lat": 27.7,
+   "lng": 88.2,
+   "why": "UNESCO mixed World Heritage Site around India's highest peak, entered on the Goecha La trail",
+   "tier": "icon",
+   "months": [
+    3,
+    5
+   ],
+   "time": "Multi-day treks",
+   "park": {
+    "kind": "National park",
+    "est": 1977,
+    "stars": [
+     "Red panda",
+     "Snow leopard",
+     "Blue sheep",
+     "Glaciers"
+    ],
+    "safari": [
+     "Trekking"
+    ],
+    "gate": "Yuksom",
+    "book": "Permit at Yuksom",
+    "note": "India's first 'mixed' (natural and cultural) World Heritage Site"
    }
   }
  ],

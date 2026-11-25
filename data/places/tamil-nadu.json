@@ -445,7 +445,21 @@
     11,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "park": {
+    "kind": "Marine park",
+    "est": 1986,
+    "stars": [
+     "Dugong",
+     "Coral reefs",
+     "Sea turtles"
+    ],
+    "safari": [
+     "Glass-bottom boat"
+    ],
+    "gate": "Mandapam or Tuticorin",
+    "note": "21 islands of reef off the Tamil Nadu coast"
+   }
   },
   {
    "n": 19,
@@ -762,7 +776,22 @@
     10,
     5
    ],
-   "time": "Overnight"
+   "time": "Overnight",
+   "park": {
+    "kind": "Tiger reserve",
+    "stars": [
+     "Tiger",
+     "Elephant",
+     "Leopard",
+     "Theppakadu elephant camp"
+    ],
+    "safari": [
+     "Safari bus",
+     "Jeep"
+    ],
+    "gate": "Theppakadu",
+    "book": "Tamil Nadu Forest booking"
+   }
   },
   {
    "n": 38,
@@ -1066,7 +1095,22 @@
     11,
     3
    ],
-   "time": "Overnight"
+   "time": "Overnight",
+   "park": {
+    "kind": "Tiger reserve",
+    "stars": [
+     "Lion-tailed macaque",
+     "Elephant",
+     "Gaur",
+     "Kozhikamuthi elephant camp"
+    ],
+    "safari": [
+     "Safari bus",
+     "Trekking"
+    ],
+    "gate": "Topslip",
+    "book": "Tamil Nadu Forest booking"
+   }
   },
   {
    "n": 57,
@@ -2336,7 +2380,18 @@
     11,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "park": {
+    "kind": "Tiger reserve",
+    "stars": [
+     "Lion-tailed macaque",
+     "Nilgiri tahr"
+    ],
+    "safari": [
+     "Trekking"
+    ],
+    "gate": "Mundanthurai"
+   }
   },
   {
    "n": 136,
@@ -2592,7 +2647,20 @@
     11,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "park": {
+    "kind": "Tiger reserve",
+    "est": 2013,
+    "stars": [
+     "Tiger",
+     "Elephant",
+     "Vultures"
+    ],
+    "safari": [
+     "Jeep"
+    ],
+    "gate": "Thalavadi or Bannari"
+   }
   },
   {
    "n": 152,
@@ -3355,6 +3423,35 @@
     "el": 250,
     "diff": "Easy",
     "base": "Kottaram"
+   }
+  },
+  {
+   "n": 195,
+   "name": "Srivilliputhur-Megamalai Tiger Reserve",
+   "district": "Virudhunagar",
+   "category": "Tiger reserve",
+   "g": "wildlife",
+   "lat": 9.6,
+   "lng": 77.5,
+   "why": "Tiger reserve joining the Grizzled Squirrel sanctuary and Megamalai",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Full day",
+   "park": {
+    "kind": "Tiger reserve",
+    "est": 2021,
+    "stars": [
+     "Grizzled giant squirrel",
+     "Elephant",
+     "Tiger"
+    ],
+    "safari": [
+     "Trekking"
+    ],
+    "gate": "Srivilliputhur"
    }
   }
  ],

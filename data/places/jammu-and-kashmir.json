@@ -407,7 +407,21 @@
     4,
     10
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "park": {
+    "kind": "National park",
+    "est": 1981,
+    "stars": [
+     "Hangul (Kashmir stag)",
+     "Himalayan black bear"
+    ],
+    "safari": [
+     "Walking with a guide"
+    ],
+    "gate": "Harwan, Srinagar",
+    "book": "Permit from the Wildlife Warden, Srinagar",
+    "note": "Last stronghold of the hangul"
+   }
   },
   {
    "n": 20,
@@ -2126,6 +2140,35 @@
     "el": 3590,
     "diff": "Moderate",
     "base": "Chandanwari"
+   }
+  },
+  {
+   "n": 114,
+   "name": "Kazinag National Park",
+   "district": "Baramulla",
+   "category": "National park",
+   "g": "wildlife",
+   "lat": 34.17,
+   "lng": 74.06,
+   "why": "Forests and meadows above the Jhelum near Uri, home of the markhor",
+   "tier": "gem",
+   "months": [
+    5,
+    10
+   ],
+   "time": "1–2 days",
+   "park": {
+    "kind": "National park",
+    "est": 1992,
+    "stars": [
+     "Markhor",
+     "Himalayan black bear"
+    ],
+    "safari": [
+     "Trekking"
+    ],
+    "gate": "Limber",
+    "book": "Permit from the Wildlife Warden, Baramulla"
    }
   }
  ],

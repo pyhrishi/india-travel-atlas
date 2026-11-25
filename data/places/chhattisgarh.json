@@ -270,7 +270,22 @@
     11,
     5
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "park": {
+    "kind": "National park",
+    "est": 1982,
+    "stars": [
+     "Kutumsar and Kailash caves",
+     "Hill myna",
+     "Tirathgarh falls"
+    ],
+    "safari": [
+     "Jeep",
+     "Walking to caves"
+    ],
+    "gate": "Jagdalpur",
+    "closed": "Caves usually close in the monsoon"
+   }
   },
   {
    "n": 10,
@@ -484,7 +499,19 @@
     11,
     5
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "park": {
+    "kind": "Tiger reserve",
+    "stars": [
+     "Wild buffalo",
+     "Leopard"
+    ],
+    "safari": [
+     "Jeep"
+    ],
+    "gate": "Gariaband",
+    "closed": "Usually closes in the monsoon"
+   }
   },
   {
    "n": 23,
@@ -756,7 +783,21 @@
     11,
     5
    ],
-   "time": "Overnight"
+   "time": "Overnight",
+   "park": {
+    "kind": "Tiger reserve",
+    "stars": [
+     "Tiger",
+     "Leopard",
+     "Gaur",
+     "Dhole"
+    ],
+    "safari": [
+     "Jeep"
+    ],
+    "gate": "Lormi",
+    "closed": "Usually closes in the monsoon"
+   }
   },
   {
    "n": 40,
@@ -2042,7 +2083,17 @@
     11,
     4
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "park": {
+    "kind": "Tiger reserve",
+    "stars": [
+     "Wild buffalo",
+     "Tiger"
+    ],
+    "safari": [],
+    "gate": "Kutru",
+    "closed": "Visits restricted; ask the forest office"
+   }
   },
   {
    "n": 120,

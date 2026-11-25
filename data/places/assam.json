@@ -552,7 +552,18 @@
     10,
     4
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "park": {
+    "kind": "Sanctuary",
+    "stars": [
+     "One-horned rhino (highest density in the world)"
+    ],
+    "safari": [
+     "Jeep",
+     "Elephant"
+    ],
+    "gate": "Mayong, 50 km from Guwahati"
+   }
   },
   {
    "n": 25,
@@ -632,7 +643,30 @@
     10,
     4
    ],
-   "time": "2–3 days"
+   "time": "2–3 days",
+   "park": {
+    "kind": "Tiger reserve",
+    "est": 1990,
+    "stars": [
+     "Golden langur",
+     "Pygmy hog",
+     "Bengal florican",
+     "Elephant",
+     "Tiger"
+    ],
+    "safari": [
+     "Jeep",
+     "Elephant"
+    ],
+    "zones": [
+     "Bansbari",
+     "Panbari",
+     "Bhuyanpara"
+    ],
+    "gate": "Barpeta Road",
+    "closed": "Usually closes in the monsoon",
+    "note": "One of Project Tiger's first nine reserves (1973); UNESCO World Heritage Site"
+   }
   },
   {
    "n": 30,
@@ -792,7 +826,21 @@
     10,
     4
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "park": {
+    "kind": "Tiger reserve",
+    "est": 1999,
+    "stars": [
+     "One-horned rhino",
+     "Tiger",
+     "Pygmy hog"
+    ],
+    "safari": [
+     "Jeep"
+    ],
+    "gate": "Orang",
+    "note": "Called 'mini Kaziranga'"
+   }
   },
   {
    "n": 40,
@@ -920,7 +968,21 @@
     10,
     4
    ],
-   "time": "Overnight"
+   "time": "Overnight",
+   "park": {
+    "kind": "Tiger reserve",
+    "est": 1998,
+    "stars": [
+     "White-winged wood duck",
+     "Hornbills",
+     "Golden mahseer"
+    ],
+    "safari": [
+     "Walking with a guard",
+     "Rafting on the Jia Bhoroli"
+    ],
+    "gate": "Potasali"
+   }
   },
   {
    "n": 48,
@@ -984,7 +1046,32 @@
     10,
     4
    ],
-   "time": "2–3 days"
+   "time": "2–3 days",
+   "park": {
+    "kind": "Tiger reserve",
+    "est": 1974,
+    "stars": [
+     "One-horned rhino",
+     "Wild water buffalo",
+     "Elephant",
+     "Tiger",
+     "Swamp deer"
+    ],
+    "safari": [
+     "Jeep",
+     "Elephant"
+    ],
+    "zones": [
+     "Central (Kohora)",
+     "Western (Bagori)",
+     "Eastern (Agaratoli)",
+     "Burapahar"
+    ],
+    "gate": "Kohora",
+    "closed": "Usually closes 1 May–30 Sep",
+    "book": "Kaziranga range offices or the official site",
+    "note": "UNESCO World Heritage Site; holds about two-thirds of the world's one-horned rhinos"
+   }
   },
   {
    "n": 52,
@@ -1448,7 +1535,18 @@
     10,
     4
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "park": {
+    "kind": "Sanctuary",
+    "stars": [
+     "Hoolock gibbon",
+     "Stump-tailed macaque"
+    ],
+    "safari": [
+     "Walking"
+    ],
+    "gate": "Mariani"
+   }
   },
   {
    "n": 81,
@@ -1672,7 +1770,20 @@
     11,
     4
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "park": {
+    "kind": "National park",
+    "est": 1999,
+    "stars": [
+     "Feral horses",
+     "Gangetic dolphin",
+     "White-winged wood duck"
+    ],
+    "safari": [
+     "Boat"
+    ],
+    "gate": "Guijan, Tinsukia"
+   }
   },
   {
    "n": 95,

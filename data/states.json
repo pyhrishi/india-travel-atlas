@@ -4,7 +4,7 @@
   "slug": "andhra-pradesh",
   "type": "State",
   "status": "done",
-  "count": 210,
+  "count": 213,
   "best": [
    [
     10,
@@ -151,7 +151,7 @@
   "slug": "kerala",
   "type": "State",
   "status": "done",
-  "count": 172,
+  "count": 174,
   "best": [
    [
     9,
@@ -268,7 +268,7 @@
   "slug": "rajasthan",
   "type": "State",
   "status": "done",
-  "count": 208,
+  "count": 209,
   "best": [
    [
     10,
@@ -281,7 +281,7 @@
   "slug": "sikkim",
   "type": "State",
   "status": "done",
-  "count": 90,
+  "count": 91,
   "best": [
    [
     3,
@@ -298,7 +298,7 @@
   "slug": "tamil-nadu",
   "type": "State",
   "status": "done",
-  "count": 194,
+  "count": 195,
   "best": [
    [
     11,
@@ -311,7 +311,7 @@
   "slug": "telangana",
   "type": "State",
   "status": "done",
-  "count": 108,
+  "count": 109,
   "best": [
    [
     10,
@@ -324,7 +324,7 @@
   "slug": "tripura",
   "type": "State",
   "status": "done",
-  "count": 29,
+  "count": 30,
   "best": [
    [
     10,
@@ -337,7 +337,7 @@
   "slug": "uttar-pradesh",
   "type": "State",
   "status": "done",
-  "count": 166,
+  "count": 167,
   "best": [
    [
     10,
@@ -350,7 +350,7 @@
   "slug": "uttarakhand",
   "type": "State",
   "status": "done",
-  "count": 198,
+  "count": 200,
   "best": [
    [
     3,
@@ -380,7 +380,7 @@
   "slug": "andaman-and-nicobar-islands",
   "type": "UT",
   "status": "done",
-  "count": 42,
+  "count": 44,
   "best": [
    [
     11,
@@ -432,7 +432,7 @@
   "slug": "jammu-and-kashmir",
   "type": "UT",
   "status": "done",
-  "count": 113,
+  "count": 114,
   "best": [
    [
     3,

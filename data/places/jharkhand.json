@@ -1038,7 +1038,22 @@
     11,
     4
    ],
-   "time": "Overnight"
+   "time": "Overnight",
+   "park": {
+    "kind": "Tiger reserve",
+    "est": 1974,
+    "stars": [
+     "Elephant",
+     "Gaur",
+     "Leopard",
+     "Palamau forts"
+    ],
+    "safari": [
+     "Jeep"
+    ],
+    "gate": "Betla",
+    "note": "One of Project Tiger's first nine reserves (1973) (Palamau)"
+   }
   },
   {
    "n": 56,

@@ -132,7 +132,21 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "park": {
+    "kind": "Sanctuary",
+    "stars": [
+     "Phayre's langur",
+     "Clouded leopard (enclosure)",
+     "Birds"
+    ],
+    "safari": [
+     "Walking",
+     "Boating"
+    ],
+    "gate": "Bishalgarh",
+    "note": "Contains the Clouded Leopard National Park"
+   }
   },
   {
    "n": 6,
@@ -528,6 +542,35 @@
     "el": 939,
     "diff": "Moderate",
     "base": "Vanghmun"
+   }
+  },
+  {
+   "n": 30,
+   "name": "Bison (Rajbari) National Park",
+   "district": "Gomati",
+   "category": "National park",
+   "g": "wildlife",
+   "lat": 23.25,
+   "lng": 91.7,
+   "why": "Gaur forest at Trishna, Tripura's bison park",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day",
+   "park": {
+    "kind": "National park",
+    "est": 2007,
+    "stars": [
+     "Gaur",
+     "Phayre's langur"
+    ],
+    "safari": [
+     "Walking",
+     "Watchtower"
+    ],
+    "gate": "Trishna"
    }
   }
  ],

@@ -911,7 +911,20 @@
     10,
     3
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "park": {
+    "kind": "Tiger reserve",
+    "stars": [
+     "Tiger",
+     "Leopard",
+     "Chenchu people"
+    ],
+    "safari": [
+     "Jeep"
+    ],
+    "gate": "Farahabad",
+    "book": "Telangana Forest tourism"
+   }
   },
   {
    "n": 52,
@@ -1013,7 +1026,20 @@
     10,
     3
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "park": {
+    "kind": "Tiger reserve",
+    "est": 2012,
+    "stars": [
+     "Leopard",
+     "Gaur",
+     "Sloth bear"
+    ],
+    "safari": [
+     "Jeep"
+    ],
+    "gate": "Jannaram"
+   }
   },
   {
    "n": 58,
@@ -1859,6 +1885,35 @@
     "el": 600,
     "diff": "Easy",
     "base": "Hyderabad"
+   }
+  },
+  {
+   "n": 109,
+   "name": "Mrugavani National Park",
+   "district": "Rangareddy",
+   "category": "National park",
+   "g": "wildlife",
+   "lat": 17.35,
+   "lng": 78.33,
+   "why": "Small deciduous forest on Hyderabad's western edge",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day",
+   "park": {
+    "kind": "National park",
+    "est": 1994,
+    "stars": [
+     "Spotted deer",
+     "Birds"
+    ],
+    "safari": [
+     "Safari bus",
+     "Walking"
+    ],
+    "gate": "Chilkur"
    }
   }
  ],

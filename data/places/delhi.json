@@ -431,7 +431,20 @@
     10,
     3
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "park": {
+    "kind": "Sanctuary",
+    "stars": [
+     "Nilgai",
+     "Golden jackal",
+     "Birds"
+    ],
+    "safari": [
+     "Walking",
+     "Cycling"
+    ],
+    "gate": "Asola"
+   }
   },
   {
    "n": 24,

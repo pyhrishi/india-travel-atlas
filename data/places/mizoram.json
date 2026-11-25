@@ -391,7 +391,19 @@
     10,
     4
    ],
-   "time": "2 days"
+   "time": "2 days",
+   "park": {
+    "kind": "Tiger reserve",
+    "stars": [
+     "Clouded leopard",
+     "Hoolock gibbon",
+     "Hornbills"
+    ],
+    "safari": [
+     "Trekking"
+    ],
+    "gate": "Teirei"
+   }
   },
   {
    "n": 20,

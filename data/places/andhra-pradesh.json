@@ -3671,6 +3671,93 @@
     "diff": "Moderate",
     "base": "Ananthagiri"
    }
+  },
+  {
+   "n": 211,
+   "name": "Nagarjunsagar-Srisailam Tiger Reserve",
+   "district": "Nandyal",
+   "category": "Tiger reserve",
+   "g": "wildlife",
+   "lat": 16.0,
+   "lng": 78.9,
+   "why": "India's largest tiger reserve, across the Nallamala hills and the Krishna",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Full day",
+   "park": {
+    "kind": "Tiger reserve",
+    "est": 1983,
+    "stars": [
+     "Tiger",
+     "Leopard",
+     "Chenchu people"
+    ],
+    "safari": [
+     "Jeep (Nallamala jungle safari)"
+    ],
+    "gate": "Srisailam or Mannanur",
+    "note": "Largest tiger reserve in India by area"
+   }
+  },
+  {
+   "n": 212,
+   "name": "Papikonda National Park",
+   "district": "Alluri Sitharama Raju",
+   "category": "National park",
+   "g": "wildlife",
+   "lat": 17.45,
+   "lng": 81.5,
+   "why": "Godavari gorge through the Papikonda hills, seen on a river cruise",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Full day",
+   "park": {
+    "kind": "National park",
+    "est": 2008,
+    "stars": [
+     "Godavari gorge",
+     "Birds"
+    ],
+    "safari": [
+     "Boat"
+    ],
+    "gate": "Rajahmundry or Gandi Pochamma"
+   }
+  },
+  {
+   "n": 213,
+   "name": "Sri Venkateswara National Park",
+   "district": "Tirupati",
+   "category": "National park",
+   "g": "wildlife",
+   "lat": 13.7,
+   "lng": 79.3,
+   "why": "Seshachalam hills of red sanders forest and the Talakona falls",
+   "tier": "gem",
+   "months": [
+    9,
+    2
+   ],
+   "time": "Full day",
+   "park": {
+    "kind": "National park",
+    "est": 1989,
+    "stars": [
+     "Slender loris",
+     "Golden gecko",
+     "Red sanders"
+    ],
+    "safari": [
+     "Walking"
+    ],
+    "gate": "Talakona"
+   }
   }
  ],
  "festivals": [

@@ -459,7 +459,20 @@
     11,
     3
    ],
-   "time": "Overnight"
+   "time": "Overnight",
+   "park": {
+    "kind": "Sanctuary",
+    "stars": [
+     "Indian wild ass",
+     "Flamingos",
+     "Cranes"
+    ],
+    "safari": [
+     "Jeep"
+    ],
+    "gate": "Dasada or Bajana",
+    "closed": "Usually closes in the monsoon"
+   }
   },
   {
    "n": 18,
@@ -475,7 +488,28 @@
     12,
     4
    ],
-   "time": "Overnight"
+   "time": "Overnight",
+   "park": {
+    "kind": "National park",
+    "est": 1965,
+    "stars": [
+     "Asiatic lion",
+     "Leopard",
+     "Mugger"
+    ],
+    "safari": [
+     "Jeep (Gypsy)"
+    ],
+    "zones": [
+     "Gir jungle trail (6 routes)",
+     "Devalia safari park"
+    ],
+    "gate": "Sasan Gir",
+    "closed": "Jungle trail usually closes 16 Jun–15 Oct",
+    "book": "Gir lion safari booking",
+    "url": "https://girlion.gujarat.gov.in",
+    "note": "Last wild home of the Asiatic lion"
+   }
   },
   {
    "n": 19,
@@ -705,7 +739,21 @@
     11,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "park": {
+    "kind": "Marine park",
+    "est": 1982,
+    "stars": [
+     "Coral reef walks at low tide",
+     "Sea slugs",
+     "Octopus"
+    ],
+    "safari": [
+     "Reef walk with a guide"
+    ],
+    "gate": "Narara, near Jamnagar",
+    "note": "India's first marine national park"
+   }
   },
   {
    "n": 33,
@@ -897,7 +945,21 @@
     11,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "park": {
+    "kind": "National park",
+    "est": 1976,
+    "stars": [
+     "Blackbuck",
+     "Indian wolf",
+     "Harrier roost (one of the world's largest)"
+    ],
+    "safari": [
+     "Jeep"
+    ],
+    "gate": "Velavadar",
+    "closed": "Usually closes 16 Jun–15 Oct"
+   }
   },
   {
    "n": 45,

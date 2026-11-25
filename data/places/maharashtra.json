@@ -492,7 +492,22 @@
     10,
     3
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "park": {
+    "kind": "National park",
+    "stars": [
+     "Leopard",
+     "Kanheri caves",
+     "Butterflies"
+    ],
+    "safari": [
+     "Lion safari bus (when running)",
+     "Walking trails"
+    ],
+    "gate": "Borivali",
+    "book": "At the gate",
+    "note": "One of the few national parks inside a big city"
+   }
   },
   {
    "n": 22,
@@ -2375,7 +2390,33 @@
     10,
     6
    ],
-   "time": "2 days"
+   "time": "2 days",
+   "park": {
+    "kind": "Tiger reserve",
+    "est": 1955,
+    "stars": [
+     "Tiger",
+     "Leopard",
+     "Sloth bear",
+     "Dhole",
+     "Gaur"
+    ],
+    "safari": [
+     "Jeep",
+     "Canter"
+    ],
+    "zones": [
+     "Moharli",
+     "Kolara",
+     "Navegaon",
+     "Khutwanda",
+     "buffer zones"
+    ],
+    "gate": "Moharli",
+    "closed": "Core usually closes 1 Jul–30 Sep; buffer stays open",
+    "book": "My Tadoba booking site",
+    "url": "https://mytadoba.mahaforest.gov.in"
+   }
   },
   {
    "n": 132,
@@ -2407,7 +2448,22 @@
     10,
     3
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "park": {
+    "kind": "Tiger reserve",
+    "stars": [
+     "Tiger",
+     "Leopard",
+     "Dhole",
+     "Birds"
+    ],
+    "safari": [
+     "Jeep"
+    ],
+    "gate": "Nagzira",
+    "closed": "Usually closes in the monsoon",
+    "book": "Maharashtra Forest booking"
+   }
   },
   {
    "n": 134,
@@ -2423,7 +2479,26 @@
     10,
     6
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "park": {
+    "kind": "Tiger reserve",
+    "stars": [
+     "Tiger",
+     "Leopard",
+     "Dhole"
+    ],
+    "safari": [
+     "Jeep"
+    ],
+    "zones": [
+     "Sillari",
+     "Khursapar",
+     "Chorbahuli"
+    ],
+    "gate": "Sillari",
+    "closed": "Core usually closes in the monsoon",
+    "book": "Maharashtra Forest booking"
+   }
   },
   {
    "n": 135,
@@ -2567,7 +2642,28 @@
     10,
     6
    ],
-   "time": "2 days"
+   "time": "2 days",
+   "park": {
+    "kind": "Tiger reserve",
+    "stars": [
+     "Tiger",
+     "Leopard",
+     "Gaur",
+     "Sloth bear"
+    ],
+    "safari": [
+     "Jeep"
+    ],
+    "zones": [
+     "Semadoh",
+     "Kolkas",
+     "Shahanur"
+    ],
+    "gate": "Semadoh",
+    "closed": "Usually closes in the monsoon",
+    "book": "Maharashtra Forest booking",
+    "note": "One of Project Tiger's first nine reserves (1973)"
+   }
   },
   {
    "n": 144,
@@ -2631,7 +2727,22 @@
     10,
     3
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "park": {
+    "kind": "Tiger reserve",
+    "est": 2014,
+    "stars": [
+     "Tiger",
+     "Leopard",
+     "Sloth bear"
+    ],
+    "safari": [
+     "Jeep"
+    ],
+    "gate": "Bor Dharan",
+    "book": "Maharashtra Forest booking",
+    "note": "India's smallest tiger reserve when declared"
+   }
   },
   {
    "n": 148,

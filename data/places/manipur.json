@@ -313,7 +313,21 @@
     10,
     4
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "park": {
+    "kind": "National park",
+    "est": 1977,
+    "stars": [
+     "Sangai (brow-antlered deer)",
+     "Floating phumdis"
+    ],
+    "safari": [
+     "Boat",
+     "Watchtower"
+    ],
+    "gate": "Loktak lake",
+    "note": "World's only floating national park"
+   }
   },
   {
    "n": 17,

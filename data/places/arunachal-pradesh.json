@@ -594,7 +594,21 @@
     10,
     5
    ],
-   "time": "2–3 days"
+   "time": "2–3 days",
+   "park": {
+    "kind": "Sanctuary",
+    "stars": [
+     "Bugun liocichla",
+     "Ward's trogon",
+     "Red panda"
+    ],
+    "safari": [
+     "Birding walks on the road"
+    ],
+    "gate": "Lama Camp or Sessni",
+    "book": "Inner Line Permit",
+    "note": "Among Asia's top birding sites"
+   }
   },
   {
    "n": 27,
@@ -722,7 +736,21 @@
     10,
     4
    ],
-   "time": "Overnight"
+   "time": "Overnight",
+   "park": {
+    "kind": "Tiger reserve",
+    "stars": [
+     "Great hornbill",
+     "Wreathed hornbill",
+     "Elephant"
+    ],
+    "safari": [
+     "Walking",
+     "Jeep"
+    ],
+    "gate": "Seijosa",
+    "note": "Hornbill nest adoption programme run with the Nyishi community"
+   }
   },
   {
    "n": 35,
@@ -1718,6 +1746,23 @@
     "diff": "Moderate",
     "base": "Deban",
     "permit": "Inner Line Permit"
+   },
+   "park": {
+    "kind": "Tiger reserve",
+    "est": 1983,
+    "stars": [
+     "Four big cats",
+     "Hoolock gibbon",
+     "Namdapha flying squirrel",
+     "Hornbills"
+    ],
+    "safari": [
+     "Trekking",
+     "Camping"
+    ],
+    "gate": "Miao or Deban",
+    "book": "Inner Line Permit plus park permit at Miao",
+    "note": "Only park in the world with tiger, leopard, clouded leopard and snow leopard"
    }
   },
   {

@@ -601,6 +601,18 @@
     "el": 732,
     "base": "Lamiya Bay",
     "permit": "Forest permit"
+   },
+   "park": {
+    "kind": "National park",
+    "est": 1987,
+    "stars": [
+     "Andaman wood pigeon",
+     "Rainforest"
+    ],
+    "safari": [
+     "Trekking"
+    ],
+    "gate": "Lamiya Bay, Diglipur"
    }
   },
   {
@@ -762,6 +774,68 @@
     4
    ],
    "time": "Half day"
+  },
+  {
+   "n": 43,
+   "name": "Mahatma Gandhi Marine National Park",
+   "district": "South Andaman",
+   "category": "Marine park",
+   "g": "wildlife",
+   "lat": 11.55,
+   "lng": 92.6,
+   "why": "Coral reefs of Jolly Buoy and Red Skin islands off Wandoor",
+   "tier": "top",
+   "months": [
+    11,
+    4
+   ],
+   "time": "Full day",
+   "park": {
+    "kind": "Marine park",
+    "est": 1983,
+    "stars": [
+     "Coral reefs",
+     "Reef fish",
+     "Turtles"
+    ],
+    "safari": [
+     "Glass-bottom boat",
+     "Snorkelling"
+    ],
+    "gate": "Wandoor",
+    "closed": "Jolly Buoy usually opens Nov–May; Red Skin in the monsoon months",
+    "book": "Permit at Wandoor"
+   }
+  },
+  {
+   "n": 44,
+   "name": "Rani Jhansi Marine National Park",
+   "district": "South Andaman",
+   "category": "Marine park",
+   "g": "wildlife",
+   "lat": 12.05,
+   "lng": 93.0,
+   "why": "Marine park of Ritchie's Archipelago round Havelock and Neil",
+   "tier": "gem",
+   "months": [
+    11,
+    4
+   ],
+   "time": "Full day",
+   "park": {
+    "kind": "Marine park",
+    "est": 1996,
+    "stars": [
+     "Coral reefs",
+     "Mangroves",
+     "Dugong (rare)"
+    ],
+    "safari": [
+     "Snorkelling",
+     "Diving"
+    ],
+    "gate": "Swaraj Dweep (Havelock)"
+   }
   }
  ],
  "festivals": [

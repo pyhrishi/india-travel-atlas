@@ -1090,7 +1090,21 @@
     10,
     4
    ],
-   "time": "2–3 days"
+   "time": "2–3 days",
+   "park": {
+    "kind": "Tiger reserve",
+    "stars": [
+     "Tiger",
+     "Leopard",
+     "Gaur",
+     "Rhinos that stray in from Nepal's Chitwan"
+    ],
+    "safari": [
+     "Jeep"
+    ],
+    "gate": "Valmiki Nagar",
+    "closed": "Usually closes in the monsoon"
+   }
   },
   {
    "n": 57,

@@ -1343,7 +1343,24 @@
     11,
     6
    ],
-   "time": "2 days"
+   "time": "2 days",
+   "park": {
+    "kind": "Tiger reserve",
+    "est": 1977,
+    "stars": [
+     "Tiger",
+     "Swamp deer",
+     "One-horned rhino (reintroduced)",
+     "Bengal florican"
+    ],
+    "safari": [
+     "Jeep",
+     "Elephant"
+    ],
+    "gate": "Palia",
+    "closed": "Usually closes 15 Jun–15 Nov",
+    "book": "UP Eco-tourism booking"
+   }
   },
   {
    "n": 74,
@@ -1391,7 +1408,26 @@
     11,
     6
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "park": {
+    "kind": "Tiger reserve",
+    "est": 2014,
+    "stars": [
+     "Tiger",
+     "Swamp deer",
+     "Leopard"
+    ],
+    "safari": [
+     "Jeep"
+    ],
+    "zones": [
+     "Mustafabad",
+     "Chuka"
+    ],
+    "gate": "Pilibhit",
+    "closed": "Usually closes 15 Jun–15 Nov",
+    "book": "UP Eco-tourism booking"
+   }
   },
   {
    "n": 77,
@@ -1407,7 +1443,20 @@
     11,
     6
    ],
-   "time": "Overnight"
+   "time": "Overnight",
+   "park": {
+    "kind": "Sanctuary",
+    "stars": [
+     "Gharial",
+     "Gangetic dolphin",
+     "Tiger"
+    ],
+    "safari": [
+     "Jeep",
+     "Boat"
+    ],
+    "gate": "Bahraich"
+   }
   },
   {
    "n": 78,
@@ -2832,6 +2881,35 @@
     3
    ],
    "time": "1 hr"
+  },
+  {
+   "n": 167,
+   "name": "Ranipur Tiger Reserve",
+   "district": "Chitrakoot",
+   "category": "Tiger reserve",
+   "g": "wildlife",
+   "lat": 25.23,
+   "lng": 80.9,
+   "why": "UP's fourth tiger reserve, in the Vindhya scrub of Bundelkhand",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Half day",
+   "park": {
+    "kind": "Tiger reserve",
+    "est": 2022,
+    "stars": [
+     "Leopard",
+     "Sloth bear",
+     "Tiger (visiting)"
+    ],
+    "safari": [
+     "Jeep"
+    ],
+    "gate": "Manikpur"
+   }
   }
  ],
  "festivals": [

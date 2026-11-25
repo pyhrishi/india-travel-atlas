@@ -616,6 +616,10 @@ h3 small{font-weight:600;color:var(--soft);margin-left:6px;font-size:13px}
 .tkg{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.tkr{padding:9px 11px;border-radius:12px;background:var(--bg)}.tkr>span{display:block;font-size:12px;color:var(--soft)}.tkr b{font-size:15px}
 .tkd{color:var(--d)}.tkd::before{content:"";display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--d);margin-right:6px;vertical-align:1px}
 .tkp{display:flex;gap:8px;align-items:flex-start;margin:10px 0 0;font-size:14px}.tkp svg{width:18px;height:18px;flex:none;color:#b7791f;margin-top:1px}
+/* layer detail cards */
+.xdl{margin:0;display:grid;gap:6px}.xdl>div{display:grid;grid-template-columns:104px minmax(0,1fr);gap:10px;padding:7px 0;border-bottom:1px solid var(--line)}.xdl>div:last-child{border-bottom:0}
+.xdl dt{font-size:13px;color:var(--soft)}.xdl dd{margin:0;font-size:14.5px;font-weight:600;line-height:1.4}.xdl a{color:var(--pinkink)}
+.xnote{margin:10px 0 0;font-size:14px;padding:9px 12px;border-radius:12px;background:var(--bg)}
 </style>
 </head>
 <body>
@@ -1153,7 +1157,7 @@ function vPlace(k){const p=byId(k);if(!p){V.innerHTML=`<div class="pad">${crumbB
    ${warns.length?`<div class="warns">${warns.map(w=>`<span class="warn"><svg aria-hidden="true"><use href="#i-warn"/></svg>${esc(w)}</span>`).join("")}</div>`:""}
    <div class="facts"><div class="fact"><span>Best time</span><b class="${ok?"ok":""}">${monthsTxt(p)}</b>${mbar(p)}</div><div class="fact"><span>Time needed</span><b>${esc(p.time)}</b></div><div class="fact"><span>${esc(from[0])}</span><b>${esc(from[1])}</b></div></div><div class="facts sunf">${sunLine(p)}</div>
    ${aboutBlock()}${storyBlock(p)}
-   ${trekBlock(p)}${bygBlock()}${wxBlock(p)}${condBlock(p)}${crowdBlock(p)}${reachBlock(p)}${foodBlock()}${magBlock(p)}
+   ${trekBlock(p)}${xBlocks(p)}${bygBlock()}${wxBlock(p)}${condBlock(p)}${crowdBlock(p)}${reachBlock(p)}${foodBlock()}${magBlock(p)}
    <button class="where" id="where" aria-label="Show ${esc(p.name)} on the big map">${whereMap(p)}</button>
    ${fs.map(f=>`<p class="note" style="margin:0 0 10px"><b style="color:var(--ink)">${esc(f.name)}</b> · ${esc(f.when)}. ${esc(f.about)}</p>`).join("")}
    <div class="note" style="margin-top:0"><a href="${gm}" target="_blank" rel="noopener" style="color:var(--pinkink)">See photos and reviews on Google Maps ↗</a></div>
@@ -1538,7 +1542,7 @@ async function yearCard(){const yr=new Date().getFullYear(),all=allPlaces(),vis=
 /* ---------- data + boot ---------- */
 function fromIndex(slug,x){return{intro:x.intro,bases:x.bases,trails:x.trails,festivals:x.festivals,places:x.p.map(r=>({n:r[0],name:r[1],district:r[2],category:r[3],g:r[4],lat:r[5],lng:r[6],tier:r[7],months:[r[8],r[9]],time:r[10],tags:r[11]?r[11].split(" "):[],why:"",slug}))}}
 async function loadState(slug){if(S.data[slug])return S.data[slug];const d=await (await fetch("data/places/"+slug+".json")).json();d.places.forEach(p=>{p.slug=slug;p.tags=p.tags||[]});S.data[slug]=d;S.full[slug]=Promise.resolve(true);return d}
-function ensureFull(slug){if(S.full[slug])return S.full[slug];S.full[slug]=fetch("data/places/"+slug+".json").then(r=>{if(!r.ok)throw 0;return r.json()}).then(d=>{const m={};d.places.forEach(q=>m[q.n]=q);(S.data[slug]?.places||[]).forEach(p=>{const q=m[p.n];p.why=q?q.why:"";if(q&&q.trek)p.trek=q.trek;p._h=null});return true}).catch(e=>{delete S.full[slug];throw e});return S.full[slug]}
+function ensureFull(slug){if(S.full[slug])return S.full[slug];S.full[slug]=fetch("data/places/"+slug+".json").then(r=>{if(!r.ok)throw 0;return r.json()}).then(d=>{const m={};d.places.forEach(q=>m[q.n]=q);(S.data[slug]?.places||[]).forEach(p=>{const q=m[p.n];p.why=q?q.why:"";if(q)XF.forEach(f=>{if(q[f])p[f]=q[f]});p._h=null});return true}).catch(e=>{delete S.full[slug];throw e});return S.full[slug]}
 async function goIndia(){S.slug=null;S.sel=null;S.hl=null;S.trail=null;S.f={...S.f,dist:null};S.stack=[{v:"explore"}];S.tab="explore";setTabs("explore");clearQ();classStates();paint(true);drawPins();drawRoute();sizePins();drawHome();fitIndia()}
 async function openState(slug,focus){await loadState(slug);ensureFull(slug).catch(()=>{});S.slug=slug;S.sel=null;S.hl=null;S.trail=null;S.f={...S.f,dist:null};classStates();clearQ();
   S.tab="explore";S.stack=[{v:"explore"}];setTabs("explore");paint();drawPins();drawRoute();drawHome();if(focus)focusState()}
@@ -2952,6 +2956,33 @@ const HIMS=new Set(["uttarakhand","himachal-pradesh","jammu-and-kashmir","ladakh
  ["sahyadri","Sahyadri forts","Hill-fort climbs of the Western Ghats","#8d5524",p=>(p.slug==="maharashtra"||p.slug==="goa")&&(tg("trek")(p)||tg("fort")(p))&&p.g!=="coast"]
 ].forEach(c=>{if(!COLL.some(x=>x[0]===c[0]))COLL.push(c)});
 try{THEMES.push(["mtreks","Treks for this season","Trails and summits at their best this month",p=>tg("trek")(p)&&!tg("easy")(p),{season:1}],["easywalks","Easy hikes with big views","Short climbs anyone can do",tg("easy"),{season:1}])}catch(e){}
+
+/* ================= Detail cards for the new layers ================= */
+const XF=["trek","park","wet","bird","cave","sky","rail","drive","gi","art","eat"];
+const lst=a=>(a||[]).filter(Boolean).map(esc).join(" · ");
+const lnk=(u,t)=>u?`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(t||"Official site")} ↗</a>`:esc(t||"");
+/* each layer: card title, a kind badge, rows [label, html], and notes */
+const XCARD={
+ park:d=>({t:d.kind==="Marine park"?"In the water":(d.safari||[]).length&&(d.safari||[]).every(x=>/trek|walk/i.test(x))?"On foot":"On safari",k:d.kind,rows:[["You may see",lst(d.stars)],["Ways in",lst(d.safari)],["Zones",lst(d.zones)],["Main gate",esc(d.gate||"")],["Established",d.est?String(d.est):""],["Book",d.url?lnk(d.url,d.book):esc(d.book||"")]],warn:d.closed,note:d.note,foot:"Safari timings, zones and closures change every season. Check the official booking site before you go."}),
+ wet:d=>({t:"The water",k:d.kind,rows:[["Ramsar site",d.ramsar?"Since "+d.ramsar:""],["Height",d.el?d.el.toLocaleString("en-IN")+" m":""],["Area",d.area?d.area+" km²":""],["Look for",lst(d.stars)],["Best",esc(d.best||"")],["Get around",lst(d.how)]],warn:d.warn,note:d.note}),
+ bird:d=>({t:"Birding",k:"Birding hotspot",rows:[["Look for",lst(d.stars)],["Season",esc(d.season||"")],["How",lst(d.how)],["Start",esc(d.start||"")]],warn:d.warn,note:d.note,foot:"Early morning is best. Go with a local guide if you can."}),
+ cave:d=>({t:"The cave",k:d.kind,rows:[["Length",d.len?esc(d.len):""],["Inside",lst(d.stars)],["Guide",d.guide?"Recommended or required":""],["Time inside",esc(d.time||"")]],warn:d.warn,note:d.note,foot:d.kind&&/limestone/i.test(d.kind)?"Wear shoes with grip and carry a torch. Don't enter wild caves in heavy rain.":""}),
+ sky:d=>({t:"Under the stars",k:"Dark sky",rows:[["Darkness",d.bortle?`Bortle ${d.bortle} (1 is darkest)`:""],["Height",d.el?d.el.toLocaleString("en-IN")+" m":""],["Best",esc(d.best||"")],["See",lst(d.stars)]],warn:d.warn,note:d.note,foot:"Go near the new moon and let your eyes adjust for 20 minutes away from lights."}),
+ rail:d=>({t:"The journey",k:d.kind||"Rail journey",rows:[["Route",`${esc(d.from)} → ${esc(d.to)}`],["Distance",d.km?d.km.toLocaleString("en-IN")+" km":""],["Time",esc(d.hours||"")],["Train",esc(d.train||"")],["Track",esc(d.gauge||"")],["Highlights",lst(d.hi)],["Book",esc(d.book||"IRCTC")]],warn:d.warn,note:d.note,foot:"Timetables change; check the current schedule on IRCTC or NTES."}),
+ drive:d=>({t:"The drive",k:"Great drive",rows:[["Route",`${esc(d.from)} → ${esc(d.to)}`],["Distance",d.km?"About "+d.km.toLocaleString("en-IN")+" km":""],["Take",esc(d.days||"")],["Road",esc(d.road||"")],["Best",esc(d.best||"")],["Highlights",lst(d.hi)]],warn:d.warn,note:d.note,foot:"Mountain roads close for snow and landslides. Check road status before setting out."}),
+ gi:d=>({t:"The craft",k:"GI tag",rows:[["Craft",esc(d.craft||"")],["GI registered",d.year?String(d.year):""],["Made in",esc(d.made||"")],["See it made",esc(d.see||"")],["Buy",esc(d.buy||"")]],note:d.note,foot:"Look for the GI logo or buy from the weavers' or makers' own societies."}),
+ art:d=>({t:"See it performed",k:d.kind||"Living tradition",rows:[["Where",esc(d.where||"")],["When",esc(d.when||"")],["Lasts",esc(d.length||"")],["What you'll see",esc(d.what||"")]],note:d.note}),
+ eat:d=>({t:"What to eat",k:d.kind||"Eatery",rows:[["Since",d.since?String(d.since):""],["Known for",lst(d.dishes)],["Food",d.veg===true?"Vegetarian":d.veg===false?"Non-vegetarian too":""],["Go",esc(d.when||"")]],note:d.note,foot:"Hours and prices change; old favourites sometimes move. Check before you go."}),
+};
+function xBlocks(p){return XF.filter(f=>f!=="trek"&&p[f]&&XCARD[f]).map(f=>{const c=XCARD[f](p[f]),rows=c.rows.filter(r=>r[1]);
+  return`<div class="pcard xcd"><div class="tkh"><h3 style="margin:0">${esc(c.t)}</h3>${c.k?`<span class="tkk">${esc(c.k)}</span>`:""}</div>
+   <dl class="xdl">${rows.map(([l,v])=>`<div><dt>${esc(l)}</dt><dd>${v}</dd></div>`).join("")}</dl>
+   ${c.warn?`<p class="tkp"><svg aria-hidden="true"><use href="#i-warn"/></svg><span>${esc(c.warn)}</span></p>`:""}
+   ${c.note?`<p class="xnote">${esc(c.note)}</p>`:""}${c.foot?`<p class="note" style="margin:6px 0 0">${esc(c.foot)}</p>`:""}</div>`}).join("")}
+[["tigerres","Tiger reserves","Where wild tigers live, with safari zones and gates","#b45309",tg("tigerres")],
+ ["safari","Safari parks","National parks and reserves with jeep, boat or walking safaris","#5b7a2e",tg("safari")],
+ ["marine","Marine parks","Coral reefs, mangroves and sea life","#0e7490",tg("marine")],
+].forEach(c=>{if(!COLL.some(x=>x[0]===c[0]))COLL.push(c)});
 
 function route(silent,h0){const h=h0!=null?h0:location.hash.slice(1);const m=h.match(/^(.*)-(\d+)$/);
   if(m&&S.data[m[1]]){const p=S.data[m[1]].places.find(x=>x.n==m[2]);if(p){S.slug=m[1];classStates();S.stack=[{v:"explore"}];openPlace(p,!silent);return}}

@@ -1118,7 +1118,23 @@
     4,
     11
    ],
-   "time": "2–3 days"
+   "time": "2–3 days",
+   "park": {
+    "kind": "National park",
+    "est": 1984,
+    "stars": [
+     "Western tragopan",
+     "Himalayan tahr",
+     "Musk deer",
+     "Snow leopard (high up)"
+    ],
+    "safari": [
+     "Trekking only"
+    ],
+    "gate": "Sairopa, Tirthan valley",
+    "book": "Permit at the park office in Sairopa",
+    "note": "UNESCO World Heritage Site; no roads, only trails"
+   }
   },
   {
    "n": 55,
@@ -2332,7 +2348,19 @@
     6,
     9
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "park": {
+    "kind": "National park",
+    "est": 1987,
+    "stars": [
+     "Siberian ibex",
+     "Snow leopard"
+    ],
+    "safari": [
+     "Trekking"
+    ],
+    "gate": "Mudh"
+   }
   },
   {
    "n": 126,

@@ -524,7 +524,25 @@
     10,
     6
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "park": {
+    "kind": "Tiger reserve",
+    "stars": [
+     "Tiger (reintroduced 2008)",
+     "Leopard",
+     "Sambar",
+     "Kankwari fort"
+    ],
+    "safari": [
+     "Jeep",
+     "Canter"
+    ],
+    "gate": "Sariska",
+    "closed": "Core usually closes 1 Jul–30 Sep",
+    "book": "Rajasthan Forest (FMDSS) booking",
+    "url": "https://fmdss.forest.rajasthan.gov.in",
+    "note": "The first reserve to have tigers relocated into it after losing them"
+   }
   },
   {
    "n": 24,
@@ -636,7 +654,29 @@
     10,
     6
    ],
-   "time": "2 days"
+   "time": "2 days",
+   "park": {
+    "kind": "Tiger reserve",
+    "est": 1980,
+    "stars": [
+     "Tiger",
+     "Leopard",
+     "Sloth bear",
+     "Mugger in the palace lakes"
+    ],
+    "safari": [
+     "Jeep (6 seats)",
+     "Canter (20 seats)"
+    ],
+    "zones": [
+     "Zones 1–10"
+    ],
+    "gate": "Sawai Madhopur",
+    "closed": "Zones 1–5 usually close 1 Jul–30 Sep",
+    "book": "Rajasthan Forest (FMDSS) booking",
+    "url": "https://fmdss.forest.rajasthan.gov.in",
+    "note": "One of Project Tiger's first nine reserves (1973)"
+   }
   },
   {
    "n": 31,
@@ -684,7 +724,25 @@
     10,
     3
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "park": {
+    "kind": "National park",
+    "est": 1982,
+    "stars": [
+     "Painted stork",
+     "Sarus crane",
+     "Pelicans",
+     "Winter migrants"
+    ],
+    "safari": [
+     "Cycle rickshaw",
+     "Bicycle",
+     "Walking"
+    ],
+    "gate": "Bharatpur",
+    "book": "At the gate",
+    "note": "UNESCO World Heritage Site; Siberian cranes once wintered here"
+   }
   },
   {
    "n": 34,
@@ -1100,7 +1158,21 @@
     10,
     3
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "park": {
+    "kind": "National park",
+    "est": 1980,
+    "stars": [
+     "Great Indian bustard",
+     "Chinkara",
+     "Desert fox",
+     "Fossil park"
+    ],
+    "safari": [
+     "Jeep"
+    ],
+    "gate": "Sudasari, near Jaisalmer"
+   }
   },
   {
    "n": 60,
@@ -2136,7 +2208,19 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "park": {
+    "kind": "Tiger reserve",
+    "est": 2022,
+    "stars": [
+     "Tiger",
+     "Leopard"
+    ],
+    "safari": [
+     "Jeep"
+    ],
+    "gate": "Bundi"
+   }
   },
   {
    "n": 124,
@@ -2216,7 +2300,20 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "park": {
+    "kind": "Tiger reserve",
+    "est": 2013,
+    "stars": [
+     "Leopard",
+     "Sloth bear",
+     "Chambal gorges"
+    ],
+    "safari": [
+     "Jeep"
+    ],
+    "gate": "Kota"
+   }
   },
   {
    "n": 129,
@@ -3521,6 +3618,35 @@
     "diff": "Moderate",
     "base": "Kumbhalgarh",
     "permit": "Forest permit"
+   }
+  },
+  {
+   "n": 209,
+   "name": "Dholpur-Karauli Tiger Reserve",
+   "district": "Dholpur",
+   "category": "Tiger reserve",
+   "g": "wildlife",
+   "lat": 26.5,
+   "lng": 77.6,
+   "why": "Rajasthan's newest tiger reserve along the Chambal ravines",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Half day",
+   "park": {
+    "kind": "Tiger reserve",
+    "est": 2023,
+    "stars": [
+     "Tiger",
+     "Leopard",
+     "Chambal ravines"
+    ],
+    "safari": [
+     "Jeep"
+    ],
+    "gate": "Dholpur"
    }
   }
  ],
