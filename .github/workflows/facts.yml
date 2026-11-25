@@ -32,6 +32,10 @@ jobs:
       max-parallel: 5
       matrix:
         state:
+          - bn-brunei-muara
+          - bn-temburong
+          - bn-tutong
+          - bn-belait
           - andhra-pradesh
           - arunachal-pradesh
           - assam
