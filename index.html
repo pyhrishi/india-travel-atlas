@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<script>var ACC={rani:["Rani pink","#e5246b","#c4145a","#ff5c93","#fde4ee","#3a1426","#c81a59"],kesari:["Kesari saffron","#e8730c","#a84e06","#ffa456","#fdebd9","#3a2410","#a84e06"],mor:["Peacock blue","#0b84a5","#076580","#52c6e8","#dcf0f6","#0f2b35","#076580"],neel:["Neel indigo","#3d4fd6","#2e3cb0","#919dff","#e4e7fb","#1c2140","#2e3cb0"],mehendi:["Mehendi green","#3f8a2e","#2c6a1f","#86d470","#e3f1de","#16290f","#2c6a1f"],sindoor:["Sindoor red","#d6312b","#ad221d","#ff7d76","#fbe3e2","#3a1615","#ad221d"],jamun:["Jamun purple","#7b3aa6","#652f89","#c792ee","#efe4f6","#2a1838","#652f89"],matti:["Terracotta","#c4552b","#9e3f1c","#ff9a6b","#f8e6de","#36190f","#9e3f1c"]};
-function applyAcc(k){var a=ACC[k]||ACC.rani,r=document.documentElement.style;r.setProperty("--pink",a[1]);r.setProperty("--pinkink","light-dark("+a[2]+","+a[3]+")");r.setProperty("--pinksoft","light-dark("+a[4]+","+a[5]+")");r.setProperty("--pinkon",a[6]);var m=document.querySelector('meta[name="theme-color"]');if(m)m.setAttribute("content",a[1])}
+<script>var ACC={rani:["Rani pink","#e5246b","#c4145a","#ff5c93","#fde4ee","#3a1426","#c81a59"],kesari:["Kesari saffron","#e8730c","#a84e06","#ffa456","#fdebd9","#3a2410","#a84e06"],mor:["Peacock blue","#0b84a5","#076580","#52c6e8","#dcf0f6","#0f2b35","#076580"],neel:["Neel indigo","#3d4fd6","#2e3cb0","#919dff","#e4e7fb","#1c2140","#2e3cb0"],mehendi:["Mehendi green","#3f8a2e","#2c6a1f","#86d470","#e3f1de","#16290f","#2c6a1f"],sindoor:["Sindoor red","#d6312b","#ad221d","#ff7d76","#fbe3e2","#3a1615","#ad221d"],jamun:["Jamun purple","#7b3aa6","#652f89","#c792ee","#efe4f6","#2a1838","#652f89"],matti:["Terracotta","#c4552b","#9e3f1c","#ff9a6b","#f8e6de","#36190f","#9e3f1c"],slate:["Slate grey","#5f6b7a","#4a5563","#b4bfcc","#e9ecf0","#262c36","#4a5563","#76828f"],kohl:["Kohl black","#1d2026","#16181d","#e8eaee","#e7e9ed","#2b313b","#000000","#5c6573"]};
+function applyAcc(k){var a=ACC[k]||ACC.rani,r=document.documentElement.style;r.setProperty("--pink",a[7]?"light-dark("+a[1]+","+a[7]+")":a[1]);r.setProperty("--pinkink","light-dark("+a[2]+","+a[3]+")");r.setProperty("--pinksoft","light-dark("+a[4]+","+a[5]+")");r.setProperty("--pinkon",a[6]);var m=document.querySelector('meta[name="theme-color"]');if(m)m.setAttribute("content",a[1])}
 try{applyAcc(localStorage.getItem("ita-acc")||"rani")}catch(e){applyAcc("rani")}
 try{var t=localStorage.getItem("ita-theme");if(t==="light"||t==="dark")document.documentElement.dataset.theme=t}catch(e){}</script>
 <meta charset="utf-8"><link rel="preload" href="data/index.json" as="fetch" crossorigin>
@@ -546,7 +546,7 @@ h3 small{font-weight:600;color:var(--soft);margin-left:6px;font-size:13px}
 .accs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin:4px 0 14px}
 .acc{display:flex;flex-direction:column;align-items:center;gap:6px;padding:10px 2px 8px;border-radius:14px;border:1px solid var(--line);background:var(--bg);font:inherit;font-size:11.5px;font-weight:700;color:var(--ink);line-height:1.15;text-align:center;min-height:76px}
 .acc i{width:30px;height:30px;border-radius:50%;background:var(--a);box-shadow:inset 0 0 0 2px color-mix(in srgb,#fff 25%,transparent)}
-.acc[aria-checked=true]{border-color:var(--a);box-shadow:0 0 0 2px var(--a)}.acc[aria-checked=true] i{box-shadow:inset 0 0 0 3px var(--bg),0 0 0 2px var(--a)}
+.acc i{outline:1px solid color-mix(in srgb,var(--ink) 22%,transparent);outline-offset:0}.acc[aria-checked=true]{border-color:var(--pink);box-shadow:0 0 0 2px var(--pink)}.acc[aria-checked=true] i{box-shadow:inset 0 0 0 3px var(--bg),0 0 0 2px var(--pink)}
 </style>
 </head>
 <body>
@@ -1219,7 +1219,7 @@ const CITIES=[["Bengaluru",12.9716,77.5946],["Mumbai",19.076,72.8777],["Delhi",2
 const CAP={sample:null,tts:null,assets:null,downloads:null};
 S.ans={};S.story={};S.rad=300;S.month=NOWM;S.season=null;S.sub=null;S.shared=null;S.ctl=null;S.planBusy=false;
 const accNow=()=>{try{const k=localStorage.getItem("ita-acc");return ACC[k]?k:"rani"}catch(e){return"rani"}};
-const accHex=()=>(ACC[accNow()]||ACC.rani)[1];
+const accHex=()=>{const a=ACC[accNow()]||ACC.rani;return a[7]||a[1]};/* cards are drawn on a dark background, so black/grey use their lighter shade */
 const accTint=f=>{const h=accHex(),n=[1,3,5].map(i=>parseInt(h.slice(i,i+2),16)),m=n.map(v=>Math.round(v+(255-v)*f));return"#"+m.map(v=>v.toString(16).padStart(2,"0")).join("")};
 function setAcc(k){try{k==="rani"?localStorage.removeItem("ita-acc"):localStorage.setItem("ita-acc",k)}catch(e){}applyAcc(k);if(S.feats){_MK.clear&&0;const el=$("#lgM");if(el)el._sig=""}hdr();say(ACC[k][0])}
 const themeNow=()=>{try{return localStorage.getItem("ita-theme")||"auto"}catch(e){return"auto"}};
