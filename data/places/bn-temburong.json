@@ -1,0 +1,211 @@
+{
+ "name": "Temburong",
+ "intro": "Brunei’s eastern enclave is its rainforest heartland: protected lowland forest, river journeys, canopy views, community-based eco-tourism and forest trails.",
+ "bases": [
+  [
+   "Bangar",
+   4.708,
+   115.073
+  ],
+  [
+   "Batang Duri",
+   4.58,
+   115.16
+  ],
+  [
+   "Ulu Temburong",
+   4.55,
+   115.2
+  ]
+ ],
+ "trails": [],
+ "places": [
+  {
+   "n": 1,
+   "name": "Ulu Temburong National Park",
+   "district": "Batang Duri",
+   "category": "National park",
+   "g": "nature",
+   "lat": 4.55,
+   "lng": 115.2,
+   "why": "Protected rainforest landscape reached on guided river and land transfers, with canopy and forest experiences",
+   "tier": "icon",
+   "months": [
+    2,
+    4
+   ],
+   "time": "Full day",
+   "tags": []
+  },
+  {
+   "n": 2,
+   "name": "Canopy Walkway, Ulu Temburong",
+   "district": "Ulu Temburong",
+   "category": "Canopy walkway",
+   "g": "adventure",
+   "lat": 4.55,
+   "lng": 115.2,
+   "why": "Elevated canopy experience offering views across the rainforest; visited as part of an authorised park excursion",
+   "tier": "icon",
+   "months": [
+    2,
+    4
+   ],
+   "time": "1–2 hrs",
+   "tags": []
+  },
+  {
+   "n": 3,
+   "name": "Sumbiling Eco Village",
+   "district": "Batang Duri",
+   "category": "Eco village",
+   "g": "culture",
+   "lat": 4.579,
+   "lng": 115.159,
+   "why": "Community-based eco-tourism base for river, rainforest and cultural activities",
+   "tier": "top",
+   "months": [
+    2,
+    4
+   ],
+   "time": "Half day–overnight",
+   "tags": []
+  },
+  {
+   "n": 4,
+   "name": "Batang Duri",
+   "district": "Batang Duri",
+   "category": "River village",
+   "g": "nature",
+   "lat": 4.579,
+   "lng": 115.158,
+   "why": "Riverside gateway village for journeys into the Temburong rainforest",
+   "tier": "top",
+   "months": [
+    2,
+    4
+   ],
+   "time": "1–2 hrs",
+   "tags": []
+  },
+  {
+   "n": 5,
+   "name": "Bukit Patoi Forest Recreation Park",
+   "district": "Patoi",
+   "category": "Forest park",
+   "g": "nature",
+   "lat": 4.72,
+   "lng": 115.13,
+   "why": "Forest reserve with a hiking route to a hilltop viewpoint over the surrounding landscape",
+   "tier": "top",
+   "months": [
+    2,
+    4
+   ],
+   "time": "Half day",
+   "tags": []
+  },
+  {
+   "n": 6,
+   "name": "Peradayan Forest Recreation Park",
+   "district": "Peradayan",
+   "category": "Forest park",
+   "g": "nature",
+   "lat": 4.67,
+   "lng": 115.17,
+   "why": "Forest recreation area with trails and viewpoints in the Temburong interior",
+   "tier": "gem",
+   "months": [
+    2,
+    4
+   ],
+   "time": "Half day",
+   "tags": []
+  },
+  {
+   "n": 7,
+   "name": "Bangar Town",
+   "district": "Bangar",
+   "category": "Town",
+   "g": "culture",
+   "lat": 4.708,
+   "lng": 115.073,
+   "why": "Small district town and practical base for exploring Temburong",
+   "tier": "top",
+   "months": [
+    2,
+    4
+   ],
+   "time": "1–2 hrs",
+   "tags": []
+  },
+  {
+   "n": 8,
+   "name": "Peliunan Park",
+   "district": "Temburong",
+   "category": "Recreation park",
+   "g": "nature",
+   "lat": 4.66,
+   "lng": 115.12,
+   "why": "Local recreation stop in Temburong; confirm access and facilities before travelling",
+   "tier": "gem",
+   "months": [
+    2,
+    4
+   ],
+   "time": "1 hr",
+   "tags": []
+  },
+  {
+   "n": 9,
+   "name": "Sultan Haji Omar 'Ali Saifuddien Bridge",
+   "district": "Brunei Bay",
+   "category": "Bridge",
+   "g": "engineering",
+   "lat": 4.85,
+   "lng": 115.04,
+   "why": "Major bridge linking the Brunei-Muara mainland with the Temburong district across Brunei Bay",
+   "tier": "top",
+   "months": [
+    2,
+    4
+   ],
+   "time": "Photo stop",
+   "tags": []
+  },
+  {
+   "n": 10,
+   "name": "Belalong River",
+   "district": "Ulu Temburong",
+   "category": "River",
+   "g": "nature",
+   "lat": 4.56,
+   "lng": 115.19,
+   "why": "Rainforest river corridor used for guided boat journeys and nature experiences",
+   "tier": "top",
+   "months": [
+    2,
+    4
+   ],
+   "time": "Half day",
+   "tags": []
+  },
+  {
+   "n": 11,
+   "name": "Kuala Belalong Field Studies Centre",
+   "district": "Kuala Belalong",
+   "category": "Research station",
+   "g": "nature",
+   "lat": 4.55,
+   "lng": 115.2,
+   "why": "Rainforest research facility associated with long-running tropical ecology studies; access is controlled and requires prior arrangements",
+   "tier": "gem",
+   "months": [
+    2,
+    4
+   ],
+   "time": "By arrangement",
+   "tags": []
+  }
+ ]
+}

@@ -592,5 +592,61 @@
     4
    ]
   ]
+ },
+ {
+  "name": "Brunei-Muara",
+  "slug": "bn-brunei-muara",
+  "type": "District",
+  "cc": "bn",
+  "status": "done",
+  "count": 18,
+  "best": [
+   [
+    2,
+    4
+   ]
+  ]
+ },
+ {
+  "name": "Temburong",
+  "slug": "bn-temburong",
+  "type": "District",
+  "cc": "bn",
+  "status": "done",
+  "count": 11,
+  "best": [
+   [
+    2,
+    4
+   ]
+  ]
+ },
+ {
+  "name": "Tutong",
+  "slug": "bn-tutong",
+  "type": "District",
+  "cc": "bn",
+  "status": "done",
+  "count": 9,
+  "best": [
+   [
+    2,
+    4
+   ]
+  ]
+ },
+ {
+  "name": "Belait",
+  "slug": "bn-belait",
+  "type": "District",
+  "cc": "bn",
+  "status": "done",
+  "count": 13,
+  "best": [
+   [
+    2,
+    4
+   ]
+  ]
  }
 ]
