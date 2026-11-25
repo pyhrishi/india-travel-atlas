@@ -844,7 +844,7 @@ function paintPics(keys){const sel=keys?keys.map(k=>`.pic[data-pk="${CSS.escape(
 /* photos found ahead of time by a GitHub job (data/photos.json); the on-device lookup fills any gaps */
 let phBundle=null;
 let phGo;const phGate=new Promise(r=>{phGo=r;setTimeout(r,4000)});const phReady=phGate.then(()=>fetch("data/photos.json",{cache:"no-cache"})).then(r=>r.ok?r.json():null).then(j=>{if(j&&j.p){phBundle=j;
-    if(j.v===2){for(const k in j.p){const t=j.p[k],o=PH[k]&&PH[k].t?PH[k]:{};PH[k]=Object.assign(o,{t:/^https?:/.test(t)?t:j.base+t})}for(const k of j.miss||[])if(!(k in PH))PH[k]=-1}
+    if(j.v===2){for(const k in j.p){const t=j.p[k],o=PH[k]&&PH[k].t?PH[k]:{};PH[k]=Object.assign(o,{t:/^https?:/.test(t)?t:j.base+t})}for(const k of j.miss||[])PH[k]=-1}
     else{for(const k in j.p)PH[k]=j.p[k];for(const k in j.miss||{})if(!(k in PH))PH[k]=-1}paintPics()}else phBundle={}}).catch(()=>{phBundle={}});
 let phCred=null;function loadCredits(){if(!phCred)phCred=fetch("data/photo-credits.json").then(r=>r.ok?r.json():{}).then(c=>{for(const k in c)if(PH[k]&&PH[k].t)Object.assign(PH[k],c[k])}).catch(()=>{});return phCred}
 let photoViewer=null,photoViewerReturn=null,photoViewerOverflow="";
