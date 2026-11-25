@@ -3,7 +3,7 @@
 The older photo job matched loosely (any article within 50 km), so a few cards showed the wrong place.
 A verified article's lead image is retained only after Commons confirms the file, raster dimensions and free-use licence.
 Author and licence metadata are stored with every published image."""
-import json, os, glob, re, urllib.parse, urllib.request, html
+import json, os, glob, re, urllib.parse, urllib.request, html, time
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 OUT = os.path.join(ROOT, 'data', 'photos.json'); CRED = os.path.join(ROOT, 'data', 'photo-credits.json')
 ph = json.load(open(OUT)); base = ph['base']
@@ -26,8 +26,15 @@ def commons_info(files):
         })
         req = urllib.request.Request('https://commons.wikimedia.org/w/api.php?' + params,
                                      headers={'User-Agent': UA})
-        with urllib.request.urlopen(req, timeout=45) as response:
-            data = json.load(response)
+        data = None
+        for attempt in range(4):
+            try:
+                with urllib.request.urlopen(req, timeout=45) as response:
+                    data = json.load(response)
+                break
+            except Exception:
+                if attempt == 3: raise
+                time.sleep(2 * (attempt + 1))
         for page in (data.get('query') or {}).get('pages', {}).values():
             info = (page.get('imageinfo') or [{}])[0]
             ext = info.get('extmetadata') or {}
