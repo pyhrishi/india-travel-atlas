@@ -1,0 +1,330 @@
+{
+ "name": "Brunei-Muara",
+ "intro": "Brunei’s capital district brings together Bandar Seri Begawan’s royal and religious landmarks, Kampong Ayer’s historic water village, museums, mangroves and accessible coastal and forest parks.",
+ "bases": [
+  [
+   "Bandar Seri Begawan",
+   4.9031,
+   114.9398
+  ],
+  [
+   "Jerudong",
+   4.953,
+   114.843
+  ],
+  [
+   "Muara",
+   5.033,
+   115.07
+  ]
+ ],
+ "trails": [],
+ "places": [
+  {
+   "n": 1,
+   "name": "Omar Ali Saifuddien Mosque",
+   "district": "Bandar Seri Begawan",
+   "category": "Mosque",
+   "g": "heritage",
+   "lat": 4.8896,
+   "lng": 114.9401,
+   "why": "A landmark royal mosque beside the historic centre, known for its golden dome and lagoon setting",
+   "tier": "icon",
+   "months": [
+    2,
+    4
+   ],
+   "time": "2–3 hrs",
+   "tags": []
+  },
+  {
+   "n": 2,
+   "name": "Kampong Ayer",
+   "district": "Bandar Seri Begawan",
+   "category": "Water village",
+   "g": "culture",
+   "lat": 4.885,
+   "lng": 114.948,
+   "why": "A historic settlement of stilt houses and linked villages along the Brunei River",
+   "tier": "icon",
+   "months": [
+    2,
+    4
+   ],
+   "time": "2–3 hrs",
+   "tags": []
+  },
+  {
+   "n": 3,
+   "name": "Royal Regalia Museum",
+   "district": "Bandar Seri Begawan",
+   "category": "Museum",
+   "g": "heritage",
+   "lat": 4.8915,
+   "lng": 114.9417,
+   "why": "Museum displaying royal regalia, ceremonial objects and gifts associated with the Brunei monarchy",
+   "tier": "top",
+   "months": [
+    2,
+    4
+   ],
+   "time": "1–2 hrs",
+   "tags": []
+  },
+  {
+   "n": 4,
+   "name": "Jame' Asr Hassanil Bolkiah Mosque",
+   "district": "Kiarong",
+   "category": "Mosque",
+   "g": "heritage",
+   "lat": 4.9218,
+   "lng": 114.9295,
+   "why": "Large contemporary mosque with multiple domes and minarets in the Kiarong area",
+   "tier": "top",
+   "months": [
+    2,
+    4
+   ],
+   "time": "1 hr",
+   "tags": []
+  },
+  {
+   "n": 5,
+   "name": "Kampong Ayer Cultural and Tourism Gallery",
+   "district": "Kampong Ayer",
+   "category": "Museum",
+   "g": "culture",
+   "lat": 4.8842,
+   "lng": 114.9466,
+   "why": "Gallery introducing the history, architecture and daily life of Kampong Ayer",
+   "tier": "top",
+   "months": [
+    2,
+    4
+   ],
+   "time": "45–90 min",
+   "tags": []
+  },
+  {
+   "n": 6,
+   "name": "Brunei Arts and Handicraft Training Centre",
+   "district": "Bandar Seri Begawan",
+   "category": "Craft centre",
+   "g": "culture",
+   "lat": 4.8824,
+   "lng": 114.9475,
+   "why": "Centre showcasing traditional Bruneian crafts including weaving, silverwork and brasswork",
+   "tier": "gem",
+   "months": [
+    2,
+    4
+   ],
+   "time": "1 hr",
+   "tags": []
+  },
+  {
+   "n": 7,
+   "name": "Tasek Lama Recreational Park",
+   "district": "Bandar Seri Begawan",
+   "category": "Forest park",
+   "g": "nature",
+   "lat": 4.9018,
+   "lng": 114.9465,
+   "why": "Urban forest park with shaded trails, streams and a waterfall close to the capital",
+   "tier": "top",
+   "months": [
+    2,
+    4
+   ],
+   "time": "1–2 hrs",
+   "tags": []
+  },
+  {
+   "n": 8,
+   "name": "Bukit Shahbandar Recreational Park",
+   "district": "Jerudong",
+   "category": "Forest park",
+   "g": "nature",
+   "lat": 4.949,
+   "lng": 114.839,
+   "why": "Hilly forest recreation area with a network of walking and jogging trails",
+   "tier": "top",
+   "months": [
+    2,
+    4
+   ],
+   "time": "2–3 hrs",
+   "tags": []
+  },
+  {
+   "n": 9,
+   "name": "Berakas Forest Recreation Park",
+   "district": "Berakas",
+   "category": "Forest park",
+   "g": "nature",
+   "lat": 4.994,
+   "lng": 114.96,
+   "why": "Coastal forest recreation area with picnic facilities and trails",
+   "tier": "gem",
+   "months": [
+    2,
+    4
+   ],
+   "time": "1–2 hrs",
+   "tags": []
+  },
+  {
+   "n": 10,
+   "name": "Jerudong Park",
+   "district": "Jerudong",
+   "category": "Theme park",
+   "g": "family",
+   "lat": 4.959,
+   "lng": 114.841,
+   "why": "Amusement park and family entertainment complex in Jerudong",
+   "tier": "top",
+   "months": [
+    2,
+    4
+   ],
+   "time": "2–4 hrs",
+   "tags": []
+  },
+  {
+   "n": 11,
+   "name": "Muara Beach",
+   "district": "Muara",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 5.033,
+   "lng": 115.071,
+   "why": "Popular public beach on Brunei’s northern coast",
+   "tier": "top",
+   "months": [
+    2,
+    9
+   ],
+   "time": "1–2 hrs",
+   "tags": []
+  },
+  {
+   "n": 12,
+   "name": "Pulau Selirong Mangrove Forest",
+   "district": "Brunei Bay",
+   "category": "Mangrove reserve",
+   "g": "nature",
+   "lat": 5.02,
+   "lng": 115.16,
+   "why": "Mangrove island reserve in Brunei Bay; access is by boat and should be arranged with a local operator",
+   "tier": "gem",
+   "months": [
+    2,
+    4
+   ],
+   "time": "Half day",
+   "tags": []
+  },
+  {
+   "n": 13,
+   "name": "Serasa Beach",
+   "district": "Serasa",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 5.015,
+   "lng": 115.065,
+   "why": "Waterfront recreation area near the Serasa ferry terminal",
+   "tier": "gem",
+   "months": [
+    2,
+    9
+   ],
+   "time": "1–2 hrs",
+   "tags": []
+  },
+  {
+   "n": 14,
+   "name": "Brunei Waterfront",
+   "district": "Bandar Seri Begawan",
+   "category": "Riverside",
+   "g": "culture",
+   "lat": 4.8882,
+   "lng": 114.942,
+   "why": "Riverside promenade with views across the Brunei River and Kampong Ayer",
+   "tier": "top",
+   "months": [
+    2,
+    4
+   ],
+   "time": "45–90 min",
+   "tags": []
+  },
+  {
+   "n": 15,
+   "name": "Gadong Night Market",
+   "district": "Gadong",
+   "category": "Market",
+   "g": "food",
+   "lat": 4.9158,
+   "lng": 114.914,
+   "why": "Evening food market with local dishes, snacks and fresh produce",
+   "tier": "top",
+   "months": [
+    2,
+    4
+   ],
+   "time": "1–2 hrs",
+   "tags": []
+  },
+  {
+   "n": 16,
+   "name": "Malay Technology Museum",
+   "district": "Kota Batu",
+   "category": "Museum",
+   "g": "heritage",
+   "lat": 4.8783,
+   "lng": 114.9442,
+   "why": "Museum exploring traditional Malay technologies, including riverine and water-village life",
+   "tier": "top",
+   "months": [
+    2,
+    4
+   ],
+   "time": "1–2 hrs",
+   "tags": []
+  },
+  {
+   "n": 17,
+   "name": "Brunei Museum",
+   "district": "Kota Batu",
+   "category": "Museum",
+   "g": "heritage",
+   "lat": 4.877,
+   "lng": 114.944,
+   "why": "National museum complex covering Brunei’s history, culture and natural history; check current opening status before visiting",
+   "tier": "gem",
+   "months": [
+    2,
+    4
+   ],
+   "time": "1–2 hrs",
+   "tags": []
+  },
+  {
+   "n": 18,
+   "name": "Mausoleum of Sultan Bolkiah",
+   "district": "Kota Batu",
+   "category": "Mausoleum",
+   "g": "heritage",
+   "lat": 4.875,
+   "lng": 114.943,
+   "why": "Historic royal mausoleum associated with Sultan Bolkiah",
+   "tier": "gem",
+   "months": [
+    2,
+    4
+   ],
+   "time": "30–45 min",
+   "tags": []
+  }
+ ]
+}
