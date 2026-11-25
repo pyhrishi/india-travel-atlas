@@ -478,5 +478,119 @@
     3
    ]
   ]
+ },
+ {
+  "name": "Koshi",
+  "slug": "koshi",
+  "type": "Province",
+  "cc": "np",
+  "status": "todo",
+  "count": 0,
+  "best": [
+   [
+    10,
+    12
+   ],
+   [
+    3,
+    5
+   ]
+  ]
+ },
+ {
+  "name": "Madhesh",
+  "slug": "madhesh",
+  "type": "Province",
+  "cc": "np",
+  "status": "todo",
+  "count": 0,
+  "best": [
+   [
+    10,
+    3
+   ]
+  ]
+ },
+ {
+  "name": "Bagmati",
+  "slug": "bagmati",
+  "type": "Province",
+  "cc": "np",
+  "status": "todo",
+  "count": 0,
+  "best": [
+   [
+    10,
+    12
+   ],
+   [
+    2,
+    5
+   ]
+  ]
+ },
+ {
+  "name": "Gandaki",
+  "slug": "gandaki",
+  "type": "Province",
+  "cc": "np",
+  "status": "todo",
+  "count": 0,
+  "best": [
+   [
+    10,
+    12
+   ],
+   [
+    3,
+    5
+   ]
+  ]
+ },
+ {
+  "name": "Lumbini",
+  "slug": "lumbini",
+  "type": "Province",
+  "cc": "np",
+  "status": "todo",
+  "count": 0,
+  "best": [
+   [
+    10,
+    3
+   ]
+  ]
+ },
+ {
+  "name": "Karnali",
+  "slug": "karnali",
+  "type": "Province",
+  "cc": "np",
+  "status": "todo",
+  "count": 0,
+  "best": [
+   [
+    4,
+    6
+   ],
+   [
+    9,
+    11
+   ]
+  ]
+ },
+ {
+  "name": "Sudurpashchim",
+  "slug": "sudurpashchim",
+  "type": "Province",
+  "cc": "np",
+  "status": "todo",
+  "count": 0,
+  "best": [
+   [
+    10,
+    4
+   ]
+  ]
  }
 ]

@@ -10,6 +10,7 @@ PERMIT=re.compile(r'permit|\bILP\b|\bPAP\b|restricted',re.I)
 ADV=re.compile(r'check before|closed after|check if open|check open spots|road status|advisory|subsidence',re.I)
 out={}
 for s in json.load(open('data/states.json')):
+  if not os.path.exists(f"data/places/{s['slug']}.json"): continue
   d=json.load(open(f"data/places/{s['slug']}.json"))
   rows=[]
   for p in d['places']:
