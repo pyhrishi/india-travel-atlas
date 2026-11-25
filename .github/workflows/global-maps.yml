@@ -19,7 +19,7 @@ on:
       iso2:
         description: "Comma-separated ISO2 country codes (maximum 10)"
         required: true
-        default: "BD,BT,LK,MV,KH"
+        default: "ID,PH,TH,VN,MY"
 
 permissions:
   contents: write
@@ -59,7 +59,7 @@ jobs:
           python-version: "3.12"
       - name: Validate requested batch
         env:
-          ISO2: ${{ inputs.iso2 || 'BD,BT,LK,MV,KH' }}
+          ISO2: ${{ inputs.iso2 || 'ID,PH,TH,VN,MY' }}
         run: |
           python - <<'PY'
           import os, re, sys
