@@ -75,6 +75,13 @@ MANUAL_PHOTO_EXCLUSIONS = {
     'andhra-pradesh:17': 'RK Beach sunset image, not Dolphin Nose or Yarada',
     'andhra-pradesh:20': 'banana fields image, not Etikoppaka lacquer toys',
     'andhra-pradesh:23': 'Araku Valley landscape image, not the Tribal Museum',
+    'andhra-pradesh:37': 'train entering Pithapuram station, not the town temples',
+    'andhra-pradesh:40': 'satellite image rather than a visitor photograph of Hope Island',
+    'andhra-pradesh:41': 'Vakalpudi shore image, not Uppada Beach',
+    'andhra-pradesh:52': 'British Museum collection image, not the Amaravati site or museum',
+    'andhra-pradesh:57': 'performer portrait, not a photograph of Kuchipudi village',
+    'andhra-pradesh:79': 'generic railway landscape, not Koundinya Wildlife Sanctuary',
+    'andhra-pradesh:91': 'blackbuck photograph, not the Great Indian Bustard sanctuary',
 }
 for f in sorted(glob.glob(os.path.join(ROOT, 'data', 'facts', '*.json'))):
     slug = os.path.basename(f)[:-5]
