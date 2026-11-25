@@ -20,34 +20,46 @@
  ],
  "trails": [
   {
-   "name": "Bandar Seri Begawan heritage and river circuit",
-   "note": "A city-centre route linking the royal collection, mosque architecture, waterfront and Kampong Ayer; allow time for the boat crossing.",
+   "name": "Bandar Seri Begawan heritage walk",
+   "note": "The royal mosque, waterfront, Royal Regalia and the historic water village in the capital.",
+   "ids": [
+    1,
+    14,
+    3,
+    2,
+    5,
+    6
+   ]
+  },
+  {
+   "name": "Mosques, museums and royal Brunei",
+   "note": "Explore the capital's major mosques and museums; check visitor access and prayer-time closures.",
    "ids": [
     1,
     3,
-    14,
-    2,
-    5
-   ]
-  },
-  {
-   "name": "Mosques, markets and city life",
-   "note": "Combine the two principal mosques with the Gadong night market and a riverside stop; check mosque visiting hours and dress guidance.",
-   "ids": [
-    1,
+    16,
+    17,
     4,
-    15,
-    14
+    18
    ]
   },
   {
-   "name": "Northern coast and mangrove day",
-   "note": "A coastal day combining public beaches and a boat-arranged mangrove visit; confirm boat access and weather before setting out.",
+   "name": "Mangroves and the northern coast",
+   "note": "A coastal day linking the Muara shoreline with the mangrove habitat of Pulau Selirong; arrange boat access in advance.",
    "ids": [
     11,
     13,
-    12,
-    9
+    12
+   ]
+  },
+  {
+   "name": "Capital parks and family day",
+   "note": "Pair the city's green spaces with Jerudong Park; check attraction schedules before setting out.",
+   "ids": [
+    7,
+    8,
+    9,
+    10
    ]
   }
  ],
@@ -361,54 +373,26 @@
  ],
  "festivals": [
   {
-   "name": "Chinese New Year",
-   "months": [
-    1,
-    2
-   ],
-   "when": "Usually January or February; lunar-calendar dates vary",
-   "n": null,
-   "about": "A major public holiday with celebrations around Bandar Seri Begawan, including the Teng Yun Temple area. Check the official annual programme."
-  },
-  {
    "name": "Brunei National Day",
    "months": [
     2,
     2
    ],
-   "when": "23 February",
-   "n": null,
-   "about": "National Day celebrations are centred on the capital, with parades and public events. Confirm the official programme and venue for the year."
+   "when": "23 February each year",
+   "about": "National celebrations with parades and cultural performances in Bandar Seri Begawan; check the official annual programme.",
+   "lat": 4.89,
+   "lng": 114.94
   },
   {
-   "name": "Hari Raya Aidilfitri",
-   "months": [
-    3,
-    4
-   ],
-   "when": "Date follows the Islamic lunar calendar",
-   "n": null,
-   "about": "A major festive period. Many shops and restaurants may close during the first days; check the official visitor arrangements before travelling."
-  },
-  {
-   "name": "His Majesty the Sultan's Birthday",
+   "name": "His Majesty the Sultan's Birthday celebrations",
    "months": [
     7,
-    7
+    8
    ],
-   "when": "15 July",
-   "n": null,
-   "about": "National celebrations and public events mark the Sultan's birthday; the annual programme and locations can change."
-  },
-  {
-   "name": "Maulidur Rasul",
-   "months": [
-    8,
-    9
-   ],
-   "when": "Islamic lunar-calendar date varies",
-   "n": null,
-   "about": "A nationwide religious observance with official celebrations; confirm the date and programme for the year."
+   "when": "July–August celebration period",
+   "about": "Royal birthday festivities and public events; the programme and venues vary by year.",
+   "lat": 4.89,
+   "lng": 114.94
   },
   {
    "name": "Brunei December Festival",
@@ -416,9 +400,32 @@
     12,
     12
    ],
-   "when": "1–31 December 2026; check the current programme",
-   "n": null,
-   "about": "A month-long programme of cultural, family, food and entertainment events at venues around Brunei Darussalam."
+   "when": "December",
+   "about": "A nationwide year-end programme of culture, food, entertainment and family events; check the current calendar.",
+   "lat": 4.89,
+   "lng": 114.94
+  },
+  {
+   "name": "Hari Raya Aidilfitri",
+   "months": [
+    3,
+    4
+   ],
+   "when": "Date varies with the Islamic calendar",
+   "about": "The end of Ramadan is marked by family gatherings and festive open houses; dates move each year.",
+   "lat": 4.89,
+   "lng": 114.94
+  },
+  {
+   "name": "Chinese New Year in Bandar Seri Begawan",
+   "months": [
+    1,
+    2
+   ],
+   "when": "January or February; lunar date varies",
+   "about": "Community celebrations around the capital, including temple and cultural activities; confirm current public events.",
+   "lat": 4.89,
+   "lng": 114.94
   }
  ]
 }
