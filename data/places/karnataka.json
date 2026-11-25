@@ -1149,7 +1149,13 @@
     10,
     4
    ],
-   "time": "Full day"
+   "time": "1–2 days",
+   "trek": {
+    "kind": "Summit trek",
+    "diff": "Moderate",
+    "el": 1343,
+    "base": "Kollur"
+   }
   },
   {
    "n": 60,
@@ -1757,7 +1763,13 @@
     10,
     4
    ],
-   "time": "Full day"
+   "time": "1 day",
+   "trek": {
+    "kind": "Summit trek",
+    "diff": "Moderate",
+    "el": 1748,
+    "base": "Kakkabe"
+   }
   },
   {
    "n": 98,
@@ -2461,7 +2473,13 @@
     10,
     4
    ],
-   "time": "Half day"
+   "time": "Night climb",
+   "trek": {
+    "kind": "Hike",
+    "diff": "Moderate",
+    "el": 1450,
+    "base": "Kalavara"
+   }
   },
   {
    "n": 142,
@@ -2589,7 +2607,13 @@
     10,
     4
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "diff": "Moderate",
+    "el": 1226,
+    "base": "Savandurga"
+   }
   },
   {
    "n": 150,
@@ -2669,7 +2693,13 @@
     10,
     4
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "diff": "Moderate",
+    "el": 1068,
+    "base": "Kabbalu"
+   }
   },
   {
    "n": 155,
@@ -2717,7 +2747,13 @@
     10,
     4
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "diff": "Moderate",
+    "el": 1117,
+    "base": "Makalidurga"
+   }
   },
   {
    "n": 158,
@@ -2749,7 +2785,13 @@
     10,
     4
    ],
-   "time": "1–2 hrs"
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "diff": "Moderate",
+    "el": 1368,
+    "base": "Dobbaspet"
+   }
   },
   {
    "n": 160,
@@ -3405,7 +3447,14 @@
     10,
     2
    ],
-   "time": "2 days"
+   "time": "2 days",
+   "trek": {
+    "kind": "Summit trek",
+    "diff": "Difficult",
+    "el": 1712,
+    "base": "Kukke Subramanya",
+    "permit": "Forest permit and slot"
+   }
   },
   {
    "n": 201,
@@ -3710,6 +3759,565 @@
     2
    ],
    "time": "Half day"
+  },
+  {
+   "n": 220,
+   "name": "Netravati Peak",
+   "district": "Chikkamagaluru",
+   "category": "Summit trek",
+   "g": "hills",
+   "lat": 13.2,
+   "lng": 75.17,
+   "why": "Grass ridge trek in Kudremukh park with the Netravati's source below",
+   "tier": "top",
+   "months": [
+    10,
+    2
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Summit trek",
+    "el": 1520,
+    "diff": "Moderate",
+    "base": "Samse",
+    "permit": "Forest permit and slot"
+   }
+  },
+  {
+   "n": 221,
+   "name": "Kurinjal Peak",
+   "district": "Chikkamagaluru",
+   "category": "Summit trek",
+   "g": "hills",
+   "lat": 13.15,
+   "lng": 75.16,
+   "why": "Grassland summit in Kudremukh park facing the Kudremukh peak",
+   "tier": "gem",
+   "months": [
+    10,
+    2
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Summit trek",
+    "el": 1650,
+    "diff": "Moderate",
+    "base": "Kerekatte",
+    "permit": "Forest permit"
+   }
+  },
+  {
+   "n": 222,
+   "name": "Ballalarayana Durga",
+   "district": "Chikkamagaluru",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 13.15,
+   "lng": 75.45,
+   "why": "Hoysala fort ruins on a ridge, trekked on to Bandaje falls",
+   "tier": "gem",
+   "months": [
+    9,
+    2
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Trek",
+    "el": 1509,
+    "diff": "Moderate",
+    "base": "Durgadahalli"
+   }
+  },
+  {
+   "n": 223,
+   "name": "Bandaje Falls",
+   "district": "Dakshina Kannada",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 13.12,
+   "lng": 75.39,
+   "why": "Falls dropping off a ridge, reached from Ballalarayana Durga",
+   "tier": "gem",
+   "months": [
+    10,
+    2
+   ],
+   "time": "2 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 1000,
+    "diff": "Difficult",
+    "base": "Valambra"
+   }
+  },
+  {
+   "n": 224,
+   "name": "Ettina Bhuja",
+   "district": "Chikkamagaluru",
+   "category": "Summit trek",
+   "g": "hills",
+   "lat": 13.09,
+   "lng": 75.59,
+   "why": "Rock 'bull's shoulder' summit above the Shishila valley",
+   "tier": "gem",
+   "months": [
+    9,
+    2
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Summit trek",
+    "el": 1350,
+    "diff": "Moderate",
+    "base": "Byrapura"
+   }
+  },
+  {
+   "n": 225,
+   "name": "Brahmagiri (Kodagu)",
+   "district": "Kodagu",
+   "category": "Summit trek",
+   "g": "hills",
+   "lat": 11.95,
+   "lng": 75.99,
+   "why": "Peak on the Kerala border, reached through the Brahmagiri sanctuary",
+   "tier": "gem",
+   "months": [
+    10,
+    2
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Summit trek",
+    "el": 1608,
+    "diff": "Moderate",
+    "base": "Iruppu",
+    "permit": "Forest permit"
+   }
+  },
+  {
+   "n": 226,
+   "name": "Nishani Motte",
+   "district": "Kodagu",
+   "category": "Summit trek",
+   "g": "hills",
+   "lat": 12.38,
+   "lng": 75.58,
+   "why": "Second-highest peak of Kodagu in the Talacauvery sanctuary",
+   "tier": "gem",
+   "months": [
+    10,
+    2
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Summit trek",
+    "el": 1525,
+    "diff": "Moderate",
+    "base": "Bhagamandala",
+    "permit": "Forest permit"
+   }
+  },
+  {
+   "n": 227,
+   "name": "Kote Betta",
+   "district": "Kodagu",
+   "category": "Summit trek",
+   "g": "hills",
+   "lat": 12.54,
+   "lng": 75.8,
+   "why": "Hill with a small temple and twin ponds near Madikeri",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Summit trek",
+    "el": 1620,
+    "diff": "Easy",
+    "base": "Hattihole"
+   }
+  },
+  {
+   "n": 228,
+   "name": "Narasimha Parvatha",
+   "district": "Shivamogga",
+   "category": "Summit trek",
+   "g": "hills",
+   "lat": 13.42,
+   "lng": 75.12,
+   "why": "Highest peak of the Agumbe range, through Kigga's forest",
+   "tier": "gem",
+   "months": [
+    10,
+    2
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Summit trek",
+    "el": 1152,
+    "diff": "Moderate",
+    "base": "Sringeri",
+    "permit": "Forest permit"
+   }
+  },
+  {
+   "n": 229,
+   "name": "Gangadikal",
+   "district": "Chikkamagaluru",
+   "category": "Summit trek",
+   "g": "hills",
+   "lat": 13.18,
+   "lng": 75.18,
+   "why": "Grass slopes trek in Kudremukh park",
+   "tier": "gem",
+   "months": [
+    10,
+    2
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Summit trek",
+    "el": 1458,
+    "diff": "Moderate",
+    "base": "Kudremukh",
+    "permit": "Forest permit"
+   }
+  },
+  {
+   "n": 230,
+   "name": "Deveramane Betta",
+   "district": "Chikkamagaluru",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 13.02,
+   "lng": 75.63,
+   "why": "Grassy hill above an old Kalabhairava temple",
+   "tier": "gem",
+   "months": [
+    9,
+    3
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1200,
+    "diff": "Easy",
+    "base": "Mudigere"
+   }
+  },
+  {
+   "n": 231,
+   "name": "Jenukallu Gudda",
+   "district": "Hassan",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 12.92,
+   "lng": 75.66,
+   "why": "Sunset hill over the Western Ghats near Sakleshpur",
+   "tier": "gem",
+   "months": [
+    9,
+    3
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1000,
+    "diff": "Easy",
+    "base": "Yesalur"
+   }
+  },
+  {
+   "n": 232,
+   "name": "Ramadevara Betta",
+   "district": "Ramanagara",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 12.74,
+   "lng": 77.29,
+   "why": "Granite hill of the long-billed vulture sanctuary",
+   "tier": "gem",
+   "months": [
+    9,
+    3
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1000,
+    "diff": "Easy",
+    "base": "Ramanagara"
+   }
+  },
+  {
+   "n": 233,
+   "name": "Kunti Betta",
+   "district": "Mandya",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 12.51,
+   "lng": 76.7,
+   "why": "Twin boulder hill near Pandavapura, climbed at night for sunrise",
+   "tier": "gem",
+   "months": [
+    9,
+    3
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 882,
+    "diff": "Easy",
+    "base": "Pandavapura"
+   }
+  },
+  {
+   "n": 234,
+   "name": "Kaiwara Betta",
+   "district": "Chikkaballapur",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 13.35,
+   "lng": 78.0,
+   "why": "Hill of caves linked to the Mahabharata and the saint Kaiwara Narayana",
+   "tier": "gem",
+   "months": [
+    9,
+    3
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1000,
+    "diff": "Easy",
+    "base": "Kaiwara"
+   }
+  },
+  {
+   "n": 235,
+   "name": "Huthridurga",
+   "district": "Tumakuru",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 12.94,
+   "lng": 77.17,
+   "why": "Kempe Gowda-era fort hill west of Bengaluru",
+   "tier": "gem",
+   "months": [
+    9,
+    3
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1140,
+    "diff": "Easy",
+    "base": "Huthridurga"
+   }
+  },
+  {
+   "n": 236,
+   "name": "Channarayana Durga",
+   "district": "Tumakuru",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 13.33,
+   "lng": 77.27,
+   "why": "Hill fort with old granaries north of Tumakuru",
+   "tier": "gem",
+   "months": [
+    9,
+    3
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1140,
+    "diff": "Easy",
+    "base": "Koratagere"
+   }
+  },
+  {
+   "n": 237,
+   "name": "Uttari Betta",
+   "district": "Ramanagara",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 12.7,
+   "lng": 77.38,
+   "why": "Boulder hill with views of the Bengaluru plains",
+   "tier": "gem",
+   "months": [
+    9,
+    3
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1100,
+    "diff": "Easy",
+    "base": "Bidadi"
+   }
+  },
+  {
+   "n": 238,
+   "name": "Siddara Betta",
+   "district": "Tumakuru",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 13.39,
+   "lng": 77.2,
+   "why": "Hill of caves and a temple linked to wandering siddhas",
+   "tier": "gem",
+   "months": [
+    9,
+    3
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1050,
+    "diff": "Easy",
+    "base": "Koratagere"
+   }
+  },
+  {
+   "n": 239,
+   "name": "Avalabetta",
+   "district": "Chikkaballapur",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 13.7,
+   "lng": 77.8,
+   "why": "Rock ledge viewpoint above a Narasimha temple",
+   "tier": "gem",
+   "months": [
+    9,
+    3
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1400,
+    "diff": "Easy",
+    "base": "Peresandra"
+   }
+  },
+  {
+   "n": 240,
+   "name": "Agumbe Barkana Falls Trail",
+   "district": "Shivamogga",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 13.5,
+   "lng": 75.05,
+   "why": "Forest walk to one of India's tallest falls",
+   "tier": "gem",
+   "months": [
+    9,
+    1
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Trek",
+    "el": 800,
+    "diff": "Moderate",
+    "base": "Agumbe",
+    "permit": "Forest permit"
+   }
+  },
+  {
+   "n": 241,
+   "name": "Sakleshpur Green Route",
+   "district": "Hassan",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 12.84,
+   "lng": 75.7,
+   "why": "Old rail line through tunnels and the Western Ghats, now restricted",
+   "tier": "gem",
+   "months": [
+    7,
+    10
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Hike",
+    "el": 900,
+    "diff": "Moderate",
+    "base": "Donigal",
+    "permit": "Check current access rules"
+   }
+  },
+  {
+   "n": 242,
+   "name": "Ombattu Gudda",
+   "district": "Hassan",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 12.86,
+   "lng": 75.62,
+   "why": "Ridge of 'nine hills' in dense Western Ghats forest",
+   "tier": "gem",
+   "months": [
+    10,
+    2
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Trek",
+    "el": 1300,
+    "diff": "Moderate",
+    "base": "Gundya",
+    "permit": "Forest permit"
+   }
+  },
+  {
+   "n": 243,
+   "name": "Sita Bhumi",
+   "district": "Chikkamagaluru",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 13.2,
+   "lng": 75.3,
+   "why": "Grassland hill above the Bhadra valley",
+   "tier": "gem",
+   "months": [
+    10,
+    2
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1200,
+    "diff": "Easy",
+    "base": "Kalasa"
+   }
+  },
+  {
+   "n": 244,
+   "name": "Mallalli Falls Trail",
+   "district": "Kodagu",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 12.66,
+   "lng": 75.67,
+   "why": "Steps down to falls on the Kumaradhara below Pushpagiri",
+   "tier": "gem",
+   "months": [
+    8,
+    11
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1000,
+    "diff": "Moderate",
+    "base": "Somwarpet"
+   }
   }
  ],
  "festivals": [

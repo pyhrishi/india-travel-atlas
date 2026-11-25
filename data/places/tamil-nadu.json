@@ -685,7 +685,14 @@
     11,
     3
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 2036,
+    "diff": "Easy",
+    "base": "Ooty",
+    "permit": "Forest jeep"
+   }
   },
   {
    "n": 34,
@@ -3070,6 +3077,251 @@
     12
    ],
    "time": "Half day"
+  },
+  {
+   "n": 183,
+   "name": "Velliangiri Mountains",
+   "district": "Coimbatore",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 10.99,
+   "lng": 76.68,
+   "why": "Seven-hill pilgrim climb to a Shiva shrine, the 'Kailash of the South'",
+   "tier": "top",
+   "months": [
+    2,
+    5
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Trek",
+    "el": 1778,
+    "diff": "Difficult",
+    "base": "Poondi",
+    "permit": "Open in pilgrim season only"
+   }
+  },
+  {
+   "n": 184,
+   "name": "Parvathamalai",
+   "district": "Tiruvannamalai",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 12.42,
+   "lng": 79.0,
+   "why": "Night pilgrim climb with iron rungs and planks to a Shiva shrine",
+   "tier": "top",
+   "months": [
+    9,
+    3
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1370,
+    "diff": "Difficult",
+    "base": "Kadaladi"
+   }
+  },
+  {
+   "n": 185,
+   "name": "Kurangani–Top Station",
+   "district": "Theni",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 10.06,
+   "lng": 77.25,
+   "why": "Old trade path from Kurangani up to Top Station in Kerala",
+   "tier": "gem",
+   "months": [
+    10,
+    2
+   ],
+   "time": "2 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 2200,
+    "diff": "Moderate",
+    "base": "Kurangani",
+    "permit": "Forest permit"
+   }
+  },
+  {
+   "n": 186,
+   "name": "Mukurthi Peak",
+   "district": "Nilgiris",
+   "category": "Summit trek",
+   "g": "hills",
+   "lat": 11.38,
+   "lng": 76.5,
+   "why": "Nilgiri peak in the Mukurthi park, home of the Nilgiri tahr",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Summit trek",
+    "el": 2554,
+    "diff": "Moderate",
+    "base": "Mukurthi",
+    "permit": "Forest permit"
+   }
+  },
+  {
+   "n": 187,
+   "name": "Perumal Malai",
+   "district": "Dindigul",
+   "category": "Summit trek",
+   "g": "hills",
+   "lat": 10.27,
+   "lng": 77.57,
+   "why": "Peak near Kodaikanal with views over the Palani plains",
+   "tier": "gem",
+   "months": [
+    9,
+    5
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Summit trek",
+    "el": 2440,
+    "diff": "Moderate",
+    "base": "Perumalmalai"
+   }
+  },
+  {
+   "n": 188,
+   "name": "Vattakanal Walks",
+   "district": "Dindigul",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 10.21,
+   "lng": 77.49,
+   "why": "Cliff-edge walks and the Dolphin's Nose from Vattakanal",
+   "tier": "gem",
+   "months": [
+    9,
+    5
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Hike",
+    "el": 2000,
+    "diff": "Easy",
+    "base": "Kodaikanal"
+   }
+  },
+  {
+   "n": 189,
+   "name": "Sathuragiri",
+   "district": "Virudhunagar",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 9.64,
+   "lng": 77.63,
+   "why": "Pilgrim forest climb to the Sundara Mahalingam temple",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Trek",
+    "el": 1400,
+    "diff": "Moderate",
+    "base": "Thaniparai"
+   }
+  },
+  {
+   "n": 190,
+   "name": "Swamimalai (Yelagiri)",
+   "district": "Tirupattur",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 12.59,
+   "lng": 78.64,
+   "why": "Highest point of Yelagiri with a small temple",
+   "tier": "gem",
+   "months": [
+    9,
+    3
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1440,
+    "diff": "Easy",
+    "base": "Yelagiri"
+   }
+  },
+  {
+   "n": 191,
+   "name": "Bear Shola Falls",
+   "district": "Dindigul",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 10.24,
+   "lng": 77.5,
+   "why": "Forest walk to falls near Kodaikanal town",
+   "tier": "gem",
+   "months": [
+    8,
+    12
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 2100,
+    "diff": "Easy",
+    "base": "Kodaikanal"
+   }
+  },
+  {
+   "n": 192,
+   "name": "Kolaribetta",
+   "district": "Nilgiris",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 11.4,
+   "lng": 76.7,
+   "why": "Grassland viewpoint near Kotagiri facing the Moyar valley",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 2100,
+    "diff": "Easy",
+    "base": "Kotagiri"
+   }
+  },
+  {
+   "n": 193,
+   "name": "Thalaiyar Falls View",
+   "district": "Dindigul",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 10.2,
+   "lng": 77.59,
+   "why": "Viewpoint over one of India's tallest falls, the 297 m Rat Tail",
+   "tier": "gem",
+   "months": [
+    8,
+    12
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1500,
+    "diff": "Easy",
+    "base": "Kodaikanal"
+   }
   }
  ],
  "festivals": [

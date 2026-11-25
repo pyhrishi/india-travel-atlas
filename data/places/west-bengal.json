@@ -785,7 +785,13 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "diff": "Easy",
+    "el": 440,
+    "base": "Bankura"
+   }
   },
   {
    "n": 41,
@@ -1521,7 +1527,13 @@
     10,
     5
    ],
-   "time": "5–6 days"
+   "time": "5–6 days",
+   "trek": {
+    "kind": "Trek",
+    "diff": "Moderate",
+    "el": 3636,
+    "base": "Manebhanjan"
+   }
   },
   {
    "n": 87,
@@ -1809,7 +1821,13 @@
     10,
     5
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "trek": {
+    "kind": "Hike",
+    "el": 867,
+    "diff": "Easy",
+    "base": "Santalabari"
+   }
   },
   {
    "n": 105,
@@ -1825,7 +1843,13 @@
     10,
     5
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "trek": {
+    "kind": "Hike",
+    "el": 300,
+    "diff": "Moderate",
+    "base": "Jayanti"
+   }
   },
   {
    "n": 106,
@@ -2802,6 +2826,94 @@
     2
    ],
    "time": "Half day"
+  },
+  {
+   "n": 167,
+   "name": "Phalut (West Bengal)",
+   "district": "Darjeeling",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 27.218,
+   "lng": 88.008,
+   "why": "Last stop on the Sandakphu ridge, closest to Kangchenjunga",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "5 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 3600,
+    "diff": "Moderate",
+    "base": "Manebhanjan"
+   }
+  },
+  {
+   "n": 168,
+   "name": "Tonglu",
+   "district": "Darjeeling",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 27.03,
+   "lng": 88.08,
+   "why": "First camp on the Sandakphu trail with Kangchenjunga at sunrise",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "2 days",
+   "trek": {
+    "kind": "Hike",
+    "el": 3070,
+    "diff": "Moderate",
+    "base": "Manebhanjan"
+   }
+  },
+  {
+   "n": 169,
+   "name": "Rachela Pass",
+   "district": "Kalimpong",
+   "category": "Pass",
+   "g": "hills",
+   "lat": 27.12,
+   "lng": 88.77,
+   "why": "Ridge pass in the Neora Valley on the Bhutan border",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "2 days",
+   "trek": {
+    "kind": "Pass",
+    "el": 3150,
+    "diff": "Moderate",
+    "base": "Lava"
+   }
+  },
+  {
+   "n": 170,
+   "name": "Jhandi Dara",
+   "district": "Kalimpong",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 26.99,
+   "lng": 88.59,
+   "why": "Ridge known for sunrise views of Kangchenjunga over the Dooars",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1930,
+    "diff": "Easy",
+    "base": "Gorubathan"
+   }
   }
  ],
  "festivals": [

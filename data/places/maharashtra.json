@@ -556,7 +556,13 @@
     10,
     3
    ],
-   "time": "Overnight"
+   "time": "Overnight",
+   "trek": {
+    "kind": "Hike",
+    "el": 600,
+    "diff": "Moderate",
+    "base": "Bhivpuri"
+   }
   },
   {
    "n": 26,
@@ -636,7 +642,13 @@
     10,
     3
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "trek": {
+    "kind": "Trek",
+    "el": 820,
+    "diff": "Easy",
+    "base": "Pachad"
+   }
   },
   {
    "n": 31,
@@ -796,7 +808,13 @@
     6,
     10
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 1033,
+    "diff": "Easy",
+    "base": "Malavli"
+   }
   },
   {
    "n": 41,
@@ -812,7 +830,13 @@
     6,
     10
    ],
-   "time": "Overnight"
+   "time": "Overnight",
+   "trek": {
+    "kind": "Trek",
+    "diff": "Easy",
+    "el": 840,
+    "base": "Lonavala"
+   }
   },
   {
    "n": 42,
@@ -892,7 +916,13 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 1312,
+    "diff": "Easy",
+    "base": "Atkarwadi"
+   }
   },
   {
    "n": 47,
@@ -940,7 +970,13 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 1060,
+    "diff": "Easy",
+    "base": "Junnar"
+   }
   },
   {
    "n": 50,
@@ -972,7 +1008,13 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "trek": {
+    "kind": "Trek",
+    "el": 1034,
+    "diff": "Moderate",
+    "base": "Khandas"
+   }
   },
   {
    "n": 52,
@@ -988,7 +1030,13 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "trek": {
+    "kind": "Trek",
+    "el": 1403,
+    "diff": "Moderate",
+    "base": "Velhe"
+   }
   },
   {
    "n": 53,
@@ -1004,7 +1052,13 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "trek": {
+    "kind": "Trek",
+    "el": 1376,
+    "diff": "Moderate",
+    "base": "Gunjavane"
+   }
   },
   {
    "n": 54,
@@ -1084,7 +1138,14 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 1387,
+    "diff": "Easy",
+    "base": "Narayanpur",
+    "permit": "Army area: carry ID"
+   }
   },
   {
    "n": 59,
@@ -1132,7 +1193,13 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 1080,
+    "diff": "Easy",
+    "base": "Wada"
+   }
   },
   {
    "n": 62,
@@ -1148,7 +1215,14 @@
     8,
     10
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1200,
+    "diff": "Easy",
+    "base": "Kas",
+    "permit": "Online slot in bloom season"
+   }
   },
   {
    "n": 63,
@@ -1180,7 +1254,13 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 1000,
+    "diff": "Easy",
+    "base": "Parali"
+   }
   },
   {
    "n": 65,
@@ -1212,7 +1292,14 @@
     10,
     3
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "trek": {
+    "kind": "Trek",
+    "el": 1171,
+    "diff": "Moderate",
+    "base": "Bamnoli",
+    "permit": "Forest permit"
+   }
   },
   {
    "n": 67,
@@ -1228,7 +1315,13 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 1356,
+    "diff": "Easy",
+    "base": "Satara"
+   }
   },
   {
    "n": 68,
@@ -1292,7 +1385,13 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 977,
+    "diff": "Easy",
+    "base": "Panhala"
+   }
   },
   {
    "n": 72,
@@ -1932,7 +2031,13 @@
     7,
     2
    ],
-   "time": "Full day"
+   "time": "1 day",
+   "trek": {
+    "kind": "Summit trek",
+    "diff": "Moderate",
+    "el": 1646,
+    "base": "Bari"
+   }
   },
   {
    "n": 112,
@@ -1948,7 +2053,13 @@
     7,
     2
    ],
-   "time": "2 days"
+   "time": "2 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 1424,
+    "diff": "Moderate",
+    "base": "Pachnai"
+   }
   },
   {
    "n": 113,
@@ -1964,7 +2075,13 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "trek": {
+    "kind": "Trek",
+    "el": 1297,
+    "diff": "Moderate",
+    "base": "Ratanwadi"
+   }
   },
   {
    "n": 114,
@@ -2028,7 +2145,13 @@
     6,
     10
    ],
-   "time": "2 days"
+   "time": "2 days",
+   "trek": {
+    "kind": "Trek",
+    "diff": "Moderate",
+    "el": 1000,
+    "base": "Samrad"
+   }
   },
   {
    "n": 118,
@@ -2812,7 +2935,13 @@
     6,
     10
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "trek": {
+    "kind": "Trek",
+    "el": 850,
+    "diff": "Moderate",
+    "base": "Mahuli village"
+   }
   },
   {
    "n": 167,
@@ -2844,7 +2973,13 @@
     6,
     10
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Pass",
+    "diff": "Moderate",
+    "el": 840,
+    "base": "Vaishakhare"
+   }
   },
   {
    "n": 169,
@@ -3245,6 +3380,886 @@
     3
    ],
    "time": "1–2 hrs"
+  },
+  {
+   "n": 194,
+   "name": "Visapur",
+   "district": "Pune",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 18.722,
+   "lng": 73.493,
+   "why": "Larger twin of Lohagad, with monsoon streams running down its steps",
+   "tier": "gem",
+   "months": [
+    6,
+    2
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1084,
+    "diff": "Easy",
+    "base": "Malavli"
+   }
+  },
+  {
+   "n": 195,
+   "name": "Tikona",
+   "district": "Pune",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 18.632,
+   "lng": 73.512,
+   "why": "Triangular hill fort above the Pavna lake",
+   "tier": "gem",
+   "months": [
+    6,
+    2
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1066,
+    "diff": "Easy",
+    "base": "Tikona Peth"
+   }
+  },
+  {
+   "n": 196,
+   "name": "Korigad",
+   "district": "Pune",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 18.62,
+   "lng": 73.385,
+   "why": "Fort with an intact wall walk near Aamby Valley",
+   "tier": "gem",
+   "months": [
+    6,
+    2
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 929,
+    "diff": "Easy",
+    "base": "Peth Shahapur"
+   }
+  },
+  {
+   "n": 197,
+   "name": "Kalavantin Durg",
+   "district": "Raigad",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 18.99,
+   "lng": 73.2,
+   "why": "Pinnacle climbed by steps cut into the rock, beside Prabalgad",
+   "tier": "top",
+   "months": [
+    10,
+    2
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Hike",
+    "el": 701,
+    "diff": "Difficult",
+    "base": "Thakurwadi"
+   }
+  },
+  {
+   "n": 198,
+   "name": "Prabalgad",
+   "district": "Raigad",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 18.985,
+   "lng": 73.207,
+   "why": "Forested plateau fort between Panvel and Matheran",
+   "tier": "gem",
+   "months": [
+    10,
+    2
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Hike",
+    "el": 701,
+    "diff": "Moderate",
+    "base": "Thakurwadi"
+   }
+  },
+  {
+   "n": 199,
+   "name": "Peb Fort (Vikatgad)",
+   "district": "Raigad",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 19.007,
+   "lng": 73.29,
+   "why": "Fort reached by a ladder, with a trail on to Matheran",
+   "tier": "gem",
+   "months": [
+    6,
+    2
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Hike",
+    "el": 640,
+    "diff": "Moderate",
+    "base": "Neral"
+   }
+  },
+  {
+   "n": 200,
+   "name": "Irshalgad",
+   "district": "Raigad",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 18.95,
+   "lng": 73.23,
+   "why": "Pinnacle with a rock window near Prabalgad",
+   "tier": "gem",
+   "months": [
+    10,
+    2
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1100,
+    "diff": "Difficult",
+    "base": "Chowk"
+   }
+  },
+  {
+   "n": 201,
+   "name": "Kamalgad",
+   "district": "Satara",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 17.915,
+   "lng": 73.773,
+   "why": "Flat-topped fort with the deep Gerucha well",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1375,
+    "diff": "Moderate",
+    "base": "Wasole"
+   }
+  },
+  {
+   "n": 202,
+   "name": "Vishalgad",
+   "district": "Kolhapur",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 16.89,
+   "lng": 73.75,
+   "why": "Forest fort where Shivaji's escape ended at Pavankhind",
+   "tier": "gem",
+   "months": [
+    7,
+    2
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1130,
+    "diff": "Easy",
+    "base": "Gajapur"
+   }
+  },
+  {
+   "n": 203,
+   "name": "Panhala to Pavankhind",
+   "district": "Kolhapur",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 16.85,
+   "lng": 73.9,
+   "why": "Monsoon trek retracing Shivaji's 1660 escape to Vishalgad",
+   "tier": "top",
+   "months": [
+    7,
+    9
+   ],
+   "time": "2 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 977,
+    "diff": "Moderate",
+    "base": "Panhala"
+   }
+  },
+  {
+   "n": 204,
+   "name": "Salher",
+   "district": "Nashik",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 20.722,
+   "lng": 73.943,
+   "why": "Highest fort in the Sahyadri and Maharashtra's second-highest peak",
+   "tier": "top",
+   "months": [
+    10,
+    2
+   ],
+   "time": "1–2 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 1567,
+    "diff": "Moderate",
+    "base": "Salher village"
+   }
+  },
+  {
+   "n": 205,
+   "name": "Salota",
+   "district": "Nashik",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 20.71,
+   "lng": 73.935,
+   "why": "Twin of Salher, on the same saddle",
+   "tier": "gem",
+   "months": [
+    10,
+    2
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1460,
+    "diff": "Moderate",
+    "base": "Salher village"
+   }
+  },
+  {
+   "n": 206,
+   "name": "Harihar Fort",
+   "district": "Nashik",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 19.904,
+   "lng": 73.473,
+   "why": "Fort climbed by near-vertical rock-cut steps",
+   "tier": "top",
+   "months": [
+    10,
+    2
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1120,
+    "diff": "Difficult",
+    "base": "Nirgudpada"
+   }
+  },
+  {
+   "n": 207,
+   "name": "Brahmagiri (Trimbak)",
+   "district": "Nashik",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 19.937,
+   "lng": 73.533,
+   "why": "Hill above Trimbakeshwar where the Godavari rises",
+   "tier": "top",
+   "months": [
+    7,
+    2
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1295,
+    "diff": "Moderate",
+    "base": "Trimbakeshwar"
+   }
+  },
+  {
+   "n": 208,
+   "name": "Anjaneri",
+   "district": "Nashik",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 19.92,
+   "lng": 73.58,
+   "why": "Plateau held to be Hanuman's birthplace, green in the monsoon",
+   "tier": "gem",
+   "months": [
+    7,
+    10
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1280,
+    "diff": "Moderate",
+    "base": "Anjaneri"
+   }
+  },
+  {
+   "n": 209,
+   "name": "Ramsej",
+   "district": "Nashik",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 20.1,
+   "lng": 73.8,
+   "why": "Small fort that held out against the Mughals for years",
+   "tier": "gem",
+   "months": [
+    7,
+    2
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1000,
+    "diff": "Easy",
+    "base": "Ashewadi"
+   }
+  },
+  {
+   "n": 210,
+   "name": "Alang Madan Kulang",
+   "district": "Nashik",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 19.58,
+   "lng": 73.7,
+   "why": "Three forts of the Kalsubai range, the toughest classic in the Sahyadri",
+   "tier": "top",
+   "months": [
+    11,
+    2
+   ],
+   "time": "2–3 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 1471,
+    "diff": "Challenging",
+    "base": "Ambewadi"
+   }
+  },
+  {
+   "n": 211,
+   "name": "Ajoba",
+   "district": "Thane",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 19.43,
+   "lng": 73.67,
+   "why": "Hill linked by legend to Valmiki's ashram",
+   "tier": "gem",
+   "months": [
+    10,
+    2
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Trek",
+    "el": 1375,
+    "diff": "Moderate",
+    "base": "Dehane"
+   }
+  },
+  {
+   "n": 212,
+   "name": "Andharban",
+   "district": "Pune",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 18.45,
+   "lng": 73.4,
+   "why": "'Dark forest' monsoon walk along the Tamhini ridge",
+   "tier": "top",
+   "months": [
+    6,
+    10
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Hike",
+    "el": 600,
+    "diff": "Easy",
+    "base": "Pimpri"
+   }
+  },
+  {
+   "n": 213,
+   "name": "Devkund Waterfall",
+   "district": "Raigad",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 18.42,
+   "lng": 73.37,
+   "why": "Forest walk to a plunge pool where three streams meet",
+   "tier": "gem",
+   "months": [
+    7,
+    9
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Hike",
+    "el": 350,
+    "diff": "Easy",
+    "base": "Bhira"
+   }
+  },
+  {
+   "n": 214,
+   "name": "Dhak Bahiri",
+   "district": "Pune",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 18.84,
+   "lng": 73.38,
+   "why": "Cave shrine on a cliff reached by ropes and a crumbling ledge",
+   "tier": "gem",
+   "months": [
+    10,
+    2
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Trek",
+    "el": 800,
+    "diff": "Difficult",
+    "base": "Jambhivali"
+   }
+  },
+  {
+   "n": 215,
+   "name": "Duke's Nose (Nagphani)",
+   "district": "Pune",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 18.75,
+   "lng": 73.38,
+   "why": "Cliff above Khandala shaped like a hooded cobra",
+   "tier": "gem",
+   "months": [
+    6,
+    2
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1090,
+    "diff": "Moderate",
+    "base": "Khandala"
+   }
+  },
+  {
+   "n": 216,
+   "name": "Sudhagad",
+   "district": "Raigad",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 18.54,
+   "lng": 73.33,
+   "why": "Large fort once considered for Shivaji's capital",
+   "tier": "gem",
+   "months": [
+    7,
+    2
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Hike",
+    "el": 620,
+    "diff": "Easy",
+    "base": "Pachapur"
+   }
+  },
+  {
+   "n": 217,
+   "name": "Chanderi",
+   "district": "Thane",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 19.09,
+   "lng": 73.23,
+   "why": "Pinnacle fort near Badlapur",
+   "tier": "gem",
+   "months": [
+    7,
+    2
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Hike",
+    "el": 790,
+    "diff": "Moderate",
+    "base": "Chinchwali"
+   }
+  },
+  {
+   "n": 218,
+   "name": "Malhargad",
+   "district": "Pune",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 18.35,
+   "lng": 74.04,
+   "why": "Last hill fort built by the Marathas, in 1775",
+   "tier": "gem",
+   "months": [
+    7,
+    2
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 950,
+    "diff": "Easy",
+    "base": "Sonori"
+   }
+  },
+  {
+   "n": 219,
+   "name": "Bhairavgad (Moroshi)",
+   "district": "Thane",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 19.33,
+   "lng": 73.67,
+   "why": "Rock wall scaled by notches, one of the Sahyadri's most exposed climbs",
+   "tier": "gem",
+   "months": [
+    10,
+    2
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Trek",
+    "el": 1000,
+    "diff": "Challenging",
+    "base": "Moroshi"
+   }
+  },
+  {
+   "n": 220,
+   "name": "Ghangad",
+   "district": "Pune",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 18.57,
+   "lng": 73.4,
+   "why": "Small fort near Tamhini with a cave and ladder",
+   "tier": "gem",
+   "months": [
+    6,
+    2
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 800,
+    "diff": "Easy",
+    "base": "Ekole"
+   }
+  },
+  {
+   "n": 221,
+   "name": "Tailbaila",
+   "district": "Pune",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 18.54,
+   "lng": 73.38,
+   "why": "Twin rock walls rising from the plateau, a climbers' crag",
+   "tier": "gem",
+   "months": [
+    10,
+    2
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1000,
+    "diff": "Difficult",
+    "base": "Tailbaila"
+   }
+  },
+  {
+   "n": 222,
+   "name": "Kenjalgad",
+   "district": "Pune",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 18.05,
+   "lng": 73.8,
+   "why": "Fort with rock-cut steps above the Raireshwar plateau",
+   "tier": "gem",
+   "months": [
+    7,
+    2
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1300,
+    "diff": "Easy",
+    "base": "Kenjalgad"
+   }
+  },
+  {
+   "n": 223,
+   "name": "Raireshwar",
+   "district": "Pune",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 18.05,
+   "lng": 73.73,
+   "why": "Plateau temple where Shivaji is said to have taken his oath of self-rule",
+   "tier": "top",
+   "months": [
+    7,
+    2
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1360,
+    "diff": "Easy",
+    "base": "Korle"
+   }
+  },
+  {
+   "n": 224,
+   "name": "Makrandgad",
+   "district": "Satara",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 17.93,
+   "lng": 73.66,
+   "why": "Fort on a spur facing Pratapgad near Mahabaleshwar",
+   "tier": "gem",
+   "months": [
+    7,
+    2
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1200,
+    "diff": "Moderate",
+    "base": "Hatlot"
+   }
+  },
+  {
+   "n": 225,
+   "name": "Rohida",
+   "district": "Pune",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 18.11,
+   "lng": 73.83,
+   "why": "Small fort with carved gateways near Bhor",
+   "tier": "gem",
+   "months": [
+    7,
+    2
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1110,
+    "diff": "Easy",
+    "base": "Bajarwadi"
+   }
+  },
+  {
+   "n": 226,
+   "name": "Kothaligad",
+   "district": "Raigad",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 19.09,
+   "lng": 73.38,
+   "why": "Pinnacle fort with a rock-cut inner staircase",
+   "tier": "gem",
+   "months": [
+    7,
+    2
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 690,
+    "diff": "Easy",
+    "base": "Peth"
+   }
+  },
+  {
+   "n": 227,
+   "name": "Hadsar",
+   "district": "Pune",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 19.3,
+   "lng": 73.69,
+   "why": "Fort with steps cut up a sheer rock face",
+   "tier": "gem",
+   "months": [
+    7,
+    2
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1100,
+    "diff": "Moderate",
+    "base": "Hadsar"
+   }
+  },
+  {
+   "n": 228,
+   "name": "Chavand",
+   "district": "Pune",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 19.24,
+   "lng": 73.74,
+   "why": "Junnar fort with rock-cut stairs and seven water cisterns",
+   "tier": "gem",
+   "months": [
+    7,
+    2
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1100,
+    "diff": "Moderate",
+    "base": "Chavand"
+   }
+  },
+  {
+   "n": 229,
+   "name": "Gorakhgad",
+   "district": "Thane",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 19.29,
+   "lng": 73.51,
+   "why": "Pinnacle with rock-cut steps and caves",
+   "tier": "gem",
+   "months": [
+    7,
+    2
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 660,
+    "diff": "Moderate",
+    "base": "Dehri"
+   }
+  },
+  {
+   "n": 230,
+   "name": "Siddhagad",
+   "district": "Thane",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 19.25,
+   "lng": 73.54,
+   "why": "Forest fort trek in the Bhimashankar range",
+   "tier": "gem",
+   "months": [
+    7,
+    2
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Trek",
+    "el": 980,
+    "diff": "Moderate",
+    "base": "Narivali"
+   }
+  },
+  {
+   "n": 231,
+   "name": "Aundha & Patta",
+   "district": "Nashik",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 19.68,
+   "lng": 73.65,
+   "why": "Two forts of the Kalsubai range near Igatpuri",
+   "tier": "gem",
+   "months": [
+    10,
+    2
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Trek",
+    "el": 1200,
+    "diff": "Moderate",
+    "base": "Aundhewadi"
+   }
+  },
+  {
+   "n": 232,
+   "name": "Hatgad",
+   "district": "Nashik",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 20.54,
+   "lng": 73.84,
+   "why": "Fort near Saputara with water tanks on top",
+   "tier": "gem",
+   "months": [
+    7,
+    2
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1100,
+    "diff": "Easy",
+    "base": "Saputara"
+   }
+  },
+  {
+   "n": 233,
+   "name": "Bhorgiri",
+   "district": "Pune",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 19.02,
+   "lng": 73.61,
+   "why": "Caves and a fort at the start of the trail to Bhimashankar",
+   "tier": "gem",
+   "months": [
+    7,
+    2
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 900,
+    "diff": "Easy",
+    "base": "Bhorgiri"
+   }
   }
  ],
  "festivals": [

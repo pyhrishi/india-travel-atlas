@@ -127,7 +127,13 @@
     10,
     4
    ],
-   "time": "Overnight"
+   "time": "Overnight",
+   "trek": {
+    "kind": "Hike",
+    "el": 1600,
+    "diff": "Easy",
+    "base": "Khonoma"
+   }
   },
   {
    "n": 4,
@@ -159,7 +165,13 @@
     10,
     4
    ],
-   "time": "Full day"
+   "time": "1 day",
+   "trek": {
+    "kind": "Summit trek",
+    "diff": "Moderate",
+    "el": 3048,
+    "base": "Kigwema"
+   }
   },
   {
    "n": 6,
@@ -479,7 +491,13 @@
     10,
     4
    ],
-   "time": "Full day"
+   "time": "1 day",
+   "trek": {
+    "kind": "Summit trek",
+    "diff": "Moderate",
+    "el": 1969,
+    "base": "Wokha"
+   }
   },
   {
    "n": 26,
@@ -687,7 +705,14 @@
     10,
     4
    ],
-   "time": "3–4 days"
+   "time": "4 days",
+   "trek": {
+    "kind": "Summit trek",
+    "diff": "Challenging",
+    "el": 3826,
+    "base": "Thanamir",
+    "permit": "Inner Line Permit"
+   }
   },
   {
    "n": 39,

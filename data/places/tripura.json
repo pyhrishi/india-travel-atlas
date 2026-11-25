@@ -501,6 +501,28 @@
     3
    ],
    "time": "Half day"
+  },
+  {
+   "n": 29,
+   "name": "Betlingshib",
+   "district": "North Tripura",
+   "category": "Summit trek",
+   "g": "hills",
+   "lat": 23.95,
+   "lng": 92.2,
+   "why": "Highest point of Tripura on the Jampui range",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Summit trek",
+    "el": 939,
+    "diff": "Moderate",
+    "base": "Vanghmun"
+   }
   }
  ],
  "festivals": [

@@ -401,7 +401,13 @@
     3,
     11
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "diff": "Easy",
+    "el": 3400,
+    "base": "Narkanda"
+   }
   },
   {
    "n": 14,
@@ -481,7 +487,13 @@
     5,
     10
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Pass",
+    "diff": "Easy",
+    "el": 4520,
+    "base": "Rohru"
+   }
   },
   {
    "n": 19,
@@ -657,7 +669,13 @@
     4,
     11
    ],
-   "time": "2 days"
+   "time": "2 days",
+   "trek": {
+    "kind": "Summit trek",
+    "diff": "Moderate",
+    "el": 3647,
+    "base": "Nauradhar"
+   }
   },
   {
    "n": 30,
@@ -721,7 +739,13 @@
     3,
     11
    ],
-   "time": "1 hr"
+   "time": "1 hr",
+   "trek": {
+    "kind": "Hike",
+    "el": 2460,
+    "diff": "Easy",
+    "base": "Kullu"
+   }
   },
   {
    "n": 34,
@@ -897,7 +921,14 @@
     5,
     10
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "trek": {
+    "kind": "Pass",
+    "diff": "Easy",
+    "el": 3978,
+    "base": "Manali",
+    "permit": "Online permit for vehicles"
+   }
   },
   {
    "n": 45,
@@ -913,7 +944,13 @@
     6,
     9
    ],
-   "time": "4–5 days"
+   "time": "5 days",
+   "trek": {
+    "kind": "Pass",
+    "diff": "Moderate",
+    "el": 4270,
+    "base": "Jobra"
+   }
   },
   {
    "n": 46,
@@ -929,7 +966,13 @@
     6,
     9
    ],
-   "time": "2 days"
+   "time": "4 days",
+   "trek": {
+    "kind": "Trek",
+    "diff": "Moderate",
+    "el": 4235,
+    "base": "Gulaba"
+   }
   },
   {
    "n": 47,
@@ -945,7 +988,13 @@
     6,
     9
    ],
-   "time": "2–3 days"
+   "time": "3 days",
+   "trek": {
+    "kind": "Trek",
+    "diff": "Easy",
+    "el": 3700,
+    "base": "Dhundi"
+   }
   },
   {
    "n": 48,
@@ -1025,7 +1074,13 @@
     5,
     10
    ],
-   "time": "Overnight"
+   "time": "2 days",
+   "trek": {
+    "kind": "Hike",
+    "diff": "Easy",
+    "el": 2960,
+    "base": "Barshaini"
+   }
   },
   {
    "n": 53,
@@ -1041,7 +1096,13 @@
     3,
     11
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 2650,
+    "diff": "Easy",
+    "base": "Jari"
+   }
   },
   {
    "n": 54,
@@ -1105,7 +1166,13 @@
     4,
     11
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Pass",
+    "diff": "Easy",
+    "el": 3120,
+    "base": "Jibhi"
+   }
   },
   {
    "n": 58,
@@ -1121,7 +1188,13 @@
     3,
     11
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 3100,
+    "diff": "Easy",
+    "base": "Jalori Pass"
+   }
   },
   {
    "n": 59,
@@ -1153,7 +1226,13 @@
     3,
     11
    ],
-   "time": "2–3 days"
+   "time": "3 days",
+   "trek": {
+    "kind": "Pass",
+    "diff": "Moderate",
+    "el": 3660,
+    "base": "Rumsu"
+   }
   },
   {
    "n": 61,
@@ -1217,7 +1296,13 @@
     3,
     12
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "trek": {
+    "kind": "Hike",
+    "el": 2730,
+    "diff": "Easy",
+    "base": "Baggi"
+   }
   },
   {
    "n": 65,
@@ -1249,7 +1334,13 @@
     4,
     11
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "trek": {
+    "kind": "Hike",
+    "el": 3359,
+    "diff": "Easy",
+    "base": "Janjehli"
+   }
   },
   {
    "n": 67,
@@ -1297,7 +1388,13 @@
     10,
     6
    ],
-   "time": "1 hr"
+   "time": "1 hr",
+   "trek": {
+    "kind": "Hike",
+    "el": 1400,
+    "diff": "Easy",
+    "base": "Karsog"
+   }
   },
   {
    "n": 70,
@@ -1361,7 +1458,13 @@
     3,
     12
    ],
-   "time": "Full day"
+   "time": "1–2 days",
+   "trek": {
+    "kind": "Hike",
+    "diff": "Easy",
+    "el": 2850,
+    "base": "McLeod Ganj"
+   }
   },
   {
    "n": 74,
@@ -1409,7 +1512,13 @@
     4,
     11
    ],
-   "time": "2 days"
+   "time": "2–3 days",
+   "trek": {
+    "kind": "Trek",
+    "diff": "Moderate",
+    "el": 2934,
+    "base": "Kareri"
+   }
   },
   {
    "n": 77,
@@ -1729,7 +1838,13 @@
     3,
     11
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "diff": "Easy",
+    "el": 2755,
+    "base": "Dalhousie"
+   }
   },
   {
    "n": 97,
@@ -1809,7 +1924,13 @@
     7,
     9
    ],
-   "time": "2–3 days"
+   "time": "2–3 days",
+   "trek": {
+    "kind": "Trek",
+    "diff": "Moderate",
+    "el": 4080,
+    "base": "Hadsar"
+   }
   },
   {
    "n": 102,
@@ -1841,7 +1962,13 @@
     6,
     10
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Pass",
+    "diff": "Moderate",
+    "el": 4420,
+    "base": "Bairagarh"
+   }
   },
   {
    "n": 104,
@@ -2017,7 +2144,13 @@
     6,
     9
    ],
-   "time": "Overnight"
+   "time": "Overnight",
+   "trek": {
+    "kind": "Hike",
+    "el": 4300,
+    "diff": "Easy",
+    "base": "Batal"
+   }
   },
   {
    "n": 115,
@@ -2033,7 +2166,13 @@
     6,
     9
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Pass",
+    "diff": "Easy",
+    "el": 4551,
+    "base": "Losar"
+   }
   },
   {
    "n": 116,
@@ -2241,7 +2380,13 @@
     4,
     10
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 3000,
+    "diff": "Easy",
+    "base": "Kalpa"
+   }
   },
   {
    "n": 129,
@@ -2353,7 +2498,14 @@
     7,
     9
    ],
-   "time": "5–7 days"
+   "time": "7 days",
+   "trek": {
+    "kind": "Trek",
+    "diff": "Challenging",
+    "el": 5242,
+    "base": "Morang",
+    "permit": "Inner Line Permit"
+   }
   },
   {
    "n": 136,
@@ -2529,7 +2681,13 @@
     3,
     11
    ],
-   "time": "Half day"
+   "time": "1 day",
+   "trek": {
+    "kind": "Hike",
+    "diff": "Moderate",
+    "el": 2963,
+    "base": "Mashobra"
+   }
   },
   {
    "name": "Jubbal Palace",
@@ -2737,7 +2895,13 @@
     6,
     9
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "trek": {
+    "kind": "Pass",
+    "diff": "Easy",
+    "el": 4890,
+    "base": "Darcha"
+   }
   },
   {
    "name": "Shinku La",
@@ -2753,7 +2917,13 @@
     6,
     9
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "trek": {
+    "kind": "Pass",
+    "diff": "Easy",
+    "el": 5091,
+    "base": "Darcha"
+   }
   },
   {
    "name": "Sarchu",
@@ -2913,7 +3083,13 @@
     3,
     11
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 3300,
+    "diff": "Easy",
+    "base": "Jalori Pass"
+   }
   },
   {
    "name": "Bashleo Pass",
@@ -2929,7 +3105,13 @@
     4,
     11
    ],
-   "time": "2 days"
+   "time": "2 days",
+   "trek": {
+    "kind": "Pass",
+    "diff": "Moderate",
+    "el": 3250,
+    "base": "Bathad"
+   }
   },
   {
    "name": "Pirdi Rafting",
@@ -3089,7 +3271,13 @@
     5,
     10
    ],
-   "time": "3 days"
+   "time": "4 days",
+   "trek": {
+    "kind": "Pass",
+    "diff": "Difficult",
+    "el": 4342,
+    "base": "McLeod Ganj"
+   }
   },
   {
    "name": "Haripur-Guler",
@@ -3297,7 +3485,13 @@
     10,
     6
    ],
-   "time": "1 hr"
+   "time": "1 hr",
+   "trek": {
+    "kind": "Hike",
+    "el": 2200,
+    "diff": "Easy",
+    "base": "Chail"
+   }
   },
   {
    "name": "Kuthar Fort",
@@ -3442,6 +3636,989 @@
     8
    ],
    "time": "1 hr"
+  },
+  {
+   "n": 204,
+   "name": "Kinner Kailash",
+   "district": "Kinnaur",
+   "category": "Peak",
+   "g": "hills",
+   "lat": 31.534,
+   "lng": 78.402,
+   "why": "Peak whose 79-ft rock pinnacle is circled on a sacred parikrama; seen from Kalpa",
+   "tier": "top",
+   "months": [
+    5,
+    10
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Peak",
+    "el": 6050,
+    "diff": "Expedition"
+   }
+  },
+  {
+   "n": 205,
+   "name": "Reo Purgyil",
+   "district": "Kinnaur",
+   "category": "Peak",
+   "g": "hills",
+   "lat": 31.894,
+   "lng": 78.737,
+   "why": "Himachal's highest peak, on the Tibet border above Nako",
+   "tier": "gem",
+   "months": [
+    6,
+    9
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Peak",
+    "el": 6816,
+    "diff": "Expedition"
+   }
+  },
+  {
+   "n": 206,
+   "name": "Indrasan",
+   "district": "Kullu",
+   "category": "Peak",
+   "g": "hills",
+   "lat": 32.265,
+   "lng": 77.29,
+   "why": "One of the highest Kullu peaks, seen from the Hampta and Bhrigu trails",
+   "tier": "gem",
+   "months": [
+    5,
+    10
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Peak",
+    "el": 6221,
+    "diff": "Expedition"
+   }
+  },
+  {
+   "n": 207,
+   "name": "Deo Tibba",
+   "district": "Kullu",
+   "category": "Peak",
+   "g": "hills",
+   "lat": 32.205,
+   "lng": 77.388,
+   "why": "Snow dome above the Jagatsukh valley; base camp at Chandratal (Kullu)",
+   "tier": "gem",
+   "months": [
+    5,
+    10
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Peak",
+    "el": 6001,
+    "diff": "Expedition"
+   }
+  },
+  {
+   "n": 208,
+   "name": "Mount Hanuman Tibba",
+   "district": "Kullu",
+   "category": "Peak",
+   "g": "hills",
+   "lat": 32.367,
+   "lng": 77.023,
+   "why": "Highest peak of the Dhauladhar near Manali",
+   "tier": "gem",
+   "months": [
+    5,
+    10
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Peak",
+    "el": 5982,
+    "diff": "Expedition"
+   }
+  },
+  {
+   "n": 209,
+   "name": "Mulkila",
+   "district": "Lahaul and Spiti",
+   "category": "Peak",
+   "g": "hills",
+   "lat": 32.556,
+   "lng": 77.399,
+   "why": "Highest of the Lahaul peaks above Keylong",
+   "tier": "gem",
+   "months": [
+    6,
+    9
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Peak",
+    "el": 6517,
+    "diff": "Expedition"
+   }
+  },
+  {
+   "n": 210,
+   "name": "Friendship Peak",
+   "district": "Kullu",
+   "category": "Summit trek",
+   "g": "hills",
+   "lat": 32.392,
+   "lng": 77.07,
+   "why": "Entry-level climbing peak above Solang",
+   "tier": "gem",
+   "months": [
+    5,
+    10
+   ],
+   "time": "7 days",
+   "trek": {
+    "kind": "Summit trek",
+    "el": 5289,
+    "diff": "Difficult",
+    "base": "Solang"
+   }
+  },
+  {
+   "n": 211,
+   "name": "Pin Parvati Pass",
+   "district": "Kullu",
+   "category": "Pass",
+   "g": "hills",
+   "lat": 31.92,
+   "lng": 77.83,
+   "why": "Glacier crossing from the green Parvati valley into cold-desert Spiti",
+   "tier": "top",
+   "months": [
+    7,
+    9
+   ],
+   "time": "10–12 days",
+   "trek": {
+    "kind": "Pass",
+    "el": 5319,
+    "diff": "Expedition",
+    "base": "Barshaini"
+   }
+  },
+  {
+   "n": 212,
+   "name": "Pin Bhaba Pass",
+   "district": "Kinnaur",
+   "category": "Pass",
+   "g": "hills",
+   "lat": 31.82,
+   "lng": 77.96,
+   "why": "Crossing from the forests of Kinnaur to the bare Pin valley",
+   "tier": "top",
+   "months": [
+    6,
+    9
+   ],
+   "time": "7 days",
+   "trek": {
+    "kind": "Pass",
+    "el": 4865,
+    "diff": "Difficult",
+    "base": "Kafnu"
+   }
+  },
+  {
+   "n": 213,
+   "name": "Kugti Pass",
+   "district": "Chamba",
+   "category": "Pass",
+   "g": "hills",
+   "lat": 32.43,
+   "lng": 76.77,
+   "why": "Gaddi shepherds' pass from Bharmour into Lahaul",
+   "tier": "gem",
+   "months": [
+    6,
+    9
+   ],
+   "time": "8 days",
+   "trek": {
+    "kind": "Pass",
+    "el": 5040,
+    "diff": "Challenging",
+    "base": "Kugti"
+   }
+  },
+  {
+   "n": 214,
+   "name": "Rupin Pass",
+   "district": "Shimla",
+   "category": "Pass",
+   "g": "hills",
+   "lat": 31.4,
+   "lng": 78.2,
+   "why": "Trek of waterfalls, hanging villages and snow fields from Dhaula to Sangla",
+   "tier": "top",
+   "months": [
+    5,
+    10
+   ],
+   "time": "8 days",
+   "trek": {
+    "kind": "Pass",
+    "el": 4650,
+    "diff": "Difficult",
+    "base": "Dhaula"
+   }
+  },
+  {
+   "n": 215,
+   "name": "Buran Ghati",
+   "district": "Shimla",
+   "category": "Pass",
+   "g": "hills",
+   "lat": 31.4,
+   "lng": 78.05,
+   "why": "Pass above the Chandranahan lakes, with a snow-slope rappel down to Barua",
+   "tier": "top",
+   "months": [
+    5,
+    10
+   ],
+   "time": "8 days",
+   "trek": {
+    "kind": "Pass",
+    "el": 4578,
+    "diff": "Difficult",
+    "base": "Janglik"
+   }
+  },
+  {
+   "n": 216,
+   "name": "Chandranahan Lake",
+   "district": "Shimla",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 31.38,
+   "lng": 78.02,
+   "why": "Glacial lakes at the source of the Pabbar river",
+   "tier": "gem",
+   "months": [
+    6,
+    9
+   ],
+   "time": "5 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 4260,
+    "diff": "Moderate",
+    "base": "Janglik"
+   }
+  },
+  {
+   "n": 217,
+   "name": "Bara Bhangal",
+   "district": "Kangra",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 32.3,
+   "lng": 76.9,
+   "why": "Remote shepherd village reached over the Thamsar pass",
+   "tier": "gem",
+   "months": [
+    6,
+    9
+   ],
+   "time": "10 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 4800,
+    "diff": "Challenging",
+    "base": "Bir"
+   }
+  },
+  {
+   "n": 218,
+   "name": "Thamsar Pass",
+   "district": "Kangra",
+   "category": "Pass",
+   "g": "hills",
+   "lat": 32.23,
+   "lng": 76.85,
+   "why": "Pass from Billing over the Dhauladhar into Bara Bhangal",
+   "tier": "gem",
+   "months": [
+    6,
+    9
+   ],
+   "time": "6 days",
+   "trek": {
+    "kind": "Pass",
+    "el": 4665,
+    "diff": "Difficult",
+    "base": "Bir"
+   }
+  },
+  {
+   "n": 219,
+   "name": "Rajgundha",
+   "district": "Kangra",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 32.13,
+   "lng": 76.78,
+   "why": "Meadow village beyond Billing, a gentle overnight walk",
+   "tier": "gem",
+   "months": [
+    4,
+    11
+   ],
+   "time": "2 days",
+   "trek": {
+    "kind": "Hike",
+    "el": 2900,
+    "diff": "Easy",
+    "base": "Billing"
+   }
+  },
+  {
+   "n": 220,
+   "name": "Moon Peak",
+   "district": "Kangra",
+   "category": "Summit trek",
+   "g": "hills",
+   "lat": 32.3,
+   "lng": 76.4,
+   "why": "Climb above Indrahar Pass on the Dhauladhar crest",
+   "tier": "gem",
+   "months": [
+    5,
+    10
+   ],
+   "time": "5 days",
+   "trek": {
+    "kind": "Summit trek",
+    "el": 4650,
+    "diff": "Difficult",
+    "base": "McLeod Ganj"
+   }
+  },
+  {
+   "n": 221,
+   "name": "Baralacha La to Chandratal",
+   "district": "Lahaul and Spiti",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 32.6,
+   "lng": 77.5,
+   "why": "High-desert walk along the Chandra from Baralacha La to the moon lake",
+   "tier": "gem",
+   "months": [
+    7,
+    9
+   ],
+   "time": "4 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 4890,
+    "diff": "Moderate",
+    "base": "Baralacha La"
+   }
+  },
+  {
+   "n": 222,
+   "name": "Patalsu Peak",
+   "district": "Kullu",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 32.36,
+   "lng": 77.13,
+   "why": "Summit above Solang with views of the Pir Panjal",
+   "tier": "gem",
+   "months": [
+    5,
+    10
+   ],
+   "time": "2 days",
+   "trek": {
+    "kind": "Hike",
+    "el": 4220,
+    "diff": "Moderate",
+    "base": "Solang"
+   }
+  },
+  {
+   "n": 223,
+   "name": "Lamadugh",
+   "district": "Kullu",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 32.25,
+   "lng": 77.15,
+   "why": "Meadow in deodar forest above Manali",
+   "tier": "gem",
+   "months": [
+    4,
+    11
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Hike",
+    "el": 3000,
+    "diff": "Easy",
+    "base": "Manali"
+   }
+  },
+  {
+   "n": 224,
+   "name": "Sar Pass",
+   "district": "Kullu",
+   "category": "Pass",
+   "g": "hills",
+   "lat": 32.02,
+   "lng": 77.38,
+   "why": "Classic snow pass above the Parvati valley, slid down on the descent",
+   "tier": "top",
+   "months": [
+    5,
+    6
+   ],
+   "time": "5 days",
+   "trek": {
+    "kind": "Pass",
+    "el": 4220,
+    "diff": "Moderate",
+    "base": "Kasol"
+   }
+  },
+  {
+   "n": 225,
+   "name": "Mantalai Lake",
+   "district": "Kullu",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 31.88,
+   "lng": 77.68,
+   "why": "Source lake of the Parvati river on the Pin Parvati route",
+   "tier": "gem",
+   "months": [
+    6,
+    9
+   ],
+   "time": "7 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 4100,
+    "diff": "Difficult",
+    "base": "Barshaini"
+   }
+  },
+  {
+   "n": 226,
+   "name": "Kamru Nag",
+   "district": "Mandi",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 31.54,
+   "lng": 77.08,
+   "why": "Lake of the rain god, its bed covered in offerings of coins and gold",
+   "tier": "gem",
+   "months": [
+    4,
+    11
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Hike",
+    "el": 3334,
+    "diff": "Easy",
+    "base": "Rohanda"
+   }
+  },
+  {
+   "n": 227,
+   "name": "Manimahesh Kailash",
+   "district": "Chamba",
+   "category": "Peak",
+   "g": "hills",
+   "lat": 32.39,
+   "lng": 76.64,
+   "why": "Unclimbed sacred peak above Manimahesh Lake",
+   "tier": "top",
+   "months": [
+    8,
+    9
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Peak",
+    "el": 5653,
+    "diff": "Expedition"
+   }
+  },
+  {
+   "n": 228,
+   "name": "Kalihani Pass",
+   "district": "Kullu",
+   "category": "Pass",
+   "g": "hills",
+   "lat": 32.38,
+   "lng": 76.95,
+   "why": "Pass from Manali's Hamta valley to Bara Bhangal",
+   "tier": "gem",
+   "months": [
+    6,
+    9
+   ],
+   "time": "8 days",
+   "trek": {
+    "kind": "Pass",
+    "el": 4725,
+    "diff": "Difficult",
+    "base": "Manali"
+   }
+  },
+  {
+   "n": 229,
+   "name": "Bhaba Valley",
+   "district": "Kinnaur",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 31.7,
+   "lng": 77.95,
+   "why": "Green Kinnaur valley of meadows below the Pin Bhaba pass",
+   "tier": "gem",
+   "months": [
+    5,
+    10
+   ],
+   "time": "3 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 3200,
+    "diff": "Moderate",
+    "base": "Kafnu"
+   }
+  },
+  {
+   "n": 230,
+   "name": "Kanamo Peak",
+   "district": "Lahaul and Spiti",
+   "category": "Summit trek",
+   "g": "hills",
+   "lat": 32.2,
+   "lng": 78.15,
+   "why": "One of India's highest trekking summits, above Kibber",
+   "tier": "gem",
+   "months": [
+    6,
+    9
+   ],
+   "time": "6 days",
+   "trek": {
+    "kind": "Summit trek",
+    "el": 5974,
+    "diff": "Difficult",
+    "base": "Kibber"
+   }
+  },
+  {
+   "n": 231,
+   "name": "Dhankar Lake",
+   "district": "Lahaul and Spiti",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 32.09,
+   "lng": 78.22,
+   "why": "Lake above Dhankar's cliff-top monastery",
+   "tier": "gem",
+   "months": [
+    6,
+    10
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 4140,
+    "diff": "Moderate",
+    "base": "Dhankar"
+   }
+  },
+  {
+   "n": 232,
+   "name": "Parang La",
+   "district": "Lahaul and Spiti",
+   "category": "Pass",
+   "g": "hills",
+   "lat": 32.58,
+   "lng": 78.05,
+   "why": "Trade pass from Spiti to Ladakh's Tso Moriri",
+   "tier": "gem",
+   "months": [
+    7,
+    9
+   ],
+   "time": "10 days",
+   "trek": {
+    "kind": "Pass",
+    "el": 5580,
+    "diff": "Challenging",
+    "base": "Kibber",
+    "permit": "Inner Line Permit"
+   }
+  },
+  {
+   "n": 233,
+   "name": "Laka Glacier",
+   "district": "Kangra",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 32.29,
+   "lng": 76.36,
+   "why": "Snowline above Triund, below the Indrahar Pass",
+   "tier": "gem",
+   "months": [
+    5,
+    10
+   ],
+   "time": "2 days",
+   "trek": {
+    "kind": "Hike",
+    "el": 3350,
+    "diff": "Moderate",
+    "base": "McLeod Ganj"
+   }
+  },
+  {
+   "n": 234,
+   "name": "Shrikhand Mahadev",
+   "district": "Kullu",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 31.7,
+   "lng": 77.64,
+   "why": "Pilgrim climb to a 72-ft rock linga, held in July",
+   "tier": "top",
+   "months": [
+    7,
+    7
+   ],
+   "time": "5 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 5227,
+    "diff": "Challenging",
+    "base": "Jaon",
+    "permit": "Yatra registration"
+   }
+  },
+  {
+   "n": 235,
+   "name": "Rani Sui Lake",
+   "district": "Kullu",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 32.34,
+   "lng": 77.2,
+   "why": "High lake in the Solang nala below Friendship Peak",
+   "tier": "gem",
+   "months": [
+    6,
+    9
+   ],
+   "time": "3 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 3900,
+    "diff": "Moderate",
+    "base": "Solang"
+   }
+  },
+  {
+   "n": 236,
+   "name": "Spiti Left Bank Trek",
+   "district": "Lahaul and Spiti",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 32.15,
+   "lng": 78.1,
+   "why": "Village-to-village route through Langza, Komic and Dhankar",
+   "tier": "gem",
+   "months": [
+    6,
+    9
+   ],
+   "time": "6 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 4500,
+    "diff": "Moderate",
+    "base": "Kaza"
+   }
+  },
+  {
+   "n": 237,
+   "name": "Pin Valley Trek (Mudh to Bhaba)",
+   "district": "Lahaul and Spiti",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 31.95,
+   "lng": 78.0,
+   "why": "Bare Pin valley walk toward the Bhaba pass",
+   "tier": "gem",
+   "months": [
+    6,
+    9
+   ],
+   "time": "6 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 4800,
+    "diff": "Moderate",
+    "base": "Mudh"
+   }
+  },
+  {
+   "n": 238,
+   "name": "Manirang",
+   "district": "Lahaul and Spiti",
+   "category": "Peak",
+   "g": "hills",
+   "lat": 31.96,
+   "lng": 78.33,
+   "why": "Snow peak above Mane village in Spiti",
+   "tier": "gem",
+   "months": [
+    6,
+    9
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Peak",
+    "el": 6593,
+    "diff": "Expedition"
+   }
+  },
+  {
+   "n": 239,
+   "name": "Ladakhi Peak",
+   "district": "Kullu",
+   "category": "Summit trek",
+   "g": "hills",
+   "lat": 32.4,
+   "lng": 77.09,
+   "why": "Trekking peak above Solang, near Friendship Peak",
+   "tier": "gem",
+   "months": [
+    5,
+    10
+   ],
+   "time": "6 days",
+   "trek": {
+    "kind": "Summit trek",
+    "el": 5345,
+    "diff": "Difficult",
+    "base": "Solang"
+   }
+  },
+  {
+   "n": 240,
+   "name": "Shitidhar",
+   "district": "Kullu",
+   "category": "Summit trek",
+   "g": "hills",
+   "lat": 32.38,
+   "lng": 77.05,
+   "why": "Snow peak above the Beas Kund",
+   "tier": "gem",
+   "months": [
+    5,
+    10
+   ],
+   "time": "6 days",
+   "trek": {
+    "kind": "Summit trek",
+    "el": 5250,
+    "diff": "Difficult",
+    "base": "Solang"
+   }
+  },
+  {
+   "n": 241,
+   "name": "Chau Chau Kang Nilda",
+   "district": "Lahaul and Spiti",
+   "category": "Summit trek",
+   "g": "hills",
+   "lat": 32.22,
+   "lng": 78.0,
+   "why": "Spiti's 'blue moon in the sky' peak, climbed from Kaza",
+   "tier": "gem",
+   "months": [
+    7,
+    9
+   ],
+   "time": "10 days",
+   "trek": {
+    "kind": "Summit trek",
+    "el": 6303,
+    "diff": "Expedition",
+    "base": "Kaza"
+   }
+  },
+  {
+   "n": 242,
+   "name": "Jalsu Pass",
+   "district": "Kangra",
+   "category": "Pass",
+   "g": "hills",
+   "lat": 32.32,
+   "lng": 76.57,
+   "why": "Easiest pass over the Dhauladhar, from Baijnath to Chamba",
+   "tier": "gem",
+   "months": [
+    5,
+    10
+   ],
+   "time": "4 days",
+   "trek": {
+    "kind": "Pass",
+    "el": 3450,
+    "diff": "Moderate",
+    "base": "Baijnath"
+   }
+  },
+  {
+   "n": 243,
+   "name": "Jogini Falls",
+   "district": "Kullu",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 32.27,
+   "lng": 77.19,
+   "why": "Falls a 3 km walk above Vashisht village",
+   "tier": "top",
+   "months": [
+    4,
+    11
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 2500,
+    "diff": "Easy",
+    "base": "Vashisht"
+   }
+  },
+  {
+   "n": 244,
+   "name": "Rasol",
+   "district": "Kullu",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 32.02,
+   "lng": 77.36,
+   "why": "Steep climb from Kasol to a remote village in the pines",
+   "tier": "gem",
+   "months": [
+    4,
+    11
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Hike",
+    "el": 3000,
+    "diff": "Moderate",
+    "base": "Kasol"
+   }
+  },
+  {
+   "n": 245,
+   "name": "Guna Devi",
+   "district": "Kangra",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 32.25,
+   "lng": 76.38,
+   "why": "Ridge temple above Dharamshala with views of the Dhauladhar",
+   "tier": "gem",
+   "months": [
+    3,
+    11
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 2300,
+    "diff": "Easy",
+    "base": "Dharamshala"
+   }
+  },
+  {
+   "n": 246,
+   "name": "Thatharana",
+   "district": "Kangra",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 32.28,
+   "lng": 76.38,
+   "why": "Village above Dharamshala on the way to Dhauladhar meadows",
+   "tier": "gem",
+   "months": [
+    4,
+    11
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Hike",
+    "el": 2900,
+    "diff": "Moderate",
+    "base": "Dharamshala"
+   }
+  },
+  {
+   "n": 247,
+   "name": "Bara Shigri Glacier",
+   "district": "Lahaul and Spiti",
+   "category": "Peak",
+   "g": "hills",
+   "lat": 32.2,
+   "lng": 77.7,
+   "why": "One of the longest glaciers of the Himalaya, below the Kunzum range",
+   "tier": "gem",
+   "months": [
+    6,
+    9
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Peak",
+    "el": 4000,
+    "diff": "Expedition"
+   }
+  },
+  {
+   "n": 248,
+   "name": "Hikkim–Komic–Langza Walk",
+   "district": "Lahaul and Spiti",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 32.17,
+   "lng": 78.11,
+   "why": "Walk between three high villages; Komic is among Asia's highest with a road",
+   "tier": "gem",
+   "months": [
+    6,
+    9
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Hike",
+    "el": 4500,
+    "diff": "Moderate",
+    "base": "Kaza"
+   }
   }
  ],
  "festivals": [

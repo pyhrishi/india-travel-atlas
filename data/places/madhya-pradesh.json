@@ -1419,7 +1419,13 @@
     10,
     3
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 1000,
+    "diff": "Easy",
+    "base": "Pachmarhi"
+   }
   },
   {
    "n": 81,
@@ -1643,7 +1649,13 @@
     10,
     3
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1048,
+    "diff": "Easy",
+    "base": "Amarkantak"
+   }
   },
   {
    "n": 95,
@@ -3036,6 +3048,28 @@
     10
    ],
    "time": "1 hr"
+  },
+  {
+   "n": 182,
+   "name": "Chauragarh",
+   "district": "Narmadapuram",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 22.43,
+   "lng": 78.43,
+   "why": "Shiva shrine of thousands of tridents, 1,300 steps above Pachmarhi",
+   "tier": "top",
+   "months": [
+    10,
+    6
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1308,
+    "diff": "Moderate",
+    "base": "Pachmarhi"
+   }
   }
  ],
  "festivals": [

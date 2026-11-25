@@ -601,7 +601,13 @@
     10,
     4
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 1900,
+    "diff": "Easy",
+    "base": "Ukhrul"
+   }
   },
   {
    "n": 35,
@@ -810,6 +816,50 @@
     10
    ],
    "time": "Half day"
+  },
+  {
+   "n": 48,
+   "name": "Mount Iso (Tenipu)",
+   "district": "Senapati",
+   "category": "Summit trek",
+   "g": "hills",
+   "lat": 25.54,
+   "lng": 94.09,
+   "why": "Manipur's highest point, on the Dzukou plateau",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "2 days",
+   "trek": {
+    "kind": "Summit trek",
+    "el": 2994,
+    "diff": "Moderate",
+    "base": "Mao"
+   }
+  },
+  {
+   "n": 49,
+   "name": "Thangjing Hill",
+   "district": "Bishnupur",
+   "category": "Summit trek",
+   "g": "hills",
+   "lat": 24.52,
+   "lng": 93.7,
+   "why": "Sacred hill of the deity Thangjing, climbed in an April pilgrimage",
+   "tier": "gem",
+   "months": [
+    4,
+    5
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Summit trek",
+    "el": 2000,
+    "diff": "Moderate",
+    "base": "Moirang"
+   }
   }
  ],
  "festivals": [

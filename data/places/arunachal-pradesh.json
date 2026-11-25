@@ -182,7 +182,7 @@
    "n": 2,
    "name": "Sela Pass & Lake",
    "district": "Tawang",
-   "category": "Mountain pass",
+   "category": "Pass",
    "g": "hills",
    "lat": 27.5241,
    "lng": 92.0888,
@@ -192,7 +192,12 @@
     3,
     11
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "trek": {
+    "kind": "Pass",
+    "diff": "Easy",
+    "el": 4170
+   }
   },
   {
    "n": 3,
@@ -214,7 +219,7 @@
    "n": 4,
    "name": "Bum La Pass",
    "district": "Tawang",
-   "category": "Mountain pass",
+   "category": "Pass",
    "g": "hills",
    "lat": 27.74,
    "lng": 91.965,
@@ -224,7 +229,14 @@
     4,
     11
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Pass",
+    "diff": "Easy",
+    "el": 4633,
+    "base": "Tawang",
+    "permit": "Army permit from Tawang"
+   }
   },
   {
    "n": 5,
@@ -384,7 +396,13 @@
     5,
     11
    ],
-   "time": "1 hr"
+   "time": "1 hr",
+   "trek": {
+    "kind": "Hike",
+    "el": 2700,
+    "diff": "Easy",
+    "base": "Jang"
+   }
   },
   {
    "n": 15,
@@ -1318,7 +1336,7 @@
    "n": 73,
    "name": "Mayudia Pass",
    "district": "Lower Dibang Valley",
-   "category": "Mountain pass",
+   "category": "Pass",
    "g": "hills",
    "lat": 28.29,
    "lng": 95.905,
@@ -1328,7 +1346,13 @@
     12,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Pass",
+    "diff": "Easy",
+    "el": 2655,
+    "base": "Roing"
+   }
   },
   {
    "n": 74,
@@ -1440,7 +1464,14 @@
     4,
     10
    ],
-   "time": "2–3 days"
+   "time": "3 days",
+   "trek": {
+    "kind": "Trek",
+    "diff": "Moderate",
+    "el": 4000,
+    "base": "Lumla",
+    "permit": "Inner Line Permit"
+   }
   },
   {
    "n": 81,
@@ -1680,7 +1711,14 @@
     10,
     4
    ],
-   "time": "2–3 days"
+   "time": "2–3 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 500,
+    "diff": "Moderate",
+    "base": "Deban",
+    "permit": "Inner Line Permit"
+   }
   },
   {
    "n": 96,
@@ -2000,7 +2038,12 @@
     10,
     4
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Pass",
+    "diff": "Easy",
+    "el": 1724
+   }
   },
   {
    "name": "Pappu Valley",
@@ -2529,6 +2572,140 @@
     4
    ],
    "time": "2 hrs"
+  },
+  {
+   "n": 149,
+   "name": "Gorichen Peak",
+   "district": "Tawang",
+   "category": "Peak",
+   "g": "hills",
+   "lat": 27.795,
+   "lng": 92.427,
+   "why": "One of Arunachal's highest peaks, seen from the Sela–Tawang road",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Peak",
+    "el": 6488,
+    "diff": "Expedition"
+   }
+  },
+  {
+   "n": 150,
+   "name": "Kangto",
+   "district": "East Kameng",
+   "category": "Peak",
+   "g": "hills",
+   "lat": 27.858,
+   "lng": 92.53,
+   "why": "Highest point of Arunachal, on the border with Tibet",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Peak",
+    "el": 7060,
+    "diff": "Expedition"
+   }
+  },
+  {
+   "n": 151,
+   "name": "Gorichen Base Camp",
+   "district": "Tawang",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 27.7,
+   "lng": 92.3,
+   "why": "Route through Monpa yak country to the foot of Gorichen",
+   "tier": "gem",
+   "months": [
+    4,
+    10
+   ],
+   "time": "8 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 4500,
+    "diff": "Difficult",
+    "base": "Thingbu",
+    "permit": "Inner Line Permit"
+   }
+  },
+  {
+   "n": 152,
+   "name": "Bailey Trail",
+   "district": "Lower Subansiri",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 27.7,
+   "lng": 93.4,
+   "why": "Route of the 1913 Bailey–Morshead survey through the Apatani and Nyishi hills",
+   "tier": "gem",
+   "months": [
+    10,
+    11
+   ],
+   "time": "10–12 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 4300,
+    "diff": "Challenging",
+    "base": "Ziro",
+    "permit": "Inner Line Permit"
+   }
+  },
+  {
+   "n": 153,
+   "name": "Tawang–Pangchen Trail",
+   "district": "Tawang",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 27.7,
+   "lng": 91.85,
+   "why": "Valleys of the Pangchen people and black-necked cranes in winter",
+   "tier": "gem",
+   "months": [
+    3,
+    11
+   ],
+   "time": "5 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 3200,
+    "diff": "Moderate",
+    "base": "Lumla",
+    "permit": "Inner Line Permit"
+   }
+  },
+  {
+   "n": 154,
+   "name": "Dibang Valley Treks",
+   "district": "Dibang Valley",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 28.7,
+   "lng": 95.9,
+   "why": "Little-visited Idu Mishmi hills of high passes and snow lakes",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "6 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 3200,
+    "diff": "Difficult",
+    "base": "Anini",
+    "permit": "Inner Line Permit"
+   }
   }
  ],
  "festivals": [

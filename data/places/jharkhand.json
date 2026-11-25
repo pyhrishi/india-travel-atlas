@@ -159,7 +159,13 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "diff": "Easy",
+    "el": 750,
+    "base": "Deoghar"
+   }
   },
   {
    "n": 3,
@@ -271,7 +277,13 @@
     10,
     3
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "trek": {
+    "kind": "Trek",
+    "el": 1350,
+    "diff": "Moderate",
+    "base": "Madhuban"
+   }
   },
   {
    "n": 10,

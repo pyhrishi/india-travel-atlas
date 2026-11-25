@@ -471,7 +471,13 @@
     4,
     10
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 3843,
+    "diff": "Moderate",
+    "base": "Gulmarg"
+   }
   },
   {
    "n": 24,
@@ -551,7 +557,13 @@
     4,
     10
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "diff": "Easy",
+    "el": 3000,
+    "base": "Sonamarg"
+   }
   },
   {
    "n": 29,
@@ -567,7 +579,13 @@
     7,
     9
    ],
-   "time": "7–8 days"
+   "time": "7–8 days",
+   "trek": {
+    "kind": "Trek",
+    "diff": "Moderate",
+    "el": 4200,
+    "base": "Sonamarg"
+   }
   },
   {
    "n": 30,
@@ -583,7 +601,13 @@
     7,
     9
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "trek": {
+    "kind": "Trek",
+    "el": 3570,
+    "diff": "Moderate",
+    "base": "Naranag"
+   }
   },
   {
    "n": 31,
@@ -599,7 +623,13 @@
     4,
     10
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 2128,
+    "diff": "Easy",
+    "base": "Wangath"
+   }
   },
   {
    "n": 32,
@@ -631,7 +661,13 @@
     5,
     10
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Pass",
+    "diff": "Easy",
+    "el": 3528,
+    "base": "Sonamarg"
+   }
   },
   {
    "n": 34,
@@ -711,7 +747,13 @@
     7,
     9
    ],
-   "time": "Half day"
+   "time": "3–4 days",
+   "trek": {
+    "kind": "Trek",
+    "diff": "Moderate",
+    "el": 4000,
+    "base": "Aru"
+   }
   },
   {
    "n": 39,
@@ -807,7 +849,13 @@
     5,
     10
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Pass",
+    "diff": "Easy",
+    "el": 3748,
+    "base": "Daksum"
+   }
   },
   {
    "n": 45,
@@ -823,7 +871,14 @@
     7,
     8
    ],
-   "time": "3–4 days (yatra)"
+   "time": "3–4 days (yatra)",
+   "trek": {
+    "kind": "Trek",
+    "el": 3888,
+    "diff": "Moderate",
+    "base": "Pahalgam",
+    "permit": "Yatra registration"
+   }
   },
   {
    "n": 46,
@@ -967,7 +1022,13 @@
     7,
     9
    ],
-   "time": "Half day"
+   "time": "3–4 days",
+   "trek": {
+    "kind": "Trek",
+    "diff": "Moderate",
+    "el": 3962,
+    "base": "Aharbal"
+   }
   },
   {
    "n": 55,
@@ -983,7 +1044,13 @@
     5,
     10
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Pass",
+    "diff": "Easy",
+    "el": 3490,
+    "base": "Shopian"
+   }
   },
   {
    "n": 56,
@@ -1063,7 +1130,14 @@
     1,
     12
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "trek": {
+    "kind": "Trek",
+    "el": 1584,
+    "diff": "Easy",
+    "base": "Katra",
+    "permit": "Yatra registration"
+   }
   },
   {
    "n": 61,
@@ -1095,7 +1169,13 @@
     10,
     4
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 950,
+    "diff": "Easy",
+    "base": "Ransoo"
+   }
   },
   {
    "n": 63,
@@ -1559,7 +1639,13 @@
     7,
     8
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "trek": {
+    "kind": "Trek",
+    "el": 3590,
+    "diff": "Moderate",
+    "base": "Chandanwari"
+   }
   },
   {
    "n": 92,
@@ -1575,7 +1661,472 @@
     7,
     9
    ],
-   "time": "6 days"
+   "time": "6–7 days",
+   "trek": {
+    "kind": "Trek",
+    "diff": "Moderate",
+    "el": 4000,
+    "base": "Aru"
+   }
+  },
+  {
+   "n": 93,
+   "name": "Harmukh",
+   "district": "Ganderbal",
+   "category": "Peak",
+   "g": "hills",
+   "lat": 34.39,
+   "lng": 74.77,
+   "why": "Sacred peak above Gangabal lake, revered by Kashmiri Pandits",
+   "tier": "top",
+   "months": [
+    6,
+    9
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Peak",
+    "el": 5142,
+    "diff": "Expedition"
+   }
+  },
+  {
+   "n": 94,
+   "name": "Tulian Lake",
+   "district": "Anantnag",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 34.02,
+   "lng": 75.27,
+   "why": "Glacial lake above Baisaran, often frozen into June",
+   "tier": "gem",
+   "months": [
+    6,
+    9
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Hike",
+    "el": 3684,
+    "diff": "Moderate",
+    "base": "Pahalgam"
+   }
+  },
+  {
+   "n": 95,
+   "name": "Warwan Valley",
+   "district": "Kishtwar",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 33.8,
+   "lng": 75.63,
+   "why": "Remote valley of wooden villages, trekked from Kashmir to Kishtwar",
+   "tier": "gem",
+   "months": [
+    6,
+    9
+   ],
+   "time": "8 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 2500,
+    "diff": "Difficult",
+    "base": "Inshan"
+   }
+  },
+  {
+   "n": 96,
+   "name": "Marsar Lake",
+   "district": "Anantnag",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 34.15,
+   "lng": 75.09,
+   "why": "Lake source of the Dachigam stream, beyond Tarsar",
+   "tier": "gem",
+   "months": [
+    6,
+    9
+   ],
+   "time": "5 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 3800,
+    "diff": "Moderate",
+    "base": "Aru"
+   }
+  },
+  {
+   "n": 97,
+   "name": "Vishansar & Krishansar Lakes",
+   "district": "Ganderbal",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 34.35,
+   "lng": 75.05,
+   "why": "Twin glacial lakes on the Great Lakes route",
+   "tier": "gem",
+   "months": [
+    7,
+    9
+   ],
+   "time": "1 day from Nichnai",
+   "trek": {
+    "kind": "Trek",
+    "el": 3710,
+    "diff": "Moderate",
+    "base": "Sonamarg"
+   }
+  },
+  {
+   "n": 98,
+   "name": "Nafran Valley",
+   "district": "Ganderbal",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 34.33,
+   "lng": 75.0,
+   "why": "Meadows and lakes north of the Great Lakes route",
+   "tier": "gem",
+   "months": [
+    6,
+    9
+   ],
+   "time": "5 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 3500,
+    "diff": "Moderate",
+    "base": "Sonamarg"
+   }
+  },
+  {
+   "n": 99,
+   "name": "Apharwat Peak",
+   "district": "Baramulla",
+   "category": "Summit trek",
+   "g": "hills",
+   "lat": 34.02,
+   "lng": 74.33,
+   "why": "Summit above the Gulmarg gondola's second phase, with Alpather lake below",
+   "tier": "top",
+   "months": [
+    6,
+    9
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Summit trek",
+    "el": 4143,
+    "diff": "Moderate",
+    "base": "Gulmarg"
+   }
+  },
+  {
+   "n": 100,
+   "name": "Kaplas Lake",
+   "district": "Doda",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 33.0,
+   "lng": 75.7,
+   "why": "Sacred lake below the Kaplas peak above Bhaderwah",
+   "tier": "gem",
+   "months": [
+    6,
+    9
+   ],
+   "time": "4 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 4200,
+    "diff": "Difficult",
+    "base": "Bhaderwah"
+   }
+  },
+  {
+   "n": 101,
+   "name": "Kailash Kund",
+   "district": "Doda",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 32.96,
+   "lng": 75.77,
+   "why": "Lake of the Kailash yatra above Bhaderwah",
+   "tier": "gem",
+   "months": [
+    7,
+    8
+   ],
+   "time": "3 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 3900,
+    "diff": "Moderate",
+    "base": "Bhaderwah"
+   }
+  },
+  {
+   "n": 102,
+   "name": "Brahma Peaks",
+   "district": "Kishtwar",
+   "category": "Peak",
+   "g": "hills",
+   "lat": 33.38,
+   "lng": 76.07,
+   "why": "Kishtwar's hard granite peaks, seen from the Warwan trails",
+   "tier": "gem",
+   "months": [
+    6,
+    9
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Peak",
+    "el": 6416,
+    "diff": "Expedition"
+   }
+  },
+  {
+   "n": 103,
+   "name": "Mahadev Peak",
+   "district": "Srinagar",
+   "category": "Summit trek",
+   "g": "hills",
+   "lat": 34.18,
+   "lng": 74.98,
+   "why": "Summit above Srinagar with the Dal lake below",
+   "tier": "gem",
+   "months": [
+    6,
+    9
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Summit trek",
+    "el": 3966,
+    "diff": "Moderate",
+    "base": "Fakir Gujri"
+   }
+  },
+  {
+   "n": 104,
+   "name": "Bhaderwah Seoj Meadow",
+   "district": "Doda",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 32.95,
+   "lng": 75.75,
+   "why": "Alpine meadow above Bhaderwah",
+   "tier": "gem",
+   "months": [
+    5,
+    10
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Hike",
+    "el": 3000,
+    "diff": "Easy",
+    "base": "Bhaderwah"
+   }
+  },
+  {
+   "n": 105,
+   "name": "Banihal Pass",
+   "district": "Ramban",
+   "category": "Pass",
+   "g": "hills",
+   "lat": 33.47,
+   "lng": 75.2,
+   "why": "Old road pass over the Pir Panjal into the Kashmir valley",
+   "tier": "gem",
+   "months": [
+    5,
+    10
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Pass",
+    "el": 2832,
+    "diff": "Easy",
+    "base": "Banihal"
+   }
+  },
+  {
+   "n": 106,
+   "name": "Pir Panjal Pass",
+   "district": "Shopian",
+   "category": "Pass",
+   "g": "hills",
+   "lat": 33.64,
+   "lng": 74.54,
+   "why": "Mughal Road pass where emperors crossed into Kashmir",
+   "tier": "gem",
+   "months": [
+    5,
+    10
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Pass",
+    "el": 3490,
+    "diff": "Moderate",
+    "base": "Shopian"
+   }
+  },
+  {
+   "n": 107,
+   "name": "Konsarnag",
+   "district": "Kulgam",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 33.5,
+   "lng": 74.77,
+   "why": "Glacial lake below the Pir Panjal, source of the Vishav river",
+   "tier": "gem",
+   "months": [
+    7,
+    9
+   ],
+   "time": "4 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 3600,
+    "diff": "Difficult",
+    "base": "Kungwatan"
+   }
+  },
+  {
+   "n": 108,
+   "name": "Habba Khatoon Peak",
+   "district": "Bandipora",
+   "category": "Peak",
+   "g": "hills",
+   "lat": 34.64,
+   "lng": 74.8,
+   "why": "Pyramid peak of the Gurez valley, named after the poet-queen",
+   "tier": "gem",
+   "months": [
+    6,
+    9
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Peak",
+    "el": 4200,
+    "diff": "Expedition"
+   }
+  },
+  {
+   "n": 109,
+   "name": "Sunset Peak (Pir Panjal)",
+   "district": "Kulgam",
+   "category": "Peak",
+   "g": "hills",
+   "lat": 33.54,
+   "lng": 74.72,
+   "why": "Highest peak of the Pir Panjal range",
+   "tier": "gem",
+   "months": [
+    6,
+    9
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Peak",
+    "el": 4745,
+    "diff": "Expedition"
+   }
+  },
+  {
+   "n": 110,
+   "name": "Tatakuti",
+   "district": "Budgam",
+   "category": "Summit trek",
+   "g": "hills",
+   "lat": 33.73,
+   "lng": 74.57,
+   "why": "Pir Panjal peak above the Tosa Maidan meadows",
+   "tier": "gem",
+   "months": [
+    7,
+    9
+   ],
+   "time": "4 days",
+   "trek": {
+    "kind": "Summit trek",
+    "el": 4725,
+    "diff": "Difficult",
+    "base": "Tosa Maidan"
+   }
+  },
+  {
+   "n": 111,
+   "name": "Brahmasar Lake",
+   "district": "Kulgam",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 33.58,
+   "lng": 74.92,
+   "why": "Lake near Kausar Nag on the Pir Panjal",
+   "tier": "gem",
+   "months": [
+    7,
+    9
+   ],
+   "time": "3 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 3600,
+    "diff": "Moderate",
+    "base": "Aharbal"
+   }
+  },
+  {
+   "n": 112,
+   "name": "Machail Mata",
+   "district": "Kishtwar",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 33.43,
+   "lng": 76.23,
+   "why": "Goddess shrine of the Paddar valley; big yatra in July–August",
+   "tier": "gem",
+   "months": [
+    7,
+    9
+   ],
+   "time": "2 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 2900,
+    "diff": "Moderate",
+    "base": "Gulabgarh",
+    "permit": "Yatra registration"
+   }
+  },
+  {
+   "n": 113,
+   "name": "Chandanwari to Sheshnag",
+   "district": "Anantnag",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 34.07,
+   "lng": 75.42,
+   "why": "First stage of the Amarnath route, past the Pissu Top climb",
+   "tier": "gem",
+   "months": [
+    6,
+    9
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Trek",
+    "el": 3590,
+    "diff": "Moderate",
+    "base": "Chandanwari"
+   }
   }
  ],
  "festivals": [

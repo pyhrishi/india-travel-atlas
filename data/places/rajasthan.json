@@ -1494,7 +1494,13 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 870,
+    "diff": "Moderate",
+    "base": "Ajmer"
+   }
   },
   {
    "n": 85,
@@ -1686,7 +1692,13 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1100,
+    "diff": "Moderate",
+    "base": "Kumbhalgarh"
+   }
   },
   {
    "n": 97,

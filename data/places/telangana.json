@@ -467,7 +467,13 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 600,
+    "diff": "Easy",
+    "base": "Bhuvanagiri"
+   }
   },
   {
    "n": 25,
@@ -915,7 +921,13 @@
     7,
     10
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 400,
+    "diff": "Moderate",
+    "base": "Srisailam road"
+   }
   },
   {
    "n": 53,
@@ -1780,6 +1792,50 @@
     11
    ],
    "time": "2 hrs"
+  },
+  {
+   "n": 107,
+   "name": "Pandavula Gutta",
+   "district": "Jayashankar Bhupalpally",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 18.23,
+   "lng": 79.82,
+   "why": "Rock shelters with prehistoric paintings",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Hike",
+    "el": 400,
+    "diff": "Moderate",
+    "base": "Regonda"
+   }
+  },
+  {
+   "n": 108,
+   "name": "Khajaguda Rocks",
+   "district": "Rangareddy",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 17.43,
+   "lng": 78.38,
+   "why": "Granite boulder hill for sunset climbs in Hyderabad",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 600,
+    "diff": "Easy",
+    "base": "Hyderabad"
+   }
   }
  ],
  "festivals": [

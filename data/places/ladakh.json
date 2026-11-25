@@ -228,7 +228,13 @@
     5,
     10
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "trek": {
+    "kind": "Trek",
+    "el": 4500,
+    "diff": "Moderate",
+    "base": "Hemis"
+   }
   },
   {
    "n": 9,
@@ -340,7 +346,13 @@
     1,
     3
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "trek": {
+    "kind": "Trek",
+    "el": 4000,
+    "diff": "Moderate",
+    "base": "Zingchen"
+   }
   },
   {
    "n": 16,
@@ -356,7 +368,13 @@
     5,
     10
    ],
-   "time": "6–7 days"
+   "time": "6–8 days",
+   "trek": {
+    "kind": "Trek",
+    "diff": "Moderate",
+    "el": 5200,
+    "base": "Chilling"
+   }
   },
   {
    "n": 17,
@@ -372,7 +390,14 @@
     5,
     10
    ],
-   "time": "4–5 days"
+   "time": "4–5 days",
+   "trek": {
+    "kind": "Summit trek",
+    "diff": "Expedition",
+    "el": 6153,
+    "base": "Stok",
+    "permit": "Check status: Stok villagers closed the summit to climbers in 2020"
+   }
   },
   {
    "n": 18,
@@ -452,7 +477,14 @@
     5,
     10
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Pass",
+    "diff": "Easy",
+    "el": 5359,
+    "base": "Leh",
+    "permit": "Inner Line Permit"
+   }
   },
   {
    "n": 23,
@@ -500,7 +532,13 @@
     5,
     10
    ],
-   "time": "Overnight"
+   "time": "Overnight",
+   "trek": {
+    "kind": "Hike",
+    "el": 2900,
+    "diff": "Easy",
+    "base": "Turtuk"
+   }
   },
   {
    "n": 26,
@@ -564,7 +602,13 @@
     5,
     10
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 3510,
+    "diff": "Easy",
+    "base": "Lamayuru"
+   }
   },
   {
    "n": 30,
@@ -628,7 +672,13 @@
     5,
     10
    ],
-   "time": "Half day"
+   "time": "3 days",
+   "trek": {
+    "kind": "Trek",
+    "diff": "Easy",
+    "el": 3800,
+    "base": "Likir"
+   }
   },
   {
    "n": 34,
@@ -692,7 +742,14 @@
     5,
     9
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Pass",
+    "diff": "Easy",
+    "el": 5360,
+    "base": "Sakti",
+    "permit": "Inner Line Permit"
+   }
   },
   {
    "n": 38,
@@ -724,7 +781,14 @@
     5,
     9
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "trek": {
+    "kind": "Hike",
+    "el": 4530,
+    "diff": "Easy",
+    "base": "Tso Kar",
+    "permit": "Inner Line Permit"
+   }
   },
   {
    "n": 40,
@@ -772,7 +836,14 @@
     5,
     9
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Pass",
+    "diff": "Easy",
+    "el": 5799,
+    "base": "Hanle",
+    "permit": "Inner Line Permit"
+   }
   },
   {
    "n": 43,
@@ -996,7 +1067,14 @@
     1,
     2
    ],
-   "time": "8–9 days"
+   "time": "8–9 days",
+   "trek": {
+    "kind": "Trek",
+    "diff": "Difficult",
+    "el": 3400,
+    "base": "Chilling",
+    "permit": "Registration and medical check in Leh"
+   }
   },
   {
    "n": 57,
@@ -1061,6 +1139,581 @@
     10
    ],
    "time": "1–2 hrs"
+  },
+  {
+   "n": 61,
+   "name": "Saser Kangri",
+   "district": "Leh",
+   "category": "Peak",
+   "g": "hills",
+   "lat": 34.867,
+   "lng": 77.752,
+   "why": "Highest peak of the Saser Muztagh, above the Nubra valley",
+   "tier": "gem",
+   "months": [
+    6,
+    9
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Peak",
+    "el": 7672,
+    "diff": "Expedition"
+   }
+  },
+  {
+   "n": 62,
+   "name": "Nun Peak",
+   "district": "Kargil",
+   "category": "Peak",
+   "g": "hills",
+   "lat": 33.98,
+   "lng": 76.02,
+   "why": "Highest peak of the Zanskar range, seen from the Suru valley",
+   "tier": "top",
+   "months": [
+    6,
+    9
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Peak",
+    "el": 7135,
+    "diff": "Expedition"
+   }
+  },
+  {
+   "n": 63,
+   "name": "Kang Yatse",
+   "district": "Leh",
+   "category": "Summit trek",
+   "g": "hills",
+   "lat": 33.78,
+   "lng": 77.57,
+   "why": "Twin summits above the Markha valley; Kang Yatse II is a trekking peak",
+   "tier": "gem",
+   "months": [
+    7,
+    9
+   ],
+   "time": "10 days",
+   "trek": {
+    "kind": "Summit trek",
+    "el": 6400,
+    "diff": "Expedition",
+    "base": "Chilling"
+   }
+  },
+  {
+   "n": 64,
+   "name": "Dzo Jongo",
+   "district": "Leh",
+   "category": "Summit trek",
+   "g": "hills",
+   "lat": 33.77,
+   "lng": 77.54,
+   "why": "Trekking peak above the Markha valley",
+   "tier": "gem",
+   "months": [
+    7,
+    9
+   ],
+   "time": "8 days",
+   "trek": {
+    "kind": "Summit trek",
+    "el": 6280,
+    "diff": "Difficult",
+    "base": "Chilling"
+   }
+  },
+  {
+   "n": 65,
+   "name": "Golep Kangri",
+   "district": "Leh",
+   "category": "Summit trek",
+   "g": "hills",
+   "lat": 33.98,
+   "lng": 77.5,
+   "why": "Peak near Stok, an alternative since Stok Kangri closed",
+   "tier": "gem",
+   "months": [
+    7,
+    9
+   ],
+   "time": "5 days",
+   "trek": {
+    "kind": "Summit trek",
+    "el": 5800,
+    "diff": "Difficult",
+    "base": "Stok"
+   }
+  },
+  {
+   "n": 66,
+   "name": "Mentok Kangri",
+   "district": "Leh",
+   "category": "Summit trek",
+   "g": "hills",
+   "lat": 32.9,
+   "lng": 78.3,
+   "why": "Peak above Tso Moriri",
+   "tier": "gem",
+   "months": [
+    7,
+    9
+   ],
+   "time": "8 days",
+   "trek": {
+    "kind": "Summit trek",
+    "el": 6250,
+    "diff": "Difficult",
+    "base": "Korzok",
+    "permit": "Protected area permit"
+   }
+  },
+  {
+   "n": 67,
+   "name": "Lamayuru to Chilling",
+   "district": "Leh",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 34.16,
+   "lng": 76.9,
+   "why": "Remote passes from the Lamayuru monastery to the Zanskar river",
+   "tier": "top",
+   "months": [
+    6,
+    9
+   ],
+   "time": "6 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 4950,
+    "diff": "Difficult",
+    "base": "Lamayuru"
+   }
+  },
+  {
+   "n": 68,
+   "name": "Padum to Darcha",
+   "district": "Kargil",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 33.2,
+   "lng": 77.1,
+   "why": "Zanskar to Lahaul over the Shingo La, past Phugtal monastery",
+   "tier": "top",
+   "months": [
+    7,
+    9
+   ],
+   "time": "8 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 5091,
+    "diff": "Difficult",
+    "base": "Padum"
+   }
+  },
+  {
+   "n": 69,
+   "name": "Phugtal Monastery",
+   "district": "Kargil",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 33.2,
+   "lng": 77.07,
+   "why": "Monastery built into a cliff cave in Zanskar",
+   "tier": "top",
+   "months": [
+    6,
+    9
+   ],
+   "time": "3 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 3850,
+    "diff": "Moderate",
+    "base": "Cha"
+   }
+  },
+  {
+   "n": 70,
+   "name": "Rumtse to Tso Moriri",
+   "district": "Leh",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 33.3,
+   "lng": 77.9,
+   "why": "High plateau of nomads and wild asses on the Changthang",
+   "tier": "gem",
+   "months": [
+    7,
+    9
+   ],
+   "time": "8 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 5200,
+    "diff": "Difficult",
+    "base": "Rumtse",
+    "permit": "Protected area permit"
+   }
+  },
+  {
+   "n": 71,
+   "name": "Spituk to Stok",
+   "district": "Leh",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 34.05,
+   "lng": 77.5,
+   "why": "Short trek over the Stok La above Leh",
+   "tier": "gem",
+   "months": [
+    6,
+    9
+   ],
+   "time": "4 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 4800,
+    "diff": "Moderate",
+    "base": "Spituk"
+   }
+  },
+  {
+   "n": 72,
+   "name": "Nubra Valley Trek",
+   "district": "Leh",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 34.6,
+   "lng": 77.5,
+   "why": "Old trade route from Leh over the Lasermo La to Nubra",
+   "tier": "gem",
+   "months": [
+    6,
+    9
+   ],
+   "time": "6 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 5300,
+    "diff": "Difficult",
+    "base": "Phyang",
+    "permit": "Inner Line Permit"
+   }
+  },
+  {
+   "n": 73,
+   "name": "Zanskar Sumdo",
+   "district": "Kargil",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 33.15,
+   "lng": 76.9,
+   "why": "Remote route from Padum toward Lahaul",
+   "tier": "gem",
+   "months": [
+    7,
+    9
+   ],
+   "time": "7 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 4400,
+    "diff": "Difficult",
+    "base": "Padum"
+   }
+  },
+  {
+   "n": 74,
+   "name": "Marsimik La",
+   "district": "Leh",
+   "category": "Pass",
+   "g": "hills",
+   "lat": 34.11,
+   "lng": 78.57,
+   "why": "One of the world's highest motorable passes, near Pangong",
+   "tier": "gem",
+   "months": [
+    7,
+    9
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Pass",
+    "el": 5582,
+    "diff": "Difficult",
+    "base": "Lukung",
+    "permit": "Special permit"
+   }
+  },
+  {
+   "n": 75,
+   "name": "Wari La",
+   "district": "Leh",
+   "category": "Pass",
+   "g": "hills",
+   "lat": 34.29,
+   "lng": 77.9,
+   "why": "High road pass from Sakti to Nubra",
+   "tier": "gem",
+   "months": [
+    6,
+    9
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Pass",
+    "el": 5312,
+    "diff": "Moderate",
+    "base": "Sakti"
+   }
+  },
+  {
+   "n": 76,
+   "name": "Tanglang La",
+   "district": "Leh",
+   "category": "Pass",
+   "g": "hills",
+   "lat": 33.506,
+   "lng": 77.77,
+   "why": "Second-highest pass on the Manali–Leh highway",
+   "tier": "top",
+   "months": [
+    6,
+    9
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Pass",
+    "el": 5328,
+    "diff": "Moderate",
+    "base": "Rumtse"
+   }
+  },
+  {
+   "n": 77,
+   "name": "Fotu La",
+   "district": "Leh",
+   "category": "Pass",
+   "g": "hills",
+   "lat": 34.26,
+   "lng": 76.52,
+   "why": "Highest pass on the Srinagar–Leh road, above Lamayuru",
+   "tier": "gem",
+   "months": [
+    4,
+    10
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Pass",
+    "el": 4108,
+    "diff": "Easy",
+    "base": "Lamayuru"
+   }
+  },
+  {
+   "n": 78,
+   "name": "Kongmaru La",
+   "district": "Leh",
+   "category": "Pass",
+   "g": "hills",
+   "lat": 33.78,
+   "lng": 77.7,
+   "why": "Highest pass of the Markha valley trek",
+   "tier": "gem",
+   "months": [
+    7,
+    9
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Pass",
+    "el": 5200,
+    "diff": "Difficult",
+    "base": "Markha"
+   }
+  },
+  {
+   "n": 79,
+   "name": "Shingo La",
+   "district": "Kargil",
+   "category": "Pass",
+   "g": "hills",
+   "lat": 32.8,
+   "lng": 77.25,
+   "why": "Pass on the Lahaul–Zanskar road, now with a tunnel being built",
+   "tier": "top",
+   "months": [
+    7,
+    9
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Pass",
+    "el": 5091,
+    "diff": "Moderate",
+    "base": "Darcha"
+   }
+  },
+  {
+   "n": 80,
+   "name": "Changthang Wildlife Sanctuary",
+   "district": "Leh",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 33.5,
+   "lng": 78.5,
+   "why": "High plateau of kiang, Tibetan wolves and nomads",
+   "tier": "gem",
+   "months": [
+    6,
+    9
+   ],
+   "time": "5 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 4600,
+    "diff": "Moderate",
+    "base": "Hanle",
+    "permit": "Inner Line Permit"
+   }
+  },
+  {
+   "n": 81,
+   "name": "Zanskar Valley (Padum)",
+   "district": "Kargil",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 33.47,
+   "lng": 76.88,
+   "why": "Remote Buddhist valley of Karsha and Stongde monasteries",
+   "tier": "top",
+   "months": [
+    6,
+    9
+   ],
+   "time": "5 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 3600,
+    "diff": "Moderate",
+    "base": "Padum"
+   }
+  },
+  {
+   "n": 82,
+   "name": "Lungser Kangri",
+   "district": "Leh",
+   "category": "Summit trek",
+   "g": "hills",
+   "lat": 32.87,
+   "lng": 78.13,
+   "why": "Highest peak of the Rupshu, above Tso Moriri",
+   "tier": "gem",
+   "months": [
+    7,
+    9
+   ],
+   "time": "10 days",
+   "trek": {
+    "kind": "Summit trek",
+    "el": 6666,
+    "diff": "Expedition",
+    "base": "Korzok",
+    "permit": "Protected area permit"
+   }
+  },
+  {
+   "n": 83,
+   "name": "Chamser Kangri",
+   "district": "Leh",
+   "category": "Summit trek",
+   "g": "hills",
+   "lat": 32.9,
+   "lng": 78.25,
+   "why": "Twin of Lungser Kangri above Tso Moriri",
+   "tier": "gem",
+   "months": [
+    7,
+    9
+   ],
+   "time": "10 days",
+   "trek": {
+    "kind": "Summit trek",
+    "el": 6622,
+    "diff": "Expedition",
+    "base": "Korzok",
+    "permit": "Protected area permit"
+   }
+  },
+  {
+   "n": 84,
+   "name": "Mamostong Kangri",
+   "district": "Leh",
+   "category": "Peak",
+   "g": "hills",
+   "lat": 35.142,
+   "lng": 77.578,
+   "why": "Highest peak of the Rimo Muztagh in the eastern Karakoram",
+   "tier": "gem",
+   "months": [
+    6,
+    9
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Peak",
+    "el": 7516,
+    "diff": "Expedition"
+   }
+  },
+  {
+   "n": 85,
+   "name": "Rimo I",
+   "district": "Leh",
+   "category": "Peak",
+   "g": "hills",
+   "lat": 35.355,
+   "lng": 77.368,
+   "why": "Remote peak of the Karakoram above the Siachen",
+   "tier": "gem",
+   "months": [
+    6,
+    9
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Peak",
+    "el": 7385,
+    "diff": "Expedition"
+   }
+  },
+  {
+   "n": 86,
+   "name": "Ganda La",
+   "district": "Leh",
+   "category": "Pass",
+   "g": "hills",
+   "lat": 33.98,
+   "lng": 77.3,
+   "why": "Pass on the Markha valley route above Rumbak",
+   "tier": "gem",
+   "months": [
+    6,
+    9
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Pass",
+    "el": 4961,
+    "diff": "Moderate",
+    "base": "Rumbak"
+   }
   }
  ],
  "festivals": [

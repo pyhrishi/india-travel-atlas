@@ -353,7 +353,12 @@
     11,
     4
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "diff": "Easy",
+    "base": "Madhuban"
+   }
   },
   {
    "n": 19,
@@ -577,7 +582,14 @@
     11,
     4
    ],
-   "time": "Full day"
+   "time": "1 day",
+   "trek": {
+    "kind": "Summit trek",
+    "diff": "Moderate",
+    "el": 732,
+    "base": "Lamiya Bay",
+    "permit": "Forest permit"
+   }
   },
   {
    "n": 33,

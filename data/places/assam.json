@@ -2568,7 +2568,13 @@
     10,
     4
    ],
-   "time": "Half day"
+   "time": "1 day",
+   "trek": {
+    "kind": "Summit trek",
+    "diff": "Moderate",
+    "el": 1953,
+    "base": "Karbi Anglong"
+   }
   },
   {
    "name": "Kohora Karbi Cultural Centre",

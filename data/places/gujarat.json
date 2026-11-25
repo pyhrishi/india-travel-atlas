@@ -1237,7 +1237,13 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 600,
+    "diff": "Easy",
+    "base": "Taranga"
+   }
   },
   {
    "n": 67,
@@ -1381,7 +1387,13 @@
     10,
     3
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "trek": {
+    "kind": "Hike",
+    "el": 800,
+    "diff": "Moderate",
+    "base": "Champaner"
+   }
   },
   {
    "n": 76,
@@ -2982,6 +2994,50 @@
     9
    ],
    "time": "Half day"
+  },
+  {
+   "n": 176,
+   "name": "Shatrunjaya Hill",
+   "district": "Bhavnagar",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 21.48,
+   "lng": 71.8,
+   "why": "3,750 steps up to some 900 Jain temples at Palitana",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 600,
+    "diff": "Moderate",
+    "base": "Palitana"
+   }
+  },
+  {
+   "n": 177,
+   "name": "Chotila",
+   "district": "Surendranagar",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 22.42,
+   "lng": 71.2,
+   "why": "Hill of the Chamunda temple, about 700 steps up",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 340,
+    "diff": "Easy",
+    "base": "Chotila"
+   }
   }
  ],
  "festivals": [

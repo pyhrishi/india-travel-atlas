@@ -276,7 +276,14 @@
     10,
     5
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 3753,
+    "diff": "Easy",
+    "base": "Gangtok",
+    "permit": "Permit from Gangtok"
+   }
   },
   {
    "n": 12,
@@ -292,7 +299,14 @@
     10,
     5
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Pass",
+    "diff": "Easy",
+    "el": 4310,
+    "base": "Gangtok",
+    "permit": "Permit from Gangtok; Indians only"
+   }
   },
   {
    "n": 13,
@@ -484,7 +498,14 @@
     4,
     6
    ],
-   "time": "Full day from Lachen"
+   "time": "Full day from Lachen",
+   "trek": {
+    "kind": "Hike",
+    "el": 5183,
+    "diff": "Easy",
+    "base": "Lachen",
+    "permit": "Restricted area permit"
+   }
   },
   {
    "n": 25,
@@ -692,7 +713,13 @@
     10,
     5
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 1700,
+    "diff": "Easy",
+    "base": "Pelling"
+   }
   },
   {
    "n": 38,
@@ -788,7 +815,14 @@
     4,
     5
    ],
-   "time": "8–10 days"
+   "time": "9–11 days",
+   "trek": {
+    "kind": "Trek",
+    "diff": "Difficult",
+    "el": 4940,
+    "base": "Yuksom",
+    "permit": "Restricted area permit"
+   }
   },
   {
    "n": 44,
@@ -804,7 +838,13 @@
     4,
     5
    ],
-   "time": "4–5 days"
+   "time": "4–5 days",
+   "trek": {
+    "kind": "Trek",
+    "diff": "Moderate",
+    "el": 4020,
+    "base": "Yuksom"
+   }
   },
   {
    "n": 45,
@@ -980,7 +1020,13 @@
     10,
     5
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "diff": "Easy",
+    "el": 2600,
+    "base": "Damthang"
+   }
   },
   {
    "n": 56,
@@ -1060,7 +1106,13 @@
     10,
     5
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 3263,
+    "diff": "Moderate",
+    "base": "Ravangla"
+   }
   },
   {
    "n": 61,
@@ -1285,6 +1337,355 @@
     5
    ],
    "time": "Half day"
+  },
+  {
+   "n": 75,
+   "name": "Kangchenjunga",
+   "district": "Mangan",
+   "category": "Peak",
+   "g": "hills",
+   "lat": 27.703,
+   "lng": 88.147,
+   "why": "World's third-highest mountain, sacred to Sikkim; best seen from Pelling, Yuksom and Dzongri",
+   "tier": "icon",
+   "months": [
+    10,
+    5
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Peak",
+    "el": 8586,
+    "diff": "Expedition",
+    "permit": "Summit not climbed from India out of respect"
+   }
+  },
+  {
+   "n": 76,
+   "name": "Kabru",
+   "district": "Gyalshing",
+   "category": "Peak",
+   "g": "hills",
+   "lat": 27.636,
+   "lng": 88.118,
+   "why": "Snow wall south of Kangchenjunga, filling the view from Pelling",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Peak",
+    "el": 7412,
+    "diff": "Expedition"
+   }
+  },
+  {
+   "n": 77,
+   "name": "Pandim",
+   "district": "Gyalshing",
+   "category": "Peak",
+   "g": "hills",
+   "lat": 27.578,
+   "lng": 88.207,
+   "why": "Pointed peak above Thansing on the Goecha La route",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Peak",
+    "el": 6691,
+    "diff": "Expedition"
+   }
+  },
+  {
+   "n": 78,
+   "name": "Siniolchu",
+   "district": "Mangan",
+   "category": "Peak",
+   "g": "hills",
+   "lat": 27.709,
+   "lng": 88.369,
+   "why": "Fluted ice peak often called one of the world's most beautiful",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Peak",
+    "el": 6888,
+    "diff": "Expedition"
+   }
+  },
+  {
+   "n": 79,
+   "name": "Kanchenjunga Base Camp (Green Lake)",
+   "district": "Mangan",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 27.77,
+   "lng": 88.24,
+   "why": "Green Lake below Kangchenjunga's north-east face in the Zemu valley",
+   "tier": "gem",
+   "months": [
+    4,
+    10
+   ],
+   "time": "12–14 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 4935,
+    "diff": "Challenging",
+    "base": "Lachen",
+    "permit": "Restricted area permit"
+   }
+  },
+  {
+   "n": 80,
+   "name": "Singalila Ridge Trek",
+   "district": "Gyalshing",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 27.2,
+   "lng": 88.02,
+   "why": "Rhododendron ridge on the Sikkim–Nepal border with views of Everest and Kangchenjunga",
+   "tier": "gem",
+   "months": [
+    3,
+    5
+   ],
+   "time": "6 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 3636,
+    "diff": "Moderate",
+    "base": "Uttarey"
+   }
+  },
+  {
+   "n": 81,
+   "name": "Kedar Peak (Lachung)",
+   "district": "Mangan",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 27.7,
+   "lng": 88.75,
+   "why": "Ridge above the Lachung valley",
+   "tier": "gem",
+   "months": [
+    4,
+    10
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Hike",
+    "el": 4100,
+    "diff": "Moderate",
+    "base": "Lachung"
+   }
+  },
+  {
+   "n": 82,
+   "name": "Varsey Rhododendron Sanctuary",
+   "district": "Gyalshing",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 27.24,
+   "lng": 88.11,
+   "why": "4 km walk through rhododendrons in bloom to the Varsey hut",
+   "tier": "top",
+   "months": [
+    3,
+    5
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Hike",
+    "el": 3200,
+    "diff": "Easy",
+    "base": "Hilley"
+   }
+  },
+  {
+   "n": 83,
+   "name": "Yuksom to Tshoka",
+   "district": "Gyalshing",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 27.42,
+   "lng": 88.17,
+   "why": "First stage of the Goecha La route, through rhododendron forest",
+   "tier": "gem",
+   "months": [
+    3,
+    5
+   ],
+   "time": "2 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 2950,
+    "diff": "Easy",
+    "base": "Yuksom"
+   }
+  },
+  {
+   "n": 84,
+   "name": "Lampokhari Lake",
+   "district": "Pakyong",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 27.18,
+   "lng": 88.68,
+   "why": "Boot-shaped lake at Aritar in east Sikkim",
+   "tier": "gem",
+   "months": [
+    1,
+    12
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1400,
+    "diff": "Easy",
+    "base": "Aritar"
+   }
+  },
+  {
+   "n": 85,
+   "name": "Pauhunri",
+   "district": "Mangan",
+   "category": "Peak",
+   "g": "hills",
+   "lat": 27.95,
+   "lng": 88.82,
+   "why": "Peak on the Sikkim–Tibet border near the Gurudongmar lake",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Peak",
+    "el": 7128,
+    "diff": "Expedition"
+   }
+  },
+  {
+   "n": 86,
+   "name": "Jopuno",
+   "district": "Gyalshing",
+   "category": "Summit trek",
+   "g": "hills",
+   "lat": 27.53,
+   "lng": 88.23,
+   "why": "Climbing peak above Dzongri",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "10 days",
+   "trek": {
+    "kind": "Summit trek",
+    "el": 5936,
+    "diff": "Difficult",
+    "base": "Yuksom"
+   }
+  },
+  {
+   "n": 87,
+   "name": "Frey Peak",
+   "district": "Gyalshing",
+   "category": "Summit trek",
+   "g": "hills",
+   "lat": 27.5,
+   "lng": 88.13,
+   "why": "Peak on the Rathong glacier, climbed by the Himalayan Mountaineering Institute",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "10 days",
+   "trek": {
+    "kind": "Summit trek",
+    "el": 5830,
+    "diff": "Difficult",
+    "base": "Yuksom"
+   }
+  },
+  {
+   "n": 88,
+   "name": "Kangchengyao",
+   "district": "Mangan",
+   "category": "Peak",
+   "g": "hills",
+   "lat": 27.96,
+   "lng": 88.7,
+   "why": "Massif above Thangu and the Gurudongmar plateau",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Peak",
+    "el": 6889,
+    "diff": "Expedition"
+   }
+  },
+  {
+   "n": 89,
+   "name": "Thangshing & Samiti Lake",
+   "district": "Gyalshing",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 27.53,
+   "lng": 88.2,
+   "why": "Camps below Pandim on the Goecha La route",
+   "tier": "gem",
+   "months": [
+    3,
+    5
+   ],
+   "time": "8 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 4300,
+    "diff": "Moderate",
+    "base": "Yuksom"
+   }
+  },
+  {
+   "n": 90,
+   "name": "Sebu La",
+   "district": "Mangan",
+   "category": "Pass",
+   "g": "hills",
+   "lat": 27.9,
+   "lng": 88.68,
+   "why": "High pass between the Lachen and Lachung valleys",
+   "tier": "gem",
+   "months": [
+    6,
+    9
+   ],
+   "time": "6 days",
+   "trek": {
+    "kind": "Pass",
+    "el": 5300,
+    "diff": "Difficult",
+    "base": "Thangu",
+    "permit": "Restricted area permit"
+   }
   }
  ],
  "festivals": [

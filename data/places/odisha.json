@@ -708,7 +708,13 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "diff": "Easy",
+    "el": 1501,
+    "base": "Paralakhemundi"
+   }
   },
   {
    "n": 38,
@@ -852,7 +858,13 @@
     10,
     3
    ],
-   "time": "Full day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Summit trek",
+    "diff": "Easy",
+    "el": 1672,
+    "base": "Koraput"
+   }
   },
   {
    "n": 47,
@@ -2437,6 +2449,50 @@
     4
    ],
    "time": "1 hr"
+  },
+  {
+   "n": 146,
+   "name": "Kapilas Hill",
+   "district": "Dhenkanal",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 20.72,
+   "lng": 85.8,
+   "why": "Hill shrine of Shiva above the Dhenkanal forests",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 700,
+    "diff": "Easy",
+    "base": "Kapilas"
+   }
+  },
+  {
+   "n": 147,
+   "name": "Malayagiri",
+   "district": "Angul",
+   "category": "Summit trek",
+   "g": "hills",
+   "lat": 21.38,
+   "lng": 85.27,
+   "why": "Highest peak of central Odisha",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Summit trek",
+    "el": 1187,
+    "diff": "Moderate",
+    "base": "Pallahara"
+   }
   }
  ],
  "festivals": [

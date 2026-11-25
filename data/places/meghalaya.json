@@ -127,7 +127,13 @@
     10,
     5
    ],
-   "time": "Full day (or overnight)"
+   "time": "Full day (or overnight)",
+   "trek": {
+    "kind": "Hike",
+    "el": 600,
+    "diff": "Moderate",
+    "base": "Tyrna"
+   }
   },
   {
    "n": 2,
@@ -143,7 +149,13 @@
     6,
     10
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "trek": {
+    "kind": "Hike",
+    "el": 500,
+    "diff": "Moderate",
+    "base": "Tyrna"
+   }
   },
   {
    "n": 3,
@@ -495,7 +507,13 @@
     10,
     4
    ],
-   "time": "Half day"
+   "time": "1 day",
+   "trek": {
+    "kind": "Trek",
+    "diff": "Easy",
+    "el": 1500,
+    "base": "Mawphlang"
+   }
   },
   {
    "n": 25,
@@ -751,7 +769,13 @@
     10,
     4
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Summit trek",
+    "el": 1412,
+    "diff": "Moderate",
+    "base": "Daribokgre"
+   }
   },
   {
    "n": 41,
@@ -943,7 +967,13 @@
     10,
     5
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 800,
+    "diff": "Easy",
+    "base": "Mawlyngbna"
+   }
   },
   {
    "n": 53,
@@ -1408,6 +1438,94 @@
     2
    ],
    "time": "2 hrs"
+  },
+  {
+   "n": 82,
+   "name": "Nongkhnum Island",
+   "district": "West Khasi Hills",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 25.58,
+   "lng": 91.2,
+   "why": "Large river island with the Langshiang falls nearby",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Hike",
+    "el": 400,
+    "diff": "Easy",
+    "base": "Nongstoin"
+   }
+  },
+  {
+   "n": 83,
+   "name": "Mawryngkhang Trek",
+   "district": "East Khasi Hills",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 25.42,
+   "lng": 91.62,
+   "why": "Bamboo-plank walkway to the 'king of stones' rock",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1400,
+    "diff": "Moderate",
+    "base": "Wahkhen"
+   }
+  },
+  {
+   "n": 84,
+   "name": "Nohkalikai Falls Trail",
+   "district": "East Khasi Hills",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 25.276,
+   "lng": 91.684,
+   "why": "Steps down toward the pool of India's tallest plunge falls",
+   "tier": "top",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1200,
+    "diff": "Moderate",
+    "base": "Sohra"
+   }
+  },
+  {
+   "n": 85,
+   "name": "Balpakram",
+   "district": "South Garo Hills",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 25.25,
+   "lng": 90.9,
+   "why": "Canyon plateau the Garos call the abode of spirits",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Hike",
+    "el": 800,
+    "diff": "Moderate",
+    "base": "Baghmara"
+   }
   }
  ],
  "festivals": [

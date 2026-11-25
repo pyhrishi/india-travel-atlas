@@ -183,7 +183,14 @@
     5,
     10
    ],
-   "time": "2 days"
+   "time": "2 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 3583,
+    "diff": "Moderate",
+    "base": "Gaurikund",
+    "permit": "Yatra registration"
+   }
   },
   {
    "n": 2,
@@ -247,7 +254,14 @@
     5,
     10
    ],
-   "time": "3 days"
+   "time": "3 days",
+   "trek": {
+    "kind": "Trek",
+    "diff": "Moderate",
+    "el": 4023,
+    "base": "Gangotri",
+    "permit": "Gangotri National Park permit"
+   }
   },
   {
    "n": 6,
@@ -263,7 +277,14 @@
     5,
     10
    ],
-   "time": "Half day"
+   "time": "5 days",
+   "trek": {
+    "kind": "Trek",
+    "diff": "Difficult",
+    "el": 4460,
+    "base": "Gangotri",
+    "permit": "Gangotri National Park permit"
+   }
   },
   {
    "n": 7,
@@ -343,7 +364,13 @@
     12,
     4
    ],
-   "time": "4–5 days"
+   "time": "5–6 days",
+   "trek": {
+    "kind": "Summit trek",
+    "diff": "Moderate",
+    "el": 3810,
+    "base": "Sankri"
+   }
   },
   {
    "n": 12,
@@ -359,7 +386,13 @@
     3,
     6
    ],
-   "time": "6–7 days"
+   "time": "6–7 days",
+   "trek": {
+    "kind": "Trek",
+    "diff": "Moderate",
+    "el": 3566,
+    "base": "Sankri"
+   }
   },
   {
    "n": 13,
@@ -455,7 +488,14 @@
     6,
     10
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "trek": {
+    "kind": "Trek",
+    "el": 4632,
+    "diff": "Moderate",
+    "base": "Govindghat",
+    "permit": "Yatra registration"
+   }
   },
   {
    "n": 19,
@@ -519,7 +559,13 @@
     5,
     10
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 3600,
+    "diff": "Moderate",
+    "base": "Mana"
+   }
   },
   {
    "n": 23,
@@ -535,7 +581,14 @@
     5,
     10
    ],
-   "time": "Half day"
+   "time": "5–6 days",
+   "trek": {
+    "kind": "Trek",
+    "diff": "Difficult",
+    "el": 4600,
+    "base": "Mana",
+    "permit": "Inner Line and park permits"
+   }
   },
   {
    "n": 24,
@@ -551,7 +604,13 @@
     10,
     5
    ],
-   "time": "5–6 days"
+   "time": "5–6 days",
+   "trek": {
+    "kind": "Pass",
+    "diff": "Moderate",
+    "el": 3876,
+    "base": "Tapovan (Joshimath)"
+   }
   },
   {
    "n": 25,
@@ -567,7 +626,14 @@
     5,
     10
    ],
-   "time": "8 days"
+   "time": "8 days",
+   "trek": {
+    "kind": "Trek",
+    "diff": "Difficult",
+    "el": 5029,
+    "base": "Lohajung",
+    "permit": "Check current rules: camping above Bedni restricted"
+   }
   },
   {
    "n": 26,
@@ -599,7 +665,13 @@
     10,
     4
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "trek": {
+    "kind": "Hike",
+    "el": 3680,
+    "diff": "Moderate",
+    "base": "Chopta"
+   }
   },
   {
    "n": 28,
@@ -647,7 +719,13 @@
     10,
     4
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 3050,
+    "diff": "Easy",
+    "base": "Kanak Chauri"
+   }
   },
   {
    "n": 31,
@@ -695,7 +773,13 @@
     10,
     4
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 2200,
+    "diff": "Easy",
+    "base": "Urgam"
+   }
   },
   {
    "n": 34,
@@ -711,7 +795,13 @@
     5,
     10
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "trek": {
+    "kind": "Trek",
+    "el": 3600,
+    "diff": "Difficult",
+    "base": "Sagar"
+   }
   },
   {
    "n": 35,
@@ -903,7 +993,13 @@
     10,
     4
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 1600,
+    "diff": "Easy",
+    "base": "Rishikesh"
+   }
   },
   {
    "n": 47,
@@ -919,7 +1015,13 @@
     10,
     4
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 1676,
+    "diff": "Easy",
+    "base": "Rishikesh"
+   }
   },
   {
    "n": 48,
@@ -1063,7 +1165,13 @@
     10,
     4
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 2100,
+    "diff": "Easy",
+    "base": "Mussoorie"
+   }
   },
   {
    "n": 57,
@@ -1111,7 +1219,13 @@
     10,
     4
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 2750,
+    "diff": "Easy",
+    "base": "Kaddukhal"
+   }
   },
   {
    "n": 60,
@@ -1143,7 +1257,13 @@
     10,
     4
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 1500,
+    "diff": "Easy",
+    "base": "Chakrata"
+   }
   },
   {
    "n": 62,
@@ -1559,7 +1679,13 @@
     10,
     4
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "trek": {
+    "kind": "Hike",
+    "el": 2412,
+    "diff": "Easy",
+    "base": "Binsar"
+   }
   },
   {
    "n": 88,
@@ -1735,7 +1861,13 @@
     3,
     6
    ],
-   "time": "6 days"
+   "time": "6 days",
+   "trek": {
+    "kind": "Trek",
+    "diff": "Moderate",
+    "el": 3660,
+    "base": "Kharkiya"
+   }
   },
   {
    "n": 99,
@@ -1751,7 +1883,13 @@
     3,
     6
    ],
-   "time": "Half day"
+   "time": "5–6 days",
+   "trek": {
+    "kind": "Trek",
+    "diff": "Moderate",
+    "el": 3860,
+    "base": "Kharkiya"
+   }
   },
   {
    "n": 100,
@@ -1783,7 +1921,13 @@
     3,
     6
    ],
-   "time": "Half day"
+   "time": "1 day",
+   "trek": {
+    "kind": "Hike",
+    "diff": "Easy",
+    "el": 3500,
+    "base": "Munsiyari"
+   }
   },
   {
    "n": 102,
@@ -1799,7 +1943,14 @@
     5,
     10
    ],
-   "time": "Half day"
+   "time": "8–10 days",
+   "trek": {
+    "kind": "Trek",
+    "diff": "Difficult",
+    "el": 3870,
+    "base": "Munsiyari",
+    "permit": "Inner Line Permit"
+   }
   },
   {
    "n": 103,
@@ -2135,7 +2286,13 @@
     3,
     6
    ],
-   "time": "2 days"
+   "time": "2 days",
+   "trek": {
+    "kind": "Summit trek",
+    "diff": "Easy",
+    "el": 3022,
+    "base": "Pantwari"
+   }
   },
   {
    "n": 124,
@@ -2183,7 +2340,13 @@
     3,
     6
    ],
-   "time": "Half day"
+   "time": "7–8 days",
+   "trek": {
+    "kind": "Trek",
+    "diff": "Difficult",
+    "el": 3717,
+    "base": "Ghuttu"
+   }
   },
   {
    "n": 127,
@@ -2231,7 +2394,13 @@
     12,
     3
    ],
-   "time": "Half day"
+   "time": "6 days",
+   "trek": {
+    "kind": "Summit trek",
+    "diff": "Moderate",
+    "el": 3734,
+    "base": "Lohajung"
+   }
   },
   {
    "n": 130,
@@ -2375,7 +2544,13 @@
     3,
     6
    ],
-   "time": "Half day"
+   "time": "7 days",
+   "trek": {
+    "kind": "Trek",
+    "diff": "Difficult",
+    "el": 4200,
+    "base": "Khati"
+   }
   },
   {
    "n": 139,
@@ -2504,6 +2679,1139 @@
     3
    ],
    "time": "1–2 hrs"
+  },
+  {
+   "n": 147,
+   "name": "Nanda Devi",
+   "district": "Chamoli",
+   "category": "Peak",
+   "g": "hills",
+   "lat": 30.376,
+   "lng": 79.971,
+   "why": "India's highest peak wholly inside the country; seen from Kausani, Munsiyari and the Kuari Pass trail",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Peak",
+    "el": 7816,
+    "diff": "Expedition",
+    "permit": "Inner sanctuary closed to visitors"
+   }
+  },
+  {
+   "n": 148,
+   "name": "Kamet",
+   "district": "Chamoli",
+   "category": "Peak",
+   "g": "hills",
+   "lat": 30.92,
+   "lng": 79.592,
+   "why": "Second-highest peak in the Garhwal Himalaya, first climbed in 1931; seen from Auli",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Peak",
+    "el": 7756,
+    "diff": "Expedition"
+   }
+  },
+  {
+   "n": 149,
+   "name": "Trishul",
+   "district": "Chamoli",
+   "category": "Peak",
+   "g": "hills",
+   "lat": 30.312,
+   "lng": 79.776,
+   "why": "Three-pronged massif named for Shiva's trident; the classic view from Kausani and Bedni Bugyal",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Peak",
+    "el": 7120,
+    "diff": "Expedition"
+   }
+  },
+  {
+   "n": 150,
+   "name": "Chaukhamba",
+   "district": "Chamoli",
+   "category": "Peak",
+   "g": "hills",
+   "lat": 30.749,
+   "lng": 79.29,
+   "why": "Four-summited massif above Badrinath; the sunrise view from Chandrashila and Deoria Tal",
+   "tier": "top",
+   "months": [
+    10,
+    4
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Peak",
+    "el": 7138,
+    "diff": "Expedition"
+   }
+  },
+  {
+   "n": 151,
+   "name": "Shivling (Garhwal)",
+   "district": "Uttarkashi",
+   "category": "Peak",
+   "g": "hills",
+   "lat": 30.882,
+   "lng": 79.063,
+   "why": "Sharp pyramid above Tapovan and the Gangotri glacier",
+   "tier": "top",
+   "months": [
+    5,
+    10
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Peak",
+    "el": 6543,
+    "diff": "Expedition"
+   }
+  },
+  {
+   "n": 152,
+   "name": "Bhagirathi Peaks",
+   "district": "Uttarkashi",
+   "category": "Peak",
+   "g": "hills",
+   "lat": 30.851,
+   "lng": 79.155,
+   "why": "Three peaks at the head of the Gangotri glacier, seen from Gaumukh",
+   "tier": "gem",
+   "months": [
+    5,
+    10
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Peak",
+    "el": 6856,
+    "diff": "Expedition"
+   }
+  },
+  {
+   "n": 153,
+   "name": "Panchachuli",
+   "district": "Pithoragarh",
+   "category": "Peak",
+   "g": "hills",
+   "lat": 30.215,
+   "lng": 80.428,
+   "why": "Five snow peaks behind Munsiyari, said to be the Pandavas' last kitchen fires",
+   "tier": "top",
+   "months": [
+    10,
+    4
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Peak",
+    "el": 6904,
+    "diff": "Expedition"
+   }
+  },
+  {
+   "n": 154,
+   "name": "Bandarpunch",
+   "district": "Uttarkashi",
+   "category": "Peak",
+   "g": "hills",
+   "lat": 31.003,
+   "lng": 78.552,
+   "why": "The 'monkey's tail' massif seen from Kedarkantha and Har Ki Dun",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Peak",
+    "el": 6316,
+    "diff": "Expedition"
+   }
+  },
+  {
+   "n": 155,
+   "name": "Swargarohini",
+   "district": "Uttarkashi",
+   "category": "Peak",
+   "g": "hills",
+   "lat": 31.088,
+   "lng": 78.545,
+   "why": "Peak at the head of Har Ki Dun, the Pandavas' stairway to heaven",
+   "tier": "gem",
+   "months": [
+    5,
+    10
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Peak",
+    "el": 6252,
+    "diff": "Expedition"
+   }
+  },
+  {
+   "n": 156,
+   "name": "Deoria Tal",
+   "district": "Rudraprayag",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 30.522,
+   "lng": 79.128,
+   "why": "Lake that mirrors the Chaukhamba peaks, a 2.5 km walk from Sari",
+   "tier": "top",
+   "months": [
+    3,
+    12
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Hike",
+    "el": 2438,
+    "diff": "Easy",
+    "base": "Sari"
+   }
+  },
+  {
+   "n": 157,
+   "name": "Bali Pass",
+   "district": "Uttarkashi",
+   "category": "Pass",
+   "g": "hills",
+   "lat": 31.05,
+   "lng": 78.47,
+   "why": "High pass linking Har Ki Dun and Ruinsara to Yamunotri",
+   "tier": "gem",
+   "months": [
+    5,
+    10
+   ],
+   "time": "7–8 days",
+   "trek": {
+    "kind": "Pass",
+    "el": 4950,
+    "diff": "Challenging",
+    "base": "Sankri"
+   }
+  },
+  {
+   "n": 158,
+   "name": "Ruinsara Tal",
+   "district": "Uttarkashi",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 31.072,
+   "lng": 78.497,
+   "why": "Lake below Swargarohini on the Supin valley trail",
+   "tier": "gem",
+   "months": [
+    5,
+    10
+   ],
+   "time": "6 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 3500,
+    "diff": "Moderate",
+    "base": "Sankri"
+   }
+  },
+  {
+   "n": 159,
+   "name": "Phulara Ridge",
+   "district": "Uttarkashi",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 31.025,
+   "lng": 78.25,
+   "why": "Ridge walk above the tree line with Swargarohini and Bandarpunch in view",
+   "tier": "gem",
+   "months": [
+    4,
+    6
+   ],
+   "time": "5 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 3600,
+    "diff": "Moderate",
+    "base": "Sankri"
+   }
+  },
+  {
+   "n": 160,
+   "name": "Borasu Pass",
+   "district": "Uttarkashi",
+   "category": "Pass",
+   "g": "hills",
+   "lat": 31.23,
+   "lng": 78.4,
+   "why": "Old shepherd pass from Har Ki Dun to Chitkul in Kinnaur",
+   "tier": "gem",
+   "months": [
+    6,
+    9
+   ],
+   "time": "8 days",
+   "trek": {
+    "kind": "Pass",
+    "el": 5450,
+    "diff": "Challenging",
+    "base": "Sankri"
+   }
+  },
+  {
+   "n": 161,
+   "name": "Kalindi Khal",
+   "district": "Uttarkashi",
+   "category": "Pass",
+   "g": "hills",
+   "lat": 30.9,
+   "lng": 79.24,
+   "why": "High glacier pass from Gangotri to Badrinath, one of India's hardest treks",
+   "tier": "gem",
+   "months": [
+    6,
+    9
+   ],
+   "time": "12–14 days",
+   "trek": {
+    "kind": "Pass",
+    "el": 5947,
+    "diff": "Expedition",
+    "base": "Gangotri",
+    "permit": "Inner Line and park permits"
+   }
+  },
+  {
+   "n": 162,
+   "name": "Audens Col",
+   "district": "Uttarkashi",
+   "category": "Pass",
+   "g": "hills",
+   "lat": 30.85,
+   "lng": 78.92,
+   "why": "Glacier col between Rudugaira and the Khatling glacier",
+   "tier": "gem",
+   "months": [
+    6,
+    9
+   ],
+   "time": "12 days",
+   "trek": {
+    "kind": "Pass",
+    "el": 5490,
+    "diff": "Expedition",
+    "base": "Ghuttu"
+   }
+  },
+  {
+   "n": 163,
+   "name": "Dodital",
+   "district": "Uttarkashi",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 30.881,
+   "lng": 78.519,
+   "why": "Forest lake held to be Ganesha's birthplace, on the way to Darwa top",
+   "tier": "top",
+   "months": [
+    4,
+    11
+   ],
+   "time": "4 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 3024,
+    "diff": "Easy",
+    "base": "Sangamchatti"
+   }
+  },
+  {
+   "n": 164,
+   "name": "Darwa Top",
+   "district": "Uttarkashi",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 30.9,
+   "lng": 78.5,
+   "why": "Ridge above Dodital facing Bandarpunch",
+   "tier": "gem",
+   "months": [
+    5,
+    10
+   ],
+   "time": "5 days",
+   "trek": {
+    "kind": "Hike",
+    "el": 4150,
+    "diff": "Moderate",
+    "base": "Sangamchatti"
+   }
+  },
+  {
+   "n": 165,
+   "name": "Gidara Bugyal",
+   "district": "Uttarkashi",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 30.85,
+   "lng": 78.6,
+   "why": "Wide alpine meadow above the Bhagirathi valley",
+   "tier": "gem",
+   "months": [
+    5,
+    10
+   ],
+   "time": "5 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 3800,
+    "diff": "Moderate",
+    "base": "Bhukki"
+   }
+  },
+  {
+   "n": 166,
+   "name": "Bhrigu Pathar",
+   "district": "Uttarkashi",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 31.04,
+   "lng": 78.7,
+   "why": "Meadows and ridges above Harsil with views of the Gangotri peaks",
+   "tier": "gem",
+   "months": [
+    5,
+    10
+   ],
+   "time": "6 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 4120,
+    "diff": "Moderate",
+    "base": "Harsil"
+   }
+  },
+  {
+   "n": 167,
+   "name": "Kush Kalyan",
+   "district": "Uttarkashi",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 30.77,
+   "lng": 78.77,
+   "why": "Meadow trek above the Bhilangana valley",
+   "tier": "gem",
+   "months": [
+    5,
+    10
+   ],
+   "time": "5 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 4000,
+    "diff": "Moderate",
+    "base": "Silla"
+   }
+  },
+  {
+   "n": 168,
+   "name": "Sahastra Tal",
+   "district": "Tehri Garhwal",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 30.92,
+   "lng": 78.77,
+   "why": "Cluster of high lakes, the 'thousand lakes', above Malla",
+   "tier": "gem",
+   "months": [
+    6,
+    9
+   ],
+   "time": "7 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 4572,
+    "diff": "Difficult",
+    "base": "Malla"
+   }
+  },
+  {
+   "n": 169,
+   "name": "Masar Tal",
+   "district": "Tehri Garhwal",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 30.7,
+   "lng": 78.9,
+   "why": "Remote high lake below the Kedarnath range",
+   "tier": "gem",
+   "months": [
+    6,
+    9
+   ],
+   "time": "7 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 4135,
+    "diff": "Difficult",
+    "base": "Reeh"
+   }
+  },
+  {
+   "n": 170,
+   "name": "Vasuki Tal",
+   "district": "Rudraprayag",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 30.76,
+   "lng": 79.02,
+   "why": "Glacial lake 8 km above Kedarnath facing Chaukhamba",
+   "tier": "gem",
+   "months": [
+    6,
+    9
+   ],
+   "time": "1 day from Kedarnath",
+   "trek": {
+    "kind": "Trek",
+    "el": 4135,
+    "diff": "Difficult",
+    "base": "Kedarnath"
+   }
+  },
+  {
+   "n": 171,
+   "name": "Madmaheshwar",
+   "district": "Rudraprayag",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 30.636,
+   "lng": 79.216,
+   "why": "Panch Kedar temple in a meadow below Chaukhamba",
+   "tier": "top",
+   "months": [
+    5,
+    10
+   ],
+   "time": "3 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 3497,
+    "diff": "Moderate",
+    "base": "Ransi"
+   }
+  },
+  {
+   "n": 172,
+   "name": "Panch Kedar Trek",
+   "district": "Rudraprayag",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 30.62,
+   "lng": 79.21,
+   "why": "All five Kedar temples on one route: Kedarnath, Madmaheshwar, Tungnath, Rudranath, Kalpeshwar",
+   "tier": "top",
+   "months": [
+    5,
+    10
+   ],
+   "time": "12–15 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 3680,
+    "diff": "Difficult",
+    "base": "Gaurikund"
+   }
+  },
+  {
+   "n": 173,
+   "name": "Pangarchulla",
+   "district": "Chamoli",
+   "category": "Summit trek",
+   "g": "hills",
+   "lat": 30.57,
+   "lng": 79.64,
+   "why": "Summit beyond the Kuari Pass with views of Nanda Devi and Dronagiri",
+   "tier": "gem",
+   "months": [
+    3,
+    5
+   ],
+   "time": "6 days",
+   "trek": {
+    "kind": "Summit trek",
+    "el": 4590,
+    "diff": "Difficult",
+    "base": "Tapovan (Joshimath)"
+   }
+  },
+  {
+   "n": 174,
+   "name": "Gorson Bugyal",
+   "district": "Chamoli",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 30.54,
+   "lng": 79.59,
+   "why": "Meadow above Auli with oak forest and views of Nanda Devi",
+   "tier": "gem",
+   "months": [
+    3,
+    11
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Hike",
+    "el": 3050,
+    "diff": "Easy",
+    "base": "Auli"
+   }
+  },
+  {
+   "n": 175,
+   "name": "Bagini Glacier",
+   "district": "Chamoli",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 30.7,
+   "lng": 79.83,
+   "why": "Base camp of Changabang and Dunagiri on the Bagini glacier",
+   "tier": "gem",
+   "months": [
+    5,
+    10
+   ],
+   "time": "7 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 4500,
+    "diff": "Difficult",
+    "base": "Jumma"
+   }
+  },
+  {
+   "n": 176,
+   "name": "Dronagiri Village",
+   "district": "Chamoli",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 30.72,
+   "lng": 79.83,
+   "why": "Village of the Dronagiri peak, linked to Hanuman's mountain in the Ramayana",
+   "tier": "gem",
+   "months": [
+    5,
+    10
+   ],
+   "time": "3 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 3600,
+    "diff": "Moderate",
+    "base": "Jumma"
+   }
+  },
+  {
+   "n": 177,
+   "name": "Nanda Devi East Base Camp",
+   "district": "Pithoragarh",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 30.33,
+   "lng": 80.07,
+   "why": "Milam valley route to the foot of Nanda Devi East",
+   "tier": "gem",
+   "months": [
+    5,
+    10
+   ],
+   "time": "10 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 4200,
+    "diff": "Difficult",
+    "base": "Munsiyari"
+   }
+  },
+  {
+   "n": 178,
+   "name": "Ralam Glacier",
+   "district": "Pithoragarh",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 30.33,
+   "lng": 80.2,
+   "why": "Remote valley of the Johar Bhotiya villages",
+   "tier": "gem",
+   "months": [
+    5,
+    10
+   ],
+   "time": "10 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 4200,
+    "diff": "Difficult",
+    "base": "Munsiyari"
+   }
+  },
+  {
+   "n": 179,
+   "name": "Panchachuli Base Camp",
+   "district": "Pithoragarh",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 30.17,
+   "lng": 80.45,
+   "why": "Trek up the Darma valley to the glaciers below the Panchachuli peaks",
+   "tier": "gem",
+   "months": [
+    5,
+    10
+   ],
+   "time": "8 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 4260,
+    "diff": "Moderate",
+    "base": "Dhar",
+    "permit": "Inner Line Permit"
+   }
+  },
+  {
+   "n": 180,
+   "name": "Namik Glacier",
+   "district": "Pithoragarh",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 30.23,
+   "lng": 80.05,
+   "why": "Glacier below Nanda Kot, source of the Ramganga",
+   "tier": "gem",
+   "months": [
+    5,
+    10
+   ],
+   "time": "6 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 3600,
+    "diff": "Moderate",
+    "base": "Gogina"
+   }
+  },
+  {
+   "n": 181,
+   "name": "Naina Peak (China Peak)",
+   "district": "Nainital",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 29.393,
+   "lng": 79.443,
+   "why": "Highest point above Nainital, a 6 km walk with snow-peak views",
+   "tier": "top",
+   "months": [
+    9,
+    6
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 2615,
+    "diff": "Easy",
+    "base": "Nainital"
+   }
+  },
+  {
+   "n": 182,
+   "name": "Dunagiri (Almora)",
+   "district": "Almora",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 29.81,
+   "lng": 79.44,
+   "why": "Forested hill with the Dunagiri temple, 500 steps up",
+   "tier": "gem",
+   "months": [
+    9,
+    6
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 2400,
+    "diff": "Easy",
+    "base": "Dwarahat"
+   }
+  },
+  {
+   "n": 183,
+   "name": "Neelkanth (Garhwal)",
+   "district": "Chamoli",
+   "category": "Peak",
+   "g": "hills",
+   "lat": 30.731,
+   "lng": 79.401,
+   "why": "The 'Queen of Garhwal' pyramid that towers over Badrinath",
+   "tier": "top",
+   "months": [
+    5,
+    10
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Peak",
+    "el": 6596,
+    "diff": "Expedition"
+   }
+  },
+  {
+   "n": 184,
+   "name": "Thalay Sagar",
+   "district": "Uttarkashi",
+   "category": "Peak",
+   "g": "hills",
+   "lat": 30.857,
+   "lng": 78.995,
+   "why": "Sheer shark's-fin peak of the Gangotri group, seen from Kedartal",
+   "tier": "gem",
+   "months": [
+    5,
+    10
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Peak",
+    "el": 6904,
+    "diff": "Expedition"
+   }
+  },
+  {
+   "n": 185,
+   "name": "Meru Peak",
+   "district": "Uttarkashi",
+   "category": "Peak",
+   "g": "hills",
+   "lat": 30.867,
+   "lng": 79.033,
+   "why": "Peak whose 'Shark's Fin' route was first climbed in 2011; seen from Tapovan",
+   "tier": "gem",
+   "months": [
+    5,
+    10
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Peak",
+    "el": 6660,
+    "diff": "Expedition"
+   }
+  },
+  {
+   "n": 186,
+   "name": "Changabang",
+   "district": "Chamoli",
+   "category": "Peak",
+   "g": "hills",
+   "lat": 30.505,
+   "lng": 79.928,
+   "why": "Granite tooth on the Nanda Devi sanctuary wall, seen from the Bagini glacier",
+   "tier": "gem",
+   "months": [
+    5,
+    10
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Peak",
+    "el": 6864,
+    "diff": "Expedition"
+   }
+  },
+  {
+   "n": 187,
+   "name": "Nanda Kot",
+   "district": "Bageshwar",
+   "category": "Peak",
+   "g": "hills",
+   "lat": 30.276,
+   "lng": 80.073,
+   "why": "Peak shaped like Parvati's pillow, the backdrop to Munsiyari and the Pindari valley",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Peak",
+    "el": 6861,
+    "diff": "Expedition"
+   }
+  },
+  {
+   "n": 188,
+   "name": "Hathi Parvat",
+   "district": "Chamoli",
+   "category": "Peak",
+   "g": "hills",
+   "lat": 30.63,
+   "lng": 79.77,
+   "why": "Elephant-shaped massif seen from the Kuari Pass trail",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Peak",
+    "el": 6727,
+    "diff": "Expedition"
+   }
+  },
+  {
+   "n": 189,
+   "name": "Kedarnath Peak",
+   "district": "Uttarkashi",
+   "category": "Peak",
+   "g": "hills",
+   "lat": 30.788,
+   "lng": 79.065,
+   "why": "Snow peak behind the Kedarnath temple",
+   "tier": "top",
+   "months": [
+    5,
+    10
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Peak",
+    "el": 6940,
+    "diff": "Expedition"
+   }
+  },
+  {
+   "n": 190,
+   "name": "Satopanth Peak",
+   "district": "Uttarkashi",
+   "category": "Peak",
+   "g": "hills",
+   "lat": 30.867,
+   "lng": 79.2,
+   "why": "Highest peak of the Gangotri group",
+   "tier": "gem",
+   "months": [
+    5,
+    10
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Peak",
+    "el": 7075,
+    "diff": "Expedition"
+   }
+  },
+  {
+   "n": 191,
+   "name": "Kedartal",
+   "district": "Uttarkashi",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 30.868,
+   "lng": 79.006,
+   "why": "Glacial lake below Thalay Sagar, a steep climb up the Kedar Ganga",
+   "tier": "top",
+   "months": [
+    5,
+    10
+   ],
+   "time": "6 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 4750,
+    "diff": "Difficult",
+    "base": "Gangotri",
+    "permit": "Gangotri National Park permit"
+   }
+  },
+  {
+   "n": 192,
+   "name": "Lamkhaga Pass",
+   "district": "Uttarkashi",
+   "category": "Pass",
+   "g": "hills",
+   "lat": 31.2,
+   "lng": 78.6,
+   "why": "Remote pass from Harsil in Uttarakhand to Chitkul in Kinnaur",
+   "tier": "gem",
+   "months": [
+    6,
+    9
+   ],
+   "time": "10 days",
+   "trek": {
+    "kind": "Pass",
+    "el": 5282,
+    "diff": "Challenging",
+    "base": "Harsil",
+    "permit": "Inner Line Permit"
+   }
+  },
+  {
+   "n": 193,
+   "name": "Mayali Pass",
+   "district": "Rudraprayag",
+   "category": "Pass",
+   "g": "hills",
+   "lat": 30.7,
+   "lng": 78.95,
+   "why": "Glacier pass from Kedarnath to the Khatling valley",
+   "tier": "gem",
+   "months": [
+    6,
+    9
+   ],
+   "time": "9 days",
+   "trek": {
+    "kind": "Pass",
+    "el": 5000,
+    "diff": "Challenging",
+    "base": "Gaurikund"
+   }
+  },
+  {
+   "n": 194,
+   "name": "Panwali Kantha",
+   "district": "Tehri Garhwal",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 30.6,
+   "lng": 78.88,
+   "why": "Long meadow ridge on the old pilgrim route to Kedarnath",
+   "tier": "gem",
+   "months": [
+    4,
+    11
+   ],
+   "time": "5 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 3300,
+    "diff": "Moderate",
+    "base": "Ghuttu"
+   }
+  },
+  {
+   "n": 195,
+   "name": "Benog Tibba",
+   "district": "Dehradun",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 30.48,
+   "lng": 78.01,
+   "why": "Forest walk in the Benog sanctuary west of Mussoorie",
+   "tier": "gem",
+   "months": [
+    9,
+    6
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 2300,
+    "diff": "Easy",
+    "base": "Mussoorie"
+   }
+  },
+  {
+   "n": 196,
+   "name": "Moila Top",
+   "district": "Dehradun",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 30.73,
+   "lng": 77.92,
+   "why": "Meadow above deodar forest near Lokhandi",
+   "tier": "gem",
+   "months": [
+    4,
+    11
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Hike",
+    "el": 2700,
+    "diff": "Easy",
+    "base": "Chakrata"
+   }
+  },
+  {
+   "n": 197,
+   "name": "Budher Caves",
+   "district": "Dehradun",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 30.74,
+   "lng": 77.93,
+   "why": "Limestone caves on the Moila meadow trail",
+   "tier": "gem",
+   "months": [
+    4,
+    11
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Hike",
+    "el": 2500,
+    "diff": "Easy",
+    "base": "Lokhandi"
+   }
+  },
+  {
+   "n": 198,
+   "name": "Mana Pass",
+   "district": "Chamoli",
+   "category": "Pass",
+   "g": "hills",
+   "lat": 31.068,
+   "lng": 79.414,
+   "why": "One of the world's highest roads, on the Tibet border above Badrinath",
+   "tier": "gem",
+   "months": [
+    6,
+    9
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Pass",
+    "el": 5632,
+    "diff": "Easy",
+    "base": "Mana",
+    "permit": "Restricted: Army permit"
+   }
   }
  ],
  "festivals": [

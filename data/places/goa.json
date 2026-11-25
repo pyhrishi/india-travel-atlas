@@ -934,7 +934,14 @@
     10,
     1
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "trek": {
+    "kind": "Trek",
+    "el": 600,
+    "diff": "Moderate",
+    "base": "Kulem",
+    "permit": "Forest permit; follow current rules"
+   }
   },
   {
    "n": 50,
@@ -2055,6 +2062,50 @@
     3
    ],
    "time": "1 hr"
+  },
+  {
+   "n": 120,
+   "name": "Sonsogor",
+   "district": "Sattari",
+   "category": "Summit trek",
+   "g": "hills",
+   "lat": 15.63,
+   "lng": 74.11,
+   "why": "Goa's highest peak, on the Karnataka border",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Summit trek",
+    "el": 1166,
+    "diff": "Moderate",
+    "base": "Surla"
+   }
+  },
+  {
+   "n": 121,
+   "name": "Vagheri Hills",
+   "district": "Sattari",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 15.52,
+   "lng": 74.0,
+   "why": "Tiger's hill above the Mhadei sanctuary",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1000,
+    "diff": "Moderate",
+    "base": "Keri"
+   }
   }
  ],
  "festivals": [

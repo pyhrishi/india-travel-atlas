@@ -611,6 +611,11 @@ h3 small{font-weight:600;color:var(--soft);margin-left:6px;font-size:13px}
 .askf{display:grid;gap:8px;margin-top:10px}.askf textarea{width:100%;font:inherit;font-size:16px;padding:12px 14px;border-radius:14px;border:1px solid var(--line);background:var(--bg);color:var(--ink);resize:vertical}
 .askr{margin-top:12px}.askp{margin-top:14px;padding:14px;border-radius:18px;border:1px solid var(--line)}.askp h3{margin:4px 0 6px}.askp h3 small{font-weight:600;color:var(--soft);font-size:14px}
 .askl{margin:0 0 12px;padding-left:20px;display:grid;gap:4px;font-size:14.5px}.askl .lnk2{font-weight:700;color:var(--ink);min-height:0;padding:2px 0}
+/* trek facts */
+.trk .tkh{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}.tkk{font-size:12px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--pinkink)}
+.tkg{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.tkr{padding:9px 11px;border-radius:12px;background:var(--bg)}.tkr>span{display:block;font-size:12px;color:var(--soft)}.tkr b{font-size:15px}
+.tkd{color:var(--d)}.tkd::before{content:"";display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--d);margin-right:6px;vertical-align:1px}
+.tkp{display:flex;gap:8px;align-items:flex-start;margin:10px 0 0;font-size:14px}.tkp svg{width:18px;height:18px;flex:none;color:#b7791f;margin-top:1px}
 </style>
 </head>
 <body>
@@ -1148,7 +1153,7 @@ function vPlace(k){const p=byId(k);if(!p){V.innerHTML=`<div class="pad">${crumbB
    ${warns.length?`<div class="warns">${warns.map(w=>`<span class="warn"><svg aria-hidden="true"><use href="#i-warn"/></svg>${esc(w)}</span>`).join("")}</div>`:""}
    <div class="facts"><div class="fact"><span>Best time</span><b class="${ok?"ok":""}">${monthsTxt(p)}</b>${mbar(p)}</div><div class="fact"><span>Time needed</span><b>${esc(p.time)}</b></div><div class="fact"><span>${esc(from[0])}</span><b>${esc(from[1])}</b></div></div><div class="facts sunf">${sunLine(p)}</div>
    ${aboutBlock()}${storyBlock(p)}
-   ${bygBlock()}${wxBlock(p)}${condBlock(p)}${crowdBlock(p)}${reachBlock(p)}${foodBlock()}${magBlock(p)}
+   ${trekBlock(p)}${bygBlock()}${wxBlock(p)}${condBlock(p)}${crowdBlock(p)}${reachBlock(p)}${foodBlock()}${magBlock(p)}
    <button class="where" id="where" aria-label="Show ${esc(p.name)} on the big map">${whereMap(p)}</button>
    ${fs.map(f=>`<p class="note" style="margin:0 0 10px"><b style="color:var(--ink)">${esc(f.name)}</b> · ${esc(f.when)}. ${esc(f.about)}</p>`).join("")}
    <div class="note" style="margin-top:0"><a href="${gm}" target="_blank" rel="noopener" style="color:var(--pinkink)">See photos and reviews on Google Maps ↗</a></div>
@@ -1170,7 +1175,7 @@ function vPlace(k){const p=byId(k);if(!p){V.innerHTML=`<div class="pad">${crumbB
   $("#atrip").onclick=()=>{const j=M.trip.indexOf(pid);if(j>=0){M.trip.splice(j,1);toast("Removed from trip",()=>{M.trip.splice(j,0,pid);save();paint(false,V.scrollTop);drawRoute()})}else{M.trip.push(pid);toast(`Added to trip (${M.trip.length} stop${M.trip.length>1?"s":""})`,()=>{M.trip=M.trip.filter(x=>x!==pid);save();paint(false,V.scrollTop);drawRoute()})}save();paint(false,V.scrollTop);drawRoute();fx("atrip")};
   $("#ashare").onclick=async()=>{const url=location.href.split("#")[0]+"#"+p.slug+"-"+p.n,text=`${p.name}, ${p.district}, ${st.name}.${p.why?" "+p.why+".":""}`;try{if(navigator.share){await navigator.share({title:p.name,text,url});return}}catch(e){if(e&&e.name==="AbortError")return}try{await navigator.clipboard.writeText(text+"\n"+gm);toast("Copied, ready to paste")}catch(e){toast("Couldn't share from here")}};
   $("#rep").onclick=async()=>{try{await navigator.clipboard.writeText(`Atlas fix for ${p.name} (${p.district}, ${st.name}): `);toast("Copied. Paste it to Claude in chat and say what's wrong")}catch(e){toast(`Tell Claude in chat: "Atlas fix for ${p.name}, ${st.name}"`)}};
-  let nt=0;$("#note").oninput=e=>{clearTimeout(nt);nt=setTimeout(()=>{const v=e.target.value.trim();if(v)M.notes[pid]=v;else delete M.notes[pid];save()},700)};bindDiary(p);bindAsk(p);bindStory(p);$("#alist").onclick=()=>listPicker(pid,()=>paint(false,V.scrollTop));fillReach(p);fillFood(p);fillMag(p);fillAbout(p);fillWx(p);fillBYG(p);fillCrowd(p)}
+  let nt=0;$("#note").oninput=e=>{clearTimeout(nt);nt=setTimeout(()=>{const v=e.target.value.trim();if(v)M.notes[pid]=v;else delete M.notes[pid];save()},700)};bindDiary(p);bindAsk(p);bindStory(p);$("#alist").onclick=()=>listPicker(pid,()=>paint(false,V.scrollTop));fillReach(p);fillFood(p);fillMag(p);fillAbout(p);fillWx(p);fillBYG(p);fillCrowd(p);fillTrek(p)}
 
 function openTrail(i){remember();const D=curD();S.trail=D.trails[i].ids.map(n=>D.places.find(p=>p.n===n));S.sel=null;S.stack.push({v:"trail",a:i});paint(true);drawPins();drawRoute();halfUp();focusPts(S.trail)}
 function vTrail(i){const D=curD(),t=D.trails[i],ps=t.ids.map(n=>D.places.find(p=>p.n===n));let d=0;for(let j=1;j<ps.length;j++)d+=km(ps[j-1],ps[j]);
@@ -1533,7 +1538,7 @@ async function yearCard(){const yr=new Date().getFullYear(),all=allPlaces(),vis=
 /* ---------- data + boot ---------- */
 function fromIndex(slug,x){return{intro:x.intro,bases:x.bases,trails:x.trails,festivals:x.festivals,places:x.p.map(r=>({n:r[0],name:r[1],district:r[2],category:r[3],g:r[4],lat:r[5],lng:r[6],tier:r[7],months:[r[8],r[9]],time:r[10],tags:r[11]?r[11].split(" "):[],why:"",slug}))}}
 async function loadState(slug){if(S.data[slug])return S.data[slug];const d=await (await fetch("data/places/"+slug+".json")).json();d.places.forEach(p=>{p.slug=slug;p.tags=p.tags||[]});S.data[slug]=d;S.full[slug]=Promise.resolve(true);return d}
-function ensureFull(slug){if(S.full[slug])return S.full[slug];S.full[slug]=fetch("data/places/"+slug+".json").then(r=>{if(!r.ok)throw 0;return r.json()}).then(d=>{const m={};d.places.forEach(q=>m[q.n]=q.why);(S.data[slug]?.places||[]).forEach(p=>{p.why=m[p.n]||"";p._h=null});return true}).catch(e=>{delete S.full[slug];throw e});return S.full[slug]}
+function ensureFull(slug){if(S.full[slug])return S.full[slug];S.full[slug]=fetch("data/places/"+slug+".json").then(r=>{if(!r.ok)throw 0;return r.json()}).then(d=>{const m={};d.places.forEach(q=>m[q.n]=q);(S.data[slug]?.places||[]).forEach(p=>{const q=m[p.n];p.why=q?q.why:"";if(q&&q.trek)p.trek=q.trek;p._h=null});return true}).catch(e=>{delete S.full[slug];throw e});return S.full[slug]}
 async function goIndia(){S.slug=null;S.sel=null;S.hl=null;S.trail=null;S.f={...S.f,dist:null};S.stack=[{v:"explore"}];S.tab="explore";setTabs("explore");clearQ();classStates();paint(true);drawPins();drawRoute();sizePins();drawHome();fitIndia()}
 async function openState(slug,focus){await loadState(slug);ensureFull(slug).catch(()=>{});S.slug=slug;S.sel=null;S.hl=null;S.trail=null;S.f={...S.f,dist:null};classStates();clearQ();
   S.tab="explore";S.stack=[{v:"explore"}];setTabs("explore");paint();drawPins();drawRoute();drawHome();if(focus)focusState()}
@@ -2916,6 +2921,37 @@ function vAsk(){const q=S.askQ||"",o=q?askParse(q):null,plans=o?atlasPlan(o):nul
   V.querySelectorAll(".askp [data-p]").forEach(b=>b.onclick=()=>{const p=byId(b.dataset.p);if(p.slug!==S.slug){S.slug=p.slug;classStates()}openPlace(p,true)});
   V.querySelectorAll("[data-askt]").forEach(b=>b.onclick=()=>{const pl=plans[+b.dataset.askt];syncTrip();const r={id:uid_(),t:Date.now(),name:`${pl.a.name}, ${o.days} day${o.days>1?"s":""}`,stops:pl.ps.map(id),start:"",budget:0,note:`Asked: ${q}`};tripsAll().unshift(r);loadTrip(r);save();hdr();S.ttab="plan";root_("trip");toast("Trip made. Add your dates")});
   if(!q)setTimeout(()=>$("#askQ")?.focus(),50)}
+
+/* ================= Mountains & treks ================= */
+const DIFC={Easy:"#2e8b4a",Moderate:"#b7791f",Difficult:"#c2410c",Challenging:"#b42318",Expedition:"#5b21b6"};
+function trekBlock(p){const t=p.trek;if(!t)return"";const pk=t.kind==="Peak",m=p.months||[];
+  const row=(l,v)=>v?`<div class="tkr"><span>${l}</span><b>${v}</b></div>`:"";
+  return`<div class="pcard trk" id="trk"><div class="tkh"><h3 style="margin:0">${pk?"The mountain":"Trek facts"}</h3><span class="tkk">${esc(t.kind)}</span></div>
+   <div class="tkg">
+    ${t.el?row("Height",`<span id="tkel">${t.el.toLocaleString("en-IN")} m</span>`):""}
+    ${pk?row("Climbing","Expedition only"):row("Difficulty",`<span class="tkd" style="--d:${DIFC[t.diff]||"#555"}">${esc(t.diff)}</span>`)}
+    ${pk?"":row("Time",esc(p.time))}
+    ${t.base?row(pk?"View from":"Starts from",esc(t.base)):""}
+    ${m.length?row(pk?"Clearest views":"Season",`${MON[m[0]-1]}–${MON[m[1]-1]}`):""}
+   </div>
+   ${t.permit?`<p class="tkp"><svg aria-hidden="true"><use href="#i-warn"/></svg><span>${esc(t.permit)}</span></p>`:""}
+   ${!pk&&t.el>=3000?`<p class="note" style="margin:8px 0 0">Above 3,000 m: go up slowly, add a rest day for acclimatisation, and turn back if you have a bad headache or breathlessness at rest.</p>`:""}
+   ${!pk?`<p class="note" style="margin:6px 0 0">Difficulty and days are a general guide for a fit walker with a local guide. Check current trail and weather conditions before you go.</p>`:""}
+   <p class="note" id="tksrc" style="margin:6px 0 0"></p></div>`}
+/* the verified article's height (Wikidata) replaces our starting figure */
+function fillTrek(p){if(!p.trek)return;factsOf(p.slug).then(F=>{const f=F[String(p.n)],el=$("#tkel"),s=$("#tksrc");if(!s||S.sel!==p)return;
+  const fe=f&&f.el?(f.el>8900||(p.trek.el&&f.el>p.trek.el*2.6)?f.el*.3048:f.el):0;/* some Wikidata heights are in feet */
+  if(fe&&el){el.textContent=Math.round(fe).toLocaleString("en-IN")+" m";s.textContent="Height from Wikidata."}
+  else if(p.trek.el&&el){el.textContent="About "+p.trek.el.toLocaleString("en-IN")+" m";s.textContent="Height is approximate until checked against a source."}}).catch(()=>{})}
+const HIMS=new Set(["uttarakhand","himachal-pradesh","jammu-and-kashmir","ladakh","sikkim","arunachal-pradesh","west-bengal"]);
+[["treks","Mountains & treks","Treks, hikes, passes and famous peaks across India","#2f6b4f",p=>tg("trek")(p)||tg("peak")(p)],
+ ["himtreks","Himalayan treks","Multi-day treks and high passes of the Himalaya","#3b5b8a",tg("himtrek")],
+ ["peaks","Great peaks","Famous summits, and where to see them from","#4a5568",p=>tg("peak")(p)||tg("summit")(p)],
+ ["passes","High passes","Mountain passes on foot and by road","#6b4f2f",tg("pass")],
+ ["easyhikes","Easy hikes","Half-day and one-day walks with big views","#3f8f5a",tg("easy")],
+ ["sahyadri","Sahyadri forts","Hill-fort climbs of the Western Ghats","#8d5524",p=>(p.slug==="maharashtra"||p.slug==="goa")&&(tg("trek")(p)||tg("fort")(p))&&p.g!=="coast"]
+].forEach(c=>{if(!COLL.some(x=>x[0]===c[0]))COLL.push(c)});
+try{THEMES.push(["mtreks","Treks for this season","Trails and summits at their best this month",p=>tg("trek")(p)&&!tg("easy")(p),{season:1}],["easywalks","Easy hikes with big views","Short climbs anyone can do",tg("easy"),{season:1}])}catch(e){}
 
 function route(silent,h0){const h=h0!=null?h0:location.hash.slice(1);const m=h.match(/^(.*)-(\d+)$/);
   if(m&&S.data[m[1]]){const p=S.data[m[1]].places.find(x=>x.n==m[2]);if(p){S.slug=m[1];classStates();S.stack=[{v:"explore"}];openPlace(p,!silent);return}}

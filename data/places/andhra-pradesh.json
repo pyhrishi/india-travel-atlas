@@ -1379,7 +1379,13 @@
     10,
     3
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "trek": {
+    "kind": "Hike",
+    "el": 850,
+    "diff": "Moderate",
+    "base": "Alipiri"
+   }
   },
   {
    "n": 72,
@@ -1411,7 +1417,13 @@
     7,
     11
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 800,
+    "diff": "Easy",
+    "base": "Talakona"
+   }
   },
   {
    "n": 74,
@@ -2083,7 +2095,13 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 350,
+    "diff": "Easy",
+    "base": "Visakhapatnam"
+   }
   },
   {
    "name": "Three Hills of Faith",
@@ -3171,7 +3189,14 @@
     10,
     3
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "trek": {
+    "kind": "Trek",
+    "el": 500,
+    "diff": "Moderate",
+    "base": "Arai",
+    "permit": "Forest permit"
+   }
   },
   {
    "name": "Surutupalli",
@@ -3556,6 +3581,72 @@
     3
    ],
    "time": "1 hr"
+  },
+  {
+   "n": 208,
+   "name": "Arma Konda",
+   "district": "Alluri Sitharama Raju",
+   "category": "Summit trek",
+   "g": "hills",
+   "lat": 18.23,
+   "lng": 82.63,
+   "why": "Highest peak of the Eastern Ghats and of Andhra Pradesh",
+   "tier": "gem",
+   "months": [
+    11,
+    2
+   ],
+   "time": "2 days",
+   "trek": {
+    "kind": "Summit trek",
+    "el": 1680,
+    "diff": "Difficult",
+    "base": "Pedabayalu"
+   }
+  },
+  {
+   "n": 209,
+   "name": "Kailasakona",
+   "district": "Tirupati",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 13.33,
+   "lng": 79.63,
+   "why": "Forest falls with a Shiva shrine",
+   "tier": "gem",
+   "months": [
+    9,
+    2
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 300,
+    "diff": "Easy",
+    "base": "Puttur"
+   }
+  },
+  {
+   "n": 210,
+   "name": "Galikonda",
+   "district": "Alluri Sitharama Raju",
+   "category": "Summit trek",
+   "g": "hills",
+   "lat": 18.29,
+   "lng": 82.88,
+   "why": "Second-highest hill of Andhra above the Araku valley",
+   "tier": "gem",
+   "months": [
+    10,
+    2
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Summit trek",
+    "el": 1500,
+    "diff": "Moderate",
+    "base": "Ananthagiri"
+   }
   }
  ],
  "festivals": [

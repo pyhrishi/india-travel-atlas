@@ -283,7 +283,14 @@
     1,
     2
    ],
-   "time": "3 days"
+   "time": "3 days",
+   "trek": {
+    "kind": "Summit trek",
+    "diff": "Difficult",
+    "el": 1868,
+    "base": "Bonacaud",
+    "permit": "Forest permit, ballot in Jan–Feb"
+   }
   },
   {
    "n": 9,
@@ -1947,7 +1954,13 @@
     10,
     4
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 1200,
+    "diff": "Moderate",
+    "base": "Ambalavayal"
+   }
   },
   {
    "n": 113,
@@ -1963,7 +1976,14 @@
     9,
     5
    ],
-   "time": "Half day"
+   "time": "1 day",
+   "trek": {
+    "kind": "Hike",
+    "diff": "Moderate",
+    "el": 2100,
+    "base": "Meppadi",
+    "permit": "Forest permit"
+   }
   },
   {
    "n": 114,
@@ -2491,7 +2511,14 @@
     9,
     5
    ],
-   "time": "Full day"
+   "time": "1–2 days",
+   "trek": {
+    "kind": "Summit trek",
+    "diff": "Moderate",
+    "el": 2640,
+    "base": "Munnar",
+    "permit": "Forest permit"
+   }
   },
   {
    "n": 147,
@@ -2732,6 +2759,252 @@
     3
    ],
    "time": "1 hr"
+  },
+  {
+   "n": 162,
+   "name": "Anamudi",
+   "district": "Idukki",
+   "category": "Peak",
+   "g": "hills",
+   "lat": 10.17,
+   "lng": 77.062,
+   "why": "South India's highest peak, in Eravikulam park; seen from Rajamala, climbing not allowed",
+   "tier": "icon",
+   "months": [
+    9,
+    3
+   ],
+   "time": "See it from nearby viewpoints",
+   "trek": {
+    "kind": "Peak",
+    "el": 2695,
+    "diff": "Expedition"
+   }
+  },
+  {
+   "n": 163,
+   "name": "Brahmagiri (Wayanad)",
+   "district": "Wayanad",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 11.94,
+   "lng": 76.0,
+   "why": "Trek from Thirunelli temple to the Pakshipathalam caves",
+   "tier": "gem",
+   "months": [
+    10,
+    2
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Trek",
+    "el": 1608,
+    "diff": "Moderate",
+    "base": "Thirunelli",
+    "permit": "Forest permit"
+   }
+  },
+  {
+   "n": 164,
+   "name": "Pakshipathalam",
+   "district": "Wayanad",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 11.95,
+   "lng": 75.99,
+   "why": "Cave of birds on the Brahmagiri ridge",
+   "tier": "gem",
+   "months": [
+    10,
+    2
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Trek",
+    "el": 1740,
+    "diff": "Moderate",
+    "base": "Thirunelli",
+    "permit": "Forest permit"
+   }
+  },
+  {
+   "n": 165,
+   "name": "Banasura Hill",
+   "district": "Wayanad",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 11.68,
+   "lng": 75.96,
+   "why": "Peak above India's largest earth dam",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Trek",
+    "el": 2073,
+    "diff": "Moderate",
+    "base": "Banasura Sagar"
+   }
+  },
+  {
+   "n": 166,
+   "name": "Chokramudi",
+   "district": "Idukki",
+   "category": "Summit trek",
+   "g": "hills",
+   "lat": 10.05,
+   "lng": 77.0,
+   "why": "Grassland summit near Munnar with neelakurinji slopes",
+   "tier": "gem",
+   "months": [
+    9,
+    3
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Summit trek",
+    "el": 2100,
+    "diff": "Moderate",
+    "base": "Bison Valley"
+   }
+  },
+  {
+   "n": 167,
+   "name": "Rajamala (Eravikulam)",
+   "district": "Idukki",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 10.15,
+   "lng": 77.05,
+   "why": "Park road where Nilgiri tahr graze; Anamudi rises behind",
+   "tier": "top",
+   "months": [
+    9,
+    1
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 2000,
+    "diff": "Easy",
+    "base": "Munnar",
+    "permit": "Closed in calving season"
+   }
+  },
+  {
+   "n": 168,
+   "name": "Vellarimala",
+   "district": "Kozhikode",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 11.47,
+   "lng": 76.05,
+   "why": "Silver hill of grasslands above Thusharagiri",
+   "tier": "gem",
+   "months": [
+    10,
+    2
+   ],
+   "time": "2 days",
+   "trek": {
+    "kind": "Trek",
+    "el": 2200,
+    "diff": "Difficult",
+    "base": "Muthappanpuzha",
+    "permit": "Forest permit"
+   }
+  },
+  {
+   "n": 169,
+   "name": "Kottappara Viewpoint",
+   "district": "Idukki",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 9.95,
+   "lng": 76.82,
+   "why": "Clifftop where the valley fills with mist at dawn",
+   "tier": "gem",
+   "months": [
+    9,
+    2
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 700,
+    "diff": "Easy",
+    "base": "Vannappuram"
+   }
+  },
+  {
+   "n": 170,
+   "name": "Kurisumala",
+   "district": "Kottayam",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 9.7,
+   "lng": 76.88,
+   "why": "Pilgrim hill of a Christian ashram near Vagamon",
+   "tier": "gem",
+   "months": [
+    9,
+    4
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1200,
+    "diff": "Moderate",
+    "base": "Vagamon"
+   }
+  },
+  {
+   "n": 171,
+   "name": "Lakshmi Hills",
+   "district": "Idukki",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 10.09,
+   "lng": 77.04,
+   "why": "Tea estate hills above Munnar",
+   "tier": "gem",
+   "months": [
+    9,
+    3
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1900,
+    "diff": "Moderate",
+    "base": "Munnar"
+   }
+  },
+  {
+   "n": 172,
+   "name": "Varayadumotta",
+   "district": "Thiruvananthapuram",
+   "category": "Summit trek",
+   "g": "hills",
+   "lat": 8.78,
+   "lng": 77.13,
+   "why": "Peak above Ponmudi in the Peppara forests",
+   "tier": "gem",
+   "months": [
+    9,
+    3
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Summit trek",
+    "el": 1100,
+    "diff": "Moderate",
+    "base": "Ponmudi",
+    "permit": "Forest permit"
+   }
   }
  ],
  "festivals": [
