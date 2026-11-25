@@ -92,6 +92,7 @@ for k, new, filename, title in candidates:
 # Unverified places deliberately show the illustrated fallback rather than a nearby/wrong photo.
 ph['p'] = dict(sorted(P.items()))
 ph['miss'] = sorted(all_keys - set(P))
+ph['updated'] = int(time.time())
 json.dump(ph, open(OUT, 'w'), ensure_ascii=False, separators=(',', ':'))
 json.dump(dict(sorted(cred.items())), open(CRED, 'w'), ensure_ascii=False, separators=(',', ':'))
 
