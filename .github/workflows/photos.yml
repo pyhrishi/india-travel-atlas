@@ -8,7 +8,7 @@ on:
         default: false
   push:
     branches: [main]
-    paths: ['data/places/**']
+    paths: ['data/facts/**']
   schedule:
     - cron: '17 21 * * 0'
 permissions:
@@ -22,8 +22,8 @@ jobs:
     timeout-minutes: 180
     steps:
       - uses: actions/checkout@v4
-      - name: Look up photos on Wikipedia
-        run: python3 .github/scripts/photos.py ${{ inputs.force && '--force' || '' }}
+      - name: Publish only photos from verified place articles
+        run: python3 .github/scripts/photos_verified.py
       - name: Save results
         run: |
           git config user.name "github-actions[bot]"
