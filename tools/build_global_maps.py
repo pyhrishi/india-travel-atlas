@@ -148,11 +148,22 @@ def main():
         url = metadata.get("simplifiedGeometryGeoJSON") or metadata.get("gjDownloadURL")
         if not isinstance(url, str) or not url.startswith("https://"):
             raise RuntimeError(f"{code}: no secure GeoJSON download URL in metadata")
-        raw = get_json(url)
-        if raw.get("type") != "FeatureCollection" or not isinstance(raw.get("features"), list):
-            raise RuntimeError(f"{code}: downloaded object is not a GeoJSON FeatureCollection")
-        features = [normalize_feature(f, iso3) for f in raw["features"]]
         expected = int(metadata.get("admUnitCount") or 0)
+
+        def read_layer(download_url):
+            raw = get_json(download_url)
+            if raw.get("type") != "FeatureCollection" or not isinstance(raw.get("features"), list):
+                raise RuntimeError(f"{code}: downloaded object is not a GeoJSON FeatureCollection")
+            return [normalize_feature(f, iso3) for f in raw["features"]]
+
+        features = read_layer(url)
+        # Some simplified exports omit small islands or administrative units.
+        # Fall back to full-resolution geometry instead of accepting an incomplete map.
+        if expected and len(features) != expected and url != metadata.get("gjDownloadURL"):
+            full_url = metadata.get("gjDownloadURL")
+            if isinstance(full_url, str) and full_url.startswith("https://"):
+                features = read_layer(full_url)
+                url = full_url
         if not features or (expected and len(features) != expected):
             raise RuntimeError(f"{code}: feature count mismatch (got {len(features)}, expected {expected})")
         names = [f["properties"]["name"].casefold() for f in features]
