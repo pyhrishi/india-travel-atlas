@@ -43,10 +43,20 @@ def km(a, b):
     return 12742 * math.asin(math.sqrt(d))
 
 GENERIC = set('the of and at in on near old new great big little sri shri shree swami saint st temple temples mandir mandiram devi mata fort forts qila garh lake lakes tal talab falls fall waterfall waterfalls beach beaches hill hills peak park national sanctuary wildlife reserve tiger bird museum palace mahal church cathedral basilica mosque masjid dargah gurdwara sahib dam river valley village island islands cave caves garden gardens tomb maqbara ghat ghats kund tank stepwell baori math mutt ashram monastery gompa stupa memorial market bazaar beach road station viewpoint point trek trail circuit complex area town city district state region india indian north south east west central upper lower'.split())
+# old and new names of the same town count as the same word (Wikipedia often keeps the older title)
+RENAMES = {'mysore': 'mysuru', 'bangalore': 'bengaluru', 'belgaum': 'belagavi', 'bellary': 'ballari', 'bijapur': 'vijayapura', 'gulbarga': 'kalaburagi',
+  'shimoga': 'shivamogga', 'tumkur': 'tumakuru', 'mangalore': 'mangaluru', 'hubli': 'hubballi', 'chikmagalur': 'chikkamagaluru', 'chickmagalur': 'chikkamagaluru',
+  'hospet': 'hosapete', 'calcutta': 'kolkata', 'bombay': 'mumbai', 'madras': 'chennai', 'pondicherry': 'puducherry', 'trivandrum': 'thiruvananthapuram',
+  'cochin': 'kochi', 'calicut': 'kozhikode', 'trichur': 'thrissur', 'cannanore': 'kannur', 'quilon': 'kollam', 'alleppey': 'alappuzha', 'palghat': 'palakkad',
+  'trichy': 'tiruchirappalli', 'trichinopoly': 'tiruchirappalli', 'tanjore': 'thanjavur', 'tuticorin': 'thoothukudi', 'conjeevaram': 'kanchipuram', 'ooty': 'udhagamandalam', 'ootacamund': 'udhagamandalam',
+  'allahabad': 'prayagraj', 'benares': 'varanasi', 'banaras': 'varanasi', 'gurgaon': 'gurugram', 'baroda': 'vadodara', 'poona': 'pune', 'orissa': 'odisha',
+  'cawnpore': 'kanpur', 'simla': 'shimla', 'gauhati': 'guwahati', 'vizag': 'visakhapatnam', 'waltair': 'visakhapatnam', 'faizabad': 'ayodhya'}
 def norm(s):
     s = s.lower()
     s = re.sub(r'\(.*?\)', ' ', s)
-    return re.sub(r'[^a-z0-9 ]+', ' ', s)
+    s = re.sub(r'[^a-z0-9 ]+', ' ', s)
+    return ' '.join(RENAMES.get(w, w) for w in s.split()) + ' '
+def compact(s): return norm(s).replace(' ', '')
 def sig(s):
     return {w for w in norm(s).split() if len(w) >= 4 and w not in GENERIC}
 def strip_name(n):
@@ -72,16 +82,20 @@ def good(pg, p, exact, broad):
     if 'disambiguation' in (pg.get('pageprops') or {}): return False
     t = pg['title']; nt = norm(t).strip()
     if BADT.search(t) and not BADT.search(p['name']): return False
-    if nt in broad and nt not in {norm(v).strip() for v in variants(p['name'])}: return False
-    c = (pg.get('coordinates') or [None])[0]
+    vs = {compact(v) for v in variants(p['name'])}
+    if nt in broad and compact(t) not in vs: return False
+    # coordinates from Wikipedia, else from Wikidata (many articles, e.g. Jog Falls, only have them there)
+    c = (pg.get('coordinates') or [None])[0] or pg.get('_wc')
     loc = sig(p.get('dist', '')) | sig(p.get('st', ''))
     tw, pw = sig(t), sig(p['name']) - loc
-    exact_title = (exact and not pg.get('_frag')) or nt in {norm(v).strip() for v in variants(p['name'])}
+    # exact: the page we got by looking up the place's own name (not a redirect into a section),
+    # or a title equal to the name allowing for old town names and spacing (Mysore Zoo = Mysuru Zoo, Lal Bagh = Lalbagh)
+    exact_title = (exact and not pg.get('_frag')) or compact(t) in vs
     if not exact_title and not (tw & pw): return False
     if c:
         d = km(p['ll'], (c['lat'], c['lon']))
         return d <= (25 if exact_title else 15)
-    return exact_title and exact and bool(pw)  # no coordinates: only accept an exact, distinctive title
+    return exact_title and exact and bool(pw)  # no coordinates anywhere: only an exact, distinctive title
 
 OVP = ['https://overpass-api.de/api/interpreter', 'https://overpass.kumi.systems/api/interpreter']
 def osm(p):
@@ -112,21 +126,37 @@ def osm(p):
     if OSMF[0] == 3: print('OpenStreetMap not answering; skipping it for the rest of this run', flush=True)
     return None
 
+def wdc(pages):
+    """Fill pg['_wc'] from Wikidata P625 for pages without Wikipedia coordinates."""
+    need = {}
+    for pg in pages:
+        q = (pg.get('pageprops') or {}).get('wikibase_item')
+        if q and not pg.get('coordinates') and '_wc' not in pg: need.setdefault(q, []).append(pg)
+    ids = sorted(need)
+    for i in range(0, len(ids), 50):
+        j = get(WD, dict(action='wbgetentities', ids='|'.join(ids[i:i+50]), props='claims'))
+        for q, e in (j.get('entities') or {}).items():
+            for cl in (e.get('claims') or {}).get('P625', [])[:1]:
+                v = ((cl.get('mainsnak') or {}).get('datavalue') or {}).get('value') or {}
+                if 'latitude' in v:
+                    for pg in need.get(q, []): pg['_wc'] = {'lat': v['latitude'], 'lon': v['longitude']}
+
 def debug(names, places, broad):
     for nm in names:
         for p in [x for x in places if x['name'] == nm][:1]:
             print(f"\n== {p['k']} {p['name']} ({p['dist']}, {p['st']}) at {p['ll']}  sig={sorted(sig(p['name']) - sig(p['dist']) - sig(p['st']))}")
             vs = variants(p['name'])
             j = get(API, dict(PROPS, action='query', redirects='1', titles='|'.join(vs)))
-            q = j.get('query', {}); print('  normalized/redirects:', q.get('normalized'), q.get('redirects'), ' continue:', j.get('continue'))
+            q = j.get('query', {}); wdc(q.get('pages', {}).values()); print('  normalized/redirects:', q.get('normalized'), q.get('redirects'), ' continue:', j.get('continue'))
             for pg in q.get('pages', {}).values():
-                c = (pg.get('coordinates') or [None])[0]
+                c = (pg.get('coordinates') or [None])[0] or pg.get('_wc')
                 print(f"  title-page {pg.get('title')!r} missing={'missing' in pg} coords={c and (c['lat'], c['lon'])} props={list((pg.get('pageprops') or {}).keys())} -> good={good(pg, p, True, broad)}")
             b = strip_name(p['name'])
             for qs in (f"{b} {p['dist']}", b):
                 j = get(API, dict(PROPS, action='query', generator='search', gsrlimit='6', gsrnamespace='0', gsrsearch=qs))
-                for pg in sorted(j.get('query', {}).get('pages', {}).values(), key=lambda g: g.get('index', 9)):
-                    c = (pg.get('coordinates') or [None])[0]
+                cs = sorted(j.get('query', {}).get('pages', {}).values(), key=lambda g: g.get('index', 9)); wdc(cs)
+                for pg in cs:
+                    c = (pg.get('coordinates') or [None])[0] or pg.get('_wc')
                     print(f"  search[{qs}] {pg.get('title')!r} coords={c and (round(c['lat'],3), round(c['lon'],3))} d={c and round(km(p['ll'], (c['lat'], c['lon'])),1)} -> good={good(pg, p, False, broad)}")
 
 def main():
@@ -146,7 +176,7 @@ def main():
     fp = lambda p: hashlib.md5(f"{p['name']}|{p['ll'][0]:.3f}|{p['ll'][1]:.3f}".encode()).hexdigest()[:10]
     keys = {p['k'] for p in places}
     R = {k: v for k, v in R.items() if k in keys}; M = {k: v for k, v in M.items() if k in keys}
-    MV = 2  # matching rules version; results from older rules get re-checked
+    MV = 3  # matching rules version; results from older rules get re-checked
     todo = [p for p in places if FORCE or (p['k'] in R and R[p['k']].get('mv', 1) < MV) or (p['k'] in M and p['k'] not in M2) or H.get(p['k']) != fp(p) or (p['k'] in M and NOW - M[p['k']] > 60*DAY)
             or (p['k'] in R and NOW - R[p['k']].get('at', 0) > 60*DAY) or (p['k'] not in R and p['k'] not in M)]
     hit = {k: v for k, v in PEND.items() if k in keys}
@@ -173,6 +203,7 @@ def main():
             for t in alias:
                 if alias[t] == n['from']: alias[t] = n['to']
         pages = {pg['title']: pg for pg in q.get('pages', {}).values()}
+        wdc(pages.values())
         for r_ in q.get('redirects', []):  # a redirect to a section of a bigger article is not the place's own article
             if r_.get('tofragment') and r_['to'] in pages: pages[r_['to']] = dict(pages[r_['to']], _frag=1)
         for v, p in chunk:
@@ -192,7 +223,8 @@ def main():
         got = None
         for qs in (f"{b} {p['dist']}", f"{b} {p['st']}", b):
             j = get(API, dict(PROPS, action='query', generator='search', gsrlimit='6', gsrnamespace='0', gsrsearch=qs))
-            for pg in sorted(j.get('query', {}).get('pages', {}).values(), key=lambda g: g.get('index', 9)):
+            cands = sorted(j.get('query', {}).get('pages', {}).values(), key=lambda g: g.get('index', 9)); wdc(cands)
+            for pg in cands:
                 if good(pg, p, False, broad): got = pg; break
             if got: break
         if not got:
