@@ -18,7 +18,37 @@
    114.62
   ]
  ],
- "trails": [],
+ "trails": [
+  {
+   "name": "Tutong town, beach and forest",
+   "note": "A relaxed district route combining the town market, Seri Kenangan coast and nearby recreation areas.",
+   "ids": [
+    4,
+    5,
+    2,
+    3,
+    6
+   ]
+  },
+  {
+   "name": "Tasek Merimbun nature and heritage day",
+   "note": "Make the lake and wetland heritage park the anchor for a slower day; confirm facilities and weather before travelling.",
+   "ids": [
+    1,
+    4,
+    3
+   ]
+  },
+  {
+   "name": "Tutong hills and coastal stops",
+   "note": "A short drive linking local outdoor stops with the coast; check access to smaller recreation sites before setting out.",
+   "ids": [
+    9,
+    6,
+    2
+   ]
+  }
+ ],
  "places": [
   {
    "n": 1,
