@@ -82,7 +82,7 @@ jobs:
           for attempt in 1 2 3; do
             echo "::group::${{ matrix.state }} attempt ${attempt}/3"
             ARGS=""
-            if [ "$FORCE" = "true" ]; then ARGS="--force"; fi
+            if [ "$FORCE" = "true" ] && [ "$attempt" -eq 1 ]; then ARGS="--force"; fi
             python3 .github/scripts/facts.py $ARGS
             result=$?
             echo "::endgroup::"
