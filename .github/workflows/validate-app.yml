@@ -1,0 +1,29 @@
+name: Validate static app JavaScript
+on:
+  pull_request:
+    paths:
+      - "index.html"
+      - "tools/check_inline_js.py"
+      - ".github/workflows/validate-app.yml"
+  push:
+    branches: [main]
+    paths:
+      - "index.html"
+      - "tools/check_inline_js.py"
+      - ".github/workflows/validate-app.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  syntax:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Check inline JavaScript syntax
+        run: python3 tools/check_inline_js.py
