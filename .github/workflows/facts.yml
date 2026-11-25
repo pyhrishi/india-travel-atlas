@@ -92,31 +92,22 @@ jobs:
             mkdir -p data/facts
             cp "recovery/data/facts/${{ matrix.state }}.json" "data/facts/${{ matrix.state }}.json"
           fi
-      - name: Verify region with checkpoint-aware retries
+      - name: Verify region — attempt 1
+        id: attempt1
         env:
           FACTS_STATE: ${{ matrix.state }}
           FORCE: ${{ github.event.inputs.force }}
         shell: bash
         run: |
-          set +e
-          for attempt in 1 2 3; do
-            echo "::group::${{ matrix.state }} attempt ${attempt}/3"
-            ARGS=""
-            if [ "$FORCE" = "true" ] && [ "$attempt" -eq 1 ]; then ARGS="--force"; fi
-            python3 .github/scripts/facts.py $ARGS
-            result=$?
-            echo "::endgroup::"
-            if [ "$result" -eq 0 ]; then
-              echo "Region verification completed."
-              exit 0
-            fi
-            echo "Attempt $attempt failed with exit code $result; the next attempt will resume from the saved checkpoint."
-            if [ "$attempt" -lt 3 ]; then sleep 15; fi
-          done
-          echo "::error::Region ${{ matrix.state }} failed after 3 checkpoint-aware attempts."
-          exit "$result"
-      - name: Upload latest region result and checkpoint, even after failure
+          ARGS=""
+          if [ "$FORCE" = "true" ]; then ARGS="--force"; fi
+          python3 .github/scripts/facts.py $ARGS
+          result=$?
+          if [ "$result" -eq 0 ]; then echo "complete=true" >> "$GITHUB_OUTPUT"; else echo "complete=false" >> "$GITHUB_OUTPUT"; fi
+          exit 0
+      - name: Upload checkpoint after attempt 1
         if: always()
+        continue-on-error: true
         uses: actions/upload-artifact@v4
         with:
           name: region-${{ matrix.state }}
@@ -127,6 +118,59 @@ jobs:
           retention-days: 30
           include-hidden-files: true
           overwrite: true
+      - name: Verify region — attempt 2
+        id: attempt2
+        if: steps.attempt1.outputs.complete != 'true'
+        env:
+          FACTS_STATE: ${{ matrix.state }}
+        shell: bash
+        run: |
+          python3 .github/scripts/facts.py
+          result=$?
+          if [ "$result" -eq 0 ]; then echo "complete=true" >> "$GITHUB_OUTPUT"; else echo "complete=false" >> "$GITHUB_OUTPUT"; fi
+          exit 0
+      - name: Upload checkpoint after attempt 2
+        if: always() && steps.attempt1.outputs.complete != 'true'
+        continue-on-error: true
+        uses: actions/upload-artifact@v4
+        with:
+          name: region-${{ matrix.state }}
+          path: |
+            data/facts/${{ matrix.state }}.json
+            .github/facts-state/${{ matrix.state }}.json
+          if-no-files-found: warn
+          retention-days: 30
+          include-hidden-files: true
+          overwrite: true
+      - name: Verify region — attempt 3
+        id: attempt3
+        if: steps.attempt1.outputs.complete != 'true' && steps.attempt2.outputs.complete != 'true'
+        env:
+          FACTS_STATE: ${{ matrix.state }}
+        shell: bash
+        run: |
+          python3 .github/scripts/facts.py
+          result=$?
+          if [ "$result" -eq 0 ]; then echo "complete=true" >> "$GITHUB_OUTPUT"; else echo "complete=false" >> "$GITHUB_OUTPUT"; fi
+          exit 0
+      - name: Upload checkpoint after attempt 3
+        if: always() && steps.attempt1.outputs.complete != 'true' && steps.attempt2.outputs.complete != 'true'
+        continue-on-error: true
+        uses: actions/upload-artifact@v4
+        with:
+          name: region-${{ matrix.state }}
+          path: |
+            data/facts/${{ matrix.state }}.json
+            .github/facts-state/${{ matrix.state }}.json
+          if-no-files-found: warn
+          retention-days: 30
+          include-hidden-files: true
+          overwrite: true
+      - name: Fail region if all attempts were incomplete
+        if: steps.attempt1.outputs.complete != 'true' && steps.attempt2.outputs.complete != 'true' && steps.attempt3.outputs.complete != 'true'
+        run: |
+          echo "::error::Region ${{ matrix.state }} failed after three checkpointed attempts."
+          exit 1
 
   publish:
     name: Validate, merge and publish complete catalogue only
