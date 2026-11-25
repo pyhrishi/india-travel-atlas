@@ -82,6 +82,17 @@ MANUAL_PHOTO_EXCLUSIONS = {
     'andhra-pradesh:57': 'performer portrait, not a photograph of Kuchipudi village',
     'andhra-pradesh:79': 'generic railway landscape, not Koundinya Wildlife Sanctuary',
     'andhra-pradesh:91': 'blackbuck photograph, not the Great Indian Bustard sanctuary',
+    'andhra-pradesh:106': 'canal aerial view, not a clear photograph of Thotapalli Barrage',
+    'andhra-pradesh:112': 'Gosthani river image, not the Vizag–Bheemili coastal road',
+    'andhra-pradesh:123': 'Araku Valley landscape, not the Coffee Museum',
+    'andhra-pradesh:138': 'Kadiyam railway station sign, not the nursery belt',
+    'andhra-pradesh:153': 'Chinese temple Five Tathagatas image, unrelated to the Amaravati Dhyana Buddha',
+    'andhra-pradesh:154': 'bank and residential area image, not the Dharanikota heritage site',
+    'andhra-pradesh:163': 'festival idols from a different temple, not Mopidevi Subrahmanya shrine',
+    'andhra-pradesh:176': 'generic Tirupati image, not the Alipiri footpath',
+    'andhra-pradesh:182': 'village farmland image, not the Gudimallam temple',
+    'andhra-pradesh:183': 'hill-stream landscape, not the Vedanarayana Temple',
+    'andhra-pradesh:193': 'general Srisailam town image, not Pathala Ganga or the dam',
 }
 for f in sorted(glob.glob(os.path.join(ROOT, 'data', 'facts', '*.json'))):
     slug = os.path.basename(f)[:-5]
