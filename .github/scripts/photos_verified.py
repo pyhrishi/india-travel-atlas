@@ -48,4 +48,4 @@ ph['miss'] = sorted(all_keys - set(P))
 json.dump(ph, open(OUT, 'w'), ensure_ascii=False, separators=(',', ':'))
 json.dump(dict(sorted(cred.items())), open(CRED, 'w'), ensure_ascii=False, separators=(',', ':'))
 
-print(f'verified-article photos: {same} retained, {changed} replaced, {added} added, {rejected} non-photo assets rejected; {len(P)} of {len(all_keys)} places have verified photos; {len(ph[\'miss\'])} intentionally have no verified photo')
+print(f'verified-article photos: {same} retained, {changed} replaced, {added} added, {rejected} non-photo assets rejected; {len(P)} of {len(all_keys)} places have verified photos; {len(all_keys - set(P))} intentionally have no verified photo')
