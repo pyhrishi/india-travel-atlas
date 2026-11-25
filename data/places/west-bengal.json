@@ -823,7 +823,13 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 451,
+    "diff": "Easy",
+    "base": "Biharinath"
+   }
   },
   {
    "n": 43,
@@ -919,7 +925,13 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 300,
+    "diff": "Easy",
+    "base": "Raghunathpur"
+   }
   },
   {
    "n": 49,
@@ -2913,6 +2925,50 @@
     "el": 1930,
     "diff": "Easy",
     "base": "Gorubathan"
+   }
+  },
+  {
+   "n": 171,
+   "name": "Gorgaburu",
+   "district": "Purulia",
+   "category": "Summit trek",
+   "g": "hills",
+   "lat": 23.2,
+   "lng": 86.05,
+   "why": "Highest point of the Ayodhya hills",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Summit trek",
+    "el": 855,
+    "diff": "Moderate",
+    "base": "Ayodhya Hills"
+   }
+  },
+  {
+   "n": 172,
+   "name": "Deolo Hill",
+   "district": "Kalimpong",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 27.08,
+   "lng": 88.48,
+   "why": "Highest point of Kalimpong, with views to Kangchenjunga",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1704,
+    "diff": "Easy",
+    "base": "Kalimpong"
    }
   }
  ],

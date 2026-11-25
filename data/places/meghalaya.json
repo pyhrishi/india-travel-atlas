@@ -299,7 +299,13 @@
     10,
     4
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 1800,
+    "diff": "Moderate",
+    "base": "Smit"
+   }
   },
   {
    "n": 12,
@@ -347,7 +353,13 @@
     10,
     4
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 1966,
+    "diff": "Easy",
+    "base": "Shillong"
+   }
   },
   {
    "n": 15,
@@ -753,7 +765,13 @@
     10,
     4
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 872,
+    "diff": "Easy",
+    "base": "Tura"
+   }
   },
   {
    "n": 40,
@@ -1021,7 +1039,13 @@
     10,
     4
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 1343,
+    "diff": "Easy",
+    "base": "Umiam"
+   }
   },
   {
    "n": 56,
@@ -1213,7 +1237,13 @@
     10,
     4
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 1700,
+    "diff": "Easy",
+    "base": "Mairang"
+   }
   },
   {
    "n": 68,

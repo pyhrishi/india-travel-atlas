@@ -1008,7 +1008,14 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Trek",
+    "el": 1515,
+    "diff": "Moderate",
+    "base": "Lanjigarh",
+    "permit": "Respect community rules"
+   }
   },
   {
    "n": 56,
@@ -1600,7 +1607,13 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Trek",
+    "el": 1050,
+    "diff": "Moderate",
+    "base": "Nrusinghanath"
+   }
   },
   {
    "n": 93,
@@ -2492,6 +2505,51 @@
     "el": 1187,
     "diff": "Moderate",
     "base": "Pallahara"
+   }
+  },
+  {
+   "n": 148,
+   "name": "Meghasani",
+   "district": "Mayurbhanj",
+   "category": "Summit trek",
+   "g": "hills",
+   "lat": 21.63,
+   "lng": 86.35,
+   "why": "Highest peak of Similipal",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Summit trek",
+    "el": 1158,
+    "diff": "Moderate",
+    "base": "Similipal",
+    "permit": "Forest permit"
+   }
+  },
+  {
+   "n": 149,
+   "name": "Barunei Hill",
+   "district": "Khordha",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 20.18,
+   "lng": 85.59,
+   "why": "Hill of the 1817 Paika rebellion, with a stream temple",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 300,
+    "diff": "Easy",
+    "base": "Khordha"
    }
   }
  ],

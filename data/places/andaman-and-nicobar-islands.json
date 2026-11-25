@@ -241,7 +241,13 @@
     11,
     4
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 100,
+    "diff": "Easy",
+    "base": "Chidiya Tapu"
+   }
   },
   {
    "n": 12,
@@ -337,7 +343,13 @@
     11,
     4
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Trek",
+    "el": 383,
+    "diff": "Easy",
+    "base": "Hope Town"
+   }
   },
   {
    "n": 18,

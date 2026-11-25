@@ -2815,6 +2815,28 @@
     3
    ],
    "time": "1 hr"
+  },
+  {
+   "n": 166,
+   "name": "Nilachal Hill (Kamakhya)",
+   "district": "Kamrup Metropolitan",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 26.166,
+   "lng": 91.705,
+   "why": "Old stone path up to the Kamakhya temple",
+   "tier": "top",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 250,
+    "diff": "Easy",
+    "base": "Guwahati"
+   }
   }
  ],
  "festivals": [

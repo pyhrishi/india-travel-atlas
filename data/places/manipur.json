@@ -569,7 +569,13 @@
     10,
     4
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1200,
+    "diff": "Easy",
+    "base": "Imphal"
+   }
   },
   {
    "n": 33,
@@ -751,7 +757,13 @@
     10,
     4
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 600,
+    "diff": "Moderate",
+    "base": "Tharon"
+   }
   },
   {
    "n": 44,
@@ -859,6 +871,28 @@
     "el": 2000,
     "diff": "Moderate",
     "base": "Moirang"
+   }
+  },
+  {
+   "n": 50,
+   "name": "Koubru",
+   "district": "Kangpokpi",
+   "category": "Summit trek",
+   "g": "hills",
+   "lat": 25.03,
+   "lng": 93.75,
+   "why": "Sacred peak of the Meitei, north of Imphal",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Summit trek",
+    "el": 2500,
+    "diff": "Moderate",
+    "base": "Koubru"
    }
   }
  ],

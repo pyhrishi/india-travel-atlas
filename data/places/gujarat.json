@@ -213,7 +213,13 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 462,
+    "diff": "Easy",
+    "base": "Khavda"
+   }
   },
   {
    "n": 3,
@@ -501,7 +507,13 @@
     10,
     3
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "trek": {
+    "kind": "Trek",
+    "el": 1069,
+    "diff": "Moderate",
+    "base": "Junagadh"
+   }
   },
   {
    "n": 21,
@@ -2465,7 +2477,13 @@
     7,
     2
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 750,
+    "diff": "Easy",
+    "base": "Dharampur"
+   }
   },
   {
    "name": "Don Hill",
@@ -2481,7 +2499,13 @@
     7,
     2
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1070,
+    "diff": "Easy",
+    "base": "Saputara"
+   }
   },
   {
    "name": "Mahal Campsite",

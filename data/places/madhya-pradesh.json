@@ -619,7 +619,13 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 200,
+    "diff": "Easy",
+    "base": "Sonagiri"
+   }
   },
   {
    "n": 31,
@@ -1403,7 +1409,13 @@
     7,
     2
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1352,
+    "diff": "Easy",
+    "base": "Pachmarhi"
+   }
   },
   {
    "n": 80,
@@ -2615,7 +2627,13 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1137,
+    "diff": "Easy",
+    "base": "Betul"
+   }
   },
   {
    "n": 155,
@@ -3068,6 +3086,28 @@
     "kind": "Hike",
     "el": 1308,
     "diff": "Moderate",
+    "base": "Pachmarhi"
+   }
+  },
+  {
+   "n": 183,
+   "name": "Bada Mahadeo & Gupt Mahadeo",
+   "district": "Narmadapuram",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 22.45,
+   "lng": 78.44,
+   "why": "Cave shrines in the Pachmarhi gorges",
+   "tier": "gem",
+   "months": [
+    10,
+    6
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1100,
+    "diff": "Easy",
     "base": "Pachmarhi"
    }
   }

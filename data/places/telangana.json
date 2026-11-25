@@ -371,7 +371,13 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 700,
+    "diff": "Easy",
+    "base": "Vikarabad"
+   }
   },
   {
    "n": 19,
@@ -1103,7 +1109,13 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 500,
+    "diff": "Moderate",
+    "base": "Mandamarri"
+   }
   },
   {
    "n": 64,
@@ -1359,7 +1371,13 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 700,
+    "diff": "Moderate",
+    "base": "Rachakonda"
+   }
   },
   {
    "n": 80,
@@ -1711,7 +1729,13 @@
     10,
     2
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 600,
+    "diff": "Moderate",
+    "base": "Koilkonda"
+   }
   },
   {
    "n": 102,

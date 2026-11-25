@@ -366,7 +366,13 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Trek",
+    "el": 900,
+    "diff": "Moderate",
+    "base": "Faraspal"
+   }
   },
   {
    "n": 16,
@@ -910,7 +916,13 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 1060,
+    "diff": "Moderate",
+    "base": "Lafa"
+   }
   },
   {
    "n": 50,
@@ -2084,6 +2096,28 @@
     "el": 1225,
     "diff": "Moderate",
     "base": "Samri"
+   }
+  },
+  {
+   "n": 123,
+   "name": "Akash Nagri (Bailadila)",
+   "district": "Dantewada",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 18.69,
+   "lng": 81.22,
+   "why": "Iron-ore hilltop township above the clouds",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1200,
+    "diff": "Easy",
+    "base": "Kirandul"
    }
   }
  ],

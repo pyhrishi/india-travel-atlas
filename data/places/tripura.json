@@ -148,7 +148,13 @@
     10,
     3
    ],
-   "time": "Overnight"
+   "time": "Overnight",
+   "trek": {
+    "kind": "Hike",
+    "el": 900,
+    "diff": "Easy",
+    "base": "Vanghmun"
+   }
   },
   {
    "n": 7,

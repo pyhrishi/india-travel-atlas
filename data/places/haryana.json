@@ -520,7 +520,13 @@
     9,
     4
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1220,
+    "diff": "Easy",
+    "base": "Morni"
+   }
   },
   {
    "n": 26,
@@ -856,7 +862,13 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 250,
+    "diff": "Easy",
+    "base": "Tosham"
+   }
   },
   {
    "n": 47,
@@ -1048,7 +1060,13 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 740,
+    "diff": "Easy",
+    "base": "Narnaul"
+   }
   },
   {
    "n": 59,
@@ -1801,6 +1819,28 @@
     3
    ],
    "time": "1 hr"
+  },
+  {
+   "n": 106,
+   "name": "Karoh Peak",
+   "district": "Panchkula",
+   "category": "Summit trek",
+   "g": "hills",
+   "lat": 30.74,
+   "lng": 77.04,
+   "why": "Haryana's highest point, in the Morni hills",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Summit trek",
+    "el": 1467,
+    "diff": "Moderate",
+    "base": "Morni"
+   }
   }
  ],
  "festivals": [

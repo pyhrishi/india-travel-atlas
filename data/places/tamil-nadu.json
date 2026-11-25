@@ -653,7 +653,13 @@
     10,
     6
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 2637,
+    "diff": "Easy",
+    "base": "Ooty"
+   }
   },
   {
    "n": 32,
@@ -2132,7 +2138,13 @@
     11,
     3
    ],
-   "time": "4–5 hrs"
+   "time": "4–5 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 800,
+    "diff": "Easy",
+    "base": "Tiruvannamalai"
+   }
   },
   {
    "n": 124,
@@ -3321,6 +3333,28 @@
     "el": 1500,
     "diff": "Easy",
     "base": "Kodaikanal"
+   }
+  },
+  {
+   "n": 194,
+   "name": "Marunthuvazh Malai",
+   "district": "Kanyakumari",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 8.12,
+   "lng": 77.48,
+   "why": "Hill of medicinal herbs, linked to Hanuman's mountain",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 250,
+    "diff": "Easy",
+    "base": "Kottaram"
    }
   }
  ],

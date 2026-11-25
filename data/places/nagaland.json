@@ -299,7 +299,13 @@
     10,
     4
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 2296,
+    "diff": "Easy",
+    "base": "Kohima"
+   }
   },
   {
    "n": 14,
@@ -673,7 +679,13 @@
     10,
     4
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 2200,
+    "diff": "Easy",
+    "base": "Pfutsero"
+   }
   },
   {
    "n": 37,

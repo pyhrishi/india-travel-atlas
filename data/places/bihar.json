@@ -534,7 +534,13 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 400,
+    "diff": "Easy",
+    "base": "Rajgir"
+   }
   },
   {
    "n": 23,
@@ -790,7 +796,13 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 240,
+    "diff": "Easy",
+    "base": "Gaya"
+   }
   },
   {
    "n": 39,
@@ -1270,7 +1282,13 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 213,
+    "diff": "Easy",
+    "base": "Bounsi"
+   }
   },
   {
    "n": 69,
@@ -1462,7 +1480,13 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 185,
+    "diff": "Easy",
+    "base": "Bhabua"
+   }
   },
   {
    "n": 81,
@@ -1766,7 +1790,13 @@
     10,
     3
    ],
-   "time": "1 hr"
+   "time": "1 hr",
+   "trek": {
+    "kind": "Hike",
+    "el": 320,
+    "diff": "Moderate",
+    "base": "Rajgir"
+   }
   },
   {
    "name": "Pandu Pokhar",
@@ -1942,7 +1972,13 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 300,
+    "diff": "Moderate",
+    "base": "Gurpa"
+   }
   },
   {
    "name": "Kauwa Dol",
@@ -2759,6 +2795,51 @@
     9
    ],
    "time": "Half day"
+  },
+  {
+   "n": 162,
+   "name": "Ratnagiri (Rajgir)",
+   "district": "Nalanda",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 25.01,
+   "lng": 85.45,
+   "why": "Hill of the Vishwa Shanti Stupa, by ropeway or on foot",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 400,
+    "diff": "Easy",
+    "base": "Rajgir"
+   }
+  },
+  {
+   "n": 163,
+   "name": "Someshwar Fort",
+   "district": "West Champaran",
+   "category": "Summit trek",
+   "g": "hills",
+   "lat": 27.39,
+   "lng": 84.16,
+   "why": "Bihar's highest point, a ruined fort on the Nepal border in Valmiki Tiger Reserve",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Summit trek",
+    "el": 880,
+    "diff": "Moderate",
+    "base": "Valmiki Nagar",
+    "permit": "Forest permit"
+   }
   }
  ],
  "festivals": [

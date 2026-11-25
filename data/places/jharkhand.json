@@ -443,7 +443,13 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 700,
+    "diff": "Easy",
+    "base": "Ranchi"
+   }
   },
   {
    "n": 20,
@@ -523,7 +529,13 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 700,
+    "diff": "Easy",
+    "base": "Ranchi"
+   }
   },
   {
    "n": 25,
@@ -763,7 +775,14 @@
     11,
     4
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Trek",
+    "el": 926,
+    "diff": "Moderate",
+    "base": "Jamshedpur",
+    "permit": "Forest permit"
+   }
   },
   {
    "n": 40,
@@ -1499,7 +1518,13 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Trek",
+    "el": 1000,
+    "diff": "Moderate",
+    "base": "Lalpania"
+   }
   },
   {
    "n": 86,

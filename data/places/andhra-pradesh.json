@@ -1027,7 +1027,13 @@
     10,
     3
    ],
-   "time": "2–3 hrs"
+   "time": "2–3 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 500,
+    "diff": "Easy",
+    "base": "Kondapalli"
+   }
   },
   {
    "n": 50,
@@ -1363,7 +1369,13 @@
     7,
     11
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 200,
+    "diff": "Moderate",
+    "base": "Varadaiahpalem"
+   }
   },
   {
    "n": 71,
@@ -1535,7 +1547,13 @@
     10,
     2
    ],
-   "time": "Overnight"
+   "time": "Overnight",
+   "trek": {
+    "kind": "Hike",
+    "el": 1265,
+    "diff": "Easy",
+    "base": "Madanapalle"
+   }
   },
   {
    "n": 81,
@@ -1663,7 +1681,13 @@
     10,
     3
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "trek": {
+    "kind": "Trek",
+    "el": 900,
+    "diff": "Moderate",
+    "base": "Ahobilam"
+   }
   },
   {
    "n": 89,

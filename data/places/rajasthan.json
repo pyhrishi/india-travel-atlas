@@ -230,7 +230,13 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 600,
+    "diff": "Easy",
+    "base": "Jaipur"
+   }
   },
   {
    "n": 6,
@@ -2434,7 +2440,13 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1722,
+    "diff": "Easy",
+    "base": "Mount Abu"
+   }
   },
   {
    "n": 143,
@@ -3234,7 +3246,13 @@
     10,
     3
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "trek": {
+    "kind": "Hike",
+    "el": 900,
+    "diff": "Easy",
+    "base": "Todgarh"
+   }
   },
   {
    "n": 193,
@@ -3459,6 +3477,51 @@
     2
    ],
    "time": "2 hrs"
+  },
+  {
+   "n": 207,
+   "name": "Adhar Devi",
+   "district": "Sirohi",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 24.6,
+   "lng": 72.71,
+   "why": "Cave temple of the goddess up about 360 steps",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1200,
+    "diff": "Easy",
+    "base": "Mount Abu"
+   }
+  },
+  {
+   "n": 208,
+   "name": "Kumbhalgarh to Ranakpur",
+   "district": "Rajsamand",
+   "category": "Trek",
+   "g": "hills",
+   "lat": 25.11,
+   "lng": 73.52,
+   "why": "Forest walk down the Kumbhalgarh sanctuary to the Ranakpur temple",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Trek",
+    "el": 1000,
+    "diff": "Moderate",
+    "base": "Kumbhalgarh",
+    "permit": "Forest permit"
+   }
   }
  ],
  "festivals": [

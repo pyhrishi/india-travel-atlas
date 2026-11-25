@@ -110,7 +110,13 @@
     10,
     4
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1500,
+    "diff": "Easy",
+    "base": "Aizawl"
+   }
   },
   {
    "n": 4,
@@ -158,7 +164,13 @@
     10,
     4
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1548,
+    "diff": "Easy",
+    "base": "Reiek"
+   }
   },
   {
    "n": 7,
@@ -174,7 +186,13 @@
     10,
     4
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 1619,
+    "diff": "Easy",
+    "base": "Hmuifang"
+   }
   },
   {
    "n": 8,
@@ -254,7 +272,14 @@
     10,
     4
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "trek": {
+    "kind": "Trek",
+    "el": 1500,
+    "diff": "Moderate",
+    "base": "Murlen",
+    "permit": "Park permit"
+   }
   },
   {
    "n": 13,
@@ -655,6 +680,29 @@
     4
    ],
    "time": "1–2 hrs"
+  },
+  {
+   "n": 38,
+   "name": "Lengteng",
+   "district": "Champhai",
+   "category": "Summit trek",
+   "g": "hills",
+   "lat": 23.83,
+   "lng": 93.2,
+   "why": "Second-highest peak in Mizoram, in the Lengteng sanctuary",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1 day",
+   "trek": {
+    "kind": "Summit trek",
+    "el": 2141,
+    "diff": "Moderate",
+    "base": "Ngopa",
+    "permit": "Forest permit"
+   }
   }
  ],
  "festivals": [

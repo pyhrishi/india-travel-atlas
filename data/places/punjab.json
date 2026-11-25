@@ -1210,7 +1210,13 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 500,
+    "diff": "Easy",
+    "base": "Hoshiarpur"
+   }
   },
   {
    "n": 71,

@@ -765,7 +765,13 @@
     7,
     10
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 200,
+    "diff": "Easy",
+    "base": "Chakia"
+   }
   },
   {
    "n": 39,
@@ -797,7 +803,13 @@
     7,
     10
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 200,
+    "diff": "Easy",
+    "base": "Ahraura"
+   }
   },
   {
    "n": 41,
@@ -829,7 +841,13 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "trek": {
+    "kind": "Hike",
+    "el": 450,
+    "diff": "Easy",
+    "base": "Robertsganj"
+   }
   },
   {
    "n": 43,

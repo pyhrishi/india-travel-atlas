@@ -534,7 +534,13 @@
     7,
     10
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 800,
+    "diff": "Easy",
+    "base": "Chorla"
+   }
   },
   {
    "n": 25,
@@ -2105,6 +2111,28 @@
     "el": 1000,
     "diff": "Moderate",
     "base": "Keri"
+   }
+  },
+  {
+   "n": 122,
+   "name": "Kuskem Falls",
+   "district": "Canacona",
+   "category": "Hike",
+   "g": "hills",
+   "lat": 15.02,
+   "lng": 74.15,
+   "why": "Monsoon walk to falls in the Cotigao forest",
+   "tier": "gem",
+   "months": [
+    7,
+    10
+   ],
+   "time": "Half day",
+   "trek": {
+    "kind": "Hike",
+    "el": 300,
+    "diff": "Easy",
+    "base": "Kuskem"
    }
   }
  ],

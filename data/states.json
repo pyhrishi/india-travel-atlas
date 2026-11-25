@@ -30,7 +30,7 @@
   "slug": "assam",
   "type": "State",
   "status": "done",
-  "count": 165,
+  "count": 166,
   "best": [
    [
     10,
@@ -43,7 +43,7 @@
   "slug": "bihar",
   "type": "State",
   "status": "done",
-  "count": 161,
+  "count": 163,
   "best": [
    [
     10,
@@ -56,7 +56,7 @@
   "slug": "chhattisgarh",
   "type": "State",
   "status": "done",
-  "count": 122,
+  "count": 123,
   "best": [
    [
     10,
@@ -69,7 +69,7 @@
   "slug": "goa",
   "type": "State",
   "status": "done",
-  "count": 121,
+  "count": 122,
   "best": [
    [
     11,
@@ -95,7 +95,7 @@
   "slug": "haryana",
   "type": "State",
   "status": "done",
-  "count": 105,
+  "count": 106,
   "best": [
    [
     10,
@@ -164,7 +164,7 @@
   "slug": "madhya-pradesh",
   "type": "State",
   "status": "done",
-  "count": 182,
+  "count": 183,
   "best": [
    [
     10,
@@ -190,7 +190,7 @@
   "slug": "manipur",
   "type": "State",
   "status": "done",
-  "count": 49,
+  "count": 50,
   "best": [
    [
     10,
@@ -216,7 +216,7 @@
   "slug": "mizoram",
   "type": "State",
   "status": "done",
-  "count": 37,
+  "count": 38,
   "best": [
    [
     10,
@@ -242,7 +242,7 @@
   "slug": "odisha",
   "type": "State",
   "status": "done",
-  "count": 147,
+  "count": 149,
   "best": [
    [
     10,
@@ -268,7 +268,7 @@
   "slug": "rajasthan",
   "type": "State",
   "status": "done",
-  "count": 206,
+  "count": 208,
   "best": [
    [
     10,
@@ -298,7 +298,7 @@
   "slug": "tamil-nadu",
   "type": "State",
   "status": "done",
-  "count": 193,
+  "count": 194,
   "best": [
    [
     11,
@@ -367,7 +367,7 @@
   "slug": "west-bengal",
   "type": "State",
   "status": "done",
-  "count": 170,
+  "count": 172,
   "best": [
    [
     10,
