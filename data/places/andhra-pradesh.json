@@ -2042,7 +2042,7 @@
    "g": "buddhist",
    "lat": 18.395,
    "lng": 83.895,
-   "why": "Excavated stupa and monastery linked to an ancient Kalinga capital",
+   "why": "Buddhist archaeological site in Srikakulam district, listed among the region's ancient Buddhist places",
    "n": 103,
    "tier": "gem",
    "months": [
@@ -2058,7 +2058,7 @@
    "g": "culture",
    "lat": 18.35,
    "lng": 83.757,
-   "why": "Home of fine hand-spun khadi that Gandhi praised",
+   "why": "Village known for fine handwoven Sanna Khadi; Ponduru khadi is registered with a Geographical Indication",
    "n": 104,
    "tier": "gem",
    "months": [
@@ -2074,7 +2074,7 @@
    "g": "culture",
    "lat": 18.4,
    "lng": 83.83,
-   "why": "GI-tagged bell-metal and brass ware, still made by hand",
+   "why": "Village known for brass and bell-metal handicrafts registered with a Geographical Indication",
    "n": 105,
    "tier": "gem",
    "months": [
@@ -2096,7 +2096,7 @@
    "g": "water",
    "lat": 18.6317,
    "lng": 83.4804,
-   "why": "Scenic barrage on the Nagavali river at the edge of the Manyam hills",
+   "why": "Irrigation barrage on the Nagavali River, inaugurated in 2015 to supply water to farms across three districts",
    "n": 106,
    "tier": "gem",
    "months": [
@@ -2128,7 +2128,7 @@
    "g": "water",
    "lat": 18.17,
    "lng": 83.19,
-   "why": "Hill-ringed reservoir on the Gosthani river with a tourism resort",
+   "why": "Reservoir on the Gosthani River, built between 1963 and 1968 for irrigation and Visakhapatnam's water supply",
    "n": 108,
    "tier": "top",
    "months": [
@@ -2144,7 +2144,7 @@
    "g": "temple",
    "lat": 18.08,
    "lng": 83.37,
-   "why": "Striking modern Rama temple built in the shape of a drawn bow",
+   "why": "Rama-themed temple in Vizianagaram, designed in the shape of a bow and arrow",
    "n": 109,
    "tier": "top",
    "months": [
@@ -2160,7 +2160,7 @@
    "g": "caves",
    "lat": 17.86,
    "lng": 83.43,
-   "why": "Red sand dunes by the sea, a national geo-heritage site",
+   "why": "Coastal red-sand geological formation, notified as a National Geological Monument in 2016",
    "n": 110,
    "tier": "top",
    "months": [
@@ -2176,7 +2176,7 @@
    "g": "buddhist",
    "lat": 17.895,
    "lng": 83.44,
-   "why": "Hilltop monastery ruins above Bheemili with sweeping sea views",
+   "why": "Ruined Buddhist monastic complex on a hill near Bheemunipatnam, with occupation dating from the 3rd century BCE to the 2nd century CE",
    "n": 111,
    "tier": "gem",
    "months": [
@@ -2192,7 +2192,7 @@
    "g": "coast",
    "lat": 17.82,
    "lng": 83.4,
-   "why": "25 km coastal drive past beaches, red dunes and Buddhist hills",
+   "why": "Coastal road linking Visakhapatnam and Bheemunipatnam, passing beaches, red dunes and heritage sites",
    "n": 112,
    "tier": "top",
    "months": [
@@ -2208,7 +2208,7 @@
    "g": "culture",
    "lat": 17.718,
    "lng": 83.331,
-   "why": "Walk through a retired Navy long-range patrol aircraft",
+   "why": "Preserved Tupolev Tu-142 maritime reconnaissance aircraft displayed as a museum on Visakhapatnam's coast",
    "n": 113,
    "tier": "top",
    "months": [
@@ -2224,7 +2224,7 @@
    "g": "wildlife",
    "lat": 17.763,
    "lng": 83.346,
-   "why": "Large zoo set against the Kambalakonda hills",
+   "why": "Zoo within Kambalakonda Reserve Forest, opened to the public in 1977",
    "n": 114,
    "tier": "top",
    "months": [
@@ -2240,7 +2240,7 @@
    "g": "wildlife",
    "lat": 17.8,
    "lng": 83.33,
-   "why": "Hill forest on the city's edge with eco-trails and a lake",
+   "why": "Protected forest near Visakhapatnam with dry evergreen woodland, scrub and meadows",
    "n": 115,
    "tier": "top",
    "months": [
@@ -2294,7 +2294,7 @@
    "g": "coast",
    "lat": 17.5,
    "lng": 83.01,
-   "why": "Wide, uncrowded beach beside a fishing village",
+   "why": "Fishing village and coastal settlement on the Bay of Bengal in Anakapalli district",
    "n": 118,
    "tier": "gem",
    "months": [
@@ -2310,7 +2310,7 @@
    "g": "wildlife",
    "lat": 17.6,
    "lng": 82.99,
-   "why": "Freshwater lake with boating and winter birds",
+   "why": "Lake and bird sanctuary in the foothills of the Eastern Ghats, with wetland habitat",
    "n": 119,
    "tier": "gem",
    "months": [
@@ -2326,7 +2326,7 @@
    "g": "temple",
    "lat": 17.42,
    "lng": 82.77,
-   "why": "Venkateswara hill temple near Nakkapalli, popular with pilgrims",
+   "why": "Village near Nakkapalle with an ancient hill temple dedicated to Venkateswara",
    "n": 120,
    "tier": "top",
    "months": [
@@ -2373,7 +2373,7 @@
    "g": "hills",
    "lat": 18.34,
    "lng": 82.88,
-   "why": "Botanical garden in Araku with treetop huts",
+   "why": "Botanical garden in Araku Valley, with horticulture displays and gardens",
    "n": 122,
    "tier": "top",
    "months": [
@@ -2389,7 +2389,7 @@
    "g": "culture",
    "lat": 18.33,
    "lng": 82.873,
-   "why": "The story of Araku's tribal-grown coffee, with tastings",
+   "why": "Visitor centre in Araku focused on the region's coffee-growing and processing traditions",
    "n": 123,
    "tier": "top",
    "months": [
@@ -2501,7 +2501,7 @@
    "g": "culture",
    "lat": 16.83,
    "lng": 81.77,
-   "why": "Village famous for pootharekulu, paper-thin rice-film sweets",
+   "why": "Village in Konaseema known for pootharekulu, a traditional sweet made with thin rice starch sheets",
    "n": 130,
    "tier": "top",
    "months": [
@@ -2533,7 +2533,7 @@
    "g": "temple",
    "lat": 16.75,
    "lng": 81.88,
-   "why": "Jaganmohini Kesava temple: Vishnu in front, Mohini carved behind",
+   "why": "Temple between the Vasishta and Gautami branches of the Godavari; its black-stone image shows Vishnu on one side and Mohini on the other",
    "n": 132,
    "tier": "top",
    "months": [
@@ -2549,7 +2549,7 @@
    "g": "temple",
    "lat": 16.66,
    "lng": 82,
-   "why": "Ancient Siddhi Vinayaka shrine in the coconut delta",
+   "why": "Siddhi Vinayaka temple in Ainavilli, with two sculpted gopurams",
    "n": 133,
    "tier": "top",
    "months": [
@@ -2565,7 +2565,7 @@
    "g": "temple",
    "lat": 16.565,
    "lng": 81.93,
-   "why": "Venkateswara temple on the Vainateya branch of the Godavari",
+   "why": "Sri Bala Balaji shrine in Appanapalli, a Konaseema pilgrimage centre surrounded by Godavari waterways",
    "n": 134,
    "tier": "top",
    "months": [
@@ -2693,7 +2693,7 @@
    "g": "buddhist",
    "lat": 17,
    "lng": 81.12,
-   "why": "Rock-cut chaitya cave and stupas from around the 2nd century BCE",
+   "why": "Buddhist monument group with two rock-cut caves, a chaitya hall, stupas and remains of monasteries",
    "n": 142,
    "tier": "gem",
    "months": [
@@ -2717,7 +2717,7 @@
    "g": "culture",
    "lat": 16.43,
    "lng": 81.7,
-   "why": "Centre of hand-crocheted, GI-tagged Narsapur lace",
+   "why": "Town known for Narsapur lace, a hand-crocheted textile registered with a Geographical Indication",
    "n": 143,
    "tier": "top",
    "months": [
@@ -2973,7 +2973,7 @@
    "g": "buddhist",
    "lat": 16.1,
    "lng": 80.78,
-   "why": "Stupa whose relic caskets carry an early form of the Brahmi script",
+   "why": "Buddhist stupa site where excavations uncovered relic caskets bearing early Brahmi inscriptions",
    "n": 159,
    "tier": "gem",
    "months": [
@@ -2989,7 +2989,7 @@
    "g": "temple",
    "lat": 15.905,
    "lng": 80.468,
-   "why": "Ancient temple the town of Bapatla is named after",
+   "why": "Centrally protected temple dedicated to Bhavanarayana, from which the town of Bapatla takes its name",
    "n": 160,
    "tier": "gem",
    "months": [
@@ -3005,7 +3005,7 @@
    "g": "heritage",
    "lat": 15.72,
    "lng": 80.29,
-   "why": "Medieval Kakatiya port that Marco Polo wrote about",
+   "why": "Historic port settlement with evidence of long-distance trade, temples and Buddhist remains",
    "n": 161,
    "tier": "gem",
    "months": [
@@ -3037,7 +3037,7 @@
    "g": "temple",
    "lat": 16.07,
    "lng": 80.93,
-   "why": "Subrahmanya Swamy temple in the Krishna delta",
+   "why": "Village known for the Subrahmanya Swamy Temple",
    "n": 163,
    "tier": "top",
    "months": [
@@ -3053,7 +3053,7 @@
    "g": "wildlife",
    "lat": 15.9,
    "lng": 80.95,
-   "why": "Mangrove forest of the Krishna delta, home to fishing cats",
+   "why": "Estuarine wildlife sanctuary protecting mangrove forests in the Krishna delta",
    "n": 164,
    "tier": "gem",
    "months": [
@@ -3117,7 +3117,7 @@
    "g": "wildlife",
    "lat": 15.62,
    "lng": 78.85,
-   "why": "Remote Nallamala wilderness between Srisailam and the plains",
+   "why": "Wildlife sanctuary in the Nallamala Forest; its northern section forms part of the Nagarjunasagar–Srisailam Tiger Reserve",
    "n": 168,
    "tier": "gem",
    "months": [
@@ -3165,7 +3165,7 @@
    "g": "water",
    "lat": 14.49,
    "lng": 79.3,
-   "why": "Large Penna reservoir ringed by the Velikonda hills",
+   "why": "Dam across the Penna River, forming a major reservoir in the river basin",
    "n": 171,
    "tier": "top",
    "months": [
@@ -3181,7 +3181,7 @@
    "g": "culture",
    "lat": 13.96,
    "lng": 79.58,
-   "why": "Fine cotton Venkatagiri saris and an old royal palace",
+   "why": "Town known for Venkatagiri handloom cotton and silk saris",
    "n": 172,
    "tier": "top",
    "months": [
@@ -3252,7 +3252,7 @@
    "g": "temple",
    "lat": 13.65,
    "lng": 79.4,
-   "why": "The roughly 3,500-step pilgrim climb from Tirupati to Tirumala",
+   "why": "Longer of the two footpaths from Tirupati to Tirumala, with about 3,550 steps over 9 km",
    "n": 176,
    "tier": "top",
    "months": [
@@ -3268,7 +3268,7 @@
    "g": "temple",
    "lat": 13.633,
    "lng": 79.42,
-   "why": "Huge 12th-century temple complex in the heart of Tirupati",
+   "why": "12th-century Vaishnavite temple in central Tirupati, consecrated in 1130 CE",
    "n": 177,
    "tier": "top",
    "months": [
@@ -3316,7 +3316,7 @@
    "g": "temple",
    "lat": 13.42,
    "lng": 79.58,
-   "why": "Where legend says Venkateswara married Padmavathi",
+   "why": "Temple town associated with the marriage of Venkateswara and Padmavathi; the Kalyana Venkateswara Temple dates to 1541 CE",
    "n": 180,
    "tier": "top",
    "months": [
@@ -3332,7 +3332,7 @@
    "g": "wildlife",
    "lat": 13.625,
    "lng": 79.38,
-   "why": "One of India's largest zoos, in the Seshachalam foothills",
+   "why": "Zoological park in Tirupati, set in the foothills of the Seshachalam range",
    "n": 181,
    "tier": "top",
    "months": [
@@ -3348,7 +3348,7 @@
    "g": "temple",
    "lat": 13.61,
    "lng": 79.58,
-   "why": "Parasurameswara temple with one of India's oldest lingams, c. 2nd century BCE",
+   "why": "Village near Tirupati, known for the Parasurameswara Swamy Temple and its ancient lingam",
    "n": 182,
    "tier": "gem",
    "months": [
@@ -3364,7 +3364,7 @@
    "g": "temple",
    "lat": 13.389,
    "lng": 79.795,
-   "why": "Vedanarayana temple where sun rays reach the deity each March",
+   "why": "Village in Tirupati district and site of the Vedanarayana Temple",
    "n": 183,
    "tier": "top",
    "months": [
@@ -3403,7 +3403,7 @@
    "g": "heritage",
    "lat": 13.78,
    "lng": 78.58,
-   "why": "Hill fort with a Persian-style Rangin Mahal palace",
+   "why": "Hill fort in Annamayya district, located in Gurramkonda village",
    "n": 185,
    "tier": "gem",
    "months": [
@@ -3419,7 +3419,7 @@
    "g": "temple",
    "lat": 14.25,
    "lng": 79.12,
-   "why": "Chola-era temple on the Cheyyeru river",
+   "why": "Nandalur lies on the west bank of the Cheyyeru and was once a Buddhist centre; caves and viharas were discovered here in 1913",
    "n": 186,
    "tier": "gem",
    "months": [
@@ -3467,7 +3467,7 @@
    "g": "wildlife",
    "lat": 14.68,
    "lng": 78.95,
-   "why": "Scrub forest where the rare Jerdon's courser was rediscovered in 1986",
+   "why": "Protected forest habitat of the critically endangered Jerdon's courser",
    "n": 189,
    "tier": "gem",
    "months": [
@@ -3483,7 +3483,7 @@
    "g": "temple",
    "lat": 15.03,
    "lng": 78.8,
-   "why": "Seat of the 17th-century seer Pothuluri Veerabrahmendra Swamy",
+   "why": "Pilgrimage centre associated with the 17th-century seer Pothuluri Veerabrahmendra Swamy",
    "n": 190,
    "tier": "top",
    "months": [
@@ -3531,7 +3531,7 @@
    "g": "water",
    "lat": 16.085,
    "lng": 78.88,
-   "why": "Ropeway down to the Krishna below Srisailam, with dam views",
+   "why": "Pathala Ganga provides access to the Krishna River below the Srisailam dam, including a ropeway and steps",
    "n": 193,
    "tier": "top",
    "months": [
@@ -3563,7 +3563,7 @@
    "g": "culture",
    "lat": 15.32,
    "lng": 78.23,
-   "why": "Home of the GI-tagged Banganapalli mango; go in May or June",
+   "why": "Town known for Banganapalli mangoes, a Geographical Indication-tagged cultivar",
    "n": 195,
    "tier": "gem",
    "months": [
@@ -3579,7 +3579,7 @@
    "g": "temple",
    "lat": 13.8,
    "lng": 77.02,
-   "why": "Nolamba-era Siddheswara temples with fine black-stone carving",
+   "why": "Historic temple complex in Hemavathi, associated with the Nolamba period",
    "n": 196,
    "tier": "gem",
    "months": [
@@ -3595,7 +3595,7 @@
    "g": "temple",
    "lat": 14.11,
    "lng": 78.16,
-   "why": "Major Narasimha shrine with a grand annual festival",
+   "why": "Temple in Kadiri dedicated to Lakshmi Narasimha",
    "n": 197,
    "tier": "top",
    "months": [
@@ -3611,7 +3611,7 @@
    "g": "culture",
    "lat": 14.41,
    "lng": 77.72,
-   "why": "Silk town famous for heavy, gold-bordered Dharmavaram saris",
+   "why": "Dharmavaram is known for its silk handloom saris, including richly bordered designs",
    "n": 198,
    "tier": "top",
    "months": [
@@ -3633,7 +3633,7 @@
    "g": "culture",
    "lat": 14.39,
    "lng": 77.72,
-   "why": "Leather puppet-makers of the Tholu Bommalata shadow-play tradition",
+   "why": "Nimmalakunta is a centre for Tholu Bommalata leather shadow puppetry, a Geographical Indication-tagged craft",
    "n": 199,
    "tier": "gem",
    "months": [
@@ -3649,7 +3649,7 @@
    "g": "heritage",
    "lat": 14.7,
    "lng": 76.85,
-   "why": "Hill fort with temples on the Karnataka border",
+   "why": "Hill fort at Rayadurgam, with fortifications and temple remains",
    "n": 200,
    "tier": "gem",
    "months": [
