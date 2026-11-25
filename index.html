@@ -198,7 +198,7 @@ textarea{width:100%;min-height:76px;border-radius:14px;border:1px solid var(--li
 .ob[hidden]{display:none}
 .obc{background:var(--bg);width:min(560px,100%);border-radius:22px 22px 0 0;padding:20px 20px calc(24px + env(safe-area-inset-bottom,0px));max-height:92%;overflow:auto;box-shadow:var(--shadow)}
 @media(min-width:600px){.obc{border-radius:22px}}
-.obk{font-size:14px;color:var(--soft);margin:0}
+.countrychoices{display:grid;gap:10px;margin-top:20px}.countrychoice{display:grid;grid-template-columns:52px 1fr 24px;align-items:center;gap:12px;width:100%;padding:16px;border:1px solid var(--line);border-radius:16px;background:var(--card);color:var(--ink);text-align:left;cursor:pointer}.countrychoice:active{transform:scale(.99)}.countrychoice b{display:block;font-size:18px}.countrychoice small{display:block;color:var(--soft);font-size:13px;margin-top:2px}.countryflag{font-size:32px;line-height:1;text-align:center}.obk{font-size:14px;color:var(--soft);margin:0}
 .lbl{display:block;font-size:14px;color:var(--soft);font-weight:600;margin:6px 0 4px}
 .lbl select,.lbl input{width:100%;margin-top:4px;display:block}
 input[type=text],input[type=date],input[type=search]{height:44px;border-radius:12px;border:1px solid var(--line);background:var(--card);padding:0 12px;font-size:16px}
@@ -1360,6 +1360,30 @@ function showOnboard(edit){const ob=$("#ob");let step=0,h=M.home?.name||"",ints=
     const f=c.querySelector("select,button.tag,button.pri");if(f)f.focus()};
   const close=()=>{ob.hidden=true;document.removeEventListener("keydown",esc_)};const esc_=e=>{if(e.key==="Escape"){e.preventDefault();e.stopPropagation();if(!edit){M.onboarded=true;save()}close()}};
   ob.hidden=false;document.addEventListener("keydown",esc_);draw()}
+
+/* ---- country-first entry ---- */
+function showCountryGate(){
+  const ob=$("#ob"),c=ob.querySelector(".obc");
+  ob.setAttribute("aria-labelledby","countryT");
+  c.innerHTML=`<p class="obk">TRAVEL ATLAS</p>
+    <h2 id="countryT" style="font-size:28px;margin:8px 0 4px">Where would you like to explore?</h2>
+    <p class="lead">Choose a country to open its map, regions and destinations. You can switch countries later.</p>
+    <div class="countrychoices" role="group" aria-label="Choose a country">
+      <button type="button" class="countrychoice" data-country="in"><span class="countryflag" aria-hidden="true">🇮🇳</span><span><b>India</b><small>States, union territories and destinations</small></span><span aria-hidden="true">→</span></button>
+      <button type="button" class="countrychoice" data-country="np"><span class="countryflag" aria-hidden="true">🇳🇵</span><span><b>Nepal</b><small>Provinces, districts and destinations</small></span><span aria-hidden="true">→</span></button>
+    </div>
+    <p class="note" style="margin:16px 0 0">More countries will appear here as the atlas expands.</p>`;
+  ob.hidden=false;
+  c.querySelectorAll("[data-country]").forEach(b=>b.onclick=async()=>{
+    const cc=b.dataset.country;
+    S.cc=cc;S.states=ccStates();
+    try{localStorage.setItem("ita-cc",cc)}catch(e){}
+    ob.hidden=true;
+    await goIndia();
+    if(!M.onboarded)setTimeout(()=>{if(!M.onboarded)showOnboard(false)},350);
+  });
+  setTimeout(()=>c.querySelector("[data-country]")?.focus(),30);
+}
 
 /* ---- home rings on map ---- */
 const gHome=root.insert("g",()=>gPins.node());
@@ -3141,7 +3165,7 @@ function route(silent,h0){const h=h0!=null?h0:location.hash.slice(1);const m=h.m
     else if(h.startsWith("list=")){S.slug=null;S.stack=[{v:"explore"},{v:"slist",a:h.slice(5)}];classStates();paint(true);drawPins();drawHome();setTimeout(fitIndia,250);if(mobile())setTimeout(()=>snapTo(2),300)}
     else if(first){await openState(first.slug,false);if(h!==first.slug&&h.startsWith(first.slug+"-"))route(false,h);else setTimeout(()=>focusState(1000),250)}
     else{S.slug=null;S.stack=[{v:"explore"}];classStates();paint();drawPins();drawHome();setTimeout(fitIndia,250)}
-    if(!M.onboarded)setTimeout(()=>{if(!M.onboarded)showOnboard(false)},900);
+    showCountryGate();
     requestAnimationFrame(()=>setTimeout(()=>phGo&&phGo(),50));
     {const L=allPlaces();let i=0;const idle=window.requestIdleCallback||(f=>setTimeout(()=>f({timeRemaining:()=>8}),60));const step=dl=>{const t0=performance.now();while(i<L.length&&(dl.timeRemaining()>2||performance.now()-t0<6)){hay(L[i]);L[i]._cn||(L[i]._cn=" "+canon(L[i].name)+" ");i++}if(i<L.length)idle(step)};setTimeout(()=>idle(step),2500)}
   }catch(e){phGo&&phGo();V.innerHTML=`<div class="empty">Couldn't load the atlas. Reload to try again.</div>`;console.error(e)}
