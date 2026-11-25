@@ -20,7 +20,7 @@ for f in sorted(glob.glob(os.path.join(ROOT, 'data', 'facts', '*.json'))):
         if not r.get('img') or not r.get('w'): continue
         k = f'{slug}:{n}'; new = rel(r['img'])
         fn = (r.get('file') or r['img']).lower()
-        if re.search(r'\.svg|\bmap\b|_map|map_|locator|location|flag|logo|emblem|seal|coat_of_arms|diagram|plan_of|bust|statue_of|portrait', fn): continue  # not a picture of the place
+        if re.search(r'\.svg|\bmap\b|_map|map_|locator|location|flag|logo|emblem|seal|coat_of_arms|diagram|plan_of|bust|portrait', fn): continue  # not a picture of the place
         old = P.get(k)
         if old == new: same += 1; continue
         if old: changed += 1
