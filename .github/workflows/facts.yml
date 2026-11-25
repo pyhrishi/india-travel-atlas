@@ -19,7 +19,7 @@ permissions:
   contents: write
 concurrency:
   group: facts
-  cancel-in-progress: false
+  cancel-in-progress: true
 jobs:
   facts:
     runs-on: ubuntu-latest
