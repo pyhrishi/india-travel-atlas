@@ -1,14 +1,12 @@
 name: Find place photos
 on:
-  push:
-    branches: [main]
-    paths: ['data/facts/**', '.github/scripts/photos_verified.py', '.github/workflows/photos.yml']
+  workflow_dispatch:
   schedule:
     - cron: '17 21 * * 0'
 permissions:
   contents: write
 concurrency:
-  group: photos
+  group: facts-parallel
   cancel-in-progress: false
 jobs:
   photos:
@@ -16,15 +14,24 @@ jobs:
     timeout-minutes: 180
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Publish only photos from verified place articles
         run: python3 .github/scripts/photos_verified.py
       - name: Refresh offline cache version
         run: python3 tools/bump_sw.py
       - name: Save results
+        shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
           git add data/photos.json data/photo-credits.json .github/photos-state.json sw.js
           git diff --cached --quiet && { echo "No change"; exit 0; }
           git commit -m "Update place photos"
-          for i in 1 2 3; do git pull --rebase -X theirs && git push && break; sleep 10; done
+          for attempt in 1 2 3; do
+            git pull --rebase -X theirs origin main || exit 1
+            if git push origin HEAD:main; then exit 0; fi
+            echo "Push attempt $attempt failed; retrying."
+            sleep 15
+          done
+          exit 1
