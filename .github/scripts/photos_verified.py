@@ -60,12 +60,22 @@ def rel(u):
     return u[len(base):] if u.startswith(base) else u
 candidates = []
 rejected = 0
+# Manually audited article lead images that depict a different subject/context.
+# Keep these places on the illustrated fallback until a place-specific photo is verified.
+MANUAL_PHOTO_EXCLUSIONS = {
+    'andhra-pradesh:16': 'underway submarine image, not the beachside museum',
+    'andhra-pradesh:17': 'RK Beach sunset image, not Dolphin Nose or Yarada',
+    'andhra-pradesh:20': 'banana fields image, not Etikoppaka lacquer toys',
+}
 for f in sorted(glob.glob(os.path.join(ROOT, 'data', 'facts', '*.json'))):
     slug = os.path.basename(f)[:-5]
     if slug.startswith('_'): continue
     for n, r in json.load(open(f)).items():
         if not r.get('img') or not r.get('w') or not r.get('file'): continue
         k = f'{slug}:{n}'
+        if k in MANUAL_PHOTO_EXCLUSIONS:
+            rejected += 1
+            continue
         fn = (r.get('file') or '').lower()
         if re.search(r'\.svg|\bmap\b|_map|map_|locator|location|flag|logo|emblem|seal|coat_of_arms|diagram|plan_of|bust|portrait', fn):
             rejected += 1
