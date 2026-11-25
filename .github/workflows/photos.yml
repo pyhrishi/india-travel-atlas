@@ -2,7 +2,7 @@ name: Find place photos
 on:
   push:
     branches: [main]
-    paths: ['data/facts/**']
+    paths: ['data/facts/**', '.github/scripts/photos_verified.py', '.github/workflows/photos.yml']
   schedule:
     - cron: '17 21 * * 0'
 permissions:
