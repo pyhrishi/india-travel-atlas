@@ -19,7 +19,7 @@ API = 'https://en.wikipedia.org/w/api.php'
 WD = 'https://www.wikidata.org/w/api.php'
 FORCE = '--force' in sys.argv
 NOW = int(time.time()); DAY = 86400
-START = time.time(); BUDGET = 150*60  # stop searching after this, save, and let the next run continue
+START = time.time(); BUDGET = 55*60  # bounded attempt; workflow retries from this region's checkpoint
 OSMF = [0]  # consecutive OpenStreetMap failures; after 3 we stop asking it this run
 
 def get(url, params, tries=4):
@@ -241,6 +241,13 @@ def main():
     def bye(*a):
         checkpoint(); sys.exit(0)
     signal.signal(signal.SIGTERM, bye); signal.signal(signal.SIGINT, bye)
+    # Persist a usable checkpoint and empty result file before any external API calls.
+    os.makedirs(OUTD, exist_ok=True)
+    if FACTS_STATE:
+        result_path = os.path.join(OUTD, FACTS_STATE + '.json')
+        if not os.path.exists(result_path):
+            json.dump({}, open(result_path, 'w'), ensure_ascii=False, separators=(',', ':'))
+    checkpoint()
     # 1) direct titles (all name variants), 40 titles per request
     reqs = []
     for p in todo:
@@ -268,7 +275,7 @@ def main():
     rest = [p for p in todo if p['k'] not in hit]
     for n, p in enumerate(rest):
         if time.time() - START > BUDGET:
-            print(f'time budget reached at {n}/{len(rest)}; saving, the next run continues from here', flush=True); break
+            print(f'time budget reached at {n}/{len(rest)}; saving checkpoint and requesting a workflow retry', flush=True); checkpoint(); raise SystemExit(75)
         b = strip_name(p['name']).replace('&', ' ')
         got = None
         for qs in (f"{b} {p['dist']}", f"{b} {p['st']}", b):
