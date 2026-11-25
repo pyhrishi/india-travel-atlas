@@ -602,7 +602,7 @@
    "g": "hills",
    "lat": 18.3273,
    "lng": 82.8775,
-   "why": "Coffee country in the Eastern Ghats; ride the scenic Vizag–Araku train",
+   "why": "Eastern Ghats valley known for coffee plantations, tribal communities, waterfalls and the scenic rail journey from Visakhapatnam",
    "tier": "icon",
    "months": [
     10,
@@ -618,7 +618,7 @@
    "g": "caves",
    "lat": 18.281,
    "lng": 83.038,
-   "why": "Vast limestone caves with stalactites and stalagmites",
+   "why": "Limestone cave system in the Ananthagiri hills, with extensive stalactite, stalagmite and other karst formations",
    "tier": "icon",
    "months": [
     10,
@@ -644,7 +644,7 @@
    "g": "culture",
    "lat": 18.333,
    "lng": 82.869,
-   "why": "Life-size displays of the region's tribal communities and crafts",
+   "why": "Museum presenting the cultural heritage of the Eastern Ghats' tribal communities through artefacts, tools, ornaments and handicrafts",
    "tier": "top",
    "months": [
     10,
@@ -660,7 +660,7 @@
    "g": "water",
    "lat": 18.268,
    "lng": 83.057,
-   "why": "Jeep ride and short trek from Borra to a tall forest fall",
+   "why": "Waterfall formed by the Gosthani River, reached by a forest walk near Borra Caves",
    "tier": "gem",
    "months": [
     7,
@@ -676,7 +676,7 @@
    "g": "hills",
    "lat": 17.806,
    "lng": 82.491,
-   "why": "The 'Kashmir of Andhra': winter temperatures can dip near freezing",
+   "why": "Eastern Ghats village at about 1,000 metres, surrounded by forest and coffee, pine and eucalyptus plantations",
    "tier": "icon",
    "months": [
     11,
@@ -692,7 +692,7 @@
    "g": "hills",
    "lat": 18.022,
    "lng": 82.693,
-   "why": "Sunrise above a sea of clouds near Paderu",
+   "why": "Hilltop viewpoint near Paderu, known for views across the forested valleys of the Eastern Ghats",
    "tier": "gem",
    "months": [
     11,
@@ -708,7 +708,7 @@
    "g": "water",
    "lat": 18.095,
    "lng": 82.625,
-   "why": "Wide cascade near Paderu, best after the monsoon",
+   "why": "Waterfall near Paderu on the Lambasingi–Araku route, with a short visitor path and basic facilities",
    "tier": "gem",
    "months": [
     7,
@@ -724,7 +724,7 @@
    "g": "hills",
    "lat": 17.6,
    "lng": 81.717,
-   "why": "Dense jungle, eco-stays, streams and famous bamboo chicken",
+   "why": "Semi-evergreen forest landscape in the Eastern Ghats, with streams, community-run eco-tourism and trekking routes",
    "tier": "top",
    "months": [
     10,
@@ -740,7 +740,7 @@
    "g": "water",
    "lat": 17.629,
    "lng": 81.74,
-   "why": "Forest falls along the Maredumilli ghat road",
+   "why": "Seasonal multi-level waterfall in the Maredumilli forest, reached by a short path through the trees",
    "tier": "gem",
    "months": [
     7,
@@ -756,7 +756,7 @@
    "g": "hills",
    "lat": 17.66,
    "lng": 81.83,
-   "why": "Grassland hilltop known for misty sunrises",
+   "why": "Remote hilltop near Maredumilli, known for open grassland, sunrise and sunset viewpoints across the surrounding hills",
    "tier": "gem",
    "months": [
     10,
