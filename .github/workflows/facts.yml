@@ -1,59 +1,117 @@
-name: Verify places (Wikipedia + Wikidata)
+name: Verify places (Wikipedia + Wikidata) — parallel regions
 on:
   workflow_dispatch:
     inputs:
       force:
-        description: Re-check every place
+        description: Re-check every place in every region
         type: boolean
         default: false
-      debug:
-        description: 'Only print matching details for these names (A|B|C); saves nothing'
-        type: string
-        default: ''
-  push:
-    branches: [main]
-    paths: ['data/places/**', 'index.html', '.github/scripts/facts.py', '.github/scripts/photos_verified.py', '.github/workflows/facts.yml']
-  schedule:
-    - cron: '41 20 * * 3'
   push:
     branches: [main]
     paths:
       - 'data/places/**'
       - '.github/scripts/facts.py'
       - '.github/scripts/merge_facts.py'
+      - '.github/scripts/photos_verified.py'
       - '.github/workflows/facts.yml'
   schedule:
     - cron: '41 20 * * 3'
 permissions:
   contents: write
 concurrency:
-  group: facts
-  cancel-in-progress: true
+  group: facts-parallel
+  cancel-in-progress: false
 jobs:
-  facts:
+  verify:
+    name: Verify ${{ matrix.state }}
     runs-on: ubuntu-latest
     timeout-minutes: 240
+    strategy:
+      fail-fast: false
+      max-parallel: 5
+      matrix:
+        state:
+          - andhra-pradesh
+          - arunachal-pradesh
+          - assam
+          - bihar
+          - chhattisgarh
+          - goa
+          - gujarat
+          - haryana
+          - himachal-pradesh
+          - jharkhand
+          - karnataka
+          - kerala
+          - madhya-pradesh
+          - maharashtra
+          - manipur
+          - meghalaya
+          - mizoram
+          - nagaland
+          - odisha
+          - punjab
+          - rajasthan
+          - sikkim
+          - tamil-nadu
+          - telangana
+          - tripura
+          - uttar-pradesh
+          - uttarakhand
+          - west-bengal
+          - andaman-and-nicobar-islands
+          - chandigarh
+          - dadra-and-nagar-haveli-and-daman-and-diu
+          - delhi
+          - jammu-and-kashmir
+          - ladakh
+          - lakshadweep
+          - puducherry
     steps:
       - uses: actions/checkout@v4
-      - name: Final full-catalogue re-verification and offline cache refresh
-        timeout-minutes: 210
-        continue-on-error: true
+      - name: Verify this region with its own checkpoint
         env:
-          FACTS_DEBUG: ${{ inputs.debug }}
-        run: python3 .github/scripts/facts.py ${{ inputs.force && '--force' || (github.event_name == 'push' && (contains(github.event.head_commit.modified, '.github/workflows/facts.yml') || contains(github.event.head_commit.modified, '.github/scripts/facts.py')) && '--force' || '') }}
+          FACTS_STATE: ${{ matrix.state }}
+        run: |
+          ARGS=""
+          if [ "${{ inputs.force }}" = "true" ]; then ARGS="--force"; fi
+          python3 .github/scripts/facts.py $ARGS
+      - name: Upload region results and checkpoint
+        uses: actions/upload-artifact@v4
+        with:
+          name: region-${{ matrix.state }}
+          path: |
+            data/facts/${{ matrix.state }}.json
+            .github/facts-state/${{ matrix.state }}.json
+          if-no-files-found: error
+          retention-days: 14
+
+  publish:
+    name: Merge and publish verified results
+    needs: verify
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download completed region results
+        uses: actions/download-artifact@v4
+        with:
+          pattern: region-*
+          path: region-artifacts
+          merge-multiple: false
+      - name: Merge facts and rebuild global unverified queue
+        run: python3 .github/scripts/merge_facts.py region-artifacts
       - name: Verify Commons files and publish only verified article photos
-        if: always() && inputs.debug == ''
         continue-on-error: true
         run: python3 .github/scripts/photos_verified.py
       - name: Refresh offline cache version
-        if: always() && inputs.debug == ''
         run: python3 tools/bump_sw.py
-      - name: Save results (also after a timeout, so the next run resumes)
-        if: always()
+      - name: Commit merged results and checkpoints
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          git add data/facts data/photos.json data/photo-credits.json .github/facts-state.json sw.js 2>/dev/null || git add .github/facts-state.json sw.js
+          git config user.email "41898283+users.noreply.github.com"
+          git add data/facts data/photos.json data/photo-credits.json .github/facts-state sw.js
           git diff --cached --quiet && { echo "No change"; exit 0; }
-          git commit -m "Update place facts"
-          for i in 1 2 3; do git pull --rebase -X theirs && git push && break; sleep 10; done
+          git commit -m "Merge parallel place verification results"
+          for i in 1 2 3; do git pull --rebase -X theirs && git push && exit 0; sleep 10; done
+          exit 1
