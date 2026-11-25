@@ -34,3 +34,10 @@ python3 tools/bump_sw.py
 - Facts must be checkable: when you change a description, base it on the matched Wikipedia article (`data/facts`) or another reliable source. No marketing words ("must-visit", "breathtaking", "hidden gem").
 - Indian English spelling; place names as commonly signposted.
 - Test by serving the folder (`python3 -m http.server`) and opening it in a browser; check the console for errors.
+
+## Verification pipeline safety and recovery
+- `.github/workflows/facts.yml` verifies one region per matrix job (maximum five in parallel). Each region owns `.github/facts-state/<slug>.json`; never reintroduce a shared checkpoint writer in parallel jobs.
+- Region workers checkpoint before external requests and periodically during search. They make three bounded attempts and upload the region facts plus checkpoint after each attempt. Automatic whole-workflow recovery is handled by `.github/workflows/retry-facts.yml` (up to three workflow attempts).
+- The central publish job must run only after every matrix job succeeds. `.github/scripts/merge_facts.py` must fail closed unless all 36 expected region artifacts exist and every catalogue place has an explicit terminal disposition. Do not weaken this guard to publish partial output.
+- Photo verification is part of the central publish job. Commons API batch failures must fail closed so the previous committed photo data remains intact. The separate photo workflow is scheduled/manual only and shares the facts concurrency group; do not add an independent push trigger that can race the central publisher.
+- A queued/pending Actions run is not proof that jobs started. Confirm the matrix jobs, artifacts, merge summary, and deployment status before reporting completion. If a run fails, inspect its uploaded region artifacts and rerun failed work; never claim all places are verified merely because the workflow succeeded.
