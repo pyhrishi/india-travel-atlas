@@ -1,7 +1,7 @@
 {
- "name": "India Travel Atlas",
- "short_name": "India Atlas",
- "description": "The best places in every Indian state and union territory, on one map.",
+ "name": "Global Travel Atlas",
+ "short_name": "Travel Atlas",
+ "description": "Explore destinations, regions, routes and travel ideas across countries and recognised areas on one interactive atlas.",
  "start_url": "./",
  "scope": "./",
  "display": "standalone",
