@@ -70,6 +70,13 @@
 "category": "Museum"
 },
 {
+"k": "andaman-and-nicobar-islands:18",
+"name": "Madhuban",
+"district": "South Andaman",
+"state": "Andaman and Nicobar Islands",
+"category": "Trek"
+},
+{
 "k": "andaman-and-nicobar-islands:19",
 "name": "Wandoor & Jolly Buoy Island",
 "district": "South Andaman",
@@ -117,6 +124,13 @@
 "district": "North and Middle Andaman",
 "state": "Andaman and Nicobar Islands",
 "category": "Island"
+},
+{
+"k": "andaman-and-nicobar-islands:33",
+"name": "Ramnagar Beach",
+"district": "North and Middle Andaman",
+"state": "Andaman and Nicobar Islands",
+"category": "Beach"
 },
 {
 "k": "andaman-and-nicobar-islands:34",
@@ -1232,6 +1246,13 @@
 "category": "Temple"
 },
 {
+"k": "assam:71",
+"name": "Borail Wildlife Sanctuary",
+"district": "Cachar",
+"state": "Assam",
+"category": "Wildlife"
+},
+{
 "k": "assam:74",
 "name": "Kamalabari Satra",
 "district": "Majuli",
@@ -1258,6 +1279,13 @@
 "district": "Jorhat",
 "state": "Assam",
 "category": "Heritage"
+},
+{
+"k": "assam:82",
+"name": "Dhekiakhowa Bornamghar",
+"district": "Jorhat",
+"state": "Assam",
+"category": "Satra"
 },
 {
 "k": "assam:89",
@@ -2894,6 +2922,13 @@
 "k": "delhi:40",
 "name": "Crafts Museum",
 "district": "New Delhi",
+"state": "Delhi",
+"category": "Museum"
+},
+{
+"k": "delhi:58",
+"name": "Tibet House",
+"district": "Central",
 "state": "Delhi",
 "category": "Museum"
 },
@@ -4676,6 +4711,13 @@
 "category": "River"
 },
 {
+"k": "jharkhand:60",
+"name": "Sadni Falls",
+"district": "Gumla",
+"state": "Jharkhand",
+"category": "Waterfall"
+},
+{
 "k": "jharkhand:61",
 "name": "Anjan Dham",
 "district": "Gumla",
@@ -4863,6 +4905,13 @@
 "district": "Koppal",
 "state": "Karnataka",
 "category": "Temple"
+},
+{
+"k": "karnataka:21",
+"name": "Bijapur Citadel & Malik-e-Maidan",
+"district": "Vijayapura",
+"state": "Karnataka",
+"category": "Heritage"
 },
 {
 "k": "karnataka:29",
@@ -5866,6 +5915,13 @@
 "category": "Fort"
 },
 {
+"k": "madhya-pradesh:104",
+"name": "Chachai Falls",
+"district": "Rewa",
+"state": "Madhya Pradesh",
+"category": "Waterfall"
+},
+{
 "k": "madhya-pradesh:108",
 "name": "Bhimkund",
 "district": "Chhatarpur",
@@ -6342,6 +6398,13 @@
 "category": "Hot spring"
 },
 {
+"k": "maharashtra:155",
+"name": "Laling Fort",
+"district": "Dhule",
+"state": "Maharashtra",
+"category": "Fort"
+},
+{
 "k": "maharashtra:159",
 "name": "Warli Painting Villages",
 "district": "Palghar",
@@ -6571,6 +6634,13 @@
 "district": "Tamenglong",
 "state": "Manipur",
 "category": "Caves"
+},
+{
+"k": "manipur:45",
+"name": "Khuga Dam",
+"district": "Churachandpur",
+"state": "Manipur",
+"category": "Lake"
 },
 {
 "k": "manipur:47",
@@ -7285,6 +7355,13 @@
 "district": "Khordha",
 "state": "Odisha",
 "category": "Island"
+},
+{
+"k": "odisha:33",
+"name": "Taptapani",
+"district": "Ganjam",
+"state": "Odisha",
+"category": "Hot spring"
 },
 {
 "k": "odisha:34",
@@ -8344,6 +8421,13 @@
 "category": "Craft"
 },
 {
+"k": "rajasthan:152",
+"name": "Tripura Sundari Temple",
+"district": "Banswara",
+"state": "Rajasthan",
+"category": "Temple"
+},
+{
 "k": "rajasthan:154",
 "name": "Beneshwar Dham",
 "district": "Dungarpur",
@@ -8356,6 +8440,13 @@
 "district": "Tonk",
 "state": "Rajasthan",
 "category": "Heritage"
+},
+{
+"k": "rajasthan:166",
+"name": "Bhadrakali Temple, Hanumangarh",
+"district": "Hanumangarh",
+"state": "Rajasthan",
+"category": "Temple"
 },
 {
 "k": "rajasthan:167",
@@ -8944,6 +9035,13 @@
 "district": "Jogulamba Gadwal",
 "state": "Telangana",
 "category": "Fort"
+},
+{
+"k": "telangana:50",
+"name": "Somasila, Kollapur",
+"district": "Nagarkurnool",
+"state": "Telangana",
+"category": "Temple"
 },
 {
 "k": "telangana:51",
@@ -9861,6 +9959,13 @@
 "district": "Pithoragarh",
 "state": "Uttarakhand",
 "category": "Trek"
+},
+{
+"k": "uttarakhand:104",
+"name": "Patal Bhuvaneshwar",
+"district": "Pithoragarh",
+"state": "Uttarakhand",
+"category": "Caves"
 },
 {
 "k": "uttarakhand:108",
