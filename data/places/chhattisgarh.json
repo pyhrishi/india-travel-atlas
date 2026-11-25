@@ -301,7 +301,19 @@
     11,
     5
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "cave": {
+    "kind": "Limestone cave",
+    "stars": [
+     "Blind fish",
+     "Stalactites"
+    ],
+    "len": "About 1.3 km open",
+    "guide": true,
+    "time": "1 hour",
+    "note": "Cave in Kanger Valley National Park",
+    "warn": "Usually closed in the monsoon (Jun–Oct)"
+   }
   },
   {
    "n": 11,
@@ -317,7 +329,17 @@
     11,
     5
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "cave": {
+    "kind": "Limestone cave",
+    "stars": [
+     "Formations"
+    ],
+    "guide": true,
+    "time": "1 hour",
+    "note": "Limestone cave in Kanger Valley National Park",
+    "warn": "Usually closed in the monsoon"
+   }
   },
   {
    "n": 12,

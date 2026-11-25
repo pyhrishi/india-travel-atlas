@@ -1587,7 +1587,20 @@
     11,
     2
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2025,
+    "stars": [
+     "Ducks",
+     "Storks"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Walking"
+    ],
+    "note": "Jharkhand's first Ramsar site"
+   }
   },
   {
    "n": 89,

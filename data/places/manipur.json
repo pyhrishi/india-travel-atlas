@@ -297,7 +297,21 @@
     10,
     4
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 1990,
+    "stars": [
+     "Floating phumdis",
+     "Sangai deer",
+     "Fishing huts"
+    ],
+    "best": "Oct–Mar",
+    "how": [
+     "Boat"
+    ],
+    "note": "Largest freshwater lake in the North-East, with Keibul Lamjao on its phumdis"
+   }
   },
   {
    "n": 16,
@@ -327,6 +341,16 @@
     ],
     "gate": "Loktak lake",
     "note": "World's only floating national park"
+   },
+   "bird": {
+    "stars": [
+     "Waterbirds on the phumdis"
+    ],
+    "season": "Nov–Mar",
+    "how": [
+     "Boat"
+    ],
+    "start": "Loktak"
    }
   },
   {

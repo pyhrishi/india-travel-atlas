@@ -595,7 +595,17 @@
     10,
     3
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "cave": {
+    "kind": "Limestone cave",
+    "stars": [
+     "Stalactites and stalagmites",
+     "A Shiva linga formation"
+    ],
+    "len": "Among India's largest caves",
+    "time": "1 hour",
+    "note": "In the Ananthagiri hills; the Araku train passes nearby"
+   }
   },
   {
    "n": 23,
@@ -963,7 +973,22 @@
     11,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2002,
+    "stars": [
+     "Grey pelican",
+     "Painted stork",
+     "Open-billed stork"
+    ],
+    "best": "Nov–Mar",
+    "how": [
+     "Boat",
+     "Watchtower"
+    ],
+    "note": "One of India's largest freshwater lakes, between the Godavari and Krishna deltas"
+   }
   },
   {
    "n": 46,
@@ -1049,7 +1074,15 @@
     10,
     3
    ],
-   "time": "2–3 hrs"
+   "time": "2–3 hrs",
+   "cave": {
+    "kind": "Rock-cut caves",
+    "stars": [
+     "Reclining Vishnu carved from one rock"
+    ],
+    "time": "1 hour",
+    "note": "4th–5th-century caves on the Krishna near Vijayawada"
+   }
   },
   {
    "n": 51,
@@ -1649,7 +1682,17 @@
     10,
     3
    ],
-   "time": "2–3 hrs"
+   "time": "2–3 hrs",
+   "cave": {
+    "kind": "Limestone cave",
+    "stars": [
+     "Pataalaganga underground stream",
+     "Formations"
+    ],
+    "len": "About 3.2 km mapped, 1.5 km open",
+    "time": "1–2 hours",
+    "note": "Second-longest cave in India's plains"
+   }
   },
   {
    "n": 87,
@@ -2557,7 +2600,15 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "cave": {
+    "kind": "Rock-cut caves",
+    "stars": [
+     "Circular chaitya cave"
+    ],
+    "time": "1 hour",
+    "note": "Buddhist caves from the 2nd century BCE"
+   }
   },
   {
    "name": "Narsapuram",

@@ -975,7 +975,16 @@
     10,
     3
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "cave": {
+    "kind": "Rock-cut caves",
+    "stars": [
+     "Buddhist murals"
+    ],
+    "len": "Nine caves",
+    "time": "1–2 hours",
+    "note": "5th–6th-century monastery caves with paintings like Ajanta's"
+   }
   },
   {
    "n": 49,
@@ -1135,7 +1144,20 @@
     10,
     3
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2002,
+    "stars": [
+     "Ducks",
+     "Sunset boating"
+    ],
+    "best": "Oct–Mar",
+    "how": [
+     "Boat"
+    ],
+    "note": "Bhoj Wetland: the Upper and Lower Lakes of Bhopal"
+   }
   },
   {
    "n": 59,
@@ -1279,7 +1301,16 @@
     10,
     3
    ],
-   "time": "2–3 hrs"
+   "time": "2–3 hrs",
+   "cave": {
+    "kind": "Rock shelters",
+    "stars": [
+     "Prehistoric paintings of animals, hunts and dances"
+    ],
+    "len": "Over 700 shelters, about 15 open",
+    "time": "2 hours",
+    "note": "UNESCO World Heritage Site near Bhopal"
+   }
   },
   {
    "n": 68,
@@ -1359,7 +1390,16 @@
     10,
     3
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "cave": {
+    "kind": "Rock-cut caves",
+    "stars": [
+     "Varaha (boar avatar) panel"
+    ],
+    "len": "20 caves",
+    "time": "1–2 hours",
+    "note": "Gupta-period caves of the early 5th century"
+   }
   },
   {
    "n": 73,
@@ -1539,7 +1579,14 @@
     10,
     3
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "cave": {
+    "kind": "Rock-cut caves",
+    "stars": [
+     "Five Buddhist cells"
+    ],
+    "time": "30 min"
+   }
   },
   {
    "n": 82,
@@ -1587,7 +1634,19 @@
     10,
     3
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2024,
+    "stars": [
+     "Backwater islands",
+     "Ducks"
+    ],
+    "best": "Nov–Mar",
+    "how": [
+     "Boat"
+    ]
+   }
   },
   {
    "n": 85,
@@ -2582,7 +2641,19 @@
     10,
     3
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2022,
+    "stars": [
+     "Ducks",
+     "Waders"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Walking"
+    ]
+   }
   },
   {
    "n": 140,
@@ -3321,6 +3392,62 @@
     "el": 1100,
     "diff": "Easy",
     "base": "Pachmarhi"
+   }
+  },
+  {
+   "n": 184,
+   "name": "Sakhya Sagar",
+   "district": "Shivpuri",
+   "category": "Ramsar wetland",
+   "g": "water",
+   "lat": 25.45,
+   "lng": 77.68,
+   "why": "Lake inside Madhav National Park",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2022,
+    "stars": [
+     "Mugger",
+     "Ducks"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Boat"
+    ]
+   }
+  },
+  {
+   "n": 185,
+   "name": "Yashwant Sagar",
+   "district": "Indore",
+   "category": "Ramsar wetland",
+   "g": "water",
+   "lat": 22.67,
+   "lng": 75.65,
+   "why": "Reservoir near Indore known for sarus cranes",
+   "tier": "gem",
+   "months": [
+    11,
+    2
+   ],
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2022,
+    "stars": [
+     "Sarus crane",
+     "Ducks"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Walking"
+    ]
    }
   }
  ],

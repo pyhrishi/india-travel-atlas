@@ -219,7 +219,17 @@
     10,
     5
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "cave": {
+    "kind": "Limestone cave",
+    "stars": [
+     "Stalactites",
+     "Narrow squeezes"
+    ],
+    "len": "About 150 m open to visitors",
+    "time": "30 min",
+    "note": "Lit show cave near Sohra, easy for families"
+   }
   },
   {
    "n": 7,
@@ -235,7 +245,16 @@
     10,
     5
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "cave": {
+    "kind": "Limestone cave",
+    "stars": [
+     "Fossils in the walls"
+    ],
+    "len": "About 300 m open to visitors",
+    "time": "45 min",
+    "note": "Fossils of marine creatures from when this was a sea floor"
+   }
   },
   {
    "n": 8,
@@ -717,7 +736,19 @@
     10,
     5
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "cave": {
+    "kind": "Limestone cave",
+    "stars": [
+     "Bats",
+     "River passage"
+    ],
+    "len": "Several km, only the start is easy",
+    "guide": true,
+    "time": "1 hour",
+    "note": "'Bat cave' of the Garo hills on the Simsang river",
+    "warn": "Wet and slippery; go with a guide"
+   }
   },
   {
    "n": 37,
@@ -889,7 +920,15 @@
     10,
     5
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "cave": {
+    "kind": "Limestone cave",
+    "stars": [
+     "Stalagmite worshipped as a Shiva linga"
+    ],
+    "len": "Short",
+    "time": "30 min"
+   }
   },
   {
    "n": 47,
@@ -1077,7 +1116,18 @@
     10,
     5
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "cave": {
+    "kind": "Limestone cave",
+    "stars": [
+     "Long passages",
+     "Stalagmites"
+    ],
+    "len": "About 7 km",
+    "guide": true,
+    "time": "1–2 hours",
+    "note": "A stalagmite from here defines the 'Meghalayan Age', the latest unit of geological time"
+   }
   },
   {
    "n": 58,
@@ -1109,7 +1159,19 @@
     10,
     5
    ],
-   "time": "Expedition only"
+   "time": "Expedition only",
+   "cave": {
+    "kind": "Limestone cave",
+    "stars": [
+     "Huge river passages",
+     "Formations"
+    ],
+    "len": "Part of a system of about 31 km",
+    "guide": true,
+    "time": "Several hours",
+    "note": "India's longest known cave system, in the Jaintia Hills",
+    "warn": "Only with an experienced caving guide; not a show cave"
+   }
   },
   {
    "n": 60,

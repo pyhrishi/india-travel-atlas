@@ -197,7 +197,15 @@
     11,
     2
    ],
-   "time": "Overnight"
+   "time": "Overnight",
+   "sky": {
+    "best": "Nov–Feb",
+    "bortle": 2,
+    "stars": [
+     "Moonrise over white salt (Rann Utsav)",
+     "Dark nights away from Dhordo on the new moon"
+    ]
+   }
   },
   {
    "n": 2,
@@ -363,7 +371,20 @@
     11,
     2
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2026,
+    "stars": [
+     "Common cranes",
+     "Flamingos",
+     "Banni grassland birds"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Jeep"
+    ]
+   }
   },
   {
    "n": 12,
@@ -472,6 +493,26 @@
     ],
     "gate": "Dasada or Bajana",
     "closed": "Usually closes in the monsoon"
+   },
+   "bird": {
+    "stars": [
+     "Flamingos",
+     "Common cranes",
+     "Macqueen's bustard",
+     "Sociable lapwing"
+    ],
+    "season": "Nov–Feb",
+    "how": [
+     "Jeep"
+    ],
+    "start": "Dasada"
+   },
+   "sky": {
+    "best": "Nov–Feb",
+    "bortle": 3,
+    "stars": [
+     "Wide flat horizons"
+    ]
    }
   },
   {
@@ -769,7 +810,22 @@
     11,
     2
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2021,
+    "stars": [
+     "Flamingos",
+     "Pelicans",
+     "Waders"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Walking",
+     "Watchtower"
+    ],
+    "note": "Fresh and salt water side by side near Jamnagar"
+   }
   },
   {
    "n": 34,
@@ -959,6 +1015,18 @@
     ],
     "gate": "Velavadar",
     "closed": "Usually closes 16 Jun–15 Oct"
+   },
+   "bird": {
+    "stars": [
+     "Harrier roost",
+     "Lesser florican (monsoon)"
+    ],
+    "season": "Nov–Feb",
+    "how": [
+     "Jeep"
+    ],
+    "start": "Velavadar",
+    "note": "One of the world's largest harrier roosts"
    }
   },
   {
@@ -1023,7 +1091,33 @@
     11,
     2
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2012,
+    "stars": [
+     "Flamingos",
+     "Pelicans",
+     "Common cranes"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Boat"
+    ],
+    "note": "Gujarat's largest wetland bird sanctuary"
+   },
+   "bird": {
+    "stars": [
+     "Greater and lesser flamingo",
+     "Pelicans",
+     "Ducks"
+    ],
+    "season": "Nov–Feb",
+    "how": [
+     "Boat"
+    ],
+    "start": "Vekaria"
+   }
   },
   {
    "n": 49,
@@ -1039,7 +1133,20 @@
     11,
     2
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2021,
+    "stars": [
+     "Flamingos",
+     "Sarus crane",
+     "Pelicans"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Walking"
+    ]
+   }
   },
   {
    "n": 50,
@@ -2807,7 +2914,15 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "cave": {
+    "kind": "Rock-cut caves",
+    "stars": [
+     "Buddhist halls"
+    ],
+    "time": "1 hour",
+    "note": "Caves inside the Uparkot fort"
+   }
   },
   {
    "name": "Damodar Kund",
@@ -3123,6 +3238,34 @@
     "el": 340,
     "diff": "Easy",
     "base": "Chotila"
+   }
+  },
+  {
+   "n": 178,
+   "name": "Wadhvana Wetland",
+   "district": "Vadodara",
+   "category": "Ramsar wetland",
+   "g": "water",
+   "lat": 22.17,
+   "lng": 73.48,
+   "why": "Irrigation lake near Dabhoi that draws thousands of winter ducks and cranes",
+   "tier": "gem",
+   "months": [
+    11,
+    2
+   ],
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2021,
+    "stars": [
+     "Common cranes",
+     "Ducks"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Walking"
+    ]
    }
   }
  ],

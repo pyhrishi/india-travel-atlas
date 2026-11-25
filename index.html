@@ -2982,6 +2982,11 @@ function xBlocks(p){return XF.filter(f=>f!=="trek"&&p[f]&&XCARD[f]).map(f=>{cons
 [["tigerres","Tiger reserves","Where wild tigers live, with safari zones and gates","#b45309",tg("tigerres")],
  ["safari","Safari parks","National parks and reserves with jeep, boat or walking safaris","#5b7a2e",tg("safari")],
  ["marine","Marine parks","Coral reefs, mangroves and sea life","#0e7490",tg("marine")],
+ ["ramsar","Ramsar wetlands","India's wetlands of international importance","#1f78d1",tg("ramsar")],
+ ["lakes","Lakes & wetlands","High lakes, lagoons, backwaters and marshes","#2563a8",tg("wet")],
+ ["birding","Birding hotspots","Where and when to see India's great birds","#7c5c2e",tg("bird")],
+ ["caves","Caves","Limestone systems, rock-cut monasteries and prehistoric shelters","#5b4636",tg("cave")],
+ ["darksky","Dark skies","Places to see the Milky Way","#1e293b",tg("sky")],
 ].forEach(c=>{if(!COLL.some(x=>x[0]===c[0]))COLL.push(c)});
 
 function route(silent,h0){const h=h0!=null?h0:location.hash.slice(1);const m=h.match(/^(.*)-(\d+)$/);

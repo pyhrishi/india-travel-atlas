@@ -434,7 +434,17 @@
     11,
     4
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "cave": {
+    "kind": "Limestone cave",
+    "stars": [
+     "Formations"
+    ],
+    "guide": true,
+    "time": "Half day",
+    "note": "Reached by boat through mangrove creeks and a forest walk",
+    "warn": "Permit needed at Baratang; the road passes through the Jarawa reserve with strict rules"
+   }
   },
   {
    "n": 23,

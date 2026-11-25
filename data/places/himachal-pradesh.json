@@ -621,7 +621,21 @@
     10,
     6
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2005,
+    "stars": [
+     "Largest lake in Himachal",
+     "Mahseer"
+    ],
+    "best": "Oct–Mar",
+    "how": [
+     "Walking",
+     "Boat"
+    ],
+    "note": "Lake shaped like a sleeping woman, sacred to the goddess Renuka"
+   }
   },
   {
    "n": 27,
@@ -1742,7 +1756,34 @@
     11,
     3
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2002,
+    "stars": [
+     "Bar-headed goose (thousands)",
+     "Ruddy shelduck"
+    ],
+    "best": "Dec–Feb",
+    "how": [
+     "Walking",
+     "Boat"
+    ],
+    "note": "One of north India's biggest winter waterbird gatherings"
+   },
+   "bird": {
+    "stars": [
+     "Bar-headed goose",
+     "Ruddy shelduck",
+     "Great crested grebe"
+    ],
+    "season": "Dec–Feb",
+    "how": [
+     "Walking",
+     "Boat"
+    ],
+    "start": "Nagrota Surian"
+   }
   },
   {
    "n": 90,
@@ -2166,6 +2207,30 @@
     "el": 4300,
     "diff": "Easy",
     "base": "Batal"
+   },
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2005,
+    "stars": [
+     "Crescent lake",
+     "Moraine meadows",
+     "Night skies"
+    ],
+    "best": "Jun–Sep",
+    "how": [
+     "Walking"
+    ],
+    "el": 4300,
+    "warn": "Camping is not allowed at the lake shore; camps are a few km away"
+   },
+   "sky": {
+    "best": "Jun–Sep",
+    "bortle": 2,
+    "el": 4300,
+    "stars": [
+     "Milky Way"
+    ],
+    "note": "Camps are a few km from the lake"
    }
   },
   {
@@ -2268,7 +2333,16 @@
     6,
     9
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "sky": {
+    "best": "May–Oct",
+    "bortle": 2,
+    "el": 4400,
+    "stars": [
+     "Milky Way above the Buddha statue"
+    ],
+    "note": "Spiti village with homestay stargazing"
+   }
   },
   {
    "n": 121,

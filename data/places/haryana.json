@@ -700,6 +700,31 @@
     ],
     "gate": "Sultanpur, near Gurugram",
     "book": "At the gate"
+   },
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2021,
+    "stars": [
+     "Sarus crane",
+     "Greater flamingo",
+     "Winter ducks"
+    ],
+    "best": "Nov–Mar",
+    "how": [
+     "Walking"
+    ]
+   },
+   "bird": {
+    "stars": [
+     "Sarus crane",
+     "Flamingo",
+     "Ducks"
+    ],
+    "season": "Nov–Mar",
+    "how": [
+     "Walking"
+    ],
+    "start": "Sultanpur"
    }
   },
   {
@@ -844,7 +869,20 @@
     11,
     2
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2021,
+    "stars": [
+     "Ducks",
+     "Waders",
+     "Sarus crane"
+    ],
+    "best": "Nov–Mar",
+    "how": [
+     "Walking"
+    ]
+   }
   },
   {
    "n": 45,

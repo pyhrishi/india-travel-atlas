@@ -620,7 +620,15 @@
     10,
     3
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "cave": {
+    "kind": "Natural cave",
+    "stars": [
+     "Site of the First Buddhist Council"
+    ],
+    "time": "1 hour",
+    "note": "On the Vaibhar hill at Rajgir"
+   }
   },
   {
    "n": 28,
@@ -748,7 +756,14 @@
     10,
     3
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "cave": {
+    "kind": "Natural cave",
+    "stars": [
+     "Cave where the Buddha fasted before Bodh Gaya"
+    ],
+    "time": "1 hour"
+   }
   },
   {
    "n": 36,
@@ -818,7 +833,16 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "cave": {
+    "kind": "Rock-cut caves",
+    "stars": [
+     "Mirror-polished granite walls",
+     "Lomas Rishi cave's carved doorway"
+    ],
+    "time": "1–2 hours",
+    "note": "Oldest surviving rock-cut caves in India, from the Mauryan period (3rd century BCE)"
+   }
   },
   {
    "n": 40,
@@ -1216,7 +1240,20 @@
     11,
     3
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2020,
+    "stars": [
+     "Migratory ducks",
+     "Fishing communities"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Boat"
+    ],
+    "note": "Bihar's first Ramsar site, an oxbow lake of the Gandak"
+   }
   },
   {
    "n": 64,
@@ -2040,7 +2077,16 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "cave": {
+    "kind": "Rock-cut caves",
+    "stars": [
+     "Polished walls",
+     "Mauryan inscriptions"
+    ],
+    "time": "1 hour",
+    "note": "Twin hill to Barabar, cut for the Ajivika sect"
+   }
   },
   {
    "name": "Gunawa Jain Temple",
@@ -2088,7 +2134,20 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2023,
+    "stars": [
+     "Bar-headed goose",
+     "Ducks"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Walking"
+    ],
+    "note": "Two reservoirs, Nagi and Nakti, listed as separate Ramsar sites"
+   }
   },
   {
    "name": "Chandika Sthan",
@@ -2280,7 +2339,19 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2025,
+    "stars": [
+     "Waterbirds",
+     "Oxbow lake"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Walking"
+    ]
+   }
   },
   {
    "name": "Chandradhari Museum",

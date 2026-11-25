@@ -459,6 +459,19 @@
     ],
     "gate": "Mandapam or Tuticorin",
     "note": "21 islands of reef off the Tamil Nadu coast"
+   },
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2022,
+    "stars": [
+     "Coral",
+     "Dugong",
+     "Sea grass"
+    ],
+    "best": "Oct–Mar",
+    "how": [
+     "Glass-bottom boat"
+    ]
    }
   },
   {
@@ -1366,7 +1379,33 @@
     11,
     2
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2002,
+    "stars": [
+     "Flamingos",
+     "Blackbuck",
+     "Shorebirds"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Walking",
+     "Jeep"
+    ]
+   },
+   "bird": {
+    "stars": [
+     "Flamingos",
+     "Shorebirds"
+    ],
+    "season": "Nov–Feb",
+    "how": [
+     "Jeep",
+     "Walking"
+    ],
+    "start": "Kodiakkarai"
+   }
   },
   {
    "n": 73,
@@ -1558,7 +1597,14 @@
     11,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "cave": {
+    "kind": "Rock-cut caves",
+    "stars": [
+     "Jain cave murals"
+    ],
+    "time": "1–2 hours"
+   }
   },
   {
    "n": 85,
@@ -1670,7 +1716,15 @@
     11,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "cave": {
+    "kind": "Rock-cut caves",
+    "stars": [
+     "Tiger-headed shrine"
+    ],
+    "time": "30 min",
+    "note": "Pallava rock shrine near Mamallapuram"
+   }
   },
   {
    "n": 92,
@@ -1686,7 +1740,33 @@
     11,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2022,
+    "stars": [
+     "Painted stork",
+     "Spoonbill",
+     "Open-billed stork"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Walking"
+    ],
+    "note": "One of India's oldest bird sanctuaries, protected by villagers for centuries"
+   },
+   "bird": {
+    "stars": [
+     "Painted stork",
+     "Spoonbill",
+     "Cormorants"
+    ],
+    "season": "Nov–Feb",
+    "how": [
+     "Walking"
+    ],
+    "start": "Vedanthangal"
+   }
   },
   {
    "n": 93,
@@ -2284,7 +2364,19 @@
     11,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2022,
+    "stars": [
+     "Mangrove channels"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Rowing boat"
+    ],
+    "note": "Boat through narrow mangrove canals"
+   }
   },
   {
    "n": 130,
@@ -2964,7 +3056,31 @@
     12,
     4
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2021,
+    "stars": [
+     "Painted stork",
+     "Pelicans"
+    ],
+    "best": "Dec–Mar",
+    "how": [
+     "Walking"
+    ],
+    "note": "Village where birds nest on rooftops and trees"
+   },
+   "bird": {
+    "stars": [
+     "Painted stork",
+     "Spot-billed pelican"
+    ],
+    "season": "Dec–Mar",
+    "how": [
+     "Walking"
+    ],
+    "start": "Koonthankulam"
+   }
   },
   {
    "n": 171,
@@ -3012,7 +3128,19 @@
     11,
     2
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2023,
+    "stars": [
+     "Bar-headed goose",
+     "Ducks"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Walking"
+    ]
+   }
   },
   {
    "n": 174,
@@ -3108,7 +3236,19 @@
     11,
     2
    ],
-   "time": "2–3 hrs"
+   "time": "2–3 hrs",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2022,
+    "stars": [
+     "Ducks",
+     "Storks"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Walking"
+    ]
+   }
   },
   {
    "n": 180,
@@ -3124,7 +3264,19 @@
     11,
     2
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2022,
+    "stars": [
+     "Ducks",
+     "Storks"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Walking"
+    ]
+   }
   },
   {
    "n": 181,
@@ -3452,6 +3604,119 @@
      "Trekking"
     ],
     "gate": "Srivilliputhur"
+   }
+  },
+  {
+   "n": 196,
+   "name": "Pallikaranai Marsh",
+   "district": "Chennai",
+   "category": "Ramsar wetland",
+   "g": "water",
+   "lat": 12.94,
+   "lng": 80.21,
+   "why": "Last big marsh of Chennai, with flamingos in some winters",
+   "tier": "gem",
+   "months": [
+    11,
+    2
+   ],
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2022,
+    "stars": [
+     "Glossy ibis",
+     "Flamingos",
+     "Ducks"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Walking"
+    ]
+   }
+  },
+  {
+   "n": 197,
+   "name": "Vellode Bird Sanctuary",
+   "district": "Erode",
+   "category": "Ramsar wetland",
+   "g": "water",
+   "lat": 11.27,
+   "lng": 77.65,
+   "why": "Tank sanctuary near Erode",
+   "tier": "gem",
+   "months": [
+    11,
+    2
+   ],
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2022,
+    "stars": [
+     "Pelicans",
+     "Ducks"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Walking"
+    ]
+   }
+  },
+  {
+   "n": 198,
+   "name": "Kazhuveli Bird Sanctuary",
+   "district": "Villupuram",
+   "category": "Ramsar wetland",
+   "g": "water",
+   "lat": 12.15,
+   "lng": 79.9,
+   "why": "Big coastal wetland north of Puducherry",
+   "tier": "gem",
+   "months": [
+    11,
+    2
+   ],
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2024,
+    "stars": [
+     "Flamingos",
+     "Ducks"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Walking"
+    ]
+   }
+  },
+  {
+   "n": 199,
+   "name": "Longwood Shola",
+   "district": "Nilgiris",
+   "category": "Ramsar wetland",
+   "g": "water",
+   "lat": 11.43,
+   "lng": 76.86,
+   "why": "Shola forest protected by the people of Kotagiri",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2023,
+    "stars": [
+     "Nilgiri flycatcher",
+     "Shola forest"
+    ],
+    "best": "Oct–Apr",
+    "how": [
+     "Walking"
+    ]
    }
   }
  ],

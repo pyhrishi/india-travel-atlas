@@ -317,7 +317,19 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2020,
+    "stars": [
+     "Ducks",
+     "Bear rescue centre nearby"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Walking"
+    ]
+   }
   },
   {
    "n": 11,
@@ -1263,7 +1275,19 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2019,
+    "stars": [
+     "Sarus crane",
+     "Ducks"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Walking"
+    ]
+   }
   },
   {
    "n": 69,
@@ -1744,7 +1768,19 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2019,
+    "stars": [
+     "Ducks",
+     "Storks"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Walking"
+    ]
+   }
   },
   {
    "n": 96,
@@ -1760,7 +1796,19 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2019,
+    "stars": [
+     "Sarus crane",
+     "Geese"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Walking"
+    ]
+   }
   },
   {
    "n": 97,
@@ -2128,7 +2176,19 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "bird": {
+    "stars": [
+     "Ducks",
+     "Waders",
+     "Bluethroat"
+    ],
+    "season": "Nov–Mar",
+    "how": [
+     "Walking"
+    ],
+    "start": "Noida"
+   }
   },
   {
    "n": 120,
@@ -2416,7 +2476,19 @@
     11,
     2
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2026,
+    "stars": [
+     "Ducks",
+     "Geese"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Boat"
+    ]
+   }
   },
   {
    "n": 138,
@@ -2480,7 +2552,20 @@
     11,
     2
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2021,
+    "stars": [
+     "Ducks",
+     "Storks"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Walking",
+     "Boat"
+    ]
+   }
   },
   {
    "n": 142,
@@ -2544,7 +2629,19 @@
     11,
     2
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2026,
+    "stars": [
+     "Ducks",
+     "Sarus crane"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Walking"
+    ]
+   }
   },
   {
    "n": 146,
@@ -2560,7 +2657,19 @@
     11,
     2
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2019,
+    "stars": [
+     "Sarus crane",
+     "Ducks"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Walking"
+    ]
+   }
   },
   {
    "n": 147,
@@ -2608,7 +2717,19 @@
     11,
     2
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2019,
+    "stars": [
+     "Sarus crane",
+     "Vultures"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Walking"
+    ]
+   }
   },
   {
    "n": 150,
@@ -2909,6 +3030,118 @@
      "Jeep"
     ],
     "gate": "Manikpur"
+   }
+  },
+  {
+   "n": 168,
+   "name": "Sarsai Nawar Jheel",
+   "district": "Etawah",
+   "category": "Ramsar wetland",
+   "g": "water",
+   "lat": 26.84,
+   "lng": 79.24,
+   "why": "Village wetland famous for sarus cranes",
+   "tier": "gem",
+   "months": [
+    11,
+    2
+   ],
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2019,
+    "stars": [
+     "Sarus crane"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Walking"
+    ]
+   }
+  },
+  {
+   "n": 169,
+   "name": "Haiderpur Wetland",
+   "district": "Muzaffarnagar",
+   "category": "Ramsar wetland",
+   "g": "water",
+   "lat": 29.43,
+   "lng": 78.03,
+   "why": "Wetland on the Ganga floodplain inside the Hastinapur sanctuary",
+   "tier": "gem",
+   "months": [
+    11,
+    2
+   ],
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2021,
+    "stars": [
+     "Gharial",
+     "Ducks",
+     "Swamp deer"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Walking"
+    ]
+   }
+  },
+  {
+   "n": 170,
+   "name": "Shekha Jheel Bird Sanctuary",
+   "district": "Aligarh",
+   "category": "Ramsar wetland",
+   "g": "water",
+   "lat": 27.83,
+   "lng": 78.2,
+   "why": "Lake near Aligarh known for winter ducks",
+   "tier": "gem",
+   "months": [
+    11,
+    2
+   ],
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2026,
+    "stars": [
+     "Ducks",
+     "Sarus crane"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Walking"
+    ]
+   }
+  },
+  {
+   "n": 171,
+   "name": "Upper Ganga (Brijghat to Narora)",
+   "district": "Hapur",
+   "category": "Ramsar wetland",
+   "g": "water",
+   "lat": 28.72,
+   "lng": 78.13,
+   "why": "Ramsar stretch of the Ganga with dolphins and gharials",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2005,
+    "stars": [
+     "Gangetic dolphin",
+     "Gharial"
+    ],
+    "best": "Nov–Mar",
+    "how": [
+     "Boat"
+    ]
    }
   }
  ],

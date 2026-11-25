@@ -428,7 +428,21 @@
     11,
     2
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 1990,
+    "stars": [
+     "Flamingos",
+     "Salt pans"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Walking",
+     "Salt train"
+    ],
+    "note": "India's largest inland salt lake"
+   }
   },
   {
    "n": 18,
@@ -590,7 +604,19 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2025,
+    "stars": [
+     "Lake palace",
+     "Ducks"
+    ],
+    "best": "Oct–Mar",
+    "how": [
+     "Boat"
+    ]
+   }
   },
   {
    "n": 27,
@@ -742,6 +768,35 @@
     "gate": "Bharatpur",
     "book": "At the gate",
     "note": "UNESCO World Heritage Site; Siberian cranes once wintered here"
+   },
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 1981,
+    "stars": [
+     "Painted stork",
+     "Sarus crane",
+     "Pelicans"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Cycle rickshaw",
+     "Bicycle"
+    ]
+   },
+   "bird": {
+    "stars": [
+     "Painted stork",
+     "Sarus crane",
+     "Dalmatian pelican",
+     "Indian python"
+    ],
+    "season": "Oct–Feb (nesting Aug–Oct)",
+    "how": [
+     "Cycle rickshaw with a guide",
+     "Bicycle"
+    ],
+    "start": "Bharatpur",
+    "note": "Over 370 species recorded"
    }
   },
   {
@@ -1030,7 +1085,30 @@
     9,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2025,
+    "stars": [
+     "Demoiselle cranes in thousands"
+    ],
+    "best": "Sep–Mar",
+    "how": [
+     "Walking"
+    ],
+    "note": "Villagers have fed wintering cranes here for decades"
+   },
+   "bird": {
+    "stars": [
+     "Demoiselle crane"
+    ],
+    "season": "Sep–Mar",
+    "how": [
+     "Walking"
+    ],
+    "start": "Khichan village",
+    "note": "Mornings at the feeding ground"
+   }
   },
   {
    "n": 52,
@@ -1172,6 +1250,25 @@
      "Jeep"
     ],
     "gate": "Sudasari, near Jaisalmer"
+   },
+   "bird": {
+    "stars": [
+     "Great Indian bustard",
+     "Sandgrouse",
+     "Cream-coloured courser"
+    ],
+    "season": "Nov–Mar",
+    "how": [
+     "Jeep"
+    ],
+    "start": "Sudasari"
+   },
+   "sky": {
+    "best": "Nov–Feb",
+    "bortle": 3,
+    "stars": [
+     "Desert night sky"
+    ]
    }
   },
   {
@@ -1492,7 +1589,18 @@
     9,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "bird": {
+    "stars": [
+     "Raptors (eagles, harriers)",
+     "Blackbuck"
+    ],
+    "season": "Sep–Mar",
+    "how": [
+     "Jeep"
+    ],
+    "start": "Chhapar"
+   }
   },
   {
    "n": 80,
@@ -2425,7 +2533,14 @@
     10,
     3
    ],
-   "time": "1 hr"
+   "time": "1 hr",
+   "cave": {
+    "kind": "Rock-cut caves",
+    "stars": [
+     "Laterite Buddhist caves"
+    ],
+    "time": "1 hour"
+   }
   },
   {
    "n": 136,
@@ -3647,6 +3762,35 @@
      "Jeep"
     ],
     "gate": "Dholpur"
+   }
+  },
+  {
+   "n": 210,
+   "name": "Menar",
+   "district": "Udaipur",
+   "category": "Ramsar wetland",
+   "g": "water",
+   "lat": 24.6,
+   "lng": 74.14,
+   "why": "Bird village of two lakes near Udaipur",
+   "tier": "gem",
+   "months": [
+    11,
+    2
+   ],
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2025,
+    "stars": [
+     "Ducks",
+     "Flamingos",
+     "Pelicans"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Walking"
+    ]
    }
   }
  ],

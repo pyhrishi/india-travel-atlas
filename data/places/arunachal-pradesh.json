@@ -608,6 +608,20 @@
     "gate": "Lama Camp or Sessni",
     "book": "Inner Line Permit",
     "note": "Among Asia's top birding sites"
+   },
+   "bird": {
+    "stars": [
+     "Bugun liocichla",
+     "Ward's trogon",
+     "Beautiful nuthatch",
+     "Fire-tailed myzornis"
+    ],
+    "season": "Apr–May, Oct–Dec",
+    "how": [
+     "Walking the forest road"
+    ],
+    "start": "Lama Camp",
+    "note": "The bugun liocichla was discovered here in 2006"
    }
   },
   {
@@ -1380,6 +1394,17 @@
     "diff": "Easy",
     "el": 2655,
     "base": "Roing"
+   },
+   "bird": {
+    "stars": [
+     "Mishmi wren-babbler",
+     "Rusty-throated wren-babbler"
+    ],
+    "season": "Nov–Apr",
+    "how": [
+     "Walking the road"
+    ],
+    "start": "Roing"
    }
   },
   {
@@ -1763,6 +1788,18 @@
     "gate": "Miao or Deban",
     "book": "Inner Line Permit plus park permit at Miao",
     "note": "Only park in the world with tiger, leopard, clouded leopard and snow leopard"
+   },
+   "bird": {
+    "stars": [
+     "Hornbills",
+     "Wren-babblers",
+     "Ibisbill"
+    ],
+    "season": "Nov–Mar",
+    "how": [
+     "Trekking"
+    ],
+    "start": "Deban"
    }
   },
   {
@@ -2750,6 +2787,34 @@
     "diff": "Difficult",
     "base": "Anini",
     "permit": "Inner Line Permit"
+   }
+  },
+  {
+   "n": 155,
+   "name": "Glaw Lake",
+   "district": "Lohit",
+   "category": "Ramsar wetland",
+   "g": "water",
+   "lat": 27.85,
+   "lng": 96.45,
+   "why": "High forest lake above Wakro, Arunachal's first Ramsar site",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "2–3 days",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2026,
+    "stars": [
+     "Forest lake",
+     "Red panda country"
+    ],
+    "best": "Oct–Apr",
+    "how": [
+     "Trekking"
+    ]
    }
   }
  ],

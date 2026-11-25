@@ -359,7 +359,19 @@
     10,
     4
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2021,
+    "stars": [
+     "Mizoram's largest lake"
+    ],
+    "best": "Oct–Mar",
+    "how": [
+     "Walking"
+    ],
+    "note": "Listed as the Pala Wetland"
+   }
   },
   {
    "n": 18,

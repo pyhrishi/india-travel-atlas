@@ -330,7 +330,35 @@
     11,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 1990,
+    "stars": [
+     "Indus dolphin (rare)",
+     "Winter ducks",
+     "Terns"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Boat",
+     "Walking"
+    ],
+    "note": "Where the Beas meets the Sutlej; north India's largest wetland"
+   },
+   "bird": {
+    "stars": [
+     "Ducks",
+     "Terns",
+     "Indian skimmer (rare)"
+    ],
+    "season": "Nov–Feb",
+    "how": [
+     "Boat",
+     "Walking"
+    ],
+    "start": "Harike"
+   }
   },
   {
    "n": 16,
@@ -410,7 +438,18 @@
     11,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2002,
+    "stars": [
+     "Waterbirds on the Sutlej"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Walking"
+    ]
+   }
   },
   {
    "n": 21,
@@ -442,7 +481,19 @@
     10,
     3
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2019,
+    "stars": [
+     "Waterbirds below the Bhakra"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Walking"
+    ],
+    "note": "Nangal Wildlife Sanctuary is the Ramsar site here"
+   }
   },
   {
    "n": 23,
@@ -778,7 +829,18 @@
     11,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2002,
+    "stars": [
+     "Waterbirds on the Kali Bein"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Walking"
+    ]
+   }
   },
   {
    "n": 44,
@@ -1130,7 +1192,20 @@
     11,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2019,
+    "stars": [
+     "Common cranes",
+     "Ducks"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Walking"
+    ],
+    "note": "India's first community reserve"
+   }
   },
   {
    "n": 66,
@@ -1617,6 +1692,34 @@
     3
    ],
    "time": "1 hr"
+  },
+  {
+   "n": 96,
+   "name": "Beas Conservation Reserve",
+   "district": "Hoshiarpur",
+   "category": "Ramsar wetland",
+   "g": "water",
+   "lat": 31.4,
+   "lng": 75.0,
+   "why": "185 km of the Beas, home to the Indus river dolphin",
+   "tier": "gem",
+   "months": [
+    11,
+    2
+   ],
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2019,
+    "stars": [
+     "Indus river dolphin",
+     "Gharial (reintroduced)"
+    ],
+    "best": "Nov–Mar",
+    "how": [
+     "Boat"
+    ]
+   }
   }
  ],
  "festivals": [

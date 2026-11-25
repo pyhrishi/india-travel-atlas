@@ -561,6 +561,20 @@
     "gate": "Godkhali or Sajnekhali",
     "book": "Boat permit through the forest office",
     "note": "One of Project Tiger's first nine reserves (1973); UNESCO World Heritage Site"
+   },
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2019,
+    "stars": [
+     "Mangroves",
+     "Tiger",
+     "Saltwater crocodile"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Boat"
+    ],
+    "note": "Part of the world's largest mangrove forest"
    }
   },
   {
@@ -1561,6 +1575,14 @@
     "diff": "Moderate",
     "el": 3636,
     "base": "Manebhanjan"
+   },
+   "sky": {
+    "best": "Oct–Dec",
+    "bortle": 3,
+    "el": 3636,
+    "stars": [
+     "Stars over Kangchenjunga"
+    ]
    }
   },
   {
@@ -1735,7 +1757,18 @@
     10,
     5
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "bird": {
+    "stars": [
+     "Satyr tragopan",
+     "Rufous-throated wren-babbler"
+    ],
+    "season": "Mar–May, Oct–Dec",
+    "how": [
+     "Walking"
+    ],
+    "start": "Lava"
+   }
   },
   {
    "n": 97,
@@ -3041,6 +3074,34 @@
     "el": 1704,
     "diff": "Easy",
     "base": "Kalimpong"
+   }
+  },
+  {
+   "n": 173,
+   "name": "East Kolkata Wetlands",
+   "district": "Kolkata",
+   "category": "Ramsar wetland",
+   "g": "water",
+   "lat": 22.55,
+   "lng": 88.45,
+   "why": "Fish ponds that treat Kolkata's waste water naturally",
+   "tier": "gem",
+   "months": [
+    11,
+    2
+   ],
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2002,
+    "stars": [
+     "Fisheries",
+     "Waterbirds"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Walking with a local guide"
+    ]
    }
   }
  ],

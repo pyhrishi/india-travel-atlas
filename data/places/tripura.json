@@ -84,7 +84,20 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2005,
+    "stars": [
+     "Water palace",
+     "Ducks"
+    ],
+    "best": "Oct–Mar",
+    "how": [
+     "Boat"
+    ],
+    "note": "The palace stands in Rudrasagar, the Ramsar lake"
+   }
   },
   {
    "n": 3,

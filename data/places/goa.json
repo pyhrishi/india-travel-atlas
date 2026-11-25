@@ -652,7 +652,19 @@
     11,
     3
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "bird": {
+    "stars": [
+     "Mangrove birds",
+     "Kingfishers"
+    ],
+    "season": "Nov–Mar",
+    "how": [
+     "Canoe",
+     "Walking"
+    ],
+    "start": "Chorao island"
+   }
   },
   {
    "n": 32,
@@ -2133,6 +2145,34 @@
     "el": 300,
     "diff": "Easy",
     "base": "Kuskem"
+   }
+  },
+  {
+   "n": 123,
+   "name": "Nanda Lake",
+   "district": "South Goa",
+   "category": "Ramsar wetland",
+   "g": "water",
+   "lat": 15.25,
+   "lng": 74.08,
+   "why": "Goa's first Ramsar site, a rain-fed lake near Curchorem",
+   "tier": "gem",
+   "months": [
+    11,
+    2
+   ],
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2022,
+    "stars": [
+     "Bronze-winged jacana",
+     "Kingfishers"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Walking"
+    ]
    }
   }
  ],

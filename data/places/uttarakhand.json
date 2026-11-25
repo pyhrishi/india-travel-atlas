@@ -1315,7 +1315,16 @@
     10,
     4
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "cave": {
+    "kind": "River cave",
+    "stars": [
+     "Walk through a stream in a gorge"
+    ],
+    "len": "About 600 m",
+    "time": "1 hour",
+    "note": "Popular walk on Dehradun's edge"
+   }
   },
   {
    "n": 64,
@@ -1539,7 +1548,21 @@
     10,
     4
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "bird": {
+    "stars": [
+     "Cheer pheasant",
+     "Koklass pheasant",
+     "Himalayan griffon",
+     "Lammergeier"
+    ],
+    "season": "Oct–Apr",
+    "how": [
+     "Walking"
+    ],
+    "start": "Pangot",
+    "note": "One of the Himalaya's most accessible birding spots, near Nainital"
+   }
   },
   {
    "n": 78,
@@ -1829,7 +1852,14 @@
     10,
     4
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "cave": {
+    "kind": "Rock shelters",
+    "stars": [
+     "Prehistoric paintings"
+    ],
+    "time": "30 min"
+   }
   },
   {
    "n": 94,
@@ -2030,7 +2060,18 @@
     10,
     4
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "cave": {
+    "kind": "Limestone cave",
+    "stars": [
+     "Cave temple 90 ft underground"
+    ],
+    "len": "About 160 m",
+    "guide": true,
+    "time": "1 hour",
+    "note": "Narrow descent by chains into a cave of shrines",
+    "warn": "Tight squeezes; not for claustrophobes"
+   }
   },
   {
    "n": 105,
@@ -3921,6 +3962,35 @@
     "gate": "Lata",
     "closed": "Inner sanctuary closed",
     "note": "UNESCO World Heritage Site with the Valley of Flowers"
+   }
+  },
+  {
+   "n": 201,
+   "name": "Asan Barrage",
+   "district": "Dehradun",
+   "category": "Ramsar wetland",
+   "g": "water",
+   "lat": 30.43,
+   "lng": 77.67,
+   "why": "Uttarakhand's first Ramsar site, where the Asan meets the Yamuna",
+   "tier": "gem",
+   "months": [
+    11,
+    2
+   ],
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2020,
+    "stars": [
+     "Ruddy shelduck",
+     "Ducks"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Walking",
+     "Boat"
+    ]
    }
   }
  ],

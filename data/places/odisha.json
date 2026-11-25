@@ -196,7 +196,34 @@
     11,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 1981,
+    "stars": [
+     "Irrawaddy dolphin",
+     "Flamingos",
+     "Over a million winter birds"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Boat"
+    ],
+    "note": "Asia's largest brackish-water lagoon"
+   },
+   "bird": {
+    "stars": [
+     "Flamingos",
+     "Ducks",
+     "Irrawaddy dolphin"
+    ],
+    "season": "Nov–Feb",
+    "how": [
+     "Boat"
+    ],
+    "start": "Mangalajodi or Nalabana",
+    "note": "Mangalajodi's former bird hunters now guide birders"
+   }
   },
   {
    "n": 6,
@@ -420,7 +447,16 @@
     10,
     3
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "cave": {
+    "kind": "Rock-cut caves",
+    "stars": [
+     "Rani Gumpha",
+     "Hathigumpha inscription of Kharavela"
+    ],
+    "time": "2 hours",
+    "note": "Jain caves of the 2nd century BCE in Bhubaneswar"
+   }
   },
   {
    "n": 20,
@@ -676,7 +712,19 @@
     10,
     3
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2021,
+    "stars": [
+     "Ducks",
+     "Lake picnics"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Boat"
+    ]
+   }
   },
   {
    "n": 36,
@@ -896,7 +944,15 @@
     10,
     3
    ],
-   "time": "1 hr"
+   "time": "1 hr",
+   "cave": {
+    "kind": "Limestone cave",
+    "stars": [
+     "Shiva linga formation"
+    ],
+    "time": "1 hour",
+    "note": "Limestone cave shrine on the Kolab"
+   }
   },
   {
    "n": 49,
@@ -1078,6 +1134,29 @@
     ],
     "gate": "Khola or Gupti",
     "closed": "Usually closes 1 May–31 Jul for crocodile breeding"
+   },
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2002,
+    "stars": [
+     "Saltwater crocodile",
+     "Mangroves"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Boat"
+    ]
+   },
+   "bird": {
+    "stars": [
+     "Kingfishers (8 species)",
+     "Heronry at Bagagahana"
+    ],
+    "season": "Nov–Feb",
+    "how": [
+     "Boat"
+    ],
+    "start": "Khola"
    }
   },
   {
@@ -1270,7 +1349,19 @@
     10,
     3
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2021,
+    "stars": [
+     "Ducks",
+     "Horseshoe lake below hills"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Boat"
+    ]
+   }
   },
   {
    "n": 71,
@@ -1477,7 +1568,19 @@
     10,
     3
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2021,
+    "stars": [
+     "Ducks",
+     "One of the world's longest earthen dams"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Boat"
+    ]
+   }
   },
   {
    "n": 83,
@@ -1689,6 +1792,18 @@
      "Jeep"
     ],
     "gate": "Tikarpada"
+   },
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2021,
+    "stars": [
+     "Gharial",
+     "Mugger"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Boat"
+    ]
    }
   },
   {

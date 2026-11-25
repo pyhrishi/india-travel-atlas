@@ -413,7 +413,17 @@
     10,
     2
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "cave": {
+    "kind": "Rock-cut caves",
+    "stars": [
+     "Nataraja with 18 arms",
+     "Vishnu caves"
+    ],
+    "len": "Four caves",
+    "time": "2 hours",
+    "note": "6th-century Chalukya caves above Agastya lake"
+   }
   },
   {
    "n": 14,
@@ -2126,7 +2136,32 @@
     12,
     6
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2022,
+    "stars": [
+     "Painted stork",
+     "Open-billed stork",
+     "Mugger"
+    ],
+    "best": "Dec–Jun",
+    "how": [
+     "Boat"
+    ]
+   },
+   "bird": {
+    "stars": [
+     "Painted stork",
+     "Spot-billed pelican",
+     "River tern"
+    ],
+    "season": "Dec–Jun (nesting)",
+    "how": [
+     "Boat"
+    ],
+    "start": "Srirangapatna"
+   }
   },
   {
    "n": 117,
@@ -3697,7 +3732,18 @@
     11,
     2
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "bird": {
+    "stars": [
+     "Painted stork",
+     "Purple heron"
+    ],
+    "season": "Nov–Feb",
+    "how": [
+     "Walking"
+    ],
+    "start": "Shorapur"
+   }
   },
   {
    "n": 209,
@@ -4432,6 +4478,100 @@
     "el": 1000,
     "diff": "Moderate",
     "base": "Somwarpet"
+   }
+  },
+  {
+   "n": 245,
+   "name": "Aghanashini Estuary",
+   "district": "Uttara Kannada",
+   "category": "Ramsar wetland",
+   "g": "water",
+   "lat": 14.52,
+   "lng": 74.36,
+   "why": "Estuary of mangroves, salt pans and oyster beds near Kumta",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2023,
+    "stars": [
+     "Mangroves",
+     "Shorebirds",
+     "Otters"
+    ],
+    "best": "Nov–Mar",
+    "how": [
+     "Boat"
+    ]
+   }
+  },
+  {
+   "n": 246,
+   "name": "Magadi Kere",
+   "district": "Gadag",
+   "category": "Ramsar wetland",
+   "g": "water",
+   "lat": 15.12,
+   "lng": 75.53,
+   "why": "Lake where bar-headed geese winter in thousands",
+   "tier": "gem",
+   "months": [
+    11,
+    2
+   ],
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2023,
+    "stars": [
+     "Bar-headed goose"
+    ],
+    "best": "Dec–Feb",
+    "how": [
+     "Walking"
+    ]
+   },
+   "bird": {
+    "stars": [
+     "Bar-headed goose"
+    ],
+    "season": "Dec–Feb",
+    "how": [
+     "Walking"
+    ],
+    "start": "Magadi"
+   }
+  },
+  {
+   "n": 247,
+   "name": "Ankasamudra Bird Reserve",
+   "district": "Vijayanagara",
+   "category": "Ramsar wetland",
+   "g": "water",
+   "lat": 14.98,
+   "lng": 76.17,
+   "why": "Village tank of nesting storks and pelicans",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2023,
+    "stars": [
+     "Painted stork",
+     "Pelicans"
+    ],
+    "best": "Nov–Mar",
+    "how": [
+     "Walking"
+    ]
    }
   }
  ],

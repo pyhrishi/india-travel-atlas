@@ -434,7 +434,21 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2002,
+    "stars": [
+     "Eight-armed backwater",
+     "Chinese fishing nets",
+     "Mangroves"
+    ],
+    "best": "Sep–Mar",
+    "how": [
+     "Boat"
+    ],
+    "note": "Gateway to the Kollam–Alappuzha backwater cruise"
+   }
   },
   {
    "n": 18,
@@ -530,7 +544,18 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2002,
+    "stars": [
+     "Kerala's largest freshwater lake"
+    ],
+    "best": "Sep–Mar",
+    "how": [
+     "Walking"
+    ]
+   }
   },
   {
    "n": 24,
@@ -658,7 +683,34 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2002,
+    "stars": [
+     "Vembanad lake",
+     "Darters",
+     "Herons"
+    ],
+    "best": "Nov–Feb",
+    "how": [
+     "Boat",
+     "Houseboat"
+    ],
+    "note": "On the Vembanad-Kol wetland, India's longest lake"
+   },
+   "bird": {
+    "stars": [
+     "Darters",
+     "Cormorants",
+     "Herons"
+    ],
+    "season": "Nov–Feb",
+    "how": [
+     "Boat"
+    ],
+    "start": "Kumarakom"
+   }
   },
   {
    "n": 32,
@@ -1346,7 +1398,20 @@
     10,
     4
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "bird": {
+    "stars": [
+     "Sri Lanka frogmouth",
+     "Malabar trogon",
+     "Malabar grey hornbill"
+    ],
+    "season": "Nov–Apr",
+    "how": [
+     "Walking with a guide"
+    ],
+    "start": "Thattekad",
+    "note": "Salim Ali called it the richest bird habitat in peninsular India"
+   }
   },
   {
    "n": 73,
@@ -2020,6 +2085,15 @@
     "el": 1200,
     "diff": "Moderate",
     "base": "Ambalavayal"
+   },
+   "cave": {
+    "kind": "Natural cave",
+    "stars": [
+     "Neolithic rock engravings"
+    ],
+    "time": "1–2 hours",
+    "note": "Rock shelter in a cleft of Ambukuthi hill",
+    "warn": "Closed Mondays; limited daily entries"
    }
   },
   {

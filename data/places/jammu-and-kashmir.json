@@ -119,7 +119,19 @@
     4,
     10
    ],
-   "time": "2–3 hrs"
+   "time": "2–3 hrs",
+   "wet": {
+    "kind": "Lake",
+    "stars": [
+     "Shikaras",
+     "Floating gardens",
+     "Houseboats"
+    ],
+    "best": "Apr–Oct",
+    "how": [
+     "Shikara"
+    ]
+   }
   },
   {
    "n": 2,
@@ -507,7 +519,19 @@
     4,
     10
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 1990,
+    "stars": [
+     "One of Asia's largest freshwater lakes",
+     "Lotus stems (nadru)"
+    ],
+    "best": "Apr–Oct",
+    "how": [
+     "Boat"
+    ]
+   }
   },
   {
    "n": 25,
@@ -892,6 +916,14 @@
     "diff": "Moderate",
     "base": "Pahalgam",
     "permit": "Yatra registration"
+   },
+   "cave": {
+    "kind": "Natural cave",
+    "stars": [
+     "Ice lingam"
+    ],
+    "note": "Pilgrim cave at 3,888 m, open only during the summer yatra",
+    "warn": "Yatra registration and health certificate needed"
    }
   },
   {
@@ -1189,6 +1221,15 @@
     "el": 950,
     "diff": "Easy",
     "base": "Ransoo"
+   },
+   "cave": {
+    "kind": "Natural cave",
+    "stars": [
+     "Natural Shiva linga",
+     "Long narrow passage"
+    ],
+    "len": "About 200 m",
+    "time": "1 hour"
    }
   },
   {
@@ -1301,7 +1342,21 @@
     10,
     4
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2005,
+    "stars": [
+     "Sacred lake",
+     "Turtles"
+    ],
+    "best": "Oct–Apr",
+    "how": [
+     "Walking",
+     "Boat"
+    ],
+    "note": "Ramsar site with Surinsar lake"
+   }
   },
   {
    "n": 70,
@@ -1317,7 +1372,18 @@
     10,
     4
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2005,
+    "stars": [
+     "Forest lake"
+    ],
+    "best": "Oct–Apr",
+    "how": [
+     "Walking"
+    ]
+   }
   },
   {
    "n": 71,
@@ -2169,6 +2235,89 @@
     ],
     "gate": "Limber",
     "book": "Permit from the Wildlife Warden, Baramulla"
+   }
+  },
+  {
+   "n": 115,
+   "name": "Hokersar Wetland",
+   "district": "Srinagar",
+   "category": "Ramsar wetland",
+   "g": "water",
+   "lat": 34.08,
+   "lng": 74.71,
+   "why": "Wetland near Srinagar called the queen of Kashmir's wetlands",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2005,
+    "stars": [
+     "Ducks",
+     "Geese"
+    ],
+    "best": "Nov–Mar",
+    "how": [
+     "Walking"
+    ]
+   }
+  },
+  {
+   "n": 116,
+   "name": "Hygam Wetland",
+   "district": "Baramulla",
+   "category": "Ramsar wetland",
+   "g": "water",
+   "lat": 34.25,
+   "lng": 74.53,
+   "why": "Wetland of the Jhelum floodplain near Sopore",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2022,
+    "stars": [
+     "Ducks"
+    ],
+    "best": "Nov–Mar",
+    "how": [
+     "Walking"
+    ]
+   }
+  },
+  {
+   "n": 117,
+   "name": "Shallabugh Wetland",
+   "district": "Ganderbal",
+   "category": "Ramsar wetland",
+   "g": "water",
+   "lat": 34.16,
+   "lng": 74.67,
+   "why": "Reed marsh near the Anchar lake",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2022,
+    "stars": [
+     "Ducks",
+     "Herons"
+    ],
+    "best": "Nov–Mar",
+    "how": [
+     "Walking"
+    ]
    }
   }
  ],

@@ -283,6 +283,19 @@
     "diff": "Easy",
     "base": "Gangtok",
     "permit": "Permit from Gangtok"
+   },
+   "wet": {
+    "kind": "High-altitude lake",
+    "stars": [
+     "Frozen in winter",
+     "Yaks"
+    ],
+    "best": "Year-round",
+    "how": [
+     "Walking"
+    ],
+    "el": 3753,
+    "warn": "Permit through a Gangtok agent"
    }
   },
   {
@@ -505,6 +518,28 @@
     "diff": "Easy",
     "base": "Lachen",
     "permit": "Restricted area permit"
+   },
+   "wet": {
+    "kind": "High-altitude lake",
+    "stars": [
+     "Sacred lake",
+     "Views of Kangchengyao"
+    ],
+    "best": "Apr–Nov",
+    "how": [
+     "Walking"
+    ],
+    "el": 5183,
+    "warn": "Restricted area permit; visit early, winds pick up after noon"
+   },
+   "sky": {
+    "best": "Oct–Nov",
+    "bortle": 2,
+    "el": 5183,
+    "stars": [
+     "High, dry air"
+    ],
+    "warn": "Overnight stays are not allowed; stargaze from Thangu or Lachen"
    }
   },
   {
@@ -719,6 +754,18 @@
     "el": 1700,
     "diff": "Easy",
     "base": "Pelling"
+   },
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2025,
+    "stars": [
+     "Sacred lake in forest"
+    ],
+    "best": "Oct–May",
+    "how": [
+     "Walking"
+    ],
+    "note": "Sikkim's first Ramsar site"
    }
   },
   {

@@ -344,7 +344,22 @@
     11,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2002,
+    "stars": [
+     "Adjutant storks",
+     "Ducks",
+     "Elephants crossing"
+    ],
+    "best": "Nov–Mar",
+    "how": [
+     "Walking",
+     "Boat"
+    ],
+    "note": "Guwahati's big wetland, once a channel of the Brahmaputra"
+   }
   },
   {
    "n": 12,
@@ -1071,6 +1086,18 @@
     "closed": "Usually closes 1 May–30 Sep",
     "book": "Kaziranga range offices or the official site",
     "note": "UNESCO World Heritage Site; holds about two-thirds of the world's one-horned rhinos"
+   },
+   "bird": {
+    "stars": [
+     "Bengal florican",
+     "Swamp francolin",
+     "Pelicans"
+    ],
+    "season": "Nov–Apr",
+    "how": [
+     "Jeep"
+    ],
+    "start": "Kohora"
    }
   },
   {
@@ -1546,6 +1573,17 @@
      "Walking"
     ],
     "gate": "Mariani"
+   },
+   "bird": {
+    "stars": [
+     "Hornbills",
+     "Gibbons"
+    ],
+    "season": "Oct–Apr",
+    "how": [
+     "Walking"
+    ],
+    "start": "Mariani"
    }
   },
   {
@@ -1783,6 +1821,17 @@
      "Boat"
     ],
     "gate": "Guijan, Tinsukia"
+   },
+   "bird": {
+    "stars": [
+     "White-winged wood duck",
+     "Swamp grass babbler"
+    ],
+    "season": "Nov–Mar",
+    "how": [
+     "Boat"
+    ],
+    "start": "Guijan"
    }
   },
   {
@@ -1799,7 +1848,19 @@
     11,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "bird": {
+    "stars": [
+     "Ducks",
+     "Marsh babbler",
+     "Black-breasted parrotbill"
+    ],
+    "season": "Nov–Mar",
+    "how": [
+     "Boat"
+    ],
+    "start": "Tinsukia"
+   }
   },
   {
    "n": 96,

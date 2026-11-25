@@ -742,7 +742,30 @@
     5,
     9
    ],
-   "time": "Overnight"
+   "time": "Overnight",
+   "wet": {
+    "kind": "High-altitude lake",
+    "stars": [
+     "Colour-changing water",
+     "Bar-headed goose"
+    ],
+    "best": "May–Sep",
+    "how": [
+     "Walking"
+    ],
+    "note": "About 60% of the lake lies in Tibet",
+    "el": 4225,
+    "warn": "Inner Line Permit needed"
+   },
+   "sky": {
+    "best": "May–Sep",
+    "bortle": 2,
+    "el": 4225,
+    "stars": [
+     "Milky Way",
+     "Star trails over the water"
+    ]
+   }
   },
   {
    "n": 37,
@@ -781,7 +804,31 @@
     5,
     9
    ],
-   "time": "Overnight"
+   "time": "Overnight",
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2002,
+    "stars": [
+     "Black-necked crane",
+     "Bar-headed goose",
+     "Kiang"
+    ],
+    "best": "Jun–Sep",
+    "how": [
+     "Walking"
+    ],
+    "el": 4522,
+    "warn": "Inner Line Permit needed; altitude above 4,500 m"
+   },
+   "sky": {
+    "best": "Jun–Sep",
+    "bortle": 2,
+    "el": 4522,
+    "stars": [
+     "Milky Way over the lake"
+    ],
+    "warn": "Cold nights even in summer"
+   }
   },
   {
    "n": 39,
@@ -804,6 +851,20 @@
     "diff": "Easy",
     "base": "Tso Kar",
     "permit": "Inner Line Permit"
+   },
+   "wet": {
+    "kind": "Ramsar wetland",
+    "ramsar": 2020,
+    "stars": [
+     "Black-necked crane",
+     "Salt flats"
+    ],
+    "best": "Jun–Sep",
+    "how": [
+     "Walking"
+    ],
+    "el": 4530,
+    "warn": "Inner Line Permit needed"
    }
   },
   {
@@ -820,7 +881,18 @@
     5,
     9
    ],
-   "time": "Overnight"
+   "time": "Overnight",
+   "sky": {
+    "best": "Sep–May, near new moon",
+    "bortle": 1,
+    "el": 4500,
+    "stars": [
+     "Milky Way core (summer)",
+     "Zodiacal light"
+    ],
+    "note": "India's first dark sky reserve (2022), around the Indian Astronomical Observatory; villagers trained as astronomy ambassadors",
+    "warn": "Inner Line Permit needed; nights well below freezing"
+   }
   },
   {
    "n": 41,
