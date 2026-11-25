@@ -198,7 +198,7 @@ textarea{width:100%;min-height:76px;border-radius:14px;border:1px solid var(--li
 .ob[hidden]{display:none}
 .obc{background:var(--bg);width:min(560px,100%);border-radius:22px 22px 0 0;padding:20px 20px calc(24px + env(safe-area-inset-bottom,0px));max-height:92%;overflow:auto;box-shadow:var(--shadow)}
 @media(min-width:600px){.obc{border-radius:22px}}
-.countrychoices{display:grid;gap:10px;margin-top:20px}.countrychoice{display:grid;grid-template-columns:52px 1fr 24px;align-items:center;gap:12px;width:100%;padding:16px;border:1px solid var(--line);border-radius:16px;background:var(--card);color:var(--ink);text-align:left;cursor:pointer}.countrychoice:active{transform:scale(.99)}.countrychoice b{display:block;font-size:18px}.countrychoice small{display:block;color:var(--soft);font-size:13px;margin-top:2px}.countryflag{font-size:32px;line-height:1;text-align:center}.obk{font-size:14px;color:var(--soft);margin:0}
+.countrychoices{display:grid;gap:10px;margin-top:20px}.countrysearch{display:block;margin:16px 0 10px}.countrysearch input{width:100%;height:46px;border:1px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink);padding:0 13px;font:inherit}.countrylist{max-height:min(48vh,440px);overflow:auto;overscroll-behavior:contain;padding:2px 2px 8px}.countrygroup{position:sticky;top:0;z-index:1;background:var(--bg);padding:9px 5px 7px;margin:4px 0;color:var(--soft);font-size:12px;font-weight:800;letter-spacing:.07em;text-transform:uppercase}.countrychoice[hidden],.countrygroup[hidden]{display:none}.countrydisabled{cursor:default;opacity:.82}.countrysoon{font-size:11px;color:var(--soft);white-space:nowrap}.countrydisclaimer{font-size:11px;line-height:1.45;color:var(--soft);margin:12px 0 0}.countrychoice{display:grid;grid-template-columns:52px 1fr 24px;align-items:center;gap:12px;width:100%;padding:16px;border:1px solid var(--line);border-radius:16px;background:var(--card);color:var(--ink);text-align:left;cursor:pointer}.countrychoice:active{transform:scale(.99)}.countrychoice b{display:block;font-size:18px}.countrychoice small{display:block;color:var(--soft);font-size:13px;margin-top:2px}.countryflag{font-size:32px;line-height:1;text-align:center}.obk{font-size:14px;color:var(--soft);margin:0}
 .lbl{display:block;font-size:14px;color:var(--soft);font-weight:600;margin:6px 0 4px}
 .lbl select,.lbl input{width:100%;margin-top:4px;display:block}
 input[type=text],input[type=date],input[type=search]{height:44px;border-radius:12px;border:1px solid var(--line);background:var(--card);padding:0 12px;font-size:16px}
@@ -1362,27 +1362,39 @@ function showOnboard(edit){const ob=$("#ob");let step=0,h=M.home?.name||"",ints=
   ob.hidden=false;document.addEventListener("keydown",esc_);draw()}
 
 /* ---- country-first entry ---- */
+function countryFlag(code){
+  if(!code||code.length!==2)return "🌐";
+  return String.fromCodePoint(...code.toUpperCase().split("").map(x=>127397+x.charCodeAt(0)));
+}
 function showCountryGate(){
-  const ob=$("#ob"),c=ob.querySelector(".obc");
+  const ob=$("#ob"),c=ob.querySelector(".obc"),entities=(S.entities||[]).filter(e=>e.entity_type==="m49-country-or-area");
+  const active=entities.filter(e=>CC[(e.iso2||"").toLowerCase()]).sort((a,b)=>a.name.localeCompare(b.name));
+  const upcoming=entities.filter(e=>!CC[(e.iso2||"").toLowerCase()]).sort((a,b)=>a.name.localeCompare(b.name));
   ob.setAttribute("aria-labelledby","countryT");
-  c.innerHTML=`<p class="obk">TRAVEL ATLAS</p>
+  c.innerHTML=`<p class="obk">TRAVEL ATLAS · GLOBAL EDITION</p>
     <h2 id="countryT" style="font-size:28px;margin:8px 0 4px">Where would you like to explore?</h2>
-    <p class="lead">Choose a country to open its map, regions and destinations. You can switch countries later.</p>
-    <div class="countrychoices" role="group" aria-label="Choose a country">
-      <button type="button" class="countrychoice" data-country="in"><span class="countryflag" aria-hidden="true">🇮🇳</span><span><b>India</b><small>States, union territories and destinations</small></span><span aria-hidden="true">→</span></button>
-      <button type="button" class="countrychoice" data-country="np"><span class="countryflag" aria-hidden="true">🇳🇵</span><span><b>Nepal</b><small>Provinces, districts and destinations</small></span><span aria-hidden="true">→</span></button>
+    <p class="lead">Choose a country or area. The atlas currently has destination data for India and Nepal; the rest are listed and ready for future expansion.</p>
+    <label class="countrysearch"><span class="sr">Search countries and areas</span><input id="countryQ" type="search" placeholder="Search 248 countries and areas…" autocomplete="off"></label>
+    <div class="countrylist" id="countryList" role="group" aria-label="Countries and areas">
+      <p class="countrygroup">Available now · ${active.length}</p>
+      ${active.map(e=>{const cc=e.iso2.toLowerCase();return `<button type="button" class="countrychoice" data-country="${cc}" data-name="${esc(e.name.toLowerCase())}"><span class="countryflag" aria-hidden="true">${countryFlag(e.iso2)}</span><span><b>${esc(e.name)}</b><small>${cc==="in"?"States, union territories and destinations":"Provinces, districts and destinations"}</small></span><span aria-hidden="true">→</span></button>`}).join("")}
+      <p class="countrygroup">More countries &amp; areas · ${upcoming.length}</p>
+      ${upcoming.map(e=>`<div class="countrychoice countrydisabled" data-name="${esc(e.name.toLowerCase())}" aria-disabled="true"><span class="countryflag" aria-hidden="true">${countryFlag(e.iso2)}</span><span><b>${esc(e.name)}</b><small>${esc(e.entity_type==="m49-country-or-area"?"UN M49 country or area":"Area")}</small></span><span class="countrysoon">Coming soon</span></div>`).join("")}
     </div>
-    <p class="note" style="margin:16px 0 0">More countries will appear here as the atlas expands.</p>`;
+    <p class="countrydisclaimer">The list follows the UN Statistics Division’s M49 country-or-area classification. It includes territories and special areas; inclusion is statistical and does not imply sovereignty, political affiliation or a position on borders.</p>`;
   ob.hidden=false;
+  const q=c.querySelector("#countryQ"),list=c.querySelector("#countryList");
+  q.oninput=()=>{const v=q.value.trim().toLocaleLowerCase();list.querySelectorAll("[data-name]").forEach(el=>el.hidden=!!v&&!el.dataset.name.includes(v));list.querySelectorAll(".countrygroup").forEach(h=>{let n=0;let p=h.nextElementSibling;while(p&&!p.classList.contains("countrygroup")){if(!p.hidden)n++;p=p.nextElementSibling}h.hidden=!!v&&!n})};
   c.querySelectorAll("[data-country]").forEach(b=>b.onclick=async()=>{
     const cc=b.dataset.country;
+    if(!CC[cc])return;
     S.cc=cc;S.states=ccStates();
     try{localStorage.setItem("ita-cc",cc)}catch(e){}
     ob.hidden=true;
     await goIndia();
     if(!M.onboarded)setTimeout(()=>{if(!M.onboarded)showOnboard(false)},350);
   });
-  setTimeout(()=>c.querySelector("[data-country]")?.focus(),30);
+  setTimeout(()=>q.focus(),30);
 }
 
 /* ---- home rings on map ---- */
@@ -3150,7 +3162,7 @@ function route(silent,h0){const h=h0!=null?h0:location.hash.slice(1);const m=h.m
   paint()}
 (async()=>{
   try{
-    const[topo,states,fx]=await Promise.all([fetch("data/india-states.json").then(r=>r.json()),fetch("data/states.json").then(r=>r.json()),fetch("data/festivals.json").then(r=>r.json()).catch(()=>[])]);S.fx=fx;
+    const[topo,states,fx,registry]=await Promise.all([fetch("data/india-states.json").then(r=>r.json()),fetch("data/states.json").then(r=>r.json()),fetch("data/festivals.json").then(r=>r.json()).catch(()=>[]),fetch("data/entities/current.json").then(r=>r.json()).catch(()=>({entities:[]}))]);S.fx=fx;S.entities=registry.entities||[];
     S.topo=topo;S.feats=topojson.feature(topo,topo.objects.states).features;S.ALL=states;S.cc="in";try{const c=localStorage.getItem("ita-cc");if(CC[c])S.cc=c}catch(e){}{const h=decodeURIComponent(location.hash.slice(1));const m=states.find(x=>h===x.slug||h.startsWith(x.slug+"-"));if(m&&(m.cc||"in")!==S.cc)S.cc=m.cc||"in"}S.states=ccStates();
     let ix=null;try{ix=await fetch("data/index.json").then(r=>{if(!r.ok)throw 0;return r.json()})}catch(e){}
     if(ix)states.forEach(s=>{if(ix[s.slug])S.data[s.slug]=fromIndex(s.slug,ix[s.slug])});
