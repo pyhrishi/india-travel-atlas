@@ -1,0 +1,23 @@
+name: Recover failed place verification runs
+on:
+  workflow_run:
+    workflows:
+      - Verify places (Wikipedia + Wikidata) — recoverable parallel regions
+    types: [completed]
+permissions:
+  actions: write
+  contents: read
+jobs:
+  retry:
+    if: ${{ (github.event.workflow_run.conclusion == 'failure' || github.event.workflow_run.conclusion == 'timed_out' || github.event.workflow_run.conclusion == 'startup_failure') && github.event.workflow_run.run_attempt < 3 }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Automatically rerun the failed verification attempt
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_ID: ${{ github.event.workflow_run.id }}
+        run: |
+          echo "Workflow attempt ${{ github.event.workflow_run.run_attempt }} failed. Starting a full recovery attempt so skipped merge/publish jobs are evaluated again."
+          gh api --method POST \
+            -H "Accept: application/vnd.github+json" \
+            "/repos/${GITHUB_REPOSITORY}/actions/runs/${RUN_ID}/rerun"
