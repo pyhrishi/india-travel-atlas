@@ -36,7 +36,8 @@ jobs:
           python-version: "3.12"
       - name: Compile and run map pipeline tests
         run: |
-          python -m py_compile tools/build_global_maps.py
+          python -m py_compile tools/build_global_maps.py tools/check_app_js.py
+          python tools/check_app_js.py
           python -m unittest discover -s tests -p "test_global_maps.py" -v
 
   build:
