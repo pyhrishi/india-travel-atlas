@@ -746,6 +746,10 @@ const CC={in:{name:"India",reg:"states and union territories",regS:"state"},np:{
 function ccOf(slug){const s=(S.ALL||[]).find(x=>x.slug===slug)||(S.states||[]).find(x=>x.slug===slug);return s?(s.cc||"in"):"in"}
 function ccStates(){return(S.ALL||[]).filter(s=>(s.cc||"in")===S.cc)}
 function CN(){return CC[S.cc||"in"]?.name||S.mapData?.country?.name||"Selected country"}
+const COUNTRY_META={bn:{currency:"BND",currencyName:"Brunei dollar",defaultBase:"Bandar Seri Begawan",tourism:"https://www.bruneitourism.com/",events:"https://www.bruneitourism.com/events/",travelNotes:["Check visa eligibility and current arrival-declaration requirements for your passport nationality before departure.","Friday prayer time can affect opening hours; check individual venues before planning midday visits.","Carry some Brunei dollars for smaller vendors and local transport."]}};
+const countryProfile=()=>COUNTRY_META[S.cc]||{currency:S.cc==="in"?"INR":"local currency",currencyName:S.cc==="in"?"Indian rupee":"local currency",defaultBase:"",tourism:"",events:"",travelNotes:[]};
+function countryTripNotes(){const p=countryProfile();if(!p.travelNotes.length&&!p.tourism)return"";return `<div class="pcard" style="margin:12px 0"><h3 style="margin:0 0 6px">Travel essentials · ${esc(CN())}</h3><ul class="bul">${p.travelNotes.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>${p.tourism?`<p class="note" style="margin:6px 0 0"><a href="${p.tourism}" target="_blank" rel="noopener">Official ${esc(CN())} tourism information ↗</a>${p.events?` · <a href="${p.events}" target="_blank" rel="noopener">Events calendar ↗</a>`:""}</p>`:""}</div>`}
+
 function featCC(f){if(S.mapMode)return S.cc;const s=(S.ALL||[]).find(x=>x.name===f.properties.st_nm);return s?(s.cc||"in"):"in"}
 function scopeCC(cc){if(!CC[cc]||cc===S.cc)return false;S.cc=cc;try{localStorage.setItem("ita-cc",cc)}catch(e){}S.states=ccStates();_AP=null;S.coll=null;S.f={...S.f,dist:null,reg:null};return true}
 async function loadCountryGeometry(cc){
@@ -1152,6 +1156,8 @@ function bind(){V.querySelectorAll("[data-fz]").forEach(el=>el.onclick=()=>{cons
   V.querySelectorAll("[data-tier]").forEach(el=>el.onclick=()=>{full();S.f={...S.f,cat:null,tier:el.dataset.tier||null,mon:el.dataset.now==="1"?NOWM:0,dist:null,tm:null};root_("list")});
   const su=$("#surp");if(su)su.onclick=surprise;const ds=$("#dscB");if(ds)ds.onclick=()=>{root_("discover");if(mobile())snapTo(2)};magHome();bindMag();const nb=$("#nearB");if(nb)nb.onclick=nearNow}
 const base=()=>{const D=curD();const i=M.base[S.slug];return D&&i!=null&&D.bases[i]?{name:D.bases[i][0],lat:D.bases[i][1],lng:D.bases[i][2]}:null};
+function countryBase(){const pref=countryProfile().defaultBase,all=(S.states||[]).flatMap(s=>(S.data[s.slug]?.bases||[]).map(b=>({name:b[0],lat:b[1],lng:b[2],slug:s.slug})));return all.find(x=>x.name===pref)||all[0]||null}
+const allAtlasPlaces=()=> (S.ALL||[]).flatMap(s=>S.data[s.slug]?.places||[]);
 const baseSel=()=>{const D=curD();return`<select id="base" aria-label="Distances from"><option value="">Distances from: not set</option>${D.bases.map((b,i)=>`<option value="${i}"${M.base[S.slug]==i?" selected":""}>From ${esc(b[0])}</option>`).join("")}</select>`};
 function bindBase(){const s=$("#base");if(s)s.onchange=e=>{if(e.target.value==="")delete M.base[S.slug];else M.base[S.slug]=+e.target.value;save();paint(false,V.scrollTop)}}
 function card(p,showState){const b=showState?null:base();return`<button class="pc" data-p="${id(p)}"><span class="art" aria-hidden="true">${art(p,{badge:1})}${p.tier!=="top"?`<span class="tier ${p.tier}">${TIER[p.tier]}</span>`:""}</span>${p.tier!=="top"?`<span class="sr">${TIER[p.tier]}. </span>`:""}<span class="t blk">${esc(p.name)}</span><span class="s blk">${esc(showState?stOf(p.slug).name:p.district)}${b?` · ~${road(km(b,p))} km`:` · ${esc(p.time)}`}</span></button>`}
