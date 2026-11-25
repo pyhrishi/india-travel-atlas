@@ -85,6 +85,7 @@ MANUAL_PHOTO_EXCLUSIONS = {
     'andhra-pradesh:79': 'generic railway landscape, not Koundinya Wildlife Sanctuary',
     'andhra-pradesh:91': 'blackbuck photograph, not the Great Indian Bustard sanctuary',
     'andhra-pradesh:106': 'canal aerial view, not a clear photograph of Thotapalli Barrage',
+    'andhra-pradesh:117': 'Appikonda hillock view, not the listed beach',
     'andhra-pradesh:112': 'Gosthani river image, not the Vizag–Bheemili coastal road',
     'andhra-pradesh:123': 'Araku Valley landscape, not the Coffee Museum',
     'andhra-pradesh:138': 'Kadiyam railway station sign, not the nursery belt',
