@@ -66,6 +66,11 @@ PLACE_ALIASES = {'vijayapuracitadelmalikemaidan': ['Bijapur Fort']}
 MANUAL_ARTICLE_EXCLUSIONS = {
     'andhra-pradesh:112': 'Bheemili Beach article does not describe the Vizag–Bheemili scenic road',
     'andhra-pradesh:23': 'Araku Valley article is not an article about the Araku Tribal Museum',
+    'andhra-pradesh:51': 'Mangalagiri–Tadepalli municipal corporation article does not verify the Mangalagiri temple or handloom destination',
+    'andhra-pradesh:59': 'Machilipatnam city article does not verify the combined Machilipatnam and Manginapudi Beach destination',
+    'andhra-pradesh:65': 'Udayagiri town article does not verify Udayagiri Fort',
+    'andhra-pradesh:83': 'Siddavatam village article does not verify Siddavatam Fort',
+    'andhra-pradesh:98': 'Penukonda town article does not verify Penukonda Fort',
     'andhra-pradesh:123': 'Araku Valley article is not an article about the Araku Coffee Museum',
     'andhra-pradesh:137': 'Dindi search result is a Brazilian song, not the Konaseema backwater destination',
     'andhra-pradesh:138': 'Kadiyam locality article does not verify the Kadiyam nursery belt',
