@@ -249,7 +249,12 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Swim only between the flags or near lifeguards",
+    "crowd": "Moderate",
+    "vibe": "Reached by boat through backwaters"
+   }
   },
   {
    "n": 14,
@@ -265,7 +270,16 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Swim only between the flags or near lifeguards",
+    "crowd": "Moderate",
+    "sports": [
+     "Surfing"
+    ],
+    "vibe": "Surf beach north of town",
+    "surf": "Beginner surf schools"
+   }
   },
   {
    "n": 15,

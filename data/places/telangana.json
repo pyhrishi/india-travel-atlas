@@ -593,7 +593,14 @@
     7,
     10
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "fall": {
+    "flow": "Jul–Oct (fullest in the monsoon)",
+    "h": 30,
+    "walk": "Short walk",
+    "bathe": false,
+    "note": "Called Telangana's Niagara"
+   }
   },
   {
    "n": 31,
@@ -1012,7 +1019,14 @@
     7,
     10
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "fall": {
+    "flow": "Jul–Oct (fullest in the monsoon)",
+    "h": 45,
+    "walk": "About 400 steps down",
+    "bathe": false,
+    "note": "Telangana's highest fall"
+   }
   },
   {
    "n": 56,

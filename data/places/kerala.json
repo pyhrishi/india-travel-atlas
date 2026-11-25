@@ -187,7 +187,18 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Swim only between the flags or near lifeguards",
+    "crowd": "Busy",
+    "sports": [
+     "Surf lessons",
+     "Ayurveda"
+    ],
+    "sunset": true,
+    "vibe": "Lighthouse beach in three coves",
+    "surf": "Beginner surf schools"
+   }
   },
   {
    "n": 3,
@@ -203,7 +214,19 @@
     10,
     3
    ],
-   "time": "Overnight"
+   "time": "Overnight",
+   "beach": {
+    "swim": "Swim only between the flags or near lifeguards",
+    "crowd": "Busy",
+    "sports": [
+     "Surfing",
+     "Paragliding"
+    ],
+    "sunset": true,
+    "vibe": "Red cliffs above the beach",
+    "surf": "Good beginner and intermediate waves Oct–Apr",
+    "warn": "Strong rip currents some days; follow lifeguards"
+   }
   },
   {
    "n": 4,
@@ -251,7 +274,16 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Not for swimming: strong currents or rocks",
+    "crowd": "Moderate",
+    "sports": [
+     "Backwater boat rides"
+    ],
+    "sunset": true,
+    "vibe": "Reached only by boat"
+   }
   },
   {
    "n": 7,
@@ -734,7 +766,13 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Swim only between the flags or near lifeguards",
+    "crowd": "Quiet",
+    "sunset": true,
+    "vibe": "Quiet fishing village beach"
+   }
   },
   {
    "n": 33,
@@ -1358,7 +1396,13 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Swim only between the flags or near lifeguards",
+    "crowd": "Moderate",
+    "sunset": true,
+    "vibe": "Between the sea and backwaters"
+   }
   },
   {
    "n": 70,
@@ -1538,7 +1582,15 @@
     6,
     1
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "fall": {
+    "flow": "Jul–Oct (fullest in the monsoon)",
+    "h": 25,
+    "walk": "Paved path to the top; about 1 km down to the base",
+    "bathe": false,
+    "note": "Kerala's widest fall, over 80 m across on the Chalakudy river",
+    "warn": "Base path closes in heavy rain"
+   }
   },
   {
    "n": 80,
@@ -1554,7 +1606,13 @@
     6,
     10
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "fall": {
+    "flow": "Jul–Oct (fullest in the monsoon)",
+    "walk": "By the road",
+    "bathe": false,
+    "note": "Cascades 5 km upstream of Athirappilly"
+   }
   },
   {
    "n": 81,
@@ -2005,7 +2063,13 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Swim only between the flags or near lifeguards",
+    "crowd": "Moderate",
+    "sunset": true,
+    "vibe": "Where Vasco da Gama landed in 1498"
+   }
   },
   {
    "n": 107,
@@ -2196,7 +2260,16 @@
     6,
     10
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "fall": {
+    "flow": "Jul–Oct (fullest in the monsoon)",
+    "h": 61,
+    "walk": "About 1.5 km downhill walk from the gate",
+    "bathe": true,
+    "tiers": "Three tiers",
+    "note": "Three-tier fall in Wayanad's forest",
+    "warn": "Rocks are slippery and flash floods happen; stay behind the barriers"
+   }
   },
   {
    "n": 117,
@@ -2292,7 +2365,16 @@
     6,
     10
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "fall": {
+    "flow": "Jul–Oct (fullest in the monsoon)",
+    "h": 300,
+    "walk": "Forest trek of 2 km",
+    "bathe": false,
+    "tiers": "Three tiers",
+    "note": "Three-tier fall in Wayanad",
+    "warn": "Rocks are slippery and flash floods happen; stay behind the barriers"
+   }
   },
   {
    "n": 123,
@@ -2396,7 +2478,16 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Swim only between the flags or near lifeguards",
+    "crowd": "Moderate",
+    "sports": [
+     "Drive on the sand"
+    ],
+    "sunset": true,
+    "vibe": "Kerala's drive-in beach"
+   }
   },
   {
    "n": 129,
@@ -2556,7 +2647,13 @@
     10,
     4
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "beach": {
+    "swim": "Swim only between the flags or near lifeguards",
+    "crowd": "Moderate",
+    "sunset": true,
+    "vibe": "Fort on the headland"
+   }
   },
   {
    "n": 139,
@@ -2723,7 +2820,13 @@
     6,
     10
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "fall": {
+    "flow": "Jul–Oct (fullest in the monsoon)",
+    "walk": "Trail of seven steps of falls",
+    "bathe": true,
+    "note": "Seven-step cascade near Thodupuzha"
+   }
   },
   {
    "n": 149,
@@ -3433,6 +3536,27 @@
     ],
     "veg": false,
     "when": "Lunch"
+   }
+  },
+  {
+   "n": 183,
+   "name": "Cheeyappara Falls",
+   "district": "Idukki",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 10.023,
+   "lng": 76.865,
+   "why": "Seven-step roadside fall on the Kochi–Munnar road",
+   "tier": "gem",
+   "months": [
+    7,
+    12
+   ],
+   "time": "30 min",
+   "fall": {
+    "flow": "Jul–Oct (fullest in the monsoon)",
+    "walk": "By the road",
+    "bathe": false
    }
   }
  ],

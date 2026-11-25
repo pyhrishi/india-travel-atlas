@@ -142,7 +142,15 @@
     7,
     11
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "fall": {
+    "flow": "Jul–Oct for full width; boat rides Nov–Feb",
+    "h": 29,
+    "walk": "Viewpoints and steps to the boats",
+    "bathe": false,
+    "note": "India's widest fall, nearly 300 m across in flood",
+    "warn": "Boats stop in high water"
+   }
   },
   {
    "n": 2,
@@ -362,7 +370,15 @@
     7,
     11
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "fall": {
+    "flow": "Jul–Oct (fullest in the monsoon)",
+    "h": 91,
+    "walk": "Steps down the tiers",
+    "bathe": false,
+    "tiers": "Several tiers",
+    "note": "Multi-tier fall in Kanger Valley"
+   }
   },
   {
    "n": 13,

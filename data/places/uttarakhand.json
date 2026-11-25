@@ -580,6 +580,13 @@
     "el": 3600,
     "diff": "Moderate",
     "base": "Mana"
+   },
+   "fall": {
+    "flow": "Jun–Oct",
+    "h": 122,
+    "walk": "About 6 km walk from Mana village",
+    "bathe": false,
+    "note": "High-altitude fall near Badrinath"
    }
   },
   {
@@ -1199,7 +1206,13 @@
     10,
     4
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "fall": {
+    "flow": "Year round; fullest Jul–Sep",
+    "walk": "Ropeway or steps",
+    "bathe": true,
+    "note": "Mussoorie's busy bathing fall"
+   }
   },
   {
    "n": 56,

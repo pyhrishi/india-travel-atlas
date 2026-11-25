@@ -182,7 +182,13 @@
     11,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Swim only between the flags or near lifeguards",
+    "crowd": "Quiet",
+    "sunset": true,
+    "vibe": "Pine-fringed, at Goa's northern tip"
+   }
   },
   {
    "n": 3,
@@ -198,7 +204,18 @@
     11,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Swim only between the flags or near lifeguards",
+    "crowd": "Moderate",
+    "sports": [
+     "Paragliding",
+     "Drum circles at sunset"
+    ],
+    "sunset": true,
+    "vibe": "Hippie and long-stay crowd",
+    "surf": "Gentle beginner waves"
+   }
   },
   {
    "n": 4,
@@ -214,7 +231,16 @@
     11,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Swim only between the flags or near lifeguards",
+    "crowd": "Quiet",
+    "sports": [
+     "Yoga retreats"
+    ],
+    "sunset": true,
+    "vibe": "Calm stretch with a river lagoon"
+   }
   },
   {
    "n": 5,
@@ -230,7 +256,13 @@
     11,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Swim only between the flags or near lifeguards",
+    "crowd": "Quiet",
+    "sunset": true,
+    "vibe": "Wide sand, beach huts"
+   }
   },
   {
    "n": 6,
@@ -246,7 +278,18 @@
     11,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Swim only between the flags or near lifeguards",
+    "crowd": "Quiet",
+    "sports": [
+     "Kitesurfing"
+    ],
+    "sunset": true,
+    "vibe": "Olive ridley turtle nesting site",
+    "surf": "Kitesurfing in winter winds",
+    "warn": "Nesting zones are fenced; keep off them"
+   }
   },
   {
    "n": 7,
@@ -278,7 +321,13 @@
     11,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Not for swimming: strong currents or rocks",
+    "crowd": "Moderate",
+    "sunset": true,
+    "vibe": "Red cliffs below Chapora Fort"
+   }
   },
   {
    "n": 9,
@@ -294,7 +343,13 @@
     11,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Not for swimming: strong currents or rocks",
+    "crowd": "Busy",
+    "sunset": true,
+    "vibe": "Rocky; Wednesday flea market"
+   }
   },
   {
    "n": 10,
@@ -342,7 +397,18 @@
     11,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Swim only between the flags or near lifeguards",
+    "crowd": "Busy",
+    "sports": [
+     "Parasailing",
+     "Jet ski",
+     "Banana boat"
+    ],
+    "sunset": true,
+    "vibe": "Nightlife and water sports"
+   }
   },
   {
    "n": 13,
@@ -358,7 +424,16 @@
     11,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Swim only between the flags or near lifeguards",
+    "crowd": "Busy",
+    "sports": [
+     "Parasailing",
+     "Jet ski"
+    ],
+    "vibe": "Goa's busiest beach"
+   }
   },
   {
    "n": 14,
@@ -390,7 +465,17 @@
     11,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Swim only between the flags or near lifeguards",
+    "crowd": "Moderate",
+    "sports": [
+     "Dolphin trips",
+     "Parasailing"
+    ],
+    "sunset": true,
+    "vibe": "Long sands and the River Princess wreck site"
+   }
   },
   {
    "n": 16,
@@ -502,7 +587,13 @@
     7,
     11
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "fall": {
+    "flow": "Jul–Oct (fullest in the monsoon)",
+    "h": 24,
+    "walk": "By the road",
+    "bathe": false
+   }
   },
   {
    "n": 23,
@@ -620,7 +711,13 @@
     11,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Not for swimming: strong currents or rocks",
+    "crowd": "Busy",
+    "sunset": true,
+    "vibe": "City beach in Panaji"
+   }
   },
   {
    "n": 30,
@@ -972,6 +1069,14 @@
     ],
     "book": "IRCTC",
     "note": "Best in the monsoon; sit on the right side heading toward Goa"
+   },
+   "fall": {
+    "flow": "Jun–Jan; jeep safaris usually Oct–May",
+    "h": 310,
+    "walk": "Jeep safari from Kulem, then a short walk",
+    "tiers": "Four tiers",
+    "note": "Four-tiered fall on the Goa–Karnataka border with the railway crossing its face",
+    "warn": "Walking along the railway track is banned"
    }
   },
   {
@@ -1068,7 +1173,16 @@
     11,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Usually calm enough to swim in season",
+    "crowd": "Moderate",
+    "sports": [
+     "Scuba diving",
+     "Snorkelling trips"
+    ],
+    "vibe": "Small cove near the airport"
+   }
   },
   {
    "n": 56,
@@ -1100,7 +1214,13 @@
     11,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Swim only between the flags or near lifeguards",
+    "crowd": "Quiet",
+    "sunset": true,
+    "vibe": "Long clean sands of south Goa"
+   }
   },
   {
    "n": 58,
@@ -1116,7 +1236,17 @@
     11,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Swim only between the flags or near lifeguards",
+    "crowd": "Busy",
+    "sports": [
+     "Parasailing",
+     "Jet ski"
+    ],
+    "sunset": true,
+    "vibe": "South Goa's busiest beach"
+   }
   },
   {
    "n": 59,
@@ -1132,7 +1262,16 @@
     11,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Swim only between the flags or near lifeguards",
+    "crowd": "Quiet",
+    "sports": [
+     "Dolphin trips"
+    ],
+    "sunset": true,
+    "vibe": "Fishing boats and calm sand"
+   }
   },
   {
    "n": 60,
@@ -1164,7 +1303,13 @@
     11,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Swim only between the flags or near lifeguards",
+    "crowd": "Quiet",
+    "sunset": true,
+    "vibe": "White sand and resorts"
+   }
   },
   {
    "n": 62,
@@ -1228,7 +1373,17 @@
     11,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Not for swimming: strong currents or rocks",
+    "crowd": "Quiet",
+    "sports": [
+     "Kayaking on the lagoon"
+    ],
+    "sunset": true,
+    "vibe": "Freshwater lagoon behind the beach",
+    "warn": "Steep rough track to reach it"
+   }
   },
   {
    "n": 66,
@@ -1244,7 +1399,16 @@
     11,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Usually calm enough to swim in season",
+    "crowd": "Quiet",
+    "sports": [
+     "Kayaking"
+    ],
+    "sunset": true,
+    "vibe": "Calm, quiet, turtle nesting"
+   }
   },
   {
    "n": 67,
@@ -1260,7 +1424,16 @@
     11,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Swim only between the flags or near lifeguards",
+    "crowd": "Quiet",
+    "sports": [
+     "Dolphin boat trips"
+    ],
+    "sunset": true,
+    "vibe": "Cove reached by boat from Palolem"
+   }
   },
   {
    "n": 68,
@@ -1276,7 +1449,18 @@
     11,
     3
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "beach": {
+    "swim": "Usually calm enough to swim in season",
+    "crowd": "Moderate",
+    "sports": [
+     "Kayaking",
+     "Dolphin trips",
+     "Silent-headphone parties"
+    ],
+    "sunset": true,
+    "vibe": "Crescent bay, calm water"
+   }
   },
   {
    "n": 69,
@@ -1292,7 +1476,16 @@
     11,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Usually calm enough to swim in season",
+    "crowd": "Quiet",
+    "sports": [
+     "Yoga"
+    ],
+    "sunset": true,
+    "vibe": "Quieter neighbour of Palolem"
+   }
   },
   {
    "n": 70,
@@ -1308,7 +1501,13 @@
     11,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Swim only between the flags or near lifeguards",
+    "crowd": "Quiet",
+    "sunset": true,
+    "vibe": "Turtle nesting beach lined with casuarinas"
+   }
   },
   {
    "n": 71,
@@ -1324,7 +1523,13 @@
     11,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Swim only between the flags or near lifeguards",
+    "crowd": "Quiet",
+    "sunset": true,
+    "vibe": "Goa's southernmost beach"
+   }
   },
   {
    "n": 72,
@@ -1772,7 +1977,16 @@
     11,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Usually calm enough to swim in season",
+    "crowd": "Moderate",
+    "sports": [
+     "Scuba diving",
+     "Snorkelling"
+    ],
+    "vibe": "Island dive trips from Bogmalo and Sinquerim"
+   }
   },
   {
    "name": "Hollant Beach",

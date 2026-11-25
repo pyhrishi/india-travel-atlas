@@ -174,7 +174,13 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Swim only between the flags or near lifeguards",
+    "crowd": "Busy",
+    "vibe": "Pilgrim beach with sand art and camel rides",
+    "warn": "Swim only with the 'nolia' lifeguards"
+   }
   },
   {
    "n": 4,
@@ -690,7 +696,12 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Swim only between the flags or near lifeguards",
+    "crowd": "Moderate",
+    "vibe": "Old port town beach"
+   }
   },
   {
    "n": 33,
@@ -954,7 +965,14 @@
     7,
     11
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "fall": {
+    "flow": "Jul–Oct (fullest in the monsoon)",
+    "h": 157,
+    "walk": "Viewpoint",
+    "bathe": false,
+    "note": "Machkund river on the Andhra border"
+   }
   },
   {
    "n": 48,
@@ -1442,7 +1460,16 @@
     7,
     11
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "fall": {
+    "flow": "Jul–Oct (fullest in the monsoon)",
+    "h": 399,
+    "walk": "Viewpoint inside Similipal",
+    "bathe": false,
+    "tiers": "Two tiers",
+    "note": "Two-tier fall, among India's highest",
+    "warn": "Similipal opens about Nov–Jun; check gate dates"
+   }
   },
   {
    "n": 73,
@@ -1530,7 +1557,13 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Not for swimming: strong currents or rocks",
+    "crowd": "Moderate",
+    "sunset": true,
+    "vibe": "Sea that retreats up to 5 km at low tide"
+   }
   },
   {
    "n": 78,
@@ -1885,7 +1918,14 @@
     7,
     11
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "fall": {
+    "flow": "Jul–Oct (fullest in the monsoon)",
+    "h": 244,
+    "walk": "Short walk",
+    "bathe": false,
+    "note": "Odisha's highest single drop (Sundargarh)"
+   }
   },
   {
    "n": 97,

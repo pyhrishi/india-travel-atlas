@@ -155,6 +155,13 @@
     "el": 500,
     "diff": "Moderate",
     "base": "Tyrna"
+   },
+   "fall": {
+    "flow": "Oct–Mar for the rainbow; year round",
+    "walk": "About 3 hours each way beyond the double-decker root bridge, many steps",
+    "bathe": true,
+    "note": "Turquoise pool and a rainbow on sunny mornings",
+    "warn": "A long, steep walk; start early"
    }
   },
   {
@@ -200,7 +207,15 @@
     6,
     10
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "fall": {
+    "flow": "Jun–Oct for full flow; plunge pool turns turquoise Nov–Mar",
+    "h": 340,
+    "walk": "Viewpoint next to the parking",
+    "bathe": false,
+    "tiers": "Single plunge",
+    "note": "India's tallest plunge waterfall"
+   }
   },
   {
    "n": 5,
@@ -216,7 +231,14 @@
     6,
     10
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "fall": {
+    "flow": "Jun–Sep; nearly dry in winter",
+    "h": 315,
+    "walk": "Viewpoint on the Sohra road",
+    "bathe": false,
+    "note": "Seven streams side by side over a limestone cliff"
+   }
   },
   {
    "n": 6,
@@ -407,7 +429,14 @@
     6,
     10
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "fall": {
+    "flow": "Jul–Oct (fullest in the monsoon)",
+    "walk": "Steps down to three tiers, 15 minutes",
+    "bathe": false,
+    "tiers": "Three tiers",
+    "note": "Three-tier fall on the edge of Shillong"
+   }
   },
   {
    "n": 16,
@@ -637,7 +666,13 @@
     11,
     4
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "fall": {
+    "flow": "Year round; clearest Nov–Apr",
+    "walk": "About 300 steps down",
+    "bathe": true,
+    "note": "Blue pool you can swim in with a life jacket"
+   }
   },
   {
    "n": 30,
@@ -885,7 +920,14 @@
     6,
     10
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "fall": {
+    "flow": "Jul–Oct (fullest in the monsoon)",
+    "h": 337,
+    "walk": "Viewpoint walk from Sangriang village",
+    "bathe": false,
+    "note": "One of India's tallest falls, in the West Khasi Hills"
+   }
   },
   {
    "n": 44,
@@ -1398,7 +1440,14 @@
     6,
     10
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "fall": {
+    "flow": "Jul–Oct (fullest in the monsoon)",
+    "h": 305,
+    "walk": "Viewpoint in Thangkharang Park",
+    "bathe": false,
+    "tiers": "Three tiers"
+   }
   },
   {
    "n": 73,

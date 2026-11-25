@@ -797,7 +797,12 @@
     10,
     5
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "fall": {
+    "flow": "Jun–Oct",
+    "walk": "By the road near Pelling",
+    "bathe": false
+   }
   },
   {
    "n": 39,

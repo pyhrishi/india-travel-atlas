@@ -668,7 +668,12 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Swim only between the flags or near lifeguards",
+    "crowd": "Busy",
+    "vibe": "Kolkata's weekend beach"
+   }
   },
   {
    "n": 30,
@@ -684,7 +689,15 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Swim only between the flags or near lifeguards",
+    "crowd": "Moderate",
+    "sports": [
+     "Drive on the sand"
+    ],
+    "vibe": "Long firm beach with red crabs"
+   }
   },
   {
    "n": 31,

@@ -850,7 +850,14 @@
     7,
     11
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "fall": {
+    "flow": "Jul–Oct (fullest in the monsoon)",
+    "h": 52,
+    "walk": "Suspension bridge over the gorge",
+    "bathe": false,
+    "note": "Horseshoe fall on the Ghataprabha"
+   }
   },
   {
    "n": 40,
@@ -1146,7 +1153,16 @@
     7,
     11
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "fall": {
+    "flow": "Jul–Oct (fullest in the monsoon)",
+    "h": 253,
+    "walk": "Viewpoints by the car park; about 1,400 steps down to the base",
+    "bathe": false,
+    "tiers": "Single plunge, four streams",
+    "note": "Four streams named Raja, Rani, Roarer and Rocket; the Linganamakki dam controls the flow",
+    "warn": "The steps to the base are closed in heavy rain"
+   }
   },
   {
    "n": 58,
@@ -1436,7 +1452,15 @@
     7,
     11
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "fall": {
+    "flow": "Jul–Oct (fullest in the monsoon)",
+    "h": 168,
+    "walk": "Jeep ride and walk through coffee estates",
+    "bathe": true,
+    "tiers": "Two tiers",
+    "note": "Two-tier fall near Kemmangundi"
+   }
   },
   {
    "n": 75,
@@ -1710,7 +1734,14 @@
     7,
     11
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "fall": {
+    "flow": "Jul–Oct (fullest in the monsoon)",
+    "h": 21,
+    "walk": "Short walk through coffee and spice",
+    "bathe": false,
+    "note": "Coorg fall framed by coffee estates"
+   }
   },
   {
    "n": 91,
@@ -1828,7 +1859,14 @@
     7,
     11
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "fall": {
+    "flow": "Jul–Oct (fullest in the monsoon)",
+    "h": 52,
+    "walk": "About 1 km forest path",
+    "bathe": false,
+    "note": "Fall on the Lakshmana Tirtha near Nagarhole"
+   }
   },
   {
    "n": 97,
@@ -2234,7 +2272,14 @@
     7,
     12
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "fall": {
+    "flow": "Jul–Oct",
+    "h": 98,
+    "walk": "Viewpoints for Gaganachukki and Bharachukki",
+    "bathe": false,
+    "note": "Kaveri splits into two falls; Asia's first hydro plant (1902) is here"
+   }
   },
   {
    "n": 119,
@@ -3049,7 +3094,17 @@
     10,
     4
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "beach": {
+    "swim": "Swim only between the flags or near lifeguards",
+    "crowd": "Busy",
+    "sports": [
+     "Scuba diving trips to Netrani",
+     "Boat rides"
+    ],
+    "sunset": true,
+    "vibe": "Temple on a headland"
+   }
   },
   {
    "n": 164,
@@ -3081,7 +3136,16 @@
     11,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Swim only between the flags or near lifeguards",
+    "crowd": "Moderate",
+    "sports": [
+     "Speedboat rides"
+    ],
+    "sunset": true,
+    "vibe": "Two coves shaped like the Om symbol"
+   }
   },
   {
    "n": 166,
@@ -3097,7 +3161,13 @@
     11,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Swim only between the flags or near lifeguards",
+    "crowd": "Quiet",
+    "sunset": true,
+    "vibe": "Backpacker cove below the cliffs"
+   }
   },
   {
    "n": 167,
@@ -3176,7 +3246,13 @@
     7,
     11
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "fall": {
+    "flow": "Jul–Oct (fullest in the monsoon)",
+    "h": 15,
+    "walk": "Short forest walk",
+    "bathe": true
+   }
   },
   {
    "n": 171,
@@ -3192,7 +3268,14 @@
     7,
     11
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "fall": {
+    "flow": "Jul–Oct (fullest in the monsoon)",
+    "h": 116,
+    "walk": "About 1 km walk from the road, then steps",
+    "bathe": false,
+    "note": "Also called Lushington Falls"
+   }
   },
   {
    "n": 172,
@@ -3208,7 +3291,14 @@
     7,
     11
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "fall": {
+    "flow": "Jul–Oct (fullest in the monsoon)",
+    "h": 200,
+    "walk": "Viewpoint by the road",
+    "bathe": false,
+    "note": "Bedti river drops in two leaps into a deep gorge"
+   }
   },
   {
    "n": 173,
@@ -3288,7 +3378,17 @@
     11,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Swim only between the flags or near lifeguards",
+    "crowd": "Quiet",
+    "sports": [
+     "Kayaking",
+     "Snorkelling trips"
+    ],
+    "sunset": true,
+    "vibe": "Island stays off Karwar"
+   }
   },
   {
    "n": 178,
@@ -3320,7 +3420,17 @@
     11,
     4
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "beach": {
+    "swim": "Not for swimming: strong currents or rocks",
+    "crowd": "Quiet",
+    "sports": [
+     "Scuba diving",
+     "Snorkelling"
+    ],
+    "vibe": "Best dive site on India's west coast",
+    "warn": "Dive trips from Murudeshwar; no landing on the island"
+   }
   },
   {
    "n": 180,
@@ -3400,7 +3510,17 @@
     11,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Swim only between the flags or near lifeguards",
+    "crowd": "Busy",
+    "sports": [
+     "Ferries to St Mary's",
+     "Water sports"
+    ],
+    "sunset": true,
+    "vibe": "Basalt columns on St Mary's Island"
+   }
   },
   {
    "n": 185,
@@ -3416,7 +3536,13 @@
     11,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Swim only between the flags or near lifeguards",
+    "crowd": "Moderate",
+    "sunset": true,
+    "vibe": "Lighthouse on the rocks"
+   }
   },
   {
    "n": 186,
@@ -3432,7 +3558,13 @@
     11,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Not for swimming: strong currents or rocks",
+    "crowd": "Quiet",
+    "sunset": true,
+    "vibe": "Road between the sea and the Souparnika river"
+   }
   },
   {
    "n": 187,
@@ -3576,7 +3708,18 @@
     11,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Swim only between the flags or near lifeguards",
+    "crowd": "Busy",
+    "sports": [
+     "Jet ski",
+     "Boating"
+    ],
+    "sunset": true,
+    "vibe": "Mangaluru's city beaches",
+    "surf": "Surf schools near Mulki"
+   }
   },
   {
    "n": 196,
@@ -4863,6 +5006,29 @@
     ],
     "veg": true,
     "when": "Breakfast"
+   }
+  },
+  {
+   "n": 257,
+   "name": "Kunchikal Falls",
+   "district": "Shivamogga",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 13.584,
+   "lng": 75.09,
+   "why": "Among India's tallest falls, on the Varahi near Agumbe",
+   "tier": "gem",
+   "months": [
+    7,
+    10
+   ],
+   "time": "Viewpoint only",
+   "fall": {
+    "flow": "Jul–Oct (fullest in the monsoon)",
+    "h": 455,
+    "walk": "Viewpoint; access is restricted by the Masthikatte dam",
+    "bathe": false,
+    "note": "Cascading drop of about 455 m"
    }
   }
  ],

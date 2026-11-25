@@ -224,7 +224,15 @@
     7,
     10
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "fall": {
+    "flow": "Jul–Oct (fullest in the monsoon)",
+    "h": 229,
+    "walk": "Viewpoint about 1 km away",
+    "bathe": false,
+    "tiers": "Two tiers",
+    "note": "Mizoram's highest fall, near Thenzawl"
+   }
   },
   {
    "n": 10,

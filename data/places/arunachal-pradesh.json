@@ -409,6 +409,13 @@
     "el": 2700,
     "diff": "Easy",
     "base": "Jang"
+   },
+   "fall": {
+    "flow": "Year round; fullest in summer",
+    "h": 100,
+    "walk": "Short walk from the Tawang road",
+    "bathe": false,
+    "note": "Also called Jang Falls"
    }
   },
   {

@@ -97,7 +97,14 @@
     11,
     4
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Usually calm enough to swim in season",
+    "crowd": "Moderate",
+    "sunset": true,
+    "vibe": "Wide white-sand beach on Swaraj Dweep (Havelock)",
+    "warn": "Lifeguards till about 4.30 pm; saltwater crocodiles have been seen in the islands, so heed signs"
+   }
   },
   {
    "n": 3,
@@ -113,7 +120,17 @@
     11,
     4
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Usually calm enough to swim in season",
+    "crowd": "Busy",
+    "sports": [
+     "Snorkelling",
+     "Sea walk",
+     "Glass-bottom boat"
+    ],
+    "vibe": "Coral reef close to shore"
+   }
   },
   {
    "n": 4,
@@ -129,7 +146,12 @@
     11,
     4
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Swim only between the flags or near lifeguards",
+    "crowd": "Quiet",
+    "vibe": "Black rocks and sunrise"
+   }
   },
   {
    "n": 5,
@@ -161,7 +183,17 @@
     11,
     4
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Usually calm enough to swim in season",
+    "crowd": "Quiet",
+    "sports": [
+     "Snorkelling",
+     "Scuba diving"
+    ],
+    "sunset": true,
+    "vibe": "Laid-back island with a natural rock bridge"
+   }
   },
   {
    "n": 7,
@@ -193,7 +225,17 @@
     11,
     4
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Usually calm enough to swim in season",
+    "crowd": "Moderate",
+    "sports": [
+     "Snorkelling",
+     "Glass-bottom boat"
+    ],
+    "sunset": true,
+    "vibe": "Laxmanpur for sunset, Bharatpur for snorkelling"
+   }
   },
   {
    "n": 9,
@@ -225,7 +267,17 @@
     11,
     4
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Usually calm enough to swim in season",
+    "crowd": "Busy",
+    "sports": [
+     "Snorkelling",
+     "Sea walk",
+     "Scuba trial dives"
+    ],
+    "vibe": "Coral trips from Port Blair"
+   }
   },
   {
    "n": 11,
@@ -247,6 +299,12 @@
     "el": 100,
     "diff": "Easy",
     "base": "Chidiya Tapu"
+   },
+   "beach": {
+    "swim": "Not for swimming: strong currents or rocks",
+    "crowd": "Quiet",
+    "sunset": true,
+    "vibe": "Mangroves and forest birds"
    }
   },
   {
@@ -279,7 +337,15 @@
     11,
     4
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Swim only between the flags or near lifeguards",
+    "crowd": "Moderate",
+    "sports": [
+     "Jet ski"
+    ],
+    "vibe": "Port Blair's beach"
+   }
   },
   {
    "n": 14,
@@ -492,7 +558,12 @@
     11,
     4
    ],
-   "time": "Overnight"
+   "time": "Overnight",
+   "beach": {
+    "swim": "Usually calm enough to swim in season",
+    "crowd": "Quiet",
+    "vibe": "Remote beach reached by trek or boat"
+   }
   },
   {
    "n": 26,
@@ -687,7 +758,13 @@
     11,
     4
    ],
-   "time": "2–3 days"
+   "time": "2–3 days",
+   "beach": {
+    "swim": "Swim only between the flags or near lifeguards",
+    "crowd": "Quiet",
+    "vibe": "Surf beach at Butler Bay",
+    "surf": "India's best reef breaks, for experienced surfers"
+   }
   },
   {
    "n": 37,
@@ -719,7 +796,13 @@
     11,
     4
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Swim only between the flags or near lifeguards",
+    "crowd": "Quiet",
+    "vibe": "Long surf beach",
+    "surf": "Surfing Feb–May"
+   }
   },
   {
    "n": 39,
@@ -845,6 +928,32 @@
      "Diving"
     ],
     "gate": "Swaraj Dweep (Havelock)"
+   }
+  },
+  {
+   "n": 45,
+   "name": "Jolly Buoy Island",
+   "district": "South Andaman",
+   "category": "Island",
+   "g": "coast",
+   "lat": 11.505,
+   "lng": 92.597,
+   "why": "Coral island in Mahatma Gandhi Marine National Park",
+   "tier": "top",
+   "months": [
+    11,
+    4
+   ],
+   "time": "Full day",
+   "beach": {
+    "swim": "Usually calm enough to swim in season",
+    "crowd": "Moderate",
+    "sports": [
+     "Snorkelling",
+     "Glass-bottom boat"
+    ],
+    "vibe": "Plastic-free island; permit from Wandoor jetty",
+    "warn": "Open roughly Nov–Apr only"
    }
   }
  ],

@@ -440,7 +440,13 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Not for swimming: strong currents or rocks",
+    "crowd": "Busy",
+    "sunset": true,
+    "vibe": "Marine Drive's beach; Ganesh immersions"
+   }
   },
   {
    "n": 18,
@@ -488,7 +494,13 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Not for swimming: strong currents or rocks",
+    "crowd": "Busy",
+    "sunset": true,
+    "vibe": "Mumbai's street-food beach"
+   }
   },
   {
    "n": 21,
@@ -679,7 +691,17 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Swim only between the flags or near lifeguards",
+    "crowd": "Busy",
+    "sports": [
+     "ATV rides",
+     "Water sports"
+    ],
+    "sunset": true,
+    "vibe": "White sand near Murud"
+   }
   },
   {
    "n": 30,
@@ -733,7 +755,13 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Swim only between the flags or near lifeguards",
+    "crowd": "Quiet",
+    "sunset": true,
+    "vibe": "Casuarina-lined Konkan beach"
+   }
   },
   {
    "n": 33,
@@ -1329,7 +1357,13 @@
     6,
     10
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "fall": {
+    "flow": "Jul–Oct (fullest in the monsoon)",
+    "walk": "Railed walkway to viewpoints",
+    "bathe": false,
+    "note": "Series of tall falls near Satara"
+   }
   },
   {
    "n": 64,
@@ -1585,7 +1619,17 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "beach": {
+    "swim": "Swim only between the flags or near lifeguards",
+    "crowd": "Busy",
+    "sports": [
+     "Water sports"
+    ],
+    "sunset": true,
+    "vibe": "Swayambhu Ganpati temple on the beach",
+    "warn": "Several drownings each year; stay near the lifeguards"
+   }
   },
   {
    "n": 78,
@@ -1633,7 +1677,13 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Swim only between the flags or near lifeguards",
+    "crowd": "Quiet",
+    "sunset": true,
+    "vibe": "Long clean Konkan beach"
+   }
   },
   {
    "n": 81,
@@ -1649,7 +1699,13 @@
     2,
     4
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "beach": {
+    "swim": "Swim only between the flags or near lifeguards",
+    "crowd": "Quiet",
+    "sunset": true,
+    "vibe": "Watch hatchlings released at dawn and dusk (Feb–Apr)"
+   }
   },
   {
    "n": 82,
@@ -1745,7 +1801,18 @@
     11,
     5
    ],
-   "time": "Overnight"
+   "time": "Overnight",
+   "beach": {
+    "swim": "Usually calm enough to swim in season",
+    "crowd": "Moderate",
+    "sports": [
+     "Scuba diving",
+     "Snorkelling",
+     "Dolphin trips"
+    ],
+    "sunset": true,
+    "vibe": "Clear water near Sindhudurg"
+   }
   },
   {
    "n": 88,
@@ -4959,6 +5026,51 @@
     ],
     "veg": true,
     "when": "Breakfast"
+   }
+  },
+  {
+   "n": 250,
+   "name": "Kune Falls",
+   "district": "Pune",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 18.754,
+   "lng": 73.388,
+   "why": "Three-tier monsoon fall near Lonavala",
+   "tier": "top",
+   "months": [
+    7,
+    9
+   ],
+   "time": "1 hr",
+   "fall": {
+    "flow": "Jul–Oct (fullest in the monsoon)",
+    "h": 200,
+    "walk": "Viewpoint by the road",
+    "bathe": false,
+    "tiers": "Three tiers"
+   }
+  },
+  {
+   "n": 251,
+   "name": "Randha Falls",
+   "district": "Ahilyanagar",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 19.53,
+   "lng": 73.77,
+   "why": "Pravara river drops into a gorge near Bhandardara",
+   "tier": "gem",
+   "months": [
+    7,
+    10
+   ],
+   "time": "1 hr",
+   "fall": {
+    "flow": "Jul–Oct (fullest in the monsoon)",
+    "h": 52,
+    "walk": "Viewpoint",
+    "bathe": false
    }
   }
  ],

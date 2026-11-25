@@ -4,7 +4,7 @@
   "slug": "andhra-pradesh",
   "type": "State",
   "status": "done",
-  "count": 213,
+  "count": 214,
   "best": [
    [
     10,
@@ -138,7 +138,7 @@
   "slug": "karnataka",
   "type": "State",
   "status": "done",
-  "count": 256,
+  "count": 257,
   "best": [
    [
     10,
@@ -151,7 +151,7 @@
   "slug": "kerala",
   "type": "State",
   "status": "done",
-  "count": 182,
+  "count": 183,
   "best": [
    [
     9,
@@ -177,7 +177,7 @@
   "slug": "maharashtra",
   "type": "State",
   "status": "done",
-  "count": 249,
+  "count": 251,
   "best": [
    [
     10,
@@ -298,7 +298,7 @@
   "slug": "tamil-nadu",
   "type": "State",
   "status": "done",
-  "count": 207,
+  "count": 208,
   "best": [
    [
     11,
@@ -380,7 +380,7 @@
   "slug": "andaman-and-nicobar-islands",
   "type": "UT",
   "status": "done",
-  "count": 44,
+  "count": 45,
   "best": [
    [
     11,

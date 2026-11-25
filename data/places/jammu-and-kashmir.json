@@ -1072,7 +1072,15 @@
     4,
     10
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "fall": {
+    "flow": "Jun–Sep",
+    "h": 24,
+    "walk": "Short walk",
+    "bathe": false,
+    "note": "Called the Niagara of Kashmir",
+    "warn": "Strong current; people have drowned here"
+   }
   },
   {
    "n": 54,

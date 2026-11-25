@@ -451,7 +451,18 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Swim only between the flags or near lifeguards",
+    "crowd": "Moderate",
+    "sports": [
+     "Jet ski",
+     "Kayaking",
+     "Surfing"
+    ],
+    "vibe": "Blue Flag beach in Vizag",
+    "surf": "Beginner surfing"
+   }
   },
   {
    "n": 14,
@@ -483,7 +494,12 @@
     10,
     3
    ],
-   "time": "Evening"
+   "time": "Evening",
+   "beach": {
+    "swim": "Not for swimming: strong currents or rocks",
+    "crowd": "Busy",
+    "vibe": "Vizag's city promenade"
+   }
   },
   {
    "n": 16,
@@ -515,7 +531,13 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Swim only between the flags or near lifeguards",
+    "crowd": "Quiet",
+    "sunset": true,
+    "vibe": "Golden sand between hills"
+   }
   },
   {
    "n": 18,
@@ -1192,7 +1214,14 @@
     7,
     11
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "fall": {
+    "flow": "Jul–Oct (fullest in the monsoon)",
+    "h": 21,
+    "walk": "Viewpoint and steps",
+    "bathe": false,
+    "note": "Crocodile breeding pond at the base"
+   }
   },
   {
    "n": 57,
@@ -1497,6 +1526,13 @@
     "el": 800,
     "diff": "Easy",
     "base": "Talakona"
+   },
+   "fall": {
+    "flow": "Jul–Oct (fullest in the monsoon)",
+    "h": 82,
+    "walk": "About 2 km forest walk",
+    "bathe": true,
+    "note": "Andhra's highest fall, in the Seshachalam hills"
    }
   },
   {
@@ -3885,6 +3921,27 @@
      "Walking"
     ],
     "gate": "Talakona"
+   }
+  },
+  {
+   "n": 214,
+   "name": "Bheemili Beach",
+   "district": "Visakhapatnam",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 17.89,
+   "lng": 83.455,
+   "why": "Old Dutch port beach where the Gosthani meets the sea",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day",
+   "beach": {
+    "swim": "Swim only between the flags or near lifeguards",
+    "crowd": "Quiet",
+    "vibe": "Dutch cemetery and lighthouse nearby"
    }
   }
  ],

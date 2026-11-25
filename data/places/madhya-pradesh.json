@@ -1148,7 +1148,14 @@
     7,
     10
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "fall": {
+    "flow": "Jul–Oct (fullest in the monsoon)",
+    "h": 90,
+    "walk": "Short walk",
+    "bathe": false,
+    "warn": "Sudden flash floods; stay well back"
+   }
   },
   {
    "n": 56,
@@ -1571,7 +1578,14 @@
     7,
     10
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "fall": {
+    "flow": "Year round",
+    "h": 35,
+    "walk": "About 1 km walk",
+    "bathe": true,
+    "note": "Pachmarhi's swimming fall"
+   }
   },
   {
    "n": 79,
@@ -1730,7 +1744,14 @@
     7,
     10
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "fall": {
+    "flow": "Year round; fullest Jul–Oct",
+    "h": 30,
+    "walk": "Ropeway and walkway",
+    "bathe": false,
+    "note": "'Smoke cascade' on the Narmada at Bhedaghat"
+   }
   },
   {
    "n": 87,
@@ -2116,7 +2137,13 @@
     7,
     10
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "fall": {
+    "flow": "Jul–Oct (fullest in the monsoon)",
+    "h": 130,
+    "walk": "Viewpoint",
+    "bathe": false
+   }
   },
   {
    "n": 105,
@@ -2132,7 +2159,14 @@
     7,
     10
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "fall": {
+    "flow": "Jul–Oct (fullest in the monsoon)",
+    "h": 130,
+    "walk": "Viewpoint",
+    "bathe": false,
+    "note": "Rewa plateau fall"
+   }
   },
   {
    "n": 106,
@@ -2148,7 +2182,14 @@
     7,
     10
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "fall": {
+    "flow": "Jul–Oct (fullest in the monsoon)",
+    "h": 198,
+    "walk": "Viewpoint",
+    "bathe": false,
+    "note": "Madhya Pradesh's highest fall"
+   }
   },
   {
    "n": 107,

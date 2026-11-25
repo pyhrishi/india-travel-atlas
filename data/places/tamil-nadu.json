@@ -395,7 +395,14 @@
     11,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Not for swimming: strong currents or rocks",
+    "crowd": "Quiet",
+    "sunset": true,
+    "vibe": "Ghost town at India's tip where two seas meet",
+    "warn": "Strong currents; no swimming"
+   }
   },
   {
    "n": 15,
@@ -596,7 +603,14 @@
     7,
     12
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "fall": {
+    "flow": "Jun–Dec",
+    "h": 15,
+    "walk": "By the road",
+    "bathe": true,
+    "note": "Wide man-made-looking fall by a temple"
+   }
   },
   {
    "n": 25,
@@ -1112,7 +1126,15 @@
     7,
     12
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "fall": {
+    "flow": "Jul–Oct (fullest in the monsoon)",
+    "h": 92,
+    "walk": "About 1,000 steps down",
+    "bathe": true,
+    "note": "Kolli Hills fall on the Aiyaru river",
+    "warn": "Steep steps; slippery in rain"
+   }
   },
   {
    "n": 53,
@@ -1144,7 +1166,15 @@
     7,
     1
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "fall": {
+    "flow": "Jul–Oct; coracle rides when the river is safe",
+    "h": 20,
+    "walk": "Coracle rides between the rocks",
+    "bathe": false,
+    "note": "Kaveri falls in many channels between granite islands",
+    "warn": "Coracles stop during high water"
+   }
   },
   {
    "n": 55,
@@ -1883,7 +1913,17 @@
     11,
     3
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "beach": {
+    "swim": "Swim only between the flags or near lifeguards",
+    "crowd": "Moderate",
+    "sports": [
+     "Surfing",
+     "Kayaking"
+    ],
+    "vibe": "Surf village near Chennai",
+    "surf": "Beginner waves; surf schools"
+   }
   },
   {
    "n": 94,
@@ -2054,7 +2094,13 @@
     11,
     3
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "beach": {
+    "swim": "Not for swimming: strong currents or rocks",
+    "crowd": "Busy",
+    "vibe": "One of the world's longest city beaches",
+    "warn": "Swimming is banned; strong undertow"
+   }
   },
   {
    "n": 104,
@@ -2569,7 +2615,15 @@
     6,
     9
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "fall": {
+    "flow": "Jun–Sep (the 'season')",
+    "h": 60,
+    "walk": "By the town",
+    "bathe": true,
+    "note": "The 'Spa of South India'; bathing in the falls is the point",
+    "warn": "Bathing is stopped when the water rises"
+   }
   },
   {
    "n": 134,
@@ -2823,7 +2877,14 @@
     7,
     12
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "fall": {
+    "flow": "Jun–Dec",
+    "h": 46,
+    "walk": "Short walk from the car park",
+    "bathe": true,
+    "tiers": "Two tiers"
+   }
   },
   {
    "n": 149,
@@ -4065,6 +4126,31 @@
     ],
     "veg": false,
     "when": "Lunch or dinner"
+   }
+  },
+  {
+   "n": 208,
+   "name": "Mamallapuram Beach",
+   "district": "Chengalpattu",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 12.617,
+   "lng": 80.199,
+   "why": "Beach beside the Shore Temple",
+   "tier": "top",
+   "months": [
+    11,
+    2
+   ],
+   "time": "Half day",
+   "beach": {
+    "swim": "Swim only between the flags or near lifeguards",
+    "crowd": "Moderate",
+    "sports": [
+     "Surfing"
+    ],
+    "vibe": "Shore Temple at one end",
+    "surf": "Beginner surf schools"
    }
   }
  ],

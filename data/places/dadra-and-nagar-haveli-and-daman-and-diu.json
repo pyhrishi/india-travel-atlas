@@ -1,1 +1,477 @@
-{"name":"Dadra & Nagar Haveli and Daman & Diu","intro":"Diu's Portuguese sea fort, Naida caves and beaches, Daman's walled town and churches, and the forests, lakes and tribal culture of Silvassa.","bases":[["Diu",20.7144,70.9874],["Daman",20.4142,72.8328],["Silvassa",20.2766,73.0083]],"trails":[{"name":"Diu in a day","note":"Fort, caves, churches and beaches.","ids":[1,8,3,9,2,7,4]},{"name":"Daman and Silvassa","note":"Portuguese Daman and the tribal hills.","ids":[12,13,14,15,18,19,20]}],"places":[{"n":1,"name":"Diu Fort","district":"Diu","category":"Fort","g":"heritage","lat":20.715,"lng":70.997,"why":"Portuguese sea fort with a lighthouse and cannons","tier":"icon","months":[10,3],"time":"1–2 hrs"},{"n":2,"name":"Naida Caves","district":"Diu","category":"Caves","g":"caves","lat":20.716,"lng":70.988,"why":"Maze of sunlit rock caves outside the walls","tier":"icon","months":[10,3],"time":"1–2 hrs"},{"n":3,"name":"St Paul's Church, Diu","district":"Diu","category":"Church","g":"heritage","lat":20.717,"lng":70.99,"why":"Baroque Portuguese church","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":4,"name":"Nagoa Beach","district":"Diu","category":"Beach","g":"coast","lat":20.705,"lng":70.92,"why":"Horseshoe beach lined with hoka palms","tier":"top","months":[10,3],"time":"Half day"},{"n":5,"name":"Ghoghla Beach","district":"Diu","category":"Beach","g":"coast","lat":20.727,"lng":71.02,"why":"Blue Flag beach","tier":"top","months":[10,3],"time":"Half day"},{"n":6,"name":"INS Khukri Memorial","district":"Diu","category":"Memorial","g":"heritage","lat":20.7,"lng":70.96,"why":"Memorial to the frigate lost in 1971","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":7,"name":"Gangeshwar Temple","district":"Diu","category":"Temple","g":"temple","lat":20.705,"lng":70.95,"why":"Sea-washed Shiva lingas in the rocks","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":8,"name":"Panikota Fort","district":"Diu","category":"Fort","g":"heritage","lat":20.718,"lng":71.0,"why":"Fort on a rock in the sea","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":9,"name":"Diu Museum (St Thomas Church)","district":"Diu","category":"Museum","g":"culture","lat":20.717,"lng":70.991,"why":"Museum in an old church","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":10,"name":"Chakratirth Beach & Sunset Point","district":"Diu","category":"Beach","g":"coast","lat":20.71,"lng":70.97,"why":"Sunset beach","tier":"gem","months":[10,3],"time":"Half day"},{"n":11,"name":"Jallandhar Beach","district":"Diu","category":"Beach","g":"coast","lat":20.71,"lng":70.98,"why":"Quiet beach with a shrine","tier":"gem","months":[10,3],"time":"Half day"},{"n":12,"name":"Moti Daman Fort","district":"Daman","category":"Fort","g":"heritage","lat":20.41,"lng":72.83,"why":"Walled Portuguese town with churches","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":13,"name":"Bom Jesus Church, Daman","district":"Daman","category":"Church","g":"heritage","lat":20.41,"lng":72.832,"why":"Ornate 1603 church","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":14,"name":"Nani Daman Fort (St Jerome)","district":"Daman","category":"Fort","g":"heritage","lat":20.42,"lng":72.84,"why":"Riverside fort","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":15,"name":"Devka Beach","district":"Daman","category":"Beach","g":"coast","lat":20.44,"lng":72.82,"why":"Promenade beach","tier":"gem","months":[10,3],"time":"Half day"},{"n":16,"name":"Jampore Beach","district":"Daman","category":"Beach","g":"coast","lat":20.38,"lng":72.81,"why":"Quiet beach south of Daman","tier":"gem","months":[10,3],"time":"Half day"},{"n":17,"name":"Daman Lighthouse","district":"Daman","category":"Heritage","g":"heritage","lat":20.405,"lng":72.825,"why":"Lighthouse in Moti Daman","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":18,"name":"Silvassa Tribal Museum","district":"Dadra and Nagar Haveli","category":"Museum","g":"culture","lat":20.27,"lng":73.01,"why":"Museum of Warli and Kokna culture","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":19,"name":"Vanganga Lake Garden","district":"Dadra and Nagar Haveli","category":"Garden","g":"water","lat":20.28,"lng":73.02,"why":"Island garden on a lake","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":20,"name":"Dudhni Lake","district":"Dadra and Nagar Haveli","category":"Lake","g":"water","lat":20.18,"lng":73.15,"why":"Boating on the Madhuban reservoir","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":21,"name":"Satmaliya Deer Park","district":"Dadra and Nagar Haveli","category":"Wildlife","g":"wildlife","lat":20.24,"lng":73.07,"why":"Deer park and forest","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":22,"name":"Hirwa Van Garden","district":"Dadra and Nagar Haveli","category":"Garden","g":"culture","lat":20.27,"lng":73.02,"why":"Garden with falls","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":23,"name":"Swaminarayan Temple, Silvassa","district":"Dadra and Nagar Haveli","category":"Temple","g":"temple","lat":20.27,"lng":73.01,"why":"Marble temple","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":24,"name":"Khanvel","district":"Dadra and Nagar Haveli","category":"Village","g":"hills","lat":20.21,"lng":73.06,"why":"Forest resort hills","tier":"gem","months":[10,3],"time":"1–2 hrs"}],"festivals":[{"name":"Diu Festival","months":[12,1],"when":"Winter","n":1,"about":"Beach and cultural festival of Diu."},{"name":"Tarpa Festival","months":[12,12],"when":"December","n":18,"about":"Tribal music and dance of Dadra and Nagar Haveli."},{"name":"Feast of Bom Jesus","months":[1,1],"when":"January","n":13,"about":"Daman's Catholic church festival."}]}
+{
+ "name": "Dadra & Nagar Haveli and Daman & Diu",
+ "intro": "Diu's Portuguese sea fort, Naida caves and beaches, Daman's walled town and churches, and the forests, lakes and tribal culture of Silvassa.",
+ "bases": [
+  [
+   "Diu",
+   20.7144,
+   70.9874
+  ],
+  [
+   "Daman",
+   20.4142,
+   72.8328
+  ],
+  [
+   "Silvassa",
+   20.2766,
+   73.0083
+  ]
+ ],
+ "trails": [
+  {
+   "name": "Diu in a day",
+   "note": "Fort, caves, churches and beaches.",
+   "ids": [
+    1,
+    8,
+    3,
+    9,
+    2,
+    7,
+    4
+   ]
+  },
+  {
+   "name": "Daman and Silvassa",
+   "note": "Portuguese Daman and the tribal hills.",
+   "ids": [
+    12,
+    13,
+    14,
+    15,
+    18,
+    19,
+    20
+   ]
+  }
+ ],
+ "places": [
+  {
+   "n": 1,
+   "name": "Diu Fort",
+   "district": "Diu",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 20.715,
+   "lng": 70.997,
+   "why": "Portuguese sea fort with a lighthouse and cannons",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 2,
+   "name": "Naida Caves",
+   "district": "Diu",
+   "category": "Caves",
+   "g": "caves",
+   "lat": 20.716,
+   "lng": 70.988,
+   "why": "Maze of sunlit rock caves outside the walls",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 3,
+   "name": "St Paul's Church, Diu",
+   "district": "Diu",
+   "category": "Church",
+   "g": "heritage",
+   "lat": 20.717,
+   "lng": 70.99,
+   "why": "Baroque Portuguese church",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 4,
+   "name": "Nagoa Beach",
+   "district": "Diu",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 20.705,
+   "lng": 70.92,
+   "why": "Horseshoe beach lined with hoka palms",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day",
+   "beach": {
+    "swim": "Usually calm enough to swim in season",
+    "crowd": "Moderate",
+    "sports": [
+     "Parasailing",
+     "Water sports"
+    ],
+    "sunset": true,
+    "vibe": "Horseshoe bay in Diu"
+   }
+  },
+  {
+   "n": 5,
+   "name": "Ghoghla Beach",
+   "district": "Diu",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 20.727,
+   "lng": 71.02,
+   "why": "Blue Flag beach",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 6,
+   "name": "INS Khukri Memorial",
+   "district": "Diu",
+   "category": "Memorial",
+   "g": "heritage",
+   "lat": 20.7,
+   "lng": 70.96,
+   "why": "Memorial to the frigate lost in 1971",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 7,
+   "name": "Gangeshwar Temple",
+   "district": "Diu",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 20.705,
+   "lng": 70.95,
+   "why": "Sea-washed Shiva lingas in the rocks",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 8,
+   "name": "Panikota Fort",
+   "district": "Diu",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 20.718,
+   "lng": 71.0,
+   "why": "Fort on a rock in the sea",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 9,
+   "name": "Diu Museum (St Thomas Church)",
+   "district": "Diu",
+   "category": "Museum",
+   "g": "culture",
+   "lat": 20.717,
+   "lng": 70.991,
+   "why": "Museum in an old church",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 10,
+   "name": "Chakratirth Beach & Sunset Point",
+   "district": "Diu",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 20.71,
+   "lng": 70.97,
+   "why": "Sunset beach",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 11,
+   "name": "Jallandhar Beach",
+   "district": "Diu",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 20.71,
+   "lng": 70.98,
+   "why": "Quiet beach with a shrine",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 12,
+   "name": "Moti Daman Fort",
+   "district": "Daman",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 20.41,
+   "lng": 72.83,
+   "why": "Walled Portuguese town with churches",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 13,
+   "name": "Bom Jesus Church, Daman",
+   "district": "Daman",
+   "category": "Church",
+   "g": "heritage",
+   "lat": 20.41,
+   "lng": 72.832,
+   "why": "Ornate 1603 church",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 14,
+   "name": "Nani Daman Fort (St Jerome)",
+   "district": "Daman",
+   "category": "Fort",
+   "g": "heritage",
+   "lat": 20.42,
+   "lng": 72.84,
+   "why": "Riverside fort",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 15,
+   "name": "Devka Beach",
+   "district": "Daman",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 20.44,
+   "lng": 72.82,
+   "why": "Promenade beach",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 16,
+   "name": "Jampore Beach",
+   "district": "Daman",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 20.38,
+   "lng": 72.81,
+   "why": "Quiet beach south of Daman",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 17,
+   "name": "Daman Lighthouse",
+   "district": "Daman",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 20.405,
+   "lng": 72.825,
+   "why": "Lighthouse in Moti Daman",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 18,
+   "name": "Silvassa Tribal Museum",
+   "district": "Dadra and Nagar Haveli",
+   "category": "Museum",
+   "g": "culture",
+   "lat": 20.27,
+   "lng": 73.01,
+   "why": "Museum of Warli and Kokna culture",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 19,
+   "name": "Vanganga Lake Garden",
+   "district": "Dadra and Nagar Haveli",
+   "category": "Garden",
+   "g": "water",
+   "lat": 20.28,
+   "lng": 73.02,
+   "why": "Island garden on a lake",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 20,
+   "name": "Dudhni Lake",
+   "district": "Dadra and Nagar Haveli",
+   "category": "Lake",
+   "g": "water",
+   "lat": 20.18,
+   "lng": 73.15,
+   "why": "Boating on the Madhuban reservoir",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 21,
+   "name": "Satmaliya Deer Park",
+   "district": "Dadra and Nagar Haveli",
+   "category": "Wildlife",
+   "g": "wildlife",
+   "lat": 20.24,
+   "lng": 73.07,
+   "why": "Deer park and forest",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 22,
+   "name": "Hirwa Van Garden",
+   "district": "Dadra and Nagar Haveli",
+   "category": "Garden",
+   "g": "culture",
+   "lat": 20.27,
+   "lng": 73.02,
+   "why": "Garden with falls",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 23,
+   "name": "Swaminarayan Temple, Silvassa",
+   "district": "Dadra and Nagar Haveli",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 20.27,
+   "lng": 73.01,
+   "why": "Marble temple",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 24,
+   "name": "Khanvel",
+   "district": "Dadra and Nagar Haveli",
+   "category": "Village",
+   "g": "hills",
+   "lat": 20.21,
+   "lng": 73.06,
+   "why": "Forest resort hills",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  }
+ ],
+ "festivals": [
+  {
+   "name": "Diu Festival",
+   "months": [
+    12,
+    1
+   ],
+   "when": "Winter",
+   "n": 1,
+   "about": "Beach and cultural festival of Diu."
+  },
+  {
+   "name": "Tarpa Festival",
+   "months": [
+    12,
+    12
+   ],
+   "when": "December",
+   "n": 18,
+   "about": "Tribal music and dance of Dadra and Nagar Haveli."
+  },
+  {
+   "name": "Feast of Bom Jesus",
+   "months": [
+    1,
+    1
+   ],
+   "when": "January",
+   "n": 13,
+   "about": "Daman's Catholic church festival."
+  }
+ ]
+}

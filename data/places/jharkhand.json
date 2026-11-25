@@ -401,7 +401,14 @@
     7,
     10
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "fall": {
+    "flow": "Jul–Oct (fullest in the monsoon)",
+    "h": 98,
+    "walk": "About 700 steps down",
+    "bathe": true,
+    "note": "Subarnarekha river drops off the Ranchi plateau"
+   }
   },
   {
    "n": 17,
@@ -417,7 +424,14 @@
     7,
     10
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "fall": {
+    "flow": "Jul–Oct (fullest in the monsoon)",
+    "h": 44,
+    "walk": "Steps to the base",
+    "bathe": false,
+    "warn": "Drownings happen; don't bathe"
+   }
   },
   {
    "n": 18,
@@ -433,7 +447,14 @@
     7,
     10
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "fall": {
+    "flow": "Jul–Oct (fullest in the monsoon)",
+    "h": 43,
+    "walk": "About 700 steps down",
+    "bathe": false,
+    "note": "Also called Gautamdhara"
+   }
   },
   {
    "n": 19,
@@ -1028,7 +1049,14 @@
     7,
     10
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "fall": {
+    "flow": "Jul–Oct (fullest in the monsoon)",
+    "h": 143,
+    "walk": "Short walk from the road",
+    "bathe": false,
+    "note": "Jharkhand's highest fall, in the Netarhat hills"
+   }
   },
   {
    "n": 55,

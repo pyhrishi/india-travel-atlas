@@ -428,7 +428,17 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Swim only between the flags or near lifeguards",
+    "crowd": "Moderate",
+    "sports": [
+     "Camel rides",
+     "Parasailing"
+    ],
+    "sunset": true,
+    "vibe": "Windmills along the shore"
+   }
   },
   {
    "n": 13,
@@ -788,7 +798,16 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "beach": {
+    "swim": "Usually calm enough to swim in season",
+    "crowd": "Moderate",
+    "sports": [
+     "Water sports"
+    ],
+    "sunset": true,
+    "vibe": "Blue Flag beach near Dwarka"
+   }
   },
   {
    "n": 31,

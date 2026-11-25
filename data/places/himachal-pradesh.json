@@ -2818,7 +2818,13 @@
     7,
     10
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "fall": {
+    "flow": "Jul–Oct (fullest in the monsoon)",
+    "h": 86,
+    "walk": "Forest walk near Shimla",
+    "bathe": false
+   }
   },
   {
    "name": "Sankat Mochan Temple",
