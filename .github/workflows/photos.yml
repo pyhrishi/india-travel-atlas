@@ -1,11 +1,5 @@
 name: Find place photos
 on:
-  workflow_dispatch:
-    inputs:
-      force:
-        description: Look up every place again
-        type: boolean
-        default: false
   push:
     branches: [main]
     paths: ['data/facts/**']
