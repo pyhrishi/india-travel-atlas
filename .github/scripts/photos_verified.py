@@ -1,15 +1,48 @@
 """Use the photo of each place's verified Wikipedia article (from data/facts) in data/photos.json.
 
 The older photo job matched loosely (any article within 50 km), so a few cards showed the wrong place.
-A verified article's lead image wins; places with no verified article keep what they had.
-Credits for verified photos are left to the app's on-device lookup (it reads them from Commons)."""
-import json, os, glob, re
+A verified article's lead image is retained only after Commons confirms the file, raster dimensions and free-use licence.
+Author and licence metadata are stored with every published image."""
+import json, os, glob, re, urllib.parse, urllib.request, html
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 OUT = os.path.join(ROOT, 'data', 'photos.json'); CRED = os.path.join(ROOT, 'data', 'photo-credits.json')
 ph = json.load(open(OUT)); base = ph['base']
 old_cred = json.load(open(CRED)) if os.path.exists(CRED) else {}
 P, cred = {}, {}
 all_keys = set()
+UA = 'IndiaTravelAtlas/1.0 (https://pyhrishi.github.io/india-travel-atlas/; github.com/pyhrishi)'
+def clean(value):
+    return re.sub(r'\\s+', ' ', html.unescape(re.sub(r'<[^>]+>', '', value or ''))).strip()[:160]
+def commons_info(files):
+    """Confirm each Commons file exists, is a real raster image, and exposes free-use licence metadata."""
+    out = {}
+    for i in range(0, len(files), 50):
+        titles = '|'.join('File:' + name for name in files[i:i+50])
+        params = urllib.parse.urlencode({
+            'action': 'query', 'format': 'json', 'prop': 'imageinfo',
+            'iiprop': 'extmetadata|mime|size',
+            'iiextmetadatafilter': 'Artist|LicenseShortName|LicenseUrl',
+            'titles': titles
+        })
+        req = urllib.request.Request('https://commons.wikimedia.org/w/api.php?' + params,
+                                     headers={'User-Agent': UA})
+        with urllib.request.urlopen(req, timeout=45) as response:
+            data = json.load(response)
+        for page in (data.get('query') or {}).get('pages', {}).values():
+            info = (page.get('imageinfo') or [{}])[0]
+            ext = info.get('extmetadata') or {}
+            mime = info.get('mime', '')
+            width, height = info.get('width', 0), info.get('height', 0)
+            license_name = clean((ext.get('LicenseShortName') or {}).get('value', ''))
+            if not mime.startswith('image/') or mime == 'image/svg+xml' or width < 300 or height < 200 or not license_name:
+                continue
+            filename = page.get('title', '').removeprefix('File:').replace(' ', '_')
+            out[filename] = {
+                'a': clean((ext.get('Artist') or {}).get('value', '')),
+                'l': license_name,
+                'lu': clean((ext.get('LicenseUrl') or {}).get('value', ''))
+            }
+    return out
 for pf in sorted(glob.glob(os.path.join(ROOT, 'data', 'places', '*.json'))):
     slug = os.path.basename(pf)[:-5]
     for place in json.load(open(pf))['places']:
@@ -18,7 +51,8 @@ def rel(u):
     u = u.split('?')[0].replace('https://thumb.wikimedia.org/', 'https://upload.wikimedia.org/')
     u = re.sub(r'/(\d+)px-', '/1600px-', u)
     return u[len(base):] if u.startswith(base) else u
-changed = added = same = rejected = 0
+candidates = []
+rejected = 0
 for f in sorted(glob.glob(os.path.join(ROOT, 'data', 'facts', '*.json'))):
     slug = os.path.basename(f)[:-5]
     if slug.startswith('_'): continue
@@ -33,14 +67,20 @@ for f in sorted(glob.glob(os.path.join(ROOT, 'data', 'facts', '*.json'))):
         if not new or (new.startswith('http') and 'upload.wikimedia.org' not in new):
             rejected += 1
             continue
-        P[k] = new
-        prev = old_cred.get(k, {})
-        meta = prev if prev.get('f') == r['file'] else {}
-        cred[k] = {x: meta[x] for x in ('a', 'l', 'lu') if meta.get(x)}
-        cred[k].update({'f': r['file'], 'w': r['w']})
-        if prev.get('f') == r['file']: same += 1
-        elif prev: changed += 1
-        else: added += 1
+        candidates.append((k, new, r['file'], r['w']))
+file_meta = commons_info(sorted({x[2] for x in candidates}))
+changed = added = same = 0
+for k, new, filename, title in candidates:
+    meta = file_meta.get(filename.replace(' ', '_'))
+    if not meta:
+        rejected += 1
+        continue
+    P[k] = new
+    cred[k] = {'f': filename, 'w': title, **meta}
+    prev = old_cred.get(k, {})
+    if prev.get('f') == filename: same += 1
+    elif prev: changed += 1
+    else: added += 1
 # A photo is published only when it is the lead image of that place's own verified article.
 # Unverified places deliberately show the illustrated fallback rather than a nearby/wrong photo.
 ph['p'] = dict(sorted(P.items()))
