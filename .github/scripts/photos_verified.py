@@ -15,11 +15,12 @@ def clean(value):
     return re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]+>', '', value or ''))).strip()[:160]
 def commons_info(files):
     """Confirm each Commons file exists, is a real raster image, and exposes free-use licence metadata."""
-    out = {}
+    out, failed = {}, set()
     for i in range(0, len(files), 50):
-        titles = '|'.join('File:' + name for name in files[i:i+50])
+        batch = files[i:i+50]
+        titles = '|'.join('File:' + name for name in batch)
         params = urllib.parse.urlencode({
-            'action': 'query', 'format': 'json', 'prop': 'imageinfo',
+            'action': 'query', 'format': 'json', 'maxlag': '5', 'prop': 'imageinfo',
             'iiprop': 'extmetadata|mime|size',
             'iiextmetadatafilter': 'Artist|LicenseShortName|LicenseUrl',
             'titles': titles
@@ -31,10 +32,17 @@ def commons_info(files):
             try:
                 with urllib.request.urlopen(req, timeout=45) as response:
                     data = json.load(response)
+                if data.get('error'):
+                    raise RuntimeError(data['error'].get('code', 'Commons API error'))
                 break
-            except Exception:
-                if attempt == 3: raise
-                time.sleep(2 * (attempt + 1))
+            except Exception as error:
+                if attempt == 3:
+                    failed.update(batch)
+                    print(f'Commons metadata unavailable for batch {i//50 + 1}: {error}', flush=True)
+                    data = {}
+                else:
+                    time.sleep(2 * (attempt + 1))
+        time.sleep(0.2)
         for page in (data.get('query') or {}).get('pages', {}).values():
             info = (page.get('imageinfo') or [{}])[0]
             ext = info.get('extmetadata') or {}
@@ -49,7 +57,7 @@ def commons_info(files):
                 'l': license_name,
                 'lu': clean((ext.get('LicenseUrl') or {}).get('value', ''))
             }
-    return out
+    return out, failed
 for pf in sorted(glob.glob(os.path.join(ROOT, 'data', 'places', '*.json'))):
     slug = os.path.basename(pf)[:-5]
     for place in json.load(open(pf))['places']:
@@ -85,13 +93,17 @@ for f in sorted(glob.glob(os.path.join(ROOT, 'data', 'facts', '*.json'))):
             rejected += 1
             continue
         candidates.append((k, new, r['file'], r['w']))
-file_meta = commons_info(sorted({x[2] for x in candidates}))
+file_meta, failed_files = commons_info(sorted({x[2] for x in candidates}))
 changed = added = same = 0
 for k, new, filename, title in candidates:
     meta = file_meta.get(filename.replace(' ', '_'))
     if not meta:
-        rejected += 1
-        continue
+        prev = old_cred.get(k, {})
+        if filename in failed_files and prev.get('f') == filename and prev.get('l'):
+            meta = {x: prev[x] for x in ('a', 'l', 'lu') if prev.get(x)}
+        else:
+            rejected += 1
+            continue
     P[k] = new
     cred[k] = {'f': filename, 'w': title, **meta}
     prev = old_cred.get(k, {})
