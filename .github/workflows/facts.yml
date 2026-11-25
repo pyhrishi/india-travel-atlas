@@ -12,7 +12,7 @@ on:
         default: ''
   push:
     branches: [main]
-    paths: ['data/places/**', '.github/scripts/facts.py']
+    paths: ['data/places/**', '.github/scripts/facts.py', '.github/workflows/facts.yml']
   schedule:
     - cron: '41 20 * * 3'
 permissions:
@@ -31,7 +31,7 @@ jobs:
         continue-on-error: true
         env:
           FACTS_DEBUG: ${{ inputs.debug }}
-        run: python3 .github/scripts/facts.py ${{ inputs.force && '--force' || '' }}
+        run: python3 .github/scripts/facts.py ${{ inputs.force && '--force' || (github.event_name == 'push' && '--force' || '') }}
       - name: Use verified articles' photos
         if: always() && inputs.debug == ''
         continue-on-error: true
