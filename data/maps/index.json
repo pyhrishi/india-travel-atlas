@@ -1,0 +1,24 @@
+{
+ "schema_version": 1,
+ "source": "geoBoundaries gbOpen",
+ "source_url": "https://www.geoboundaries.org/api.html",
+ "license_note": "geoBoundaries gbOpen is CC-BY 4.0 compatible; individual source licences are recorded per map. Country/area inclusion follows the atlas M49 registry and does not imply sovereignty or boundary recognition.",
+ "countries": {
+  "in": {
+   "name": "India",
+   "iso3": "IND",
+   "map_status": "legacy-integrated",
+   "admin_level": "ADM1",
+   "data_file": "data/india-states.json",
+   "note": "Existing India–Nepal combined map; preserved pending migration to the common map format."
+  },
+  "np": {
+   "name": "Nepal",
+   "iso3": "NPL",
+   "map_status": "legacy-integrated",
+   "admin_level": "ADM1",
+   "data_file": "data/india-states.json",
+   "note": "Existing India–Nepal combined map; preserved pending migration to the common map format."
+  }
+ }
+}
