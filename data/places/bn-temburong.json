@@ -18,7 +18,39 @@
    115.2
   ]
  ],
- "trails": [],
+ "trails": [
+  {
+   "name": "Ulu Temburong rainforest day",
+   "note": "A guided rainforest outing from Bangar and Batang Duri, with river transfers and the canopy experience; arrange an authorised operator in advance.",
+   "ids": [
+    7,
+    4,
+    3,
+    1,
+    2,
+    10
+   ]
+  },
+  {
+   "name": "Temburong forest parks",
+   "note": "A hiking-focused route linking the district's forest recreation areas; check trail condition, access and local guidance before departure.",
+   "ids": [
+    5,
+    6,
+    8
+   ]
+  },
+  {
+   "name": "Bridge to the rainforest",
+   "note": "A scenic approach into the eastern enclave followed by a river-and-forest visit; allow for transfer time and confirm operator arrangements.",
+   "ids": [
+    9,
+    7,
+    4,
+    1
+   ]
+  }
+ ],
  "places": [
   {
    "n": 1,
