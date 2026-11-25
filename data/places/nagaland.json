@@ -111,7 +111,14 @@
     12,
     12
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "art": {
+    "kind": "Festival",
+    "where": "Kisama, near Kohima",
+    "when": "Hornbill Festival, 1–10 December",
+    "length": "Ten days",
+    "what": "Naga tribes' dances, games, food and music in one village of morungs"
+   }
   },
   {
    "n": 3,

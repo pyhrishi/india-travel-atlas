@@ -1,1 +1,523 @@
-{"name":"Puducherry","intro":"The French Quarter's yellow villas and promenade, Sri Aurobindo Ashram, Gothic churches and Tamil heritage streets, Paradise and Serenity beaches, plus the old French enclaves of Karaikal, Mahe and Yanam.","bases":[["Puducherry",11.9416,79.8083],["Karaikal",10.92,79.84],["Mahe",11.7,75.535],["Yanam",16.73,82.21]],"trails":[{"name":"French and Tamil quarters","note":"Promenade, churches, the ashram and cafés.","ids":[2,12,11,1,6,3,7,10,9,8,19]}],"places":[{"n":1,"name":"White Town (French Quarter)","district":"Puducherry","category":"Heritage","g":"heritage","lat":11.934,"lng":79.835,"why":"Mustard-yellow villas and bougainvillea lanes","tier":"icon","months":[10,3],"time":"1–2 hrs"},{"n":2,"name":"Promenade Beach (Goubert Avenue)","district":"Puducherry","category":"Promenade","g":"coast","lat":11.932,"lng":79.836,"why":"Seafront walk, car-free in the evenings","tier":"icon","months":[10,3],"time":"Half day"},{"n":3,"name":"Sri Aurobindo Ashram","district":"Puducherry","category":"Ashram","g":"culture","lat":11.937,"lng":79.835,"why":"Ashram and samadhi of Sri Aurobindo and the Mother","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":4,"name":"Basilica of the Sacred Heart","district":"Puducherry","category":"Church","g":"heritage","lat":11.928,"lng":79.827,"why":"Gothic basilica with stained glass","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":5,"name":"Immaculate Conception Cathedral","district":"Puducherry","category":"Church","g":"heritage","lat":11.936,"lng":79.834,"why":"17th-century cathedral","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":6,"name":"Notre Dame des Anges","district":"Puducherry","category":"Church","g":"heritage","lat":11.93,"lng":79.835,"why":"Pastel church facing the sea","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":7,"name":"Manakula Vinayagar Temple","district":"Puducherry","category":"Temple","g":"temple","lat":11.936,"lng":79.835,"why":"Ganesha temple with a temple elephant","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":8,"name":"Tamil Quarter Heritage Walk","district":"Puducherry","category":"Heritage","g":"culture","lat":11.935,"lng":79.83,"why":"Verandah houses of the old Tamil town","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":9,"name":"Pondicherry Museum","district":"Puducherry","category":"Museum","g":"culture","lat":11.933,"lng":79.834,"why":"Arikamedu finds and French colonial objects","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":10,"name":"Bharathi Park & Aayi Mandapam","district":"Puducherry","category":"Park","g":"heritage","lat":11.933,"lng":79.834,"why":"Central park with a Napoleon III-era monument","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":11,"name":"French War Memorial","district":"Puducherry","category":"Memorial","g":"heritage","lat":11.932,"lng":79.836,"why":"Memorial on the promenade","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":12,"name":"Rock Beach Lighthouse","district":"Puducherry","category":"Heritage","g":"heritage","lat":11.93,"lng":79.836,"why":"Old lighthouse on the seafront","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":13,"name":"Paradise Beach (Chunnambar)","district":"Puducherry","category":"Beach","g":"coast","lat":11.88,"lng":79.82,"why":"Sandbar beach reached by boat through backwaters","tier":"top","months":[10,3],"time":"Half day"},{"n":14,"name":"Serenity Beach","district":"Puducherry","category":"Beach","g":"coast","lat":11.99,"lng":79.84,"why":"Surfing beach north of town","tier":"top","months":[10,3],"time":"Half day"},{"n":15,"name":"Auroville Beach","district":"Puducherry","category":"Beach","g":"coast","lat":11.98,"lng":79.84,"why":"Beach near Auroville","tier":"gem","months":[10,3],"time":"Half day"},{"n":16,"name":"Arikamedu","district":"Puducherry","category":"Heritage","g":"heritage","lat":11.9,"lng":79.82,"why":"Ancient Indo-Roman port site","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":17,"name":"Ousteri Lake","district":"Puducherry","category":"Wetland","g":"wildlife","lat":11.95,"lng":79.74,"why":"Bird-rich lake","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":18,"name":"Botanical Garden, Puducherry","district":"Puducherry","category":"Garden","g":"culture","lat":11.93,"lng":79.825,"why":"French-era botanical garden","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":19,"name":"Puducherry Café Trail","district":"Puducherry","category":"Food","g":"culture","lat":11.933,"lng":79.834,"why":"French bakeries and Creole food","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":20,"name":"Villianur Temple","district":"Puducherry","category":"Temple","g":"temple","lat":11.92,"lng":79.76,"why":"Thirukameeswarar temple with a chariot festival","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":21,"name":"Karaikal Ammaiyar Temple","district":"Karaikal","category":"Temple","g":"temple","lat":10.92,"lng":79.84,"why":"Temple of the woman saint","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":22,"name":"Thirunallar Saneeswaran","district":"Karaikal","category":"Temple","g":"temple","lat":10.93,"lng":79.79,"why":"Famous Shani temple","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":23,"name":"Karaikal Beach","district":"Karaikal","category":"Beach","g":"coast","lat":10.91,"lng":79.85,"why":"Quiet beach town","tier":"gem","months":[10,3],"time":"Half day"},{"n":24,"name":"Mahe Riverfront","district":"Mahe","category":"River","g":"water","lat":11.7,"lng":75.535,"why":"French-era enclave on the Kerala coast","tier":"top","months":[10,3],"time":"1–2 hrs"},{"n":25,"name":"St Teresa's Shrine, Mahe","district":"Mahe","category":"Church","g":"heritage","lat":11.7,"lng":75.54,"why":"Shrine with a big October feast","tier":"gem","months":[10,3],"time":"1–2 hrs"},{"n":26,"name":"Yanam Riverfront","district":"Yanam","category":"River","g":"water","lat":16.73,"lng":82.21,"why":"Godavari promenade of a former French enclave","tier":"top","months":[10,3],"time":"1–2 hrs"}],"festivals":[{"name":"Bastille Day","months":[7,7],"when":"14 July","n":11,"about":"French parade and ceremony on the promenade."},{"name":"International Yoga Festival","months":[1,1],"when":"January","n":2,"about":"Yoga and wellness festival."},{"name":"Masi Magam","months":[2,3],"when":"February–March","n":2,"about":"Temple deities carried to the sea for a ritual bath."},{"name":"Feast of St Teresa, Mahe","months":[10,10],"when":"October","n":25,"about":"Big feast at Mahe's shrine."},{"name":"Aurobindo's Birthday & Darshan Days","months":[8,8],"when":"15 August","n":3,"about":"Darshan at the ashram."}]}
+{
+ "name": "Puducherry",
+ "intro": "The French Quarter's yellow villas and promenade, Sri Aurobindo Ashram, Gothic churches and Tamil heritage streets, Paradise and Serenity beaches, plus the old French enclaves of Karaikal, Mahe and Yanam.",
+ "bases": [
+  [
+   "Puducherry",
+   11.9416,
+   79.8083
+  ],
+  [
+   "Karaikal",
+   10.92,
+   79.84
+  ],
+  [
+   "Mahe",
+   11.7,
+   75.535
+  ],
+  [
+   "Yanam",
+   16.73,
+   82.21
+  ]
+ ],
+ "trails": [
+  {
+   "name": "French and Tamil quarters",
+   "note": "Promenade, churches, the ashram and cafés.",
+   "ids": [
+    2,
+    12,
+    11,
+    1,
+    6,
+    3,
+    7,
+    10,
+    9,
+    8,
+    19
+   ]
+  }
+ ],
+ "places": [
+  {
+   "n": 1,
+   "name": "White Town (French Quarter)",
+   "district": "Puducherry",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 11.934,
+   "lng": 79.835,
+   "why": "Mustard-yellow villas and bougainvillea lanes",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 2,
+   "name": "Promenade Beach (Goubert Avenue)",
+   "district": "Puducherry",
+   "category": "Promenade",
+   "g": "coast",
+   "lat": 11.932,
+   "lng": 79.836,
+   "why": "Seafront walk, car-free in the evenings",
+   "tier": "icon",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 3,
+   "name": "Sri Aurobindo Ashram",
+   "district": "Puducherry",
+   "category": "Ashram",
+   "g": "culture",
+   "lat": 11.937,
+   "lng": 79.835,
+   "why": "Ashram and samadhi of Sri Aurobindo and the Mother",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 4,
+   "name": "Basilica of the Sacred Heart",
+   "district": "Puducherry",
+   "category": "Church",
+   "g": "heritage",
+   "lat": 11.928,
+   "lng": 79.827,
+   "why": "Gothic basilica with stained glass",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 5,
+   "name": "Immaculate Conception Cathedral",
+   "district": "Puducherry",
+   "category": "Church",
+   "g": "heritage",
+   "lat": 11.936,
+   "lng": 79.834,
+   "why": "17th-century cathedral",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 6,
+   "name": "Notre Dame des Anges",
+   "district": "Puducherry",
+   "category": "Church",
+   "g": "heritage",
+   "lat": 11.93,
+   "lng": 79.835,
+   "why": "Pastel church facing the sea",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 7,
+   "name": "Manakula Vinayagar Temple",
+   "district": "Puducherry",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 11.936,
+   "lng": 79.835,
+   "why": "Ganesha temple with a temple elephant",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 8,
+   "name": "Tamil Quarter Heritage Walk",
+   "district": "Puducherry",
+   "category": "Heritage",
+   "g": "culture",
+   "lat": 11.935,
+   "lng": 79.83,
+   "why": "Verandah houses of the old Tamil town",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 9,
+   "name": "Pondicherry Museum",
+   "district": "Puducherry",
+   "category": "Museum",
+   "g": "culture",
+   "lat": 11.933,
+   "lng": 79.834,
+   "why": "Arikamedu finds and French colonial objects",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 10,
+   "name": "Bharathi Park & Aayi Mandapam",
+   "district": "Puducherry",
+   "category": "Park",
+   "g": "heritage",
+   "lat": 11.933,
+   "lng": 79.834,
+   "why": "Central park with a Napoleon III-era monument",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 11,
+   "name": "French War Memorial",
+   "district": "Puducherry",
+   "category": "Memorial",
+   "g": "heritage",
+   "lat": 11.932,
+   "lng": 79.836,
+   "why": "Memorial on the promenade",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 12,
+   "name": "Rock Beach Lighthouse",
+   "district": "Puducherry",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 11.93,
+   "lng": 79.836,
+   "why": "Old lighthouse on the seafront",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 13,
+   "name": "Paradise Beach (Chunnambar)",
+   "district": "Puducherry",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 11.88,
+   "lng": 79.82,
+   "why": "Sandbar beach reached by boat through backwaters",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 14,
+   "name": "Serenity Beach",
+   "district": "Puducherry",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 11.99,
+   "lng": 79.84,
+   "why": "Surfing beach north of town",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 15,
+   "name": "Auroville Beach",
+   "district": "Puducherry",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 11.98,
+   "lng": 79.84,
+   "why": "Beach near Auroville",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 16,
+   "name": "Arikamedu",
+   "district": "Puducherry",
+   "category": "Heritage",
+   "g": "heritage",
+   "lat": 11.9,
+   "lng": 79.82,
+   "why": "Ancient Indo-Roman port site",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 17,
+   "name": "Ousteri Lake",
+   "district": "Puducherry",
+   "category": "Wetland",
+   "g": "wildlife",
+   "lat": 11.95,
+   "lng": 79.74,
+   "why": "Bird-rich lake",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 18,
+   "name": "Botanical Garden, Puducherry",
+   "district": "Puducherry",
+   "category": "Garden",
+   "g": "culture",
+   "lat": 11.93,
+   "lng": 79.825,
+   "why": "French-era botanical garden",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 19,
+   "name": "Puducherry Café Trail",
+   "district": "Puducherry",
+   "category": "Food",
+   "g": "culture",
+   "lat": 11.933,
+   "lng": 79.834,
+   "why": "French bakeries and Creole food",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs",
+   "eat": {
+    "kind": "Café trail",
+    "dishes": [
+     "French bakes",
+     "Creole curry"
+    ],
+    "when": "Morning to evening"
+   }
+  },
+  {
+   "n": 20,
+   "name": "Villianur Temple",
+   "district": "Puducherry",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 11.92,
+   "lng": 79.76,
+   "why": "Thirukameeswarar temple with a chariot festival",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 21,
+   "name": "Karaikal Ammaiyar Temple",
+   "district": "Karaikal",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 10.92,
+   "lng": 79.84,
+   "why": "Temple of the woman saint",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 22,
+   "name": "Thirunallar Saneeswaran",
+   "district": "Karaikal",
+   "category": "Temple",
+   "g": "temple",
+   "lat": 10.93,
+   "lng": 79.79,
+   "why": "Famous Shani temple",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 23,
+   "name": "Karaikal Beach",
+   "district": "Karaikal",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 10.91,
+   "lng": 79.85,
+   "why": "Quiet beach town",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day"
+  },
+  {
+   "n": 24,
+   "name": "Mahe Riverfront",
+   "district": "Mahe",
+   "category": "River",
+   "g": "water",
+   "lat": 11.7,
+   "lng": 75.535,
+   "why": "French-era enclave on the Kerala coast",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 25,
+   "name": "St Teresa's Shrine, Mahe",
+   "district": "Mahe",
+   "category": "Church",
+   "g": "heritage",
+   "lat": 11.7,
+   "lng": 75.54,
+   "why": "Shrine with a big October feast",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  },
+  {
+   "n": 26,
+   "name": "Yanam Riverfront",
+   "district": "Yanam",
+   "category": "River",
+   "g": "water",
+   "lat": 16.73,
+   "lng": 82.21,
+   "why": "Godavari promenade of a former French enclave",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs"
+  }
+ ],
+ "festivals": [
+  {
+   "name": "Bastille Day",
+   "months": [
+    7,
+    7
+   ],
+   "when": "14 July",
+   "n": 11,
+   "about": "French parade and ceremony on the promenade."
+  },
+  {
+   "name": "International Yoga Festival",
+   "months": [
+    1,
+    1
+   ],
+   "when": "January",
+   "n": 2,
+   "about": "Yoga and wellness festival."
+  },
+  {
+   "name": "Masi Magam",
+   "months": [
+    2,
+    3
+   ],
+   "when": "February–March",
+   "n": 2,
+   "about": "Temple deities carried to the sea for a ritual bath."
+  },
+  {
+   "name": "Feast of St Teresa, Mahe",
+   "months": [
+    10,
+    10
+   ],
+   "when": "October",
+   "n": 25,
+   "about": "Big feast at Mahe's shrine."
+  },
+  {
+   "name": "Aurobindo's Birthday & Darshan Days",
+   "months": [
+    8,
+    8
+   ],
+   "when": "15 August",
+   "n": 3,
+   "about": "Darshan at the ashram."
+  }
+ ]
+}

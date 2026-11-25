@@ -1079,7 +1079,18 @@
     10,
     3
    ],
-   "time": "Evening"
+   "time": "Evening",
+   "eat": {
+    "kind": "Night market",
+    "dishes": [
+     "Bhutte ka kees",
+     "Garadu (winter)",
+     "Jalebi",
+     "Sabudana khichdi"
+    ],
+    "veg": true,
+    "when": "After about 9 pm, when jewellers close"
+   }
   },
   {
    "n": 53,
@@ -1095,7 +1106,17 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "eat": {
+    "kind": "Food street",
+    "dishes": [
+     "Poha-jalebi",
+     "Khopra patties",
+     "Shikanji"
+    ],
+    "veg": true,
+    "when": "Morning to late evening"
+   }
   },
   {
    "n": 54,
@@ -3479,6 +3500,32 @@
     "how": [
      "Walking"
     ]
+   }
+  },
+  {
+   "n": 186,
+   "name": "Sukhadia Shop, Bhopal",
+   "district": "Bhopal",
+   "category": "Food street",
+   "g": "culture",
+   "lat": 23.265,
+   "lng": 77.403,
+   "why": "Bhopal old-city kebabs and nihari",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "30 min",
+   "eat": {
+    "kind": "Food street",
+    "dishes": [
+     "Seekh kebab",
+     "Nihari",
+     "Bun kebab"
+    ],
+    "veg": false,
+    "when": "Evenings in the old city"
    }
   }
  ],

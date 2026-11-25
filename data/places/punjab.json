@@ -250,7 +250,16 @@
     10,
     3
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "eat": {
+    "kind": "Food trail",
+    "dishes": [
+     "Amritsari kulcha with chole",
+     "Lassi",
+     "Fish fry"
+    ],
+    "when": "Breakfast to lunch for kulchas"
+   }
   },
   {
    "n": 11,
@@ -1734,6 +1743,60 @@
     "how": [
      "Boat"
     ]
+   }
+  },
+  {
+   "n": 97,
+   "name": "Kesar Da Dhaba",
+   "district": "Amritsar",
+   "category": "Dhaba",
+   "g": "culture",
+   "lat": 31.628,
+   "lng": 74.878,
+   "why": "Dhaba in the old-city lanes, serving dal since 1916",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr",
+   "eat": {
+    "kind": "Dhaba",
+    "since": 1916,
+    "dishes": [
+     "Maa ki dal",
+     "Lachha paratha",
+     "Phirni"
+    ],
+    "veg": true,
+    "when": "Lunch or dinner"
+   }
+  },
+  {
+   "n": 98,
+   "name": "Bharawan Da Dhaba",
+   "district": "Amritsar",
+   "category": "Dhaba",
+   "g": "culture",
+   "lat": 31.6235,
+   "lng": 74.877,
+   "why": "Busy vegetarian dhaba near the Golden Temple",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr",
+   "eat": {
+    "kind": "Dhaba",
+    "since": 1912,
+    "dishes": [
+     "Amritsari kulcha",
+     "Dal",
+     "Paneer"
+    ],
+    "veg": true,
+    "when": "Lunch"
    }
   }
  ],

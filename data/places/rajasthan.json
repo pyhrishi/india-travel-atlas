@@ -1187,7 +1187,15 @@
     10,
     3
    ],
-   "time": "Overnight"
+   "time": "Overnight",
+   "art": {
+    "kind": "Folk music",
+    "where": "Desert camps at Sam",
+    "when": "Evenings, October to March",
+    "length": "1–2 hours",
+    "what": "Manganiyar and Langa musicians and Kalbelia dancers",
+    "note": "Kalbelia is on UNESCO's intangible heritage list; quality at camps varies"
+   }
   },
   {
    "n": 56,
@@ -1736,7 +1744,14 @@
     10,
     3
    ],
-   "time": "Overnight"
+   "time": "Overnight",
+   "art": {
+    "kind": "Fair",
+    "where": "Pushkar fairground and ghats",
+    "when": "Pushkar camel fair, around Kartik Purnima (Oct–Nov)",
+    "length": "About a week",
+    "what": "Camel trading, folk music, and pilgrims bathing in the lake"
+   }
   },
   {
    "n": 87,
@@ -2049,7 +2064,14 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "art": {
+    "kind": "Folk dance show",
+    "where": "Bagore ki Haveli, Udaipur",
+    "when": "Every evening (Dharohar show)",
+    "length": "About an hour",
+    "what": "Rajasthani folk dances, including women dancing with stacked pots"
+   }
   },
   {
    "n": 106,
@@ -3875,6 +3897,83 @@
     "made": "Molela",
     "see": "Potters' homes",
     "buy": "Directly"
+   }
+  },
+  {
+   "n": 213,
+   "name": "Laxmi Misthan Bhandar, Johari Bazaar",
+   "district": "Jaipur",
+   "category": "Sweet shop",
+   "g": "culture",
+   "lat": 26.9218,
+   "lng": 75.8267,
+   "why": "Sweet shop and restaurant in the pink-walled bazaar since 1954",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr",
+   "eat": {
+    "kind": "Sweet shop",
+    "since": 1954,
+    "dishes": [
+     "Ghevar",
+     "Pyaaz kachori",
+     "Mishri mawa"
+    ],
+    "veg": true,
+    "when": "Lunch"
+   }
+  },
+  {
+   "n": 214,
+   "name": "Rawat Mishthan Bhandar",
+   "district": "Jaipur",
+   "category": "Snack shop",
+   "g": "culture",
+   "lat": 26.917,
+   "lng": 75.798,
+   "why": "Jaipur's best-known pyaaz kachori",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "30 min",
+   "eat": {
+    "kind": "Snack shop",
+    "dishes": [
+     "Pyaaz kachori",
+     "Mawa kachori"
+    ],
+    "veg": true,
+    "when": "Morning"
+   }
+  },
+  {
+   "n": 215,
+   "name": "Janta Sweet Home, Jodhpur",
+   "district": "Jodhpur",
+   "category": "Snack shop",
+   "g": "culture",
+   "lat": 26.293,
+   "lng": 73.022,
+   "why": "Jodhpur's mirchi vada stop near the clock tower",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "30 min",
+   "eat": {
+    "kind": "Snack shop",
+    "dishes": [
+     "Mirchi vada",
+     "Mawa kachori"
+    ],
+    "veg": true,
+    "when": "Morning"
    }
   }
  ],

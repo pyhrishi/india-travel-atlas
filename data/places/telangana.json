@@ -323,7 +323,17 @@
     1,
     12
    ],
-   "time": "Evening"
+   "time": "Evening",
+   "eat": {
+    "kind": "Food trail",
+    "dishes": [
+     "Kacchi biryani",
+     "Irani chai with Osmania biscuit",
+     "Haleem in Ramzan"
+    ],
+    "veg": false,
+    "when": "Chai mornings, biryani lunch"
+   }
   },
   {
    "n": 16,
@@ -1949,6 +1959,57 @@
      "Walking"
     ],
     "gate": "Chilkur"
+   }
+  },
+  {
+   "n": 110,
+   "name": "Shah Ghouse, Hyderabad",
+   "district": "Hyderabad",
+   "category": "Restaurant",
+   "g": "culture",
+   "lat": 17.36,
+   "lng": 78.472,
+   "why": "Biryani and haleem landmark near Charminar",
+   "tier": "gem",
+   "months": [
+    1,
+    12
+   ],
+   "time": "1 hr",
+   "eat": {
+    "kind": "Restaurant",
+    "dishes": [
+     "Biryani",
+     "Haleem in Ramzan",
+     "Paya"
+    ],
+    "veg": false,
+    "when": "Lunch or late night"
+   }
+  },
+  {
+   "n": 111,
+   "name": "Nimrah Cafe & Bakery",
+   "district": "Hyderabad",
+   "category": "Irani café",
+   "g": "culture",
+   "lat": 17.361,
+   "lng": 78.474,
+   "why": "Irani café right beside Charminar",
+   "tier": "gem",
+   "months": [
+    1,
+    12
+   ],
+   "time": "30 min",
+   "eat": {
+    "kind": "Irani café",
+    "dishes": [
+     "Irani chai",
+     "Osmania biscuits"
+    ],
+    "veg": true,
+    "when": "Early morning"
    }
   }
  ],

@@ -456,7 +456,15 @@
     1,
     12
    ],
-   "time": "1 hr"
+   "time": "1 hr",
+   "eat": {
+    "kind": "Highway dhabas",
+    "dishes": [
+     "Stuffed parathas with white butter"
+    ],
+    "veg": true,
+    "when": "Open round the clock"
+   }
   },
   {
    "n": 22,

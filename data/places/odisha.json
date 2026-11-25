@@ -151,7 +151,14 @@
    "time": "Half day",
    "circ": [
     "dham4"
-   ]
+   ],
+   "art": {
+    "kind": "Festival",
+    "where": "Grand Road (Bada Danda), Puri",
+    "when": "Rath Yatra, June or July",
+    "length": "The main procession is one day; the return is about nine days later",
+    "what": "Three huge wooden chariots pulled by crowds to Gundicha temple"
+   }
   },
   {
    "n": 3,
@@ -1499,7 +1506,15 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "art": {
+    "kind": "Martial dance",
+    "where": "Baripada (Mayurbhanj style, no masks)",
+    "when": "Chaitra Parva, around April",
+    "length": "Evening shows over several days",
+    "what": "Leaping, martial dance on epic themes",
+    "note": "Chhau is on UNESCO's intangible heritage list; Purulia and Seraikela styles use masks"
+   }
   },
   {
    "n": 77,
@@ -2743,6 +2758,30 @@
     "el": 300,
     "diff": "Easy",
     "base": "Khordha"
+   }
+  },
+  {
+   "n": 150,
+   "name": "Dahibara Aludum, Cuttack",
+   "district": "Cuttack",
+   "category": "Street food",
+   "g": "culture",
+   "lat": 20.464,
+   "lng": 85.879,
+   "why": "Cuttack's signature street breakfast",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "30 min",
+   "eat": {
+    "kind": "Street food",
+    "dishes": [
+     "Dahibara-aludum-ghuguni"
+    ],
+    "veg": true,
+    "when": "Morning and evening"
    }
   }
  ],

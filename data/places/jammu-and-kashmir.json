@@ -355,7 +355,19 @@
     4,
     10
    ],
-   "time": "Evening"
+   "time": "Evening",
+   "eat": {
+    "kind": "Feast",
+    "dishes": [
+     "Rista",
+     "Rogan josh",
+     "Gushtaba",
+     "Tabak maaz"
+    ],
+    "veg": false,
+    "when": "Lunch or dinner, best at a wedding or a wazwan restaurant",
+    "note": "A full wazwan can run to over 30 courses cooked by vasta wazas"
+   }
   },
   {
    "n": 16,

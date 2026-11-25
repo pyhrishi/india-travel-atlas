@@ -2182,7 +2182,15 @@
     11,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "art": {
+    "kind": "Classical dance",
+    "where": "Kalakshetra campus, Chennai",
+    "when": "Annual festival around December–January; Margazhi season across Chennai",
+    "length": "Varies",
+    "what": "Bharatanatyam as taught by Rukmini Devi's school",
+    "note": "Chennai's December music and dance season is the best time"
+   }
   },
   {
    "n": 112,
@@ -3100,7 +3108,17 @@
     11,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "eat": {
+    "kind": "Food trail",
+    "dishes": [
+     "Jigarthanda",
+     "Kari dosai",
+     "Parotta-salna"
+    ],
+    "veg": false,
+    "when": "Night; Madurai eats late"
+   }
   },
   {
    "n": 166,
@@ -3220,7 +3238,17 @@
     11,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "eat": {
+    "kind": "Regional cuisine",
+    "dishes": [
+     "Chicken Chettinad",
+     "Kavuni arisi",
+     "Paniyaram"
+    ],
+    "veg": false,
+    "when": "Lunch at a mansion homestay"
+   }
   },
   {
    "n": 172,
@@ -3938,6 +3966,106 @@
    "circ": [
     "arupadai"
    ]
+  },
+  {
+   "n": 204,
+   "name": "Alanganallur Jallikattu",
+   "district": "Madurai",
+   "category": "Festival",
+   "g": "culture",
+   "lat": 10.046,
+   "lng": 78.09,
+   "why": "Village arena famous for Jallikattu bull-taming during Pongal",
+   "tier": "gem",
+   "months": [
+    1,
+    1
+   ],
+   "time": "Full day",
+   "art": {
+    "kind": "Festival sport",
+    "where": "Alanganallur arena",
+    "when": "During Pongal, mid-January",
+    "length": "Full day",
+    "what": "Young men trying to hold on to a running bull's hump",
+    "note": "Crowds are huge; watch from the stands"
+   }
+  },
+  {
+   "n": 205,
+   "name": "Ratna Cafe, Triplicane",
+   "district": "Chennai",
+   "category": "Tiffin room",
+   "g": "culture",
+   "lat": 13.056,
+   "lng": 80.277,
+   "why": "Triplicane café where idlis come floating in sambar",
+   "tier": "gem",
+   "months": [
+    1,
+    12
+   ],
+   "time": "45 min",
+   "eat": {
+    "kind": "Tiffin room",
+    "since": 1948,
+    "dishes": [
+     "Idli-sambar",
+     "Pongal"
+    ],
+    "veg": true,
+    "when": "Breakfast"
+   }
+  },
+  {
+   "n": 206,
+   "name": "Murugan Idli Shop, Madurai",
+   "district": "Madurai",
+   "category": "Tiffin room",
+   "g": "culture",
+   "lat": 9.92,
+   "lng": 78.12,
+   "why": "The original Murugan Idli Shop with four chutneys",
+   "tier": "gem",
+   "months": [
+    1,
+    12
+   ],
+   "time": "45 min",
+   "eat": {
+    "kind": "Tiffin room",
+    "dishes": [
+     "Soft idli with chutneys",
+     "Podi idli"
+    ],
+    "veg": true,
+    "when": "Breakfast"
+   }
+  },
+  {
+   "n": 207,
+   "name": "Amma Mess, Madurai",
+   "district": "Madurai",
+   "category": "Mess",
+   "g": "culture",
+   "lat": 9.93,
+   "lng": 78.13,
+   "why": "Madurai mess known for mutton and offal dishes",
+   "tier": "gem",
+   "months": [
+    1,
+    12
+   ],
+   "time": "1 hr",
+   "eat": {
+    "kind": "Mess",
+    "dishes": [
+     "Mutton chukka",
+     "Ayira meen kuzhambu"
+    ],
+    "veg": false,
+    "when": "Lunch or dinner"
+   }
   }
  ],
  "festivals": [

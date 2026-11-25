@@ -127,7 +127,18 @@
     10,
     3
    ],
-   "time": "3 hrs"
+   "time": "3 hrs",
+   "eat": {
+    "kind": "Food trail",
+    "dishes": [
+     "Nihari",
+     "Kebabs",
+     "Jalebi",
+     "Daulat ki chaat (winter)"
+    ],
+    "veg": false,
+    "when": "Mornings for nihari, evenings for kebabs"
+   }
   },
   {
    "n": 5,
@@ -1109,7 +1120,16 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "eat": {
+    "kind": "Food street",
+    "dishes": [
+     "Stuffed parathas fried in ghee",
+     "Rabri parathas"
+    ],
+    "veg": true,
+    "when": "Late morning to evening"
+   }
   },
   {
    "n": 65,
@@ -1173,6 +1193,58 @@
     ],
     "book": "RTDC",
     "warn": "Departures and routes change by season; check current schedules"
+   }
+  },
+  {
+   "n": 68,
+   "name": "Karim's, Jama Masjid",
+   "district": "Central Delhi",
+   "category": "Restaurant",
+   "g": "culture",
+   "lat": 28.6505,
+   "lng": 77.2337,
+   "why": "Mughlai kitchen in a lane by Jama Masjid, cooking since 1913",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr",
+   "eat": {
+    "kind": "Restaurant",
+    "since": 1913,
+    "dishes": [
+     "Mutton korma",
+     "Nihari",
+     "Burra kebab"
+    ],
+    "veg": false,
+    "when": "Lunch or dinner"
+   }
+  },
+  {
+   "n": 69,
+   "name": "Indian Coffee House, Connaught Place",
+   "district": "New Delhi",
+   "category": "Café",
+   "g": "culture",
+   "lat": 28.634,
+   "lng": 77.219,
+   "why": "Rooftop co-operative café of turbaned waiters and filter coffee",
+   "tier": "gem",
+   "months": [
+    1,
+    12
+   ],
+   "time": "1 hr",
+   "eat": {
+    "kind": "Café",
+    "dishes": [
+     "Filter coffee",
+     "Dosa",
+     "Cutlet"
+    ],
+    "when": "Afternoon"
    }
   }
  ],

@@ -1301,7 +1301,18 @@
     10,
     3
    ],
-   "time": "Evening"
+   "time": "Evening",
+   "eat": {
+    "kind": "Night market",
+    "dishes": [
+     "Bhaji pav",
+     "Ghotala dosa",
+     "Chocolate sandwich",
+     "Kulfi"
+    ],
+    "veg": true,
+    "when": "After about 9 pm, when the jewellers shut"
+   }
   },
   {
    "n": 57,
@@ -1689,7 +1700,15 @@
     10,
     3
    ],
-   "time": "2–3 hrs"
+   "time": "2–3 hrs",
+   "art": {
+    "kind": "Festival",
+    "where": "Vadodara",
+    "when": "Navratri (Sept–Oct)",
+    "length": "Nine nights",
+    "what": "Huge Garba grounds with live music",
+    "note": "Garba of Gujarat is on UNESCO's intangible heritage list"
+   }
   },
   {
    "n": 80,
@@ -3324,6 +3343,30 @@
     "how": [
      "Walking"
     ]
+   }
+  },
+  {
+   "n": 179,
+   "name": "Agashiye, House of MG",
+   "district": "Ahmedabad",
+   "category": "Thali restaurant",
+   "g": "culture",
+   "lat": 23.025,
+   "lng": 72.584,
+   "why": "Rooftop Gujarati thali in a heritage house",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs",
+   "eat": {
+    "kind": "Thali restaurant",
+    "dishes": [
+     "Gujarati thali"
+    ],
+    "veg": true,
+    "when": "Lunch or dinner"
    }
   }
  ],

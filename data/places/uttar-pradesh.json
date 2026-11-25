@@ -288,7 +288,17 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "eat": {
+    "kind": "Food trail",
+    "dishes": [
+     "Petha",
+     "Bedai with aloo",
+     "Jalebi"
+    ],
+    "veg": true,
+    "when": "Breakfast for bedai"
+   }
   },
   {
    "n": 9,
@@ -674,7 +684,15 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "art": {
+    "kind": "Folk theatre",
+    "where": "Ramnagar, across the Ganges from Varanasi",
+    "when": "Ramlila over about a month around Dussehra (Sept–Oct)",
+    "length": "Each evening's episode lasts hours",
+    "what": "The Ramayana played out across the whole town, with audiences following the actors",
+    "note": "Ramlila is on UNESCO's intangible heritage list"
+   }
   },
   {
    "n": 32,
@@ -730,7 +748,18 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "eat": {
+    "kind": "Food trail",
+    "dishes": [
+     "Kachori-sabzi",
+     "Malaiyyo (winter)",
+     "Banarasi paan",
+     "Lassi"
+    ],
+    "veg": true,
+    "when": "Early morning"
+   }
   },
   {
    "n": 35,
@@ -1183,7 +1212,17 @@
     10,
     3
    ],
-   "time": "Evening"
+   "time": "Evening",
+   "eat": {
+    "kind": "Food trail",
+    "dishes": [
+     "Galouti kebab",
+     "Nihari-kulcha",
+     "Makhan malai (winter)"
+    ],
+    "veg": false,
+    "when": "Evenings in Aminabad and Chowk"
+   }
   },
   {
    "n": 62,
@@ -3214,6 +3253,56 @@
     "how": [
      "Boat"
     ]
+   }
+  },
+  {
+   "n": 172,
+   "name": "Tunday Kababi, Aminabad",
+   "district": "Lucknow",
+   "category": "Kebab shop",
+   "g": "culture",
+   "lat": 26.8487,
+   "lng": 80.9345,
+   "why": "Lucknow's legendary galouti kebab shop",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr",
+   "eat": {
+    "kind": "Kebab shop",
+    "since": 1905,
+    "dishes": [
+     "Galouti kebab with ulte tawe ka paratha"
+    ],
+    "veg": false,
+    "when": "Lunch or dinner"
+   }
+  },
+  {
+   "n": 173,
+   "name": "Pahalwan Lassi, Lanka",
+   "district": "Varanasi",
+   "category": "Lassi shop",
+   "g": "culture",
+   "lat": 25.277,
+   "lng": 82.999,
+   "why": "Thick clay-cup lassi near BHU gate",
+   "tier": "gem",
+   "months": [
+    3,
+    10
+   ],
+   "time": "30 min",
+   "eat": {
+    "kind": "Lassi shop",
+    "dishes": [
+     "Malai lassi",
+     "Rabri"
+    ],
+    "veg": true,
+    "when": "Afternoon"
    }
   }
  ],

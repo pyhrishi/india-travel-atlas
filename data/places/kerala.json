@@ -1515,7 +1515,14 @@
     1,
     12
    ],
-   "time": "1 hr"
+   "time": "1 hr",
+   "art": {
+    "kind": "Temple festival",
+    "where": "Thekkinkadu Maidan around the temple",
+    "when": "Thrissur Pooram, April or May (Medam month)",
+    "length": "About 36 hours",
+    "what": "Caparisoned elephants, parasol exchange (kudamattam) and huge percussion ensembles"
+   }
   },
   {
    "n": 79,
@@ -1595,7 +1602,14 @@
     10,
     4
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "art": {
+    "kind": "Arts school",
+    "where": "Cheruthuruthy",
+    "when": "Classes most weekday mornings; check visitor timings",
+    "length": "1–2 hours",
+    "what": "Students training in Kathakali, Mohiniyattam and Koodiyattam"
+   }
   },
   {
    "n": 84,
@@ -2071,7 +2085,16 @@
     10,
     4
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "eat": {
+    "kind": "Food trail",
+    "dishes": [
+     "Kozhikode halwa on SM Street",
+     "Malabar biryani"
+    ],
+    "veg": false,
+    "when": "Afternoon and evening"
+   }
   },
   {
    "n": 112,
@@ -2333,7 +2356,15 @@
     11,
     5
    ],
-   "time": "Night"
+   "time": "Night",
+   "art": {
+    "kind": "Ritual performance",
+    "where": "Village shrines (kavus) across Kannur and Kasaragod",
+    "when": "December to April; most at night and dawn",
+    "length": "Through the night",
+    "what": "Performers in towering headdresses become the deity and bless the crowd",
+    "note": "Ask locally or check theyyam calendars; dates follow the Malayalam calendar"
+   }
   },
   {
    "n": 127,
@@ -3257,6 +3288,151 @@
     "made": "Balaramapuram",
     "see": "Weavers' homes",
     "buy": "Cooperatives"
+   }
+  },
+  {
+   "n": 177,
+   "name": "Kathakali at Kerala Kathakali Centre",
+   "district": "Ernakulam",
+   "category": "Performance",
+   "g": "culture",
+   "lat": 9.965,
+   "lng": 76.243,
+   "why": "Nightly short Kathakali shows in Fort Kochi; arrive early to watch the make-up",
+   "tier": "top",
+   "months": [
+    1,
+    12
+   ],
+   "time": "About 2 hours",
+   "art": {
+    "kind": "Classical dance-drama",
+    "where": "Kerala Kathakali Centre, Fort Kochi",
+    "when": "Every evening; make-up from about 4 pm",
+    "length": "About an hour",
+    "what": "Painted green faces, huge skirts and eye-language telling epic stories"
+   }
+  },
+  {
+   "n": 178,
+   "name": "Natanakairali, Irinjalakuda",
+   "district": "Thrissur",
+   "category": "Performance",
+   "g": "culture",
+   "lat": 10.343,
+   "lng": 76.211,
+   "why": "Research and performance centre for Koodiyattam and puppet traditions",
+   "tier": "gem",
+   "months": [
+    1,
+    12
+   ],
+   "time": "Varies",
+   "art": {
+    "kind": "Sanskrit theatre",
+    "where": "Natanakairali and Ammannur Chakyar Madhom, Irinjalakuda",
+    "when": "Performances and festivals through the year; check ahead",
+    "length": "Varies",
+    "what": "Koodiyattam, a 2,000-year-old Sanskrit theatre form",
+    "note": "Koodiyattam is on UNESCO's intangible heritage list"
+   }
+  },
+  {
+   "n": 179,
+   "name": "CVN Kalari, Thiruvananthapuram",
+   "district": "Thiruvananthapuram",
+   "category": "Performance",
+   "g": "culture",
+   "lat": 8.479,
+   "lng": 76.948,
+   "why": "Kalaripayattu martial arts school beside the East Fort",
+   "tier": "gem",
+   "months": [
+    1,
+    12
+   ],
+   "time": "1 hour",
+   "art": {
+    "kind": "Martial art",
+    "where": "CVN Kalari, East Fort",
+    "when": "Morning practice; demonstrations on some evenings",
+    "length": "About an hour",
+    "what": "Kalaripayattu kicks, leaps and weapon work"
+   }
+  },
+  {
+   "n": 180,
+   "name": "Nehru Trophy Boat Race",
+   "district": "Alappuzha",
+   "category": "Festival",
+   "g": "culture",
+   "lat": 9.501,
+   "lng": 76.355,
+   "why": "Snake-boat race on Punnamada Lake with over a hundred rowers per boat",
+   "tier": "top",
+   "months": [
+    8,
+    8
+   ],
+   "time": "Half day",
+   "art": {
+    "kind": "Boat race",
+    "where": "Punnamada Lake, Alappuzha",
+    "when": "Second Saturday of August",
+    "length": "Half day",
+    "what": "Chundan vallam snake boats racing to the beat of boat songs"
+   }
+  },
+  {
+   "n": 181,
+   "name": "Paragon, Kozhikode",
+   "district": "Kozhikode",
+   "category": "Restaurant",
+   "g": "culture",
+   "lat": 11.253,
+   "lng": 75.78,
+   "why": "Malabar restaurant famous across Kerala since 1939",
+   "tier": "top",
+   "months": [
+    1,
+    12
+   ],
+   "time": "1 hr",
+   "eat": {
+    "kind": "Restaurant",
+    "since": 1939,
+    "dishes": [
+     "Malabar biryani",
+     "Fish mango curry",
+     "Appam"
+    ],
+    "veg": false,
+    "when": "Lunch"
+   }
+  },
+  {
+   "n": 182,
+   "name": "Rahmath Hotel, Kozhikode",
+   "district": "Kozhikode",
+   "category": "Restaurant",
+   "g": "culture",
+   "lat": 11.249,
+   "lng": 75.783,
+   "why": "Beef biryani institution in Kozhikode",
+   "tier": "gem",
+   "months": [
+    1,
+    12
+   ],
+   "time": "45 min",
+   "eat": {
+    "kind": "Restaurant",
+    "dishes": [
+     "Beef biryani",
+     "Porotta"
+    ],
+    "veg": false,
+    "when": "Lunch"
    }
   }
  ],

@@ -1208,7 +1208,14 @@
     10,
     3
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "art": {
+    "kind": "Classical dance",
+    "where": "The village where the Kuchipudi dance form was born",
+    "when": "Festivals and recitals at the Siddhendra Kalakshetra",
+    "length": "Varies",
+    "what": "The home of a classical dance once performed only by Brahmin men"
+   }
   },
   {
    "n": 58,

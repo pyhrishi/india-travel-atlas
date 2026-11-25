@@ -289,7 +289,15 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "art": {
+    "kind": "Festival craft",
+    "where": "Potters' quarter, north Kolkata",
+    "when": "July to early October before Durga Puja",
+    "length": "1–2 hours",
+    "what": "Clay idols being sculpted, painted and dressed",
+    "note": "Durga Puja in Kolkata is on UNESCO's intangible heritage list"
+   }
   },
   {
    "n": 10,
@@ -401,7 +409,18 @@
     10,
     3
    ],
-   "time": "Evening"
+   "time": "Evening",
+   "eat": {
+    "kind": "Food trail",
+    "dishes": [
+     "Kathi roll",
+     "Phuchka",
+     "Mishti doi",
+     "Kosha mangsho"
+    ],
+    "veg": false,
+    "when": "Evenings"
+   }
   },
   {
    "n": 17,
@@ -481,7 +500,17 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "eat": {
+    "kind": "Breakfast market",
+    "dishes": [
+     "Momos",
+     "Pork buns",
+     "Fish-ball soup"
+    ],
+    "veg": false,
+    "when": "About 6–8 am only"
+   }
   },
   {
    "n": 22,
@@ -703,7 +732,14 @@
     10,
     3
    ],
-   "time": "Overnight"
+   "time": "Overnight",
+   "art": {
+    "kind": "Fair and music",
+    "where": "Shantiniketan",
+    "when": "Poush Mela in late December; Basanta Utsav in spring",
+    "length": "Several days",
+    "what": "Baul singers, Rabindra Sangeet and crafts at Tagore's university town"
+   }
   },
   {
    "n": 34,
@@ -767,7 +803,14 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "art": {
+    "kind": "Folk music",
+    "where": "Kenduli by the Ajay river",
+    "when": "Joydev Kenduli Mela, mid-January (Poush Sankranti)",
+    "length": "Several days and nights",
+    "what": "Baul and Fakir singers from all over Bengal in ashrams and akharas"
+   }
   },
   {
    "n": 38,
@@ -1566,7 +1609,18 @@
     10,
     5
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "eat": {
+    "kind": "Old cafés",
+    "since": "Early 1900s",
+    "dishes": [
+     "English breakfast",
+     "Pastries",
+     "Sausages"
+    ],
+    "veg": false,
+    "when": "Breakfast with a view of the hills"
+   }
   },
   {
    "n": 84,
@@ -3154,6 +3208,137 @@
     "how": [
      "Walking with a local guide"
     ]
+   }
+  },
+  {
+   "n": 174,
+   "name": "Peter Cat, Park Street",
+   "district": "Kolkata",
+   "category": "Restaurant",
+   "g": "culture",
+   "lat": 22.553,
+   "lng": 88.352,
+   "why": "Park Street restaurant famous for chelo kebab",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr",
+   "eat": {
+    "kind": "Restaurant",
+    "since": 1975,
+    "dishes": [
+     "Chelo kebab",
+     "Sizzlers"
+    ],
+    "veg": false,
+    "when": "Lunch or dinner; no bookings, so expect a wait"
+   }
+  },
+  {
+   "n": 175,
+   "name": "Flurys, Park Street",
+   "district": "Kolkata",
+   "category": "Tea room",
+   "g": "culture",
+   "lat": 22.554,
+   "lng": 88.353,
+   "why": "Swiss tea room on Park Street since 1927",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1 hr",
+   "eat": {
+    "kind": "Tea room",
+    "since": 1927,
+    "dishes": [
+     "English breakfast",
+     "Rum balls",
+     "Pastries"
+    ],
+    "veg": false,
+    "when": "Breakfast"
+   }
+  },
+  {
+   "n": 176,
+   "name": "Indian Coffee House, College Street",
+   "district": "Kolkata",
+   "category": "Café",
+   "g": "culture",
+   "lat": 22.576,
+   "lng": 88.363,
+   "why": "High-ceilinged adda of poets, students and revolutionaries",
+   "tier": "top",
+   "months": [
+    1,
+    12
+   ],
+   "time": "1 hr",
+   "eat": {
+    "kind": "Café",
+    "since": 1942,
+    "dishes": [
+     "Coffee",
+     "Infusion",
+     "Mutton cutlet"
+    ],
+    "veg": false,
+    "when": "Afternoon"
+   }
+  },
+  {
+   "n": 177,
+   "name": "Nahoum & Sons, New Market",
+   "district": "Kolkata",
+   "category": "Bakery",
+   "g": "culture",
+   "lat": 22.56,
+   "lng": 88.352,
+   "why": "Jewish bakery in New Market, baking since 1902",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "30 min",
+   "eat": {
+    "kind": "Bakery",
+    "since": 1902,
+    "dishes": [
+     "Plum cake",
+     "Macaroons",
+     "Cheese samosa"
+    ],
+    "when": "Morning; Christmas for plum cake"
+   }
+  },
+  {
+   "n": 178,
+   "name": "Arsalan, Park Circus",
+   "district": "Kolkata",
+   "category": "Restaurant",
+   "g": "culture",
+   "lat": 22.541,
+   "lng": 88.365,
+   "why": "Kolkata biryani, with its trademark potato",
+   "tier": "gem",
+   "months": [
+    1,
+    12
+   ],
+   "time": "1 hr",
+   "eat": {
+    "kind": "Restaurant",
+    "dishes": [
+     "Kolkata biryani",
+     "Chaap"
+    ],
+    "veg": false,
+    "when": "Lunch or dinner"
    }
   }
  ],

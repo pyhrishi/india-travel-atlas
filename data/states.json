@@ -30,7 +30,7 @@
   "slug": "assam",
   "type": "State",
   "status": "done",
-  "count": 166,
+  "count": 167,
   "best": [
    [
     10,
@@ -69,7 +69,7 @@
   "slug": "goa",
   "type": "State",
   "status": "done",
-  "count": 123,
+  "count": 124,
   "best": [
    [
     11,
@@ -82,7 +82,7 @@
   "slug": "gujarat",
   "type": "State",
   "status": "done",
-  "count": 178,
+  "count": 179,
   "best": [
    [
     10,
@@ -138,7 +138,7 @@
   "slug": "karnataka",
   "type": "State",
   "status": "done",
-  "count": 251,
+  "count": 256,
   "best": [
    [
     10,
@@ -151,7 +151,7 @@
   "slug": "kerala",
   "type": "State",
   "status": "done",
-  "count": 176,
+  "count": 182,
   "best": [
    [
     9,
@@ -164,7 +164,7 @@
   "slug": "madhya-pradesh",
   "type": "State",
   "status": "done",
-  "count": 185,
+  "count": 186,
   "best": [
    [
     10,
@@ -177,7 +177,7 @@
   "slug": "maharashtra",
   "type": "State",
   "status": "done",
-  "count": 243,
+  "count": 249,
   "best": [
    [
     10,
@@ -190,7 +190,7 @@
   "slug": "manipur",
   "type": "State",
   "status": "done",
-  "count": 50,
+  "count": 51,
   "best": [
    [
     10,
@@ -242,7 +242,7 @@
   "slug": "odisha",
   "type": "State",
   "status": "done",
-  "count": 149,
+  "count": 150,
   "best": [
    [
     10,
@@ -255,7 +255,7 @@
   "slug": "punjab",
   "type": "State",
   "status": "done",
-  "count": 96,
+  "count": 98,
   "best": [
    [
     10,
@@ -268,7 +268,7 @@
   "slug": "rajasthan",
   "type": "State",
   "status": "done",
-  "count": 212,
+  "count": 215,
   "best": [
    [
     10,
@@ -298,7 +298,7 @@
   "slug": "tamil-nadu",
   "type": "State",
   "status": "done",
-  "count": 203,
+  "count": 207,
   "best": [
    [
     11,
@@ -311,7 +311,7 @@
   "slug": "telangana",
   "type": "State",
   "status": "done",
-  "count": 109,
+  "count": 111,
   "best": [
    [
     10,
@@ -337,7 +337,7 @@
   "slug": "uttar-pradesh",
   "type": "State",
   "status": "done",
-  "count": 171,
+  "count": 173,
   "best": [
    [
     10,
@@ -350,7 +350,7 @@
   "slug": "uttarakhand",
   "type": "State",
   "status": "done",
-  "count": 201,
+  "count": 202,
   "best": [
    [
     3,
@@ -367,7 +367,7 @@
   "slug": "west-bengal",
   "type": "State",
   "status": "done",
-  "count": 173,
+  "count": 178,
   "best": [
    [
     10,
@@ -419,7 +419,7 @@
   "slug": "delhi",
   "type": "UT",
   "status": "done",
-  "count": 67,
+  "count": 69,
   "best": [
    [
     10,

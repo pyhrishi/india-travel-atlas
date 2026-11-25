@@ -105,7 +105,15 @@
     10,
     4
    ],
-   "time": "1 hr"
+   "time": "1 hr",
+   "art": {
+    "kind": "Devotional dance",
+    "where": "Govindajee temple, Imphal",
+    "when": "Raas Leela at Kartik Purnima and other festivals; Sankirtana at ceremonies",
+    "length": "Evening",
+    "what": "Manipuri Raas Leela and Sankirtana drumming and singing",
+    "note": "Manipuri Sankirtana is on UNESCO's intangible heritage list"
+   }
   },
   {
    "n": 4,
@@ -931,6 +939,29 @@
     "el": 2500,
     "diff": "Moderate",
     "base": "Koubru"
+   }
+  },
+  {
+   "n": 51,
+   "name": "Thang-Ta Martial Arts",
+   "district": "Imphal West",
+   "category": "Performance",
+   "g": "culture",
+   "lat": 24.808,
+   "lng": 93.938,
+   "why": "Manipur's sword-and-spear martial art, often shown at festivals",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hours",
+   "art": {
+    "kind": "Martial art",
+    "where": "Akhadas and festival stages in Imphal",
+    "when": "Sangai Festival (21–30 November) and other events",
+    "length": "Varies",
+    "what": "Sword and spear duels and dances"
    }
   }
  ],

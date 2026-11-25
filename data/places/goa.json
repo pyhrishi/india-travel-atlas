@@ -2187,6 +2187,31 @@
      "Walking"
     ]
    }
+  },
+  {
+   "n": 124,
+   "name": "Ritz Classic, Panaji",
+   "district": "North Goa",
+   "category": "Restaurant",
+   "g": "culture",
+   "lat": 15.498,
+   "lng": 73.828,
+   "why": "Goan fish-thali favourite in Panaji",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1 hr",
+   "eat": {
+    "kind": "Restaurant",
+    "dishes": [
+     "Fish thali",
+     "Prawn curry rice"
+    ],
+    "veg": false,
+    "when": "Lunch"
+   }
   }
  ],
  "festivals": [

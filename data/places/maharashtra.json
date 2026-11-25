@@ -4803,6 +4803,163 @@
    "circ": [
     "ashtavinayak"
    ]
+  },
+  {
+   "n": 244,
+   "name": "Britannia & Co, Ballard Estate",
+   "district": "Mumbai City",
+   "category": "Irani café",
+   "g": "culture",
+   "lat": 18.933,
+   "lng": 72.84,
+   "why": "Parsi-Irani café of 1923, famous for berry pulao",
+   "tier": "top",
+   "months": [
+    10,
+    5
+   ],
+   "time": "1 hr",
+   "eat": {
+    "kind": "Irani café",
+    "since": 1923,
+    "dishes": [
+     "Berry pulao",
+     "Sali boti",
+     "Caramel custard"
+    ],
+    "veg": false,
+    "when": "Lunch only; closed Sundays"
+   }
+  },
+  {
+   "n": 245,
+   "name": "Kyani & Co",
+   "district": "Mumbai City",
+   "category": "Irani café",
+   "g": "culture",
+   "lat": 18.946,
+   "lng": 72.829,
+   "why": "Irani café near Metro cinema, open since 1904",
+   "tier": "gem",
+   "months": [
+    1,
+    12
+   ],
+   "time": "45 min",
+   "eat": {
+    "kind": "Irani café",
+    "since": 1904,
+    "dishes": [
+     "Bun maska",
+     "Akuri",
+     "Irani chai"
+    ],
+    "when": "Breakfast"
+   }
+  },
+  {
+   "n": 246,
+   "name": "Bademiya, Colaba",
+   "district": "Mumbai City",
+   "category": "Kebab stall",
+   "g": "culture",
+   "lat": 18.923,
+   "lng": 72.832,
+   "why": "Late-night kebab stall behind the Taj",
+   "tier": "gem",
+   "months": [
+    10,
+    5
+   ],
+   "time": "45 min",
+   "eat": {
+    "kind": "Kebab stall",
+    "dishes": [
+     "Seekh kebab",
+     "Baida roti"
+    ],
+    "veg": false,
+    "when": "Late evening"
+   }
+  },
+  {
+   "n": 247,
+   "name": "Leopold Cafe",
+   "district": "Mumbai City",
+   "category": "Café",
+   "g": "culture",
+   "lat": 18.923,
+   "lng": 72.831,
+   "why": "Colaba café from 1871 and a backpacker landmark",
+   "tier": "gem",
+   "months": [
+    1,
+    12
+   ],
+   "time": "1 hr",
+   "eat": {
+    "kind": "Café",
+    "since": 1871,
+    "dishes": [
+     "Beer",
+     "Continental and Indian"
+    ],
+    "veg": false,
+    "when": "Afternoon to night"
+   }
+  },
+  {
+   "n": 248,
+   "name": "Chitale Bandhu, Deccan",
+   "district": "Pune",
+   "category": "Sweet shop",
+   "g": "culture",
+   "lat": 18.516,
+   "lng": 73.847,
+   "why": "Pune's famous sweet and namkeen shop",
+   "tier": "gem",
+   "months": [
+    1,
+    12
+   ],
+   "time": "30 min",
+   "eat": {
+    "kind": "Sweet shop",
+    "since": 1950,
+    "dishes": [
+     "Bakarwadi",
+     "Amba barfi"
+    ],
+    "veg": true,
+    "when": "Morning to evening; long afternoon break"
+   }
+  },
+  {
+   "n": 249,
+   "name": "Vaishali, FC Road",
+   "district": "Pune",
+   "category": "Café",
+   "g": "culture",
+   "lat": 18.521,
+   "lng": 73.841,
+   "why": "Student and professor favourite on FC Road",
+   "tier": "gem",
+   "months": [
+    1,
+    12
+   ],
+   "time": "1 hr",
+   "eat": {
+    "kind": "Café",
+    "since": 1951,
+    "dishes": [
+     "SPDP",
+     "Dosa",
+     "Filter coffee"
+    ],
+    "veg": true,
+    "when": "Breakfast"
+   }
   }
  ],
  "festivals": [

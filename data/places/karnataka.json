@@ -1106,7 +1106,15 @@
     10,
     4
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "eat": {
+    "kind": "Local speciality",
+    "dishes": [
+     "Butter-drenched benne dosa"
+    ],
+    "veg": true,
+    "when": "Breakfast"
+   }
   },
   {
    "n": 56,
@@ -1906,7 +1914,14 @@
     10,
     4
    ],
-   "time": "2–3 hrs"
+   "time": "2–3 hrs",
+   "art": {
+    "kind": "Festival",
+    "where": "Mysuru Palace and the city",
+    "when": "Mysuru Dasara, ten days ending on Vijayadashami (Sept–Oct)",
+    "length": "Ten days",
+    "what": "Lit-up palace, the Jamboo Savari elephant procession and torchlight parade"
+   }
   },
   {
    "n": 102,
@@ -2524,7 +2539,17 @@
     10,
     4
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "eat": {
+    "kind": "Food street",
+    "dishes": [
+     "Holige",
+     "Akki rotti",
+     "Gulkand"
+    ],
+    "veg": true,
+    "when": "Evenings"
+   }
   },
   {
    "n": 136,
@@ -3702,7 +3727,14 @@
     11,
     5
    ],
-   "time": "Evening"
+   "time": "Evening",
+   "art": {
+    "kind": "Dance-drama",
+    "where": "Temple grounds and halls in Udupi and Dakshina Kannada",
+    "when": "November to May, the 'tirugata' touring season",
+    "length": "Often all night",
+    "what": "Epic stories in huge crowns and painted faces with drums and a singer-narrator"
+   }
   },
   {
    "n": 205,
@@ -4706,6 +4738,131 @@
     "made": "Kinnal",
     "see": "Chitragara families' workshops",
     "buy": "Directly"
+   }
+  },
+  {
+   "n": 252,
+   "name": "Kambala Buffalo Races",
+   "district": "Dakshina Kannada",
+   "category": "Festival",
+   "g": "culture",
+   "lat": 13.068,
+   "lng": 74.995,
+   "why": "Buffalo races through paddy-field tracks in coastal Karnataka",
+   "tier": "gem",
+   "months": [
+    11,
+    3
+   ],
+   "time": "Full day",
+   "art": {
+    "kind": "Festival sport",
+    "where": "Kambala tracks across Dakshina Kannada and Udupi",
+    "when": "November to March, weekends",
+    "length": "Full day and night",
+    "what": "Pairs of buffalo sprinting through muddy tracks"
+   }
+  },
+  {
+   "n": 253,
+   "name": "Mavalli Tiffin Rooms (MTR)",
+   "district": "Bengaluru Urban",
+   "category": "Tiffin room",
+   "g": "culture",
+   "lat": 12.955,
+   "lng": 77.585,
+   "why": "Lalbagh Road institution, said to have invented the rava idli",
+   "tier": "top",
+   "months": [
+    1,
+    12
+   ],
+   "time": "1 hr",
+   "eat": {
+    "kind": "Tiffin room",
+    "since": 1924,
+    "dishes": [
+     "Rava idli",
+     "Masala dosa",
+     "Badam halwa"
+    ],
+    "veg": true,
+    "when": "Breakfast; expect queues"
+   }
+  },
+  {
+   "n": 254,
+   "name": "Vidyarthi Bhavan, Gandhi Bazaar",
+   "district": "Bengaluru Urban",
+   "category": "Tiffin room",
+   "g": "culture",
+   "lat": 12.945,
+   "lng": 77.571,
+   "why": "Basavanagudi tiffin house famous for crisp masala dosas",
+   "tier": "top",
+   "months": [
+    1,
+    12
+   ],
+   "time": "45 min",
+   "eat": {
+    "kind": "Tiffin room",
+    "since": 1943,
+    "dishes": [
+     "Masala dosa",
+     "Kesari bath"
+    ],
+    "veg": true,
+    "when": "Breakfast; closed Fridays"
+   }
+  },
+  {
+   "n": 255,
+   "name": "CTR, Malleshwaram",
+   "district": "Bengaluru Urban",
+   "category": "Tiffin room",
+   "g": "culture",
+   "lat": 13.0,
+   "lng": 77.57,
+   "why": "Shri Sagar (Central Tiffin Room), loved for benne masale dose",
+   "tier": "gem",
+   "months": [
+    1,
+    12
+   ],
+   "time": "45 min",
+   "eat": {
+    "kind": "Tiffin room",
+    "dishes": [
+     "Benne masale dose",
+     "Mangalore bajji"
+    ],
+    "veg": true,
+    "when": "Breakfast"
+   }
+  },
+  {
+   "n": 256,
+   "name": "Mylari, Mysuru",
+   "district": "Mysuru",
+   "category": "Tiffin room",
+   "g": "culture",
+   "lat": 12.307,
+   "lng": 76.651,
+   "why": "Tiny dosa house with soft butter dosas",
+   "tier": "gem",
+   "months": [
+    1,
+    12
+   ],
+   "time": "45 min",
+   "eat": {
+    "kind": "Tiffin room",
+    "dishes": [
+     "Mylari dosa"
+    ],
+    "veg": true,
+    "when": "Breakfast"
    }
   }
  ],

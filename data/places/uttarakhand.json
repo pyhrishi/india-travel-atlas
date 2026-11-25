@@ -4022,6 +4022,30 @@
      "Boat"
     ]
    }
+  },
+  {
+   "n": 202,
+   "name": "Saloor-Dungra (Ramman)",
+   "district": "Chamoli",
+   "category": "Festival",
+   "g": "culture",
+   "lat": 30.41,
+   "lng": 79.42,
+   "why": "Twin villages that stage Ramman, a masked ritual festival",
+   "tier": "gem",
+   "months": [
+    4,
+    4
+   ],
+   "time": "Full day",
+   "art": {
+    "kind": "Ritual festival",
+    "where": "Bhumiyal Devta courtyard, Saloor-Dungra",
+    "when": "Baisakh (April); dates set by the village",
+    "length": "Over several days",
+    "what": "Masked dances and episodes from the Ramayana",
+    "note": "Ramman is on UNESCO's intangible heritage list"
+   }
   }
  ],
  "festivals": [

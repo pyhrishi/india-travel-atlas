@@ -1489,7 +1489,14 @@
     10,
     4
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "art": {
+    "kind": "Monastic arts",
+    "where": "Kamalabari and other satras on Majuli",
+    "when": "Raas festival in November; daily prayers and practice",
+    "length": "Varies",
+    "what": "Sattriya dance, bhaona plays and borgeet songs kept alive by monks"
+   }
   },
   {
    "n": 75,
@@ -1521,7 +1528,14 @@
     10,
     4
    ],
-   "time": "2–3 hrs"
+   "time": "2–3 hrs",
+   "art": {
+    "kind": "Mask-making",
+    "where": "Samaguri Satra, Majuli",
+    "when": "Year round",
+    "length": "1 hour",
+    "what": "Huge bamboo-and-clay masks made for bhaona plays"
+   }
   },
   {
    "n": 77,
@@ -3031,6 +3045,31 @@
     "el": 250,
     "diff": "Easy",
     "base": "Guwahati"
+   }
+  },
+  {
+   "n": 167,
+   "name": "Khorikaa, Guwahati",
+   "district": "Kamrup Metropolitan",
+   "category": "Restaurant",
+   "g": "culture",
+   "lat": 26.144,
+   "lng": 91.77,
+   "why": "Assamese thalis and smoked meats",
+   "tier": "gem",
+   "months": [
+    10,
+    4
+   ],
+   "time": "1 hr",
+   "eat": {
+    "kind": "Restaurant",
+    "dishes": [
+     "Assamese thali",
+     "Pork with bamboo shoot"
+    ],
+    "veg": false,
+    "when": "Lunch or dinner"
    }
   }
  ],
