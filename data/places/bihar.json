@@ -1066,7 +1066,15 @@
     10,
     3
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "gi": {
+    "craft": "Madhubani (Mithila) painting",
+    "year": 2007,
+    "made": "Jitwarpur and Ranti villages",
+    "see": "Painters' homes",
+    "buy": "Directly from artists",
+    "note": "Line paintings once made on mud walls for weddings"
+   }
   },
   {
    "n": 54,
@@ -1317,7 +1325,13 @@
     10,
     3
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "gi": {
+    "craft": "Bhagalpur tussar silk",
+    "made": "Nathnagar, Bhagalpur",
+    "see": "Looms",
+    "buy": "Weavers directly"
+   }
   },
   {
    "n": 68,

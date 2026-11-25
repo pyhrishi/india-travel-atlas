@@ -563,7 +563,14 @@
     10,
     3
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "gi": {
+    "craft": "Etikoppaka toys",
+    "made": "Etikoppaka",
+    "see": "Lathe workshops on the Varaha river",
+    "buy": "Directly from craftspeople",
+    "note": "Lacquered toys coloured with seeds, bark and roots"
+   }
   },
   {
    "n": 21,
@@ -909,7 +916,14 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "gi": {
+    "craft": "Uppada jamdani sarees",
+    "year": 2009,
+    "made": "Uppada",
+    "see": "Weavers' homes",
+    "buy": "Cooperatives"
+   }
   },
   {
    "n": 42,
@@ -1210,7 +1224,15 @@
     10,
     3
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "gi": {
+    "craft": "Machilipatnam Kalamkari",
+    "year": 2008,
+    "made": "Pedana",
+    "see": "Block-printing workshops",
+    "buy": "Workshops directly",
+    "note": "Block-printed Kalamkari with natural dyes"
+   }
   },
   {
    "n": 59,
@@ -1516,7 +1538,15 @@
     10,
     3
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "gi": {
+    "craft": "Srikalahasti Kalamkari",
+    "year": 2008,
+    "made": "Srikalahasti",
+    "see": "Artists' workshops",
+    "buy": "Directly from artists",
+    "note": "Freehand pen-drawn Kalamkari, unlike Pedana's block prints"
+   }
   },
   {
    "n": 77,
@@ -2002,7 +2032,13 @@
     10,
     3
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "gi": {
+    "craft": "Budithi bell and brass metal craft",
+    "made": "Budithi",
+    "see": "Foundries in the village",
+    "buy": "Workshops"
+   }
   },
   {
    "name": "Thotapalli Barrage",
@@ -3103,7 +3139,14 @@
     10,
     3
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "gi": {
+    "craft": "Venkatagiri sarees",
+    "made": "Venkatagiri",
+    "see": "Weavers' homes",
+    "buy": "Cooperatives",
+    "note": "Fine cotton with zari borders"
+   }
   },
   {
    "name": "Irakam Island",
@@ -3526,7 +3569,13 @@
     10,
     3
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "gi": {
+    "craft": "Dharmavaram silk sarees",
+    "made": "Dharmavaram",
+    "see": "Weavers' homes",
+    "buy": "Cooperatives"
+   }
   },
   {
    "name": "Nimmalakunta",

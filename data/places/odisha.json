@@ -180,7 +180,15 @@
     10,
     3
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "gi": {
+    "craft": "Pattachitra (Orissa)",
+    "year": 2008,
+    "made": "Raghurajpur",
+    "see": "Every house in the village is a studio",
+    "buy": "Directly from painters",
+    "note": "Cloth scroll paintings of Jagannath and the epics, also palm-leaf etchings"
+   }
   },
   {
    "n": 5,
@@ -255,7 +263,15 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "gi": {
+    "craft": "Pipili applique work",
+    "year": 2008,
+    "made": "Pipili",
+    "see": "Shops along the main road",
+    "buy": "Shops",
+    "note": "Bright applique canopies and umbrellas, first made for Jagannath's chariots"
+   }
   },
   {
    "n": 8,
@@ -1000,7 +1016,15 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "gi": {
+    "craft": "Kotpad handloom fabric",
+    "year": 2005,
+    "made": "Kotpad",
+    "see": "Weavers' homes",
+    "buy": "Cooperative society",
+    "note": "Cotton dyed with aal (Indian madder) roots"
+   }
   },
   {
    "n": 52,
@@ -1644,7 +1668,14 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "gi": {
+    "craft": "Sambalpuri bandha",
+    "made": "Bargarh and Sonepur",
+    "see": "Weavers' homes",
+    "buy": "Cooperatives",
+    "note": "Tie-dyed ikat with conch, wheel and flower motifs"
+   }
   },
   {
    "n": 87,

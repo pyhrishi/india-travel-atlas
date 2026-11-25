@@ -511,7 +511,15 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "gi": {
+    "craft": "Pochampally ikat silk and cotton",
+    "year": 2005,
+    "made": "Bhoodan Pochampally and nearby villages",
+    "see": "Looms in weavers' homes",
+    "buy": "Weavers' cooperative society",
+    "note": "Threads are tie-dyed before weaving so the pattern appears as they're woven"
+   }
   },
   {
    "n": 27,
@@ -1071,7 +1079,14 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "gi": {
+    "craft": "Nirmal toys and craft",
+    "year": 2009,
+    "made": "Nirmal",
+    "see": "Nirmal craft cooperative",
+    "buy": "Cooperative showroom"
+   }
   },
   {
    "n": 60,
@@ -1189,7 +1204,14 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "gi": {
+    "craft": "Silver filigree of Karimnagar",
+    "year": 2007,
+    "made": "Karimnagar",
+    "see": "Workshops",
+    "buy": "Workshops"
+   }
   },
   {
    "n": 67,
@@ -1467,7 +1489,14 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "gi": {
+    "craft": "Pembarthi metal craft",
+    "year": 2010,
+    "made": "Pembarthi",
+    "see": "Sheet-metal workshops",
+    "buy": "Workshops"
+   }
   },
   {
    "n": 84,
@@ -1547,7 +1576,13 @@
     10,
     3
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "gi": {
+    "craft": "Narayanpet handloom sarees",
+    "made": "Narayanpet",
+    "see": "Weavers' homes",
+    "buy": "Cooperatives"
+   }
   },
   {
    "n": 89,

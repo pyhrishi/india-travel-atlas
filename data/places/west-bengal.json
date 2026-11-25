@@ -837,7 +837,15 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "gi": {
+    "craft": "Bankura Panchmura terracotta",
+    "year": 2018,
+    "made": "Panchmura",
+    "see": "Potters' workshops",
+    "buy": "Potters directly",
+    "note": "Long-necked terracotta horses"
+   }
   },
   {
    "n": 42,
@@ -875,7 +883,15 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "gi": {
+    "craft": "Baluchari sarees",
+    "year": 2011,
+    "made": "Bishnupur",
+    "see": "Jacquard looms",
+    "buy": "Cooperatives",
+    "note": "Silk sarees with woven scenes from the epics on the pallu"
+   }
   },
   {
    "n": 44,
@@ -907,7 +923,14 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "gi": {
+    "craft": "Purulia Chhau masks",
+    "year": 2018,
+    "made": "Charida",
+    "see": "Mask makers' workshops",
+    "buy": "Workshops"
+   }
   },
   {
    "n": 46,
@@ -1233,7 +1256,13 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "gi": {
+    "craft": "Shantipur handloom sarees",
+    "made": "Shantipur",
+    "see": "Weavers' homes",
+    "buy": "Cooperatives"
+   }
   },
   {
    "n": 66,
@@ -2510,7 +2539,14 @@
     11,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "gi": {
+    "craft": "Bengal patachitra",
+    "made": "Naya (Pingla)",
+    "see": "Painters' homes",
+    "buy": "Directly; there's a yearly fair in November",
+    "note": "Scroll paintings sung aloud as stories"
+   }
   },
   {
    "n": 139,

@@ -697,7 +697,15 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "gi": {
+    "craft": "Banaras brocades and sarees",
+    "year": 2009,
+    "made": "Varanasi (Madanpura, Peeli Kothi)",
+    "see": "Power and hand looms in weavers' lanes",
+    "buy": "Trusted cooperatives; check the GI tag",
+    "note": "Silk with gold and silver zari brocade"
+   }
   },
   {
    "n": 34,
@@ -1179,7 +1187,15 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "gi": {
+    "craft": "Lucknow chikan craft",
+    "year": 2008,
+    "made": "Lucknow (Chowk)",
+    "see": "Embroiderers' homes and workshops",
+    "buy": "Chowk markets",
+    "note": "White-on-white shadow embroidery"
+   }
   },
   {
    "n": 63,
@@ -1736,7 +1752,14 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "gi": {
+    "craft": "Kannauj attar",
+    "made": "Kannauj",
+    "see": "Deg-bhapka distilleries",
+    "buy": "Distilleries directly",
+    "note": "Flower oils distilled into sandalwood oil in copper pots"
+   }
   },
   {
    "n": 94,
@@ -1936,7 +1959,13 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "gi": {
+    "craft": "Saharanpur wood craft",
+    "made": "Saharanpur",
+    "see": "Carving workshops",
+    "buy": "Workshops"
+   }
   },
   {
    "n": 105,
@@ -2000,7 +2029,13 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "gi": {
+    "craft": "Moradabad metal craft",
+    "made": "Moradabad",
+    "see": "Peetal Nagri workshops",
+    "buy": "Workshops"
+   }
   },
   {
    "n": 109,
@@ -2016,7 +2051,13 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "gi": {
+    "craft": "Firozabad glass",
+    "made": "Firozabad",
+    "see": "Glass furnaces and bangle workshops",
+    "buy": "Workshops"
+   }
   },
   {
    "n": 110,
@@ -2096,7 +2137,13 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "gi": {
+    "craft": "Nizamabad black pottery",
+    "made": "Nizamabad, Azamgarh",
+    "see": "Potters' homes",
+    "buy": "Potters directly"
+   }
   },
   {
    "n": 115,
@@ -2613,7 +2660,14 @@
     10,
     3
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "gi": {
+    "craft": "Bhadohi handmade carpets",
+    "year": 2010,
+    "made": "Bhadohi",
+    "see": "Weaving sheds",
+    "buy": "Exporters' showrooms"
+   }
   },
   {
    "n": 145,

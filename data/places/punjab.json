@@ -1307,7 +1307,13 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "gi": {
+    "craft": "Hoshiarpur wooden inlay",
+    "made": "Hoshiarpur",
+    "see": "Workshops",
+    "buy": "Workshops"
+   }
   },
   {
    "n": 72,

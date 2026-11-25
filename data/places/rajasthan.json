@@ -474,7 +474,15 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "gi": {
+    "craft": "Bagru hand block printing",
+    "year": 2011,
+    "made": "Bagru",
+    "see": "Chhipa printers' yards",
+    "buy": "Workshops directly",
+    "note": "Natural-dye dabu (mud-resist) prints"
+   }
   },
   {
    "n": 20,
@@ -490,7 +498,14 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "gi": {
+    "craft": "Sanganeri hand block printing",
+    "year": 2010,
+    "made": "Sanganer",
+    "see": "Printing workshops",
+    "buy": "Workshops"
+   }
   },
   {
    "n": 21,
@@ -2453,7 +2468,15 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "gi": {
+    "craft": "Kota Doria (Kota masuria)",
+    "year": 2005,
+    "made": "Kaithoon near Kota",
+    "see": "Pit looms in Kaithoon",
+    "buy": "Weavers' cooperatives",
+    "note": "Light, square-checked weave of cotton and silk"
+   }
   },
   {
    "n": 131,
@@ -3378,7 +3401,14 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "gi": {
+    "craft": "Thewa art",
+    "made": "Pratapgarh",
+    "see": "Family workshops",
+    "buy": "Workshops",
+    "note": "Gold filigree fused onto coloured glass"
+   }
   },
   {
    "n": 188,
@@ -3791,6 +3821,51 @@
     "how": [
      "Walking"
     ]
+   }
+  },
+  {
+   "n": 211,
+   "name": "Kot Jewar Blue Pottery",
+   "district": "Jaipur",
+   "category": "Craft village",
+   "g": "culture",
+   "lat": 26.95,
+   "lng": 75.87,
+   "why": "Turkish-blue quartz pottery fired without clay",
+   "tier": "top",
+   "months": [
+    10,
+    3
+   ],
+   "time": "1–2 hrs",
+   "gi": {
+    "craft": "Blue pottery of Jaipur",
+    "year": 2008,
+    "made": "Jaipur",
+    "see": "Studios at Kot Jewar and the old city",
+    "buy": "Studios"
+   }
+  },
+  {
+   "n": 212,
+   "name": "Molela",
+   "district": "Rajsamand",
+   "category": "Craft village",
+   "g": "culture",
+   "lat": 24.95,
+   "lng": 73.79,
+   "why": "Village of terracotta plaques of folk deities",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day",
+   "gi": {
+    "craft": "Molela clay work",
+    "made": "Molela",
+    "see": "Potters' homes",
+    "buy": "Directly"
    }
   }
  ],

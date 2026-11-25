@@ -2989,6 +2989,7 @@ function xBlocks(p){return XF.filter(f=>f!=="trek"&&p[f]&&XCARD[f]).map(f=>{cons
  ["darksky","Dark skies","Places to see the Milky Way","#1e293b",tg("sky")],
  ["rail","Great rail journeys","Toy trains, ghat lines and sea bridges","#7c2d12",tg("rail")],
  ["drives","Great drives","High passes, hairpin ghats and coast roads","#334155",tg("drive")],
+ ["crafts","GI crafts & craft villages","Where India's registered crafts are still made","#9a3412",tg("gi")],
 ].forEach(c=>{if(!COLL.some(x=>x[0]===c[0]))COLL.push(c)});
 
 function route(silent,h0){const h=h0!=null?h0:location.hash.slice(1);const m=h.match(/^(.*)-(\d+)$/);

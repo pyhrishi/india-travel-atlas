@@ -617,7 +617,14 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "gi": {
+    "craft": "Chanderi fabric",
+    "year": 2005,
+    "made": "Chanderi",
+    "see": "Weavers' homes in the old town",
+    "buy": "Cooperatives"
+   }
   },
   {
    "n": 27,
@@ -879,7 +886,14 @@
     10,
     3
    ],
-   "time": "Overnight"
+   "time": "Overnight",
+   "gi": {
+    "craft": "Maheshwar sarees",
+    "year": 2010,
+    "made": "Maheshwar",
+    "see": "Rehwa Society inside the fort",
+    "buy": "Rehwa Society"
+   }
   },
   {
    "n": 43,
@@ -1000,7 +1014,15 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "gi": {
+    "craft": "Bagh prints",
+    "year": 2008,
+    "made": "Bagh",
+    "see": "Block-printing workshops on the Baghini river",
+    "buy": "Workshops directly",
+    "note": "Red and black block prints using river water"
+   }
   },
   {
    "n": 50,

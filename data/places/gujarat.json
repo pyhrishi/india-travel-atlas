@@ -321,7 +321,14 @@
     10,
     3
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "gi": {
+    "craft": "Kachchh shawls",
+    "year": 2012,
+    "made": "Bhujodi",
+    "see": "Weavers' homes",
+    "buy": "Weavers directly"
+   }
   },
   {
    "n": 8,
@@ -337,7 +344,14 @@
     10,
     3
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "gi": {
+    "craft": "Rogan art",
+    "made": "Nirona",
+    "see": "The Khatri family studio",
+    "buy": "Studio",
+    "note": "Castor-oil paint drawn on cloth with a stick"
+   }
   },
   {
    "n": 9,
@@ -1486,7 +1500,15 @@
     10,
     3
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "gi": {
+    "craft": "Patan patola",
+    "year": 2013,
+    "made": "Patan",
+    "see": "Salvi family workshops",
+    "buy": "Directly from the Salvi family",
+    "note": "Double ikat: both warp and weft are dyed before weaving; a saree can take months"
+   }
   },
   {
    "n": 70,
@@ -1844,7 +1866,14 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "gi": {
+    "craft": "Kutch Ajrakh",
+    "made": "Ajrakhpur",
+    "see": "Printing yards",
+    "buy": "Workshops",
+    "note": "Indigo and madder block prints"
+   }
   },
   {
    "name": "Hamirsar Lake & Bhujia Fort",

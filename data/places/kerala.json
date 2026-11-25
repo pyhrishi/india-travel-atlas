@@ -619,7 +619,15 @@
     10,
     4
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "gi": {
+    "craft": "Aranmula kannadi (metal mirror)",
+    "year": 2005,
+    "made": "Aranmula",
+    "see": "Family workshops",
+    "buy": "Workshops and the Parthasarathy temple shops",
+    "note": "A mirror made of metal, not glass"
+   }
   },
   {
    "n": 28,
@@ -3226,6 +3234,29 @@
      "Western Ghats forest"
     ],
     "book": "IRCTC"
+   }
+  },
+  {
+   "n": 176,
+   "name": "Balaramapuram",
+   "district": "Thiruvananthapuram",
+   "category": "Craft village",
+   "g": "culture",
+   "lat": 8.43,
+   "lng": 77.04,
+   "why": "Weaving village of Kerala's cream-and-gold kasavu",
+   "tier": "gem",
+   "months": [
+    1,
+    12
+   ],
+   "time": "Half day",
+   "gi": {
+    "craft": "Balaramapuram handloom (kasavu)",
+    "year": 2009,
+    "made": "Balaramapuram",
+    "see": "Weavers' homes",
+    "buy": "Cooperatives"
    }
   }
  ],

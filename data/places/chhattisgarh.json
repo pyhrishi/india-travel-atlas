@@ -1257,7 +1257,13 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "gi": {
+    "craft": "Bastar dhokra",
+    "made": "Kondagaon",
+    "see": "Dhokra foundries",
+    "buy": "Shilpgram"
+   }
   },
   {
    "name": "Gadiya Pahad",

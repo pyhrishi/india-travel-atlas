@@ -679,7 +679,15 @@
     10,
     2
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "gi": {
+    "craft": "Bidriware",
+    "year": 2006,
+    "made": "Bidar",
+    "see": "Workshops in the old city",
+    "buy": "Workshops directly",
+    "note": "Blackened zinc-copper alloy inlaid with silver"
+   }
   },
   {
    "n": 30,
@@ -2792,7 +2800,15 @@
     10,
     4
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "gi": {
+    "craft": "Channapatna lacquered wooden toys",
+    "year": 2006,
+    "made": "Channapatna",
+    "see": "Workshops along the highway and in the town",
+    "buy": "Craft park and cooperative",
+    "note": "Ivory-wood toys turned on a lathe and coloured with natural lacquer"
+   }
   },
   {
    "n": 152,
@@ -4616,6 +4632,74 @@
     ],
     "book": "IRCTC",
     "warn": "Departures change by season; check current schedules"
+   }
+  },
+  {
+   "n": 249,
+   "name": "Mysuru Silk Weaving Factory",
+   "district": "Mysuru",
+   "category": "Craft village",
+   "g": "culture",
+   "lat": 12.29,
+   "lng": 76.63,
+   "why": "Government silk factory of 1912 where Mysore silk is woven",
+   "tier": "top",
+   "months": [
+    1,
+    12
+   ],
+   "time": "1–2 hrs",
+   "gi": {
+    "craft": "Mysore silk",
+    "year": 2005,
+    "made": "Mysuru",
+    "see": "Factory visits (KSIC)",
+    "buy": "KSIC showrooms only",
+    "note": "Pure silk with real gold zari; only KSIC weaves GI Mysore silk"
+   }
+  },
+  {
+   "n": 250,
+   "name": "Ilkal",
+   "district": "Bagalkot",
+   "category": "Craft village",
+   "g": "culture",
+   "lat": 15.96,
+   "lng": 76.11,
+   "why": "Weaving town of Ilkal sarees with the red 'tope teni' pallu",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day",
+   "gi": {
+    "craft": "Ilkal sarees",
+    "made": "Ilkal",
+    "see": "Weavers' homes",
+    "buy": "Cooperatives"
+   }
+  },
+  {
+   "n": 251,
+   "name": "Kinnal",
+   "district": "Koppal",
+   "category": "Craft village",
+   "g": "culture",
+   "lat": 15.42,
+   "lng": 76.0,
+   "why": "Village of lacquered wooden figures once made for Hampi's temples",
+   "tier": "gem",
+   "months": [
+    10,
+    3
+   ],
+   "time": "Half day",
+   "gi": {
+    "craft": "Kinnal toys",
+    "made": "Kinnal",
+    "see": "Chitragara families' workshops",
+    "buy": "Directly"
    }
   }
  ],

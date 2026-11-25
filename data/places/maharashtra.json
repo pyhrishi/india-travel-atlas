@@ -1515,7 +1515,14 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "gi": {
+    "craft": "Kolhapuri chappals",
+    "year": 2019,
+    "made": "Kolhapur",
+    "see": "Workshops in Shivaji Road lanes",
+    "buy": "Workshops directly"
+   }
   },
   {
    "n": 75,
@@ -1976,7 +1983,15 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "gi": {
+    "craft": "Paithani sarees",
+    "year": 2010,
+    "made": "Paithan and Yeola",
+    "see": "Paithani weaving centre",
+    "buy": "Weaving centre",
+    "note": "Silk with peacock and lotus pallus woven with zari"
+   }
   },
   {
    "n": 102,
@@ -3047,7 +3062,15 @@
     10,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "gi": {
+    "craft": "Warli painting",
+    "year": 2014,
+    "made": "Dahanu and Jawhar",
+    "see": "Painters in Ganjad and nearby villages",
+    "buy": "Directly from artists",
+    "note": "White figures painted on mud walls"
+   }
   },
   {
    "n": 160,

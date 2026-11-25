@@ -301,7 +301,14 @@
     11,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "gi": {
+    "craft": "Athangudi tiles",
+    "made": "Athangudi",
+    "see": "Tile-making yards",
+    "buy": "Workshops",
+    "note": "Handmade cement tiles of Chettinad mansions"
+   }
   },
   {
    "n": 10,
@@ -867,7 +874,15 @@
     11,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "gi": {
+    "craft": "Toda embroidery",
+    "year": 2013,
+    "made": "Toda munds near Ooty",
+    "see": "Women embroidering in the munds",
+    "buy": "Toda cooperative shops",
+    "note": "Red and black embroidery on white cotton"
+   }
   },
   {
    "n": 40,
@@ -1340,7 +1355,15 @@
     11,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "gi": {
+    "craft": "Thanjavur paintings",
+    "year": 2007,
+    "made": "Thanjavur",
+    "see": "Painters' studios in town",
+    "buy": "Studios",
+    "note": "Gilded paintings with gesso relief and gem inlay"
+   }
   },
   {
    "n": 67,
@@ -1404,7 +1427,15 @@
     11,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "gi": {
+    "craft": "Swamimalai bronze icons",
+    "year": 2008,
+    "made": "Swamimalai",
+    "see": "Lost-wax foundries",
+    "buy": "Foundries directly",
+    "note": "Chola-style bronzes made by lost-wax casting with Kaveri silt"
+   }
   },
   {
    "n": 71,
@@ -1983,7 +2014,15 @@
     11,
     3
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "gi": {
+    "craft": "Kanchipuram silk sarees",
+    "year": 2005,
+    "made": "Kanchipuram",
+    "see": "Weavers' homes off Gandhi Road",
+    "buy": "Cooperative societies with the GI logo",
+    "note": "Heavy silk with gold zari and contrasting borders woven separately and interlocked"
+   }
   },
   {
    "n": 103,

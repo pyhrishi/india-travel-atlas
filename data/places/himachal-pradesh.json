@@ -753,7 +753,14 @@
     3,
     11
    ],
-   "time": "1 hr"
+   "time": "1 hr",
+   "gi": {
+    "craft": "Kullu shawl",
+    "year": 2004,
+    "made": "Kullu and Bhuntar",
+    "see": "Cooperative workshops",
+    "buy": "Bhuttico and weavers' societies"
+   }
   },
   {
    "n": 33,
@@ -1982,7 +1989,14 @@
     1,
     12
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "gi": {
+    "craft": "Chamba rumal",
+    "year": 2008,
+    "made": "Chamba",
+    "see": "Women's workshops",
+    "buy": "Bhuri Singh Museum shop and artisans"
+   }
   },
   {
    "n": 100,
