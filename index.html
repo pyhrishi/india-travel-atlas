@@ -510,6 +510,31 @@ details.tool summary{display:flex;align-items:center;gap:8px;cursor:pointer;list
 .tst{display:grid;grid-template-columns:56px minmax(0,1fr) auto;gap:10px;align-items:center;padding:10px 12px}.tst .thumb{width:56px;height:56px}.tsb{border:0;background:none;padding:0;text-align:left;font:inherit;color:inherit;min-width:0}.tsb b{font-size:15px;line-height:1.25}.tcond{font-size:12px;color:#a15c00;margin-top:2px}
 .tord{display:flex;flex-direction:column;gap:2px}.tord .ib{width:34px;height:28px;font-size:11px;border-radius:8px}.tord .ib:disabled{opacity:.3}
 .tleg{margin:0 12px 0 40px;padding:4px 0 4px 18px;border-left:2px dashed var(--line);font-size:12.5px;color:var(--soft)}.tleg.far{color:#a15c00}.tstay{padding:9px 14px;font-size:13px;color:var(--soft);background:var(--card);border-top:1px solid var(--line)}
+/* on the way */
+.wform{display:grid;grid-template-columns:minmax(0,1fr);position:relative}
+.wfld{position:relative}.wfld input{width:100%;padding-right:52px}
+.wsug{list-style:none;margin:4px 0 0;padding:0;border-radius:14px;overflow:hidden}.wsug:not(:empty){border:1px solid var(--line);background:var(--bg);box-shadow:var(--shadow)}
+.wopt{display:flex;flex-direction:column;align-items:flex-start;gap:1px;width:100%;min-height:48px;padding:8px 14px;border:0;border-bottom:1px solid var(--line);background:none;font:inherit;text-align:left;color:var(--ink)}.wopt span{font-size:12.5px;color:var(--soft)}.wopt:hover,.wopt:focus-visible{background:var(--card)}
+.wswap{position:absolute;right:6px;top:calc(50% - 8px);z-index:2;width:40px;height:40px;border-radius:50%;font-size:18px;background:var(--bg);border:1px solid var(--line);color:var(--ink)}
+.wideas{margin-top:14px}.wideas .chip{display:inline-flex;margin:0 6px 8px 0}
+.wsum{margin-top:16px;padding:14px;border-radius:18px;background:var(--pinksoft)}.wsum b{display:block;font-size:17px}.wsum span{font-size:14px;color:var(--soft)}
+.wacts{grid-template-columns:repeat(2,minmax(0,1fr));margin-top:10px}.wacts .pri{grid-column:1/-1}.wacts .act:disabled{opacity:.5}
+.wtl{border:1px solid var(--line);border-radius:18px;overflow:hidden;margin-top:6px}
+.wst{display:flex;align-items:center;border-bottom:1px solid var(--line)}.wst:last-child{border-bottom:0}.wst.on{background:light-dark(#fff6f9,#22141b)}
+.wst .wit{flex:1;min-width:0;border-bottom:0;padding-left:10px}.wtm{flex:none;width:54px;text-align:center;padding-left:8px}.wtm b{display:block;font-size:13.5px}.wtm span{font-size:11.5px;color:var(--soft)}
+.wdet{display:block;font-size:12.5px;color:light-dark(#18794e,#4cc38a);margin-top:1px}
+.wadd{flex:none;width:44px;height:44px;margin-right:10px;border-radius:50%;border:1px solid var(--line);background:var(--bg);font-size:18px;color:var(--ink)}.wadd[aria-pressed=true]{background:var(--pink);border-color:var(--pink);color:#fff}
+h3 small{font-weight:600;color:var(--soft);margin-left:6px;font-size:13px}
+.wline{fill:none;stroke:#1f78d1;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;vector-effect:non-scaling-stroke;opacity:.85}
+/* weather */
+.wxr{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px}
+.wxd{display:flex;flex-direction:column;align-items:center;gap:1px;padding:7px 2px;border-radius:12px;background:var(--bg);font-size:12px;border:1px solid transparent}.wxd span{color:var(--soft);font-size:11.5px}.wxd i{font-style:normal;font-size:20px;line-height:1.3}.wxd b{font-size:14px}.wxd small{color:var(--soft)}.wxd em{font-style:normal;font-size:11px;color:#1f78d1;min-height:14px}
+.wxd.wx-bad{background:light-dark(#fff1e6,#2e1f12);border-color:light-dark(#f5c08a,#6b4520)}.wxd.trip{border-color:var(--pink);border-width:2px}
+.twx{font-size:12.5px;font-weight:600}.twx.wx-ok{color:light-dark(#18794e,#4cc38a)}.twx.wx-meh{color:light-dark(#8a5a00,#e3b341)}.twx.wx-bad{color:light-dark(#b42318,#ff7b6e)}
+.twxw{font-size:12px;margin-top:2px}.twxw.wx-bad{color:light-dark(#b42318,#ff7b6e)}.twxw.wx-meh{color:light-dark(#8a5a00,#e3b341)}
+.twxa{display:flex;flex-direction:column;gap:6px;margin-top:10px;padding:12px 14px;border-radius:16px;background:light-dark(#fff1e6,#2e1f12);border:1px solid light-dark(#f5c08a,#6b4520);font-size:14px}.twxa .act{margin-top:2px}.twxa .m2{font-size:13px;color:var(--soft)}
+.twxn{margin:10px 0 0}
+.wayon .route{display:none}
 </style>
 </head>
 <body>
@@ -850,6 +875,7 @@ function fitIndia(){S.fitK=zoomTo([[ox,oy],[ox+29.3*CL*sc,oy+30.35*sc]],1.6)}
 function focusPts(ps,dur){if(!ps.length)return;const xy=ps.map(p=>P(p.lng,p.lat));const xs=xy.map(a=>a[0]),ys=xy.map(a=>a[1]);const pad=8;zoomTo([[Math.min(...xs)-pad,Math.min(...ys)-pad],[Math.max(...xs)+pad,Math.max(...ys)+pad]],30,dur)}
 function focusPlace(p){S.manual=false;const v=vb();const[x,y]=P(p.lng,p.lat);const k=Math.max(K,(S.fitK||1)*2.2,10);svg.transition().duration(dur(650)).call(zoom.transform,d3.zoomIdentity.translate(v.x,v.y).scale(k).translate(-x,-y))}
 function panTo(p){const v=vb();const[x,y]=P(p.lng,p.lat);const k=Math.max(K,(S.fitK||1)*1.2);svg.transition().duration(dur(450)).call(zoom.transform,d3.zoomIdentity.translate(v.x,v.y).scale(k).translate(-x,-y))}
+const gWay=root.insert("g",()=>gRoute.node()).attr("class","gway");
 function drawRoute(){const pts=(S.trail?S.trail:M.trip.map(byId).filter(Boolean));const line=d3.line().x(p=>P(p.lng,p.lat)[0]).y(p=>P(p.lng,p.lat)[1]);
   gRoute.selectAll("path").data(pts.length>1?[pts]:[]).join("path").attr("class","route").attr("d",line);
   const g=gRoute.selectAll("g.rn").data(pts,(p,i)=>id(p)+i).join(en=>{const a=en.append("g").attr("class","rn");a.append("circle").attr("r",9).attr("fill","#e5246b").attr("stroke","#fff").attr("stroke-width",2).attr("cx",14).attr("cy",-14);a.append("text").attr("class","rnum").attr("x",14).attr("y",-10);return a});
@@ -956,9 +982,9 @@ function syncNav(){try{const d=depth();if(d>navD){while(navD<d){navD++;history.p
 addEventListener("popstate",e=>{const d=(e.state&&e.state.ita)||0;ignHashT=Date.now();if(d>=depth()){navD=d;setHash();return}navD=d;let guard=20;while(depth()>d&&guard--){if(S.stack.length>1)doBack();else if(S.slug){goIndia();break}else break}navD=depth();setHash()});
 function goBack(){if(navD>0&&history.state&&history.state.ita===depth()&&S.stack.length>1){try{history.back();return}catch(e){}}doBack()}
 function doBack(){if(S.stack.length<2)return;S.stack.pop();S.hl=null;const top=S.stack[S.stack.length-1];if(top.v!=="place"){S.sel=null}else S.sel=byId(top.a);if(top.v==="trail")S.trail=curD().trails[top.a].ids.map(n=>curD().places.find(p=>p.n===n));else S.trail=null;paint(false,top.y||0);drawPins();drawRoute()}
-function paint(focus,y=0){const top=S.stack[S.stack.length-1]||{v:"explore"};if(top.v!=="shared")unsubShared();
+function paint(focus,y=0){const top=S.stack[S.stack.length-1]||{v:"explore"};if(top.v!=="shared")unsubShared();if(top.v!=="onway")wayClr();
   const nc=top.v==="coll"?top.a:null;if(nc!==S.coll){S.coll=nc;classStates();setTimeout(()=>{drawPins();if(nc)focusPts(collPlaces(nc));else if(S.slug)focusState()},0)}
-  ({explore:vExplore,list:vList,place:vPlace,trail:vTrail,trip:vTrip,passport:vPassport,states:vStates,search:vSearch,plan:vPlan,shared:vShared,fest:vFest,coll:vColl,near:vNear,bulk:vBulk,trails:vTrails,credits:vCredits,lists:vLists,listv:vListV,slist:vSList,getaway:vGetaway,journal:vJournal,stats:vStats,breaks:vBreaks,region:vRegion,discover:vDiscover,shelf:vShelf,colls:vColls,mag:vMag,issue:vIssue,nature:vNature,nev:vNev,journeys:vJourneys,jrn:vJrn,h36:vH36,h36v:vH36v,curio:vCurio,exps:vExps,best:vBest,photo:vPhoto}[top.v]||vExplore)(top.a);
+  ({explore:vExplore,list:vList,place:vPlace,trail:vTrail,trip:vTrip,passport:vPassport,states:vStates,search:vSearch,plan:vPlan,shared:vShared,fest:vFest,coll:vColl,near:vNear,bulk:vBulk,trails:vTrails,credits:vCredits,lists:vLists,listv:vListV,slist:vSList,getaway:vGetaway,onway:vOnWay,journal:vJournal,stats:vStats,breaks:vBreaks,region:vRegion,discover:vDiscover,shelf:vShelf,colls:vColls,mag:vMag,issue:vIssue,nature:vNature,nev:vNev,journeys:vJourneys,jrn:vJrn,h36:vH36,h36v:vH36v,curio:vCurio,exps:vExps,best:vBest,photo:vPhoto}[top.v]||vExplore)(top.a);
   const b=$("#bk");if(b)b.onclick=goBack;V.scrollTop=y;bind();hdr();setHash();drawChips();syncNav();updCar();scanPhotos(V);fillLocal(V);if(S.slug)chkDist();else S._ld=S.f.dist;if(focus){const h=V.querySelector("h2");if(h){h.tabIndex=-1;h.focus({preventScroll:true})}}}
 function setHash(){const top=S.stack[S.stack.length-1];let h=S.slug||"";if(top&&top.v==="place"&&S.sel)h=S.sel.slug+"-"+S.sel.n;try{if(h&&location.hash.slice(1)!==h)history.replaceState(history.state,"","#"+h);else if(!h&&location.hash)history.replaceState(history.state,"",location.pathname+location.search)}catch(e){}}
 function bind(){V.querySelectorAll("[data-fz]").forEach(el=>el.onclick=()=>{const[la,ln]=el.dataset.fz.split(",").map(Number);if(mobile())snapTo(0);setTimeout(()=>{const[x,y]=P(ln,la);const v=vb();svg.transition().duration(dur(700)).call(zoom.transform,d3.zoomIdentity.translate(v.x,v.y).scale(6).translate(-x,-y))},mobile()?320:0)});
@@ -1034,7 +1060,7 @@ function vPlace(k){const p=byId(k);if(!p){V.innerHTML=`<div class="pad">${crumbB
    ${warns.length?`<div class="warns">${warns.map(w=>`<span class="warn"><svg aria-hidden="true"><use href="#i-warn"/></svg>${esc(w)}</span>`).join("")}</div>`:""}
    <div class="facts"><div class="fact"><span>Best time</span><b class="${ok?"ok":""}">${monthsTxt(p)}</b>${mbar(p)}</div><div class="fact"><span>Time needed</span><b>${esc(p.time)}</b></div><div class="fact"><span>${esc(from[0])}</span><b>${esc(from[1])}</b></div></div><div class="facts sunf">${sunLine(p)}</div>
    ${aboutBlock()}${storyBlock(p)}
-   ${condBlock(p)}${reachBlock(p)}${foodBlock()}${magBlock(p)}
+   ${wxBlock(p)}${condBlock(p)}${reachBlock(p)}${foodBlock()}${magBlock(p)}
    <button class="where" id="where" aria-label="Show ${esc(p.name)} on the big map">${whereMap(p)}</button>
    ${fs.map(f=>`<p class="note" style="margin:0 0 10px"><b style="color:var(--ink)">${esc(f.name)}</b> · ${esc(f.when)}. ${esc(f.about)}</p>`).join("")}
    <div class="note" style="margin-top:0"><a href="${gm}" target="_blank" rel="noopener" style="color:var(--pinkink)">See photos and reviews on Google Maps ↗</a></div>
@@ -1056,7 +1082,7 @@ function vPlace(k){const p=byId(k);if(!p){V.innerHTML=`<div class="pad">${crumbB
   $("#atrip").onclick=()=>{const j=M.trip.indexOf(pid);if(j>=0){M.trip.splice(j,1);toast("Removed from trip",()=>{M.trip.splice(j,0,pid);save();paint(false,V.scrollTop);drawRoute()})}else{M.trip.push(pid);toast(`Added to trip (${M.trip.length} stop${M.trip.length>1?"s":""})`,()=>{M.trip=M.trip.filter(x=>x!==pid);save();paint(false,V.scrollTop);drawRoute()})}save();paint(false,V.scrollTop);drawRoute();fx("atrip")};
   $("#ashare").onclick=async()=>{const url=location.href.split("#")[0]+"#"+p.slug+"-"+p.n,text=`${p.name}, ${p.district}, ${st.name}.${p.why?" "+p.why+".":""}`;try{if(navigator.share){await navigator.share({title:p.name,text,url});return}}catch(e){if(e&&e.name==="AbortError")return}try{await navigator.clipboard.writeText(text+"\n"+gm);toast("Copied, ready to paste")}catch(e){toast("Couldn't share from here")}};
   $("#rep").onclick=async()=>{try{await navigator.clipboard.writeText(`Atlas fix for ${p.name} (${p.district}, ${st.name}): `);toast("Copied. Paste it to Claude in chat and say what's wrong")}catch(e){toast(`Tell Claude in chat: "Atlas fix for ${p.name}, ${st.name}"`)}};
-  let nt=0;$("#note").oninput=e=>{clearTimeout(nt);nt=setTimeout(()=>{const v=e.target.value.trim();if(v)M.notes[pid]=v;else delete M.notes[pid];save()},700)};bindDiary(p);bindAsk(p);bindStory(p);$("#alist").onclick=()=>listPicker(pid,()=>paint(false,V.scrollTop));fillReach(p);fillFood(p);fillMag(p);fillAbout(p)}
+  let nt=0;$("#note").oninput=e=>{clearTimeout(nt);nt=setTimeout(()=>{const v=e.target.value.trim();if(v)M.notes[pid]=v;else delete M.notes[pid];save()},700)};bindDiary(p);bindAsk(p);bindStory(p);$("#alist").onclick=()=>listPicker(pid,()=>paint(false,V.scrollTop));fillReach(p);fillFood(p);fillMag(p);fillAbout(p);fillWx(p)}
 
 function openTrail(i){remember();const D=curD();S.trail=D.trails[i].ids.map(n=>D.places.find(p=>p.n===n));S.sel=null;S.stack.push({v:"trail",a:i});paint(true);drawPins();drawRoute();halfUp();focusPts(S.trail)}
 function vTrail(i){const D=curD(),t=D.trails[i],ps=t.ids.map(n=>D.places.find(p=>p.n===n));let d=0;for(let j=1;j<ps.length;j++)d+=km(ps[j-1],ps[j]);
@@ -1972,7 +1998,7 @@ function vIndia(){const ready=S.states.filter(s=>s.status==="done"&&S.data[s.slu
   const iss=MAG?issueOf(NOWM):null,nat=MAG?MAG.nature.filter(n=>inM(NOWM,n.m)):[],cov=iss&&iss.cover,hp=(cov&&firstP(cov.ids))||top10()[0],T10=top10(),tk=S.xt||"wknd",mood=S.xm||((M.interests||[])[0])||"hills";
   const line=nat.length?seeded(nat,new Date().getFullYear()*100+NOWM,3).map(n=>n.name.replace(/^(The |A )/,"")).join(" · "):"";
   V.innerHTML=`<div class="xhero">${hp?art(hp,{hero:1}):""}<div class="xhx"><span class="cis">${phase().toUpperCase()} ${MONL[NOWM-1].toUpperCase()} IN INDIA</span><h2>${cov?esc(cov.name):"Where to go in "+MONL[NOWM-1]}</h2>${line?`<p>${esc(line)}</p>`:""}<div class="xha">${MAG?`<button class="act pri" data-mg="issue" data-ma="${NOWM}">Read the ${MONL[NOWM-1]} issue</button>`:""}<button class="act ghost" id="surp"><svg class="bi" aria-hidden="true"><use href="#i-dice"/></svg>Surprise me</button></div></div></div>
-   <div class="qpills" role="group" aria-label="Quick links"><button class="qp" id="nearB"><svg aria-hidden="true"><use href="#i-loc"/></svg>Near me</button><button class="qp" id="dscB"><svg aria-hidden="true"><use href="#i-cards"/></svg>Discover</button><button class="qp" data-go="getaway"><svg aria-hidden="true"><use href="#i-route"/></svg>Getaways</button><button class="qp" data-go="breaks"><svg aria-hidden="true"><use href="#i-cal"/></svg>Long weekends</button><button class="qp" data-go="trails"><svg aria-hidden="true"><use href="#i-map"/></svg>Trails</button><button class="qp" data-go="fest"><svg aria-hidden="true"><use href="#i-star"/></svg>Festivals</button><button class="qp" data-go="mag"><svg aria-hidden="true"><use href="#i-book"/></svg>Magazine</button></div>
+   <div class="qpills" role="group" aria-label="Quick links"><button class="qp" id="nearB"><svg aria-hidden="true"><use href="#i-loc"/></svg>Near me</button><button class="qp" id="dscB"><svg aria-hidden="true"><use href="#i-cards"/></svg>Discover</button><button class="qp" data-go="getaway"><svg aria-hidden="true"><use href="#i-route"/></svg>Getaways</button><button class="qp" data-go="onway"><svg aria-hidden="true"><use href="#i-dir"/></svg>On the way</button><button class="qp" data-go="breaks"><svg aria-hidden="true"><use href="#i-cal"/></svg>Long weekends</button><button class="qp" data-go="trails"><svg aria-hidden="true"><use href="#i-map"/></svg>Trails</button><button class="qp" data-go="fest"><svg aria-hidden="true"><use href="#i-star"/></svg>Festivals</button><button class="qp" data-go="mag"><svg aria-hidden="true"><use href="#i-book"/></svg>Magazine</button></div>
    ${(()=>{const tp=M.trip.map(byId).filter(Boolean);return tp.length?`<button class="cont" id="contTrip"><span class="thumb" aria-hidden="true">${art(tp[0])}</span><span><span class="blk m2">CONTINUE PLANNING</span><b class="blk">Your trip · ${tp.length} stop${tp.length>1?"s":""}</b><span class="blk m2">${esc(tp.slice(0,3).map(p=>p.name).join(", "))}${tp.length>3?"…":""}</span></span><span aria-hidden="true" style="font-size:20px">›</span></button>`:""})()}
    <h3 class="pad xh">How much time do you have?</h3><div class="seg4" role="tablist" aria-label="Trip length">${[["day","A day"],["wknd","Weekend"],["long","3–4 days"],["week","A week+"]].map(([k,l])=>`<button type="button" role="tab" data-xt="${k}" aria-selected="${tk===k}">${l}</button>`).join("")}</div><div id="xtp" role="tabpanel">${timePanel(tk)}</div>
    <h3 class="pad xh">In the mood for…</h3><div class="chips" role="group" aria-label="Mood">${MOODS.map(([k,l,g])=>`<button class="chip${mood===g?" on":""}" data-xm="${g}" aria-pressed="${mood===g}">${ico(g,15,G[g][1])} ${l}</button>`).join("")}</div><div id="xmr">${moodRail(mood)}</div><div class="pad" style="margin-top:4px"><button class="lnk2" data-cat="${mood}">See every ${esc(G[mood][0].toLowerCase())} place ›</button></div>
@@ -2241,13 +2267,13 @@ function vMyTrip(){syncTrip();const ps=M.trip.map(byId).filter(Boolean),tab=S.tt
   const tripsRow=`<div class="trow"><div class="trw">${[{id:M.tripId,name:M.tripName||autoTripName(),stops:M.trip,start:M.tripStart,cur:1},...others].map(t=>{const f=(t.stops||[]).map(byId).find(Boolean);return`<button class="tchip${t.cur?" on":""}" ${t.cur?'aria-current="true"':`data-tsw="${t.id}"`}><span class="thumb" aria-hidden="true">${f?art(f):`<span class="pic" style="--c:#e5246b"><svg class="pi"><use href="#i-route"/></svg></span>`}</span><span><b class="blk">${esc(t.name||"Trip")}</b><span class="blk m2">${(t.stops||[]).length} stops${t.start?" · "+fmtD(dOf(t.start),{day:"numeric",month:"short"}):""}</span></span></button>`}).join("")}<button class="tchip new" id="tnew"><span class="tplus" aria-hidden="true">＋</span><span><b class="blk">New trip</b><span class="blk m2">Start fresh</span></span></button></div></div>`;
   if(!ps.length){V.innerHTML=`${tripsRow}${hero}<div class="pad"><p class="lead" style="margin-top:12px">Add stops by searching below, tap <b>Add to trip</b> on any place, or start from an idea.</p>${addStopBox()}
      <h3>Start from an idea</h3><div class="idea">${(()=>{const b=nextBreak();return b?`<button class="nbk" data-go="breaks"><span class="brkd" aria-hidden="true"><b>${b.s.getDate()}</b>${MON[b.s.getMonth()]}</span><span><b class="blk">${esc(b.hs.join(", "))} · ${b.len} days off</b><span class="blk m2">Plan around the next long weekend ›</span></span></button>`:""})()}
-     <div class="acts" style="margin-top:10px"><button class="act" data-go="getaway"><svg class="bi" aria-hidden="true"><use href="#i-route"/></svg>Weekend getaways</button><button class="act" data-go="journeys"><svg class="bi" aria-hidden="true"><use href="#i-map"/></svg>Great journeys</button><button class="act" data-go="trails">Browse trails</button><button class="act" data-go="lists">From a list</button></div></div>
+     <div class="acts" style="margin-top:10px"><button class="act" data-go="onway"><svg class="bi" aria-hidden="true"><use href="#i-dir"/></svg>Road trip: on the way</button><button class="act" data-go="getaway"><svg class="bi" aria-hidden="true"><use href="#i-route"/></svg>Weekend getaways</button><button class="act" data-go="journeys"><svg class="bi" aria-hidden="true"><use href="#i-map"/></svg>Great journeys</button><button class="act" data-go="trails">Browse trails</button><button class="act" data-go="lists">From a list</button></div></div>
      ${others.length||M.tripId?`<div class="pad"><button class="lnk2" id="tdel" style="color:#c81a59">Delete this trip</button></div>`:""}</div>`;bindTripsTop();return}
   let body="";
   if(tab==="plan"){const byDay={};ps.forEach((p,i)=>{(byDay[dd[i]]=byDay[dd[i]]||[]).push(i)});
-    body=`<div class="pad"><div class="tgrid" style="margin:12px 0 8px"><label class="lbl">Start date<input type="date" id="tstart" value="${esc(M.tripStart||"")}"></label><div class="lbl">Order<button class="act" id="opt" style="width:100%;margin-top:4px;height:46px">Shortest route</button></div></div>${paceCheck(ps)}</div>
+    body=`<div class="pad"><div class="tgrid" style="margin:12px 0 8px"><label class="lbl">Start date<input type="date" id="tstart" value="${esc(M.tripStart||"")}"></label><div class="lbl">Order<button class="act" id="opt" style="width:100%;margin-top:4px;height:46px">Shortest route</button></div></div>${paceCheck(ps)}<div id="twxs"></div></div>
      <div class="tdays">${Object.entries(byDay).map(([d,ix])=>{const f=ps[ix[0]],lp=ps[ix[ix.length-1]],[sr,ss]=sunTimes(f.lat,f.lng,M.tripStart?addD(dOf(M.tripStart),+d):new Date()),drive=ix.reduce((a,i)=>a+(i&&road(L[i-1])<=600?road(L[i-1])/45:0),0),multi=pl[ix[0]].multi&&pl[ix[0]].d2>pl[ix[0]].d;
-      return`<section class="tday"><div class="tdh"><b>Day ${+d+1}${multi?`–${pl[ix[0]].d2+1}`:""}</b><span>${M.tripStart?dayDate(+d)+" · ":""}☀ ${clk(sr)} – ${clk(ss)}${drive>=.3?` · ${hmd(drive)} on the road`:""}</span></div>
+      return`<section class="tday"><div class="tdh"><b>Day ${+d+1}${multi?`–${pl[ix[0]].d2+1}`:""}</b><span>${M.tripStart?dayDate(+d)+" · ":""}☀ ${clk(sr)} – ${clk(ss)}${drive>=.3?` · ${hmd(drive)} on the road`:""}</span><span class="twx" data-wd="${d}"></span></div>
        ${ix.map(i=>{const p=ps[i],c=cond(p,m).find(x=>x[0]!=="good");return`${i&&dd[i]===dd[i-1]?legChip(L[i-1]):i?legChip(L[i-1]):""}<div class="tst"><span class="thumb" aria-hidden="true">${art(p)}</span><button class="tsb" data-p="${id(p)}"><span class="stime blk">${pl[i].multi?"All day · "+esc(p.time):hm(pl[i].a)+"–"+hm(pl[i].b)}</span><b class="blk">${esc(p.name)}</b><span class="blk m2">${esc(p.category)} · ${esc(p.district)}, ${esc(stOf(p.slug).name)}</span>${c?`<span class="tcond blk">${CI[c[0]]||"!"} ${esc(c[1])}</span>`:""}</button><span class="tord"><button class="ib" data-up="${i}" aria-label="Move ${esc(p.name)} earlier"${i?"":" disabled"}>▲</button><button class="ib" data-dn="${i}" aria-label="Move ${esc(p.name)} later"${i<ps.length-1?"":" disabled"}>▼</button><button class="ib" data-rm="${i}" aria-label="Remove ${esc(p.name)}">✕</button></span></div>`}).join("")}
        ${ix[ix.length-1]<ps.length-1?`<div class="tstay">🛏 Night around <b>${esc(stayAt(lp))}</b></div>`:""}</section>`}).join("")}</div>
      <div class="pad">${addStopBox()}
@@ -2274,10 +2300,145 @@ function vMyTrip(){syncTrip();const ps=M.trip.map(byId).filter(Boolean),tab=S.tt
   const sh=$("#tshare");if(sh)sh.onclick=async()=>{try{if(navigator.share){await navigator.share({title:M.tripName||"My trip",text:txt()});return}}catch(e){if(e&&e.name==="AbortError")return}try{await navigator.clipboard.writeText(txt());toast("Trip copied, ready to paste")}catch(e){toast("Couldn't share here")}};
   const tm=$("#tmap");if(tm)tm.onclick=()=>{drawRoute();showOnMap(ps)};
   let tn=0;const tno=$("#tnote");if(tno)tno.oninput=e=>{clearTimeout(tn);tn=setTimeout(()=>{M.tripNote=e.target.value.trim();save()},700)};
-  bindTripTools(ps,days);drawRoute();if(S.tab==="trip"&&tab==="plan")focusPts(ps)}
+  bindTripTools(ps,days);if(tab==="plan")fillTripWx(ps,dd);drawRoute();if(S.tab==="trip"&&tab==="plan")focusPts(ps)}
 function bindTripsTop(){const n=$("#tnew");if(n)n.onclick=newTrip;V.querySelectorAll("[data-tsw]").forEach(b=>b.onclick=()=>switchTrip(b.dataset.tsw));const d=$("#tdel");if(d)d.onclick=delTrip;
   const tn=$("#tname");if(tn)tn.onclick=()=>{const inp=document.createElement("input");inp.value=M.tripName||autoTripName();inp.maxLength=50;inp.className="tnin";inp.setAttribute("aria-label","Trip name");tn.replaceWith(inp);inp.focus();inp.select();const done=()=>{M.tripName=inp.value.trim();save();paint(false,V.scrollTop)};inp.onblur=done;inp.onkeydown=e=>{if(e.key==="Enter")inp.blur();if(e.key==="Escape"){inp.value=M.tripName||"";inp.blur()}}};
   bindTrip();const cur=V.querySelector(".tchip.on");if(cur){const r=cur.parentNode;r.scrollLeft=cur.offsetLeft-16}}
+
+/* ================= On the way: road-trip planner ================= */
+/* endpoints: home, any of the big cities, or any atlas place */
+function epOf(k){if(!k)return null;if(k==="home"){const h=home();return h?{k,name:h.name,lat:h.lat,lng:h.lng}:null}
+  if(k.startsWith("c:")){const c=CITIES.find(x=>x[0]===k.slice(2));return c?{k,name:c[0],lat:c[1],lng:c[2]}:null}
+  const p=byId(k);return p?{k,name:p.name,lat:p.lat,lng:p.lng,p}:null}
+function epFind(q){const t=canon(q);if(t.length<2)return[];const toks=t.split(" "),out=[];const h=home();
+  if(h&&canon(h.name).includes(t))out.push({k:"home",name:h.name,sub:"Home"});
+  CITIES.forEach(c=>{if(canon(c[0]).startsWith(t)||canon(c[0]).includes(" "+t))out.push({k:"c:"+c[0],name:c[0],sub:"City"})});
+  allPlaces().filter(p=>{const s=hay(p);return toks.every(w=>s.includes(w))}).sort((a,b)=>tierW[b.tier]-tierW[a.tier]).slice(0,8).forEach(p=>out.push({k:id(p),name:p.name,sub:`${p.district}, ${stOf(p.slug).name}`}));
+  return out.slice(0,9)}
+/* keep route points about 2 km apart: enough to measure detours, light enough to draw */
+function thin(pts,step=2){const o=[pts[0]];for(let i=1;i<pts.length;i++)if(km(o[o.length-1],pts[i])>=step||i===pts.length-1)o.push(pts[i]);return o}
+const _RT=new Map();
+async function roadRoute(a,b){const key=[a.lat,a.lng,b.lat,b.lng].map(x=>(+x).toFixed(3)).join(",");if(_RT.has(key))return _RT.get(key);
+  let r=null;
+  try{const ctl=new AbortController(),t=setTimeout(()=>ctl.abort(),9000);
+    const j=await fetch(`https://router.project-osrm.org/route/v1/driving/${a.lng},${a.lat};${b.lng},${b.lat}?overview=full&geometries=geojson`,{signal:ctl.signal}).then(x=>x.json());clearTimeout(t);
+    const R=j&&j.routes&&j.routes[0];if(R&&R.geometry&&R.geometry.coordinates.length>1)r={pts:thin(R.geometry.coordinates.map(([x,y])=>({lat:y,lng:x}))),km:R.distance/1000,h:R.duration/3600,real:1}}catch(e){}
+  if(!r){const d=km(a,b),n=Math.max(2,Math.ceil(d/2)),pts=[];for(let i=0;i<=n;i++)pts.push({lat:a.lat+(b.lat-a.lat)*i/n,lng:a.lng+(b.lng-a.lng)*i/n});r={pts,km:road(d),h:road(d)/DRV,real:0}}
+  /* real roads are slower than the router assumes once you add tea breaks and towns */
+  r.h=r.h*1.12;_RT.set(key,r);return r}
+/* every atlas place close to the road: how far along (km and hours) and how far off it */
+function corridor(r,a,b){const P=r.pts,cum=[0];for(let i=1;i<P.length;i++)cum.push(cum[i-1]+km(P[i-1],P[i]));const L=cum[cum.length-1]||1,sc=r.km/L;
+  const la=P.map(p=>p.lat),ln=P.map(p=>p.lng),bb=[Math.min(...la)-.3,Math.max(...la)+.3,Math.min(...ln)-.3,Math.max(...ln)+.3],skip=new Set([a.k,b.k]);
+  const MAXO={icon:25,top:14,gem:6},out=[];
+  for(const p of allPlaces()){if(p.lat<bb[0]||p.lat>bb[1]||p.lng<bb[2]||p.lng>bb[3]||skip.has(id(p)))continue;
+    let best=1e9,bi=0;for(let i=0;i<P.length;i++){const dy=(P[i].lat-p.lat)*111,dx=(P[i].lng-p.lng)*111*Math.cos(p.lat*Math.PI/180),d=dx*dx+dy*dy;if(d<best){best=d;bi=i}}
+    const off=Math.sqrt(best);if(off>(MAXO[p.tier]||6))continue;
+    const at=cum[bi]*sc;if(at<8||r.km-at<8)continue;/* not the start or end town itself */
+    const det=off<1?0:2*road(off)/35;/* there and back on smaller roads */
+    out.push({p,off,at,t:at/r.km*r.h,det})}
+  return out.sort((x,y)=>x.at-y.at)}
+function wayScore(x){const p=x.p;return tierW[p.tier]*1.4+(inSeason(NOWM,p)?.6:-.8)+((M.interests||[]).includes(p.g)?.5:0)+(M.want[id(p)]?.8:0)-x.det*1.6-(hrs(p)>4?1.2:0)}
+/* a good stop roughly every two hours, short visits, small detours */
+function wayStops(c,r){const out=[],used=new Set();if(r.h<1.6)return out;
+  for(let T=2;T<r.h-.7;T+=2){const cand=c.filter(x=>Math.abs(x.t-T)<=.65&&x.det<=.9&&hrs(x.p)<=4&&!used.has(id(x.p))).sort((a,b)=>(wayScore(b)-Math.abs(b.t-T)*1.2)-(wayScore(a)-Math.abs(a.t-T)*1.2));
+    if(cand[0]){used.add(id(cand[0].p));out.push({T,x:cand[0]})}}
+  return out}
+function detTxt(x){return x.det<.15?"On the road":`+${hmd(x.det)} detour`}
+function wayClr(){gWay.selectAll("*").remove();svg.classed("wayon",false);if(S._wayTrail&&S.trail===S._wayTrail){S.trail=null;S._wayTrail=null;drawRoute();drawPins()}}
+function wayDraw(r,stops){gWay.selectAll("*").remove();if(!r)return;svg.classed("wayon",true);
+  gWay.append("path").attr("class","wline").attr("d",d3.line().x(p=>P(p.lng,p.lat)[0]).y(p=>P(p.lng,p.lat)[1])(r.pts));
+  S._wayTrail=stops;S.trail=stops;drawRoute();if(S.slug){S.slug=null;classStates()}drawPins()}
+function vOnWay(){const W_=S.way||(S.way={a:(M.way||{}).a||(home()?"home":""),b:(M.way||{}).b||"",f:"",sel:null,r:null,c:null,busy:0,more:0});
+  const A=epOf(W_.a),B=epOf(W_.b);
+  const field=(n,lab,e)=>`<label class="lbl" for="wy${n}">${lab}</label><div class="wfld"><input id="wy${n}" type="search" autocomplete="off" placeholder="${n==="a"?"City or place you start from":"Where you're going"}" value="${esc(e?e.name:"")}"><ul class="wsug" id="wys${n}" role="listbox"></ul></div>`;
+  let res="";
+  if(W_.busy)res=`<p class="note" role="status">Finding the road…</p>`;
+  else if(W_.r&&W_.c&&A&&B){const r=W_.r,c=W_.c,stops=wayStops(c,r);if(!W_.sel)W_.sel=new Set(stops.map(s=>id(s.x.p)));
+    const gs=[...new Set(c.map(x=>x.p.g))].filter(g=>G[g]),f=W_.f,vis=c.filter(x=>!f||x.p.g===f),big=c.filter(x=>x.p.tier==="icon"&&x.det>.15).sort((a,b)=>wayScore(b)-wayScore(a)).slice(0,4);
+    const row=(x,lead)=>{const k=id(x.p),on=W_.sel.has(k);return`<div class="wst${on?" on":""}">${lead||""}<button class="it wit" data-p="${k}"><span class="thumb" aria-hidden="true">${art(x.p)}</span><span><span class="nm">${esc(x.p.name)}</span><span class="sub">${esc(x.p.category)} · ${esc(TIER[x.p.tier])} · ${esc(x.p.time)}</span><span class="wdet">${detTxt(x)}${x.det>=.15?` (${Math.round(x.off)} km off)`:""}</span></span></button><button class="wadd" data-ws="${k}" aria-pressed="${on}" aria-label="${on?"Remove":"Add"} ${esc(x.p.name)} ${on?"from":"to"} your stops">${on?"✓":"＋"}</button></div>`};
+    const selN=W_.sel.size;
+    res=`<div class="wsum"><div><b>${esc(A.name)} → ${esc(B.name)}</b><span>~${Math.round(r.km).toLocaleString("en-IN")} km · about ${hmd(r.h)} driving${r.h>9?" · best split over two days":""}</span></div>${r.real?"":`<p class="note" style="margin:6px 0 0">Couldn't reach the route service, so this follows a straight line. Distances are estimates.</p>`}</div>
+     <div class="acts wacts"><button class="act pri" id="wtrip"${selN?"":" disabled"}>Make a trip with ${selN} stop${selN===1?"":"s"}</button><button class="act" id="wmap"><svg class="bi" aria-hidden="true"><use href="#i-map"/></svg>See on map</button><a class="act" target="_blank" rel="noopener" href="${esc(wayGmaps(A,B,c.filter(x=>W_.sel.has(id(x.p)))))}"><svg aria-hidden="true"><use href="#i-dir"/></svg>Google Maps</a></div>
+     ${stops.length?`<h3>A stop every two hours</h3><p class="note" style="margin-top:-4px">Short visits close to the road, picked for the season.</p><div class="wtl">${stops.map(s=>row(s.x,`<div class="wtm"><b>${hmd(s.x.t)}</b><span>~${Math.round(s.x.at)} km</span></div>`)).join("")}</div>`:r.h<1.6?`<p class="note">A short drive, so no planned breaks. Everything near the road is below.</p>`:""}
+     ${big.length?`<h3>Worth the detour</h3><div class="wtl">${big.map(x=>row(x)).join("")}</div>`:""}
+     <h3>Everything along the way<small>${c.length}</small></h3>
+     <div class="chips" role="group" aria-label="Filter places along the way" style="padding-left:0;padding-right:0"><button class="chip${f?"":" on"}" data-wf="" aria-pressed="${!f}">All</button>${gs.map(g=>`<button class="chip${f===g?" on":""}" data-wf="${g}" aria-pressed="${f===g}">${esc(G[g][0])}</button>`).join("")}</div>
+     <div class="wtl wall">${vis.slice(0,W_.more?400:30).map(x=>row(x,`<div class="wtm"><b>${Math.round(x.at)}</b><span>km</span></div>`)).join("")||`<p class="empty">Nothing of this kind on this road.</p>`}</div>
+     ${vis.length>30&&!W_.more?`<button class="act" id="wmore" style="width:100%;margin-top:10px">Show all ${vis.length}</button>`:""}
+     <p class="note">Road route from OpenStreetMap (OSRM). Driving time adds about 10% for towns and breaks. Detours assume 35 km/h on smaller roads, there and back.</p>`}
+  else if(A&&B&&A.k===B.k)res=`<p class="note">Start and end are the same place.</p>`;
+  V.innerHTML=`<div class="pad">${crumbBtn()}<h2>On the way</h2><p class="lead">Pick where you start and where you're going. You get the places worth stopping at along the road, with a break about every two hours.</p>
+   <div class="wform">${field("a","From",A)}<button class="ib wswap" id="wswap" aria-label="Swap start and end">⇅</button>${field("b","To",B)}</div>
+   ${!A||!B?`<div class="wideas"><h3>Classic drives</h3>${[["c:Bengaluru","c:Goa"],["c:Mumbai","c:Goa"],["c:Delhi","c:Jaipur"],["c:Chennai","c:Puducherry"],["c:Bengaluru","c:Kochi"],["c:Delhi","c:Manali"],["c:Pune","c:Mumbai"]].filter(([a,b])=>epOf(a)&&epOf(b)).map(([a,b])=>`<button class="chip" data-wd="${a}|${b}">${esc(epOf(a).name)} → ${esc(epOf(b).name)}</button>`).join("")}</div>`:""}
+   <div id="wres">${res}</div></div>`;
+  bindOnWay()}
+function wayGmaps(A,B,sel){const w=sel.slice(0,9).map(x=>x.p.lat+","+x.p.lng).join("|");return`https://www.google.com/maps/dir/?api=1&origin=${A.lat},${A.lng}&destination=${B.lat},${B.lng}${w?"&waypoints="+encodeURIComponent(w):""}&travelmode=driving`}
+async function wayRun(){const W_=S.way,A=epOf(W_.a),B=epOf(W_.b);M.way={a:W_.a,b:W_.b};save();if(!A||!B||A.k===B.k){W_.r=W_.c=null;paint(false,V.scrollTop);return}
+  W_.busy=1;W_.r=W_.c=null;W_.sel=null;W_.f="";W_.more=0;paint(false,V.scrollTop);
+  const r=await roadRoute(A,B);if(S.way!==W_||W_.a!==A.k||W_.b!==B.k)return;W_.r=r;W_.c=corridor(r,A,B);W_.busy=0;
+  const top=S.stack[S.stack.length-1];if(top&&top.v==="onway"){paint(false,V.scrollTop);say(`${W_.c.length} places along the way`)}}
+function bindOnWay(){const W_=S.way;
+  ["a","b"].forEach(n=>{const inp=$("#wy"+n),ul=$("#wys"+n);if(!inp)return;let t=0;
+    inp.oninput=()=>{clearTimeout(t);t=setTimeout(()=>{const r=epFind(inp.value);ul.innerHTML=r.map(x=>`<li><button type="button" class="wopt" data-k="${esc(x.k)}"><b>${esc(x.name)}</b><span>${esc(x.sub)}</span></button></li>`).join("")||(inp.value.trim().length>1?`<li class="empty">No city or atlas place matches.</li>`:"");
+      ul.querySelectorAll("[data-k]").forEach(b=>b.onclick=()=>{W_[n]=b.dataset.k;ul.innerHTML="";const other=W_[n==="a"?"b":"a"];if(other)wayRun();else{paint(false,V.scrollTop);$("#wy"+(n==="a"?"b":"a"))?.focus()}})},120)};
+    inp.onkeydown=e=>{if(e.key==="Enter"){const f=ul.querySelector("[data-k]");if(f){e.preventDefault();f.click()}}}});
+  const sw=$("#wswap");if(sw)sw.onclick=()=>{[W_.a,W_.b]=[W_.b,W_.a];wayRun()};
+  V.querySelectorAll("[data-wd]").forEach(b=>b.onclick=()=>{const[a,c]=b.dataset.wd.split("|");W_.a=home()&&a==="c:"+home().name?"home":a;W_.b=c;wayRun()});
+  V.querySelectorAll("[data-wf]").forEach(b=>b.onclick=()=>{W_.f=b.dataset.wf;W_.more=0;paint(false,V.scrollTop)});
+  V.querySelectorAll("[data-ws]").forEach(b=>b.onclick=()=>{const k=b.dataset.ws;W_.sel.has(k)?W_.sel.delete(k):W_.sel.add(k);const y=V.scrollTop;paint(false,y);V.querySelector(`[data-ws="${k}"]`)?.focus();if(!gWay.empty()&&gWay.selectAll("path").size())wayDraw(W_.r,wayPicked())});
+  const mo=$("#wmore");if(mo)mo.onclick=()=>{W_.more=1;paint(false,V.scrollTop)};
+  const mp=$("#wmap");if(mp)mp.onclick=()=>{const A=epOf(W_.a),B=epOf(W_.b);wayDraw(W_.r,wayPicked());showOnMap([A,B,...wayPicked()])};
+  const tr=$("#wtrip");if(tr)tr.onclick=()=>{const A=epOf(W_.a),B=epOf(W_.b),ids=wayPicked().map(id);if(B.p&&!ids.includes(B.k))ids.push(B.k);if(A.p&&!ids.includes(A.k))ids.unshift(A.k);
+    syncTrip();const r={id:uid_(),t:Date.now(),name:`${A.name} to ${B.name}`,stops:ids,start:"",budget:0,note:`Road trip, about ${Math.round(W_.r.km)} km and ${hmd(W_.r.h)} of driving.`};tripsAll().unshift(r);loadTrip(r);save();hdr();S.ttab="plan";root_("trip");toast(`Trip made with ${ids.length} stops`)}}
+function wayPicked(){const W_=S.way;return W_&&W_.c?W_.c.filter(x=>W_.sel&&W_.sel.has(id(x.p))).map(x=>x.p):[]}
+
+/* ================= Real weather (Open-Meteo forecast, 16 days) ================= */
+const WMO={0:["☀","Clear"],1:["🌤","Mostly clear"],2:["⛅","Partly cloudy"],3:["☁","Cloudy"],45:["🌫","Fog"],48:["🌫","Freezing fog"],51:["🌦","Light drizzle"],53:["🌦","Drizzle"],55:["🌧","Heavy drizzle"],56:["🌧","Freezing drizzle"],57:["🌧","Freezing drizzle"],61:["🌦","Light rain"],63:["🌧","Rain"],65:["🌧","Heavy rain"],66:["🌧","Freezing rain"],67:["🌧","Freezing rain"],71:["🌨","Light snow"],73:["🌨","Snow"],75:["❄","Heavy snow"],77:["🌨","Snow grains"],80:["🌦","Showers"],81:["🌧","Heavy showers"],82:["⛈","Violent showers"],85:["🌨","Snow showers"],86:["❄","Heavy snow showers"],95:["⛈","Thunderstorms"],96:["⛈","Thunderstorms with hail"],99:["⛈","Thunderstorms with hail"]};
+const _WX=new Map();
+const wxKey=p=>(+p.lat).toFixed(2)+","+(+p.lng).toFixed(2);
+async function wxGet(pts){const now=Date.now(),need=[];
+  pts.forEach(p=>{const k=wxKey(p);if(_WX.has(k)&&now-_WX.get(k).t<36e5)return;try{const s=JSON.parse(sessionStorage.getItem("ita-wx:"+k)||"null");if(s&&now-s.t<36e5){_WX.set(k,s);return}}catch(e){}if(!need.includes(k))need.push(k)});
+  for(let i=0;i<need.length;i+=40){const ch=need.slice(i,i+40),la=ch.map(k=>k.split(",")[0]).join(","),ln=ch.map(k=>k.split(",")[1]).join(",");
+    try{const ctl=new AbortController(),t=setTimeout(()=>ctl.abort(),9000);
+      let j=await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${la}&longitude=${ln}&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,precipitation_sum,wind_speed_10m_max&timezone=Asia%2FKolkata&forecast_days=16`,{signal:ctl.signal}).then(x=>{if(!x.ok)throw 0;return x.json()});clearTimeout(t);
+      if(!Array.isArray(j))j=[j];
+      j.forEach((o,ix)=>{const d=o.daily;if(!d)return;const days={};d.time.forEach((t,n)=>{days[t]={c:d.weather_code[n],tx:d.temperature_2m_max[n],tn:d.temperature_2m_min[n],pp:d.precipitation_probability_max[n],pr:d.precipitation_sum[n],w:d.wind_speed_10m_max[n]}});
+        const v={t:now,days};_WX.set(ch[ix],v);try{sessionStorage.setItem("ita-wx:"+ch[ix],JSON.stringify(v))}catch(e){}})}catch(e){}}
+  return pts.map(p=>_WX.get(wxKey(p))||null)}
+const isoD=d=>`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;
+/* how a day's weather sits for a place: "bad" means plan around it */
+function wxLevel(d,p){if(!d)return null;const c=d.c,out=p&&["water","coast","hills","wildlife","caves"].includes(p.g);
+  if([65,67,75,82,86,95,96,99].includes(c)||d.pr>=25||d.w>=55||d.tx>=43)return"bad";
+  if([63,81,73].includes(c)||d.pr>=8||(d.pp>=75&&d.pr>=3))return out?"bad":"meh";
+  if(d.pp>=50||d.pr>=2||d.tx>=39)return"meh";return"ok"}
+function wxWhy(d){const w=WMO[d.c]||["",""],b=[];if(d.pr>=1)b.push(`${Math.round(d.pr)} mm rain`);else if(d.pp>=40)b.push(`${d.pp}% chance of rain`);if(d.tx>=39)b.push(`up to ${Math.round(d.tx)}°C`);if(d.w>=45)b.push(`wind ${Math.round(d.w)} km/h`);return w[1]+(b.length?", "+b.join(", "):"")}
+const wxDay=d=>`${(WMO[d.c]||["·"])[0]} ${Math.round(d.tx)}°/${Math.round(d.tn)}°`;
+function wxBlock(p){return`<div class="pcard wxc" id="wxb" hidden><h3 style="margin:0 0 6px">Weather, next 7 days</h3><div class="wxr" id="wxr"></div><p class="cnow" id="wxv"></p><p class="note" style="margin:4px 0 0">Live forecast from Open-Meteo, updated hourly.</p></div>`}
+async function fillWx(p){const [w]=await wxGet([p]);const el=$("#wxb");if(!el||S.sel!==p||!w)return;
+  const t0=dOf(today()),days=[];for(let i=0;i<7;i++){const d=addD(t0,i),k=isoD(d);if(w.days[k])days.push([d,w.days[k]])}if(!days.length)return;
+  const tripD=M.tripStart&&M.trip.includes(id(p))?(()=>{const ps=M.trip.map(byId).filter(Boolean),pl=tripPlan(ps),i=ps.indexOf(p);return i>=0?isoD(addD(dOf(M.tripStart),pl[i].d)):null})():null;
+  $("#wxr").innerHTML=days.map(([d,x],i)=>{const lv=wxLevel(x,p);return`<div class="wxd wx-${lv}${tripD===isoD(d)?" trip":""}"><span>${i?fmtD(d,{weekday:"short"}):"Today"}</span><i aria-hidden="true">${(WMO[x.c]||["·"])[0]}</i><b>${Math.round(x.tx)}°</b><small>${Math.round(x.tn)}°</small><em>${x.pp>=20?x.pp+"%":""}</em></div>`}).join("");
+  $("#wxr").setAttribute("role","img");$("#wxr").setAttribute("aria-label",days.map(([d,x],i)=>`${i?fmtD(d,{weekday:"long"}):"Today"}: ${wxWhy(x)}, ${Math.round(x.tx)} to ${Math.round(x.tn)} degrees`).join(". "));
+  const bad=days.filter(([d,x])=>wxLevel(x,p)==="bad"),ok=days.filter(([d,x])=>wxLevel(x,p)==="ok"),nm=d=>fmtD(d,{weekday:"short"});
+  let v="";if(tripD&&w.days[tripD]){const x=w.days[tripD];v=`<b>On your trip day (${fmtD(dOf(tripD),{day:"numeric",month:"short"})}):</b> ${esc(wxWhy(x))}.`}
+  else if(!bad.length)v=ok.length>=5?"<b>Settled week.</b> Good days to go.":"<b>Mixed week.</b> No heavy weather expected.";
+  else v=`<b>${bad.length>=4?"Rough week":"Heavy weather on "+bad.map(([d])=>nm(d)).join(", ")}.</b> ${ok.length?"Drier: "+ok.slice(0,3).map(([d])=>nm(d)).join(", ")+".":""}`;
+  $("#wxv").innerHTML=v;el.hidden=false}
+/* trip: forecast for each day's stops, warnings, and a dry day to swap with */
+async function fillTripWx(ps,dd){const box=$("#twxs");if(!box||!M.tripStart||!ps.length)return;const s=dOf(M.tripStart),t0=dOf(today()),last=dd[dd.length-1],off=Math.round((s-t0)/864e5);
+  if(off+last<0)return;if(off>15){box.innerHTML=`<p class="note twxn">☁ Live forecast for this trip shows up from ${fmtD(addD(s,-15),{day:"numeric",month:"short"})}, 16 days before you go.</p>`;return}
+  const ws=await wxGet(ps),cur=$("#twxs");if(!cur||cur!==box)return;if(!ws.some(Boolean)){box.innerHTML="";return}
+  const byDay={};ps.forEach((p,i)=>{const k=isoD(addD(s,dd[i])),w=ws[i]&&ws[i].days[k];(byDay[dd[i]]=byDay[dd[i]]||[]).push({p,i,w,lv:wxLevel(w,p)})});
+  Object.entries(byDay).forEach(([d,L])=>{const el=V.querySelector(`.twx[data-wd="${d}"]`),f=L.find(x=>x.w);if(el&&f){const worst=L.find(x=>x.lv==="bad")||L.find(x=>x.lv==="meh")||f;el.innerHTML=`${wxDay(f.w)}${f.w.pp>=20?` · ${f.w.pp}% rain`:""}`;el.className="twx wx-"+worst.lv}
+    L.forEach(x=>{if(x.lv!=="bad"&&x.lv!=="meh")return;const b=V.querySelector(`.tsb[data-p="${id(x.p)}"]`);if(b&&!b.querySelector(".twxw"))b.insertAdjacentHTML("beforeend",`<span class="twxw blk wx-${x.lv}">${(WMO[x.w.c]||["!"])[0]} ${esc(wxWhy(x.w))}</span>`)})});
+  /* if some day is rough, find the nearest start date (forward or back, within the forecast) where no stop gets heavy weather */
+  const ds=Object.keys(byDay).map(Number).sort((a,b)=>a-b),lvOf=d=>(byDay[d]||[]).some(x=>x.lv==="bad")?"bad":"ok",bad=ds.filter(d=>lvOf(d)==="bad");
+  if(!bad.length){box.innerHTML=`<p class="note twxn">☀ No heavy weather in the forecast for your dates. Updated hourly from Open-Meteo.</p>`;return}
+  const okWith=k=>ps.every((p,i)=>{const w=ws[i]&&ws[i].days[isoD(addD(s,dd[i]+k))];return w&&wxLevel(w,p)!=="bad"});
+  let shift=null;for(let n=1;n<=15&&shift==null;n++)for(const k of[n,-n]){if(off+k<0||off+k+last>15)continue;if(okWith(k)){shift=k;break}}
+  const d=bad[0],bp=byDay[d].find(x=>x.lv==="bad"),ns=shift!=null?addD(s,shift):null;
+  box.innerHTML=`<div class="twxa" role="status"><b>${(WMO[bp.w.c]||["⚠"])[0]} Day ${d+1}: ${esc(wxWhy(bp.w))} at ${esc(bp.p.name)}.</b>${bad.length>1?`<span class="m2">Also rough: day ${bad.slice(1).map(x=>x+1).join(", day ")}.</span>`:""}${ns?`<span>Starting on ${fmtD(ns,{weekday:"long",day:"numeric",month:"short"})} instead keeps every stop out of heavy weather.</span><button class="act" id="twsw">Start on ${fmtD(ns,{day:"numeric",month:"short"})}</button>`:`<span>No start date in the next two weeks avoids it. Keep an indoor backup for that day.</span>`}</div>`;
+  const sw=$("#twsw");if(sw)sw.onclick=()=>{const before=M.tripStart;M.tripStart=isoD(ns);save();paint(false,V.scrollTop);toast(`Trip now starts ${fmtD(ns,{day:"numeric",month:"short"})}`,()=>{M.tripStart=before;save();paint()})}}
 
 function route(silent,h0){const h=h0!=null?h0:location.hash.slice(1);const m=h.match(/^(.*)-(\d+)$/);
   if(m&&S.data[m[1]]){const p=S.data[m[1]].places.find(x=>x.n==m[2]);if(p){S.slug=m[1];classStates();S.stack=[{v:"explore"}];openPlace(p,!silent);return}}
