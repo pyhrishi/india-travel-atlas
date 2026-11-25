@@ -19,6 +19,71 @@
    "admin_level": "ADM1",
    "data_file": "data/india-states.json",
    "note": "Existing India–Nepal combined map; preserved pending migration to the common map format."
+  },
+  "bd": {
+   "name": "Bangladesh",
+   "iso3": "BGD",
+   "m49": "050",
+   "map_status": "ready",
+   "admin_level": "ADM1",
+   "admin_unit_count": 8,
+   "boundary_year": "2015",
+   "boundary_source": "geoBoundaries, Wikimedia Commons",
+   "boundary_license": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
+   "data_file": "data/maps/bd.json",
+   "validated_at": "2026-11-25"
+  },
+  "bt": {
+   "name": "Bhutan",
+   "iso3": "BTN",
+   "m49": "064",
+   "map_status": "ready",
+   "admin_level": "ADM1",
+   "admin_unit_count": 20,
+   "boundary_year": "2010",
+   "boundary_source": "geoBoundaries, Wikimedia Commons; credit to author 'Babbage'",
+   "boundary_license": "Creative Commons Attribution 3.0 License",
+   "data_file": "data/maps/bt.json",
+   "validated_at": "2026-11-25"
+  },
+  "lk": {
+   "name": "Sri Lanka",
+   "iso3": "LKA",
+   "m49": "144",
+   "map_status": "ready",
+   "admin_level": "ADM1",
+   "admin_unit_count": 9,
+   "boundary_year": "2017",
+   "boundary_source": "OpenStreetMap, Wambacher",
+   "boundary_license": "Open Data Commons Open Database License 1.0",
+   "data_file": "data/maps/lk.json",
+   "validated_at": "2026-11-25"
+  },
+  "mv": {
+   "name": "Maldives",
+   "iso3": "MDV",
+   "m49": "462",
+   "map_status": "ready",
+   "admin_level": "ADM1",
+   "admin_unit_count": 21,
+   "boundary_year": "2017",
+   "boundary_source": "OpenStreetMap, Wambacher",
+   "boundary_license": "Open Data Commons Open Database License 1.0",
+   "data_file": "data/maps/mv.json",
+   "validated_at": "2026-11-25"
+  },
+  "kh": {
+   "name": "Cambodia",
+   "iso3": "KHM",
+   "m49": "116",
+   "map_status": "ready",
+   "admin_level": "ADM1",
+   "admin_unit_count": 25,
+   "boundary_year": "2017",
+   "boundary_source": "OpenStreetMap, Wambacher",
+   "boundary_license": "Open Data Commons Open Database License 1.0",
+   "data_file": "data/maps/kh.json",
+   "validated_at": "2026-11-25"
   }
  }
 }
