@@ -1,0 +1,177 @@
+{
+ "name": "Tutong",
+ "intro": "Tutong combines Brunei’s largest natural lake and wetland heritage park with coastal recreation, local markets and community heritage.",
+ "bases": [
+  [
+   "Tutong Town",
+   4.806,
+   114.66
+  ],
+  [
+   "Tasek Merimbun",
+   4.63,
+   114.68
+  ],
+  [
+   "Telisai",
+   4.75,
+   114.62
+  ]
+ ],
+ "trails": [],
+ "places": [
+  {
+   "n": 1,
+   "name": "Tasek Merimbun Heritage Park",
+   "district": "Mukim Rambai",
+   "category": "Lake and heritage park",
+   "g": "nature",
+   "lat": 4.63,
+   "lng": 114.68,
+   "why": "Brunei’s largest natural lake, a blackwater wetland and ASEAN Heritage Park with boardwalks and wildlife",
+   "tier": "icon",
+   "months": [
+    2,
+    4
+   ],
+   "time": "Half day",
+   "tags": []
+  },
+  {
+   "n": 2,
+   "name": "Seri Kenangan Beach",
+   "district": "Tutong Town",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 4.81,
+   "lng": 114.65,
+   "why": "Coastal recreation area on a narrow strip between the South China Sea and the Tutong River estuary",
+   "tier": "top",
+   "months": [
+    2,
+    9
+   ],
+   "time": "1–2 hrs",
+   "tags": []
+  },
+  {
+   "n": 3,
+   "name": "Sungai Basong Recreational Park",
+   "district": "Tutong Town",
+   "category": "Recreation park",
+   "g": "nature",
+   "lat": 4.8,
+   "lng": 114.66,
+   "why": "Park with walking paths and cultural displays near Tutong town",
+   "tier": "top",
+   "months": [
+    2,
+    4
+   ],
+   "time": "1–2 hrs",
+   "tags": []
+  },
+  {
+   "n": 4,
+   "name": "Tutong Town",
+   "district": "Tutong",
+   "category": "Town",
+   "g": "culture",
+   "lat": 4.806,
+   "lng": 114.66,
+   "why": "District centre and a useful base for nearby beaches, markets and heritage sites",
+   "tier": "top",
+   "months": [
+    2,
+    4
+   ],
+   "time": "1–2 hrs",
+   "tags": []
+  },
+  {
+   "n": 5,
+   "name": "Tamu Tutong",
+   "district": "Tutong Town",
+   "category": "Market",
+   "g": "food",
+   "lat": 4.806,
+   "lng": 114.66,
+   "why": "Local market for produce, snacks and everyday goods from the Tutong district",
+   "tier": "gem",
+   "months": [
+    2,
+    4
+   ],
+   "time": "1 hr",
+   "tags": []
+  },
+  {
+   "n": 6,
+   "name": "Tumpuan Telisai Forest Recreation Park",
+   "district": "Telisai",
+   "category": "Forest park",
+   "g": "nature",
+   "lat": 4.75,
+   "lng": 114.62,
+   "why": "Small forest recreation site in the Telisai area",
+   "tier": "gem",
+   "months": [
+    2,
+    4
+   ],
+   "time": "1 hr",
+   "tags": []
+  },
+  {
+   "n": 7,
+   "name": "Lamin Warisan",
+   "district": "Tutong",
+   "category": "Heritage centre",
+   "g": "culture",
+   "lat": 4.806,
+   "lng": 114.66,
+   "why": "Cultural heritage venue presenting aspects of Tutong’s local traditions; confirm visitor access",
+   "tier": "gem",
+   "months": [
+    2,
+    4
+   ],
+   "time": "1 hr",
+   "tags": []
+  },
+  {
+   "n": 8,
+   "name": "Pantai Seri Kenangan",
+   "district": "Tutong Town",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 4.81,
+   "lng": 114.65,
+   "why": "Beachfront landscape and picnic area beside the Tutong River mouth",
+   "tier": "top",
+   "months": [
+    2,
+    9
+   ],
+   "time": "1–2 hrs",
+   "tags": []
+  },
+  {
+   "n": 9,
+   "name": "Bukit Ambok",
+   "district": "Tutong",
+   "category": "Hill",
+   "g": "nature",
+   "lat": 4.77,
+   "lng": 114.69,
+   "why": "Local hill landscape and outdoor area; verify trail access before setting out",
+   "tier": "gem",
+   "months": [
+    2,
+    4
+   ],
+   "time": "1–2 hrs",
+   "tags": []
+  }
+ ]
+}
