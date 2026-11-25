@@ -216,6 +216,7 @@ def main():
     prefix = FACTS_STATE + ':' if FACTS_STATE else None
     def scoped(d): return {k: v for k, v in d.items() if k.startswith(prefix)} if prefix else d
     R = scoped(old.get('r', {})); M = scoped(old.get('m', {})); H = scoped(old.get('h', {})); PEND = scoped(old.get('p', {})); M2 = set(scoped({k: True for k in old.get('m2', [])}))
+    if FACTS_STATE: os.makedirs(os.path.dirname(STATE), exist_ok=True)
     # Enforce manual exclusions against previously published matches as well as new search results.
     # Without this purge, an old false-positive can survive indefinitely when its match fingerprint is unchanged.
     for k in MANUAL_ARTICLE_EXCLUSIONS:
