@@ -18,3 +18,8 @@ The first seed contains India and Nepal because those are the countries already 
 The interactive world overview in `index.html` loads the generalised 1:110m country polygons from `world-atlas` (Natural Earth-derived) at runtime. Polygon IDs are matched to the three-digit UN M49 numeric codes in `data/entities/current.json`. The display reports how many registry entries have a polygon at this scale; it does not claim that every statistical area has a separate polygon. Small islands and areas may be omitted at 1:110m resolution.
 
 Boundary geometry is a cartographic reference, not a legal boundary dataset. It must not be interpreted as a sovereignty, recognition, affiliation, or delimitation position. The boundary service is an external runtime dependency; if it is unavailable, the searchable entity registry remains usable. The India/Nepal administrative map and historical sites layer remain separate.
+
+
+## Country-level administrative boundaries
+
+The World explorer can request first-level administrative boundaries (ADM1) for a selected entity using the geoBoundaries current `gbOpen` API. The application reads the API metadata, uses its simplified GeoJSON URL, and displays the source, represented year, and licence returned for that specific country/layer. geoBoundaries documents the endpoint as `/api/current/gbOpen/[ISO3]/[ADM-LEVEL]/`; coverage and source/licence vary by country. This is an on-demand layer, not a claim that all 248 M49 entries have ADM1 coverage. The API is an external runtime dependency and the UI reports unavailable layers without disabling the entity registry. Attribution: geoBoundaries and the primary data provider named in the returned metadata.
