@@ -240,6 +240,58 @@
    "boundary_license": "Open Data Commons Open Database License 1.0",
    "data_file": "data/maps/vu.json",
    "validated_at": "2026-11-25"
+  },
+  "jp": {
+   "name": "Japan",
+   "iso3": "JPN",
+   "m49": "392",
+   "map_status": "ready",
+   "admin_level": "ADM1",
+   "admin_unit_count": 47,
+   "boundary_year": "2017",
+   "boundary_source": "OpenStreetMap, Wambacher",
+   "boundary_license": "Open Data Commons Open Database License 1.0",
+   "data_file": "data/maps/jp.json",
+   "validated_at": "2026-11-25"
+  },
+  "kr": {
+   "name": "Republic of Korea",
+   "iso3": "KOR",
+   "m49": "410",
+   "map_status": "ready",
+   "admin_level": "ADM1",
+   "admin_unit_count": 17,
+   "boundary_year": "2021",
+   "boundary_source": "Natural Earth",
+   "boundary_license": "Public Domain",
+   "data_file": "data/maps/kr.json",
+   "validated_at": "2026-11-25"
+  },
+  "kp": {
+   "name": "Democratic People's Republic of Korea",
+   "iso3": "PRK",
+   "m49": "408",
+   "map_status": "ready",
+   "admin_level": "ADM1",
+   "admin_unit_count": 11,
+   "boundary_year": "2018",
+   "boundary_source": "World Food Programme, OCHA ROAP",
+   "boundary_license": "Creative Commons Attribution 3.0 Intergovernmental Organisations (CC BY 3.0 IGO)",
+   "data_file": "data/maps/kp.json",
+   "validated_at": "2026-11-25"
+  },
+  "mn": {
+   "name": "Mongolia",
+   "iso3": "MNG",
+   "m49": "496",
+   "map_status": "ready",
+   "admin_level": "ADM1",
+   "admin_unit_count": 22,
+   "boundary_year": "2017",
+   "boundary_source": "OpenStreetMap, Wambacher",
+   "boundary_license": "Open Data Commons Open Database License 1.0",
+   "data_file": "data/maps/mn.json",
+   "validated_at": "2026-11-25"
   }
  }
 }
