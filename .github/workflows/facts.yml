@@ -99,6 +99,7 @@ jobs:
           FORCE: ${{ github.event.inputs.force }}
         shell: bash
         run: |
+          set +e
           ARGS=""
           if [ "$FORCE" = "true" ]; then ARGS="--force"; fi
           python3 .github/scripts/facts.py $ARGS
@@ -125,6 +126,7 @@ jobs:
           FACTS_STATE: ${{ matrix.state }}
         shell: bash
         run: |
+          set +e
           python3 .github/scripts/facts.py
           result=$?
           if [ "$result" -eq 0 ]; then echo "complete=true" >> "$GITHUB_OUTPUT"; else echo "complete=false" >> "$GITHUB_OUTPUT"; fi
@@ -149,6 +151,7 @@ jobs:
           FACTS_STATE: ${{ matrix.state }}
         shell: bash
         run: |
+          set +e
           python3 .github/scripts/facts.py
           result=$?
           if [ "$result" -eq 0 ]; then echo "complete=true" >> "$GITHUB_OUTPUT"; else echo "complete=false" >> "$GITHUB_OUTPUT"; fi
