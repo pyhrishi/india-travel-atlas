@@ -587,6 +587,15 @@ h3 small{font-weight:600;color:var(--soft);margin-left:6px;font-size:13px}
 .memcard{display:grid;grid-template-columns:96px minmax(0,1fr);gap:14px;align-items:center;margin:14px 16px 0;width:calc(100% - 32px);padding:10px;border-radius:20px;border:1px solid var(--line);background:linear-gradient(135deg,color-mix(in srgb,var(--pink) 10%,var(--bg)),var(--bg));font:inherit;color:inherit;text-align:left;cursor:pointer}
 .memi{position:relative;width:96px;height:96px;border-radius:14px;overflow:hidden;display:block;background:var(--card)}.memi img{width:100%;height:100%;object-fit:cover;display:block}.memcard b{font-size:18px;margin-top:2px}.meml{font-family:Georgia,serif;font-style:italic;font-size:15px;line-height:1.35;margin-top:3px}
 .jq{font-style:italic}
+/* before you go */
+.bygl{list-style:none;margin:0;padding:0;display:grid;gap:9px}.bygl li{display:grid;grid-template-columns:26px minmax(0,1fr);gap:6px;font-size:15px;line-height:1.35}.bygi{font-size:17px}
+.bygl b.ok{color:light-dark(#18794e,#4cc38a)}.bygl b.no{color:light-dark(#b42318,#ff7b6e)}.bygl .m2{font-size:13px;word-break:break-word}.bygl a{color:var(--pinkink);font-weight:700}
+.bygs{margin:10px 0 0;font-size:12.5px}.bygs a{color:inherit}
+/* near me now */
+.nnh b{color:var(--ink)}.nnf{display:block;font-size:12.5px;margin-top:1px;font-weight:600}.nnf.ok{color:light-dark(#18794e,#4cc38a)}.nnf.no{color:var(--soft);font-weight:500}
+/* offline packs */
+.pkl{list-style:none;margin:6px 0 0;padding:0;border:1px solid var(--line);border-radius:14px;overflow:hidden}.pkl:empty{display:none}
+.pkr{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:8px 8px 8px 14px;border-bottom:1px solid var(--line)}.pkr:last-child{border-bottom:0}.pkr .act{margin:0;min-width:104px}
 </style>
 </head>
 <body>
@@ -1048,7 +1057,7 @@ function goBack(){if(navD>0&&history.state&&history.state.ita===depth()&&S.stack
 function doBack(){if(S.stack.length<2)return;S.stack.pop();S.hl=null;const top=S.stack[S.stack.length-1];if(top.v!=="place"){S.sel=null}else S.sel=byId(top.a);if(top.v==="trail")S.trail=curD().trails[top.a].ids.map(n=>curD().places.find(p=>p.n===n));else S.trail=null;paint(false,top.y||0);drawPins();drawRoute()}
 function paint(focus,y=0){const top=S.stack[S.stack.length-1]||{v:"explore"};if(top.v!=="shared")unsubShared();if(top.v!=="onway")wayClr();
   const nc=top.v==="coll"?top.a:null;if(nc!==S.coll){S.coll=nc;classStates();setTimeout(()=>{drawPins();if(nc)focusPts(collPlaces(nc));else if(S.slug)focusState()},0)}
-  ({explore:vExplore,list:vList,place:vPlace,trail:vTrail,trip:vTrip,passport:vPassport,states:vStates,search:vSearch,plan:vPlan,shared:vShared,fest:vFest,coll:vColl,near:vNear,bulk:vBulk,trails:vTrails,credits:vCredits,lists:vLists,listv:vListV,slist:vSList,getaway:vGetaway,onway:vOnWay,journal:vJournal,stats:vStats,breaks:vBreaks,region:vRegion,discover:vDiscover,shelf:vShelf,colls:vColls,mag:vMag,issue:vIssue,nature:vNature,nev:vNev,journeys:vJourneys,jrn:vJrn,h36:vH36,h36v:vH36v,curio:vCurio,exps:vExps,best:vBest,photo:vPhoto}[top.v]||vExplore)(top.a);
+  ({explore:vExplore,list:vList,place:vPlace,trail:vTrail,trip:vTrip,passport:vPassport,states:vStates,search:vSearch,plan:vPlan,shared:vShared,fest:vFest,coll:vColl,near:vNear,nearnow:vNearNow,bulk:vBulk,trails:vTrails,credits:vCredits,lists:vLists,listv:vListV,slist:vSList,getaway:vGetaway,onway:vOnWay,journal:vJournal,stats:vStats,breaks:vBreaks,region:vRegion,discover:vDiscover,shelf:vShelf,colls:vColls,mag:vMag,issue:vIssue,nature:vNature,nev:vNev,journeys:vJourneys,jrn:vJrn,h36:vH36,h36v:vH36v,curio:vCurio,exps:vExps,best:vBest,photo:vPhoto}[top.v]||vExplore)(top.a);
   const b=$("#bk");if(b)b.onclick=goBack;V.scrollTop=y;bind();hdr();setHash();drawChips();syncNav();updCar();scanPhotos(V);fillLocal(V);if(S.slug)chkDist();else S._ld=S.f.dist;if(focus){const h=V.querySelector("h2");if(h){h.tabIndex=-1;h.focus({preventScroll:true})}}}
 function setHash(){const top=S.stack[S.stack.length-1];let h=S.slug||"";if(top&&top.v==="place"&&S.sel)h=S.sel.slug+"-"+S.sel.n;try{if(h&&location.hash.slice(1)!==h)history.replaceState(history.state,"","#"+h);else if(!h&&location.hash)history.replaceState(history.state,"",location.pathname+location.search)}catch(e){}}
 function bind(){V.querySelectorAll("[data-fz]").forEach(el=>el.onclick=()=>{const[la,ln]=el.dataset.fz.split(",").map(Number);if(mobile())snapTo(0);setTimeout(()=>{const[x,y]=P(ln,la);const v=vb();svg.transition().duration(dur(700)).call(zoom.transform,d3.zoomIdentity.translate(v.x,v.y).scale(6).translate(-x,-y))},mobile()?320:0)});
@@ -1062,7 +1071,7 @@ function bind(){V.querySelectorAll("[data-fz]").forEach(el=>el.onclick=()=>{cons
   const full=()=>{if(mobile())snapTo(2)};
   V.querySelectorAll("[data-cat]").forEach(el=>el.onclick=()=>{full();S.f={...S.f,cat:el.dataset.cat||null,tier:null,mon:0,dist:null,tm:null};root_("list")});
   V.querySelectorAll("[data-tier]").forEach(el=>el.onclick=()=>{full();S.f={...S.f,cat:null,tier:el.dataset.tier||null,mon:el.dataset.now==="1"?NOWM:0,dist:null,tm:null};root_("list")});
-  const su=$("#surp");if(su)su.onclick=surprise;const ds=$("#dscB");if(ds)ds.onclick=()=>{root_("discover");if(mobile())snapTo(2)};magHome();bindMag();const nb=$("#nearB");if(nb)nb.onclick=nearMe}
+  const su=$("#surp");if(su)su.onclick=surprise;const ds=$("#dscB");if(ds)ds.onclick=()=>{root_("discover");if(mobile())snapTo(2)};magHome();bindMag();const nb=$("#nearB");if(nb)nb.onclick=nearNow}
 const base=()=>{const D=curD();const i=M.base[S.slug];return D&&i!=null&&D.bases[i]?{name:D.bases[i][0],lat:D.bases[i][1],lng:D.bases[i][2]}:null};
 const baseSel=()=>{const D=curD();return`<select id="base" aria-label="Distances from"><option value="">Distances from: not set</option>${D.bases.map((b,i)=>`<option value="${i}"${M.base[S.slug]==i?" selected":""}>From ${esc(b[0])}</option>`).join("")}</select>`};
 function bindBase(){const s=$("#base");if(s)s.onchange=e=>{if(e.target.value==="")delete M.base[S.slug];else M.base[S.slug]=+e.target.value;save();paint(false,V.scrollTop)}}
@@ -1124,7 +1133,7 @@ function vPlace(k){const p=byId(k);if(!p){V.innerHTML=`<div class="pad">${crumbB
    ${warns.length?`<div class="warns">${warns.map(w=>`<span class="warn"><svg aria-hidden="true"><use href="#i-warn"/></svg>${esc(w)}</span>`).join("")}</div>`:""}
    <div class="facts"><div class="fact"><span>Best time</span><b class="${ok?"ok":""}">${monthsTxt(p)}</b>${mbar(p)}</div><div class="fact"><span>Time needed</span><b>${esc(p.time)}</b></div><div class="fact"><span>${esc(from[0])}</span><b>${esc(from[1])}</b></div></div><div class="facts sunf">${sunLine(p)}</div>
    ${aboutBlock()}${storyBlock(p)}
-   ${wxBlock(p)}${condBlock(p)}${reachBlock(p)}${foodBlock()}${magBlock(p)}
+   ${bygBlock()}${wxBlock(p)}${condBlock(p)}${reachBlock(p)}${foodBlock()}${magBlock(p)}
    <button class="where" id="where" aria-label="Show ${esc(p.name)} on the big map">${whereMap(p)}</button>
    ${fs.map(f=>`<p class="note" style="margin:0 0 10px"><b style="color:var(--ink)">${esc(f.name)}</b> · ${esc(f.when)}. ${esc(f.about)}</p>`).join("")}
    <div class="note" style="margin-top:0"><a href="${gm}" target="_blank" rel="noopener" style="color:var(--pinkink)">See photos and reviews on Google Maps ↗</a></div>
@@ -1146,7 +1155,7 @@ function vPlace(k){const p=byId(k);if(!p){V.innerHTML=`<div class="pad">${crumbB
   $("#atrip").onclick=()=>{const j=M.trip.indexOf(pid);if(j>=0){M.trip.splice(j,1);toast("Removed from trip",()=>{M.trip.splice(j,0,pid);save();paint(false,V.scrollTop);drawRoute()})}else{M.trip.push(pid);toast(`Added to trip (${M.trip.length} stop${M.trip.length>1?"s":""})`,()=>{M.trip=M.trip.filter(x=>x!==pid);save();paint(false,V.scrollTop);drawRoute()})}save();paint(false,V.scrollTop);drawRoute();fx("atrip")};
   $("#ashare").onclick=async()=>{const url=location.href.split("#")[0]+"#"+p.slug+"-"+p.n,text=`${p.name}, ${p.district}, ${st.name}.${p.why?" "+p.why+".":""}`;try{if(navigator.share){await navigator.share({title:p.name,text,url});return}}catch(e){if(e&&e.name==="AbortError")return}try{await navigator.clipboard.writeText(text+"\n"+gm);toast("Copied, ready to paste")}catch(e){toast("Couldn't share from here")}};
   $("#rep").onclick=async()=>{try{await navigator.clipboard.writeText(`Atlas fix for ${p.name} (${p.district}, ${st.name}): `);toast("Copied. Paste it to Claude in chat and say what's wrong")}catch(e){toast(`Tell Claude in chat: "Atlas fix for ${p.name}, ${st.name}"`)}};
-  let nt=0;$("#note").oninput=e=>{clearTimeout(nt);nt=setTimeout(()=>{const v=e.target.value.trim();if(v)M.notes[pid]=v;else delete M.notes[pid];save()},700)};bindDiary(p);bindAsk(p);bindStory(p);$("#alist").onclick=()=>listPicker(pid,()=>paint(false,V.scrollTop));fillReach(p);fillFood(p);fillMag(p);fillAbout(p);fillWx(p)}
+  let nt=0;$("#note").oninput=e=>{clearTimeout(nt);nt=setTimeout(()=>{const v=e.target.value.trim();if(v)M.notes[pid]=v;else delete M.notes[pid];save()},700)};bindDiary(p);bindAsk(p);bindStory(p);$("#alist").onclick=()=>listPicker(pid,()=>paint(false,V.scrollTop));fillReach(p);fillFood(p);fillMag(p);fillAbout(p);fillWx(p);fillBYG(p)}
 
 function openTrail(i){remember();const D=curD();S.trail=D.trails[i].ids.map(n=>D.places.find(p=>p.n===n));S.sel=null;S.stack.push({v:"trail",a:i});paint(true);drawPins();drawRoute();halfUp();focusPts(S.trail)}
 function vTrail(i){const D=curD(),t=D.trails[i],ps=t.ids.map(n=>D.places.find(p=>p.n===n));let d=0;for(let j=1;j<ps.length;j++)d+=km(ps[j-1],ps[j]);
@@ -2206,7 +2215,8 @@ function vPassport(){const all=allPlaces(),been=all.filter(p=>M.been[id(p)]),wan
    <div class="slab" id="acLab">Colour</div><div class="accs" role="radiogroup" aria-labelledby="acLab">${Object.entries(ACC).map(([k,a])=>`<button type="button" role="radio" class="acc" data-ac="${k}" aria-checked="${accNow()===k}" style="--a:${a[1]}"><i aria-hidden="true"></i><span>${a[0]}</span></button>`).join("")}</div>
    <button class="act" style="width:100%;margin-bottom:8px" id="setMe2">Home city and interests${h?` · ${esc(h.name)}`:""}</button><button class="act" style="width:100%;margin-bottom:8px" id="rfr"><svg class="bi" aria-hidden="true"><use href="#i-refresh"/></svg>Refresh the atlas</button><button class="act" style="width:100%;margin-bottom:8px" data-go="credits">Photo credits</button>
    ${PWA?(STANDALONE?`<p class="note">Installed on this device. The atlas works offline, and your visits and saves stay on this phone.</p>`:`<div class="pcard"><b>Install on your iPhone</b><p class="note" style="margin:4px 0 0">In Safari, tap the Share button, then <b>Add to Home Screen</b>. The atlas then opens full-screen like an app and works offline.</p></div>`):OFFLINE?`<p class="note">This is your offline copy. Visits and saves you make here stay on this device.</p>`:`<button class="act" style="width:100%;margin-top:8px" id="offDl">Download offline copy (about 4 MB)</button>`}
-   <div class="sync" id="syncNote" style="padding-left:0">${esc(syncMsg)}</div></details>`;
+   ${packsBlock()}<div class="sync" id="syncNote" style="padding-left:0">${esc(syncMsg)}</div></details>`;
+  bindPacksBlock();
   const yc=$("#yrcard");if(yc)yc.onclick=yearCard;const pq=$("#poster");if(pq)pq.onclick=posterDlg;$("#setMe2").onclick=()=>showOnboard(true);V.querySelectorAll("[data-ac]").forEach(b=>b.onclick=()=>{setAcc(b.dataset.ac);V.querySelectorAll("[data-ac]").forEach(x=>x.setAttribute("aria-checked",x===b))});V.querySelectorAll("[data-th]").forEach(b=>b.onclick=()=>{setTheme(b.dataset.th);V.querySelectorAll("[data-th]").forEach(x=>x.setAttribute("aria-pressed",x===b))});$("#rfr").onclick=refreshApp;const od=$("#offDl");if(od)od.onclick=offlineCopy;
   $("#ppLog").onclick=logVisit;$("#ppName").onclick=()=>{const b=$("#ppName"),inp=document.createElement("input");inp.value=M.pname||"";inp.maxLength=40;inp.className="ppin";inp.setAttribute("aria-label","Name on your passport");b.replaceWith(inp);inp.focus();const done=()=>{M.pname=inp.value.trim();save();paint(false,V.scrollTop)};inp.onblur=done;inp.onkeydown=e=>{if(e.key==="Enter")inp.blur();if(e.key==="Escape"){inp.value=M.pname||"";inp.blur()}}};
   V.querySelectorAll("[data-ws]").forEach(b=>b.onclick=()=>{S.wsort=b.dataset.ws;paint(false,V.scrollTop)});
@@ -2344,7 +2354,7 @@ function vMyTrip(){syncTrip();const A_=tripNow(),onT=!!(A_&&A_.st==="on"&&A_.cur
   let body="";
   if(tab==="today")body=`<div class="pad">${todayBlock(A_)}</div>`;
   else if(tab==="plan"){const byDay={};ps.forEach((p,i)=>{(byDay[dd[i]]=byDay[dd[i]]||[]).push(i)});
-    body=`<div class="pad"><div class="tgrid" style="margin:12px 0 8px"><label class="lbl">Start date<input type="date" id="tstart" value="${esc(M.tripStart||"")}"></label><div class="lbl">Order<button class="act" id="opt" style="width:100%;margin-top:4px;height:46px">Shortest route</button></div></div>${paceCheck(ps)}<div id="twxs"></div></div>
+    body=`<div class="pad"><div class="tgrid" style="margin:12px 0 8px"><label class="lbl">Start date<input type="date" id="tstart" value="${esc(M.tripStart||"")}"></label><div class="lbl">Order<button class="act" id="opt" style="width:100%;margin-top:4px;height:46px">Shortest route</button></div></div>${paceCheck(ps)}<div id="twxs"></div>${tripPackBtn(ps)}</div>
      <div class="tdays">${Object.entries(byDay).map(([d,ix])=>{const f=ps[ix[0]],lp=ps[ix[ix.length-1]],[sr,ss]=sunTimes(f.lat,f.lng,M.tripStart?addD(dOf(M.tripStart),+d):new Date()),drive=ix.reduce((a,i)=>a+(i&&road(L[i-1])<=600?road(L[i-1])/45:0),0),multi=pl[ix[0]].multi&&pl[ix[0]].d2>pl[ix[0]].d;
       return`<section class="tday"><div class="tdh"><b>Day ${+d+1}${multi?`–${pl[ix[0]].d2+1}`:""}</b><span>${M.tripStart?dayDate(+d)+" · ":""}☀ ${clk(sr)} – ${clk(ss)}${drive>=.3?` · ${hmd(drive)} on the road`:""}</span><span class="twx" data-wd="${d}"></span><span class="tfood" data-fd="${d}" hidden></span></div>
        ${ix.map(i=>{const p=ps[i],c=cond(p,m).find(x=>x[0]!=="good");return`${i&&dd[i]===dd[i-1]?legChip(L[i-1]):i?legChip(L[i-1]):""}<div class="tst"><span class="thumb" aria-hidden="true">${art(p)}</span><button class="tsb" data-p="${id(p)}"><span class="stime blk">${pl[i].multi?"All day · "+esc(p.time):hm(pl[i].a)+"–"+hm(pl[i].b)}</span><b class="blk">${esc(p.name)}</b><span class="blk m2">${esc(p.category)} · ${esc(p.district)}, ${esc(stOf(p.slug).name)}</span>${c?`<span class="tcond blk">${CI[c[0]]||"!"} ${esc(c[1])}</span>`:""}</button><span class="tord"><button class="ib" data-up="${i}" aria-label="Move ${esc(p.name)} earlier"${i?"":" disabled"}>▲</button><button class="ib" data-dn="${i}" aria-label="Move ${esc(p.name)} later"${i<ps.length-1?"":" disabled"}>▼</button><button class="ib" data-rm="${i}" aria-label="Remove ${esc(p.name)}">✕</button></span></div>`}).join("")}
@@ -2373,7 +2383,7 @@ function vMyTrip(){syncTrip();const A_=tripNow(),onT=!!(A_&&A_.st==="on"&&A_.cur
   const sh=$("#tshare");if(sh)sh.onclick=async()=>{try{if(navigator.share){await navigator.share({title:M.tripName||"My trip",text:txt()});return}}catch(e){if(e&&e.name==="AbortError")return}try{await navigator.clipboard.writeText(txt());toast("Trip copied, ready to paste")}catch(e){toast("Couldn't share here")}};
   const tm=$("#tmap");if(tm)tm.onclick=()=>{drawRoute();showOnMap(ps)};
   let tn=0;const tno=$("#tnote");if(tno)tno.oninput=e=>{clearTimeout(tn);tn=setTimeout(()=>{M.tripNote=e.target.value.trim();save()},700)};
-  bindTripTools(ps,days);if(tab==="plan"){fillTripWx(ps,dd);fillTripFood(ps,dd)}if(tab==="today")bindToday(A_);drawRoute();if(S.tab==="trip"&&tab==="plan")focusPts(ps)}
+  bindTripTools(ps,days);bindTripPack(ps);if(tab==="plan"){fillTripWx(ps,dd);fillTripFood(ps,dd)}if(tab==="today")bindToday(A_);drawRoute();if(S.tab==="trip"&&tab==="plan")focusPts(ps)}
 function bindTripsTop(){const n=$("#tnew");if(n)n.onclick=newTrip;V.querySelectorAll("[data-tsw]").forEach(b=>b.onclick=()=>switchTrip(b.dataset.tsw));const d=$("#tdel");if(d)d.onclick=delTrip;
   const tn=$("#tname");if(tn)tn.onclick=()=>{const inp=document.createElement("input");inp.value=M.tripName||autoTripName();inp.maxLength=50;inp.className="tnin";inp.setAttribute("aria-label","Trip name");tn.replaceWith(inp);inp.focus();inp.select();const done=()=>{M.tripName=inp.value.trim();save();paint(false,V.scrollTop)};inp.onblur=done;inp.onkeydown=e=>{if(e.key==="Enter")inp.blur();if(e.key==="Escape"){inp.value=M.tripName||"";inp.blur()}}};
   bindTrip();const cur=V.querySelector(".tchip.on");if(cur){const r=cur.parentNode;r.scrollLeft=cur.offsetLeft-16}}
@@ -2689,6 +2699,104 @@ function memoryNow(){const vis=M.visits||{},t=dOf(today()),y=t.getFullYear(),out
   return out.sort((a,b)=>b.score-a.score)[0]||null}
 function memCard(){const m=memoryNow();if(!m)return"";const ph=((M.photos||{})[id(m.p)]||[])[0],ago=m.yrs===1?"A year ago":`${m.yrs} years ago`;
   return`<button class="memcard" data-p="${id(m.p)}"><span class="memi" aria-hidden="true">${ph?phImg(ph,""):art(m.p,{big:1})}</span><span class="memt"><span class="tde">${ago} ${m.exact?"today":"this week"} · ${fmtD(dOf(m.v.date),{day:"numeric",month:"short",year:"numeric"})}</span><b class="blk">${esc(m.p.name)}</b>${m.v.line?`<span class="blk meml">“${esc(m.v.line)}”</span>`:`<span class="blk m2">${esc(m.p.district)}, ${esc(stOf(m.p.slug).name)}${m.v.rating?" · "+"★".repeat(m.v.rating):""}</span>`}</span></button>`}
+
+/* ================= Before you go: hours, entry, contact, from OpenStreetMap + Wikidata ================= */
+const OHD=["Su","Mo","Tu","We","Th","Fr","Sa"];
+/* a small opening_hours reader for the common forms; returns null when the rule is too unusual to trust */
+function ohToday(oh,dt=new Date()){if(!oh)return null;oh=oh.trim();if(oh==="24/7")return{open:true,all:true};
+  const wd=dt.getDay(),day=OHD[wd];let ivs=null,hit=false;
+  for(let rule of oh.split(";")){rule=rule.trim();if(!rule)continue;
+    let m=rule.match(/^((?:(?:Mo|Tu|We|Th|Fr|Sa|Su|PH)(?:-(?:Mo|Tu|We|Th|Fr|Sa|Su))?,?\s*)+)?\s*(.*)$/);if(!m)return null;
+    const ds=(m[1]||"").trim(),ts=(m[2]||"").trim();let inc=!ds;
+    if(ds)for(const part of ds.split(",").map(x=>x.trim()).filter(Boolean)){if(part==="PH")continue;const[a,b]=part.split("-");const ia=OHD.indexOf(a),ib=b?OHD.indexOf(b):ia;if(ia<0||ib<0)return null;
+      for(let i=ia,n=0;n<8;i=(i+1)%7,n++){if(i===wd)inc=true;if(i===ib)break}}
+    if(!inc)continue;hit=true;
+    if(/^(off|closed)$/i.test(ts)){ivs=[];continue}
+    if(/^sunrise-sunset$/i.test(ts)){ivs=[[6,18.5]];continue}
+    const L=[];for(const t of ts.split(",")){const q=t.trim().match(/^(\d{1,2}):(\d{2})-(\d{1,2}):(\d{2})\+?$/);if(!q)return null;L.push([+q[1]+q[2]/60,+q[3]+q[4]/60])}
+    if(!L.length)return null;ivs=L}
+  if(!hit)return{open:false,closedToday:true};
+  const h=dt.getHours()+dt.getMinutes()/60;if(!ivs||!ivs.length)return{open:false,closedToday:true};
+  for(const[a,b]of ivs){const e=b<=a?b+24:b;if(h>=a&&h<e)return{open:true,until:b}}
+  const nx=ivs.find(([a])=>a>h);return{open:false,opens:nx?nx[0]:null,later:!!nx}}
+const clkH=h=>{let H=Math.floor(h)%24,m=Math.round((h-Math.floor(h))*60);if(m===60){H=(H+1)%24;m=0}const ap=H<12?"am":"pm",h12=H%12||12;return`${h12}${m?":"+String(m).padStart(2,"0"):""} ${ap}`};
+async function osmTags(p){const key="ita-osm:"+id(p);try{const c=JSON.parse(sessionStorage.getItem(key)||"null");if(c)return c.t}catch(e){}
+  const loc=new Set([...canon(p.district).split(" "),...canon(stOf(p.slug).name).split(" ")]),GEN=/^(the|of|and|sri|shri|temple|fort|lake|falls|beach|hill|hills|park|national|palace|church|mosque|garden|museum|cave|caves|dam|river|island|market|road|point|view|viewpoint|wildlife|sanctuary|bird)$/;
+  const words=canon(p.name).split(" ").filter(w=>w.length>=4&&!loc.has(w)&&!GEN.test(w)).sort((a,b)=>b.length-a.length);
+  /* no distinctive word (e.g. "Mysuru Palace" in Mysuru): fall back to the longest word, searched closer in */
+  const w0=words[0]||canon(p.name).split(" ").filter(w=>w.length>=4&&!/^(the|and|sri|shri)$/.test(w)).sort((a,b)=>b.length-a.length)[0];
+  if(!w0){try{sessionStorage.setItem(key,JSON.stringify({t:null}))}catch(e){}return null}
+  const q=`[out:json][timeout:15];nwr(around:${words[0]?600:400},${p.lat},${p.lng})["name"~"${w0.replace(/[^a-z0-9]/g,"")}",i];out tags center 6;`;
+  for(const u of["https://overpass-api.de/api/interpreter","https://overpass.kumi.systems/api/interpreter"]){
+    try{const ctl=new AbortController(),t=setTimeout(()=>ctl.abort(),9000);const j=await fetch(u,{method:"POST",body:"data="+encodeURIComponent(q),headers:{"Content-Type":"application/x-www-form-urlencoded"},signal:ctl.signal}).then(r=>{if(!r.ok)throw 0;return r.json()});clearTimeout(t);
+      const E=(j.elements||[]).filter(e=>e.tags&&e.tags.name).sort((a,b)=>Object.keys(b.tags).length-Object.keys(a.tags).length),best=E[0]?{...E[0].tags,_id:E[0].type+"/"+E[0].id}:null;
+      try{sessionStorage.setItem(key,JSON.stringify({t:best}))}catch(e){}return best}catch(e){}}
+  return null}
+function bygBlock(){return`<div class="pcard byg" id="byg" hidden><h3 style="margin:0 0 8px">Before you go</h3><ul class="bygl" id="bygl"></ul><p class="note bygs" id="bygs"></p></div>`}
+async function fillBYG(p){const [F,T]=await Promise.all([factsOf(p.slug).then(F=>F[String(p.n)]||null).catch(()=>null),osmTags(p)]);const el=$("#byg");if(!el||S.sel!==p)return;
+  const rows=[],src=new Set();
+  if(T&&T.opening_hours){const o=ohToday(T.opening_hours);src.add("osm");
+    rows.push(["🕘",o?(o.all?"<b>Open 24 hours</b>":o.open?`<b class="ok">Open now</b> · until ${clkH(o.until)}`:o.closedToday?`<b class="no">Closed today</b>`:o.later?`<b class="no">Closed now</b> · opens ${clkH(o.opens)}`:`<b class="no">Closed for the day</b>`):"Hours",`<span class="m2">${esc(T.opening_hours.replace(/;/g,"; "))}</span>`])}
+  if(T&&(T.fee||T.charge)){src.add("osm");const f=(T.fee||"").toLowerCase();rows.push(["🎟",f==="no"?"<b>Free entry</b>":T.charge?`<b>Entry</b> ${esc(T.charge)}`:f==="yes"?"<b>Ticketed entry</b>":`<b>Entry</b> ${esc(T.fee)}`,""])}
+  if(T&&T.wheelchair){src.add("osm");rows.push(["♿",T.wheelchair==="yes"?"<b>Wheelchair accessible</b>":T.wheelchair==="limited"?"<b>Partly wheelchair accessible</b>":T.wheelchair==="no"?"<b>Not wheelchair accessible</b>":esc(T.wheelchair),""])}
+  const ph=T&&(T.phone||T["contact:phone"]);if(ph){src.add("osm");rows.push(["📞",`<a href="tel:${esc(ph.split(";")[0].replace(/\s/g,""))}">${esc(ph.split(";")[0])}</a>`,""])}
+  const web=(F&&F.web)||(T&&(T.website||T["contact:website"]));if(web){src.add(F&&F.web?"wd":"osm");rows.push(["🌐",`<a href="${esc(web)}" target="_blank" rel="noopener">Official website ↗</a>`,`<span class="m2">${esc(web.replace(/^https?:\/\/(www\.)?/,"").replace(/\/$/,"").slice(0,40))}</span>`])}
+  if(F&&(F.her||[]).length){src.add("wd");rows.push(["🏛",`<b>${esc(F.her.map(HERI).join(" · "))}</b>`,`<span class="m2">${/ASI|National Importance/.test(F.her.map(HERI).join())?"Protected: photography and timings follow ASI rules":"Protected site"}</span>`])}
+  if(!rows.length)return;
+  $("#bygl").innerHTML=rows.map(([i,a,b])=>`<li><span class="bygi" aria-hidden="true">${i}</span><span>${a}${b?`<span class="blk">${b}</span>`:""}</span></li>`).join("");
+  $("#bygs").innerHTML=[src.has("osm")?`Hours, entry and contact as mapped on <a href="https://www.openstreetmap.org/${esc(T._id)}" target="_blank" rel="noopener">OpenStreetMap ↗</a>`:"",src.has("wd")?"website and status from Wikidata":""].filter(Boolean).join("; ")+". Timings change on festival days, so check before you go.";
+  el.hidden=false}
+
+/* ================= Near me now: what you can reach and enjoy before dark ================= */
+function nearNow(){const show=()=>{remember();S.stack.push({v:"nearnow"});paint(true);halfUp();drawMe()};
+  const fb=why=>{const h=home();if(h){S.me={...h,you:false};toast(`${why} Showing what's near ${h.name}.`);show()}else toast(`${why} Set a home city in Passport to use this.`)};
+  if(!navigator.geolocation){fb("Location isn't available here.");return}toast("Finding where you are…");
+  navigator.geolocation.getCurrentPosition(pos=>{S.me={lat:pos.coords.latitude,lng:pos.coords.longitude,name:"you",you:true};show()},()=>fb("Location is off for this page."),{timeout:9000,maximumAge:300000})}
+const DAYG=new Set(["nature","water","coast","hills","wildlife","caves","adventure","heritage"]);
+function vNearNow(){const me=S.me;if(!me){V.innerHTML=`<div class="pad">${crumbBtn()}<p class="empty">Location isn't available.</p></div>`;return}
+  const lim=S.nnT||60,now=nowH(),[sr,ss]=sunTimes(me.lat,me.lng,new Date()),light=Math.max(0,ss-now),m=NOWM;
+  const L=allPlaces().map(p=>{const dk=road(km(me,p)),t=dk/DRV+.1;return{p,dk,t}}).filter(x=>x.t*60<=lim).map(x=>{const stay=Math.min(Math.max(hrs(x.p),.75),3),day=DAYG.has(x.p.g),fits=day?now+x.t+stay<=ss+.25:now+x.t+stay<=20.5,inS=inSeason(m,x.p);
+      return{...x,stay,fits,day,inS,sc:tierW[x.p.tier]*1.2+(inS?.8:-1)+(fits?1:-2)+(M.want[id(x.p)]?.8:0)-(M.been[id(x.p)]?1.2:0)-x.t*.6}}).sort((a,b)=>b.sc-a.sc);
+  const good=L.filter(x=>x.fits),late=L.filter(x=>!x.fits);
+  const row=x=>`<li><button class="it" data-p="${id(x.p)}"><span class="thumb" aria-hidden="true">${art(x.p)}</span><span><span class="nm">${esc(x.p.name)}</span><span class="sub">${x.t<.25?"right here":`~${hmd(x.t)} away`} · ${esc(x.p.time)} there${x.inS?"":" · off season"}</span><span class="nnf ${x.fits?"ok":"no"}">${!x.day?`Done by about ${clkH(now+x.t+x.stay)} if you leave now`:x.fits?`Back before sunset if you leave now`:`Too late for daylight today`}</span></span></button></li>`;
+  V.innerHTML=`<div class="pad">${crumbBtn()}<h2>Near ${me.you?"you":esc(me.name)}, now</h2>
+   <p class="lead nnh">${now<sr?`Sunrise at ${clk(sr)}.`:light>0?`<b>${hmd(light)}</b> of daylight left · sunset ${clk(ss)}`:`The sun has set (${clk(ss)}). Temples, markets and food are still on.`}</p>
+   <div class="chips" role="group" aria-label="How far" style="padding-left:0;padding-right:0">${[30,60,90,120].map(v=>`<button class="chip${lim===v?" on":""}" data-nn="${v}" aria-pressed="${lim===v}">Within ${v<60?v+" min":v/60+" h"}</button>`).join("")}</div></div>
+   ${good.length?`<h3 class="pad">Go now<small>${good.length}</small></h3><ul>${good.slice(0,25).map(row).join("")}</ul>`:`<p class="pad empty">Nothing in the atlas fits in the light left within ${lim} min. Try a wider radius.</p>`}
+   ${late.length?`<details class="pad allst"><summary><b>Better on another day</b><span>${late.length}</span></summary><ul>${late.slice(0,20).map(row).join("")}</ul></details>`:""}
+   <div class="pad"><button class="act" id="nnAll" style="width:100%;margin-top:12px">See the 40 closest places</button><p class="note">Drive times are estimates from straight-line distance. Outdoor places count as fitting if you'd finish before sunset, others if you'd finish by about 8:30 pm. Check closing times.</p></div>`;
+  V.querySelectorAll("[data-nn]").forEach(b=>b.onclick=()=>{S.nnT=+b.dataset.nn;paint(false,0)});
+  V.querySelectorAll("[data-p]").forEach(b=>b.onclick=()=>{const p=byId(b.dataset.p);if(p.slug!==S.slug){S.slug=p.slug;classStates()}openPlace(p,true)});
+  $("#nnAll").onclick=()=>{S.stack.push({v:"near"});paint(true)};
+  setTimeout(()=>focusPts([me,...good.slice(0,10).map(x=>x.p)]),60)}
+
+/* ================= Offline packs: photos and facts for a whole state, saved on the phone ================= */
+function packUrls(slug){const L=(S.data[slug]||{}).places||[],u=[];L.forEach(p=>{const ph=photoOf(id(p));if(!ph)return;u.push(phSize(ph.t,500));if(p.tier!=="gem")u.push(phSize(ph.t,960))});return u}
+async function packState(slug,prog){await phReady.catch(()=>{});try{navigator.storage&&navigator.storage.persist&&navigator.storage.persist()}catch(e){}
+  const urls=packUrls(slug),files=[`data/facts/${slug}.json`,`data/places/${slug}.json`,`data/districts/${slug}.json`];let done=0,ok=0;const tot=urls.length+files.length;
+  for(const f of files){try{const r=await fetch(f,{cache:"no-cache"});if(r.ok)ok++}catch(e){}done++;prog&&prog(done,tot)}
+  let i=0;const worker=async()=>{while(i<urls.length){const u=urls[i++];try{await fetch(u,{mode:"no-cors"});ok++}catch(e){}done++;prog&&prog(done,tot)}};
+  await Promise.all([worker(),worker(),worker(),worker()]);
+  M.packs=M.packs||{};M.packs[slug]={t:Date.now(),n:urls.length,ok};save();return{ok,tot}}
+async function unpackState(slug){const urls=new Set(packUrls(slug));try{const c=await caches.open("ita-img");for(const r of await c.keys())if(urls.has(r.url))await c.delete(r)}catch(e){}
+  if(M.packs)delete M.packs[slug];save()}
+function packRow(s){const pk=(M.packs||{})[s.slug],n=((S.data[s.slug]||{}).places||[]).length;
+  return`<li class="pkr"><span><b class="blk">${esc(s.name)}</b><span class="blk m2" data-pkm="${s.slug}">${pk?`Saved ${fmtD(new Date(pk.t),{day:"numeric",month:"short"})} · ${pk.n} photos`:`${n} places · about ${Math.max(1,Math.round(packUrls(s.slug).length*.07))} MB`}</span></span>${pk?`<button class="act" data-unpk="${s.slug}">Remove</button>`:`<button class="act" data-pk="${s.slug}">Download</button>`}</li>`}
+function bindPacks(root){(root||V).querySelectorAll("[data-pk]").forEach(b=>b.onclick=async()=>{const sl=b.dataset.pk,m=V.querySelector(`[data-pkm="${sl}"]`);b.disabled=true;
+    const r=await packState(sl,(d,t)=>{b.textContent=`${Math.round(d/t*100)}%`;if(m)m.textContent=`Downloading ${d} of ${t}…`});
+    toast(`${stOf(sl).name} saved for offline use`);say(`${stOf(sl).name} saved for offline use`);paint(false,V.scrollTop)});
+  (root||V).querySelectorAll("[data-unpk]").forEach(b=>b.onclick=async()=>{await unpackState(b.dataset.unpk);toast(`Removed the ${stOf(b.dataset.unpk).name} pack`);paint(false,V.scrollTop)})}
+function packsBlock(){const ready=S.states.filter(s=>S.data[s.slug]),saved=ready.filter(s=>(M.packs||{})[s.slug]),tripS=[...new Set(M.trip.map(byId).filter(Boolean).map(p=>p.slug))].map(stOf).filter(Boolean),hp=home()?allPlaces().reduce((b,p)=>{const d=km(home(),p);return!b||d<b[1]?[p,d]:b},null):null,hS=hp?[stOf(hp[0].slug)]:[];
+  const show=[...new Map([...saved,...tripS,...hS].map(s=>[s.slug,s])).values()];
+  return`<h3 style="margin-top:18px">Offline packs</h3><p class="note" style="margin-top:-4px">Maps and place lists already work offline. A pack also saves a state's photos and fact sheets, for places with no signal.</p>
+   <ul class="pkl">${show.map(packRow).join("")}</ul>
+   <label class="lbl" for="pkSel" style="margin-top:8px">Add a state</label><select id="pkSel"><option value="">Choose a state…</option>${ready.filter(s=>!show.includes(s)).sort((a,b)=>a.name.localeCompare(b.name)).map(s=>`<option value="${s.slug}">${esc(s.name)}</option>`).join("")}</select>`}
+function bindPacksBlock(){bindPacks();const sel=$("#pkSel");if(sel)sel.onchange=()=>{const sl=sel.value;if(!sl)return;const ul=V.querySelector(".pkl");ul.insertAdjacentHTML("beforeend",packRow(stOf(sl)));sel.querySelector(`option[value="${sl}"]`).remove();sel.value="";bindPacks(ul.lastElementChild)}}
+/* trips: one tap to save every state the trip passes through */
+function tripPackBtn(ps){const sl=[...new Set(ps.map(p=>p.slug))],miss=sl.filter(s=>!(M.packs||{})[s]);if(!ps.length)return"";
+  return miss.length?`<button class="act" id="tpk" style="width:100%;margin-top:10px"><svg class="bi" aria-hidden="true"><use href="#i-down"/></svg>Save this trip for offline (${miss.map(s=>stOf(s).name).join(", ")})</button>`:`<p class="note" style="margin-top:10px">✓ Saved for offline: photos and fact sheets for ${sl.map(s=>stOf(s).name).join(", ")}.</p>`}
+function bindTripPack(ps){const b=$("#tpk");if(!b)return;b.onclick=async()=>{b.disabled=true;const sl=[...new Set(ps.map(p=>p.slug))].filter(s=>!(M.packs||{})[s]);
+  for(const s of sl)await packState(s,(d,t)=>{b.textContent=`Saving ${stOf(s).name}… ${Math.round(d/t*100)}%`});toast("Trip saved for offline use");paint(false,V.scrollTop)}}
 
 function route(silent,h0){const h=h0!=null?h0:location.hash.slice(1);const m=h.match(/^(.*)-(\d+)$/);
   if(m&&S.data[m[1]]){const p=S.data[m[1]].places.find(x=>x.n==m[2]);if(p){S.slug=m[1];classStates();S.stack=[{v:"explore"}];openPlace(p,!silent);return}}
