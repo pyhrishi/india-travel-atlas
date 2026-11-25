@@ -15,9 +15,9 @@ The M49 entity registry remains the source of the atlas country/area list. A map
 ## Build a batch
 
 ```sh
-python3 tools/build_global_maps.py --iso2 BD,BT,LK,MV,MM --dry-run
-python3 tools/build_global_maps.py --iso2 BD,BT,LK,MV,MM
+python3 tools/build_global_maps.py --iso2 BD,BT,LK,MV,KH --dry-run
+python3 tools/build_global_maps.py --iso2 BD,BT,LK,MV,KH
 python3 tools/bump_sw.py
 ```
 
-Batches are limited to ten countries. A failed country aborts the batch before its own output file is replaced. The GitHub workflow runs manually and commits only validated map files.
+Batches are limited to ten countries. A failed country aborts the batch before its own output file is replaced. The GitHub workflow runs manually and commits only validated map files. Myanmar is excluded from the initial batch pending investigation of a source mismatch (12 GeoJSON features versus 14 reported administrative units).
