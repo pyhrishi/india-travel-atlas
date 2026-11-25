@@ -85,6 +85,7 @@ jobs:
             .github/facts-state/${{ matrix.state }}.json
           if-no-files-found: error
           retention-days: 14
+          include-hidden-files: true
 
   publish:
     name: Merge and publish verified results
