@@ -19,7 +19,7 @@ on:
       iso2:
         description: "Comma-separated ISO2 country codes (maximum 10)"
         required: true
-        default: "ID,PH,TH,VN,MY"
+        default: "LA,BN,SG,TL"
 
 permissions:
   contents: write
@@ -59,7 +59,7 @@ jobs:
           python-version: "3.12"
       - name: Validate requested batch
         env:
-          ISO2: ${{ github.event_name == 'workflow_dispatch' && inputs.iso2 || 'ID,PH,TH,VN,MY' }}
+          ISO2: ${{ github.event_name == 'workflow_dispatch' && inputs.iso2 || 'LA,BN,SG,TL' }}
         run: |
           python - <<'PY'
           import os, re, sys
@@ -72,7 +72,7 @@ jobs:
           PY
       - name: Build and validate map files
         env:
-          ISO2: ${{ github.event_name == 'workflow_dispatch' && inputs.iso2 || 'ID,PH,TH,VN,MY' }}
+          ISO2: ${{ github.event_name == 'workflow_dispatch' && inputs.iso2 || 'LA,BN,SG,TL' }}
         run: python tools/build_global_maps.py --iso2 "$ISO2"
       - name: Refresh offline cache version
         run: python tools/bump_sw.py
