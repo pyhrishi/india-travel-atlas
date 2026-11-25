@@ -221,7 +221,14 @@
     10,
     2
    ],
-   "time": "2–3 days"
+   "time": "2–3 days",
+   "stay": {
+    "kinds": [
+     "Guesthouse",
+     "Heritage resort"
+    ],
+    "how": "Guesthouses in Hampi Bazaar area and across the river at Virupapur Gaddi; heritage stays at Kamalapura"
+   }
   },
   {
    "n": 2,
@@ -1745,7 +1752,13 @@
     10,
     4
    ],
-   "time": "Overnight"
+   "time": "Overnight",
+   "stay": {
+    "kinds": [
+     "Coffee-estate homestay"
+    ],
+    "how": "Hundreds of estate homestays across Kodagu; pick registered ones"
+   }
   },
   {
    "n": 90,
@@ -2206,6 +2219,13 @@
     "best": "Mar–Jun for elephant gatherings by the lake",
     "odds": "Elephants almost certain; leopards and the black panther possible",
     "how": "Jeep and boat safari"
+   },
+   "stay": {
+    "kinds": [
+     "Jungle lodge",
+     "Resort"
+    ],
+    "how": "Jungle Lodges & Resorts (Karnataka government) runs a lodge here; book on its website"
    }
   },
   {
@@ -2378,6 +2398,13 @@
     "best": "Oct–Jun",
     "odds": "Elephants likely",
     "how": "Jeep safari"
+   },
+   "stay": {
+    "kinds": [
+     "Jungle lodge",
+     "Forest department cottage"
+    ],
+    "how": "Jungle Lodges & Resorts (Karnataka government) runs a lodge here; book on its website"
    }
   },
   {
@@ -3270,6 +3297,13 @@
     "best": "Nov–Apr",
     "odds": "Great and Malabar pied hornbills likely",
     "how": "Birding walks and river trips"
+   },
+   "stay": {
+    "kinds": [
+     "Jungle lodge",
+     "Riverside camp"
+    ],
+    "how": "Jungle Lodges & Resorts (Karnataka government) runs a lodge here; book on its website"
    }
   },
   {

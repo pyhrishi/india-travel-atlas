@@ -621,6 +621,7 @@ h3 small{font-weight:600;color:var(--soft);margin-left:6px;font-size:13px}
 .xdl dt{font-size:13px;color:var(--soft)}.xdl dd{margin:0;font-size:14.5px;font-weight:600;line-height:1.4}.xdl a{color:var(--pinkink)}
 .xnote{margin:10px 0 0;font-size:14px;padding:9px 12px;border-radius:12px;background:var(--bg)}
 .cirl{margin:0;padding-left:24px;list-style:decimal;display:grid;gap:4px}.cirl li{font-size:14px}.cirl li.on b{color:var(--pink)}.cirl button{all:unset;cursor:pointer;color:var(--ink);text-decoration:underline;text-decoration-color:color-mix(in srgb,var(--pink) 45%,transparent);text-underline-offset:3px}
+.pmr{padding:8px 0;border-top:1px solid var(--line)}.pmr:first-of-type{border-top:0}.pmr p,.pml p{margin:4px 0 0;font-size:14px}.pmw{margin-left:6px;font-size:12px;color:var(--soft)}.pml{list-style:none;margin:0;padding:0;display:grid;gap:10px}.pml input{accent-color:var(--pink)}
 </style>
 </head>
 <body>
@@ -1158,7 +1159,7 @@ function vPlace(k){const p=byId(k);if(!p){V.innerHTML=`<div class="pad">${crumbB
    ${warns.length?`<div class="warns">${warns.map(w=>`<span class="warn"><svg aria-hidden="true"><use href="#i-warn"/></svg>${esc(w)}</span>`).join("")}</div>`:""}
    <div class="facts"><div class="fact"><span>Best time</span><b class="${ok?"ok":""}">${monthsTxt(p)}</b>${mbar(p)}</div><div class="fact"><span>Time needed</span><b>${esc(p.time)}</b></div><div class="fact"><span>${esc(from[0])}</span><b>${esc(from[1])}</b></div></div><div class="facts sunf">${sunLine(p)}</div>
    ${aboutBlock()}${storyBlock(p)}
-   ${trekBlock(p)}${xBlocks(p)}${circBlock(p)}${bygBlock()}${wxBlock(p)}${condBlock(p)}${crowdBlock(p)}${reachBlock(p)}${foodBlock()}${magBlock(p)}
+   ${trekBlock(p)}${xBlocks(p)}${circBlock(p)}${permitBlock(p)}${bygBlock()}${wxBlock(p)}${condBlock(p)}${crowdBlock(p)}${reachBlock(p)}${foodBlock()}${magBlock(p)}
    <button class="where" id="where" aria-label="Show ${esc(p.name)} on the big map">${whereMap(p)}</button>
    ${fs.map(f=>`<p class="note" style="margin:0 0 10px"><b style="color:var(--ink)">${esc(f.name)}</b> · ${esc(f.when)}. ${esc(f.about)}</p>`).join("")}
    <div class="note" style="margin-top:0"><a href="${gm}" target="_blank" rel="noopener" style="color:var(--pinkink)">See photos and reviews on Google Maps ↗</a></div>
@@ -2260,6 +2261,11 @@ const THEMES=[
  ["rockcut","Carved from the rock","Cave temples and monasteries cut into cliffs",p=>p.g==="caves"||cat(/cave/i)(p)],
  ["stepwells","Stepwells","Water architecture of the west",p=>tgx("stepwell")(p)||cat(/stepwell/i)(p)],
  ["wildlife","Wildlife beyond tigers","Rhinos, lions, snow leopards, gharials, red pandas and more","#3f6212",tg("wild")],
+ ["st-home","Village homestays","Sleep in a family home in the hills and villages","#9a3412",tg("st-home")],
+ ["st-mon","Monastery stays","Guesthouses inside Himalayan monasteries","#7c2d12",tg("st-mon")],
+ ["st-house","Houseboats","Kerala kettuvallams and Dal Lake houseboats","#0e7490",tg("st-house")],
+ ["st-forest","Forest lodges","Stay inside or at the edge of the reserve","#14532d",tg("st-forest")],
+ ["st-camp","Tented camps","Desert, lake and high-valley camps","#a16207",tg("st-camp")],
  ["sp-rhino","One-horned rhino","Assam's grasslands, where most of the world's greater one-horned rhinos live","#475569",tg("sp-rhino")],
  ["sp-snowleopard","Snow leopard","Winter tracking in Ladakh and Spiti","#64748b",tg("sp-snowleopard")],
  ["sp-elephant","Wild elephants","Herds in the forests of the south and north","#57534e",tg("sp-elephant")],
@@ -2388,7 +2394,7 @@ function vMyTrip(){syncTrip();const A_=tripNow(),onT=!!(A_&&A_.st==="on"&&A_.cur
   let body="";
   if(tab==="today")body=`<div class="pad">${todayBlock(A_)}</div>`;
   else if(tab==="plan"){const byDay={};ps.forEach((p,i)=>{(byDay[dd[i]]=byDay[dd[i]]||[]).push(i)});
-    body=`<div class="pad"><div class="tgrid" style="margin:12px 0 8px"><label class="lbl">Start date<input type="date" id="tstart" value="${esc(M.tripStart||"")}"></label><div class="lbl">Order<button class="act" id="opt" style="width:100%;margin-top:4px;height:46px">Shortest route</button></div></div>${paceCheck(ps)}<div id="twxs"></div>${tripPackBtn(ps)}${friendsBlock(ps)}</div>
+    body=`<div class="pad"><div class="tgrid" style="margin:12px 0 8px"><label class="lbl">Start date<input type="date" id="tstart" value="${esc(M.tripStart||"")}"></label><div class="lbl">Order<button class="act" id="opt" style="width:100%;margin-top:4px;height:46px">Shortest route</button></div></div>${paceCheck(ps)}<div id="twxs"></div>${permitList(ps)}${tripPackBtn(ps)}${friendsBlock(ps)}</div>
      <div class="tdays">${Object.entries(byDay).map(([d,ix])=>{const f=ps[ix[0]],lp=ps[ix[ix.length-1]],[sr,ss]=sunTimes(f.lat,f.lng,M.tripStart?addD(dOf(M.tripStart),+d):new Date()),drive=ix.reduce((a,i)=>a+(i&&road(L[i-1])<=600?road(L[i-1])/45:0),0),multi=pl[ix[0]].multi&&pl[ix[0]].d2>pl[ix[0]].d;
       return`<section class="tday"><div class="tdh"><b>Day ${+d+1}${multi?`–${pl[ix[0]].d2+1}`:""}</b><span>${M.tripStart?dayDate(+d)+" · ":""}☀ ${clk(sr)} – ${clk(ss)}${drive>=.3?` · ${hmd(drive)} on the road`:""}</span><span class="twx" data-wd="${d}"></span><span class="tfood" data-fd="${d}" hidden></span></div>
        ${ix.map(i=>{const p=ps[i],c=cond(p,m).find(x=>x[0]!=="good");return`${i&&dd[i]===dd[i-1]?legChip(L[i-1]):i?legChip(L[i-1]):""}<div class="tst"><span class="thumb" aria-hidden="true">${art(p)}</span><button class="tsb" data-p="${id(p)}"><span class="stime blk">${pl[i].multi?"All day · "+esc(p.time):hm(pl[i].a)+"–"+hm(pl[i].b)}</span><b class="blk">${esc(p.name)}</b><span class="blk m2">${esc(p.category)} · ${esc(p.district)}, ${esc(stOf(p.slug).name)}</span>${c?`<span class="tcond blk">${CI[c[0]]||"!"} ${esc(c[1])}</span>`:""}</button><span class="tord"><button class="ib" data-up="${i}" aria-label="Move ${esc(p.name)} earlier"${i?"":" disabled"}>▲</button><button class="ib" data-dn="${i}" aria-label="Move ${esc(p.name)} later"${i<ps.length-1?"":" disabled"}>▼</button><button class="ib" data-rm="${i}" aria-label="Remove ${esc(p.name)}">✕</button></span></div>`}).join("")}
@@ -2417,7 +2423,7 @@ function vMyTrip(){syncTrip();const A_=tripNow(),onT=!!(A_&&A_.st==="on"&&A_.cur
   const sh=$("#tshare");if(sh)sh.onclick=async()=>{try{if(navigator.share){await navigator.share({title:M.tripName||"My trip",text:txt()});return}}catch(e){if(e&&e.name==="AbortError")return}try{await navigator.clipboard.writeText(txt());toast("Trip copied, ready to paste")}catch(e){toast("Couldn't share here")}};
   const tm=$("#tmap");if(tm)tm.onclick=()=>{drawRoute();showOnMap(ps)};
   let tn=0;const tno=$("#tnote");if(tno)tno.oninput=e=>{clearTimeout(tn);tn=setTimeout(()=>{M.tripNote=e.target.value.trim();save()},700)};
-  bindTripTools(ps,days);bindTripPack(ps);bindFriends(ps);if(tab==="plan"){fillTripWx(ps,dd);fillTripFood(ps,dd)}if(tab==="today")bindToday(A_);drawRoute();if(S.tab==="trip"&&tab==="plan")focusPts(ps)}
+  bindTripTools(ps,days);bindTripPack(ps);bindPermits();bindFriends(ps);if(tab==="plan"){fillTripWx(ps,dd);fillTripFood(ps,dd)}if(tab==="today")bindToday(A_);drawRoute();if(S.tab==="trip"&&tab==="plan")focusPts(ps)}
 function bindTripsTop(){const n=$("#tnew");if(n)n.onclick=newTrip;V.querySelectorAll("[data-tsw]").forEach(b=>b.onclick=()=>switchTrip(b.dataset.tsw));const d=$("#tdel");if(d)d.onclick=delTrip;
   const tn=$("#tname");if(tn)tn.onclick=()=>{const inp=document.createElement("input");inp.value=M.tripName||autoTripName();inp.maxLength=50;inp.className="tnin";inp.setAttribute("aria-label","Trip name");tn.replaceWith(inp);inp.focus();inp.select();const done=()=>{M.tripName=inp.value.trim();save();paint(false,V.scrollTop)};inp.onblur=done;inp.onkeydown=e=>{if(e.key==="Enter")inp.blur();if(e.key==="Escape"){inp.value=M.tripName||"";inp.blur()}}};
   bindTrip();const cur=V.querySelector(".tchip.on");if(cur){const r=cur.parentNode;r.scrollLeft=cur.offsetLeft-16}}
@@ -2968,7 +2974,7 @@ const HIMS=new Set(["uttarakhand","himachal-pradesh","jammu-and-kashmir","ladakh
 try{THEMES.push(["mtreks","Treks for this season","Trails and summits at their best this month",p=>tg("trek")(p)&&!tg("easy")(p),{season:1}],["easywalks","Easy hikes with big views","Short climbs anyone can do",tg("easy"),{season:1}])}catch(e){}
 
 /* ================= Detail cards for the new layers ================= */
-const XF=["trek","park","wet","bird","cave","sky","rail","drive","gi","art","eat","beach","fall","fort","wild"];const SPN={"rhino": "One-horned rhino", "lion": "Asiatic lion", "snowleopard": "Snow leopard", "elephant": "Wild elephants", "wildass": "Indian wild ass", "blackbuck": "Blackbuck", "gibbon": "Hoolock gibbon", "redpanda": "Red panda", "dolphin": "River and lagoon dolphins", "gharial": "Gharial", "sangai": "Sangai deer", "turtle": "Olive ridley turtles", "slothbear": "Sloth bear", "leopard": "Leopards", "cheetah": "Cheetah", "tahr": "Nilgiri tahr", "macaque": "Lion-tailed macaque", "hornbill": "Hornbills", "flamingo": "Flamingos"};
+const XF=["trek","park","wet","bird","cave","sky","rail","drive","gi","art","eat","beach","fall","fort","wild","stay"];const SPN={"rhino": "One-horned rhino", "lion": "Asiatic lion", "snowleopard": "Snow leopard", "elephant": "Wild elephants", "wildass": "Indian wild ass", "blackbuck": "Blackbuck", "gibbon": "Hoolock gibbon", "redpanda": "Red panda", "dolphin": "River and lagoon dolphins", "gharial": "Gharial", "sangai": "Sangai deer", "turtle": "Olive ridley turtles", "slothbear": "Sloth bear", "leopard": "Leopards", "cheetah": "Cheetah", "tahr": "Nilgiri tahr", "macaque": "Lion-tailed macaque", "hornbill": "Hornbills", "flamingo": "Flamingos"};
 
 const lst=a=>(a||[]).filter(Boolean).map(esc).join(" · ");
 const lnk=(u,t)=>u?`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(t||"Official site")} ↗</a>`:esc(t||"");
@@ -2987,6 +2993,7 @@ const XCARD={
  fall:d=>({t:"The falls",k:d.h?`About ${d.h} m`:"Waterfall",rows:[["Height",d.h?`About ${d.h} m`:""],["Shape",esc(d.tiers||"")],["Flowing",esc(d.flow||"")],["Getting close",esc(d.walk||"")],["Bathing",d.bathe===true?"Allowed in parts":d.bathe===false?"Not safe or not allowed":""]],warn:d.warn,note:d.note}),
  fort:d=>({t:d.kind==="Stepwell"?"The stepwell":d.kind==="Palace"?"The palace":"The fort",k:d.unesco?"UNESCO":d.kind,rows:[["Built",esc(d.built||"")],["By",esc(d.by||"")],["Don't miss",lst(d.see)],["World Heritage",esc(d.unesco||"")],["Stay",esc(d.stay||"")],["Evenings",esc(d.show||"")]],warn:d.warn,note:d.note}),
  wild:d=>({t:"Wildlife to look for",k:"Wildlife",rows:[["Star species",lst((d.sp||[]).map(x=>SPN[x]||x))],["Best time",esc(d.best||"")],["Your odds",esc(d.odds||"")],["How",esc(d.how||"")]],warn:d.warn,note:d.note,foot:"Sightings are never guaranteed; odds are typical, not promised."}),
+ stay:d=>({t:"Where to stay",k:(d.kinds||[])[0]||"Stay",rows:[["Kinds of stay",lst(d.kinds)],["How to book",esc(d.how||"")]],warn:d.warn,note:d.note,foot:"Prices and availability change; book ahead in peak season."}),
  eat:d=>({t:"What to eat",k:d.kind||"Eatery",rows:[["Since",d.since?String(d.since):""],["Known for",lst(d.dishes)],["Food",d.veg===true?"Vegetarian":d.veg===false?"Non-vegetarian too":""],["Go",esc(d.when||"")]],note:d.note,foot:"Hours and prices change; old favourites sometimes move. Check before you go."}),
 };
 function xBlocks(p){return XF.filter(f=>f!=="trek"&&p[f]&&XCARD[f]).map(f=>{const c=XCARD[f](p[f]),rows=c.rows.filter(r=>r[1]);
@@ -3037,6 +3044,38 @@ function circBlock(p){const L=circOf(p);if(!L.length)return"";const me=id(p);
   <button class="chip" data-ccol="c-${c[0]}" style="margin-top:8px">See the circuit on the map</button></div>`}).join("")}
 function bindCirc(){V.querySelectorAll("[data-cp]").forEach(b=>b.onclick=()=>{const q=byId(b.dataset.cp);if(q)goPlace(q)});
  V.querySelectorAll("[data-ccol]").forEach(b=>b.onclick=()=>openColl(b.dataset.ccol))}
+/* Permits: rules by state + area, a card on places and a checklist on trips */
+const PERMITS=[
+ {s:"arunachal-pradesh",t:"Inner Line Permit",w:"Indian visitors",h:"Apply online on the Arunachal e-ILP portal before you travel; carry a printout and ID.",f:"Foreign visitors need a Protected Area Permit (PAP), usually through a registered tour operator."},
+ {s:"nagaland",t:"Inner Line Permit",w:"Indian visitors",h:"Apply online on the Nagaland ILP portal; Dimapur entry also needs it.",f:"Foreign visitors register with the police on arrival."},
+ {s:"mizoram",t:"Inner Line Permit",w:"Indian visitors",h:"Apply online or get it at Lengpui airport or the entry gates.",f:"Foreign visitors register with the police within 24 hours."},
+ {s:"manipur",t:"Inner Line Permit",w:"Indian visitors",h:"Apply on the Manipur ILP portal or at the Imphal airport counter.",f:"Foreign visitors register on arrival; check current travel advisories."},
+ {s:"lakshadweep",t:"Entry permit",w:"Everyone, including Indian citizens",h:"Apply through the Lakshadweep administration's e-permit portal or your package operator, with a police clearance certificate."},
+ {s:"sikkim",t:"Restricted Area Permit",w:"Foreign visitors",h:"Get the Sikkim RAP online or at the Rangpo border check post.",foreign:1},
+ {s:"sikkim",r:/Lachen|Lachung|Gurudongmar|Yumthang|Zero Point|Thangu|Chopta Valley|Tsomgo|Changu|Nathu ?La|Baba Mandir|Zuluk|Kupup|Old Silk|Dzongu|Goecha|Dzongri|Kyongnosla|Gnathang|Nathang/i,t:"Protected area permit",w:"Everyone",h:"Arranged through a registered Sikkim tour operator; carry ID and photos. Nathu La is for Indian citizens only."},
+ {s:"ladakh",r:/Nubra|Diskit|Hunder|Turtuk|Panamik|Pangong|Tangtse|Merak|Chushul|Tso Moriri|Korzok|Tso Kar|Hanle|Dha Hanu|Khardung|Chang La|Wari La|Umling|Shyok|Yarab|Sumur/i,t:"Ladakh protected-area permit",w:"Everyone",h:"Apply on the Leh district online permit portal and pay the environment fee; carry printouts for check posts.",f:"Foreign visitors need a PAP, usually through an agent, in a group of two or more."},
+ {s:"uttarakhand",r:/^(Kedarnath Temple|Badrinath Temple|Gangotri Temple|Yamunotri Temple|Hemkund Sahib)$/,t:"Yatra registration",w:"Everyone",h:"Register on the Uttarakhand tourism registration portal before the yatra; Kedarnath helicopter seats are booked separately."},
+ {s:"uttarakhand",r:/Nelong|Jadung|Gartang/i,t:"Inner Line Permit",w:"Indian citizens only",h:"Issued by the Uttarkashi district office or at Bhaironghati."},
+ {s:"uttarakhand",r:/Adi Kailash|Om Parvat|Gunji|Kalapani|Jolingkong|Kuti/i,t:"Inner Line Permit",w:"Indian citizens only",h:"Issued by the SDM office in Dharchula, with medical certificate and police verification."},
+ {s:"uttarakhand",r:/Valley of Flowers/i,t:"Forest entry ticket",w:"Everyone",h:"Bought at the Ghangaria forest check post; the park is open roughly June to October."},
+ {s:"himachal-pradesh",r:/Rohtang/i,t:"Rohtang vehicle permit",w:"Anyone driving up",h:"Book online for the day; numbers are capped and Tuesdays are usually closed. The Atal Tunnel needs no permit."},
+ {s:"himachal-pradesh",r:/Nako|Chitkul|Shipki|Kaurik|Sumdo|\bLeo\b|Dubling|Yangthang|Chango/i,t:"Inner Line Permit",w:"Foreign visitors",h:"Issued by the SDM offices in Reckong Peo or Kaza.",foreign:1},
+ {s:"jammu-and-kashmir",r:/Amarnath/i,t:"Yatra registration",w:"Everyone",h:"Register with the Shri Amarnathji Shrine Board; a compulsory health certificate is required."},
+ {s:"kerala",r:/Agasthyakoodam|Agasthyarkoodam|Agastyakoodam/i,t:"Forest trek permit",w:"Everyone",h:"Booked online with the Kerala forest department in the short trekking season (about January–February)."},
+ {s:"kerala",r:/Sabarimala/i,t:"Virtual queue booking",w:"Everyone",h:"Book a darshan slot on the Sabarimala online portal."},
+];
+function permitsOf(p,trek=true){const out=[];const nm=p.name+" "+(p.district||"");
+ for(const r of PERMITS){if(r.s!==p.slug)continue;if(r.r&&!r.r.test(r.r.source.startsWith("^")?p.name:nm))continue;out.push(r)}
+ const t=p.trek;if(trek&&t&&typeof t==="object"&&t.permit)out.push({t:"Trek permit",w:"Trekkers",h:t.permit});return out}
+function permitBlock(p){const L=permitsOf(p,false);if(!L.length)return"";
+ return`<div class="pcard xcd pmt"><div class="tkh"><h3 style="margin:0">Permits</h3><span class="tkk">Plan ahead</span></div>
+ ${L.map(r=>`<div class="pmr"><b>${esc(r.t)}</b><span class="pmw">${esc(r.w)}</span><p>${esc(r.h)}</p>${r.f?`<p class="note" style="margin:2px 0 0">${esc(r.f)}</p>`:""}</div>`).join("")}
+ <p class="note" style="margin:6px 0 0">Rules change; check the official portal before you travel.</p></div>`}
+function permitList(ps){const seen=new Map();
+ for(const p of ps)for(const r of permitsOf(p)){const k=r.t+"|"+(r.r?r.r.source:r.s)+"|"+r.h;if(!seen.has(k))seen.set(k,{r,ps:[]});seen.get(k).ps.push(p)}
+ if(!seen.size)return"";
+ return`<div class="pcard pmt" style="margin-top:12px"><h3 style="margin:0 0 6px">Permits for this trip</h3><ul class="pml">${[...seen.values()].map(({r,ps})=>`<li><label><input type="checkbox" data-pmk="${esc(r.t+ps[0].name)}"${(M.pmDone||{})[r.t+ps[0].name]?" checked":""}> <b>${esc(r.t)}</b> <span class="pmw">${esc(r.w)}</span></label><p>${esc(r.h)}</p><p class="note" style="margin:0">For ${ps.slice(0,4).map(q=>esc(q.name)).join(", ")}${ps.length>4?` and ${ps.length-4} more`:""}</p></li>`).join("")}</ul></div>`}
+function bindPermits(){V.querySelectorAll("[data-pmk]").forEach(c=>c.onchange=()=>{M.pmDone=M.pmDone||{};if(c.checked)M.pmDone[c.dataset.pmk]=1;else delete M.pmDone[c.dataset.pmk];save()})}
 function route(silent,h0){const h=h0!=null?h0:location.hash.slice(1);const m=h.match(/^(.*)-(\d+)$/);
   if(m&&S.data[m[1]]){const p=S.data[m[1]].places.find(x=>x.n==m[2]);if(p){S.slug=m[1];classStates();S.stack=[{v:"explore"}];openPlace(p,!silent);return}}
   paint()}

@@ -131,6 +131,14 @@
     "how": [
      "Shikara"
     ]
+   },
+   "stay": {
+    "kinds": [
+     "Houseboat",
+     "Guesthouse"
+    ],
+    "how": "Book a houseboat registered with the Kashmir houseboat owners' association",
+    "note": "Shikaras ferry you to the boat"
    }
   },
   {
@@ -469,7 +477,14 @@
     12,
     6
    ],
-   "time": "2 days"
+   "time": "2 days",
+   "stay": {
+    "kinds": [
+     "Hotel",
+     "Log hut"
+    ],
+    "how": "JKTDC huts and private hotels; book well ahead for the ski season"
+   }
   },
   {
    "n": 21,
@@ -599,7 +614,13 @@
     4,
     10
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "stay": {
+    "kinds": [
+     "Hotel",
+     "Camp"
+    ]
+   }
   },
   {
    "n": 28,
@@ -741,7 +762,13 @@
     4,
     10
    ],
-   "time": "2 days"
+   "time": "2 days",
+   "stay": {
+    "kinds": [
+     "Hotel",
+     "Riverside camp"
+    ]
+   }
   },
   {
    "n": 35,

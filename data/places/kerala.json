@@ -619,7 +619,14 @@
     10,
     4
    ],
-   "time": "Full day"
+   "time": "Full day",
+   "stay": {
+    "kinds": [
+     "Forest eco-lodge"
+    ],
+    "how": "Book with the Kerala Forest Development Corporation",
+    "note": "Day passes and stays are limited"
+   }
   },
   {
    "n": 26,
@@ -707,7 +714,16 @@
     10,
     3
    ],
-   "time": "Overnight houseboat"
+   "time": "Overnight houseboat",
+   "stay": {
+    "kinds": [
+     "Houseboat (kettuvallam)",
+     "Lakeside homestay"
+    ],
+    "how": "Book a government-approved houseboat with a green-palm or star certificate",
+    "note": "An overnight houseboat cruise usually runs noon to the next morning",
+    "warn": "Houseboats anchor at night; avoid boats without a licence"
+   }
   },
   {
    "n": 31,
@@ -750,6 +766,14 @@
      "Boat"
     ],
     "start": "Kumarakom"
+   },
+   "stay": {
+    "kinds": [
+     "Houseboat",
+     "Lake resort",
+     "Homestay"
+    ],
+    "how": "Houseboats from the Kumarakom jetties"
    }
   },
   {
@@ -964,7 +988,14 @@
     9,
     5
    ],
-   "time": "2 days"
+   "time": "2 days",
+   "stay": {
+    "kinds": [
+     "Tea-estate bungalow",
+     "Homestay",
+     "Resort"
+    ]
+   }
   },
   {
    "n": 45,
@@ -1174,6 +1205,15 @@
     "best": "Oct–May",
     "odds": "Elephants likely at the lake edge",
     "how": "Boat on Periyar lake"
+   },
+   "stay": {
+    "kinds": [
+     "Forest lodge",
+     "Homestay",
+     "Resort"
+    ],
+    "how": "Periyar Foundation eco-lodges inside the reserve (book online); spice-garden homestays in Kumily",
+    "note": "Inside-the-reserve stays include guided walks"
    }
   },
   {

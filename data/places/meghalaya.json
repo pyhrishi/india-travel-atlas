@@ -133,6 +133,13 @@
     "el": 600,
     "diff": "Moderate",
     "base": "Tyrna"
+   },
+   "stay": {
+    "kinds": [
+     "Village homestay"
+    ],
+    "how": "Basic guesthouses in Nongriat village at the bottom of the steps",
+    "note": "Stay overnight to see the bridges and Rainbow Falls without rushing"
    }
   },
   {
@@ -375,7 +382,14 @@
     10,
     4
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "stay": {
+    "kinds": [
+     "Village homestay",
+     "Tree house"
+    ],
+    "how": "Homestays in the village; book ahead on weekends"
+   }
   },
   {
    "n": 13,

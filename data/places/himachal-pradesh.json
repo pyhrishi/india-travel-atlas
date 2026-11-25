@@ -1194,7 +1194,15 @@
     3,
     11
    ],
-   "time": "2 days"
+   "time": "2 days",
+   "stay": {
+    "kinds": [
+     "Homestay",
+     "Riverside cottage",
+     "Forest rest house"
+    ],
+    "how": "Village homestays along the Tirthan river"
+   }
   },
   {
    "n": 56,
@@ -1210,7 +1218,14 @@
     3,
     11
    ],
-   "time": "Overnight"
+   "time": "Overnight",
+   "stay": {
+    "kinds": [
+     "Homestay",
+     "Wooden cottage"
+    ],
+    "how": "Village homestays"
+   }
   },
   {
    "n": 57,
@@ -2298,6 +2313,13 @@
      "Milky Way"
     ],
     "note": "Camps are a few km from the lake"
+   },
+   "stay": {
+    "kinds": [
+     "Tented camp"
+    ],
+    "how": "Camps at the Chandratal campsite 2–3 km before the lake",
+    "note": "No camping by the lake shore itself"
    }
   },
   {
@@ -2336,7 +2358,14 @@
     6,
     9
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "stay": {
+    "kinds": [
+     "Guesthouse",
+     "Homestay"
+    ],
+    "how": "Many guesthouses in Kaza town; book ahead in summer"
+   }
   },
   {
    "n": 117,
@@ -2352,7 +2381,14 @@
     6,
     9
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "stay": {
+    "kinds": [
+     "Monastery guesthouse"
+    ],
+    "how": "Rooms at the monastery guesthouse; ask at the office",
+    "note": "Simple rooms; join the monks' morning prayers"
+   }
   },
   {
    "n": 118,
@@ -2377,6 +2413,13 @@
     "odds": "Fair to good",
     "how": "Village homestays with spotters",
     "note": "Also ibex and blue sheep"
+   },
+   "stay": {
+    "kinds": [
+     "Village homestay"
+    ],
+    "how": "Through local homestay networks in Kibber",
+    "note": "Winter stays for snow leopard trips"
    }
   },
   {
@@ -2466,7 +2509,13 @@
     6,
     9
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "stay": {
+    "kinds": [
+     "Monastery guesthouse"
+    ],
+    "how": "Small guesthouse at the new monastery"
+   }
   },
   {
    "n": 124,
@@ -2482,7 +2531,14 @@
     6,
     9
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "stay": {
+    "kinds": [
+     "Monastery guesthouse",
+     "Homestay"
+    ],
+    "how": "Monastery guesthouse beside the old temple complex"
+   }
   },
   {
    "n": 125,
@@ -2644,7 +2700,14 @@
     4,
     10
    ],
-   "time": "Overnight"
+   "time": "Overnight",
+   "stay": {
+    "kinds": [
+     "Homestay",
+     "Guesthouse"
+    ],
+    "how": "Village homestays; book ahead for June and October"
+   }
   },
   {
    "n": 134,
@@ -3123,7 +3186,14 @@
     6,
     9
    ],
-   "time": "Overnight"
+   "time": "Overnight",
+   "stay": {
+    "kinds": [
+     "Tented camp"
+    ],
+    "how": "Summer camps on the Manali–Leh road",
+    "note": "Altitude about 4,300 m: sleep here only if acclimatised"
+   }
   },
   {
    "name": "Gondhla Fort",

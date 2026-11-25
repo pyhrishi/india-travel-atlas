@@ -118,6 +118,13 @@
     "when": "Hornbill Festival, 1–10 December",
     "length": "Ten days",
     "what": "Naga tribes' dances, games, food and music in one village of morungs"
+   },
+   "stay": {
+    "kinds": [
+     "Homestay",
+     "Camp"
+    ],
+    "how": "Homestays in Kigwema and Kohima book out for Hornbill; reserve months ahead"
    }
   },
   {
@@ -140,6 +147,12 @@
     "el": 1600,
     "diff": "Easy",
     "base": "Khonoma"
+   },
+   "stay": {
+    "kinds": [
+     "Village homestay"
+    ],
+    "how": "Angami family homestays arranged by the village council"
    }
   },
   {

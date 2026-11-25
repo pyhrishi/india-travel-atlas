@@ -1519,7 +1519,16 @@
     10,
     3
    ],
-   "time": "2–3 days"
+   "time": "2–3 days",
+   "stay": {
+    "kinds": [
+     "Bamboo cottage",
+     "Satra guesthouse",
+     "Mishing homestay"
+    ],
+    "how": "Mishing stilt-house homestays and satra guesthouses",
+    "note": "Ferries run in daylight only"
+   }
   },
   {
    "n": 74,

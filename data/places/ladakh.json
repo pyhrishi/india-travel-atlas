@@ -401,6 +401,12 @@
     "best": "Jan–Mar",
     "odds": "Good with local spotters",
     "how": "Homestay base for snow leopard trips"
+   },
+   "stay": {
+    "kinds": [
+     "Village homestay"
+    ],
+    "how": "Homestays run with the Snow Leopard Conservancy and local families"
    }
   },
   {
@@ -601,6 +607,12 @@
     "el": 2900,
     "diff": "Easy",
     "base": "Turtuk"
+   },
+   "stay": {
+    "kinds": [
+     "Village homestay"
+    ],
+    "how": "Balti family homestays; book on arrival or through Leh agents"
    }
   },
   {
@@ -671,6 +683,12 @@
     "el": 3510,
     "diff": "Easy",
     "base": "Lamayuru"
+   },
+   "stay": {
+    "kinds": [
+     "Monastery guesthouse"
+    ],
+    "how": "Guesthouse run by the monastery"
    }
   },
   {
@@ -687,7 +705,14 @@
     5,
     10
    ],
-   "time": "1–2 hrs"
+   "time": "1–2 hrs",
+   "stay": {
+    "kinds": [
+     "Guesthouse",
+     "Homestay"
+    ],
+    "how": "Village guesthouses around the temple complex"
+   }
   },
   {
    "n": 31,
@@ -812,6 +837,14 @@
      "Milky Way",
      "Star trails over the water"
     ]
+   },
+   "stay": {
+    "kinds": [
+     "Tented camp",
+     "Homestay"
+    ],
+    "how": "Camps and homestays at Spangmik, Man and Merak",
+    "note": "Nights are freezing even in summer"
    }
   },
   {
@@ -889,6 +922,13 @@
      "Milky Way over the lake"
     ],
     "warn": "Cold nights even in summer"
+   },
+   "stay": {
+    "kinds": [
+     "Homestay",
+     "Tented camp"
+    ],
+    "how": "Homestays in Korzok village"
    }
   },
   {

@@ -1478,7 +1478,15 @@
     10,
     5
    ],
-   "time": "2–3 days"
+   "time": "2–3 days",
+   "stay": {
+    "kinds": [
+     "Heritage hotel",
+     "Tea-estate bungalow",
+     "Homestay"
+    ],
+    "how": "Colonial hotels like the Windamere; tea-estate stays at Glenburn, Makaibari and others"
+   }
   },
   {
    "n": 76,
@@ -1839,7 +1847,13 @@
     10,
     5
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "stay": {
+    "kinds": [
+     "Heritage bungalow",
+     "Homestay"
+    ]
+   }
   },
   {
    "n": 94,

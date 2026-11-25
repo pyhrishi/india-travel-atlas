@@ -1789,6 +1789,12 @@
     "odds": "Hatchlings likely at the festival",
     "how": "Dawn and dusk releases",
     "note": "Turtle festival run by villagers"
+   },
+   "stay": {
+    "kinds": [
+     "Village homestay"
+    ],
+    "how": "Homestays arranged through the turtle festival organisers"
    }
   },
   {

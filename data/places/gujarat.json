@@ -367,7 +367,14 @@
     10,
     3
    ],
-   "time": "2 hrs"
+   "time": "2 hrs",
+   "stay": {
+    "kinds": [
+     "Bhunga mud-hut stay"
+    ],
+    "how": "Community-run Shaam-e-Sarhad resort and family bhungas",
+    "note": "The Rann Utsav tent city runs nearby at Dhordo in winter"
+   }
   },
   {
    "n": 10,
@@ -610,6 +617,13 @@
     "how": "Permit safari booked online; Devalia interpretation zone as backup",
     "note": "The only wild Asiatic lions anywhere",
     "warn": "Safari permits sell out; book early"
+   },
+   "stay": {
+    "kinds": [
+     "Forest lodge",
+     "Resort"
+    ],
+    "how": "Gujarat forest department Sinh Sadan guest house at Sasan, plus private resorts"
    }
   },
   {

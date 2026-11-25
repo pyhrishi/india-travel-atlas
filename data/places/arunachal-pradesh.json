@@ -922,7 +922,14 @@
     3,
     10
    ],
-   "time": "2–3 days"
+   "time": "2–3 days",
+   "stay": {
+    "kinds": [
+     "Apatani homestay",
+     "Camp"
+    ],
+    "how": "Village homestays in Hong and Hari; camps during the Ziro music festival"
+   }
   },
   {
    "n": 44,
@@ -1130,7 +1137,13 @@
     3,
     11
    ],
-   "time": "2–3 days"
+   "time": "2–3 days",
+   "stay": {
+    "kinds": [
+     "Homestay"
+    ],
+    "how": "Memba family homestays"
+   }
   },
   {
    "n": 57,

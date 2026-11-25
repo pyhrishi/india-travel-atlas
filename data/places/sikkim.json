@@ -619,7 +619,13 @@
     10,
     5
    ],
-   "time": "Overnight"
+   "time": "Overnight",
+   "stay": {
+    "kinds": [
+     "Lepcha homestay"
+    ],
+    "how": "Homestays arranged with the permit through local operators"
+   }
   },
   {
    "n": 29,
@@ -699,7 +705,13 @@
     10,
     5
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "stay": {
+    "kinds": [
+     "Hotel",
+     "Homestay"
+    ]
+   }
   },
   {
    "n": 34,

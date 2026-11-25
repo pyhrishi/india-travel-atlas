@@ -696,7 +696,14 @@
    },
    "circ": [
     "panchkedar"
-   ]
+   ],
+   "stay": {
+    "kinds": [
+     "Tented camp",
+     "Guesthouse"
+    ],
+    "how": "Camps and small lodges along the Ukhimath–Chopta road"
+   }
   },
   {
    "n": 28,
@@ -1807,6 +1814,13 @@
     "el": 2412,
     "diff": "Easy",
     "base": "Binsar"
+   },
+   "stay": {
+    "kinds": [
+     "Forest rest house",
+     "KMVN tourist rest house"
+    ],
+    "how": "KMVN rest house inside the sanctuary"
    }
   },
   {
@@ -2034,7 +2048,14 @@
     3,
     6
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "stay": {
+    "kinds": [
+     "Village homestay",
+     "KMVN guesthouse"
+    ],
+    "how": "Sarmoli village homestays run by local women; KMVN tourist rest house"
+   }
   },
   {
    "n": 101,
@@ -2448,7 +2469,13 @@
     3,
     6
    ],
-   "time": "Half day"
+   "time": "Half day",
+   "stay": {
+    "kinds": [
+     "Tented camp",
+     "Resort"
+    ]
+   }
   },
   {
    "n": 125,
