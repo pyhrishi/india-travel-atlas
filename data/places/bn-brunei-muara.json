@@ -18,7 +18,39 @@
    115.07
   ]
  ],
- "trails": [],
+ "trails": [
+  {
+   "name": "Bandar Seri Begawan heritage and river circuit",
+   "note": "A city-centre route linking the royal collection, mosque architecture, waterfront and Kampong Ayer; allow time for the boat crossing.",
+   "ids": [
+    1,
+    3,
+    14,
+    2,
+    5
+   ]
+  },
+  {
+   "name": "Mosques, markets and city life",
+   "note": "Combine the two principal mosques with the Gadong night market and a riverside stop; check mosque visiting hours and dress guidance.",
+   "ids": [
+    1,
+    4,
+    15,
+    14
+   ]
+  },
+  {
+   "name": "Northern coast and mangrove day",
+   "note": "A coastal day combining public beaches and a boat-arranged mangrove visit; confirm boat access and weather before setting out.",
+   "ids": [
+    11,
+    13,
+    12,
+    9
+   ]
+  }
+ ],
  "places": [
   {
    "n": 1,
@@ -325,6 +357,68 @@
    ],
    "time": "30–45 min",
    "tags": []
+  }
+ ],
+ "festivals": [
+  {
+   "name": "Chinese New Year",
+   "months": [
+    1,
+    2
+   ],
+   "when": "Usually January or February; lunar-calendar dates vary",
+   "n": null,
+   "about": "A major public holiday with celebrations around Bandar Seri Begawan, including the Teng Yun Temple area. Check the official annual programme."
+  },
+  {
+   "name": "Brunei National Day",
+   "months": [
+    2,
+    2
+   ],
+   "when": "23 February",
+   "n": null,
+   "about": "National Day celebrations are centred on the capital, with parades and public events. Confirm the official programme and venue for the year."
+  },
+  {
+   "name": "Hari Raya Aidilfitri",
+   "months": [
+    3,
+    4
+   ],
+   "when": "Date follows the Islamic lunar calendar",
+   "n": null,
+   "about": "A major festive period. Many shops and restaurants may close during the first days; check the official visitor arrangements before travelling."
+  },
+  {
+   "name": "His Majesty the Sultan's Birthday",
+   "months": [
+    7,
+    7
+   ],
+   "when": "15 July",
+   "n": null,
+   "about": "National celebrations and public events mark the Sultan's birthday; the annual programme and locations can change."
+  },
+  {
+   "name": "Maulidur Rasul",
+   "months": [
+    8,
+    9
+   ],
+   "when": "Islamic lunar-calendar date varies",
+   "n": null,
+   "about": "A nationwide religious observance with official celebrations; confirm the date and programme for the year."
+  },
+  {
+   "name": "Brunei December Festival",
+   "months": [
+    12,
+    12
+   ],
+   "when": "1–31 December 2026; check the current programme",
+   "n": null,
+   "about": "A month-long programme of cultural, family, food and entertainment events at venues around Brunei Darussalam."
   }
  ]
 }
