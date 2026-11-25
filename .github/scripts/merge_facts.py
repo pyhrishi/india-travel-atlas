@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fail-closed merge of all 36 independently verified region artifacts."""
+"""Fail-closed merge of all 40 independently verified region artifacts."""
 import glob
 import json
 import os
@@ -20,6 +20,7 @@ EXPECTED = {
     "west-bengal", "andaman-and-nicobar-islands", "chandigarh",
     "dadra-and-nagar-haveli-and-daman-and-diu", "delhi",
     "jammu-and-kashmir", "ladakh", "lakshadweep", "puducherry",
+    "bn-brunei-muara", "bn-temburong", "bn-tutong", "bn-belait",
 }
 
 def load_json(path):
@@ -89,7 +90,7 @@ for slug, (fact_path, state_path, _facts, _state) in validated.items():
     shutil.copy2(fact_path, os.path.join(FACTS, slug + ".json"))
     shutil.copy2(state_path, os.path.join(STATE_DIR, slug + ".json"))
 
-# Rebuild the queue only after all 36 regions pass validation.
+# Rebuild the queue only after all 40 regions pass validation.
 unverified = []
 for slug, places in catalogue.items():
     facts = validated[slug][2]
