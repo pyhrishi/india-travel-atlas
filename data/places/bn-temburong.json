@@ -20,33 +20,32 @@
  ],
  "trails": [
   {
-   "name": "Ulu Temburong rainforest day",
-   "note": "A guided rainforest outing from Bangar and Batang Duri, with river transfers and the canopy experience; arrange an authorised operator in advance.",
+   "name": "Ulu Temburong rainforest experience",
+   "note": "A guided rainforest day with river transfers, canopy views and a community eco-tourism base; book an authorised operator.",
    "ids": [
-    7,
-    4,
     3,
+    4,
     1,
-    2,
-    10
+    2
    ]
   },
   {
-   "name": "Temburong forest parks",
-   "note": "A hiking-focused route linking the district's forest recreation areas; check trail condition, access and local guidance before departure.",
+   "name": "Bangar and the Temburong countryside",
+   "note": "Explore Bangar, the bridge approach and nearby forest recreation areas.",
    "ids": [
+    7,
+    9,
     5,
     6,
     8
    ]
   },
   {
-   "name": "Bridge to the rainforest",
-   "note": "A scenic approach into the eastern enclave followed by a river-and-forest visit; allow for transfer time and confirm operator arrangements.",
+   "name": "Belalong river and research forest",
+   "note": "A specialist rainforest and river experience; the field studies centre is controlled-access and requires prior arrangements.",
    "ids": [
-    9,
-    7,
-    4,
+    10,
+    11,
     1
    ]
   }
@@ -238,6 +237,41 @@
    ],
    "time": "By arrangement",
    "tags": []
+  }
+ ],
+ "festivals": [
+  {
+   "name": "Ke Temburong Bisai community programme",
+   "months": [
+    2,
+    3
+   ],
+   "when": "Dates vary; check annual programme",
+   "about": "Community-led cultural and nature activities in Temburong; confirm current events and access with local organisers.",
+   "lat": 4.708,
+   "lng": 115.073
+  },
+  {
+   "name": "Brunei National Day",
+   "months": [
+    2,
+    2
+   ],
+   "when": "23 February each year",
+   "about": "National Day is celebrated countrywide; check for district-level activities in Temburong.",
+   "lat": 4.708,
+   "lng": 115.073
+  },
+  {
+   "name": "Brunei December Festival",
+   "months": [
+    12,
+    12
+   ],
+   "when": "December",
+   "about": "The year-end national festival period may include activities beyond the capital; check the official programme.",
+   "lat": 4.708,
+   "lng": 115.073
   }
  ]
 }
