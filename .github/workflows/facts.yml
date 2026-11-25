@@ -195,7 +195,7 @@ jobs:
           pattern: region-*
           path: region-artifacts
           merge-multiple: false
-      - name: Validate all 36 regions and merge atomically
+      - name: Validate all configured regions and merge atomically
         run: python3 .github/scripts/merge_facts.py region-artifacts
       - name: Verify Commons files and publish only verified article photos
         shell: bash
@@ -210,6 +210,10 @@ jobs:
           done
           echo "::error::Photo verification failed after 3 attempts; refusing to publish partial outputs."
           exit "$result"
+      - name: Rebuild generated place index and region counts
+        run: |
+          python3 tools/build_index.py
+          python3 tools/update_counts.py
       - name: Refresh offline cache version
         run: python3 tools/bump_sw.py
       - name: Commit merged results and checkpoints
@@ -217,7 +221,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          git add data/facts data/photos.json data/photo-credits.json .github/facts-state sw.js
+          git add data/facts data/photos.json data/photo-credits.json data/index.json data/states.json .github/facts-state sw.js
           git diff --cached --quiet && { echo "No change"; exit 0; }
           git commit -m "Merge complete parallel place verification results"
           for attempt in 1 2 3; do
@@ -251,6 +255,6 @@ jobs:
               echo "All region jobs passed, but merge/photo/publish did not complete. No successful publish is claimed."
             else
               echo ""
-              echo "All 36 region artifacts passed completeness checks before publishing."
+              echo "All configured region artifacts passed completeness checks before publishing."
             fi
           } >> "$GITHUB_STEP_SUMMARY"
