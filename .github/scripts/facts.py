@@ -18,6 +18,8 @@ API = 'https://en.wikipedia.org/w/api.php'
 WD = 'https://www.wikidata.org/w/api.php'
 FORCE = '--force' in sys.argv
 NOW = int(time.time()); DAY = 86400
+START = time.time(); BUDGET = 150*60  # stop searching after this, save, and let the next run continue
+OSMF = [0]  # consecutive OpenStreetMap failures; after 3 we stop asking it this run
 
 def get(url, params, tries=4):
     params = dict(params, format='json', maxlag='5')
@@ -86,15 +88,15 @@ def osm(p):
     """Look for a mapped feature near the place whose name shares a distinctive word with it."""
     loc = sig(p.get('dist', '')) | sig(p.get('st', ''))
     words = sorted(sig(p['name']) - loc, key=len, reverse=True)
-    if not words: return None
+    if not words or OSMF[0] >= 3: return None
     w = re.escape(words[0])
     q = f'[out:json][timeout:25];nwr(around:5000,{p["ll"][0]},{p["ll"][1]})["name"~"{w}",i];out tags center 8;'
-    for i in range(4):
+    for i in range(2):
         url = OVP[i % 2]
         try:
             req = urllib.request.Request(url, data=urllib.parse.urlencode({'data': q}).encode(), headers={'User-Agent': UA})
-            with urllib.request.urlopen(req, timeout=40) as r: j = json.load(r)
-            time.sleep(1.1)
+            with urllib.request.urlopen(req, timeout=20) as r: j = json.load(r)
+            OSMF[0] = 0; time.sleep(1.1)
             for e in j.get('elements', []):
                 nm = (e.get('tags') or {}).get('name:en') or (e.get('tags') or {}).get('name', '')
                 if sig(nm) & set(words):
@@ -105,7 +107,9 @@ def osm(p):
                     return out
             return None
         except Exception:
-            time.sleep(5 * (i + 1))
+            time.sleep(2)
+    OSMF[0] += 1
+    if OSMF[0] == 3: print('OpenStreetMap not answering; skipping it for the rest of this run', flush=True)
     return None
 
 def main():
@@ -131,7 +135,7 @@ def main():
     print(f'{len(places)} places, {len(todo)} to check, {len(hit)} matched earlier and waiting for details', flush=True)
     KEEP = ('title', 'fullurl', 'pageprops', 'thumbnail', 'pageimage', 'coordinates')
     def checkpoint():
-        pend = {k: {x: pg[x] for x in KEEP if x in pg} for k, pg in hit.items() if k not in R or R[k].get('osm')}
+        pend = {k: {x: pg[x] for x in KEEP if x in pg} for k, pg in hit.items() if k not in R or R[k].get('osm') or R[k].get('mv', 1) < MV}
         json.dump({'v': 1, 'r': R, 'm': M, 'h': H, 'p': pend, 'm2': sorted(M2 & set(M))}, open(STATE, 'w'), ensure_ascii=False, separators=(',', ':'))
         print(f'checkpoint: {len(R)} done, {len(pend)} waiting, {len(M)} unmatched', flush=True)
     import signal
@@ -161,6 +165,8 @@ def main():
     # 2) search with district and state, 3) articles within 2 km that share a distinctive word
     rest = [p for p in todo if p['k'] not in hit]
     for n, p in enumerate(rest):
+        if time.time() - START > BUDGET:
+            print(f'time budget reached at {n}/{len(rest)}; saving, the next run continues from here', flush=True); break
         b = strip_name(p['name']).replace('&', ' ')
         got = None
         for qs in (f"{b} {p['dist']}", f"{b} {p['st']}", b):
