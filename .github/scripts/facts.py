@@ -281,7 +281,7 @@ def main():
         if her: r['her'] = sorted(set(her))[:3]
         el = [v for v in vals(c, 'P2044') if isinstance(v, dict) and 'amount' in v]
         if el:
-            try: r['el'] = round(float(el[0]['amount']))
+            try: r['el'] = round(float(el[0]['amount']) * (0.3048 if str(el[0].get('unit', '')).endswith('Q3710') else 1))  # Q3710 = foot
             except Exception: pass
         inc = [v for v in vals(c, 'P571') if isinstance(v, dict) and 'time' in v]
         if inc:
