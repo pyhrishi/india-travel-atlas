@@ -180,8 +180,9 @@ def main():
     fp = lambda p: hashlib.md5(f"{p['name']}|{p['ll'][0]:.3f}|{p['ll'][1]:.3f}".encode()).hexdigest()[:10]
     keys = {p['k'] for p in places}
     R = {k: v for k, v in R.items() if k in keys}; M = {k: v for k, v in M.items() if k in keys}
-    MV = 4  # matching rules version; re-check earlier misses after adding place-specific title aliases
+    MV = 3  # matching rules version
     if old.get('m2v') != MV: M2 = set()  # misses from older rules get another look too
+    M2.discard('karnataka:21')  # retry the Bijapur citadel after adding its explicit article alias
     todo = [p for p in places if FORCE or (p['k'] in R and R[p['k']].get('mv', 1) < MV) or (p['k'] in M and p['k'] not in M2) or H.get(p['k']) != fp(p) or (p['k'] in M and NOW - M[p['k']] > 60*DAY)
             or (p['k'] in R and NOW - R[p['k']].get('at', 0) > 60*DAY) or (p['k'] not in R and p['k'] not in M)]
     hit = {k: v for k, v in PEND.items() if k in keys}
