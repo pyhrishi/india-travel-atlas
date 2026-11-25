@@ -761,7 +761,8 @@ async function loadCountryGeometry(cc){
   if(data.type!=="FeatureCollection"||!Array.isArray(data.features)||!data.features.length||!Array.isArray(data.bounds)||data.features.some(f=>!f.properties?.st_nm||!f.geometry))throw new Error("Country map data failed validation.");
   S.mapMode=true;S.mapData=data;S.mapBounds=data.bounds;S.mapCenter=null;S.mapCos=null;S.feats=data.features;
   const seen=new Set();
-  S.states=data.features.map((f,i)=>{const name=f.properties.st_nm,base=name.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"")||("region-"+(i+1));let slug=cc+"-"+base;if(seen.has(slug))slug+="-"+(i+1);seen.add(slug);return{name,slug,type:"Administrative region",status:"map-ready",count:0,cc}});
+  const known=new Map((S.ALL||[]).filter(s=>(s.cc||"in")===cc).map(s=>[s.slug,s]));
+  S.states=data.features.map((f,i)=>{const name=f.properties.st_nm,base=name.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"")||("region-"+(i+1));let slug=cc+"-"+base;if(seen.has(slug))slug+="-"+(i+1);seen.add(slug);const saved=known.get(slug);return saved?{...saved,name,cc}:{name,slug,type:"Administrative region",status:"map-ready",count:0,cc}});
 }
 async function setCountry(cc){
   if(!CC[cc])return;
