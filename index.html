@@ -734,7 +734,7 @@ const toast=(m,undo)=>{const t=$("#toast");t.innerHTML=`<span>${esc(m)}</span>${
 const say=m=>{const l=$("#live");l.textContent="";setTimeout(()=>l.textContent=m,60)};
 
 /* ---------- state ---------- */
-const S={states:[],data:{},full:{},slug:null,stack:[],tab:"explore",sel:null,hl:null,coll:null,trail:null,f:{cat:null,tier:null,mon:0,tm:null,dist:null,sort:"now"},q:"",feats:[],topo:null,fitK:1};
+const S={states:[],data:{},full:{},slug:null,stack:[],tab:"explore",sel:null,hl:null,coll:null,trail:null,f:{cat:null,tier:null,mon:0,tm:null,dist:null,sort:"now"},q:"",feats:[],topo:null,fitK:1,mapIndex:{countries:{}},mapMode:false,mapData:null,mapBounds:null,mapCenter:null,mapCos:null,legacyTopo:null,legacyFeats:null};
 const blankM=()=>({want:{},been:{},notes:{},trip:[],base:{},t:0,home:null,interests:[],onboarded:false,visits:{},photos:{},plans:[],trips:[],lists:[],skip:{},taste:{g:{},s:{}}});
 let M=blankM();
 try{const l=JSON.parse(localStorage.getItem("ita-v2")||"null");if(l)M=Object.assign(M,l);else if(window.__SEED)M=Object.assign(M,window.__SEED)}catch(e){if(window.__SEED)M=Object.assign(M,window.__SEED)}
@@ -743,13 +743,28 @@ const id=p=>p.slug+":"+p.n;
 const byId=k=>{const[s,n]=k.split(":");return S.data[s]&&S.data[s].places.find(p=>p.n==n)};
 /* countries: India and Nepal share one dataset; S.cc scopes what's shown */
 const CC={in:{name:"India",reg:"states and union territories",regS:"state"},np:{name:"Nepal",reg:"provinces",regS:"province"}};
-function ccOf(slug){const s=(S.ALL||S.states||[]).find(x=>x.slug===slug);return s?(s.cc||"in"):"in"}
+function ccOf(slug){const s=(S.ALL||[]).find(x=>x.slug===slug)||(S.states||[]).find(x=>x.slug===slug);return s?(s.cc||"in"):"in"}
 function ccStates(){return(S.ALL||[]).filter(s=>(s.cc||"in")===S.cc)}
-function CN(){return CC[S.cc||"in"].name}
-function featCC(f){const s=(S.ALL||[]).find(x=>x.name===f.properties.st_nm);return s?(s.cc||"in"):"in"}
+function CN(){return CC[S.cc||"in"]?.name||S.mapData?.country?.name||"Selected country"}
+function featCC(f){if(S.mapMode)return S.cc;const s=(S.ALL||[]).find(x=>x.name===f.properties.st_nm);return s?(s.cc||"in"):"in"}
 function scopeCC(cc){if(!CC[cc]||cc===S.cc)return false;S.cc=cc;try{localStorage.setItem("ita-cc",cc)}catch(e){}S.states=ccStates();_AP=null;S.coll=null;S.f={...S.f,dist:null,reg:null};return true}
-function setCountry(cc){if(!scopeCC(cc))return;S.slug=null;goIndia();toast(`Now showing ${CN()}`)}
-const stOf=slug=>(S.ALL||S.states).find(s=>s.slug===slug);
+async function loadCountryGeometry(cc){
+  if(cc==="in"||cc==="np"){S.mapMode=false;S.mapData=null;S.mapBounds=null;S.mapCenter=null;S.mapCos=null;S.topo=S.legacyTopo;S.feats=S.legacyFeats;S.states=ccStates();return}
+  const entry=S.mapIndex?.countries?.[cc];
+  if(!entry||entry.map_status!=="ready"||!entry.data_file)throw new Error("This country's map has not passed validation yet.");
+  const response=await fetch(entry.data_file);if(!response.ok)throw new Error("Country map data could not be loaded.");
+  const data=await response.json();
+  if(data.type!=="FeatureCollection"||!Array.isArray(data.features)||!data.features.length||!Array.isArray(data.bounds)||data.features.some(f=>!f.properties?.st_nm||!f.geometry))throw new Error("Country map data failed validation.");
+  S.mapMode=true;S.mapData=data;S.mapBounds=data.bounds;S.mapCenter=null;S.mapCos=null;S.feats=data.features;
+  const seen=new Set();
+  S.states=data.features.map((f,i)=>{const name=f.properties.st_nm,base=name.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"")||("region-"+(i+1));let slug=cc+"-"+base;if(seen.has(slug))slug+="-"+(i+1);seen.add(slug);return{name,slug,type:"Administrative region",status:"map-ready",count:0,cc}});
+}
+async function setCountry(cc){
+  if(!CC[cc])return;
+  try{S.cc=cc;try{localStorage.setItem("ita-cc",cc)}catch(e){}await loadCountryGeometry(cc);S.slug=null;S.sel=null;S.hl=null;S.trail=null;S.coll=null;S.stack=[{v:"explore"}];S.tab="explore";setTabs("explore");clearQ();_AP=null;S.f={...S.f,dist:null,reg:null};fit();drawBase();await goIndia();toast(`Now showing ${CN()}`)}
+  catch(e){toast(e.message||"Could not load this country's map.");console.error(e)}
+}
+const stOf=slug=>(S.states||[]).find(s=>s.slug===slug)||(S.ALL||[]).find(s=>s.slug===slug);
 const curD=()=>S.data[S.slug];
 /* v51 helpers: time needed, search aliases, collections, state notes */
 function hrs(p){const t=p.time;if(HRS[t]!=null)return HRS[t];let m=t.match(/(\d+)(?:–(\d+))?\s*days?/);if(m)return 24*((+m[1]+(+m[2]||+m[1]))/2);m=t.match(/(\d+)(?:–(\d+))?\s*hrs?/);if(m)return(+m[1]+(+m[2]||+m[1]))/2;if(/full day/i.test(t))return 8;if(/half day/i.test(t))return 4;if(/overnight|night/i.test(t))return 14;if(/evening|dawn/i.test(t))return 2;if(/expedition/i.test(t))return 72;return 3}
@@ -876,7 +891,7 @@ function vCredits(){if(!phCred||!phCred.done){loadCredits().then(()=>{phCred.don
 /* ---------- map ---------- */
 const svg=d3.select("#map"),root=svg.append("g"),gSea=root.append("g"),gLand=root.append("g"),gDist=root.append("g"),gGeo=root.append("g"),gRoute=root.append("g"),gPins=root.append("g"),gTop=svg.append("g");
 const CL=Math.cos(22*Math.PI/180);let W=0,H=0,K=1,T=d3.zoomIdentity,ox=0,oy=0,sc=1;
-const P=(lng,lat)=>[ox+(lng-68.1)*CL*sc,oy+(37.1-lat)*sc];
+const P=(lng,lat)=>{const c=S.mapCenter||[68.1,37.1],cs=S.mapCos||CL;return[ox+(lng-c[0])*cs*sc,oy+(c[1]-lat)*sc]};
 const path=d3.geoPath(d3.geoTransform({point(x,y){const q=P(x,y);this.stream.point(q[0],q[1])}}));
 let zs=null,vel=[];
 const zoom=d3.zoom().scaleExtent([.8,140]).on("start",e=>{S._zm=1;zs=e.sourceEvent?{x:T.x,y:T.y,k:T.k}:null;vel=[]}).on("end",e=>{S._zm=0;sizePins();clearTimeout(lqT);queueLabels();if(!e.sourceEvent||RM||vel.length<2)return;const now=performance.now(),v=vel.filter(s=>now-s.t<90);if(v.length<2||now-v[v.length-1].t>60)return;const a=v[0],b=v[v.length-1],dt=b.t-a.t;if(dt<8||b.k!==a.k)return;const vx=(b.x-a.x)/dt,vy=(b.y-a.y)/dt,sp=Math.hypot(vx,vy);if(sp<.35)return;const d=Math.min(sp,4)*220/sp;svg.transition().duration(650).ease(d3.easeCubicOut).call(zoom.translateBy,vx*d/K,vy*d/K)}).on("zoom",e=>{T=e.transform;K=T.k;root.attr("transform",T);if(e.sourceEvent){vel.push({t:performance.now(),x:T.x,y:T.y,k:T.k});if(vel.length>6)vel.shift()}sizePins();cluFollow();if(typeof sizeFx==="function")sizeFx();labelsSoon();if(zs&&(Math.abs(T.x-zs.x)+Math.abs(T.y-zs.y)>28||Math.abs(T.k-zs.k)/zs.k>.1)){zs=null;S.manual=true;if(mobile()&&si>0)snapTo(0,true)}});
@@ -886,14 +901,16 @@ const mobile=()=>MQ.matches;
 const tabH=()=>mobile()?($("#nav").getBoundingClientRect().height||60):0;
 function vb(){if(!mobile())return{x:W/2,y:H/2,w:W-60,h:H-60};const top=$(".mtop").getBoundingClientRect().bottom-$("#mapwrap").getBoundingClientRect().top+8,bot=(snaps[si]||136)+tabH()+(carShown()?118:0)+8,h=Math.max(140,H-bot-top);return{x:W/2,y:top+h/2,w:W-24,h}}
 function visArea(){const v=vb();return[v.w,v.h]}
-function fit(){const el=$("#map");W=el.clientWidth;H=el.clientHeight;if(!W||!H)return;sc=Math.min(W/(29.3*CL),H/30.35)*.92;ox=(W-29.3*CL*sc)/2;oy=(H-30.35*sc)/2;svg.attr("viewBox",`0 0 ${W} ${H}`);zoom.extent([[0,0],[W,H]]).translateExtent([[-W*.5,-H*.5],[W*1.5,H*1.5]])}
+function fit(){const el=$("#map");W=el.clientWidth;H=el.clientHeight;if(!W||!H)return;if(S.mapMode&&S.mapBounds){const b=S.mapBounds,cx=(b[0]+b[2])/2,cy=(b[1]+b[3])/2;S.mapCenter=[cx,cy];S.mapCos=Math.max(.15,Math.cos(cy*Math.PI/180));const sw=Math.max(.2,(b[2]-b[0])*S.mapCos),sh=Math.max(.2,b[3]-b[1]);sc=Math.min(W/(sw*1.18),H/(sh*1.18))*.92;ox=W/2;oy=H/2}else{S.mapCenter=null;S.mapCos=null;sc=Math.min(W/(29.3*CL),H/30.35)*.92;ox=(W-29.3*CL*sc)/2;oy=(H-30.35*sc)/2}svg.attr("viewBox",`0 0 ${W} ${H}`);zoom.extent([[0,0],[W,H]]).translateExtent([[-W*.5,-H*.5],[W*1.5,H*1.5]])}
 function drawBase(){
   if(!S.feats.length)return;
   gSea.selectAll("*").remove();
   gSea.append("rect").attr("class","sea").attr("x",-W).attr("y",-H).attr("width",W*3).attr("height",H*3);
-  gSea.append("path").attr("class","grat").attr("d",path(d3.geoGraticule().step([4,4]).extent([[60,0],[104,42]])()));
-  gSea.append("path").attr("class","shore").attr("d",path(topojson.merge(S.topo,S.topo.objects.states.geometries)));
-  const done=new Set(S.states.filter(s=>s.status==="done").map(s=>s.name)),cn=stOf(S.slug)?.name;
+  const gb=S.mapMode&&S.mapBounds?S.mapBounds:[60,0,104,42],gx0=gb[0],gy0=gb[1],gx1=gb[2],gy1=gb[3];
+  gSea.append("path").attr("class","grat").attr("d",path(d3.geoGraticule().step([4,4]).extent([[gx0,gy0],[gx1,gy1]])()));
+  const coast=S.mapMode?{type:"FeatureCollection",features:S.feats}:topojson.merge(S.topo,S.topo.objects.states.geometries);
+  gSea.append("path").attr("class","shore").attr("d",path(coast));
+  const done=new Set(S.states.filter(s=>s.status==="done"||s.status==="map-ready").map(s=>s.name)),cn=stOf(S.slug)?.name;
   gLand.attr("role","group").attr("aria-label","States and union territories");
   gLand.selectAll("path").data(S.feats).join("path").attr("d",path).attr("class",d=>"st"+(featCC(d)!==S.cc?" oc":"")+(done.has(d.properties.st_nm)?" done":"")+(d.properties.st_nm===cn?" cur":""))
     .attr("tabindex",d=>done.has(d.properties.st_nm)?0:null).attr("role",d=>done.has(d.properties.st_nm)?"button":null)
@@ -902,12 +919,12 @@ function drawBase(){
     .selectAll("title").data(d=>[d]).join("title").text(d=>d.properties.st_nm);
   S.feats.forEach(f=>{f.c=path.centroid(f);f.a=path.area(f)});
   const box=(a,b,c,d)=>{const[x0,y0]=P(a,d),[x1,y1]=P(c,b);return[x0,y0,x1-x0,y1-y0]};
-  S.insets=[["Andaman & Nicobar Islands",...box(92.0,6.5,94.2,13.9)],["Lakshadweep",...box(71.5,7.9,74.1,12.6)]];
+  S.insets=S.cc==="in"?[["Andaman & Nicobar Islands",...box(92.0,6.5,94.2,13.9)],["Lakshadweep",...box(71.5,7.9,74.1,12.6)]]:[];
   gSea.selectAll("rect.inset").data(S.insets).join("rect").attr("class","inset").attr("x",d=>d[1]).attr("y",d=>d[2]).attr("width",d=>d[3]).attr("height",d=>d[4]).attr("rx",8);
   drawGeo();
   gPins.attr("role","group").attr("aria-label","Places on the map");
   queueLabels()}
-function drawGeo(){gGeo.attr("aria-hidden","true");const T_=S.ter?.features||[],R_=S.riv?.features||[];
+function drawGeo(){gGeo.attr("aria-hidden","true");if(S.mapMode){gGeo.selectAll("*").remove();return}const T_=S.ter?.features||[],R_=S.riv?.features||[];
   gGeo.selectAll("path.terr").data(T_).join("path").attr("class",d=>"terr"+(d.properties.k==="d"?" d":"")).attr("d",path);
   gGeo.selectAll("path.riv").data(R_).join("path").attr("class","riv").attr("d",path);
   R_.forEach(f=>{if(f._lp)return;const ls=f.geometry.type==="LineString"?[f.geometry.coordinates]:f.geometry.coordinates;const l=ls.reduce((a,b)=>b.length>a.length?b:a,[]);f._lp=l[Math.floor(l.length/2)]||null})}
@@ -921,8 +938,8 @@ function drawDists(){const d=S.slug&&!S.coll?S.dists[S.slug]:null,on=!!d;const h
     .on("click",(e,f)=>distTap(f)).on("keydown",(e,f)=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();distTap(f)}});
   gDist.selectAll("path.dline").data(on&&d.lines?[d.lines]:[]).join("path").attr("class","dline").attr("d",l=>path(l));queueLabels()}
 function distTap(f){const n=f.properties.n;if(!curD().places.some(p=>p.district===n)){toast(`No atlas places in ${n} district yet`);return}S.f.dist=S.f.dist===n?null:n;afterFilter();drawDists();say(S.f.dist?`Showing ${n} district`:"Showing the whole state")}
-function stateTap(d){const s=(S.ALL||S.states).find(x=>x.name===d.properties.st_nm);if(!s)return;if((s.cc||"in")!==S.cc){setCountry(s.cc||"in");return}if(s.slug===S.slug&&!S.coll)return;if(s.status==="done"){openState(s.slug,true);if(mobile())snapTo(0)}else toast(s.name+" isn't in the atlas yet.")}
-function classStates(){setTimeout(()=>{if(S.slug)loadDists(S.slug);drawDists()},0);const done=new Set(S.states.filter(s=>s.status==="done").map(s=>s.name)),cn=stOf(S.slug)?.name;gLand.selectAll("path").attr("class",d=>"st"+(featCC(d)!==S.cc?" oc":"")+(done.has(d.properties.st_nm)?" done":"")+(d.properties.st_nm===cn?" cur":""));svg.classed("instate",!!S.slug&&!S.coll)}
+function stateTap(d){const s=(S.states||[]).find(x=>x.name===d.properties.st_nm)||(S.ALL||[]).find(x=>x.name===d.properties.st_nm);if(!s)return;if((s.cc||"in")!==S.cc){setCountry(s.cc||"in");return}if(s.slug===S.slug&&!S.coll)return;if(s.status==="map-ready"){openMapRegion(s.slug,true);if(mobile())snapTo(0)}else if(s.status==="done"){openState(s.slug,true);if(mobile())snapTo(0)}else toast(s.name+" isn't in the atlas yet.")}
+function classStates(){setTimeout(()=>{if(S.slug)loadDists(S.slug);drawDists()},0);const done=new Set(S.states.filter(s=>s.status==="done"||s.status==="map-ready").map(s=>s.name)),cn=stOf(S.slug)?.name;gLand.selectAll("path").attr("class",d=>"st"+(featCC(d)!==S.cc?" oc":"")+(done.has(d.properties.st_nm)?" done":"")+(d.properties.st_nm===cn?" cur":""));svg.classed("instate",!!S.slug&&!S.coll)}
 function shown(){const D=curD();if(!D)return[];return D.places.filter(match)}
 function match(p){const f=S.f;return(!f.reg||(regOf(p.slug)||[])[0]===f.reg)&&(!f.rad||!home()||road(km(home(),p))<=f.rad)&&(!f.hb||!M.been[id(p)])&&(!f.dist||p.district===f.dist)&&(!f.cat||p.g===f.cat)&&(!f.tier||p.tier===f.tier)&&(!f.mon||inSeason(f.mon,p))&&(!f.tm||(h=>h>=TM[f.tm][0]&&h<=TM[f.tm][1])(hrs(p)))}
 /* pins: only the open state's places; size by tier; hidden gems appear as you zoom in */
@@ -992,7 +1009,7 @@ function labels(){
   gTop.selectAll("text").data(out).join("text").attr("class",d=>d.c).attr("x",d=>d.x).attr("y",d=>d.y).attr("text-anchor",d=>d.a||"middle").text(d=>d.t)}
 function zoomTo(b,maxK,dur_=750){S.manual=false;const v=vb();const[[x0,y0],[x1,y1]]=b;const k=Math.min(maxK,.92/Math.max((x1-x0)/v.w,(y1-y0)/v.h));svg.transition().duration(dur(dur_)).call(zoom.transform,d3.zoomIdentity.translate(v.x,v.y).scale(k).translate(-(x0+x1)/2,-(y0+y1)/2));return k}
 function focusState(dur){const f=S.feats.find(d=>d.properties.st_nm===stOf(S.slug)?.name);if(f){S.fitK=zoomTo(path.bounds(f),40,dur)}}
-function fitIndia(){if(S.cc&&S.cc!=="in"&&S.feats){const fs=S.feats.filter(f=>featCC(f)===S.cc);if(fs.length){S.fitK=zoomTo(path.bounds({type:"FeatureCollection",features:fs}),40);return}}S.fitK=zoomTo([[ox,oy],[ox+29.3*CL*sc,oy+30.35*sc]],1.6)}
+function fitIndia(){if(S.mapMode&&S.feats.length){S.fitK=zoomTo(path.bounds({type:"FeatureCollection",features:S.feats}),40);return}if(S.cc&&S.cc!=="in"&&S.feats){const fs=S.feats.filter(f=>featCC(f)===S.cc);if(fs.length){S.fitK=zoomTo(path.bounds({type:"FeatureCollection",features:fs}),40);return}}S.fitK=zoomTo([[ox,oy],[ox+29.3*CL*sc,oy+30.35*sc]],1.6)}
 function focusPts(ps,dur){if(!ps.length)return;const xy=ps.map(p=>P(p.lng,p.lat));const xs=xy.map(a=>a[0]),ys=xy.map(a=>a[1]);const pad=8;zoomTo([[Math.min(...xs)-pad,Math.min(...ys)-pad],[Math.max(...xs)+pad,Math.max(...ys)+pad]],30,dur)}
 function focusPlace(p){S.manual=false;const v=vb();const[x,y]=P(p.lng,p.lat);const k=Math.max(K,(S.fitK||1)*2.2,10);svg.transition().duration(dur(650)).call(zoom.transform,d3.zoomIdentity.translate(v.x,v.y).scale(k).translate(-x,-y))}
 function panTo(p){const v=vb();const[x,y]=P(p.lng,p.lat);const k=Math.max(K,(S.fitK||1)*1.2);svg.transition().duration(dur(450)).call(zoom.transform,d3.zoomIdentity.translate(v.x,v.y).scale(k).translate(-x,-y))}
@@ -1117,7 +1134,7 @@ function goBack(){if(navD>0&&history.state&&history.state.ita===depth()&&S.stack
 function doBack(){if(S.stack.length<2)return;S.stack.pop();S.hl=null;const top=S.stack[S.stack.length-1];if(top.v!=="place"){S.sel=null}else S.sel=byId(top.a);if(top.v==="trail")S.trail=curD().trails[top.a].ids.map(n=>curD().places.find(p=>p.n===n));else S.trail=null;paint(false,top.y||0);drawPins();drawRoute()}
 function paint(focus,y=0){const top=S.stack[S.stack.length-1]||{v:"explore"};if(top.v!=="shared")unsubShared();if(top.v!=="onway")wayClr();
   const nc=top.v==="coll"?top.a:null;if(nc!==S.coll){S.coll=nc;classStates();setTimeout(()=>{drawPins();if(nc)focusPts(collPlaces(nc));else if(S.slug)focusState()},0)}
-  ({explore:vExplore,list:vList,place:vPlace,trail:vTrail,trip:vTrip,passport:vPassport,states:vStates,search:vSearch,plan:vPlan,shared:vShared,fest:vFest,coll:vColl,near:vNear,nearnow:vNearNow,vote:vVote,ask:vAsk,bulk:vBulk,trails:vTrails,credits:vCredits,lists:vLists,listv:vListV,slist:vSList,getaway:vGetaway,onway:vOnWay,journal:vJournal,stats:vStats,breaks:vBreaks,region:vRegion,discover:vDiscover,shelf:vShelf,colls:vColls,mag:vMag,issue:vIssue,nature:vNature,nev:vNev,journeys:vJourneys,jrn:vJrn,h36:vH36,h36v:vH36v,curio:vCurio,exps:vExps,best:vBest,photo:vPhoto}[top.v]||vExplore)(top.a);
+  ({explore:vExplore,mapregion:vMapRegion,list:vList,place:vPlace,trail:vTrail,trip:vTrip,passport:vPassport,states:vStates,search:vSearch,plan:vPlan,shared:vShared,fest:vFest,coll:vColl,near:vNear,nearnow:vNearNow,vote:vVote,ask:vAsk,bulk:vBulk,trails:vTrails,credits:vCredits,lists:vLists,listv:vListV,slist:vSList,getaway:vGetaway,onway:vOnWay,journal:vJournal,stats:vStats,breaks:vBreaks,region:vRegion,discover:vDiscover,shelf:vShelf,colls:vColls,mag:vMag,issue:vIssue,nature:vNature,nev:vNev,journeys:vJourneys,jrn:vJrn,h36:vH36,h36v:vH36v,curio:vCurio,exps:vExps,best:vBest,photo:vPhoto}[top.v]||vExplore)(top.a);
   const b=$("#bk");if(b)b.onclick=goBack;V.scrollTop=y;bind();hdr();setHash();drawChips();syncNav();updCar();scanPhotos(V);fillLocal(V);if(S.slug)chkDist();else S._ld=S.f.dist;if(focus){const h=V.querySelector("h2");if(h){h.tabIndex=-1;h.focus({preventScroll:true})}}}
 function setHash(){const top=S.stack[S.stack.length-1];let h=S.slug||"";if(top&&top.v==="place"&&S.sel)h=S.sel.slug+"-"+S.sel.n;try{if(h&&location.hash.slice(1)!==h)history.replaceState(history.state,"","#"+h);else if(!h&&location.hash)history.replaceState(history.state,"",location.pathname+location.search)}catch(e){}}
 function bind(){V.querySelectorAll("[data-fz]").forEach(el=>el.onclick=()=>{const[la,ln]=el.dataset.fz.split(",").map(Number);if(mobile())snapTo(0);setTimeout(()=>{const[x,y]=P(ln,la);const v=vb();svg.transition().duration(dur(700)).call(zoom.transform,d3.zoomIdentity.translate(v.x,v.y).scale(6).translate(-x,-y))},mobile()?320:0)});
@@ -1150,7 +1167,7 @@ function row(p,opt={}){const b=base(),pid=id(p),m=M.been[pid]?"Been":M.want[pid]
   if(!opt.q)return`<li>${inner}</li>`;const on=!!M.want[pid];return`<li class="qrow">${inner}<button class="qs${on?" on":""}" data-qs="${pid}" aria-pressed="${on}" aria-label="Want to go: ${esc(p.name)}"><svg aria-hidden="true"><use href="#i-heart"/></svg></button></li>`}
 
 function recentRail(){const L=(M.recent||[]).map(byId).filter(Boolean);return L.length?`<h3 class="pad">Recently viewed</h3><div class="rail">${L.map(p=>card(p,true)).join("")}</div>`:""}
-function vExplore(){const D=curD();if(!D){vIndia();return}
+function vExplore(){const D=curD();if(!D){if(S.mapMode){vCountryHome();return}vIndia();return}
   const st=stOf(S.slug),L=D.places,cnt=g=>L.filter(p=>p.g===g).length,cats=Object.keys(G).filter(cnt);
   const now=L.filter(p=>inSeason(NOWM,p)),icons=L.filter(p=>p.tier==="icon"),gems=L.filter(p=>p.tier==="gem"),dist=new Set(L.map(p=>p.district.split(" / ")[0])).size;
   const dc={};L.forEach(p=>dc[p.district]=(dc[p.district]||0)+1);const dists=Object.entries(dc).sort((a,c)=>a[0].localeCompare(c[0]));
@@ -1284,11 +1301,11 @@ function nearMe(){const show=()=>{remember();S.stack.push({v:"near"});paint(true
 function surprise(){const pool=allPlaces().filter(p=>!M.been[id(p)]&&inSeason(NOWM,p)&&p.tier!=="gem"&&(!S.slug||p.slug===S.slug)),ints=M.interests||[],pref=pool.filter(p=>ints.includes(p.g)),L=pref.length>5?pref:pool,p=L[Math.floor(Math.random()*L.length)];if(!p){toast("Nothing in season to suggest right now");return}if(p.slug!==S.slug){S.slug=p.slug;classStates();ensureFull(p.slug).catch(()=>{})}openPlace(p,true)}
 /* ---- state switcher ---- */
 function stPicker(){let d=$("#stdlg");if(!d){d=document.createElement("div");d.id="stdlg";d.className="dlg";d.setAttribute("role","dialog");d.setAttribute("aria-modal","true");d.setAttribute("aria-labelledby","stdT");document.body.appendChild(d)}
-  d.innerHTML=`<div class="dlgc"><div class="dlgh"><div style="display:flex;align-items:center"><b id="stdT">Go to a state</b><button class="ib" id="stx" style="margin-left:auto" aria-label="Close"><svg aria-hidden="true"><use href="#i-close"/></svg></button></div><input type="search" id="stq" placeholder="Filter states and UTs" aria-label="Filter states and union territories" autocomplete="off"></div><div class="dlgb"></div></div>`;
+  d.innerHTML=`<div class="dlgc"><div class="dlgh"><div style="display:flex;align-items:center"><b id="stdT">Go to a ${esc(CC[S.cc]?.regS||"region")}</b><button class="ib" id="stx" style="margin-left:auto" aria-label="Close"><svg aria-hidden="true"><use href="#i-close"/></svg></button></div><input type="search" id="stq" placeholder="Filter ${esc(CC[S.cc]?.reg||"regions")}" aria-label="Filter ${esc(CC[S.cc]?.reg||"regions")}" autocomplete="off"></div><div class="dlgb"></div></div>`;
   const close=()=>{d.hidden=true;document.removeEventListener("keydown",ek);$("#legend").focus({preventScroll:true})},ek=e=>{if(e.key==="Escape"){e.preventDefault();e.stopPropagation();close()}};
   const draw=q=>{const t=norm(q);const L=[...S.states].sort((a,b)=>a.name.localeCompare(b.name)).filter(s=>!t||norm(s.name).includes(t));
     d.querySelector(".dlgb").innerHTML=`${!t?`<div class="ccsw" role="group" aria-label="Country">${Object.entries(CC).map(([k,c])=>`<button type="button" data-cc="${k}" aria-pressed="${k===S.cc}">${c.name}</button>`).join("")}</div>`:""}${!t?`<button class="srow" data-pk=""><span><span class="blk" style="font-weight:700">All of ${esc(CN())}${!S.slug?" ✓":""}</span><span class="blk" style="font-size:13px;color:var(--soft)">${allPlaces().length.toLocaleString("en-IN")} places</span></span><span aria-hidden="true">›</span></button>`:""}${L.map(s=>{const L2=S.data[s.slug]?.places||[],b=L2.filter(p=>M.been[id(p)]).length,cur=s.slug===S.slug;return`<button class="srow" data-pk="${s.slug}"${cur?' aria-current="true"':""}><span><span class="blk" style="font-weight:700">${esc(s.name)}${cur?" ✓":""}</span><span class="blk" style="font-size:13px;color:var(--soft)">${s.type} · ${L2.length} places${b?` · ${b} visited`:""}</span></span><span aria-hidden="true">›</span></button>`}).join("")||`<p class="empty">No state matches.</p>`}`;
-    d.querySelectorAll("[data-cc]").forEach(b=>b.onclick=()=>{close();setCountry(b.dataset.cc)});d.querySelectorAll("[data-pk]").forEach(b=>b.onclick=async()=>{close();const k=b.dataset.pk,inList=S.tab==="list";if(k){if(k!==S.slug||S.stack.length>1)await openState(k,true);else focusState();if(inList){root_("list");if(mobile())snapTo(2)}else if(mobile())snapTo(0)}else{await goIndia();if(inList){root_("list");if(mobile())snapTo(2)}}})};
+    d.querySelectorAll("[data-cc]").forEach(b=>b.onclick=()=>{close();setCountry(b.dataset.cc)});d.querySelectorAll("[data-pk]").forEach(b=>b.onclick=async()=>{close();const k=b.dataset.pk,inList=S.tab==="list";if(k){const selected=stOf(k);if(selected?.status==="map-ready")openMapRegion(k,true);else if(k!==S.slug||S.stack.length>1)await openState(k,true);else focusState();if(inList){root_("list");if(mobile())snapTo(2)}else if(mobile())snapTo(0)}else{await goIndia();if(inList){root_("list");if(mobile())snapTo(2)}}})};
   d.hidden=false;document.addEventListener("keydown",ek);d.onclick=e=>{if(e.target===d)close()};d.querySelector("#stx").onclick=close;const qq=d.querySelector("#stq");qq.oninput=()=>draw(qq.value);draw("");setTimeout(()=>(mobile()?d.querySelector("#stx"):qq).focus(),30)}
 /* ---- search ---- */
 function hay(p){const w=p.why||"";if(p._h&&p._hw===w.length)return p._h;p._hw=w.length;p._h=" "+canon(`${p.name} ${p.district} ${p.category} ${stOf(p.slug).name} ${(p.tags||[]).join(" ")} ${G[p.g][0]} ${w}`)+" ";return p._h}
@@ -1368,16 +1385,16 @@ function countryFlag(code){
 }
 function showCountryGate(){
   const ob=$("#ob"),c=ob.querySelector(".obc"),entities=(S.entities||[]).filter(e=>e.entity_type==="m49-country-or-area");
-  const active=entities.filter(e=>CC[(e.iso2||"").toLowerCase()]).sort((a,b)=>a.name.localeCompare(b.name));
-  const upcoming=entities.filter(e=>!CC[(e.iso2||"").toLowerCase()]).sort((a,b)=>a.name.localeCompare(b.name));
+  const active=entities.filter(e=>{const m=S.mapIndex?.countries?.[(e.iso2||"").toLowerCase()];return m&&["ready","legacy-integrated"].includes(m.map_status)}).sort((a,b)=>a.name.localeCompare(b.name));
+  const upcoming=entities.filter(e=>!active.some(a=>a.iso2===e.iso2)).sort((a,b)=>a.name.localeCompare(b.name));
   ob.setAttribute("aria-labelledby","countryT");
   c.innerHTML=`<p class="obk">TRAVEL ATLAS · GLOBAL EDITION</p>
     <h2 id="countryT" style="font-size:28px;margin:8px 0 4px">Where would you like to explore?</h2>
-    <p class="lead">Choose a country or area. The atlas currently has destination data for India and Nepal; the rest are listed and ready for future expansion.</p>
+    <p class="lead">Choose a country or area. India and Nepal have destination catalogues. ${active.length-2} additional country maps are ready, with destination catalogues being built progressively.</p>
     <label class="countrysearch"><span class="sr">Search countries and areas</span><input id="countryQ" type="search" placeholder="Search 248 countries and areas…" autocomplete="off"></label>
     <div class="countrylist" id="countryList" role="group" aria-label="Countries and areas">
       <p class="countrygroup">Available now · ${active.length}</p>
-      ${active.map(e=>{const cc=e.iso2.toLowerCase();return `<button type="button" class="countrychoice" data-country="${cc}" data-name="${esc(e.name.toLowerCase())}"><span class="countryflag" aria-hidden="true">${countryFlag(e.iso2)}</span><span><b>${esc(e.name)}</b><small>${cc==="in"?"States, union territories and destinations":"Provinces, districts and destinations"}</small></span><span aria-hidden="true">→</span></button>`}).join("")}
+      ${active.map(e=>{const cc=e.iso2.toLowerCase(),m=S.mapIndex.countries[cc],sub=cc==="in"?"States, union territories and destinations":cc==="np"?"Provinces, districts and destinations":`${m.admin_unit_count} regions mapped · destinations in progress`;return `<button type="button" class="countrychoice" data-country="${cc}" data-name="${esc(e.name.toLowerCase())}"><span class="countryflag" aria-hidden="true">${countryFlag(e.iso2)}</span><span><b>${esc(e.name)}</b><small>${esc(sub)}</small></span><span aria-hidden="true">→</span></button>`}).join("")}
       <p class="countrygroup">More countries &amp; areas · ${upcoming.length}</p>
       ${upcoming.map(e=>`<div class="countrychoice countrydisabled" data-name="${esc(e.name.toLowerCase())}" aria-disabled="true"><span class="countryflag" aria-hidden="true">${countryFlag(e.iso2)}</span><span><b>${esc(e.name)}</b><small>${esc(e.entity_type==="m49-country-or-area"?"UN M49 country or area":"Area")}</small></span><span class="countrysoon">Coming soon</span></div>`).join("")}
     </div>
@@ -1388,10 +1405,8 @@ function showCountryGate(){
   c.querySelectorAll("[data-country]").forEach(b=>b.onclick=async()=>{
     const cc=b.dataset.country;
     if(!CC[cc])return;
-    S.cc=cc;S.states=ccStates();
-    try{localStorage.setItem("ita-cc",cc)}catch(e){}
     ob.hidden=true;
-    await goIndia();
+    await setCountry(cc);
     if(!M.onboarded)setTimeout(()=>{if(!M.onboarded)showOnboard(false)},350);
   });
   setTimeout(()=>q.focus(),30);
@@ -2192,6 +2207,9 @@ function bindX(){const re=()=>{const p=$("#xtp");p.innerHTML=timePanel(S.xt||"wk
   V.querySelectorAll("[data-rg]").forEach(b=>b.onclick=()=>go2("region",b.dataset.rg));
   const ct=$("#contTrip");if(ct)ct.onclick=()=>{root_("trip");if(mobile())snapTo(2)};bindX2()}
 function bindX2(){V.querySelectorAll("[data-xw]").forEach(b=>b.onclick=()=>{const w=S._xw[+b.dataset.xw];if(!w)return;const before=[...M.trip];let a=0;w.ps.forEach(p=>{if(!M.trip.includes(id(p))){M.trip.push(id(p));a++}});save();hdr();toast(a?`Added ${plural(a,"stop")} to your trip`:"Already in your trip",a?()=>{M.trip=before;save();hdr()}:null)});const s4=$("#setMe4");if(s4)s4.onclick=()=>showOnboard(true)}
+function vCountryHome(){const ready=S.states||[];V.innerHTML=`<div class="pad"><div class="kick">GLOBAL MAP · ${esc(CN().toUpperCase())}</div><h2>${esc(CN())}</h2><p class="lead">The interactive administrative map is ready. ${ready.length} first-level regions are mapped. Destination catalogues are being researched and verified separately.</p><div class="stats"><div class="stat"><b>${ready.length}</b><span>mapped regions</span></div><div class="stat"><b>0</b><span>verified places</span></div></div></div><h3 class="pad">Explore administrative regions</h3><div class="pad">${ready.map(r=>`<button class="srow" data-map-region="${r.slug}"><span><span class="blk" style="font-weight:700">${esc(r.name)}</span><span class="blk" style="font-size:13px;color:var(--soft)">Map ready · destination research in progress</span></span><span aria-hidden="true">›</span></button>`).join("")}</div>` ;V.querySelectorAll("[data-map-region]").forEach(b=>b.onclick=()=>openMapRegion(b.dataset.mapRegion,true))}
+function vMapRegion(slug){const r=stOf(slug);if(!r){V.innerHTML=`<div class="pad">${crumbBtn()}<p class="empty">Region not found.</p></div>`;return}V.innerHTML=`<div class="pad"><div class="ttl"><h2>${esc(r.name)}</h2><button type="button" class="crumb" id="toCountry">‹ All of ${esc(CN())}</button></div><p class="lead">${esc(r.name)} is mapped as a first-level administrative region of ${esc(CN())}.</p><div class="stats"><div class="stat"><b>0</b><span>verified places</span></div><div class="stat"><b>In progress</b><span>destination catalogue</span></div></div><p class="note" style="margin-top:18px">The boundary is available. Destinations will appear here after they have been researched, fact-checked and added to the atlas.</p><div class="acts"><button class="act pri" id="toCountryBtn">Back to ${esc(CN())} map</button></div></div>`;const back=()=>goIndia();V.querySelector("#toCountry").onclick=back;V.querySelector("#toCountryBtn").onclick=back}
+function openMapRegion(slug,focus){const r=stOf(slug);if(!r)return;S.data[slug]=S.data[slug]||{places:[],trails:[],intro:"Destination catalogue research is in progress."};S.slug=slug;S.sel=null;S.hl=null;S.trail=null;S.f={...S.f,dist:null};classStates();clearQ();S.tab="explore";S.stack=[{v:"mapregion",a:slug}];setTabs("explore");paint();drawPins();drawRoute();drawHome();if(focus)focusState()}
 function vRegion(k){const r=REG.find(x=>x[0]===k);if(!r){V.innerHTML=`<div class="pad">${crumbBtn()}<p class="empty">Not found.</p></div>`;return}const sts=r[3].filter(s=>S.data[s]),ps=sts.flatMap(s=>S.data[s].places),ins=ps.filter(p=>inSeason(NOWM,p)),best=spread(ins.filter(p=>p.tier!=="gem").sort((a,b)=>nowScore(b)-nowScore(a)),12,2),hp=best[0]||ps[0];
   setTimeout(()=>showOnMap(ps.filter(p=>p.tier==="icon")),80);
   V.innerHTML=`<div class="hero">${hp?art(hp,{hero:1}):""}${backBtn()}</div><div class="pad"><div class="kick">Region</div><h2>${esc(r[1])}</h2><p class="lead">${esc(r[2])}. ${ps.length.toLocaleString("en-IN")} places in ${plural(sts.length,"state")}; ${Math.round(ins.length/Math.max(1,ps.length)*100)}% are in season in ${MONL[NOWM-1]}.</p></div>
@@ -3162,8 +3180,9 @@ function route(silent,h0){const h=h0!=null?h0:location.hash.slice(1);const m=h.m
   paint()}
 (async()=>{
   try{
-    const[topo,states,fx,registry]=await Promise.all([fetch("data/india-states.json").then(r=>r.json()),fetch("data/states.json").then(r=>r.json()),fetch("data/festivals.json").then(r=>r.json()).catch(()=>[]),fetch("data/entities/current.json").then(r=>r.json()).catch(()=>({entities:[]}))]);S.fx=fx;S.entities=registry.entities||[];
-    S.topo=topo;S.feats=topojson.feature(topo,topo.objects.states).features;S.ALL=states;S.cc="in";try{const c=localStorage.getItem("ita-cc");if(CC[c])S.cc=c}catch(e){}{const h=decodeURIComponent(location.hash.slice(1));const m=states.find(x=>h===x.slug||h.startsWith(x.slug+"-"));if(m&&(m.cc||"in")!==S.cc)S.cc=m.cc||"in"}S.states=ccStates();
+    const[topo,states,fx,registry,mapIndex]=await Promise.all([fetch("data/india-states.json").then(r=>r.json()),fetch("data/states.json").then(r=>r.json()),fetch("data/festivals.json").then(r=>r.json()).catch(()=>[]),fetch("data/entities/current.json").then(r=>r.json()).catch(()=>({entities:[]})),fetch("data/maps/index.json").then(r=>r.json()).catch(()=>({countries:{}}))]);S.fx=fx;S.entities=registry.entities||[];S.mapIndex=mapIndex||{countries:{}};
+    Object.entries(S.mapIndex.countries||{}).forEach(([cc,m])=>{if(!CC[cc]&&["ready","legacy-integrated"].includes(m.map_status))CC[cc]={name:m.name,reg:"administrative regions",regS:"region"}});
+    S.topo=topo;S.feats=topojson.feature(topo,topo.objects.states).features;S.legacyTopo=topo;S.legacyFeats=S.feats;S.ALL=states;S.cc="in";try{const c=localStorage.getItem("ita-cc");if(CC[c])S.cc=c}catch(e){}{const h=decodeURIComponent(location.hash.slice(1));const m=states.find(x=>h===x.slug||h.startsWith(x.slug+"-"));if(m&&(m.cc||"in")!==S.cc)S.cc=m.cc||"in"}if(S.cc==="in"||S.cc==="np")S.states=ccStates();else await loadCountryGeometry(S.cc);
     let ix=null;try{ix=await fetch("data/index.json").then(r=>{if(!r.ok)throw 0;return r.json()})}catch(e){}
     if(ix)states.forEach(s=>{if(ix[s.slug])S.data[s.slug]=fromIndex(s.slug,ix[s.slug])});
     await Promise.all(states.filter(s=>s.status==="done"&&!S.data[s.slug]).map(s=>loadState(s.slug)));
@@ -3171,11 +3190,11 @@ function route(silent,h0){const h=h0!=null?h0:location.hash.slice(1);const m=h.m
     fit();drawBase();
     Promise.all([fetch("data/rivers.json").then(r=>r.json()),fetch("data/terrain.json").then(r=>r.json())]).then(([r,t])=>{S.riv=r;S.ter=t;drawGeo();queueLabels()}).catch(()=>{});
     const h=location.hash.slice(1),m=h.match(/^(.*?)(?:-(\d+))?$/);
-    const first=h?states.find(s=>s.status==="done"&&(h===s.slug||h.startsWith(s.slug+"-"))):null;
+    const first=h?S.states.find(s=>(s.status==="done"||s.status==="map-ready")&&(h===s.slug||h.startsWith(s.slug+"-"))):null;
     if(h.startsWith("go=")){S.slug=null;S.stack=[{v:"explore"},{v:"vote",a:h.slice(3)}];classStates();paint(true);drawPins();drawHome();setTimeout(fitIndia,250);if(mobile())setTimeout(()=>snapTo(2),300)}
     else if(h.startsWith("votes=")){S.slug=null;S.stack=[{v:"explore"}];classStates();paint();drawPins();drawHome();setTimeout(fitIndia,250);takeVotes(h.slice(6));if(mobile())setTimeout(()=>snapTo(2),300)}
     else if(h.startsWith("list=")){S.slug=null;S.stack=[{v:"explore"},{v:"slist",a:h.slice(5)}];classStates();paint(true);drawPins();drawHome();setTimeout(fitIndia,250);if(mobile())setTimeout(()=>snapTo(2),300)}
-    else if(first){await openState(first.slug,false);if(h!==first.slug&&h.startsWith(first.slug+"-"))route(false,h);else setTimeout(()=>focusState(1000),250)}
+    else if(first){if(first.status==="map-ready")openMapRegion(first.slug,false);else await openState(first.slug,false);if(h!==first.slug&&h.startsWith(first.slug+"-"))route(false,h);else setTimeout(()=>focusState(1000),250)}
     else{S.slug=null;S.stack=[{v:"explore"}];classStates();paint();drawPins();drawHome();setTimeout(fitIndia,250)}
     showCountryGate();
     requestAnimationFrame(()=>setTimeout(()=>phGo&&phGo(),50));
