@@ -35,6 +35,7 @@ try{var t=localStorage.getItem("ita-theme");if(t==="light"||t==="dark")document.
 --shadow:0 10px 30px rgba(10,20,40,.18);--other:light-dark(#f4efe4,#191f2a);--tabh:0px}
 @media(max-width:899px) and (orientation:portrait),(max-width:899px) and (min-height:541px){:root{--tabh:calc(60px + env(safe-area-inset-bottom,0px))}}
 :root[data-theme=light]{color-scheme:light}.seg3{display:flex;gap:4px;padding:4px;border-radius:14px;background:var(--other);border:1px solid var(--line);margin-bottom:8px}.seg3 button{flex:1;height:42px;border:0;border-radius:10px;background:none;font-weight:700;font-size:14px;display:flex;align-items:center;justify-content:center;gap:6px;color:var(--ink)}.seg3 button svg{width:18px;height:18px}.seg3 button[aria-pressed=true]{background:var(--card);box-shadow:0 1px 4px rgba(0,0,0,.15);color:var(--pinkink)}.slab{font-size:13px;font-weight:700;opacity:.7;margin:4px 2px 6px}:root[data-theme=dark]{color-scheme:dark}
+.layerTab{font-weight:800;border-color:var(--pinkink)!important}.layerTab[aria-pressed=true]{background:var(--pinksoft)!important;color:var(--pinkink)!important}
 *{box-sizing:border-box;min-width:0}
 html,body{height:100%;margin:0}
 body{background:var(--bg);color:var(--ink);font:16px/1.5 Mukta,system-ui,sans-serif;overflow:hidden;-webkit-tap-highlight-color:transparent}
@@ -735,7 +736,7 @@ const toast=(m,undo)=>{const t=$("#toast");t.innerHTML=`<span>${esc(m)}</span>${
 const say=m=>{const l=$("#live");l.textContent="";setTimeout(()=>l.textContent=m,60)};
 
 /* ---------- state ---------- */
-const S={states:[],data:{},full:{},slug:null,stack:[],tab:"explore",sel:null,hl:null,coll:null,trail:null,f:{cat:null,tier:null,mon:0,tm:null,dist:null,sort:"now"},q:"",feats:[],topo:null,fitK:1};
+const S={states:[],data:{},full:{},slug:null,stack:[],tab:"explore",sel:null,hl:null,coll:null,trail:null,layer:"current",historical:[],hperiod:null,entities:[],f:{cat:null,tier:null,mon:0,tm:null,dist:null,sort:"now"},q:"",feats:[],topo:null,fitK:1};
 const blankM=()=>({want:{},been:{},notes:{},trip:[],base:{},t:0,home:null,interests:[],onboarded:false,visits:{},photos:{},plans:[],trips:[],lists:[],skip:{},taste:{g:{},s:{}}});
 let M=blankM();
 try{const l=JSON.parse(localStorage.getItem("ita-v2")||"null");if(l)M=Object.assign(M,l);else if(window.__SEED)M=Object.assign(M,window.__SEED)}catch(e){if(window.__SEED)M=Object.assign(M,window.__SEED)}
@@ -931,17 +932,17 @@ function match(p){const f=S.f;return(!f.reg||(regOf(p.slug)||[])[0]===f.reg)&&(!
 /* pins: only the open state's places; size by tier; hidden gems appear as you zoom in */
 const TIERR={icon:1.3,top:1,gem:.74};
 const relK=()=>K/(S.fitK||1);
-function pinSet(){if(S.coll)return collPlaces(S.coll);if(S.trail&&!S.slug)return S.trail;return S.slug?curD().places:allPlaces()}
-function tierOn(p){if(S.coll||S.f.tier)return true;if(S.trail&&S.trail.includes(p))return true;if(S.slug)return p.tier!=="gem"||relK()>=1.7;return p.tier==="icon"?K>=2.6:p.tier==="top"?K>=4.5:K>=8}
+function pinSet(){if(S.layer==="historical")return S.historical.filter(h=>!S.hperiod||h.period===S.hperiod).map(h=>byId(h.id)).filter(Boolean);if(S.coll)return collPlaces(S.coll);if(S.trail&&!S.slug)return S.trail;return S.slug?curD().places:allPlaces()}
+function tierOn(p){if(S.layer==="historical"||S.coll||S.f.tier)return true;if(S.trail&&S.trail.includes(p))return true;if(S.slug)return p.tier!=="gem"||relK()>=1.7;return p.tier==="icon"?K>=2.6:p.tier==="top"?K>=4.5:K>=8}
 function selKey(){return S.hl||(S.sel?id(S.sel):null)}
 /* only the pins that can be seen right now are in the DOM: on-filter, tier shown at this zoom, inside the view */
 let PS={all:[],on:new Set(),sel:null,sig:""};
 function drawPins(){
-  const all=pinSet(),on=new Set((S.coll?all:all.filter(match)).map(id));
+  const all=pinSet(),on=new Set((S.coll||S.layer==="historical"?all:all.filter(match)).map(id));
   if(S.trail)S.trail.forEach(p=>on.add(id(p)));
   all.forEach(p=>{if(!p._xy)p._xy=P(p.lng,p.lat)});
   PS={all,on,sel:selKey(),sig:"",ver:(PS.ver||0)+1};
-  svg.classed("instate",!!S.slug&&!S.coll);
+  svg.classed("instate",!!S.slug&&!S.coll&&S.layer==="current");
   syncPins(true);queueLabels();updCar();if(typeof drawFx==="function")drawFx()}
 function pinsWanted(){const sel=selKey(),m=90,out=[];if(gPins.style("display")==="none")return PS.all.filter(p=>id(p)===sel);
   for(const p of PS.all){const k=id(p);if(k===sel){out.push(p);continue}if(!PS.on.has(k)||!tierOn(p))continue;const x=p._xy[0]*K+T.x,y=p._xy[1]*K+T.y;if(x<-m||y<-m||x>W+m||y>H+m)continue;out.push(p)}return out}
@@ -1020,6 +1021,8 @@ function drawChips(){const L=S.slug?curD().places:allPlaces(),f=S.f,el=$("#mchip
   if(S.coll){el.innerHTML=`<button class="mc on" data-mx="1" aria-label="Leave ${esc(collT(S.coll))}">✕ ${esc(collT(S.coll))}</button>`}
   else{const cats=Object.keys(G).filter(g=>L.some(p=>p.g===g));
     el.innerHTML=`<button class="mc${f.tier==="icon"?" on":""}" data-mt="icon" aria-pressed="${f.tier==="icon"}"><svg aria-hidden="true"><use href="#i-star"/></svg>Iconic only</button>${f.mon?`<button class="mc on" data-mm="1" aria-label="Clear month filter">${MON[f.mon-1]} ✕</button>`:""}${cats.map(g=>`<button class="mc${f.cat===g?" on":""}" data-mg="${g}" aria-pressed="${f.cat===g}"><span class="dot" style="background:${G[g][1]}" aria-hidden="true"></span>${G[g][0]}</button>`).join("")}`}
+  el.insertAdjacentHTML("afterbegin", '<button class="mc layerTab" data-layer="current" aria-pressed="' + (S.layer==="current") + '">Current places</button><button class="mc layerTab" data-layer="historical" aria-pressed="' + (S.layer==="historical") + '">Historical</button>');
+  el.querySelectorAll("[data-layer]").forEach(b=>b.onclick=()=>{const layer=b.dataset.layer;if(layer===S.layer)return;S.layer=layer;S.hperiod=null;drawChips();drawPins();if(layer==="historical"){const ps=pinSet();if(ps.length)focusPts(ps,650);toast("Historical layer · "+ps.length+" mapped sites")}else{if(S.slug)focusState(500);else fitIndia();toast("Current destinations layer")}});
   el.querySelectorAll("[data-mt]").forEach(b=>b.onclick=()=>{f.tier=f.tier==="icon"?null:"icon";afterFilter()});
   el.querySelectorAll("[data-mm]").forEach(b=>b.onclick=()=>{f.mon=0;afterFilter()});
   el.querySelectorAll("[data-mg]").forEach(b=>b.onclick=()=>{f.cat=f.cat===b.dataset.mg?null:b.dataset.mg;afterFilter();const n=$(`#mchips [data-mg="${b.dataset.mg}"]`);if(n){n.focus({preventScroll:true});n.scrollIntoView({inline:"nearest",block:"nearest"})}});
@@ -3146,6 +3149,7 @@ function route(silent,h0){const h=h0!=null?h0:location.hash.slice(1);const m=h.m
     let ix=null;try{ix=await fetch("data/index.json").then(r=>{if(!r.ok)throw 0;return r.json()})}catch(e){}
     if(ix)states.forEach(s=>{if(ix[s.slug])S.data[s.slug]=fromIndex(s.slug,ix[s.slug])});
     await Promise.all(states.filter(s=>s.status==="done"&&!S.data[s.slug]).map(s=>loadState(s.slug)));
+    try{const [hist,registry]=await Promise.all([fetch("data/historical/index.json").then(r=>r.json()),fetch("data/entities/current.json").then(r=>r.json())]);S.historical=hist.places||[];S.entities=registry.entities||[]}catch(e){console.warn("Atlas layers unavailable",e)}
     try{if(sessionStorage.getItem("ita-refreshed")){sessionStorage.removeItem("ita-refreshed");setTimeout(()=>toast(`Atlas refreshed · ${allPlaces().length.toLocaleString("en-IN")} places`),400)}}catch(e){}
     fit();drawBase();
     Promise.all([fetch("data/rivers.json").then(r=>r.json()),fetch("data/terrain.json").then(r=>r.json())]).then(([r,t])=>{S.riv=r;S.ter=t;drawGeo();queueLabels()}).catch(()=>{});
