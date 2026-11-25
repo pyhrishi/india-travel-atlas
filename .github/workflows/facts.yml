@@ -32,7 +32,7 @@ jobs:
         env:
           FACTS_DEBUG: ${{ inputs.debug }}
         run: python3 .github/scripts/facts.py ${{ inputs.force && '--force' || (github.event_name == 'push' && '--force' || '') }}
-      - name: Use verified articles' photos
+      - name: Verify Commons files and publish only verified article photos
         if: always() && inputs.debug == ''
         continue-on-error: true
         run: python3 .github/scripts/photos_verified.py
