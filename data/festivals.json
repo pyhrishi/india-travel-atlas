@@ -1,1 +1,1005 @@
-[{"name":"Hornbill Festival","state":"nagaland","months":[12],"lat":25.633,"lng":94.12,"why":"Ten days of Naga music, dance, games and food at Kisama, from 1 to 10 December"},{"name":"Pushkar Camel Fair","state":"rajasthan","months":[10,11],"lat":26.49,"lng":74.551,"why":"Camel trading, races and pilgrims at Pushkar Lake around Kartik Purnima"},{"name":"Hemis Festival","state":"ladakh","months":[6,7],"lat":33.912,"lng":77.703,"why":"Masked cham dances at Hemis monastery for Guru Padmasambhava's birthday"},{"name":"Durga Puja","state":"west-bengal","months":[9,10],"lat":22.573,"lng":88.364,"why":"Kolkata's pandal art at its peak; recognised by UNESCO as intangible heritage"},{"name":"Nehru Trophy Boat Race","state":"kerala","months":[8],"lat":9.498,"lng":76.338,"why":"Snake boats with 100-plus rowers race on Punnamada Lake, Alappuzha"},{"name":"Thrissur Pooram","state":"kerala","months":[4,5],"lat":10.524,"lng":76.214,"why":"Caparisoned elephants and thundering percussion at Vadakkunnathan temple"},{"name":"Magh Mela","state":"uttar-pradesh","months":[1,2],"lat":25.43,"lng":81.886,"why":"Vast bathing fair at the Sangam in Prayagraj, the Kumbh in its cycle years"},{"name":"Dev Deepawali","state":"uttar-pradesh","months":[10,11],"lat":25.307,"lng":83.01,"why":"Varanasi's ghats lit with lamps on Kartik Purnima"},{"name":"Lathmar Holi","state":"uttar-pradesh","months":[2,3],"lat":27.65,"lng":77.38,"why":"Barsana and Nandgaon's playful Holi in the days before the festival"},{"name":"Rann Utsav","state":"gujarat","months":[11,12,1,2],"lat":23.833,"lng":69.67,"why":"Tent city on the white salt desert of Kutch, best on full-moon nights"},{"name":"Uttarayan Kite Festival","state":"gujarat","months":[1],"lat":23.023,"lng":72.571,"why":"Ahmedabad's skies fill with kites around 14 January"},{"name":"Navratri Garba","state":"gujarat","months":[9,10],"lat":22.307,"lng":73.181,"why":"Nine nights of garba, with some of the biggest gatherings in Vadodara"},{"name":"Mysuru Dasara","state":"karnataka","months":[9,10],"lat":12.305,"lng":76.655,"why":"The illuminated palace and the Jamboo Savari elephant procession"},{"name":"Rath Yatra","state":"odisha","months":[6,7],"lat":19.805,"lng":85.818,"why":"Jagannath's giant chariots pulled through the streets of Puri"},{"name":"Konark Dance Festival","state":"odisha","months":[12],"lat":19.888,"lng":86.095,"why":"Classical dance in front of the Sun Temple, 1 to 5 December"},{"name":"Rongali Bihu","state":"assam","months":[4],"lat":26.144,"lng":91.736,"why":"Assamese New Year, with Bihu dances across the state in mid-April"},{"name":"Ambubachi Mela","state":"assam","months":[6],"lat":26.166,"lng":91.706,"why":"Huge annual gathering of pilgrims and sadhus at Kamakhya","ref":"assam:1"},{"name":"Majuli Raas Leela","state":"assam","months":[11],"lat":26.95,"lng":94.17,"why":"Satras stage Krishna's life as dance-drama on Kartik Purnima","ref":"assam:73"},{"name":"Jonbeel Mela","state":"assam","months":[1],"lat":26.13,"lng":92.23,"why":"Centuries-old tribal barter fair held after Magh Bihu","ref":"assam:26"},{"name":"Ziro Festival of Music","state":"arunachal-pradesh","months":[9],"lat":27.545,"lng":93.828,"why":"Independent music festival in the rice fields of Ziro valley","ref":"arunachal-pradesh:43"},{"name":"Torgya","state":"arunachal-pradesh","months":[1],"lat":27.586,"lng":91.859,"why":"Masked dances in the courtyard of Tawang Monastery","ref":"arunachal-pradesh:1"},{"name":"Pakke Paga Hornbill Festival","state":"arunachal-pradesh","months":[1],"lat":26.99,"lng":93.0,"why":"Conservation festival celebrating Pakke's hornbills","ref":"arunachal-pradesh:35"},{"name":"Parshuram Kund Mela","state":"arunachal-pradesh","months":[1],"lat":27.878,"lng":96.357,"why":"Pilgrims bathe in the Lohit at Makar Sankranti","ref":"arunachal-pradesh:81"},{"name":"Orange Festival, Dambuk","state":"arunachal-pradesh","months":[12],"lat":27.94,"lng":95.58,"why":"Music, adventure sports and orange orchards in Lower Dibang Valley","ref":"arunachal-pradesh:77"},{"name":"Tirumala Brahmotsavam","state":"andhra-pradesh","months":[9,10],"lat":13.683,"lng":79.347,"why":"Nine days of processions with the deity on grand vahanas","ref":"andhra-pradesh:71"},{"name":"Simhachalam Chandanotsavam","state":"andhra-pradesh","months":[4,5],"lat":17.767,"lng":83.251,"why":"The one day a year the deity is seen without its sandal-paste coat","ref":"andhra-pradesh:18"},{"name":"Maha Shivaratri at Srisailam","state":"andhra-pradesh","months":[2,3],"lat":16.073,"lng":78.868,"why":"Night-long worship at one of India's twelve Jyotirlingas","ref":"andhra-pradesh:87"},{"name":"Prabhala Teertham","state":"andhra-pradesh","months":[1],"lat":16.58,"lng":82.0,"why":"Konaseema's Sankranti procession of towering bamboo prabhas across the fields","ref":"andhra-pradesh:33"},{"name":"Goa Carnival","state":"goa","months":[2,3],"lat":15.496,"lng":73.827,"why":"Pre-Lent parades and music through Panaji and other towns"},{"name":"Sangai Festival","state":"manipur","months":[11],"lat":24.817,"lng":93.937,"why":"Manipur's showcase of dance, crafts and food, 21 to 30 November"},{"name":"Wangala","state":"meghalaya","months":[11],"lat":25.55,"lng":90.25,"why":"The Garo hundred-drums harvest festival"},{"name":"Cherry Blossom Festival","state":"meghalaya","months":[11],"lat":25.574,"lng":91.883,"why":"Shillong in pink blossom, with music and food"},{"name":"Jaipur Literature Festival","state":"rajasthan","months":[1],"lat":26.912,"lng":75.787,"why":"The world's largest free literary festival"},{"name":"Desert Festival","state":"rajasthan","months":[2],"lat":26.915,"lng":70.908,"why":"Folk music, camel races and costumes in Jaisalmer"},{"name":"Chhath Puja","state":"bihar","months":[10,11],"lat":25.611,"lng":85.144,"why":"Sunset and sunrise offerings to the sun god on Patna's ghats"},{"name":"Sonepur Mela","state":"bihar","months":[11,12],"lat":25.7,"lng":85.18,"why":"One of Asia's largest cattle fairs, starting at Kartik Purnima"},{"name":"Buddha Purnima","state":"bihar","months":[4,5],"lat":24.696,"lng":84.991,"why":"Celebrations of the Buddha's birth and enlightenment at Bodh Gaya"},{"name":"Ganesh Chaturthi","state":"maharashtra","months":[8,9],"lat":19.076,"lng":72.878,"why":"Mumbai's ten days of Ganesha, ending in giant immersions"},{"name":"Pongal","state":"tamil-nadu","months":[1],"lat":9.925,"lng":78.12,"why":"Tamil harvest festival, with jallikattu in villages around Madurai"},{"name":"Natyanjali Dance Festival","state":"tamil-nadu","months":[2,3],"lat":11.399,"lng":79.693,"why":"Classical dancers perform for Nataraja at Chidambaram"},{"name":"Kullu Dussehra","state":"himachal-pradesh","months":[10],"lat":31.958,"lng":77.109,"why":"Village deities gather at Dhalpur for a week of fairs"},{"name":"International Yoga Festival","state":"uttarakhand","months":[3],"lat":30.087,"lng":78.268,"why":"A week of yoga and talks on the Ganga at Rishikesh"},{"name":"Bathukamma","state":"telangana","months":[9,10],"lat":17.385,"lng":78.487,"why":"Women build and float flower stacks over nine days"},{"name":"Bonalu","state":"telangana","months":[7,8],"lat":17.385,"lng":78.487,"why":"Offerings to the goddess with processions across Hyderabad"},{"name":"Kharchi Puja","state":"tripura","months":[7],"lat":23.831,"lng":91.287,"why":"Week-long worship of the fourteen gods near Agartala"},{"name":"Chapchar Kut","state":"mizoram","months":[3],"lat":23.727,"lng":92.717,"why":"Mizo spring festival of dance and bamboo music"},{"name":"Khajuraho Dance Festival","state":"madhya-pradesh","months":[2],"lat":24.852,"lng":79.92,"why":"Classical dance against the floodlit temples"},{"name":"Bastar Dussehra","state":"chhattisgarh","months":[9,10],"lat":19.074,"lng":82.008,"why":"A 75-day Dussehra of tribal rituals, among the world's longest festivals"},{"name":"Shravani Mela","state":"jharkhand","months":[7,8],"lat":24.492,"lng":86.7,"why":"Pilgrims carry Ganga water to Baidyanath Dham in Deoghar"},{"name":"Hola Mohalla","state":"punjab","months":[3],"lat":31.236,"lng":76.502,"why":"Sikh martial arts and processions at Anandpur Sahib after Holi"},{"name":"Surajkund Crafts Mela","state":"haryana","months":[2],"lat":28.485,"lng":77.282,"why":"Two weeks of crafts and folk performances from across India"},{"name":"Republic Day Parade","state":"delhi","months":[1],"lat":28.613,"lng":77.229,"why":"Parade and tableaux on Kartavya Path on 26 January"},{"name":"Tulip Festival","state":"jammu-and-kashmir","months":[3,4],"lat":34.094,"lng":74.876,"why":"Asia's largest tulip garden in bloom above Dal Lake"},{"name":"Rose Festival","state":"chandigarh","months":[2],"lat":30.75,"lng":76.78,"why":"Spring fair in the Zakir Hussain Rose Garden"},{"name":"Losar","state":"sikkim","months":[2],"lat":27.33,"lng":88.613,"why":"Tibetan New Year with masked dances in Sikkim's monasteries"}]
+[
+{
+"name": "Hornbill Festival",
+"state": "nagaland",
+"months": [
+12
+],
+"lat": 25.633,
+"lng": 94.12,
+"why": "Ten days of Naga music, dance, games and food at Kisama, from 1 to 10 December"
+},
+{
+"name": "Pushkar Camel Fair",
+"state": "rajasthan",
+"months": [
+10,
+11
+],
+"lat": 26.49,
+"lng": 74.551,
+"why": "Camel trading, races and pilgrims at Pushkar Lake around Kartik Purnima"
+},
+{
+"name": "Hemis Festival",
+"state": "ladakh",
+"months": [
+6,
+7
+],
+"lat": 33.912,
+"lng": 77.703,
+"why": "Masked cham dances at Hemis monastery for Guru Padmasambhava's birthday"
+},
+{
+"name": "Durga Puja",
+"state": "west-bengal",
+"months": [
+9,
+10
+],
+"lat": 22.573,
+"lng": 88.364,
+"why": "Kolkata's pandal art at its peak; recognised by UNESCO as intangible heritage"
+},
+{
+"name": "Nehru Trophy Boat Race",
+"state": "kerala",
+"months": [
+8
+],
+"lat": 9.498,
+"lng": 76.338,
+"why": "Snake boats with 100-plus rowers race on Punnamada Lake, Alappuzha"
+},
+{
+"name": "Thrissur Pooram",
+"state": "kerala",
+"months": [
+4,
+5
+],
+"lat": 10.524,
+"lng": 76.214,
+"why": "Caparisoned elephants and thundering percussion at Vadakkunnathan temple"
+},
+{
+"name": "Magh Mela",
+"state": "uttar-pradesh",
+"months": [
+1,
+2
+],
+"lat": 25.43,
+"lng": 81.886,
+"why": "Vast bathing fair at the Sangam in Prayagraj, the Kumbh in its cycle years"
+},
+{
+"name": "Dev Deepawali",
+"state": "uttar-pradesh",
+"months": [
+10,
+11
+],
+"lat": 25.307,
+"lng": 83.01,
+"why": "Varanasi's ghats lit with lamps on Kartik Purnima"
+},
+{
+"name": "Lathmar Holi",
+"state": "uttar-pradesh",
+"months": [
+2,
+3
+],
+"lat": 27.65,
+"lng": 77.38,
+"why": "Barsana and Nandgaon's playful Holi in the days before the festival"
+},
+{
+"name": "Rann Utsav",
+"state": "gujarat",
+"months": [
+11,
+12,
+1,
+2
+],
+"lat": 23.833,
+"lng": 69.67,
+"why": "Tent city on the white salt desert of Kutch, best on full-moon nights"
+},
+{
+"name": "Uttarayan Kite Festival",
+"state": "gujarat",
+"months": [
+1
+],
+"lat": 23.023,
+"lng": 72.571,
+"why": "Ahmedabad's skies fill with kites around 14 January"
+},
+{
+"name": "Navratri Garba",
+"state": "gujarat",
+"months": [
+9,
+10
+],
+"lat": 22.307,
+"lng": 73.181,
+"why": "Nine nights of garba, with some of the biggest gatherings in Vadodara"
+},
+{
+"name": "Mysuru Dasara",
+"state": "karnataka",
+"months": [
+9,
+10
+],
+"lat": 12.305,
+"lng": 76.655,
+"why": "The illuminated palace and the Jamboo Savari elephant procession"
+},
+{
+"name": "Rath Yatra",
+"state": "odisha",
+"months": [
+6,
+7
+],
+"lat": 19.805,
+"lng": 85.818,
+"why": "Jagannath's giant chariots pulled through the streets of Puri"
+},
+{
+"name": "Konark Dance Festival",
+"state": "odisha",
+"months": [
+12
+],
+"lat": 19.888,
+"lng": 86.095,
+"why": "Classical dance in front of the Sun Temple, 1 to 5 December"
+},
+{
+"name": "Rongali Bihu",
+"state": "assam",
+"months": [
+4
+],
+"lat": 26.144,
+"lng": 91.736,
+"why": "Assamese New Year, with Bihu dances across the state in mid-April"
+},
+{
+"name": "Ambubachi Mela",
+"state": "assam",
+"months": [
+6
+],
+"lat": 26.166,
+"lng": 91.706,
+"why": "Huge annual gathering of pilgrims and sadhus at Kamakhya",
+"ref": "assam:1"
+},
+{
+"name": "Majuli Raas Leela",
+"state": "assam",
+"months": [
+11
+],
+"lat": 26.95,
+"lng": 94.17,
+"why": "Satras stage Krishna's life as dance-drama on Kartik Purnima",
+"ref": "assam:76"
+},
+{
+"name": "Jonbeel Mela",
+"state": "assam",
+"months": [
+1
+],
+"lat": 26.13,
+"lng": 92.23,
+"why": "Centuries-old tribal barter fair held after Magh Bihu",
+"ref": "assam:26"
+},
+{
+"name": "Ziro Festival of Music",
+"state": "arunachal-pradesh",
+"months": [
+9
+],
+"lat": 27.545,
+"lng": 93.828,
+"why": "Independent music festival in the rice fields of Ziro valley",
+"ref": "arunachal-pradesh:43"
+},
+{
+"name": "Torgya",
+"state": "arunachal-pradesh",
+"months": [
+1
+],
+"lat": 27.586,
+"lng": 91.859,
+"why": "Masked dances in the courtyard of Tawang Monastery",
+"ref": "arunachal-pradesh:1"
+},
+{
+"name": "Pakke Paga Hornbill Festival",
+"state": "arunachal-pradesh",
+"months": [
+1
+],
+"lat": 26.99,
+"lng": 93.0,
+"why": "Conservation festival celebrating Pakke's hornbills",
+"ref": "arunachal-pradesh:35"
+},
+{
+"name": "Parshuram Kund Mela",
+"state": "arunachal-pradesh",
+"months": [
+1
+],
+"lat": 27.878,
+"lng": 96.357,
+"why": "Pilgrims bathe in the Lohit at Makar Sankranti",
+"ref": "arunachal-pradesh:80"
+},
+{
+"name": "Orange Festival, Dambuk",
+"state": "arunachal-pradesh",
+"months": [
+12
+],
+"lat": 27.94,
+"lng": 95.58,
+"why": "Music, adventure sports and orange orchards in Lower Dibang Valley",
+"ref": "arunachal-pradesh:76"
+},
+{
+"name": "Tirumala Brahmotsavam",
+"state": "andhra-pradesh",
+"months": [
+9,
+10
+],
+"lat": 13.683,
+"lng": 79.347,
+"why": "Nine days of processions with the deity on grand vahanas",
+"ref": "andhra-pradesh:71"
+},
+{
+"name": "Simhachalam Chandanotsavam",
+"state": "andhra-pradesh",
+"months": [
+4,
+5
+],
+"lat": 17.767,
+"lng": 83.251,
+"why": "The one day a year the deity is seen without its sandal-paste coat",
+"ref": "andhra-pradesh:18"
+},
+{
+"name": "Maha Shivaratri at Srisailam",
+"state": "andhra-pradesh",
+"months": [
+2,
+3
+],
+"lat": 16.073,
+"lng": 78.868,
+"why": "Night-long worship at one of India's twelve Jyotirlingas",
+"ref": "andhra-pradesh:87"
+},
+{
+"name": "Prabhala Teertham",
+"state": "andhra-pradesh",
+"months": [
+1
+],
+"lat": 16.58,
+"lng": 82.0,
+"why": "Konaseema's Sankranti procession of towering bamboo prabhas across the fields",
+"ref": "andhra-pradesh:33"
+},
+{
+"name": "Goa Carnival",
+"state": "goa",
+"months": [
+2,
+3
+],
+"lat": 15.496,
+"lng": 73.827,
+"why": "Pre-Lent parades and music through Panaji and other towns"
+},
+{
+"name": "Sangai Festival",
+"state": "manipur",
+"months": [
+11
+],
+"lat": 24.817,
+"lng": 93.937,
+"why": "Manipur's showcase of dance, crafts and food, 21 to 30 November"
+},
+{
+"name": "Wangala",
+"state": "meghalaya",
+"months": [
+11
+],
+"lat": 25.55,
+"lng": 90.25,
+"why": "The Garo hundred-drums harvest festival"
+},
+{
+"name": "Cherry Blossom Festival",
+"state": "meghalaya",
+"months": [
+11
+],
+"lat": 25.574,
+"lng": 91.883,
+"why": "Shillong in pink blossom, with music and food"
+},
+{
+"name": "Jaipur Literature Festival",
+"state": "rajasthan",
+"months": [
+1
+],
+"lat": 26.912,
+"lng": 75.787,
+"why": "The world's largest free literary festival"
+},
+{
+"name": "Desert Festival",
+"state": "rajasthan",
+"months": [
+2
+],
+"lat": 26.915,
+"lng": 70.908,
+"why": "Folk music, camel races and costumes in Jaisalmer"
+},
+{
+"name": "Chhath Puja",
+"state": "bihar",
+"months": [
+10,
+11
+],
+"lat": 25.611,
+"lng": 85.144,
+"why": "Sunset and sunrise offerings to the sun god on Patna's ghats"
+},
+{
+"name": "Sonepur Mela",
+"state": "bihar",
+"months": [
+11,
+12
+],
+"lat": 25.7,
+"lng": 85.18,
+"why": "One of Asia's largest cattle fairs, starting at Kartik Purnima"
+},
+{
+"name": "Buddha Purnima",
+"state": "bihar",
+"months": [
+4,
+5
+],
+"lat": 24.696,
+"lng": 84.991,
+"why": "Celebrations of the Buddha's birth and enlightenment at Bodh Gaya"
+},
+{
+"name": "Ganesh Chaturthi",
+"state": "maharashtra",
+"months": [
+8,
+9
+],
+"lat": 19.076,
+"lng": 72.878,
+"why": "Mumbai's ten days of Ganesha, ending in giant immersions"
+},
+{
+"name": "Pongal",
+"state": "tamil-nadu",
+"months": [
+1
+],
+"lat": 9.925,
+"lng": 78.12,
+"why": "Tamil harvest festival, with jallikattu in villages around Madurai"
+},
+{
+"name": "Natyanjali Dance Festival",
+"state": "tamil-nadu",
+"months": [
+2,
+3
+],
+"lat": 11.399,
+"lng": 79.693,
+"why": "Classical dancers perform for Nataraja at Chidambaram"
+},
+{
+"name": "Kullu Dussehra",
+"state": "himachal-pradesh",
+"months": [
+10
+],
+"lat": 31.958,
+"lng": 77.109,
+"why": "Village deities gather at Dhalpur for a week of fairs"
+},
+{
+"name": "International Yoga Festival",
+"state": "uttarakhand",
+"months": [
+3
+],
+"lat": 30.087,
+"lng": 78.268,
+"why": "A week of yoga and talks on the Ganga at Rishikesh"
+},
+{
+"name": "Bathukamma",
+"state": "telangana",
+"months": [
+9,
+10
+],
+"lat": 17.385,
+"lng": 78.487,
+"why": "Women build and float flower stacks over nine days"
+},
+{
+"name": "Bonalu",
+"state": "telangana",
+"months": [
+7,
+8
+],
+"lat": 17.385,
+"lng": 78.487,
+"why": "Offerings to the goddess with processions across Hyderabad"
+},
+{
+"name": "Kharchi Puja",
+"state": "tripura",
+"months": [
+7
+],
+"lat": 23.831,
+"lng": 91.287,
+"why": "Week-long worship of the fourteen gods near Agartala"
+},
+{
+"name": "Chapchar Kut",
+"state": "mizoram",
+"months": [
+3
+],
+"lat": 23.727,
+"lng": 92.717,
+"why": "Mizo spring festival of dance and bamboo music"
+},
+{
+"name": "Khajuraho Dance Festival",
+"state": "madhya-pradesh",
+"months": [
+2
+],
+"lat": 24.852,
+"lng": 79.92,
+"why": "Classical dance against the floodlit temples"
+},
+{
+"name": "Bastar Dussehra",
+"state": "chhattisgarh",
+"months": [
+9,
+10
+],
+"lat": 19.074,
+"lng": 82.008,
+"why": "A 75-day Dussehra of tribal rituals, among the world's longest festivals"
+},
+{
+"name": "Shravani Mela",
+"state": "jharkhand",
+"months": [
+7,
+8
+],
+"lat": 24.492,
+"lng": 86.7,
+"why": "Pilgrims carry Ganga water to Baidyanath Dham in Deoghar"
+},
+{
+"name": "Hola Mohalla",
+"state": "punjab",
+"months": [
+3
+],
+"lat": 31.236,
+"lng": 76.502,
+"why": "Sikh martial arts and processions at Anandpur Sahib after Holi"
+},
+{
+"name": "Surajkund Crafts Mela",
+"state": "haryana",
+"months": [
+2
+],
+"lat": 28.485,
+"lng": 77.282,
+"why": "Two weeks of crafts and folk performances from across India"
+},
+{
+"name": "Republic Day Parade",
+"state": "delhi",
+"months": [
+1
+],
+"lat": 28.613,
+"lng": 77.229,
+"why": "Parade and tableaux on Kartavya Path on 26 January"
+},
+{
+"name": "Tulip Festival",
+"state": "jammu-and-kashmir",
+"months": [
+3,
+4
+],
+"lat": 34.094,
+"lng": 74.876,
+"why": "Asia's largest tulip garden in bloom above Dal Lake"
+},
+{
+"name": "Rose Festival",
+"state": "chandigarh",
+"months": [
+2
+],
+"lat": 30.75,
+"lng": 76.78,
+"why": "Spring fair in the Zakir Hussain Rose Garden"
+},
+{
+"name": "Losar",
+"state": "sikkim",
+"months": [
+2
+],
+"lat": 27.33,
+"lng": 88.613,
+"why": "Tibetan New Year with masked dances in Sikkim's monasteries"
+},
+{
+"name": "Ramnagar Ramlila",
+"state": "uttar-pradesh",
+"months": [
+9,
+10
+],
+"lat": 25.27,
+"lng": 83.026,
+"why": "A month-long Ramayana played across the whole town of Ramnagar, on UNESCO's list"
+},
+{
+"name": "Joydev Kenduli Mela",
+"state": "west-bengal",
+"months": [
+1
+],
+"lat": 23.63,
+"lng": 87.43,
+"why": "Baul and Fakir singers gather by the Ajay river at Poush Sankranti"
+},
+{
+"name": "Poush Mela",
+"state": "west-bengal",
+"months": [
+12
+],
+"lat": 23.68,
+"lng": 87.68,
+"why": "Shantiniketan's winter fair of Baul music and crafts"
+},
+{
+"name": "Gangasagar Mela",
+"state": "west-bengal",
+"months": [
+1
+],
+"lat": 21.64,
+"lng": 88.08,
+"why": "Pilgrims bathe where the Ganges meets the sea at Makar Sankranti"
+},
+{
+"name": "Theyyam season",
+"state": "kerala",
+"months": [
+12,
+1,
+2,
+3,
+4
+],
+"lat": 11.87,
+"lng": 75.37,
+"why": "Night-long ritual performances in the village shrines of Kannur and Kasaragod"
+},
+{
+"name": "Onam",
+"state": "kerala",
+"months": [
+8,
+9
+],
+"lat": 8.524,
+"lng": 76.936,
+"why": "Kerala's harvest festival: flower carpets, sadya feasts and snake-boat races"
+},
+{
+"name": "Attukal Pongala",
+"state": "kerala",
+"months": [
+2,
+3
+],
+"lat": 8.47,
+"lng": 76.95,
+"why": "Lakhs of women cook pongala offerings along Thiruvananthapuram's streets"
+},
+{
+"name": "Aranmula Boat Race",
+"state": "kerala",
+"months": [
+9
+],
+"lat": 9.33,
+"lng": 76.69,
+"why": "Snake boats escort offerings to the Parthasarathy temple, with boat songs"
+},
+{
+"name": "Jallikattu",
+"state": "tamil-nadu",
+"months": [
+1
+],
+"lat": 10.046,
+"lng": 78.09,
+"why": "Bull-taming during Pongal; Alanganallur's is the most famous"
+},
+{
+"name": "Thaipusam at Palani",
+"state": "tamil-nadu",
+"months": [
+1,
+2
+],
+"lat": 10.45,
+"lng": 77.52,
+"why": "Devotees walk to Palani carrying kavadis for Murugan"
+},
+{
+"name": "Karthigai Deepam",
+"state": "tamil-nadu",
+"months": [
+11,
+12
+],
+"lat": 12.23,
+"lng": 79.07,
+"why": "A giant flame is lit on top of Arunachala hill at Tiruvannamalai"
+},
+{
+"name": "Margazhi music season",
+"state": "tamil-nadu",
+"months": [
+12,
+1
+],
+"lat": 13.04,
+"lng": 80.27,
+"why": "Chennai's sabhas host thousands of Carnatic concerts and dance recitals"
+},
+{
+"name": "Kambala season",
+"state": "karnataka",
+"months": [
+11,
+12,
+1,
+2,
+3
+],
+"lat": 13.07,
+"lng": 74.99,
+"why": "Buffalo races through paddy tracks on weekends in Dakshina Kannada and Udupi"
+},
+{
+"name": "Feast of St Francis Xavier",
+"state": "goa",
+"months": [
+12
+],
+"lat": 15.5,
+"lng": 73.912,
+"why": "Pilgrims gather at the Basilica of Bom Jesus on 3 December"
+},
+{
+"name": "Shigmo",
+"state": "goa",
+"months": [
+3
+],
+"lat": 15.49,
+"lng": 73.83,
+"why": "Goa's spring festival of folk dances and float parades"
+},
+{
+"name": "Sao Joao",
+"state": "goa",
+"months": [
+6
+],
+"lat": 15.55,
+"lng": 73.76,
+"why": "Monsoon festival where young men leap into village wells and ponds"
+},
+{
+"name": "Ladakh Festival",
+"state": "ladakh",
+"months": [
+9
+],
+"lat": 34.16,
+"lng": 77.58,
+"why": "Leh's festival of masked dances, archery and polo"
+},
+{
+"name": "Sindhu Darshan",
+"state": "ladakh",
+"months": [
+6
+],
+"lat": 34.13,
+"lng": 77.63,
+"why": "Celebration on the banks of the Indus near Leh"
+},
+{
+"name": "Ramman",
+"state": "uttarakhand",
+"months": [
+4
+],
+"lat": 30.41,
+"lng": 79.42,
+"why": "Masked ritual theatre at Saloor-Dungra, on UNESCO's list"
+},
+{
+"name": "Gangaur",
+"state": "rajasthan",
+"months": [
+3,
+4
+],
+"lat": 26.92,
+"lng": 75.82,
+"why": "Women's festival for Gauri with processions from Jaipur's City Palace"
+},
+{
+"name": "Teej",
+"state": "rajasthan",
+"months": [
+7,
+8
+],
+"lat": 26.92,
+"lng": 75.82,
+"why": "Monsoon festival of swings, songs and a royal procession in Jaipur"
+},
+{
+"name": "Nagaur Cattle Fair",
+"state": "rajasthan",
+"months": [
+1,
+2
+],
+"lat": 27.2,
+"lng": 73.73,
+"why": "One of India's biggest cattle fairs, with camel races"
+},
+{
+"name": "Tarnetar Fair",
+"state": "gujarat",
+"months": [
+8,
+9
+],
+"lat": 22.45,
+"lng": 71.05,
+"why": "Tribal fair with embroidered umbrellas and matchmaking near Than"
+},
+{
+"name": "Pandharpur Wari",
+"state": "maharashtra",
+"months": [
+6,
+7
+],
+"lat": 17.68,
+"lng": 75.33,
+"why": "Hundreds of thousands of pilgrims walk from Alandi and Dehu to Pandharpur for Ashadhi Ekadashi"
+},
+{
+"name": "Kala Ghoda Arts Festival",
+"state": "maharashtra",
+"months": [
+2
+],
+"lat": 18.93,
+"lng": 72.832,
+"why": "Mumbai's street festival of art, music and talks"
+},
+{
+"name": "Moatsu",
+"state": "nagaland",
+"months": [
+5
+],
+"lat": 26.33,
+"lng": 94.52,
+"why": "Ao Naga festival after the sowing season, around Mokokchung"
+},
+{
+"name": "Sekrenyi",
+"state": "nagaland",
+"months": [
+2
+],
+"lat": 25.67,
+"lng": 94.11,
+"why": "Angami festival of purification in Kohima's villages"
+},
+{
+"name": "Behdienkhlam",
+"state": "meghalaya",
+"months": [
+7
+],
+"lat": 25.45,
+"lng": 92.2,
+"why": "Jaintia festival of driving away plague, at Jowai"
+},
+{
+"name": "Nongkrem Dance",
+"state": "meghalaya",
+"months": [
+11
+],
+"lat": 25.5,
+"lng": 91.95,
+"why": "Khasi harvest thanksgiving at Smit"
+},
+{
+"name": "Yaoshang",
+"state": "manipur",
+"months": [
+3
+],
+"lat": 24.81,
+"lng": 93.94,
+"why": "Manipur's five-day Holi with Thabal Chongba dances"
+},
+{
+"name": "Solung",
+"state": "arunachal-pradesh",
+"months": [
+9
+],
+"lat": 28.07,
+"lng": 95.33,
+"why": "Adi harvest festival around Pasighat"
+},
+{
+"name": "Losar in Tawang",
+"state": "arunachal-pradesh",
+"months": [
+2,
+3
+],
+"lat": 27.59,
+"lng": 91.86,
+"why": "Monpa New Year at Tawang's monasteries"
+},
+{
+"name": "Saga Dawa",
+"state": "sikkim",
+"months": [
+5,
+6
+],
+"lat": 27.33,
+"lng": 88.613,
+"why": "Buddhist holy month with processions in Gangtok"
+},
+{
+"name": "Pang Lhabsol",
+"state": "sikkim",
+"months": [
+8,
+9
+],
+"lat": 27.33,
+"lng": 88.613,
+"why": "Sikkim's festival honouring Kanchenjunga, with warrior dances"
+},
+{
+"name": "Bali Jatra",
+"state": "odisha",
+"months": [
+11
+],
+"lat": 20.48,
+"lng": 85.88,
+"why": "Huge fair on the Mahanadi at Cuttack remembering voyages to Bali"
+},
+{
+"name": "Dhanu Jatra",
+"state": "odisha",
+"months": [
+12,
+1
+],
+"lat": 21.33,
+"lng": 83.62,
+"why": "Bargarh turns into Kansa's kingdom for an open-air Krishna play"
+},
+{
+"name": "Sarhul",
+"state": "jharkhand",
+"months": [
+3,
+4
+],
+"lat": 23.35,
+"lng": 85.33,
+"why": "Tribal spring festival of the sal blossom in Ranchi"
+},
+{
+"name": "Chhau festival (Chaitra Parva)",
+"state": "odisha",
+"months": [
+4
+],
+"lat": 21.93,
+"lng": 86.73,
+"why": "Chhau dance performances at Baripada"
+},
+{
+"name": "Baisakhi at the Golden Temple",
+"state": "punjab",
+"months": [
+4
+],
+"lat": 31.62,
+"lng": 74.877,
+"why": "Harvest and Khalsa founding day celebrated at Amritsar"
+}
+]

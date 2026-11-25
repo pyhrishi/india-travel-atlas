@@ -622,6 +622,7 @@ h3 small{font-weight:600;color:var(--soft);margin-left:6px;font-size:13px}
 .xnote{margin:10px 0 0;font-size:14px;padding:9px 12px;border-radius:12px;background:var(--bg)}
 .cirl{margin:0;padding-left:24px;list-style:decimal;display:grid;gap:4px}.cirl li{font-size:14px}.cirl li.on b{color:var(--pink)}.cirl button{all:unset;cursor:pointer;color:var(--ink);text-decoration:underline;text-decoration-color:color-mix(in srgb,var(--pink) 45%,transparent);text-underline-offset:3px}
 .pmr{padding:8px 0;border-top:1px solid var(--line)}.pmr:first-of-type{border-top:0}.pmr p,.pml p{margin:4px 0 0;font-size:14px}.pmw{margin-left:6px;font-size:12px;color:var(--soft)}.pml{list-style:none;margin:0;padding:0;display:grid;gap:10px}.pml input{accent-color:var(--pink)}
+.gfx rect{fill:var(--gold);stroke:var(--bg);stroke-width:1.5px;vector-effect:non-scaling-stroke;cursor:pointer}.gfx g:focus-visible rect{stroke:var(--pink);stroke-width:3px}
 </style>
 </head>
 <body>
@@ -845,7 +846,7 @@ const CL=Math.cos(22*Math.PI/180);let W=0,H=0,K=1,T=d3.zoomIdentity,ox=0,oy=0,sc
 const P=(lng,lat)=>[ox+(lng-68.1)*CL*sc,oy+(37.1-lat)*sc];
 const path=d3.geoPath(d3.geoTransform({point(x,y){const q=P(x,y);this.stream.point(q[0],q[1])}}));
 let zs=null,vel=[];
-const zoom=d3.zoom().scaleExtent([.8,140]).on("start",e=>{S._zm=1;zs=e.sourceEvent?{x:T.x,y:T.y,k:T.k}:null;vel=[]}).on("end",e=>{S._zm=0;sizePins();clearTimeout(lqT);queueLabels();if(!e.sourceEvent||RM||vel.length<2)return;const now=performance.now(),v=vel.filter(s=>now-s.t<90);if(v.length<2||now-v[v.length-1].t>60)return;const a=v[0],b=v[v.length-1],dt=b.t-a.t;if(dt<8||b.k!==a.k)return;const vx=(b.x-a.x)/dt,vy=(b.y-a.y)/dt,sp=Math.hypot(vx,vy);if(sp<.35)return;const d=Math.min(sp,4)*220/sp;svg.transition().duration(650).ease(d3.easeCubicOut).call(zoom.translateBy,vx*d/K,vy*d/K)}).on("zoom",e=>{T=e.transform;K=T.k;root.attr("transform",T);if(e.sourceEvent){vel.push({t:performance.now(),x:T.x,y:T.y,k:T.k});if(vel.length>6)vel.shift()}sizePins();cluFollow();labelsSoon();if(zs&&(Math.abs(T.x-zs.x)+Math.abs(T.y-zs.y)>28||Math.abs(T.k-zs.k)/zs.k>.1)){zs=null;S.manual=true;if(mobile()&&si>0)snapTo(0,true)}});
+const zoom=d3.zoom().scaleExtent([.8,140]).on("start",e=>{S._zm=1;zs=e.sourceEvent?{x:T.x,y:T.y,k:T.k}:null;vel=[]}).on("end",e=>{S._zm=0;sizePins();clearTimeout(lqT);queueLabels();if(!e.sourceEvent||RM||vel.length<2)return;const now=performance.now(),v=vel.filter(s=>now-s.t<90);if(v.length<2||now-v[v.length-1].t>60)return;const a=v[0],b=v[v.length-1],dt=b.t-a.t;if(dt<8||b.k!==a.k)return;const vx=(b.x-a.x)/dt,vy=(b.y-a.y)/dt,sp=Math.hypot(vx,vy);if(sp<.35)return;const d=Math.min(sp,4)*220/sp;svg.transition().duration(650).ease(d3.easeCubicOut).call(zoom.translateBy,vx*d/K,vy*d/K)}).on("zoom",e=>{T=e.transform;K=T.k;root.attr("transform",T);if(e.sourceEvent){vel.push({t:performance.now(),x:T.x,y:T.y,k:T.k});if(vel.length>6)vel.shift()}sizePins();cluFollow();if(typeof sizeFx==="function")sizeFx();labelsSoon();if(zs&&(Math.abs(T.x-zs.x)+Math.abs(T.y-zs.y)>28||Math.abs(T.k-zs.k)/zs.k>.1)){zs=null;S.manual=true;if(mobile()&&si>0)snapTo(0,true)}});
 svg.call(zoom);
 const MQ=matchMedia("(max-width:899px) and (orientation:portrait),(max-width:899px) and (min-height:541px)");
 const mobile=()=>MQ.matches;
@@ -905,7 +906,7 @@ function drawPins(){
   all.forEach(p=>{if(!p._xy)p._xy=P(p.lng,p.lat)});
   PS={all,on,sel:selKey(),sig:"",ver:(PS.ver||0)+1};
   svg.classed("instate",!!S.slug&&!S.coll);
-  syncPins(true);queueLabels();updCar()}
+  syncPins(true);queueLabels();updCar();if(typeof drawFx==="function")drawFx()}
 function pinsWanted(){const sel=selKey(),m=90,out=[];if(gPins.style("display")==="none")return PS.all.filter(p=>id(p)===sel);
   for(const p of PS.all){const k=id(p);if(k===sel){out.push(p);continue}if(!PS.on.has(k)||!tierOn(p))continue;const x=p._xy[0]*K+T.x,y=p._xy[1]*K+T.y;if(x<-m||y<-m||x>W+m||y>H+m)continue;out.push(p)}return out}
 function syncPins(force){const want=pinsWanted(),sig=PS.ver+"|"+selKey()+"|"+want.map(id).join(",");
@@ -3076,6 +3077,17 @@ function permitList(ps){const seen=new Map();
  if(!seen.size)return"";
  return`<div class="pcard pmt" style="margin-top:12px"><h3 style="margin:0 0 6px">Permits for this trip</h3><ul class="pml">${[...seen.values()].map(({r,ps})=>`<li><label><input type="checkbox" data-pmk="${esc(r.t+ps[0].name)}"${(M.pmDone||{})[r.t+ps[0].name]?" checked":""}> <b>${esc(r.t)}</b> <span class="pmw">${esc(r.w)}</span></label><p>${esc(r.h)}</p><p class="note" style="margin:0">For ${ps.slice(0,4).map(q=>esc(q.name)).join(", ")}${ps.length>4?` and ${ps.length-4} more`:""}</p></li>`).join("")}</ul></div>`}
 function bindPermits(){V.querySelectorAll("[data-pmk]").forEach(c=>c.onchange=()=>{M.pmDone=M.pmDone||{};if(c.checked)M.pmDone[c.dataset.pmk]=1;else delete M.pmDone[c.dataset.pmk];save()})}
+/* Festival diamonds on the all-India map: this month and next */
+var gFx=root.insert("g",()=>gWay.node()).attr("class","gfx");
+function drawFx(){if(!gFx)return;gFx.selectAll("*").remove();if(S.slug||S.coll||S.trail)return;
+ const m1=NOWM,m2=NOWM%12+1,L=(S.fx||[]).filter(f=>f.months.includes(m1)||f.months.includes(m2));
+ const g=gFx.selectAll("g").data(L).join("g").attr("class","fxp").attr("transform",f=>{const[x,y]=P(f.lng,f.lat);return`translate(${x},${y})`})
+  .attr("role","button").attr("tabindex",0).attr("aria-label",f=>`Festival: ${f.name}`);
+ g.append("rect").attr("x",-4).attr("y",-4).attr("width",8).attr("height",8).attr("transform","rotate(45)");
+ g.on("click",(e,f)=>{e.stopPropagation();const a=f.months[0],b=f.months[f.months.length-1];toast(`${f.name} · usually ${a===b?MONL[a-1]:MONL[a-1]+"–"+MONL[b-1]} — ${f.why}`)})
+  .on("keydown",(e,f)=>{if(e.key==="Enter")e.currentTarget.dispatchEvent(new MouseEvent("click"))});
+ sizeFx()}
+function sizeFx(){if(!gFx)return;gFx.selectAll("g.fxp rect").attr("transform",`rotate(45) scale(${1/Math.max(1,K**.85)})`)}
 function route(silent,h0){const h=h0!=null?h0:location.hash.slice(1);const m=h.match(/^(.*)-(\d+)$/);
   if(m&&S.data[m[1]]){const p=S.data[m[1]].places.find(x=>x.n==m[2]);if(p){S.slug=m[1];classStates();S.stack=[{v:"explore"}];openPlace(p,!silent);return}}
   paint()}
