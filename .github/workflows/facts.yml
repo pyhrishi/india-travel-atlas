@@ -12,7 +12,7 @@ on:
         default: ''
   push:
     branches: [main]
-    paths: ['data/places/**']
+    paths: ['data/places/**', '.github/scripts/facts.py']
   schedule:
     - cron: '41 20 * * 3'
 permissions:
