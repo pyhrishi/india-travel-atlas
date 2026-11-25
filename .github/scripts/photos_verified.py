@@ -80,6 +80,7 @@ MANUAL_PHOTO_EXCLUSIONS = {
     'andhra-pradesh:41': 'Vakalpudi shore image, not Uppada Beach',
     'andhra-pradesh:52': 'British Museum collection image, not the Amaravati site or museum',
     'andhra-pradesh:57': 'performer portrait, not a photograph of Kuchipudi village',
+    'andhra-pradesh:59': 'town-square photograph, not Manginapudi Beach or a representative beach view',
     'andhra-pradesh:79': 'generic railway landscape, not Koundinya Wildlife Sanctuary',
     'andhra-pradesh:91': 'blackbuck photograph, not the Great Indian Bustard sanctuary',
     'andhra-pradesh:106': 'canal aerial view, not a clear photograph of Thotapalli Barrage',
