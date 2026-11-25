@@ -182,7 +182,7 @@ def main():
     hit = {k: v for k, v in PEND.items() if k in keys}
     todo = [p for p in todo if p['k'] not in hit]
     print(f'{len(places)} places, {len(todo)} to check, {len(hit)} matched earlier and waiting for details', flush=True)
-    KEEP = ('title', 'fullurl', 'pageprops', 'thumbnail', 'pageimage', 'coordinates')
+    KEEP = ('title', 'fullurl', 'pageprops', 'thumbnail', 'pageimage', 'coordinates', '_wc')
     def checkpoint():
         pend = {k: {x: pg[x] for x in KEEP if x in pg} for k, pg in hit.items() if k not in R or R[k].get('osm') or R[k].get('mv', 1) < MV}
         json.dump({'v': 1, 'r': R, 'm': M, 'h': H, 'p': pend, 'm2': sorted(M2 & set(M))}, open(STATE, 'w'), ensure_ascii=False, separators=(',', ':'))
@@ -234,7 +234,7 @@ def main():
         if got: hit[p['k']] = got
         else:
             o = osm(p)
-            if o: R[p['k']] = dict(o, at=NOW, mv=2); M.pop(p['k'], None)
+            if o: R[p['k']] = dict(o, at=NOW, mv=MV); M.pop(p['k'], None)
             else: M[p['k']] = NOW; M2.add(p['k']); R.pop(p['k'], None)
         H[p['k']] = fp(p)
         if n % 150 == 0:
@@ -271,7 +271,9 @@ def main():
         for q, e in (j.get('entities') or {}).items(): labels[q] = ((e.get('labels') or {}).get('en') or {}).get('value', '')
     for k, pg in hit.items():
         q = (pg.get('pageprops') or {}).get('wikibase_item'); c = claims.get(q, {})
-        r = {'w': pg['title'], 'u': pg.get('fullurl', ''), 'x': ext.get(pg['title'], ''), 'q': q or '', 'at': NOW, 'mv': 2}
+        r = {'w': pg['title'], 'u': pg.get('fullurl', ''), 'x': ext.get(pg['title'], ''), 'q': q or '', 'at': NOW, 'mv': MV}
+        co = (pg.get('coordinates') or [None])[0] or pg.get('_wc')
+        if co: r['ll'] = [round(co['lat'], 4), round(co['lon'], 4)]  # the article's own point, used to correct the atlas position
         web = [v for v in vals(c, 'P856') if isinstance(v, str)]
         if web: r['web'] = web[0]
         her = [labels.get(v['id'], '') for v in vals(c, 'P1435') if isinstance(v, dict)]
