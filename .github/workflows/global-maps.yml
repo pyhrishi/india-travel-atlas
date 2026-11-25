@@ -1,6 +1,12 @@
 name: Build global administrative maps
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/global-maps.yml"
+      - "tools/build_global_maps.py"
+      - "data/maps/index.json"
   pull_request:
     paths:
       - "tools/build_global_maps.py"
@@ -34,7 +40,7 @@ jobs:
           python -m unittest discover -s tests -p "test_global_maps.py" -v
 
   build:
-    if: github.event_name == 'workflow_dispatch'
+    if: github.event_name == 'workflow_dispatch' || github.event_name == 'push'
     needs: test
     runs-on: ubuntu-latest
     timeout-minutes: 30
@@ -50,7 +56,7 @@ jobs:
           python-version: "3.12"
       - name: Validate requested batch
         env:
-          ISO2: ${{ inputs.iso2 }}
+          ISO2: ${{ inputs.iso2 || 'BD,BT,LK,MV,MM' }}
         run: |
           python - <<'PY'
           import os, re, sys
