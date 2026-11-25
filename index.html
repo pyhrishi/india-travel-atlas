@@ -7,7 +7,7 @@ try{applyAcc(localStorage.getItem("ita-acc")||"rani")}catch(e){applyAcc("rani")}
 try{var t=localStorage.getItem("ita-theme");if(t==="light"||t==="dark")document.documentElement.dataset.theme=t}catch(e){}</script>
 <meta charset="utf-8"><link rel="preload" href="data/index.json" as="fetch" crossorigin>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="description" content="The best places in every Indian state and union territory, on one map.">
+<meta name="description" content="Explore destinations, regions, routes and travel ideas across countries and recognised areas on one interactive atlas.">
 <meta name="theme-color" content="#e5246b">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
@@ -16,7 +16,7 @@ try{var t=localStorage.getItem("ita-theme");if(t==="light"||t==="dark")document.
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
-<title>India Travel Atlas</title>
+<title>Global Travel Atlas</title>
 <style>@font-face{font-family:Mukta;font-style:normal;font-weight:400;font-display:swap;src:url(fonts/mukta-latin-400-normal.woff2) format("woff2")}@font-face{font-family:Mukta;font-style:normal;font-weight:500;font-display:swap;src:url(fonts/mukta-latin-500-normal.woff2) format("woff2")}@font-face{font-family:Mukta;font-style:normal;font-weight:700;font-display:swap;src:url(fonts/mukta-latin-700-normal.woff2) format("woff2")}@font-face{font-family:Mukta;font-style:normal;font-weight:800;font-display:swap;src:url(fonts/mukta-latin-800-normal.woff2) format("woff2")}</style>
 <style>
 /* VOICE everyday travel companion, kept for years: calm, rich, exact
@@ -1399,11 +1399,11 @@ function showCountryGate(){
   ob.setAttribute("aria-labelledby","countryT");
   c.innerHTML=`<p class="obk">TRAVEL ATLAS · GLOBAL EDITION</p>
     <h2 id="countryT" style="font-size:28px;margin:8px 0 4px">Where would you like to explore?</h2>
-    <p class="lead">Choose a country or area. India and Nepal have destination catalogues. ${active.length-2} additional country maps are ready, with destination catalogues being built progressively.</p>
+    <p class="lead">Choose a country or area. India, Nepal and Brunei have destination catalogues. ${active.length-3} additional country maps are ready, with destination catalogues being built progressively.</p>
     <label class="countrysearch"><span class="sr">Search countries and areas</span><input id="countryQ" type="search" placeholder="Search 248 countries and areas…" autocomplete="off"></label>
     <div class="countrylist" id="countryList" role="group" aria-label="Countries and areas">
       <p class="countrygroup">Available now · ${active.length}</p>
-      ${active.map(e=>{const cc=e.iso2.toLowerCase(),m=S.mapIndex.countries[cc],sub=cc==="in"?"States, union territories and destinations":cc==="np"?"Provinces, districts and destinations":`${m.admin_unit_count} regions mapped · destinations in progress`;return `<button type="button" class="countrychoice" data-country="${cc}" data-name="${esc(e.name.toLowerCase())}"><span class="countryflag" aria-hidden="true">${countryFlag(e.iso2)}</span><span><b>${esc(e.name)}</b><small>${esc(sub)}</small></span><span aria-hidden="true">→</span></button>`}).join("")}
+      ${active.map(e=>{const cc=e.iso2.toLowerCase(),m=S.mapIndex.countries[cc],sub=cc==="in"?"States, union territories and destinations":cc==="np"?"Provinces, districts and destinations":cc==="bn"?"Four districts · destination catalogue available":`${m.admin_unit_count} regions mapped · destinations in progress`;return `<button type="button" class="countrychoice" data-country="${cc}" data-name="${esc(e.name.toLowerCase())}"><span class="countryflag" aria-hidden="true">${countryFlag(e.iso2)}</span><span><b>${esc(e.name)}</b><small>${esc(sub)}</small></span><span aria-hidden="true">→</span></button>`}).join("")}
       <p class="countrygroup">More countries &amp; areas · ${upcoming.length}</p>
       ${upcoming.map(e=>`<div class="countrychoice countrydisabled" data-name="${esc(e.name.toLowerCase())}" aria-disabled="true"><span class="countryflag" aria-hidden="true">${countryFlag(e.iso2)}</span><span><b>${esc(e.name)}</b><small>${esc(e.entity_type==="m49-country-or-area"?"UN M49 country or area":"Area")}</small></span><span class="countrysoon">Coming soon</span></div>`).join("")}
     </div>
@@ -1755,6 +1755,10 @@ function logVisit(){const d=mkDlg("lvdlg","lvT");let date=today();
 
 /* ---------- my stats ---------- */
 function vStats(){const all=allPlaces(),vis=M.visits||{},been=all.filter(p=>M.been[id(p)]),h=home();
+  if(S.cc!=="in"){const byType=Object.keys(G).map(g=>[g,been.filter(p=>p.g===g).length]).filter(x=>x[1]).sort((a,b)=>b[1]-a[1]),byRegion=new Map();been.forEach(p=>byRegion.set(p.slug,(byRegion.get(p.slug)||0)+1));const dated=been.map(p=>[p,vis[id(p)]?.date||""]).filter(x=>x[1]).sort((a,b)=>a[1].localeCompare(b[1])),first=dated[0]?.[1],last=dated[dated.length-1]?.[1],ratings=been.map(p=>vis[id(p)]?.rating||0).filter(Boolean),avg=ratings.length?(ratings.reduce((a,b)=>a+b,0)/ratings.length).toFixed(1):"–";
+    V.innerHTML=`<div class="pad">${crumbBtn()}<h2>My travel stats</h2><p class="lead">Your travel record across ${esc(CN())}.</p><div class="stats"><div class="stat"><b>${been.length}</b><span>places visited</span></div><div class="stat"><b>${byRegion.size}</b><span>regions explored</span></div><div class="stat"><b>${new Set(been.map(p=>p.district)).size}</b><span>districts visited</span></div><div class="stat"><b>${avg}</b><span>average rating</span></div></div><p class="note">${first?`First dated visit: ${fmtD(dOf(first),{day:"numeric",month:"short",year:"numeric"})} · Most recent: ${fmtD(dOf(last),{day:"numeric",month:"short",year:"numeric"})}`:"Add visit dates in your journal to build a travel timeline."}</p><div class="acts"><button class="act pri" data-go="bulk">Log visits</button><button class="act" data-go="journal">Travel journal</button></div></div>
+    ${byType.length?`<h3 class="pad">Places by type</h3><div class="pad">${byType.map(([g,n])=>`<div class="hb"><span class="hl">${esc(G[g][0])}</span><span class="ht"><i style="width:${Math.max(3,n/Math.max(1,been.length)*100)}%;background:${G[g][1]}"></i></span><b>${n}</b></div>`).join("")}</div>`:""}
+    <h3 class="pad">Regions explored</h3><div class="pad">${[...byRegion].sort((a,b)=>b[1]-a[1]).map(([slug,n])=>`<button class="srow" data-s="${slug}"><span><b class="blk">${esc(stOf(slug)?.name||slug)}</b><small class="blk" style="color:var(--soft)">${n} places visited</small></span><span>›</span></button>`).join("")||'<p class="note">Your first stamp is waiting.</p>'}</div>`;return}
   if(!been.length){V.innerHTML=`<div class="pad">${crumbBtn()}<h2>My stats</h2><p class="lead">Mark the places you've been, and your travel numbers show up here: years, regions, the kinds of places you love, your farthest points.</p><div class="acts"><button class="act pri" data-go="bulk">Mark visited places</button><button class="act" data-go="journal">Travel journal</button></div></div>`;return}
   const dated=been.map(p=>[p,vis[id(p)]?.date||""]).filter(x=>x[1]).sort((a,b)=>a[1].localeCompare(b[1]));let dist=0;for(let i=1;i<dated.length;i++)dist+=road(km(dated[i-1][0],dated[i][0]));
   const rated=been.map(p=>vis[id(p)]?.rating||0).filter(Boolean),avg=rated.length?(rated.reduce((a,b)=>a+b,0)/rated.length).toFixed(1):"–";
