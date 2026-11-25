@@ -214,6 +214,32 @@
    "boundary_license": "Creative Commons Attribution 3.0 Intergovernmental Organisations (CC BY 3.0 IGO)",
    "data_file": "data/maps/pg.json",
    "validated_at": "2026-11-25"
+  },
+  "sb": {
+   "name": "Solomon Islands",
+   "iso3": "SLB",
+   "m49": "090",
+   "map_status": "ready",
+   "admin_level": "ADM1",
+   "admin_unit_count": 10,
+   "boundary_year": "2021",
+   "boundary_source": "Natural Earth",
+   "boundary_license": "Public Domain",
+   "data_file": "data/maps/sb.json",
+   "validated_at": "2026-11-25"
+  },
+  "vu": {
+   "name": "Vanuatu",
+   "iso3": "VUT",
+   "m49": "548",
+   "map_status": "ready",
+   "admin_level": "ADM1",
+   "admin_unit_count": 6,
+   "boundary_year": "2017",
+   "boundary_source": "OpenStreetMap, Wambacher",
+   "boundary_license": "Open Data Commons Open Database License 1.0",
+   "data_file": "data/maps/vu.json",
+   "validated_at": "2026-11-25"
   }
  }
 }
