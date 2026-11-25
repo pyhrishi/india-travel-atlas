@@ -1,4 +1,4 @@
-name: Verify places (Wikipedia + Wikidata) — parallel regions
+name: Verify places (Wikipedia + Wikidata) — recoverable parallel regions
 on:
   workflow_dispatch:
     inputs:
@@ -18,6 +18,7 @@ on:
     - cron: '41 20 * * 3'
 permissions:
   contents: write
+  actions: read
 concurrency:
   group: facts-parallel
   cancel-in-progress: false
@@ -69,50 +70,115 @@ jobs:
           - puducherry
     steps:
       - uses: actions/checkout@v4
-      - name: Verify this region with its own checkpoint
+        with:
+          fetch-depth: 0
+      - name: Verify region with checkpoint-aware retries
         env:
           FACTS_STATE: ${{ matrix.state }}
+          FORCE: ${{ github.event.inputs.force }}
+        shell: bash
         run: |
-          ARGS=""
-          if [ "${{ inputs.force }}" = "true" ]; then ARGS="--force"; fi
-          python3 .github/scripts/facts.py $ARGS
-      - name: Upload region results and checkpoint
+          set +e
+          for attempt in 1 2 3; do
+            echo "::group::${{ matrix.state }} attempt ${attempt}/3"
+            ARGS=""
+            if [ "$FORCE" = "true" ]; then ARGS="--force"; fi
+            python3 .github/scripts/facts.py $ARGS
+            result=$?
+            echo "::endgroup::"
+            if [ "$result" -eq 0 ]; then
+              echo "Region verification completed."
+              exit 0
+            fi
+            echo "Attempt $attempt failed with exit code $result; the next attempt will resume from the saved checkpoint."
+            if [ "$attempt" -lt 3 ]; then sleep 15; fi
+          done
+          echo "::error::Region ${{ matrix.state }} failed after 3 checkpoint-aware attempts."
+          exit "$result"
+      - name: Upload latest region result and checkpoint, even after failure
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: region-${{ matrix.state }}
           path: |
             data/facts/${{ matrix.state }}.json
             .github/facts-state/${{ matrix.state }}.json
-          if-no-files-found: error
-          retention-days: 14
+          if-no-files-found: warn
+          retention-days: 30
           include-hidden-files: true
 
   publish:
-    name: Merge and publish verified results
+    name: Validate, merge and publish complete catalogue only
     needs: verify
-    if: always()
+    if: ${{ needs.verify.result == 'success' }}
     runs-on: ubuntu-latest
+    timeout-minutes: 240
     steps:
       - uses: actions/checkout@v4
-      - name: Download completed region results
+        with:
+          fetch-depth: 0
+      - name: Download all region artifacts
         uses: actions/download-artifact@v4
         with:
           pattern: region-*
           path: region-artifacts
           merge-multiple: false
-      - name: Merge facts and rebuild global unverified queue
+      - name: Validate all 36 regions and merge atomically
         run: python3 .github/scripts/merge_facts.py region-artifacts
       - name: Verify Commons files and publish only verified article photos
-        continue-on-error: true
-        run: python3 .github/scripts/photos_verified.py
+        shell: bash
+        run: |
+          set +e
+          for attempt in 1 2 3; do
+            python3 .github/scripts/photos_verified.py
+            result=$?
+            if [ "$result" -eq 0 ]; then exit 0; fi
+            echo "Photo verification attempt $attempt failed (exit $result)."
+            if [ "$attempt" -lt 3 ]; then sleep 20; fi
+          done
+          echo "::error::Photo verification failed after 3 attempts; refusing to publish partial outputs."
+          exit "$result"
       - name: Refresh offline cache version
         run: python3 tools/bump_sw.py
       - name: Commit merged results and checkpoints
+        shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
           git add data/facts data/photos.json data/photo-credits.json .github/facts-state sw.js
           git diff --cached --quiet && { echo "No change"; exit 0; }
-          git commit -m "Merge parallel place verification results"
-          for i in 1 2 3; do git pull --rebase -X theirs && git push && exit 0; sleep 10; done
+          git commit -m "Merge complete parallel place verification results"
+          for attempt in 1 2 3; do
+            git pull --rebase -X theirs origin main || exit 1
+            if git push origin HEAD:main; then exit 0; fi
+            echo "Push attempt $attempt failed; retrying."
+            sleep 15
+          done
           exit 1
+
+  report:
+    name: Verification run summary
+    needs: [verify, publish]
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - name: Report run outcome
+        env:
+          VERIFY_RESULT: ${{ needs.verify.result }}
+          PUBLISH_RESULT: ${{ needs.publish.result }}
+        run: |
+          {
+            echo "## Place verification pipeline"
+            echo "- Region matrix: **$VERIFY_RESULT**"
+            echo "- Validated merge and publish: **$PUBLISH_RESULT**"
+            if [ "$VERIFY_RESULT" != "success" ]; then
+              echo ""
+              echo "Publishing was blocked. Inspect failed region jobs and their uploaded checkpoint artifacts, then rerun failed jobs."
+            elif [ "$PUBLISH_RESULT" != "success" ]; then
+              echo ""
+              echo "All region jobs passed, but merge/photo/publish did not complete. No successful publish is claimed."
+            else
+              echo ""
+              echo "All 36 region artifacts passed completeness checks before publishing."
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
