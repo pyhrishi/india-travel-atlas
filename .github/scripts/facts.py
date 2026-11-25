@@ -12,7 +12,8 @@ when its name or position changes, or after 60 days.
 import json, os, re, sys, time, math, glob, urllib.parse, urllib.request, hashlib
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 OUTD = os.path.join(ROOT, 'data', 'facts')
-STATE = os.path.join(ROOT, '.github', 'facts-state.json')
+FACTS_STATE = os.environ.get('FACTS_STATE', '').strip()
+STATE = os.path.join(ROOT, '.github', 'facts-state', FACTS_STATE + '.json') if FACTS_STATE else os.path.join(ROOT, '.github', 'facts-state.json')
 UA = 'IndiaTravelAtlas/1.0 (https://pyhrishi.github.io/india-travel-atlas/; github.com/pyhrishi)'
 API = 'https://en.wikipedia.org/w/api.php'
 WD = 'https://www.wikidata.org/w/api.php'
@@ -202,14 +203,19 @@ def main():
     broad = {norm(n).strip() for n in states.values()} | {'india'}
     for f in sorted(glob.glob(os.path.join(ROOT, 'data', 'places', '*.json'))):
         slug = os.path.basename(f)[:-5]
+        if FACTS_STATE and slug != FACTS_STATE: continue
         for p in json.load(open(f))['places']:
             places.append(dict(k=f"{slug}:{p['n']}", slug=slug, n=p['n'], name=p['name'], dist=p.get('district', ''),
                                st=states.get(slug, ''), cat=p.get('category', ''), ll=(p['lat'], p['lng'])))
             broad.add(norm(p.get('district', '')).strip()); broad.add(norm(p.get('district', '') + ' district').strip())
     if os.environ.get('FACTS_DEBUG'):
         debug(os.environ['FACTS_DEBUG'].split('|'), places, broad); return
-    old = json.load(open(STATE)) if os.path.exists(STATE) else {}
-    R = old.get('r', {}); M = old.get('m', {}); H = old.get('h', {}); PEND = old.get('p', {}); M2 = set(old.get('m2', []))
+    legacy = os.path.join(ROOT, '.github', 'facts-state.json')
+    seed = STATE if os.path.exists(STATE) else legacy
+    old = json.load(open(seed)) if os.path.exists(seed) else {}
+    prefix = FACTS_STATE + ':' if FACTS_STATE else None
+    def scoped(d): return {k: v for k, v in d.items() if k.startswith(prefix)} if prefix else d
+    R = scoped(old.get('r', {})); M = scoped(old.get('m', {})); H = scoped(old.get('h', {})); PEND = scoped(old.get('p', {})); M2 = set(scoped({k: True for k in old.get('m2', [])}))
     # Enforce manual exclusions against previously published matches as well as new search results.
     # Without this purge, an old false-positive can survive indefinitely when its match fingerprint is unchanged.
     for k in MANUAL_ARTICLE_EXCLUSIONS:
@@ -347,8 +353,9 @@ def main():
         if r: by.setdefault(p['slug'], {})[str(p['n'])] = {k: v for k, v in r.items() if k not in ('at', 'mv')}
     for slug in {p['slug'] for p in places}:
         json.dump(by.get(slug, {}), open(os.path.join(OUTD, slug + '.json'), 'w'), ensure_ascii=False, separators=(',', ':'))
-    unv = [{'k': p['k'], 'name': p['name'], 'district': p['dist'], 'state': p['st'], 'category': p['cat']} for p in places if p['k'] not in R]
-    json.dump(unv, open(os.path.join(OUTD, '_unverified.json'), 'w'), ensure_ascii=False, indent=0)
+    if not FACTS_STATE:
+        unv = [{'k': p['k'], 'name': p['name'], 'district': p['dist'], 'state': p['st'], 'category': p['cat']} for p in places if p['k'] not in R]
+        json.dump(unv, open(os.path.join(OUTD, '_unverified.json'), 'w'), ensure_ascii=False, indent=0)
     json.dump({'v': 1, 'r': R, 'm': M, 'h': H, 'p': {}, 'm2': sorted(M2 & set(M)), 'm2v': MV}, open(STATE, 'w'), ensure_ascii=False, separators=(',', ':'))
     print(f'done: {len(R)} verified, {len(unv)} unverified', flush=True)
 
