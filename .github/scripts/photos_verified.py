@@ -79,6 +79,7 @@ MANUAL_PHOTO_EXCLUSIONS = {
     'andhra-pradesh:40': 'satellite image rather than a visitor photograph of Hope Island',
     'andhra-pradesh:41': 'Vakalpudi shore image, not Uppada Beach',
     'andhra-pradesh:52': 'British Museum collection image, not the Amaravati site or museum',
+    'andhra-pradesh:51': 'generic Mangalagiri town image, not the Panakala Narasimha temple or handloom craft',
     'andhra-pradesh:57': 'performer portrait, not a photograph of Kuchipudi village',
     'andhra-pradesh:59': 'town-square photograph, not Manginapudi Beach or a representative beach view',
     'andhra-pradesh:79': 'generic railway landscape, not Koundinya Wildlife Sanctuary',
