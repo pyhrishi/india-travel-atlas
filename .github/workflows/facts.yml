@@ -6,6 +6,10 @@ on:
         description: Re-check every place
         type: boolean
         default: false
+      debug:
+        description: 'Only print matching details for these names (A|B|C); saves nothing'
+        type: string
+        default: ''
   push:
     branches: [main]
     paths: ['data/places/**']
@@ -25,6 +29,8 @@ jobs:
       - name: Match every place to its own article
         timeout-minutes: 210
         continue-on-error: true
+        env:
+          FACTS_DEBUG: ${{ inputs.debug }}
         run: python3 .github/scripts/facts.py ${{ inputs.force && '--force' || '' }}
       - name: Save results (also after a timeout, so the next run resumes)
         if: always()

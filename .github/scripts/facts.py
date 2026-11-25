@@ -76,7 +76,7 @@ def good(pg, p, exact, broad):
     c = (pg.get('coordinates') or [None])[0]
     loc = sig(p.get('dist', '')) | sig(p.get('st', ''))
     tw, pw = sig(t), sig(p['name']) - loc
-    exact_title = nt in {norm(v).strip() for v in variants(p['name'])}
+    exact_title = (exact and not pg.get('_frag')) or nt in {norm(v).strip() for v in variants(p['name'])}
     if not exact_title and not (tw & pw): return False
     if c:
         d = km(p['ll'], (c['lat'], c['lon']))
@@ -112,6 +112,23 @@ def osm(p):
     if OSMF[0] == 3: print('OpenStreetMap not answering; skipping it for the rest of this run', flush=True)
     return None
 
+def debug(names, places, broad):
+    for nm in names:
+        for p in [x for x in places if x['name'] == nm][:1]:
+            print(f"\n== {p['k']} {p['name']} ({p['dist']}, {p['st']}) at {p['ll']}  sig={sorted(sig(p['name']) - sig(p['dist']) - sig(p['st']))}")
+            vs = variants(p['name'])
+            j = get(API, dict(PROPS, action='query', redirects='1', titles='|'.join(vs)))
+            q = j.get('query', {}); print('  normalized/redirects:', q.get('normalized'), q.get('redirects'), ' continue:', j.get('continue'))
+            for pg in q.get('pages', {}).values():
+                c = (pg.get('coordinates') or [None])[0]
+                print(f"  title-page {pg.get('title')!r} missing={'missing' in pg} coords={c and (c['lat'], c['lon'])} props={list((pg.get('pageprops') or {}).keys())} -> good={good(pg, p, True, broad)}")
+            b = strip_name(p['name'])
+            for qs in (f"{b} {p['dist']}", b):
+                j = get(API, dict(PROPS, action='query', generator='search', gsrlimit='6', gsrnamespace='0', gsrsearch=qs))
+                for pg in sorted(j.get('query', {}).get('pages', {}).values(), key=lambda g: g.get('index', 9)):
+                    c = (pg.get('coordinates') or [None])[0]
+                    print(f"  search[{qs}] {pg.get('title')!r} coords={c and (round(c['lat'],3), round(c['lon'],3))} d={c and round(km(p['ll'], (c['lat'], c['lon'])),1)} -> good={good(pg, p, False, broad)}")
+
 def main():
     states = {s['slug']: s['name'] for s in json.load(open(os.path.join(ROOT, 'data', 'states.json')))}
     places = []
@@ -122,6 +139,8 @@ def main():
             places.append(dict(k=f"{slug}:{p['n']}", slug=slug, n=p['n'], name=p['name'], dist=p.get('district', ''),
                                st=states.get(slug, ''), cat=p.get('category', ''), ll=(p['lat'], p['lng'])))
             broad.add(norm(p.get('district', '')).strip()); broad.add(norm(p.get('district', '') + ' district').strip())
+    if os.environ.get('FACTS_DEBUG'):
+        debug(os.environ['FACTS_DEBUG'].split('|'), places, broad); return
     old = json.load(open(STATE)) if os.path.exists(STATE) else {}
     R = old.get('r', {}); M = old.get('m', {}); H = old.get('h', {}); PEND = old.get('p', {}); M2 = set(old.get('m2', []))
     fp = lambda p: hashlib.md5(f"{p['name']}|{p['ll'][0]:.3f}|{p['ll'][1]:.3f}".encode()).hexdigest()[:10]
@@ -154,6 +173,8 @@ def main():
             for t in alias:
                 if alias[t] == n['from']: alias[t] = n['to']
         pages = {pg['title']: pg for pg in q.get('pages', {}).values()}
+        for r_ in q.get('redirects', []):  # a redirect to a section of a bigger article is not the place's own article
+            if r_.get('tofragment') and r_['to'] in pages: pages[r_['to']] = dict(pages[r_['to']], _frag=1)
         for v, p in chunk:
             if p['k'] in hit: continue
             pg = pages.get(alias[v])
