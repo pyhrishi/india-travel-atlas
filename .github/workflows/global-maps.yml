@@ -1,0 +1,61 @@
+name: Build global administrative maps
+
+on:
+  workflow_dispatch:
+    inputs:
+      iso2:
+        description: "Comma-separated ISO2 country codes (maximum 10)"
+        required: true
+        default: "BD,BT,LK,MV,MM"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: global-map-build
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate requested batch
+        env:
+          ISO2: ${{ inputs.iso2 }}
+        run: |
+          python - <<'PY'
+          import os, re, sys
+          codes = [x.strip().upper() for x in os.environ["ISO2"].split(",") if x.strip()]
+          if not codes or len(codes) > 10 or any(not re.fullmatch(r"[A-Z]{2}", x) for x in codes):
+              sys.exit("Provide 1–10 comma-separated ISO2 codes")
+          if len(set(codes)) != len(codes):
+              sys.exit("Duplicate ISO2 codes are not allowed")
+          print("Building:", ", ".join(codes))
+          PY
+      - name: Build and validate map files
+        env:
+          ISO2: ${{ inputs.iso2 }}
+        run: python tools/build_global_maps.py --iso2 "$ISO2"
+      - name: Refresh offline cache version
+        run: python tools/bump_sw.py
+      - name: Commit validated map batch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/maps sw.js
+          if git diff --cached --quiet; then
+            echo "No map changes to commit."
+          else
+            git commit -m "Add validated global administrative map batch"
+            git push
+          fi
