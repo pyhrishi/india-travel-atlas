@@ -358,7 +358,8 @@ def main():
         unv = [{'k': p['k'], 'name': p['name'], 'district': p['dist'], 'state': p['st'], 'category': p['cat']} for p in places if p['k'] not in R]
         json.dump(unv, open(os.path.join(OUTD, '_unverified.json'), 'w'), ensure_ascii=False, indent=0)
     json.dump({'v': 1, 'r': R, 'm': M, 'h': H, 'p': {}, 'm2': sorted(M2 & set(M)), 'm2v': MV}, open(STATE, 'w'), ensure_ascii=False, separators=(',', ':'))
-    print(f'done: {len(R)} verified, {len(unv)} unverified', flush=True)
+    unverified_count = sum(1 for p in places if p['k'] not in R)
+    print(f'done: {len(R)} verified, {unverified_count} unverified', flush=True)
 
 if __name__ == '__main__':
     main()
