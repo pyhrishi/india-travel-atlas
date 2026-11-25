@@ -238,6 +238,19 @@ input[type=text],input[type=date],input[type=search]{height:44px;border-radius:1
 .pic img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;animation:fadein .35s ease-out}
 .pic .pb{position:absolute;right:8px;top:8px;width:26px;height:26px;border-radius:13px;background:var(--c);display:none;place-items:center}.pic.has .pb{display:grid}.pb svg{width:16px;height:16px;color:#fff}
 .pcr{position:absolute;right:10px;bottom:10px;width:28px;height:28px;border-radius:14px;border:0;background:rgba(0,0,0,.45);color:#fff;font:700 14px Georgia,serif;font-style:italic;z-index:2}
+.pic.has{cursor:zoom-in}.pic.has:focus-visible{outline:3px solid var(--pink);outline-offset:-3px;z-index:3}
+#photoViewer{position:fixed;inset:0;z-index:100000;background:rgba(5,8,13,.98);color:#fff;display:flex;flex-direction:column;padding:calc(12px + env(safe-area-inset-top,0px)) 14px calc(12px + env(safe-area-inset-bottom,0px));}
+#photoViewer[hidden]{display:none}
+#photoViewer .pvh{display:flex;align-items:center;gap:12px;min-height:44px}
+#photoViewer .pvt{min-width:0;flex:1;font-weight:800;font-size:15px;line-height:1.25}
+#photoViewer .pvs{display:block;font-size:12px;font-weight:500;opacity:.72;margin-top:2px}
+#photoViewer .pvc{width:42px;height:42px;flex:none;border:1px solid rgba(255,255,255,.25);border-radius:50%;background:rgba(255,255,255,.1);color:#fff;font:inherit;font-size:25px;line-height:1}
+#photoViewer .pvim{flex:1;min-height:0;display:grid;place-items:center;padding:12px 0}
+#photoViewer img{display:block;max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain}
+#photoViewer .pvf{font-size:12px;line-height:1.4;text-align:center;color:rgba(255,255,255,.72);padding:4px 12px 2px}
+#photoViewer .pvf a{color:#fff;text-decoration:underline;text-underline-offset:3px}
+#photoViewer .pverr{font-size:14px;color:#fff;text-align:center}
+
 .hero,.pc .art,.thumb,.trail .art{position:relative}
 .bi{width:19px;height:19px;flex:none}.ib svg,.up svg,.pn svg{width:22px;height:22px;display:block;margin:auto}.mc svg{width:16px;height:16px}
 .legend .chev{width:18px;height:18px;flex:none;color:var(--soft)}
@@ -766,7 +779,7 @@ function ridge(R,y,amp,col,op=1){let d="M0,200 L0,"+y.toFixed(1),yy=y;for(let x=
 /* pictures: a real photo where one is found, otherwise a clean icon tile */
 const phSize=(u,w)=>/upload\.wikimedia\.org|thumb\.wikimedia\.org/.test(u)?u.replace(/\/\d+px-/,"/"+w+"px-"):u;
 function art(p,opt={}){const k=id(p),ph=photoOf(k),c=G[p.g][1];
-  return`<span class="pic${ph?" has":""}${opt.hero?" hero-pic":""}" data-pk="${k}" style="--c:${c}"><svg class="pi" aria-hidden="true"><use href="#i-${p.g}"/></svg>${ph?`<img src="${esc(phSize(ph.t,opt.hero||opt.big?960:500))}" alt="" loading="lazy" decoding="async" onerror="this.parentNode.classList.remove('has');this.remove()">`:""}${opt.badge?`<span class="pb"><svg aria-hidden="true"><use href="#i-${p.g}"/></svg></span>`:""}${opt.hero&&ph?`<button class="pcr" data-cr="${k}" aria-label="Photo credit">i</button>`:""}</span>`}
+  return`<span class="pic${ph?" has":""}${opt.hero?" hero-pic":""}" data-pk="${k}"${ph?` role="button" tabindex="0" aria-haspopup="dialog" aria-label="Open full-screen photo of ${esc(p.name)}"`:""} style="--c:${c}"><svg class="pi" aria-hidden="true"><use href="#i-${p.g}"/></svg>${ph?`<img src="${esc(phSize(ph.t,opt.hero||opt.big?960:500))}" alt="${esc(p.name)}" loading="lazy" decoding="async" onerror="this.parentNode.classList.remove('has');this.remove()">`:""}${opt.badge?`<span class="pb"><svg aria-hidden="true"><use href="#i-${p.g}"/></svg></span>`:""}${opt.hero&&ph?`<button class="pcr" data-cr="${k}" aria-label="Photo credit">i</button>`:""}</span>`}
 function artOld(p,opt={}){
   const R=rng((p.slug||"x").split("").reduce((a,c)=>a*31+c.charCodeAt(0)|0,7)*97+p.n*7919);
   const k=++AID,sk=SKIES[Math.floor(R()*SKIES.length)],gc=G[p.g][1],c=p.category.toLowerCase();
@@ -826,7 +839,7 @@ async function photoBatch(ks){const ps=ks.map(byId).filter(Boolean),byT={};
     const meta={};Object.values(m.query?.pages||{}).forEach(pg=>{const e=pg.imageinfo?.[0]?.extmetadata||{};meta[pg.title.replace(/^File:/,"").replace(/ /g,"_")]={a:strip(e.Artist?.value).slice(0,120),l:e.LicenseShortName?.value||"",lu:e.LicenseUrl?.value||""}});
     for(const k in PH){const r=PH[k];if(r&&r.f&&files[r.f]){const mm=meta[r.f.replace(/ /g,"_")];if(mm)Object.assign(r,mm)}}}catch(e){}}
   phSave();paintPics(ps.map(id))}
-function paintPic(el){const k=el.dataset.pk,r=photoOf(k);if(!r||el.classList.contains("has"))return;el.classList.add("has");const im=new Image();im.alt="";im.decoding="async";im.loading="lazy";im.src=phSize(r.t,el.classList.contains("hero-pic")||el.closest(".potd,.xhero,.thero,.cover,.issue-hero")?960:500);im.onerror=()=>{el.classList.remove("has");im.remove()};el.insertBefore(im,el.querySelector(".pb"));if(el.classList.contains("hero-pic")&&!el.querySelector(".pcr"))el.insertAdjacentHTML("beforeend",`<button class="pcr" data-cr="${k}" aria-label="Photo credit">i</button>`)}
+function paintPic(el){const k=el.dataset.pk,r=photoOf(k);if(!r||el.classList.contains("has"))return;const p=byId(k);el.classList.add("has");el.setAttribute("role","button");el.setAttribute("tabindex","0");el.setAttribute("aria-haspopup","dialog");el.setAttribute("aria-label",`Open full-screen photo of ${p?p.name:"this place"}`);const im=new Image();im.alt=p?p.name:"Place photo";im.decoding="async";im.loading="lazy";im.src=phSize(r.t,el.classList.contains("hero-pic")||el.closest(".potd,.xhero,.thero,.cover,.issue-hero")?960:500);im.onerror=()=>{el.classList.remove("has");el.removeAttribute("role");el.removeAttribute("tabindex");im.remove()};el.insertBefore(im,el.querySelector(".pb"));if(el.classList.contains("hero-pic")&&!el.querySelector(".pcr"))el.insertAdjacentHTML("beforeend",`<button class="pcr" data-cr="${k}" aria-label="Photo credit">i</button>`)}
 function paintPics(keys){const sel=keys?keys.map(k=>`.pic[data-pk="${CSS.escape(k)}"]:not(.has)`).join(","):".pic[data-pk]:not(.has)";if(sel)document.querySelectorAll(sel).forEach(paintPic)}
 /* photos found ahead of time by a GitHub job (data/photos.json); the on-device lookup fills any gaps */
 let phBundle=null;
@@ -834,6 +847,17 @@ let phGo;const phGate=new Promise(r=>{phGo=r;setTimeout(r,4000)});const phReady=
     if(j.v===2){for(const k in j.p){const t=j.p[k],o=PH[k]&&PH[k].t?PH[k]:{};PH[k]=Object.assign(o,{t:/^https?:/.test(t)?t:j.base+t})}for(const k of j.miss||[])if(!(k in PH))PH[k]=-1}
     else{for(const k in j.p)PH[k]=j.p[k];for(const k in j.miss||{})if(!(k in PH))PH[k]=-1}paintPics()}else phBundle={}}).catch(()=>{phBundle={}});
 let phCred=null;function loadCredits(){if(!phCred)phCred=fetch("data/photo-credits.json").then(r=>r.ok?r.json():{}).then(c=>{for(const k in c)if(PH[k]&&PH[k].t)Object.assign(PH[k],c[k])}).catch(()=>{});return phCred}
+let photoViewer=null,photoViewerReturn=null,photoViewerOverflow="";
+function closePhotoViewer(){if(!photoViewer)return;photoViewer.remove();photoViewer=null;document.body.style.overflow=photoViewerOverflow;document.removeEventListener("keydown",photoViewerKeys,true);if(photoViewerReturn&&photoViewerReturn.isConnected)photoViewerReturn.focus({preventScroll:true});photoViewerReturn=null}
+function photoViewerKeys(e){if(!photoViewer)return;if(e.key==="Escape"){e.preventDefault();e.stopPropagation();closePhotoViewer()}}
+async function openPhotoViewer(k,from){const r=photoOf(k),p=byId(k);if(!r||!p)return;closePhotoViewer();photoViewerReturn=from;photoViewerOverflow=document.body.style.overflow;document.body.style.overflow="hidden";
+  const d=document.createElement("div");d.id="photoViewer";d.setAttribute("role","dialog");d.setAttribute("aria-modal","true");d.setAttribute("aria-label",`Photo of ${p.name}`);d.innerHTML=`<div class="pvh"><div class="pvt">${esc(p.name)}<span class="pvs">${esc(p.district)}, ${esc(stOf(p.slug).name)}</span></div><button class="pvc" type="button" id="pvClose" aria-label="Close full-screen photo">×</button></div><div class="pvim"><img id="pvImage" alt="${esc(p.name)}" decoding="async"></div><div class="pvf" id="pvCredit">Wikimedia Commons</div>`;
+  document.body.appendChild(d);photoViewer=d;document.addEventListener("keydown",photoViewerKeys,true);d.querySelector("#pvClose").onclick=closePhotoViewer;d.addEventListener("click",e=>{if(e.target===d)closePhotoViewer()});
+  const im=d.querySelector("#pvImage");im.src=phSize(r.t,1600);im.onerror=()=>{if(im.dataset.fallback)return;im.dataset.fallback="1";im.src=phSize(r.t,960);im.onerror=()=>{im.remove();const er=document.createElement("p");er.className="pverr";er.textContent="This image could not be loaded.";d.querySelector(".pvim").appendChild(er)}};
+  await loadCredits();if(photoViewer!==d)return;const rr=photoOf(k),credit=d.querySelector("#pvCredit");credit.innerHTML=`${esc(rr.a||"Wikimedia Commons contributor")}${rr.l?" · "+esc(rr.l):""}${rr.f?" · ":""}${rr.f?`<a href="https://commons.wikimedia.org/wiki/File:${encodeURIComponent(rr.f)}" target="_blank" rel="noopener">Image source ↗</a>`:""}`;d.querySelector("#pvClose").focus({preventScroll:true)}
+}
+document.addEventListener("click",e=>{const el=e.target.closest(".pic.has[data-pk]");if(!el||e.target.closest(".pcr"))return;const r=photoOf(el.dataset.pk);if(!r)return;e.preventDefault();e.stopPropagation();openPhotoViewer(el.dataset.pk,el)},true);
+document.addEventListener("keydown",e=>{if(e.key!=="Enter"&&e.key!==" ")return;const el=e.target.closest&&e.target.closest(".pic.has[data-pk]");if(!el||e.target.closest(".pcr"))return;e.preventDefault();e.stopPropagation();openPhotoViewer(el.dataset.pk,el)},true);
 document.addEventListener("click",async e=>{const b=e.target.closest(".pcr");if(!b)return;e.stopPropagation();await loadCredits();const r=photoOf(b.dataset.cr),p=byId(b.dataset.cr);if(!r||!p)return;
   toast(`Photo of ${p.name}: ${r.a||"Wikimedia Commons contributor"}${r.l?", "+r.l:""}`);});
 function vCredits(){if(!phCred||!phCred.done){loadCredits().then(()=>{phCred.done=1;if(S.stack[S.stack.length-1]?.v==="credits")paint()})}const L=Object.entries(PH).filter(([k,r])=>r&&r.t&&byId(k)).map(([k,r])=>[byId(k),r]).sort((a,b)=>a[0].name.localeCompare(b[0].name));
