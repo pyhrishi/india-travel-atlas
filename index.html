@@ -535,6 +535,11 @@ h3 small{font-weight:600;color:var(--soft);margin-left:6px;font-size:13px}
 .twxa{display:flex;flex-direction:column;gap:6px;margin-top:10px;padding:12px 14px;border-radius:16px;background:light-dark(#fff1e6,#2e1f12);border:1px solid light-dark(#f5c08a,#6b4520);font-size:14px}.twxa .act{margin-top:2px}.twxa .m2{font-size:13px;color:var(--soft)}
 .twxn{margin:10px 0 0}
 .wayon .route{display:none}
+.lgm{flex:none;width:40px;height:40px;display:block}.lgm svg{width:40px;height:40px;display:block}
+.lgtr{fill:none;stroke:var(--line);stroke-width:2.2}.lgpr{fill:none;stroke:var(--pink);stroke-width:2.6;stroke-linecap:round;transition:stroke-dasharray .6s ease}
+.lgbg{fill:var(--pinksoft)}.lgsh{fill:var(--pink);stroke:var(--pink);stroke-width:.4;stroke-linejoin:round}
+#lgE{font-size:10.5px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--pinkink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.legend{padding:6px 10px 6px 6px;gap:10px;border-radius:18px}.legend b{font-size:16.5px;letter-spacing:-.01em}
 </style>
 </head>
 <body>
@@ -592,7 +597,7 @@ h3 small{font-weight:600;color:var(--soft);margin-left:6px;font-size:13px}
     <svg id="map" tabindex="0" role="application" aria-label="Map of India" aria-describedby="mapHelp"></svg>
     <p id="mapHelp" class="sr">Arrow keys move the map, plus and minus zoom, zero shows all of India. Press Tab to move between places on the map.</p>
     <div class="mtop">
-      <div class="lgrow"><button type="button" class="up" id="up" hidden aria-label="Up one level">‹</button><button type="button" class="legend" id="legend" aria-haspopup="dialog" aria-label="Choose a state"><svg class="mark" viewBox="0 0 28 28" aria-hidden="true"><rect width="28" height="28" rx="8" fill="#e5246b"/><use href="#i-compass" x="4" y="4" width="20" height="20" style="color:#fff"/></svg><span class="lgx"><b id="lgT">India</b><span id="lgS">Atlas</span></span><svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div>
+      <div class="lgrow"><button type="button" class="up" id="up" hidden aria-label="Up one level">‹</button><button type="button" class="legend" id="legend" aria-haspopup="dialog" aria-label="Choose a state"><span class="lgm" id="lgM" aria-hidden="true"></span><span class="lgx"><span id="lgE"></span><b id="lgT">India</b><span id="lgS">Atlas</span></span><svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div>
       <div class="mchips" id="mchips" role="group" aria-label="Show on the map"></div>
       <div class="mstrip" id="mstrip" hidden role="group" aria-label="Season month"><button type="button" data-m="1" aria-pressed="false">Jan</button><button type="button" data-m="2" aria-pressed="false">Feb</button><button type="button" data-m="3" aria-pressed="false">Mar</button><button type="button" data-m="4" aria-pressed="false">Apr</button><button type="button" data-m="5" aria-pressed="false">May</button><button type="button" data-m="6" aria-pressed="false">Jun</button><button type="button" data-m="7" aria-pressed="false">Jul</button><button type="button" data-m="8" aria-pressed="false">Aug</button><button type="button" data-m="9" aria-pressed="false">Sep</button><button type="button" data-m="10" aria-pressed="false">Oct</button><button type="button" data-m="11" aria-pressed="false">Nov</button><button type="button" data-m="12" aria-pressed="false">Dec</button><span class="skey">Few <i></i> Many in season</span></div>
     </div>
@@ -963,12 +968,24 @@ function hdr(){const done=S.states.filter(s=>s.status==="done"),n=allPlaces().le
   $("#pg").innerHTML=`<b>${done.length}</b> states & UTs · <b>${n.toLocaleString("en-IN")}</b> places<br>${b} visited · ${Object.keys(M.want).length} saved`;
   const t=$("#tripN");t.hidden=!M.trip.length;t.textContent=M.trip.length;t.setAttribute("aria-hidden","true");$("#tripSr").textContent=M.trip.length?`, ${M.trip.length} stops`:"";
   const st=stOf(S.slug),up=$("#up");let lvl;
-  if(S.coll){$("#lgT").textContent=collT(S.coll);$("#lgS").textContent=`India › collection · ${collPlaces(S.coll).length} places`;lvl="Back"}
-  else if(st&&S.f.dist){const L=curD().places.filter(p=>p.district===S.f.dist);$("#lgT").textContent=S.f.dist+" district";$("#lgS").textContent=`India › ${st.name} · ${L.length} places`;lvl="Up to "+st.name}
-  else if(st){const L=curD().places;$("#lgT").textContent=st.name;$("#lgS").textContent=`India › ${st.name} · ${L.length} places · ${L.filter(p=>M.been[id(p)]).length} visited`;lvl="Up to all of India"}
-  else{$("#lgT").textContent="All of India";$("#lgS").textContent=`${n.toLocaleString("en-IN")} places · ${b} visited`}
+  const sub=(L,pre)=>{const ins=L.filter(p=>inSeason(NOWM,p)).length,v=L.filter(p=>M.been[id(p)]).length;return[(pre?pre+" · ":"")+(ins?`${ins.toLocaleString("en-IN")} in season now`:`${L.length.toLocaleString("en-IN")} places`)+(v?` · ${v} visited`:""),L.length?v/L.length:0]};
+  let L0,fr,mk,eb=`${phase()} ${MONL[NOWM-1]}`;
+  if(S.coll){L0=collPlaces(S.coll);$("#lgT").textContent=collT(S.coll);eb="Collection";[mk,fr]=sub(L0,`${L0.length} places`);$("#lgS").textContent=mk;mk="in";lvl="Back"}
+  else if(st&&S.f.dist){L0=curD().places.filter(p=>p.district===S.f.dist);$("#lgT").textContent=S.f.dist+" district";eb=st.name;[mk,fr]=sub(L0);$("#lgS").textContent=mk;mk=S.slug;lvl="Up to "+st.name}
+  else if(st){L0=curD().places;$("#lgT").textContent=st.name;[mk,fr]=sub(L0);$("#lgS").textContent=mk;mk=S.slug;lvl="Up to all of India"}
+  else{L0=allPlaces();$("#lgT").textContent="India";[mk,fr]=sub(L0);$("#lgS").textContent=mk;mk="in";if(!n)$("#lgS").textContent="Loading the atlas…"}
+  $("#lgE").textContent=eb;lgMark(mk,fr);
   up.hidden=!lvl;if(lvl)up.setAttribute("aria-label",lvl);
   $("#legend").setAttribute("aria-label",`${$("#lgT").textContent}. Choose a state`)}
+/* the header mark: outline of India or the open state, ringed by how much of it you've visited */
+const _MK=new Map();
+function mkPath(key){if(_MK.has(key))return _MK.get(key);if(!S.feats)return"";
+  const fs=key==="in"?S.feats:S.feats.filter(f=>f.properties.st_nm===stOf(key)?.name);if(!fs.length)return"";
+  const fc={type:"FeatureCollection",features:fs},[[x0,y0],[x1,y1]]=path.bounds(fc),k=20/Math.max(x1-x0,y1-y0),ox=17-(x0+x1)/2*k,oy=17-(y0+y1)/2*k;
+  const mini=d3.geoPath(d3.geoTransform({lineStart(){this._l=null;this.stream.lineStart()},point(x,y){const q=P(x,y),X=q[0]*k+ox,Y=q[1]*k+oy,l=this._l;if(!l||Math.abs(X-l[0])+Math.abs(Y-l[1])>.45){this._l=[X,Y];this.stream.point(X,Y)}}}));
+  mini.digits&&mini.digits(1);const d=mini(fc)||"";_MK.set(key,d);return d}
+function lgMark(key,fr){const el=$("#lgM");if(!el)return;const d=mkPath(key),C=2*Math.PI*16,f=Math.max(0,Math.min(1,fr||0)),sig=key+"|"+f.toFixed(3)+"|"+(d?1:0);if(el._sig===sig)return;el._sig=sig;
+  el.innerHTML=`<svg viewBox="0 0 34 34"><circle cx="17" cy="17" r="16" class="lgtr"/>${f>0?`<circle cx="17" cy="17" r="16" class="lgpr" stroke-dasharray="${Math.max(2.5,f*C).toFixed(1)} ${C.toFixed(1)}" transform="rotate(-90 17 17)"/>`:""}<circle cx="17" cy="17" r="13.5" class="lgbg"/>${d?`<path d="${d}" class="lgsh"/>`:`<use href="#i-compass" x="9" y="9" width="16" height="16" style="color:var(--pink)"/>`}</svg>`}
 $("#up").onclick=()=>{if(S.coll){goBack();return}if(S.slug&&S.f.dist){S.f.dist=null;afterFilter();return}if(S.slug)goIndia()};
 function remember(){const t=S.stack[S.stack.length-1];if(t)t.y=V.scrollTop}
 function go(view,arg,push=true){remember();if(push&&S.stack.length&&S.stack[S.stack.length-1].v!==view||push&&!S.stack.length)S.stack.push({v:view,a:arg});else S.stack[S.stack.length-1]={v:view,a:arg};paint(true)}
