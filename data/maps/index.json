@@ -383,6 +383,71 @@
    "boundary_license": "Creative Commons Attribution 3.0 License",
    "data_file": "data/maps/ge.json",
    "validated_at": "2026-11-25"
+  },
+  "sa": {
+   "name": "Saudi Arabia",
+   "iso3": "SAU",
+   "m49": "682",
+   "map_status": "ready",
+   "admin_level": "ADM1",
+   "admin_unit_count": 13,
+   "boundary_year": "2017",
+   "boundary_source": "OpenStreetMap, Wambacher",
+   "boundary_license": "Open Data Commons Open Database License 1.0",
+   "data_file": "data/maps/sa.json",
+   "validated_at": "2026-11-26"
+  },
+  "ae": {
+   "name": "United Arab Emirates",
+   "iso3": "ARE",
+   "m49": "784",
+   "map_status": "ready",
+   "admin_level": "ADM1",
+   "admin_unit_count": 7,
+   "boundary_year": "2017",
+   "boundary_source": "OpenStreetMap, Wambacher",
+   "boundary_license": "Open Data Commons Open Database License 1.0",
+   "data_file": "data/maps/ae.json",
+   "validated_at": "2026-11-26"
+  },
+  "qa": {
+   "name": "Qatar",
+   "iso3": "QAT",
+   "m49": "634",
+   "map_status": "ready",
+   "admin_level": "ADM1",
+   "admin_unit_count": 8,
+   "boundary_year": "2015",
+   "boundary_source": "geoBoundaries, Qatar Open Data Portal",
+   "boundary_license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "data_file": "data/maps/qa.json",
+   "validated_at": "2026-11-26"
+  },
+  "om": {
+   "name": "Oman",
+   "iso3": "OMN",
+   "m49": "512",
+   "map_status": "ready",
+   "admin_level": "ADM1",
+   "admin_unit_count": 7,
+   "boundary_year": "2010",
+   "boundary_source": "OpenStreetMap, Wambacher",
+   "boundary_license": "Open Data Commons Open Database License 1.0",
+   "data_file": "data/maps/om.json",
+   "validated_at": "2026-11-26"
+  },
+  "kw": {
+   "name": "Kuwait",
+   "iso3": "KWT",
+   "m49": "414",
+   "map_status": "ready",
+   "admin_level": "ADM1",
+   "admin_unit_count": 6,
+   "boundary_year": "2017",
+   "boundary_source": "OpenStreetMap, Wambacher",
+   "boundary_license": "Open Data Commons Open Database License 1.0",
+   "data_file": "data/maps/kw.json",
+   "validated_at": "2026-11-26"
   }
  }
 }
