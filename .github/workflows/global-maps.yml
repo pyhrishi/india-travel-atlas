@@ -74,17 +74,25 @@ jobs:
         env:
           ISO2: ${{ github.event_name == 'workflow_dispatch' && inputs.iso2 || 'SA,AE,QA,OM,KW' }}
         run: python tools/build_global_maps.py --iso2 "$ISO2"
-      - name: Refresh offline cache version
-        run: python tools/bump_sw.py
-      - name: Commit validated map batch
+      - name: Commit validated map data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/maps sw.js
+          git add data/maps
           if git diff --cached --quiet; then
             echo "No map changes to commit."
           else
             git commit -m "Add validated global administrative map batch"
-            git pull --rebase origin "$GITHUB_REF_NAME"
-            git push origin "HEAD:$GITHUB_REF_NAME"
           fi
+          git pull --rebase origin "$GITHUB_REF_NAME"
+      - name: Refresh offline cache version
+        run: python tools/bump_sw.py
+      - name: Publish offline cache version
+        run: |
+          git add sw.js
+          if git diff --cached --quiet; then
+            echo "Offline cache version is already current."
+          else
+            git commit -m "Refresh offline cache for global maps"
+          fi
+          git push origin "HEAD:$GITHUB_REF_NAME"
