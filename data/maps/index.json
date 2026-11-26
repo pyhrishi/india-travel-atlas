@@ -500,6 +500,71 @@
    "boundary_license": "Public Domain",
    "data_file": "data/maps/lb.json",
    "validated_at": "2026-11-26"
+  },
+  "cy": {
+   "name": "Cyprus",
+   "iso3": "CYP",
+   "m49": "196",
+   "map_status": "ready",
+   "admin_level": "ADM1",
+   "admin_unit_count": 6,
+   "boundary_year": "2017",
+   "boundary_source": "OpenStreetMap, Wambacher",
+   "boundary_license": "Open Data Commons Open Database License 1.0",
+   "data_file": "data/maps/cy.json",
+   "validated_at": "2026-11-26"
+  },
+  "ps": {
+   "name": "State of Palestine",
+   "iso3": "PSE",
+   "m49": "275",
+   "map_status": "ready",
+   "admin_level": "ADM1",
+   "admin_unit_count": 2,
+   "boundary_year": "2021",
+   "boundary_source": "geoBoundaries, Open Data Watch",
+   "boundary_license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+   "data_file": "data/maps/ps.json",
+   "validated_at": "2026-11-26"
+  },
+  "sy": {
+   "name": "Syrian Arab Republic",
+   "iso3": "SYR",
+   "m49": "760",
+   "map_status": "ready",
+   "admin_level": "ADM1",
+   "admin_unit_count": 14,
+   "boundary_year": "2017",
+   "boundary_source": "United Nations Cartographic Section (UNCS) and United Nations Office for the Coordination of Humanitarian Affairs (UNOCHA), OCHA ROSC",
+   "boundary_license": "Creative Commons Attribution 3.0 Intergovernmental Organisations (CC BY 3.0 IGO)",
+   "data_file": "data/maps/sy.json",
+   "validated_at": "2026-11-26"
+  },
+  "tr": {
+   "name": "Türkiye",
+   "iso3": "TUR",
+   "m49": "792",
+   "map_status": "ready",
+   "admin_level": "ADM1",
+   "admin_unit_count": 81,
+   "boundary_year": "2021",
+   "boundary_source": "Open Street Map",
+   "boundary_license": "Creative Commons Attribution-ShareAlike 2.0",
+   "data_file": "data/maps/tr.json",
+   "validated_at": "2026-11-26"
+  },
+  "ye": {
+   "name": "Yemen",
+   "iso3": "YEM",
+   "m49": "887",
+   "map_status": "ready",
+   "admin_level": "ADM1",
+   "admin_unit_count": 22,
+   "boundary_year": "2017",
+   "boundary_source": "OpenStreetMap, Wambacher",
+   "boundary_license": "Open Data Commons Open Database License 1.0",
+   "data_file": "data/maps/ye.json",
+   "validated_at": "2026-11-26"
   }
  }
 }
