@@ -565,6 +565,71 @@
    "boundary_license": "Open Data Commons Open Database License 1.0",
    "data_file": "data/maps/ye.json",
    "validated_at": "2026-11-26"
+  },
+  "dz": {
+   "name": "Algeria",
+   "iso3": "DZA",
+   "m49": "012",
+   "map_status": "ready",
+   "admin_level": "ADM1",
+   "admin_unit_count": 48,
+   "boundary_year": "2017",
+   "boundary_source": "OpenStreetMap, Wambacher",
+   "boundary_license": "Open Data Commons Open Database License 1.0",
+   "data_file": "data/maps/dz.json",
+   "validated_at": "2026-11-26"
+  },
+  "eg": {
+   "name": "Egypt",
+   "iso3": "EGY",
+   "m49": "818",
+   "map_status": "ready",
+   "admin_level": "ADM1",
+   "admin_unit_count": 27,
+   "boundary_year": "2017",
+   "boundary_source": "OpenStreetMap, Wambacher",
+   "boundary_license": "Open Data Commons Open Database License 1.0",
+   "data_file": "data/maps/eg.json",
+   "validated_at": "2026-11-26"
+  },
+  "ly": {
+   "name": "Libya",
+   "iso3": "LBY",
+   "m49": "434",
+   "map_status": "ready",
+   "admin_level": "ADM1",
+   "admin_unit_count": 22,
+   "boundary_year": "2021",
+   "boundary_source": "Natural Earth",
+   "boundary_license": "Public Domain",
+   "data_file": "data/maps/ly.json",
+   "validated_at": "2026-11-26"
+  },
+  "ma": {
+   "name": "Morocco",
+   "iso3": "MAR",
+   "m49": "504",
+   "map_status": "ready",
+   "admin_level": "ADM1",
+   "admin_unit_count": 12,
+   "boundary_year": "2017",
+   "boundary_source": "OpenStreetMap, Wambacher",
+   "boundary_license": "Open Data Commons Open Database License 1.0",
+   "data_file": "data/maps/ma.json",
+   "validated_at": "2026-11-26"
+  },
+  "tn": {
+   "name": "Tunisia",
+   "iso3": "TUN",
+   "m49": "788",
+   "map_status": "ready",
+   "admin_level": "ADM1",
+   "admin_unit_count": 24,
+   "boundary_year": "2017",
+   "boundary_source": "OpenStreetMap, Wambacher",
+   "boundary_license": "Open Data Commons Open Database License 1.0",
+   "data_file": "data/maps/tn.json",
+   "validated_at": "2026-11-26"
   }
  }
 }
