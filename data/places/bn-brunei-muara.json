@@ -28,7 +28,9 @@
     3,
     2,
     5,
-    6
+    6,
+    23,
+    24
    ]
   },
   {
@@ -40,7 +42,9 @@
     16,
     17,
     4,
-    18
+    18,
+    24,
+    25
    ]
   },
   {
@@ -60,6 +64,18 @@
     8,
     9,
     10
+   ]
+  },
+  {
+   "name": "Northern coast and city parks",
+   "note": "Combine public green spaces and the Muara shoreline; check access and local conditions before travelling.",
+   "ids": [
+    8,
+    9,
+    20,
+    26,
+    11,
+    13
    ]
   }
  ],
@@ -414,6 +430,91 @@
    "lng": 114.96688,
    "why": "An archaeological landscape in the area of Brunei’s historic riverine capital, near important royal mausoleums and the Brunei Museum",
    "tier": "top",
+   "months": [
+    2,
+    4
+   ],
+   "time": "1–2 hrs",
+   "tags": []
+  },
+  {
+   "n": 22,
+   "name": "Jalan Menteri Besar Recreational Park",
+   "district": "Berakas A",
+   "category": "Recreational park",
+   "g": "culture",
+   "lat": 4.91951,
+   "lng": 114.94925,
+   "why": "A public green space with walking and jogging routes in the Jalan Menteri Besar area",
+   "tier": "gem",
+   "months": [
+    2,
+    4
+   ],
+   "time": "45–90 min",
+   "tags": []
+  },
+  {
+   "n": 23,
+   "name": "Taman Mahkota Jubli Emas",
+   "district": "Bandar Seri Begawan",
+   "category": "Riverfront park",
+   "g": "water",
+   "lat": 4.88856,
+   "lng": 114.93744,
+   "why": "A riverfront promenade along the Kedayan River with views towards Kampong Ayer and the capital's landmark mosque",
+   "tier": "top",
+   "months": [
+    2,
+    4
+   ],
+   "time": "1–2 hrs",
+   "tags": []
+  },
+  {
+   "n": 24,
+   "name": "Brunei History Centre",
+   "district": "Bandar Seri Begawan",
+   "category": "Museum",
+   "g": "heritage",
+   "lat": 4.8917,
+   "lng": 114.94152,
+   "why": "A national heritage centre preserving and exhibiting Brunei's history, including historical objects and maritime finds",
+   "tier": "top",
+   "months": [
+    2,
+    4
+   ],
+   "time": "1–2 hrs",
+   "tags": []
+  },
+  {
+   "n": 25,
+   "name": "Brunei Darussalam Maritime Museum",
+   "district": "Kota Batu",
+   "category": "Museum",
+   "g": "heritage",
+   "lat": 4.88207,
+   "lng": 114.96851,
+   "why": "A museum in Kota Batu exploring Brunei's maritime history and archaeological finds from shipwrecks",
+   "tier": "top",
+   "months": [
+    2,
+    4
+   ],
+   "time": "1–2 hrs",
+   "tags": []
+  },
+  {
+   "n": 26,
+   "name": "Tanjong Batu Recreational Park",
+   "district": "Muara",
+   "category": "Coastal park",
+   "g": "coast",
+   "lat": 5.038822,
+   "lng": 115.061193,
+   "why": "A public coastal recreation area on Brunei-Muara's northeastern shoreline",
+   "tier": "gem",
    "months": [
     2,
     4
