@@ -272,6 +272,57 @@
    ],
    "time": "Half day",
    "tags": []
+  },
+  {
+   "n": 14,
+   "name": "Belait District Museum",
+   "district": "Kuala Belait",
+   "category": "Museum",
+   "g": "heritage",
+   "lat": 4.58902,
+   "lng": 114.191061,
+   "why": "A local history museum in a 1938 building, presenting the cultural and historical story of Belait District",
+   "tier": "top",
+   "months": [
+    2,
+    4
+   ],
+   "time": "1 hr",
+   "tags": []
+  },
+  {
+   "n": 15,
+   "name": "Menara Cendera Kenangan",
+   "district": "Kuala Belait",
+   "category": "Monument",
+   "g": "heritage",
+   "lat": 4.57742,
+   "lng": 114.19653,
+   "why": "A prominent commemorative tower and landmark near the Kuala Belait waterfront",
+   "tier": "gem",
+   "months": [
+    2,
+    4
+   ],
+   "time": "30–45 min",
+   "tags": []
+  },
+  {
+   "n": 16,
+   "name": "Wasai Belulok",
+   "district": "Teraja, Labi",
+   "category": "Waterfall",
+   "g": "water",
+   "lat": 4.275714,
+   "lng": 114.424847,
+   "why": "A forest waterfall along the Belulok River reached by a remote jungle trail; plan with local guidance and check access and weather",
+   "tier": "top",
+   "months": [
+    2,
+    4
+   ],
+   "time": "Half day",
+   "tags": []
   }
  ],
  "festivals": [
