@@ -70,13 +70,6 @@
 "category": "Museum"
 },
 {
-"k": "andaman-and-nicobar-islands:18",
-"name": "Madhuban",
-"district": "South Andaman",
-"state": "Andaman and Nicobar Islands",
-"category": "Trek"
-},
-{
 "k": "andaman-and-nicobar-islands:19",
 "name": "Wandoor & Jolly Buoy Island",
 "district": "South Andaman",
@@ -161,6 +154,13 @@
 "category": "Beach"
 },
 {
+"k": "andaman-and-nicobar-islands:44",
+"name": "Rani Jhansi Marine National Park",
+"district": "South Andaman",
+"state": "Andaman and Nicobar Islands",
+"category": "Marine park"
+},
+{
 "k": "andhra-pradesh:5",
 "name": "Telineelapuram Bird Sanctuary",
 "district": "Srikakulam",
@@ -168,18 +168,18 @@
 "category": "Wildlife"
 },
 {
-"k": "andhra-pradesh:7",
-"name": "Ramatheertham",
-"district": "Vizianagaram",
+"k": "andhra-pradesh:17",
+"name": "Dolphin's Nose & Yarada Beach",
+"district": "Visakhapatnam",
 "state": "Andhra Pradesh",
-"category": "Temple / Buddhist"
+"category": "Viewpoint / Beach"
 },
 {
-"k": "andhra-pradesh:26",
-"name": "Vanjangi Hills",
+"k": "andhra-pradesh:23",
+"name": "Araku Tribal Museum",
 "district": "Alluri Sitharama Raju",
 "state": "Andhra Pradesh",
-"category": "Viewpoint"
+"category": "Museum"
 },
 {
 "k": "andhra-pradesh:27",
@@ -210,18 +210,46 @@
 "category": "Meadows"
 },
 {
-"k": "andhra-pradesh:31",
-"name": "Papikondalu",
-"district": "Polavaram",
-"state": "Andhra Pradesh",
-"category": "River cruise"
-},
-{
 "k": "andhra-pradesh:32",
 "name": "Rajahmundry Riverfront",
 "district": "East Godavari",
 "state": "Andhra Pradesh",
 "category": "River / City"
+},
+{
+"k": "andhra-pradesh:41",
+"name": "Uppada Beach",
+"district": "Kakinada",
+"state": "Andhra Pradesh",
+"category": "Beach / Craft"
+},
+{
+"k": "andhra-pradesh:48",
+"name": "Bhavani Island & Prakasam Barrage",
+"district": "NTR",
+"state": "Andhra Pradesh",
+"category": "River"
+},
+{
+"k": "andhra-pradesh:51",
+"name": "Mangalagiri",
+"district": "Guntur",
+"state": "Andhra Pradesh",
+"category": "Temple / Craft"
+},
+{
+"k": "andhra-pradesh:58",
+"name": "Pedana",
+"district": "Krishna",
+"state": "Andhra Pradesh",
+"category": "Craft"
+},
+{
+"k": "andhra-pradesh:59",
+"name": "Machilipatnam & Manginapudi Beach",
+"district": "Krishna",
+"state": "Andhra Pradesh",
+"category": "Beach / Heritage"
 },
 {
 "k": "andhra-pradesh:62",
@@ -231,11 +259,32 @@
 "category": "Beach"
 },
 {
+"k": "andhra-pradesh:65",
+"name": "Udayagiri Fort",
+"district": "Sri Potti Sriramulu Nellore",
+"state": "Andhra Pradesh",
+"category": "Fort"
+},
+{
 "k": "andhra-pradesh:72",
 "name": "Silathoranam",
 "district": "Tirupati",
 "state": "Andhra Pradesh",
 "category": "Geology"
+},
+{
+"k": "andhra-pradesh:83",
+"name": "Siddavatam Fort",
+"district": "YSR Kadapa",
+"state": "Andhra Pradesh",
+"category": "Fort"
+},
+{
+"k": "andhra-pradesh:98",
+"name": "Penukonda Fort",
+"district": "Sri Sathya Sai",
+"state": "Andhra Pradesh",
+"category": "Fort"
 },
 {
 "k": "andhra-pradesh:102",
@@ -252,13 +301,6 @@
 "category": "Buddhist site"
 },
 {
-"k": "andhra-pradesh:104",
-"name": "Ponduru Khadi Village",
-"district": "Srikakulam",
-"state": "Andhra Pradesh",
-"category": "Craft village"
-},
-{
 "k": "andhra-pradesh:105",
 "name": "Budithi Bell Metal Village",
 "district": "Srikakulam",
@@ -273,6 +315,13 @@
 "category": "Temple / Waterfall"
 },
 {
+"k": "andhra-pradesh:112",
+"name": "Vizag–Bheemili Beach Road",
+"district": "Visakhapatnam",
+"state": "Andhra Pradesh",
+"category": "Scenic drive"
+},
+{
 "k": "andhra-pradesh:116",
 "name": "Three Hills of Faith",
 "district": "Visakhapatnam",
@@ -280,11 +329,32 @@
 "category": "Spiritual / Viewpoint"
 },
 {
+"k": "andhra-pradesh:117",
+"name": "Appikonda Beach",
+"district": "Visakhapatnam",
+"state": "Andhra Pradesh",
+"category": "Beach / Temple"
+},
+{
+"k": "andhra-pradesh:118",
+"name": "Pudimadaka Beach",
+"district": "Anakapalli",
+"state": "Andhra Pradesh",
+"category": "Beach"
+},
+{
 "k": "andhra-pradesh:121",
 "name": "Vistadome Train to Araku",
 "district": "Alluri Sitharama Raju",
 "state": "Andhra Pradesh",
 "category": "Rail journey"
+},
+{
+"k": "andhra-pradesh:123",
+"name": "Araku Coffee Museum",
+"district": "Alluri Sitharama Raju",
+"state": "Andhra Pradesh",
+"category": "Museum"
 },
 {
 "k": "andhra-pradesh:124",
@@ -329,6 +399,13 @@
 "category": "Waterfall"
 },
 {
+"k": "andhra-pradesh:133",
+"name": "Ainavilli Vinayaka Temple",
+"district": "Dr. B.R. Ambedkar Konaseema",
+"state": "Andhra Pradesh",
+"category": "Temple"
+},
+{
 "k": "andhra-pradesh:134",
 "name": "Appanapalli Balaji Temple",
 "district": "Dr. B.R. Ambedkar Konaseema",
@@ -343,6 +420,20 @@
 "category": "Temple"
 },
 {
+"k": "andhra-pradesh:137",
+"name": "Dindi",
+"district": "Dr. B.R. Ambedkar Konaseema",
+"state": "Andhra Pradesh",
+"category": "Backwaters"
+},
+{
+"k": "andhra-pradesh:138",
+"name": "Kadiyam Nurseries",
+"district": "East Godavari",
+"state": "Andhra Pradesh",
+"category": "Garden"
+},
+{
 "k": "andhra-pradesh:139",
 "name": "Sir Arthur Cotton Museum",
 "district": "East Godavari",
@@ -350,25 +441,18 @@
 "category": "Museum / River"
 },
 {
-"k": "andhra-pradesh:141",
-"name": "Talupulamma Lova",
-"district": "Kakinada",
-"state": "Andhra Pradesh",
-"category": "Temple"
-},
-{
-"k": "andhra-pradesh:143",
-"name": "Narsapuram",
-"district": "West Godavari",
-"state": "Andhra Pradesh",
-"category": "Craft"
-},
-{
-"k": "andhra-pradesh:149",
-"name": "Victoria Jubilee Museum",
+"k": "andhra-pradesh:152",
+"name": "Jaggayyapeta Stupa",
 "district": "NTR",
 "state": "Andhra Pradesh",
-"category": "Museum"
+"category": "Buddhist site"
+},
+{
+"k": "andhra-pradesh:153",
+"name": "Dhyana Buddha, Amaravati",
+"district": "Palnadu",
+"state": "Andhra Pradesh",
+"category": "Buddhist site"
 },
 {
 "k": "andhra-pradesh:156",
@@ -399,13 +483,6 @@
 "category": "Buddhist site"
 },
 {
-"k": "andhra-pradesh:165",
-"name": "Tripurantakam",
-"district": "Markapuram",
-"state": "Andhra Pradesh",
-"category": "Temple"
-},
-{
 "k": "andhra-pradesh:166",
 "name": "Markapur Chennakesava Temple",
 "district": "Markapuram",
@@ -415,6 +492,13 @@
 {
 "k": "andhra-pradesh:169",
 "name": "Talpagiri Ranganathaswamy Temple",
+"district": "Sri Potti Sriramulu Nellore",
+"state": "Andhra Pradesh",
+"category": "Temple"
+},
+{
+"k": "andhra-pradesh:170",
+"name": "Jonnawada Kamakshi Temple",
 "district": "Sri Potti Sriramulu Nellore",
 "state": "Andhra Pradesh",
 "category": "Temple"
@@ -441,8 +525,29 @@
 "category": "Temple"
 },
 {
+"k": "andhra-pradesh:176",
+"name": "Alipiri Footpath",
+"district": "Tirupati",
+"state": "Andhra Pradesh",
+"category": "Pilgrim walk"
+},
+{
 "k": "andhra-pradesh:179",
 "name": "Srinivasa Mangapuram",
+"district": "Tirupati",
+"state": "Andhra Pradesh",
+"category": "Temple"
+},
+{
+"k": "andhra-pradesh:182",
+"name": "Gudimallam",
+"district": "Tirupati",
+"state": "Andhra Pradesh",
+"category": "Temple"
+},
+{
+"k": "andhra-pradesh:183",
+"name": "Nagalapuram",
 "district": "Tirupati",
 "state": "Andhra Pradesh",
 "category": "Temple"
@@ -451,6 +556,13 @@
 "k": "andhra-pradesh:184",
 "name": "Surutupalli",
 "district": "Tirupati",
+"state": "Andhra Pradesh",
+"category": "Temple"
+},
+{
+"k": "andhra-pradesh:186",
+"name": "Nandalur Soumyanatha Temple",
+"district": "Annamayya",
 "state": "Andhra Pradesh",
 "category": "Temple"
 },
@@ -476,6 +588,13 @@
 "category": "Forest"
 },
 {
+"k": "andhra-pradesh:193",
+"name": "Pathala Ganga & Srisailam Dam",
+"district": "Nandyal",
+"state": "Andhra Pradesh",
+"category": "River / Dam"
+},
+{
 "k": "andhra-pradesh:194",
 "name": "Akka Mahadevi Caves",
 "district": "Nandyal",
@@ -483,11 +602,18 @@
 "category": "Caves"
 },
 {
-"k": "andhra-pradesh:195",
-"name": "Banaganapalle",
-"district": "Nandyal",
+"k": "andhra-pradesh:196",
+"name": "Hemavathi",
+"district": "Sri Sathya Sai",
 "state": "Andhra Pradesh",
-"category": "Food / Heritage"
+"category": "Temple"
+},
+{
+"k": "andhra-pradesh:197",
+"name": "Kadiri Lakshmi Narasimha Temple",
+"district": "Sri Sathya Sai",
+"state": "Andhra Pradesh",
+"category": "Temple"
 },
 {
 "k": "andhra-pradesh:198",
@@ -504,18 +630,18 @@
 "category": "Craft village"
 },
 {
+"k": "andhra-pradesh:200",
+"name": "Rayadurgam Fort",
+"district": "Ananthapuramu",
+"state": "Andhra Pradesh",
+"category": "Fort"
+},
+{
 "k": "andhra-pradesh:203",
 "name": "Pakala Beach",
 "district": "Prakasam",
 "state": "Andhra Pradesh",
 "category": "Beach"
-},
-{
-"k": "andhra-pradesh:204",
-"name": "Chandavaram Buddhist Stupa",
-"district": "Prakasam",
-"state": "Andhra Pradesh",
-"category": "Buddhist site"
 },
 {
 "k": "andhra-pradesh:205",
@@ -537,6 +663,13 @@
 "district": "Parvathipuram Manyam",
 "state": "Andhra Pradesh",
 "category": "Temple"
+},
+{
+"k": "andhra-pradesh:210",
+"name": "Galikonda",
+"district": "Alluri Sitharama Raju",
+"state": "Andhra Pradesh",
+"category": "Summit trek"
 },
 {
 "k": "arunachal-pradesh:5",
@@ -658,13 +791,6 @@
 "category": "Village"
 },
 {
-"k": "arunachal-pradesh:39",
-"name": "Jawaharlal Nehru State Museum",
-"district": "Papum Pare",
-"state": "Arunachal Pradesh",
-"category": "Museum"
-},
-{
 "k": "arunachal-pradesh:40",
 "name": "Buddha Vihar, Itanagar",
 "district": "Papum Pare",
@@ -691,13 +817,6 @@
 "district": "Lower Subansiri",
 "state": "Arunachal Pradesh",
 "category": "Village"
-},
-{
-"k": "arunachal-pradesh:47",
-"name": "Talley Valley Wildlife Sanctuary",
-"district": "Lower Subansiri",
-"state": "Arunachal Pradesh",
-"category": "Wildlife"
 },
 {
 "k": "arunachal-pradesh:48",
@@ -795,7 +914,7 @@
 "name": "Mayudia Pass",
 "district": "Lower Dibang Valley",
 "state": "Arunachal Pradesh",
-"category": "Mountain pass"
+"category": "Pass"
 },
 {
 "k": "arunachal-pradesh:74",
@@ -854,25 +973,11 @@
 "category": "Heritage / Valley"
 },
 {
-"k": "arunachal-pradesh:93",
-"name": "Golden Pagoda (Kongmu Kham)",
-"district": "Namsai",
-"state": "Arunachal Pradesh",
-"category": "Monastery"
-},
-{
 "k": "arunachal-pradesh:96",
 "name": "Deban",
 "district": "Changlang",
 "state": "Arunachal Pradesh",
 "category": "Forest camp"
-},
-{
-"k": "arunachal-pradesh:101",
-"name": "Vijoynagar",
-"district": "Changlang",
-"state": "Arunachal Pradesh",
-"category": "Valley"
 },
 {
 "k": "arunachal-pradesh:103",
@@ -894,13 +999,6 @@
 "district": "Tawang",
 "state": "Arunachal Pradesh",
 "category": "Hot spring"
-},
-{
-"k": "arunachal-pradesh:106",
-"name": "Pangchen Valley",
-"district": "Tawang",
-"state": "Arunachal Pradesh",
-"category": "Valley"
 },
 {
 "k": "arunachal-pradesh:108",
@@ -1057,6 +1155,48 @@
 "category": "Village"
 },
 {
+"k": "arunachal-pradesh:149",
+"name": "Gorichen Peak",
+"district": "Tawang",
+"state": "Arunachal Pradesh",
+"category": "Peak"
+},
+{
+"k": "arunachal-pradesh:151",
+"name": "Gorichen Base Camp",
+"district": "Tawang",
+"state": "Arunachal Pradesh",
+"category": "Trek"
+},
+{
+"k": "arunachal-pradesh:152",
+"name": "Bailey Trail",
+"district": "Lower Subansiri",
+"state": "Arunachal Pradesh",
+"category": "Trek"
+},
+{
+"k": "arunachal-pradesh:153",
+"name": "Tawang–Pangchen Trail",
+"district": "Tawang",
+"state": "Arunachal Pradesh",
+"category": "Trek"
+},
+{
+"k": "arunachal-pradesh:154",
+"name": "Dibang Valley Treks",
+"district": "Dibang Valley",
+"state": "Arunachal Pradesh",
+"category": "Trek"
+},
+{
+"k": "arunachal-pradesh:155",
+"name": "Glaw Lake",
+"district": "Lohit",
+"state": "Arunachal Pradesh",
+"category": "Ramsar wetland"
+},
+{
 "k": "assam:2",
 "name": "Bhubaneswari Temple",
 "district": "Kamrup Metropolitan",
@@ -1069,20 +1209,6 @@
 "district": "Kamrup Metropolitan",
 "state": "Assam",
 "category": "River"
-},
-{
-"k": "assam:5",
-"name": "Assam State Museum",
-"district": "Kamrup Metropolitan",
-"state": "Assam",
-"category": "Museum"
-},
-{
-"k": "assam:11",
-"name": "Deepor Beel",
-"district": "Kamrup Metropolitan",
-"state": "Assam",
-"category": "Wetland"
 },
 {
 "k": "assam:12",
@@ -1106,13 +1232,6 @@
 "category": "Temple"
 },
 {
-"k": "assam:32",
-"name": "Gurudwara Sri Guru Tegh Bahadur Sahib",
-"district": "Dhubri",
-"state": "Assam",
-"category": "Spiritual"
-},
-{
 "k": "assam:37",
 "name": "Kakoijana Reserve Forest",
 "district": "Bongaigaon",
@@ -1134,13 +1253,6 @@
 "category": "Heritage"
 },
 {
-"k": "assam:43",
-"name": "Da Parbatia",
-"district": "Sonitpur",
-"state": "Assam",
-"category": "Heritage"
-},
-{
 "k": "assam:44",
 "name": "Mahabhairab Temple",
 "district": "Sonitpur",
@@ -1153,13 +1265,6 @@
 "district": "Sonitpur",
 "state": "Assam",
 "category": "Heritage"
-},
-{
-"k": "assam:49",
-"name": "Burachapori Wildlife Sanctuary",
-"district": "Sonitpur",
-"state": "Assam",
-"category": "Wildlife"
 },
 {
 "k": "assam:50",
@@ -1190,13 +1295,6 @@
 "category": "Culture"
 },
 {
-"k": "assam:59",
-"name": "Batadrava Than",
-"district": "Nagaon",
-"state": "Assam",
-"category": "Satra"
-},
-{
 "k": "assam:61",
 "name": "Chapanala Waterfall",
 "district": "Nagaon",
@@ -1209,13 +1307,6 @@
 "district": "Dima Hasao",
 "state": "Assam",
 "category": "Rail journey"
-},
-{
-"k": "assam:65",
-"name": "Maibong",
-"district": "Dima Hasao",
-"state": "Assam",
-"category": "Heritage"
 },
 {
 "k": "assam:66",
@@ -1512,13 +1603,6 @@
 "category": "Lake"
 },
 {
-"k": "assam:144",
-"name": "Joydol",
-"district": "Sivasagar",
-"state": "Assam",
-"category": "Temple"
-},
-{
 "k": "assam:145",
 "name": "Dibrugarh Riverfront",
 "district": "Dibrugarh",
@@ -1610,13 +1694,6 @@
 "category": "Dargah"
 },
 {
-"k": "bihar:3",
-"name": "Patna Museum",
-"district": "Patna",
-"state": "Bihar",
-"category": "Museum"
-},
-{
 "k": "bihar:17",
 "name": "Nalanda Archaeological Museum",
 "district": "Nalanda",
@@ -1657,13 +1734,6 @@
 "district": "Nalanda",
 "state": "Bihar",
 "category": "Lake"
-},
-{
-"k": "bihar:30",
-"name": "Pawapuri Jal Mandir",
-"district": "Nalanda",
-"state": "Bihar",
-"category": "Temple"
 },
 {
 "k": "bihar:35",
@@ -1736,13 +1806,6 @@
 "category": "Heritage"
 },
 {
-"k": "bihar:57",
-"name": "Valmikinagar",
-"district": "West Champaran",
-"state": "Bihar",
-"category": "River"
-},
-{
 "k": "bihar:59",
 "name": "Bhitiharwa Ashram",
 "district": "West Champaran",
@@ -1769,13 +1832,6 @@
 "district": "Bhagalpur",
 "state": "Bihar",
 "category": "Craft"
-},
-{
-"k": "bihar:69",
-"name": "Munger Fort",
-"district": "Munger",
-"state": "Bihar",
-"category": "Fort"
 },
 {
 "k": "bihar:71",
@@ -1813,25 +1869,11 @@
 "category": "Waterfall"
 },
 {
-"k": "bihar:81",
-"name": "Telhar Kund",
-"district": "Kaimur",
-"state": "Bihar",
-"category": "Waterfall"
-},
-{
 "k": "bihar:83",
 "name": "Kaimur Wildlife Sanctuary",
 "district": "Kaimur",
 "state": "Bihar",
 "category": "Wildlife"
-},
-{
-"k": "bihar:85",
-"name": "Deo Sun Temple",
-"district": "Aurangabad",
-"state": "Bihar",
-"category": "Temple"
 },
 {
 "k": "bihar:86",
@@ -1846,20 +1888,6 @@
 "district": "Patna",
 "state": "Bihar",
 "category": "Museum"
-},
-{
-"k": "bihar:90",
-"name": "Shaheed Smarak",
-"district": "Patna",
-"state": "Bihar",
-"category": "Memorial"
-},
-{
-"k": "bihar:91",
-"name": "Pathar ki Masjid",
-"district": "Patna",
-"state": "Bihar",
-"category": "Heritage"
 },
 {
 "k": "bihar:93",
@@ -1911,20 +1939,6 @@
 "category": "Park"
 },
 {
-"k": "bihar:101",
-"name": "Nalanda University New Campus",
-"district": "Nalanda",
-"state": "Bihar",
-"category": "Campus"
-},
-{
-"k": "bihar:104",
-"name": "Nav Nalanda Mahavihara",
-"district": "Nalanda",
-"state": "Bihar",
-"category": "Institute"
-},
-{
 "k": "bihar:106",
 "name": "Phalgu River Ghats",
 "district": "Gaya",
@@ -1944,13 +1958,6 @@
 "district": "Gaya",
 "state": "Bihar",
 "category": "Hill"
-},
-{
-"k": "bihar:109",
-"name": "Akshayavat",
-"district": "Gaya",
-"state": "Bihar",
-"category": "Temple"
 },
 {
 "k": "bihar:110",
@@ -2191,13 +2198,6 @@
 "category": "Food"
 },
 {
-"k": "chhattisgarh:2",
-"name": "Mendri Ghumar Falls",
-"district": "Bastar",
-"state": "Chhattisgarh",
-"category": "Waterfall"
-},
-{
 "k": "chhattisgarh:4",
 "name": "Chitradhara Falls",
 "district": "Bastar",
@@ -2303,13 +2303,6 @@
 "category": "National park"
 },
 {
-"k": "chhattisgarh:24",
-"name": "Champaran",
-"district": "Raipur",
-"state": "Chhattisgarh",
-"category": "Temple"
-},
-{
 "k": "chhattisgarh:27",
 "name": "Purkhauti Muktangan",
 "district": "Raipur",
@@ -2329,13 +2322,6 @@
 "district": "Kabirdham",
 "state": "Chhattisgarh",
 "category": "Heritage"
-},
-{
-"k": "chhattisgarh:36",
-"name": "Bamleshwari Temple",
-"district": "Rajnandgaon",
-"state": "Chhattisgarh",
-"category": "Temple"
 },
 {
 "k": "chhattisgarh:41",
@@ -2392,13 +2378,6 @@
 "district": "Balrampur",
 "state": "Chhattisgarh",
 "category": "Hot spring"
-},
-{
-"k": "chhattisgarh:57",
-"name": "Guru Ghasidas–Tamor Pingla Tiger Reserve",
-"district": "Koriya",
-"state": "Chhattisgarh",
-"category": "National park"
 },
 {
 "k": "chhattisgarh:58",
@@ -2469,13 +2448,6 @@
 "district": "Dhamtari",
 "state": "Chhattisgarh",
 "category": "River"
-},
-{
-"k": "chhattisgarh:70",
-"name": "Madamsilli Dam",
-"district": "Dhamtari",
-"state": "Chhattisgarh",
-"category": "Lake"
 },
 {
 "k": "chhattisgarh:71",
@@ -2639,13 +2611,6 @@
 "category": "Waterfall"
 },
 {
-"k": "chhattisgarh:102",
-"name": "Gomarda Wildlife Sanctuary",
-"district": "Sarangarh-Bilaigarh",
-"state": "Chhattisgarh",
-"category": "Wildlife"
-},
-{
 "k": "chhattisgarh:104",
 "name": "Mainpat Tibetan Settlement",
 "district": "Surguja",
@@ -2765,11 +2730,11 @@
 "category": "Festival"
 },
 {
-"k": "dadra-and-nagar-haveli-and-daman-and-diu:1",
-"name": "Diu Fort",
-"district": "Diu",
-"state": "Dadra and Nagar Haveli and Daman and Diu",
-"category": "Fort"
+"k": "chhattisgarh:122",
+"name": "Gaurlata",
+"district": "Balrampur",
+"state": "Chhattisgarh",
+"category": "Summit trek"
 },
 {
 "k": "dadra-and-nagar-haveli-and-daman-and-diu:2",
@@ -2777,20 +2742,6 @@
 "district": "Diu",
 "state": "Dadra and Nagar Haveli and Daman and Diu",
 "category": "Caves"
-},
-{
-"k": "dadra-and-nagar-haveli-and-daman-and-diu:4",
-"name": "Nagoa Beach",
-"district": "Diu",
-"state": "Dadra and Nagar Haveli and Daman and Diu",
-"category": "Beach"
-},
-{
-"k": "dadra-and-nagar-haveli-and-daman-and-diu:5",
-"name": "Ghoghla Beach",
-"district": "Diu",
-"state": "Dadra and Nagar Haveli and Daman and Diu",
-"category": "Beach"
 },
 {
 "k": "dadra-and-nagar-haveli-and-daman-and-diu:8",
@@ -2833,13 +2784,6 @@
 "district": "Daman",
 "state": "Dadra and Nagar Haveli and Daman and Diu",
 "category": "Church"
-},
-{
-"k": "dadra-and-nagar-haveli-and-daman-and-diu:14",
-"name": "Nani Daman Fort (St Jerome)",
-"district": "Daman",
-"state": "Dadra and Nagar Haveli and Daman and Diu",
-"category": "Fort"
 },
 {
 "k": "dadra-and-nagar-haveli-and-daman-and-diu:15",
@@ -2898,20 +2842,6 @@
 "category": "Food"
 },
 {
-"k": "delhi:7",
-"name": "Raj Ghat",
-"district": "Old Delhi",
-"state": "Delhi",
-"category": "Memorial"
-},
-{
-"k": "delhi:30",
-"name": "Pradhanmantri Sangrahalaya",
-"district": "New Delhi",
-"state": "Delhi",
-"category": "Museum"
-},
-{
 "k": "delhi:31",
 "name": "National Museum",
 "district": "New Delhi",
@@ -2931,13 +2861,6 @@
 "district": "Central",
 "state": "Delhi",
 "category": "Museum"
-},
-{
-"k": "goa:3",
-"name": "Arambol Beach",
-"district": "North Goa",
-"state": "Goa",
-"category": "Beach"
 },
 {
 "k": "goa:5",
@@ -3010,20 +2933,6 @@
 "category": "Caves"
 },
 {
-"k": "goa:65",
-"name": "Cola Beach",
-"district": "Kushavati",
-"state": "Goa",
-"category": "Beach"
-},
-{
-"k": "goa:66",
-"name": "Agonda Beach",
-"district": "Kushavati",
-"state": "Goa",
-"category": "Beach"
-},
-{
 "k": "goa:67",
 "name": "Butterfly Beach",
 "district": "Kushavati",
@@ -3043,20 +2952,6 @@
 "district": "North Goa",
 "state": "Goa",
 "category": "Beach"
-},
-{
-"k": "goa:79",
-"name": "Sweet Water Lake, Arambol",
-"district": "North Goa",
-"state": "Goa",
-"category": "Lake"
-},
-{
-"k": "goa:84",
-"name": "Goa State Museum",
-"district": "North Goa",
-"state": "Goa",
-"category": "Museum"
 },
 {
 "k": "goa:87",
@@ -3185,6 +3080,20 @@
 "category": "Temple"
 },
 {
+"k": "goa:121",
+"name": "Vagheri Hills",
+"district": "Sattari",
+"state": "Goa",
+"category": "Hike"
+},
+{
+"k": "goa:122",
+"name": "Kuskem Falls",
+"district": "Canacona",
+"state": "Goa",
+"category": "Hike"
+},
+{
 "k": "gujarat:1",
 "name": "White Rann of Kutch",
 "district": "Kutch",
@@ -3234,20 +3143,6 @@
 "category": "Wildlife"
 },
 {
-"k": "gujarat:23",
-"name": "Ashoka's Rock Edict, Junagadh",
-"district": "Junagadh",
-"state": "Gujarat",
-"category": "Heritage"
-},
-{
-"k": "gujarat:32",
-"name": "Marine National Park, Narara",
-"district": "Devbhumi Dwarka",
-"state": "Gujarat",
-"category": "Marine"
-},
-{
 "k": "gujarat:41",
 "name": "Mani Mandir, Morbi",
 "district": "Morbi",
@@ -3276,25 +3171,11 @@
 "category": "Museum"
 },
 {
-"k": "gujarat:68",
-"name": "Sahastralinga Talav",
-"district": "Patan",
-"state": "Gujarat",
-"category": "Heritage"
-},
-{
 "k": "gujarat:69",
 "name": "Patan Patola Weavers",
 "district": "Patan",
 "state": "Gujarat",
 "category": "Craft"
-},
-{
-"k": "gujarat:78",
-"name": "Ratanmahal Sloth Bear Sanctuary",
-"district": "Dahod",
-"state": "Gujarat",
-"category": "Wildlife"
 },
 {
 "k": "gujarat:82",
@@ -3379,13 +3260,6 @@
 "district": "Mehsana",
 "state": "Gujarat",
 "category": "Temple"
-},
-{
-"k": "gujarat:113",
-"name": "Jhulta Minar",
-"district": "Ahmedabad",
-"state": "Gujarat",
-"category": "Heritage"
 },
 {
 "k": "gujarat:116",
@@ -3493,13 +3367,6 @@
 "category": "Lake"
 },
 {
-"k": "gujarat:149",
-"name": "Salangpur Hanuman Temple",
-"district": "Botad",
-"state": "Gujarat",
-"category": "Temple"
-},
-{
 "k": "gujarat:152",
 "name": "Zainabad",
 "district": "Surendranagar",
@@ -3526,13 +3393,6 @@
 "district": "Jamnagar",
 "state": "Gujarat",
 "category": "Temple"
-},
-{
-"k": "gujarat:158",
-"name": "Junagadh Buddhist Caves",
-"district": "Junagadh",
-"state": "Gujarat",
-"category": "Caves"
 },
 {
 "k": "gujarat:160",
@@ -3598,25 +3458,25 @@
 "category": "Waterfall"
 },
 {
+"k": "gujarat:179",
+"name": "Agashiye, House of MG",
+"district": "Ahmedabad",
+"state": "Gujarat",
+"category": "Thali restaurant"
+},
+{
+"k": "gujarat:180",
+"name": "Helical Vav (spiral stepwell)",
+"district": "Panchmahal",
+"state": "Gujarat",
+"category": "Stepwell"
+},
+{
 "k": "haryana:4",
 "name": "Sri Krishna Museum",
 "district": "Kurukshetra",
 "state": "Haryana",
 "category": "Museum"
-},
-{
-"k": "haryana:5",
-"name": "Kurukshetra Panorama & Science Centre",
-"district": "Kurukshetra",
-"state": "Haryana",
-"category": "Museum"
-},
-{
-"k": "haryana:7",
-"name": "Harsh ka Tila",
-"district": "Kurukshetra",
-"state": "Haryana",
-"category": "Heritage"
 },
 {
 "k": "haryana:8",
@@ -3673,13 +3533,6 @@
 "district": "Yamunanagar",
 "state": "Haryana",
 "category": "Temple"
-},
-{
-"k": "haryana:43",
-"name": "Raja Nahar Singh Palace",
-"district": "Faridabad",
-"state": "Haryana",
-"category": "Heritage"
 },
 {
 "k": "haryana:45",
@@ -3794,13 +3647,6 @@
 "category": "Heritage"
 },
 {
-"k": "haryana:80",
-"name": "Rani Talab, Jind",
-"district": "Jind",
-"state": "Haryana",
-"category": "Heritage"
-},
-{
 "k": "haryana:82",
 "name": "Ramrai Tirth",
 "district": "Jind",
@@ -3906,13 +3752,6 @@
 "category": "Hill"
 },
 {
-"k": "himachal-pradesh:14",
-"name": "Thanedar & Kotgarh",
-"district": "Shimla",
-"state": "Himachal Pradesh",
-"category": "Village"
-},
-{
 "k": "himachal-pradesh:19",
 "name": "Tani Jubbar Lake",
 "district": "Shimla",
@@ -3941,13 +3780,6 @@
 "category": "Waterfall"
 },
 {
-"k": "himachal-pradesh:39",
-"name": "Hadimba Temple",
-"district": "Kullu",
-"state": "Himachal Pradesh",
-"category": "Temple"
-},
-{
 "k": "himachal-pradesh:40",
 "name": "Manu Temple",
 "district": "Kullu",
@@ -3971,13 +3803,6 @@
 {
 "k": "himachal-pradesh:48",
 "name": "Sethan",
-"district": "Kullu",
-"state": "Himachal Pradesh",
-"category": "Village"
-},
-{
-"k": "himachal-pradesh:51",
-"name": "Tosh",
 "district": "Kullu",
 "state": "Himachal Pradesh",
 "category": "Village"
@@ -4081,13 +3906,6 @@
 "category": "Temple"
 },
 {
-"k": "himachal-pradesh:87",
-"name": "Bir Billing",
-"district": "Kangra",
-"state": "Himachal Pradesh",
-"category": "Adventure"
-},
-{
 "k": "himachal-pradesh:88",
 "name": "Tashi Jong",
 "district": "Kangra",
@@ -4123,13 +3941,6 @@
 "category": "Town"
 },
 {
-"k": "himachal-pradesh:105",
-"name": "Keylong",
-"district": "Lahaul and Spiti",
-"state": "Himachal Pradesh",
-"category": "Town"
-},
-{
 "k": "himachal-pradesh:109",
 "name": "Deepak Tal",
 "district": "Lahaul and Spiti",
@@ -4149,13 +3960,6 @@
 "district": "Lahaul and Spiti",
 "state": "Himachal Pradesh",
 "category": "Temple"
-},
-{
-"k": "himachal-pradesh:114",
-"name": "Chandratal",
-"district": "Lahaul and Spiti",
-"state": "Himachal Pradesh",
-"category": "Lake"
 },
 {
 "k": "himachal-pradesh:119",
@@ -4184,13 +3988,6 @@
 "district": "Kinnaur",
 "state": "Himachal Pradesh",
 "category": "Fort"
-},
-{
-"k": "himachal-pradesh:139",
-"name": "Deotsidh",
-"district": "Hamirpur",
-"state": "Himachal Pradesh",
-"category": "Temple"
 },
 {
 "k": "himachal-pradesh:143",
@@ -4240,20 +4037,6 @@
 "district": "Lahaul and Spiti",
 "state": "Himachal Pradesh",
 "category": "Village"
-},
-{
-"k": "himachal-pradesh:159",
-"name": "Baralacha La",
-"district": "Lahaul and Spiti",
-"state": "Himachal Pradesh",
-"category": "Pass"
-},
-{
-"k": "himachal-pradesh:163",
-"name": "Guru Ghantal Monastery",
-"district": "Lahaul and Spiti",
-"state": "Himachal Pradesh",
-"category": "Monastery"
 },
 {
 "k": "himachal-pradesh:166",
@@ -4375,13 +4158,6 @@
 "category": "Fort"
 },
 {
-"k": "himachal-pradesh:196",
-"name": "Subathu",
-"district": "Solan",
-"state": "Himachal Pradesh",
-"category": "Cantonment"
-},
-{
 "k": "himachal-pradesh:197",
 "name": "Shoolini Mata Temple",
 "district": "Solan",
@@ -4417,18 +4193,228 @@
 "category": "Temple"
 },
 {
+"k": "himachal-pradesh:206",
+"name": "Indrasan",
+"district": "Kullu",
+"state": "Himachal Pradesh",
+"category": "Peak"
+},
+{
+"k": "himachal-pradesh:208",
+"name": "Mount Hanuman Tibba",
+"district": "Kullu",
+"state": "Himachal Pradesh",
+"category": "Peak"
+},
+{
+"k": "himachal-pradesh:213",
+"name": "Kugti Pass",
+"district": "Chamba",
+"state": "Himachal Pradesh",
+"category": "Pass"
+},
+{
+"k": "himachal-pradesh:215",
+"name": "Buran Ghati",
+"district": "Shimla",
+"state": "Himachal Pradesh",
+"category": "Pass"
+},
+{
+"k": "himachal-pradesh:216",
+"name": "Chandranahan Lake",
+"district": "Shimla",
+"state": "Himachal Pradesh",
+"category": "Trek"
+},
+{
+"k": "himachal-pradesh:217",
+"name": "Bara Bhangal",
+"district": "Kangra",
+"state": "Himachal Pradesh",
+"category": "Trek"
+},
+{
+"k": "himachal-pradesh:219",
+"name": "Rajgundha",
+"district": "Kangra",
+"state": "Himachal Pradesh",
+"category": "Hike"
+},
+{
+"k": "himachal-pradesh:220",
+"name": "Moon Peak",
+"district": "Kangra",
+"state": "Himachal Pradesh",
+"category": "Summit trek"
+},
+{
+"k": "himachal-pradesh:221",
+"name": "Baralacha La to Chandratal",
+"district": "Lahaul and Spiti",
+"state": "Himachal Pradesh",
+"category": "Trek"
+},
+{
+"k": "himachal-pradesh:222",
+"name": "Patalsu Peak",
+"district": "Kullu",
+"state": "Himachal Pradesh",
+"category": "Hike"
+},
+{
+"k": "himachal-pradesh:223",
+"name": "Lamadugh",
+"district": "Kullu",
+"state": "Himachal Pradesh",
+"category": "Hike"
+},
+{
+"k": "himachal-pradesh:225",
+"name": "Mantalai Lake",
+"district": "Kullu",
+"state": "Himachal Pradesh",
+"category": "Trek"
+},
+{
+"k": "himachal-pradesh:226",
+"name": "Kamru Nag",
+"district": "Mandi",
+"state": "Himachal Pradesh",
+"category": "Hike"
+},
+{
+"k": "himachal-pradesh:228",
+"name": "Kalihani Pass",
+"district": "Kullu",
+"state": "Himachal Pradesh",
+"category": "Pass"
+},
+{
+"k": "himachal-pradesh:230",
+"name": "Kanamo Peak",
+"district": "Lahaul and Spiti",
+"state": "Himachal Pradesh",
+"category": "Summit trek"
+},
+{
+"k": "himachal-pradesh:232",
+"name": "Parang La",
+"district": "Lahaul and Spiti",
+"state": "Himachal Pradesh",
+"category": "Pass"
+},
+{
+"k": "himachal-pradesh:233",
+"name": "Laka Glacier",
+"district": "Kangra",
+"state": "Himachal Pradesh",
+"category": "Hike"
+},
+{
+"k": "himachal-pradesh:235",
+"name": "Rani Sui Lake",
+"district": "Kullu",
+"state": "Himachal Pradesh",
+"category": "Trek"
+},
+{
+"k": "himachal-pradesh:236",
+"name": "Spiti Left Bank Trek",
+"district": "Lahaul and Spiti",
+"state": "Himachal Pradesh",
+"category": "Trek"
+},
+{
+"k": "himachal-pradesh:237",
+"name": "Pin Valley Trek (Mudh to Bhaba)",
+"district": "Lahaul and Spiti",
+"state": "Himachal Pradesh",
+"category": "Trek"
+},
+{
+"k": "himachal-pradesh:239",
+"name": "Ladakhi Peak",
+"district": "Kullu",
+"state": "Himachal Pradesh",
+"category": "Summit trek"
+},
+{
+"k": "himachal-pradesh:240",
+"name": "Shitidhar",
+"district": "Kullu",
+"state": "Himachal Pradesh",
+"category": "Summit trek"
+},
+{
+"k": "himachal-pradesh:242",
+"name": "Jalsu Pass",
+"district": "Kangra",
+"state": "Himachal Pradesh",
+"category": "Pass"
+},
+{
+"k": "himachal-pradesh:243",
+"name": "Jogini Falls",
+"district": "Kullu",
+"state": "Himachal Pradesh",
+"category": "Hike"
+},
+{
+"k": "himachal-pradesh:244",
+"name": "Rasol",
+"district": "Kullu",
+"state": "Himachal Pradesh",
+"category": "Hike"
+},
+{
+"k": "himachal-pradesh:245",
+"name": "Guna Devi",
+"district": "Kangra",
+"state": "Himachal Pradesh",
+"category": "Hike"
+},
+{
+"k": "himachal-pradesh:246",
+"name": "Thatharana",
+"district": "Kangra",
+"state": "Himachal Pradesh",
+"category": "Hike"
+},
+{
+"k": "himachal-pradesh:248",
+"name": "Hikkim–Komic–Langza Walk",
+"district": "Lahaul and Spiti",
+"state": "Himachal Pradesh",
+"category": "Hike"
+},
+{
+"k": "himachal-pradesh:249",
+"name": "Manali–Leh Highway",
+"district": "Lahaul and Spiti",
+"state": "Himachal Pradesh",
+"category": "Great drive"
+},
+{
+"k": "himachal-pradesh:250",
+"name": "Spiti Circuit",
+"district": "Lahaul and Spiti",
+"state": "Himachal Pradesh",
+"category": "Great drive"
+},
+{
+"k": "himachal-pradesh:251",
+"name": "Hindustan–Tibet Road (Kinnaur)",
+"district": "Kinnaur",
+"state": "Himachal Pradesh",
+"category": "Great drive"
+},
+{
 "k": "jammu-and-kashmir:3",
 "name": "Floating Vegetable Market",
 "district": "Srinagar",
 "state": "Jammu and Kashmir",
 "category": "Market"
-},
-{
-"k": "jammu-and-kashmir:8",
-"name": "Indira Gandhi Tulip Garden",
-"district": "Srinagar",
-"state": "Jammu and Kashmir",
-"category": "Garden"
 },
 {
 "k": "jammu-and-kashmir:14",
@@ -4473,20 +4459,6 @@
 "category": "Trek"
 },
 {
-"k": "jammu-and-kashmir:33",
-"name": "Zojila Pass",
-"district": "Ganderbal",
-"state": "Jammu and Kashmir",
-"category": "Pass"
-},
-{
-"k": "jammu-and-kashmir:35",
-"name": "Aru Valley",
-"district": "Anantnag",
-"state": "Jammu and Kashmir",
-"category": "Valley"
-},
-{
 "k": "jammu-and-kashmir:37",
 "name": "Lidder River Rafting",
 "district": "Anantnag",
@@ -4522,13 +4494,6 @@
 "category": "Waterfall"
 },
 {
-"k": "jammu-and-kashmir:67",
-"name": "Amar Mahal Museum",
-"district": "Jammu",
-"state": "Jammu and Kashmir",
-"category": "Museum"
-},
-{
 "k": "jammu-and-kashmir:68",
 "name": "Peer Khoh Cave",
 "district": "Jammu",
@@ -4543,25 +4508,11 @@
 "category": "Temple"
 },
 {
-"k": "jammu-and-kashmir:76",
-"name": "Krimchi Temples",
-"district": "Udhampur",
-"state": "Jammu and Kashmir",
-"category": "Temple"
-},
-{
 "k": "jammu-and-kashmir:78",
 "name": "Guldanda",
 "district": "Doda",
 "state": "Jammu and Kashmir",
 "category": "Meadow"
-},
-{
-"k": "jammu-and-kashmir:80",
-"name": "Kishtwar National Park",
-"district": "Kishtwar",
-"state": "Jammu and Kashmir",
-"category": "National park"
 },
 {
 "k": "jammu-and-kashmir:82",
@@ -4613,18 +4564,67 @@
 "category": "Village"
 },
 {
+"k": "jammu-and-kashmir:98",
+"name": "Nafran Valley",
+"district": "Ganderbal",
+"state": "Jammu and Kashmir",
+"category": "Trek"
+},
+{
+"k": "jammu-and-kashmir:100",
+"name": "Kaplas Lake",
+"district": "Doda",
+"state": "Jammu and Kashmir",
+"category": "Trek"
+},
+{
+"k": "jammu-and-kashmir:101",
+"name": "Kailash Kund",
+"district": "Doda",
+"state": "Jammu and Kashmir",
+"category": "Trek"
+},
+{
+"k": "jammu-and-kashmir:102",
+"name": "Brahma Peaks",
+"district": "Kishtwar",
+"state": "Jammu and Kashmir",
+"category": "Peak"
+},
+{
+"k": "jammu-and-kashmir:104",
+"name": "Bhaderwah Seoj Meadow",
+"district": "Doda",
+"state": "Jammu and Kashmir",
+"category": "Hike"
+},
+{
+"k": "jammu-and-kashmir:108",
+"name": "Habba Khatoon Peak",
+"district": "Bandipora",
+"state": "Jammu and Kashmir",
+"category": "Peak"
+},
+{
+"k": "jammu-and-kashmir:111",
+"name": "Brahmasar Lake",
+"district": "Kulgam",
+"state": "Jammu and Kashmir",
+"category": "Trek"
+},
+{
+"k": "jammu-and-kashmir:116",
+"name": "Hygam Wetland",
+"district": "Baramulla",
+"state": "Jammu and Kashmir",
+"category": "Ramsar wetland"
+},
+{
 "k": "jharkhand:4",
 "name": "Tapovan",
 "district": "Deoghar",
 "state": "Jharkhand",
 "category": "Caves"
-},
-{
-"k": "jharkhand:21",
-"name": "Dewri Temple",
-"district": "Ranchi",
-"state": "Jharkhand",
-"category": "Temple"
 },
 {
 "k": "jharkhand:23",
@@ -4667,13 +4667,6 @@
 "district": "East Singhbhum",
 "state": "Jharkhand",
 "category": "Waterfall"
-},
-{
-"k": "jharkhand:47",
-"name": "Seraikela",
-"district": "Seraikela-Kharsawan",
-"state": "Jharkhand",
-"category": "Town"
 },
 {
 "k": "jharkhand:50",
@@ -4760,13 +4753,6 @@
 "category": "Temple"
 },
 {
-"k": "jharkhand:68",
-"name": "Hazaribagh National Park",
-"district": "Hazaribagh",
-"state": "Jharkhand",
-"category": "National park"
-},
-{
 "k": "jharkhand:69",
 "name": "Canary Hill",
 "district": "Hazaribagh",
@@ -4793,13 +4779,6 @@
 "district": "Hazaribagh",
 "state": "Jharkhand",
 "category": "Heritage"
-},
-{
-"k": "jharkhand:74",
-"name": "Surajkund Hot Spring",
-"district": "Hazaribagh",
-"state": "Jharkhand",
-"category": "Hot spring"
 },
 {
 "k": "jharkhand:77",
@@ -4907,13 +4886,6 @@
 "category": "Temple"
 },
 {
-"k": "karnataka:21",
-"name": "Bijapur Citadel & Malik-e-Maidan",
-"district": "Vijayapura",
-"state": "Karnataka",
-"category": "Heritage"
-},
-{
 "k": "karnataka:29",
 "name": "Bidriware Workshops",
 "district": "Bidar",
@@ -4926,27 +4898,6 @@
 "district": "Kalaburagi",
 "state": "Karnataka",
 "category": "Dargah"
-},
-{
-"k": "karnataka:33",
-"name": "Ganagapur",
-"district": "Kalaburagi",
-"state": "Karnataka",
-"category": "Temple"
-},
-{
-"k": "karnataka:34",
-"name": "Raichur Fort",
-"district": "Raichur",
-"state": "Karnataka",
-"category": "Fort"
-},
-{
-"k": "karnataka:38",
-"name": "Belagavi Fort",
-"district": "Belagavi",
-"state": "Karnataka",
-"category": "Fort"
 },
 {
 "k": "karnataka:49",
@@ -4963,20 +4914,6 @@
 "category": "Temple"
 },
 {
-"k": "karnataka:52",
-"name": "Chitradurga Fort",
-"district": "Chitradurga",
-"state": "Karnataka",
-"category": "Fort"
-},
-{
-"k": "karnataka:55",
-"name": "Davanagere Benne Dosa",
-"district": "Davanagere",
-"state": "Karnataka",
-"category": "Food"
-},
-{
 "k": "karnataka:56",
 "name": "Kondajji Lake",
 "district": "Davanagere",
@@ -4984,53 +4921,11 @@
 "category": "Lake"
 },
 {
-"k": "karnataka:57",
-"name": "Jog Falls",
-"district": "Shivamogga",
-"state": "Karnataka",
-"category": "Waterfall"
-},
-{
 "k": "karnataka:62",
 "name": "Sakrebailu Elephant Camp",
 "district": "Shivamogga",
 "state": "Karnataka",
 "category": "Wildlife"
-},
-{
-"k": "karnataka:70",
-"name": "Mullayanagiri",
-"district": "Chikkamagaluru",
-"state": "Karnataka",
-"category": "Viewpoint"
-},
-{
-"k": "karnataka:72",
-"name": "Kudremukh",
-"district": "Chikkamagaluru",
-"state": "Karnataka",
-"category": "National park"
-},
-{
-"k": "karnataka:73",
-"name": "Kemmanagundi",
-"district": "Chikkamagaluru",
-"state": "Karnataka",
-"category": "Hill station"
-},
-{
-"k": "karnataka:75",
-"name": "Bhadra Tiger Reserve",
-"district": "Chikkamagaluru",
-"state": "Karnataka",
-"category": "Wildlife"
-},
-{
-"k": "karnataka:76",
-"name": "Horanadu",
-"district": "Chikkamagaluru",
-"state": "Karnataka",
-"category": "Temple"
 },
 {
 "k": "karnataka:78",
@@ -5047,46 +4942,11 @@
 "category": "Coffee estate"
 },
 {
-"k": "karnataka:93",
-"name": "Talacauvery",
-"district": "Kodagu",
-"state": "Karnataka",
-"category": "Temple"
-},
-{
-"k": "karnataka:96",
-"name": "Iruppu Falls",
-"district": "Kodagu",
-"state": "Karnataka",
-"category": "Waterfall"
-},
-{
-"k": "karnataka:98",
-"name": "Mandalpatti",
-"district": "Kodagu",
-"state": "Karnataka",
-"category": "Viewpoint"
-},
-{
 "k": "karnataka:100",
 "name": "Kakkabe & Nalknad Palace",
 "district": "Kodagu",
 "state": "Karnataka",
 "category": "Heritage"
-},
-{
-"k": "karnataka:101",
-"name": "Mysuru Palace",
-"district": "Mysuru",
-"state": "Karnataka",
-"category": "Heritage"
-},
-{
-"k": "karnataka:107",
-"name": "Mysuru Zoo",
-"district": "Mysuru",
-"state": "Karnataka",
-"category": "Wildlife"
 },
 {
 "k": "karnataka:108",
@@ -5096,55 +4956,6 @@
 "category": "Museum"
 },
 {
-"k": "karnataka:121",
-"name": "BR Hills",
-"district": "Chamarajanagar",
-"state": "Karnataka",
-"category": "Wildlife"
-},
-{
-"k": "karnataka:123",
-"name": "Lalbagh",
-"district": "Bengaluru Urban",
-"state": "Karnataka",
-"category": "Garden"
-},
-{
-"k": "karnataka:125",
-"name": "Bangalore Palace",
-"district": "Bengaluru Urban",
-"state": "Karnataka",
-"category": "Heritage"
-},
-{
-"k": "karnataka:131",
-"name": "National Gallery of Modern Art",
-"district": "Bengaluru Urban",
-"state": "Karnataka",
-"category": "Museum"
-},
-{
-"k": "karnataka:134",
-"name": "KR Market",
-"district": "Bengaluru Urban",
-"state": "Karnataka",
-"category": "Market"
-},
-{
-"k": "karnataka:138",
-"name": "Rangashankara",
-"district": "Bengaluru Urban",
-"state": "Karnataka",
-"category": "Culture"
-},
-{
-"k": "karnataka:140",
-"name": "Bhoga Nandeeshwara Temple",
-"district": "Chikkaballapur",
-"state": "Karnataka",
-"category": "Temple"
-},
-{
 "k": "karnataka:143",
 "name": "Isha Adiyogi, Chikkaballapur",
 "district": "Chikkaballapur",
@@ -5152,18 +4963,11 @@
 "category": "Monument"
 },
 {
-"k": "karnataka:145",
-"name": "Kolaramma Temple",
-"district": "Kolar",
-"state": "Karnataka",
-"category": "Temple"
-},
-{
-"k": "karnataka:153",
-"name": "Chunchi Falls",
+"k": "karnataka:150",
+"name": "Ramanagara Hills",
 "district": "Bengaluru South",
 "state": "Karnataka",
-"category": "Waterfall"
+"category": "Hill"
 },
 {
 "k": "karnataka:154",
@@ -5178,13 +4982,6 @@
 "district": "Tumakuru",
 "state": "Karnataka",
 "category": "Ashram"
-},
-{
-"k": "karnataka:163",
-"name": "Murudeshwar",
-"district": "Uttara Kannada",
-"state": "Karnataka",
-"category": "Temple"
 },
 {
 "k": "karnataka:165",
@@ -5229,39 +5026,11 @@
 "category": "Beach"
 },
 {
-"k": "karnataka:197",
-"name": "Sultan Battery",
-"district": "Dakshina Kannada",
-"state": "Karnataka",
-"category": "Fort"
-},
-{
-"k": "karnataka:200",
-"name": "Kumara Parvatha",
-"district": "Dakshina Kannada",
-"state": "Karnataka",
-"category": "Trek"
-},
-{
 "k": "karnataka:204",
 "name": "Yakshagana Performances",
 "district": "Dakshina Kannada",
 "state": "Karnataka",
 "category": "Culture"
-},
-{
-"k": "karnataka:206",
-"name": "Ballari Fort",
-"district": "Ballari",
-"state": "Karnataka",
-"category": "Fort"
-},
-{
-"k": "karnataka:207",
-"name": "Kumaraswamy Temple, Sandur",
-"district": "Ballari",
-"state": "Karnataka",
-"category": "Temple"
 },
 {
 "k": "karnataka:212",
@@ -5292,25 +5061,165 @@
 "category": "Viewpoint"
 },
 {
-"k": "karnataka:219",
-"name": "Lakshmeshwar",
+"k": "karnataka:220",
+"name": "Netravati Peak",
+"district": "Chikkamagaluru",
+"state": "Karnataka",
+"category": "Summit trek"
+},
+{
+"k": "karnataka:221",
+"name": "Kurinjal Peak",
+"district": "Chikkamagaluru",
+"state": "Karnataka",
+"category": "Summit trek"
+},
+{
+"k": "karnataka:222",
+"name": "Ballalarayana Durga",
+"district": "Chikkamagaluru",
+"state": "Karnataka",
+"category": "Trek"
+},
+{
+"k": "karnataka:226",
+"name": "Nishani Motte",
+"district": "Kodagu",
+"state": "Karnataka",
+"category": "Summit trek"
+},
+{
+"k": "karnataka:227",
+"name": "Kote Betta",
+"district": "Kodagu",
+"state": "Karnataka",
+"category": "Summit trek"
+},
+{
+"k": "karnataka:229",
+"name": "Gangadikal",
+"district": "Chikkamagaluru",
+"state": "Karnataka",
+"category": "Summit trek"
+},
+{
+"k": "karnataka:230",
+"name": "Deveramane Betta",
+"district": "Chikkamagaluru",
+"state": "Karnataka",
+"category": "Hike"
+},
+{
+"k": "karnataka:231",
+"name": "Jenukallu Gudda",
+"district": "Hassan",
+"state": "Karnataka",
+"category": "Hike"
+},
+{
+"k": "karnataka:232",
+"name": "Ramadevara Betta",
+"district": "Ramanagara",
+"state": "Karnataka",
+"category": "Hike"
+},
+{
+"k": "karnataka:234",
+"name": "Kaiwara Betta",
+"district": "Chikkaballapur",
+"state": "Karnataka",
+"category": "Hike"
+},
+{
+"k": "karnataka:237",
+"name": "Uttari Betta",
+"district": "Ramanagara",
+"state": "Karnataka",
+"category": "Hike"
+},
+{
+"k": "karnataka:238",
+"name": "Siddara Betta",
+"district": "Tumakuru",
+"state": "Karnataka",
+"category": "Hike"
+},
+{
+"k": "karnataka:239",
+"name": "Avalabetta",
+"district": "Chikkaballapur",
+"state": "Karnataka",
+"category": "Hike"
+},
+{
+"k": "karnataka:240",
+"name": "Agumbe Barkana Falls Trail",
+"district": "Shivamogga",
+"state": "Karnataka",
+"category": "Trek"
+},
+{
+"k": "karnataka:241",
+"name": "Sakleshpur Green Route",
+"district": "Hassan",
+"state": "Karnataka",
+"category": "Hike"
+},
+{
+"k": "karnataka:242",
+"name": "Ombattu Gudda",
+"district": "Hassan",
+"state": "Karnataka",
+"category": "Trek"
+},
+{
+"k": "karnataka:243",
+"name": "Sita Bhumi",
+"district": "Chikkamagaluru",
+"state": "Karnataka",
+"category": "Hike"
+},
+{
+"k": "karnataka:244",
+"name": "Mallalli Falls Trail",
+"district": "Kodagu",
+"state": "Karnataka",
+"category": "Hike"
+},
+{
+"k": "karnataka:246",
+"name": "Magadi Kere",
 "district": "Gadag",
 "state": "Karnataka",
-"category": "Temple town"
+"category": "Ramsar wetland"
 },
 {
-"k": "kerala:5",
-"name": "Kuthiramalika Palace",
-"district": "Thiruvananthapuram",
-"state": "Kerala",
-"category": "Heritage"
+"k": "karnataka:247",
+"name": "Ankasamudra Bird Reserve",
+"district": "Vijayanagara",
+"state": "Karnataka",
+"category": "Ramsar wetland"
 },
 {
-"k": "kerala:8",
-"name": "Agasthyakoodam",
-"district": "Thiruvananthapuram",
-"state": "Kerala",
-"category": "Trek"
+"k": "karnataka:249",
+"name": "Mysuru Silk Weaving Factory",
+"district": "Mysuru",
+"state": "Karnataka",
+"category": "Craft village"
+},
+{
+"k": "karnataka:252",
+"name": "Kambala Buffalo Races",
+"district": "Dakshina Kannada",
+"state": "Karnataka",
+"category": "Festival"
+},
+{
+"k": "karnataka:255",
+"name": "CTR, Malleshwaram",
+"district": "Bengaluru Urban",
+"state": "Karnataka",
+"category": "Tiffin room"
 },
 {
 "k": "kerala:12",
@@ -5320,32 +5229,11 @@
 "category": "Fort"
 },
 {
-"k": "kerala:15",
-"name": "Chalai Bazaar",
-"district": "Thiruvananthapuram",
-"state": "Kerala",
-"category": "Market"
-},
-{
-"k": "kerala:16",
-"name": "Kerala Science & Technology Museum",
-"district": "Thiruvananthapuram",
-"state": "Kerala",
-"category": "Museum"
-},
-{
 "k": "kerala:30",
 "name": "Alappuzha Backwaters",
 "district": "Alappuzha",
 "state": "Kerala",
 "category": "Backwater"
-},
-{
-"k": "kerala:42",
-"name": "Ilaveezhapoonchira",
-"district": "Kottayam",
-"state": "Kerala",
-"category": "Hill"
 },
 {
 "k": "kerala:47",
@@ -5355,25 +5243,11 @@
 "category": "Viewpoint"
 },
 {
-"k": "kerala:49",
-"name": "Tata Tea Museum",
-"district": "Idukki",
-"state": "Kerala",
-"category": "Museum"
-},
-{
 "k": "kerala:50",
 "name": "Attukad Falls",
 "district": "Idukki",
 "state": "Kerala",
 "category": "Waterfall"
-},
-{
-"k": "kerala:52",
-"name": "Marayoor",
-"district": "Idukki",
-"state": "Kerala",
-"category": "Village"
 },
 {
 "k": "kerala:56",
@@ -5397,48 +5271,6 @@
 "category": "Museum"
 },
 {
-"k": "kerala:68",
-"name": "Hill Palace, Tripunithura",
-"district": "Ernakulam",
-"state": "Kerala",
-"category": "Museum"
-},
-{
-"k": "kerala:70",
-"name": "Bolgatty Palace",
-"district": "Ernakulam",
-"state": "Kerala",
-"category": "Heritage"
-},
-{
-"k": "kerala:78",
-"name": "Thrissur Vadakkunnathan Temple",
-"district": "Thrissur",
-"state": "Kerala",
-"category": "Temple"
-},
-{
-"k": "kerala:82",
-"name": "Punnathur Kotta Elephant Sanctuary",
-"district": "Thrissur",
-"state": "Kerala",
-"category": "Wildlife"
-},
-{
-"k": "kerala:85",
-"name": "Muziris Heritage Project",
-"district": "Thrissur",
-"state": "Kerala",
-"category": "Heritage"
-},
-{
-"k": "kerala:93",
-"name": "Nelliyampathy",
-"district": "Palakkad",
-"state": "Kerala",
-"category": "Hill station"
-},
-{
 "k": "kerala:97",
 "name": "Dhoni Falls",
 "district": "Palakkad",
@@ -5458,20 +5290,6 @@
 "district": "Kozhikode",
 "state": "Kerala",
 "category": "Food"
-},
-{
-"k": "kerala:117",
-"name": "Kuruva Island",
-"district": "Wayanad",
-"state": "Kerala",
-"category": "Island"
-},
-{
-"k": "kerala:119",
-"name": "Muthanga Wildlife Sanctuary",
-"district": "Wayanad",
-"state": "Kerala",
-"category": "Wildlife"
 },
 {
 "k": "kerala:120",
@@ -5495,13 +5313,6 @@
 "category": "Culture"
 },
 {
-"k": "kerala:129",
-"name": "Payyambalam Beach",
-"district": "Kannur",
-"state": "Kerala",
-"category": "Beach"
-},
-{
 "k": "kerala:144",
 "name": "Kottancherry Hills",
 "district": "Kasaragod",
@@ -5509,25 +5320,67 @@
 "category": "Hill"
 },
 {
-"k": "kerala:145",
-"name": "Shanghumugham Beach",
-"district": "Thiruvananthapuram",
-"state": "Kerala",
-"category": "Beach"
-},
-{
-"k": "kerala:148",
-"name": "Thommankuthu Falls",
-"district": "Idukki",
-"state": "Kerala",
-"category": "Waterfall"
-},
-{
 "k": "kerala:154",
 "name": "Possadi Gumpe",
 "district": "Kasaragod",
 "state": "Kerala",
 "category": "Hill"
+},
+{
+"k": "kerala:166",
+"name": "Chokramudi",
+"district": "Idukki",
+"state": "Kerala",
+"category": "Summit trek"
+},
+{
+"k": "kerala:169",
+"name": "Kottappara Viewpoint",
+"district": "Idukki",
+"state": "Kerala",
+"category": "Hike"
+},
+{
+"k": "kerala:171",
+"name": "Lakshmi Hills",
+"district": "Idukki",
+"state": "Kerala",
+"category": "Hike"
+},
+{
+"k": "kerala:175",
+"name": "Punalur–Sengottai Ghat Line",
+"district": "Kollam",
+"state": "Kerala",
+"category": "Rail journey"
+},
+{
+"k": "kerala:177",
+"name": "Kathakali at Kerala Kathakali Centre",
+"district": "Ernakulam",
+"state": "Kerala",
+"category": "Performance"
+},
+{
+"k": "kerala:179",
+"name": "CVN Kalari, Thiruvananthapuram",
+"district": "Thiruvananthapuram",
+"state": "Kerala",
+"category": "Performance"
+},
+{
+"k": "kerala:181",
+"name": "Paragon, Kozhikode",
+"district": "Kozhikode",
+"state": "Kerala",
+"category": "Restaurant"
+},
+{
+"k": "kerala:182",
+"name": "Rahmath Hotel, Kozhikode",
+"district": "Kozhikode",
+"state": "Kerala",
+"category": "Restaurant"
 },
 {
 "k": "ladakh:3",
@@ -5635,18 +5488,109 @@
 "category": "Glacier"
 },
 {
-"k": "ladakh:54",
-"name": "Phuktal Monastery",
-"district": "Zanskar",
-"state": "Ladakh",
-"category": "Monastery"
-},
-{
 "k": "ladakh:56",
 "name": "Chadar Trek",
 "district": "Zanskar",
 "state": "Ladakh",
 "category": "Trek"
+},
+{
+"k": "ladakh:62",
+"name": "Nun Peak",
+"district": "Kargil",
+"state": "Ladakh",
+"category": "Peak"
+},
+{
+"k": "ladakh:64",
+"name": "Dzo Jongo",
+"district": "Leh",
+"state": "Ladakh",
+"category": "Summit trek"
+},
+{
+"k": "ladakh:65",
+"name": "Golep Kangri",
+"district": "Leh",
+"state": "Ladakh",
+"category": "Summit trek"
+},
+{
+"k": "ladakh:66",
+"name": "Mentok Kangri",
+"district": "Leh",
+"state": "Ladakh",
+"category": "Summit trek"
+},
+{
+"k": "ladakh:67",
+"name": "Lamayuru to Chilling",
+"district": "Leh",
+"state": "Ladakh",
+"category": "Trek"
+},
+{
+"k": "ladakh:68",
+"name": "Padum to Darcha",
+"district": "Kargil",
+"state": "Ladakh",
+"category": "Trek"
+},
+{
+"k": "ladakh:70",
+"name": "Rumtse to Tso Moriri",
+"district": "Leh",
+"state": "Ladakh",
+"category": "Trek"
+},
+{
+"k": "ladakh:72",
+"name": "Nubra Valley Trek",
+"district": "Leh",
+"state": "Ladakh",
+"category": "Trek"
+},
+{
+"k": "ladakh:73",
+"name": "Zanskar Sumdo",
+"district": "Kargil",
+"state": "Ladakh",
+"category": "Trek"
+},
+{
+"k": "ladakh:75",
+"name": "Wari La",
+"district": "Leh",
+"state": "Ladakh",
+"category": "Pass"
+},
+{
+"k": "ladakh:78",
+"name": "Kongmaru La",
+"district": "Leh",
+"state": "Ladakh",
+"category": "Pass"
+},
+{
+"k": "ladakh:82",
+"name": "Lungser Kangri",
+"district": "Leh",
+"state": "Ladakh",
+"category": "Summit trek"
+},
+{
+"k": "ladakh:83",
+"name": "Chamser Kangri",
+"district": "Leh",
+"state": "Ladakh",
+"category": "Summit trek"
+},
+{
+"k": "ladakh:86",
+"name": "Ganda La",
+"district": "Leh",
+"state": "Ladakh",
+"category": "Pass"
 },
 {
 "k": "lakshadweep:3",
@@ -5675,13 +5619,6 @@
 "district": "Chhatarpur",
 "state": "Madhya Pradesh",
 "category": "Waterfall"
-},
-{
-"k": "madhya-pradesh:4",
-"name": "Panna National Park",
-"district": "Panna",
-"state": "Madhya Pradesh",
-"category": "National park"
 },
 {
 "k": "madhya-pradesh:6",
@@ -5740,13 +5677,6 @@
 "category": "Heritage"
 },
 {
-"k": "madhya-pradesh:32",
-"name": "Mahakal Lok",
-"district": "Ujjain",
-"state": "Madhya Pradesh",
-"category": "Monument"
-},
-{
 "k": "madhya-pradesh:33",
 "name": "Ram Ghat, Ujjain",
 "district": "Ujjain",
@@ -5803,25 +5733,11 @@
 "category": "Food"
 },
 {
-"k": "madhya-pradesh:56",
-"name": "Tincha Falls",
-"district": "Indore",
-"state": "Madhya Pradesh",
-"category": "Waterfall"
-},
-{
 "k": "madhya-pradesh:58",
 "name": "Bhopal Upper Lake",
 "district": "Bhopal",
 "state": "Madhya Pradesh",
 "category": "Lake"
-},
-{
-"k": "madhya-pradesh:64",
-"name": "State Museum Bhopal",
-"district": "Bhopal",
-"state": "Madhya Pradesh",
-"category": "Museum"
 },
 {
 "k": "madhya-pradesh:65",
@@ -5850,13 +5766,6 @@
 "district": "Narmadapuram",
 "state": "Madhya Pradesh",
 "category": "Waterfall"
-},
-{
-"k": "madhya-pradesh:79",
-"name": "Dhoopgarh",
-"district": "Narmadapuram",
-"state": "Madhya Pradesh",
-"category": "Viewpoint"
 },
 {
 "k": "madhya-pradesh:80",
@@ -5948,13 +5857,6 @@
 "district": "Damoh",
 "state": "Madhya Pradesh",
 "category": "Temple"
-},
-{
-"k": "madhya-pradesh:112",
-"name": "Nauradehi (Veerangana Durgavati) Tiger Reserve",
-"district": "Sagar",
-"state": "Madhya Pradesh",
-"category": "Wildlife"
 },
 {
 "k": "madhya-pradesh:116",
@@ -6146,13 +6048,6 @@
 "category": "Temple"
 },
 {
-"k": "madhya-pradesh:171",
-"name": "Singorgarh Fort",
-"district": "Damoh",
-"state": "Madhya Pradesh",
-"category": "Fort"
-},
-{
 "k": "madhya-pradesh:173",
 "name": "Rajrajeshwari Mata Temple, Shajapur",
 "district": "Shajapur",
@@ -6195,32 +6090,32 @@
 "category": "Temple"
 },
 {
+"k": "madhya-pradesh:182",
+"name": "Chauragarh",
+"district": "Narmadapuram",
+"state": "Madhya Pradesh",
+"category": "Hike"
+},
+{
+"k": "madhya-pradesh:183",
+"name": "Bada Mahadeo & Gupt Mahadeo",
+"district": "Narmadapuram",
+"state": "Madhya Pradesh",
+"category": "Hike"
+},
+{
+"k": "madhya-pradesh:186",
+"name": "Sukhadia Shop, Bhopal",
+"district": "Bhopal",
+"state": "Madhya Pradesh",
+"category": "Food street"
+},
+{
 "k": "maharashtra:5",
 "name": "CSMVS Museum",
 "district": "Mumbai City",
 "state": "Maharashtra",
 "category": "Museum"
-},
-{
-"k": "maharashtra:15",
-"name": "Bhau Daji Lad Museum",
-"district": "Mumbai City",
-"state": "Maharashtra",
-"category": "Museum"
-},
-{
-"k": "maharashtra:26",
-"name": "Alibaug",
-"district": "Raigad",
-"state": "Maharashtra",
-"category": "Beach"
-},
-{
-"k": "maharashtra:42",
-"name": "Pawna Lake",
-"district": "Pune",
-"state": "Maharashtra",
-"category": "Lake"
 },
 {
 "k": "maharashtra:74",
@@ -6235,13 +6130,6 @@
 "district": "Sangli",
 "state": "Maharashtra",
 "category": "Temple"
-},
-{
-"k": "maharashtra:78",
-"name": "Ratnadurg & Thibaw Palace",
-"district": "Ratnagiri",
-"state": "Maharashtra",
-"category": "Heritage"
 },
 {
 "k": "maharashtra:79",
@@ -6265,34 +6153,6 @@
 "category": "Beach"
 },
 {
-"k": "maharashtra:93",
-"name": "Kunkeshwar Temple",
-"district": "Sindhudurg",
-"state": "Maharashtra",
-"category": "Temple"
-},
-{
-"k": "maharashtra:99",
-"name": "Grishneshwar Temple",
-"district": "Chhatrapati Sambhajinagar",
-"state": "Maharashtra",
-"category": "Temple"
-},
-{
-"k": "maharashtra:105",
-"name": "Nashik Ramkund & Panchavati",
-"district": "Nashik",
-"state": "Maharashtra",
-"category": "Temple"
-},
-{
-"k": "maharashtra:108",
-"name": "Pandavleni Caves",
-"district": "Nashik",
-"state": "Maharashtra",
-"category": "Caves"
-},
-{
 "k": "maharashtra:109",
 "name": "Hatgad Fort",
 "district": "Nashik",
@@ -6305,20 +6165,6 @@
 "district": "Ahilyanagar",
 "state": "Maharashtra",
 "category": "Trek"
-},
-{
-"k": "maharashtra:120",
-"name": "Solapur Bhuikot Fort",
-"district": "Solapur",
-"state": "Maharashtra",
-"category": "Fort"
-},
-{
-"k": "maharashtra:130",
-"name": "Kharosa Caves",
-"district": "Latur",
-"state": "Maharashtra",
-"category": "Caves"
 },
 {
 "k": "maharashtra:132",
@@ -6412,13 +6258,6 @@
 "category": "Craft"
 },
 {
-"k": "maharashtra:163",
-"name": "Yeoor Hills",
-"district": "Thane",
-"state": "Maharashtra",
-"category": "Wildlife"
-},
-{
 "k": "maharashtra:165",
 "name": "Ambernath Shiva Temple",
 "district": "Thane",
@@ -6475,13 +6314,6 @@
 "category": "Temple"
 },
 {
-"k": "maharashtra:184",
-"name": "Narnala Fort",
-"district": "Akola",
-"state": "Maharashtra",
-"category": "Fort"
-},
-{
 "k": "maharashtra:186",
 "name": "Rajur Ganpati",
 "district": "Jalna",
@@ -6489,11 +6321,95 @@
 "category": "Temple"
 },
 {
-"k": "manipur:2",
-"name": "Ima Keithel",
-"district": "Imphal West",
-"state": "Manipur",
-"category": "Market"
+"k": "maharashtra:203",
+"name": "Panhala to Pavankhind",
+"district": "Kolhapur",
+"state": "Maharashtra",
+"category": "Trek"
+},
+{
+"k": "maharashtra:212",
+"name": "Andharban",
+"district": "Pune",
+"state": "Maharashtra",
+"category": "Hike"
+},
+{
+"k": "maharashtra:215",
+"name": "Duke's Nose (Nagphani)",
+"district": "Pune",
+"state": "Maharashtra",
+"category": "Hike"
+},
+{
+"k": "maharashtra:217",
+"name": "Chanderi",
+"district": "Thane",
+"state": "Maharashtra",
+"category": "Hike"
+},
+{
+"k": "maharashtra:219",
+"name": "Bhairavgad (Moroshi)",
+"district": "Thane",
+"state": "Maharashtra",
+"category": "Trek"
+},
+{
+"k": "maharashtra:221",
+"name": "Tailbaila",
+"district": "Pune",
+"state": "Maharashtra",
+"category": "Hike"
+},
+{
+"k": "maharashtra:222",
+"name": "Kenjalgad",
+"district": "Pune",
+"state": "Maharashtra",
+"category": "Hike"
+},
+{
+"k": "maharashtra:231",
+"name": "Aundha & Patta",
+"district": "Nashik",
+"state": "Maharashtra",
+"category": "Trek"
+},
+{
+"k": "maharashtra:232",
+"name": "Hatgad",
+"district": "Nashik",
+"state": "Maharashtra",
+"category": "Hike"
+},
+{
+"k": "maharashtra:238",
+"name": "Konkan Coastal Road",
+"district": "Ratnagiri",
+"state": "Maharashtra",
+"category": "Great drive"
+},
+{
+"k": "maharashtra:240",
+"name": "Mahad Varadvinayak",
+"district": "Raigad",
+"state": "Maharashtra",
+"category": "Temple"
+},
+{
+"k": "maharashtra:245",
+"name": "Kyani & Co",
+"district": "Mumbai City",
+"state": "Maharashtra",
+"category": "Irani café"
+},
+{
+"k": "maharashtra:251",
+"name": "Randha Falls",
+"district": "Ahilyanagar",
+"state": "Maharashtra",
+"category": "Waterfall"
 },
 {
 "k": "manipur:7",
@@ -6580,13 +6496,6 @@
 "category": "Lake"
 },
 {
-"k": "manipur:28",
-"name": "Ikop Lake",
-"district": "Thoubal",
-"state": "Manipur",
-"category": "Lake"
-},
-{
 "k": "manipur:30",
 "name": "Kakching Garden",
 "district": "Kakching",
@@ -6648,6 +6557,13 @@
 "district": "Bishnupur",
 "state": "Manipur",
 "category": "Waterfall"
+},
+{
+"k": "manipur:51",
+"name": "Thang-Ta Martial Arts",
+"district": "Imphal West",
+"state": "Manipur",
+"category": "Performance"
 },
 {
 "k": "meghalaya:2",
@@ -6986,6 +6902,20 @@
 "category": "Lake"
 },
 {
+"k": "meghalaya:82",
+"name": "Nongkhnum Island",
+"district": "West Khasi Hills",
+"state": "Meghalaya",
+"category": "Hike"
+},
+{
+"k": "meghalaya:83",
+"name": "Mawryngkhang Trek",
+"district": "East Khasi Hills",
+"state": "Meghalaya",
+"category": "Hike"
+},
+{
 "k": "mizoram:1",
 "name": "Aizawl Ridge City",
 "district": "Aizawl",
@@ -7026,13 +6956,6 @@
 "district": "Champhai",
 "state": "Mizoram",
 "category": "Cave"
-},
-{
-"k": "mizoram:18",
-"name": "Saiha",
-"district": "Saiha",
-"state": "Mizoram",
-"category": "Town"
 },
 {
 "k": "mizoram:25",
@@ -7091,20 +7014,6 @@
 "category": "Lake"
 },
 {
-"k": "nagaland:5",
-"name": "Japfu Peak",
-"district": "Kohima",
-"state": "Nagaland",
-"category": "Trek"
-},
-{
-"k": "nagaland:7",
-"name": "Kohima Cathedral",
-"district": "Kohima",
-"state": "Nagaland",
-"category": "Church"
-},
-{
 "k": "nagaland:8",
 "name": "Kohima Keel Market",
 "district": "Kohima",
@@ -7122,13 +7031,6 @@
 "k": "nagaland:11",
 "name": "Dzulekie",
 "district": "Kohima",
-"state": "Nagaland",
-"category": "Village"
-},
-{
-"k": "nagaland:16",
-"name": "Longkhum",
-"district": "Mokokchung",
 "state": "Nagaland",
 "category": "Village"
 },
@@ -7189,13 +7091,6 @@
 "category": "River"
 },
 {
-"k": "nagaland:29",
-"name": "Zunheboto",
-"district": "Zunheboto",
-"state": "Nagaland",
-"category": "Town"
-},
-{
 "k": "nagaland:30",
 "name": "Ghosu Bird Sanctuary",
 "district": "Zunheboto",
@@ -7210,25 +7105,11 @@
 "category": "Forest"
 },
 {
-"k": "nagaland:35",
-"name": "Pfutsero",
-"district": "Phek",
-"state": "Nagaland",
-"category": "Town"
-},
-{
 "k": "nagaland:36",
 "name": "Glory Peak",
 "district": "Phek",
 "state": "Nagaland",
 "category": "Viewpoint"
-},
-{
-"k": "nagaland:43",
-"name": "Chumoukedima",
-"district": "Chumoukedima",
-"state": "Nagaland",
-"category": "Town"
 },
 {
 "k": "nagaland:44",
@@ -7266,13 +7147,6 @@
 "category": "Wildlife"
 },
 {
-"k": "nagaland:50",
-"name": "Tseminyu",
-"district": "Tseminyu",
-"state": "Nagaland",
-"category": "Town"
-},
-{
 "k": "nagaland:51",
 "name": "Dikhu River, Longleng",
 "district": "Longleng",
@@ -7297,13 +7171,6 @@
 "k": "odisha:11",
 "name": "Sakshigopal",
 "district": "Puri",
-"state": "Odisha",
-"category": "Temple"
-},
-{
-"k": "odisha:13",
-"name": "Lingaraj Temple",
-"district": "Khordha",
 "state": "Odisha",
 "category": "Temple"
 },
@@ -7427,13 +7294,6 @@
 "category": "Waterfall"
 },
 {
-"k": "odisha:62",
-"name": "Lalitgiri",
-"district": "Cuttack",
-"state": "Odisha",
-"category": "Heritage"
-},
-{
 "k": "odisha:64",
 "name": "Langudi Hill",
 "district": "Jajpur",
@@ -7455,34 +7315,6 @@
 "category": "Craft"
 },
 {
-"k": "odisha:70",
-"name": "Ansupa Lake",
-"district": "Cuttack",
-"state": "Odisha",
-"category": "Lake"
-},
-{
-"k": "odisha:79",
-"name": "Talsari Beach",
-"district": "Balasore",
-"state": "Odisha",
-"category": "Beach"
-},
-{
-"k": "odisha:80",
-"name": "Kuldiha Sanctuary",
-"district": "Balasore",
-"state": "Odisha",
-"category": "Wildlife"
-},
-{
-"k": "odisha:84",
-"name": "Samaleswari Temple",
-"district": "Sambalpur",
-"state": "Odisha",
-"category": "Temple"
-},
-{
 "k": "odisha:86",
 "name": "Sambalpuri Ikat Weavers",
 "district": "Bargarh",
@@ -7495,20 +7327,6 @@
 "district": "Debagarh",
 "state": "Odisha",
 "category": "Waterfall"
-},
-{
-"k": "odisha:89",
-"name": "Ranipur-Jharial",
-"district": "Balangir",
-"state": "Odisha",
-"category": "Temple"
-},
-{
-"k": "odisha:91",
-"name": "Nrusinghanath",
-"district": "Bargarh",
-"state": "Odisha",
-"category": "Temple"
 },
 {
 "k": "odisha:95",
@@ -7558,13 +7376,6 @@
 "district": "Ganjam",
 "state": "Odisha",
 "category": "Fort"
-},
-{
-"k": "odisha:108",
-"name": "Karlapat Sanctuary",
-"district": "Kalahandi",
-"state": "Odisha",
-"category": "Wildlife"
 },
 {
 "k": "odisha:109",
@@ -7630,13 +7441,6 @@
 "category": "Fort"
 },
 {
-"k": "odisha:128",
-"name": "Chandbali",
-"district": "Bhadrak",
-"state": "Odisha",
-"category": "River port"
-},
-{
 "k": "odisha:129",
 "name": "Satiguda Dam",
 "district": "Malkangiri",
@@ -7686,32 +7490,32 @@
 "category": "Temple"
 },
 {
-"k": "odisha:140",
-"name": "Manikeswari Temple, Bhawanipatna",
-"district": "Kalahandi",
-"state": "Odisha",
-"category": "Temple"
-},
-{
-"k": "odisha:141",
-"name": "Junagarh",
-"district": "Kalahandi",
-"state": "Odisha",
-"category": "Heritage town"
-},
-{
-"k": "odisha:142",
-"name": "Devkund",
-"district": "Mayurbhanj",
-"state": "Odisha",
-"category": "Waterfall"
-},
-{
 "k": "odisha:145",
 "name": "Hingula Pitha",
 "district": "Angul",
 "state": "Odisha",
 "category": "Temple"
+},
+{
+"k": "odisha:146",
+"name": "Kapilas Hill",
+"district": "Dhenkanal",
+"state": "Odisha",
+"category": "Hike"
+},
+{
+"k": "odisha:148",
+"name": "Meghasani",
+"district": "Mayurbhanj",
+"state": "Odisha",
+"category": "Summit trek"
+},
+{
+"k": "odisha:150",
+"name": "Dahibara Aludum, Cuttack",
+"district": "Cuttack",
+"state": "Odisha",
+"category": "Street food"
 },
 {
 "k": "puducherry:6",
@@ -7784,13 +7588,6 @@
 "category": "Food"
 },
 {
-"k": "punjab:12",
-"name": "Ram Tirath",
-"district": "Amritsar",
-"state": "Punjab",
-"category": "Temple"
-},
-{
 "k": "punjab:28",
 "name": "Sheesh Mahal, Patiala",
 "district": "Patiala",
@@ -7810,13 +7607,6 @@
 "district": "Patiala",
 "state": "Punjab",
 "category": "Market"
-},
-{
-"k": "punjab:34",
-"name": "Chhatbir Zoo",
-"district": "SAS Nagar",
-"state": "Punjab",
-"category": "Wildlife"
 },
 {
 "k": "punjab:35",
@@ -7875,13 +7665,6 @@
 "category": "Museum"
 },
 {
-"k": "punjab:50",
-"name": "Bathinda Fort (Qila Mubarak)",
-"district": "Bathinda",
-"state": "Punjab",
-"category": "Fort"
-},
-{
 "k": "punjab:52",
 "name": "Bathinda Lakes",
 "district": "Bathinda",
@@ -7894,13 +7677,6 @@
 "district": "Sri Muktsar Sahib",
 "state": "Punjab",
 "category": "Gurdwara"
-},
-{
-"k": "punjab:54",
-"name": "Faridkot Fort",
-"district": "Faridkot",
-"state": "Punjab",
-"category": "Fort"
 },
 {
 "k": "punjab:55",
@@ -7936,6 +7712,13 @@
 "district": "Gurdaspur",
 "state": "Punjab",
 "category": "Viewpoint"
+},
+{
+"k": "punjab:64",
+"name": "Achal Sahib, Batala",
+"district": "Gurdaspur",
+"state": "Punjab",
+"category": "Gurdwara"
 },
 {
 "k": "punjab:65",
@@ -8064,6 +7847,13 @@
 "category": "Gurdwara"
 },
 {
+"k": "punjab:98",
+"name": "Bharawan Da Dhaba",
+"district": "Amritsar",
+"state": "Punjab",
+"category": "Dhaba"
+},
+{
 "k": "rajasthan:7",
 "name": "Panna Meena ka Kund",
 "district": "Jaipur",
@@ -8090,13 +7880,6 @@
 "district": "Jaipur",
 "state": "Rajasthan",
 "category": "Culture"
-},
-{
-"k": "rajasthan:24",
-"name": "Bala Quila, Alwar",
-"district": "Alwar",
-"state": "Rajasthan",
-"category": "Fort"
 },
 {
 "k": "rajasthan:25",
@@ -8155,13 +7938,6 @@
 "category": "Temple"
 },
 {
-"k": "rajasthan:40",
-"name": "Shri Mahavirji",
-"district": "Karauli",
-"state": "Rajasthan",
-"category": "Temple"
-},
-{
 "k": "rajasthan:49",
 "name": "Bishnoi Villages",
 "district": "Jodhpur",
@@ -8211,13 +7987,6 @@
 "category": "Temple"
 },
 {
-"k": "rajasthan:68",
-"name": "National Research Centre on Camel",
-"district": "Bikaner",
-"state": "Rajasthan",
-"category": "Farm"
-},
-{
 "k": "rajasthan:69",
 "name": "Rampuria Havelis",
 "district": "Bikaner",
@@ -8230,13 +7999,6 @@
 "district": "Churu",
 "state": "Rajasthan",
 "category": "Heritage"
-},
-{
-"k": "rajasthan:81",
-"name": "Ajmer Sharif Dargah",
-"district": "Ajmer",
-"state": "Rajasthan",
-"category": "Dargah"
 },
 {
 "k": "rajasthan:85",
@@ -8267,46 +8029,11 @@
 "category": "Fort"
 },
 {
-"k": "rajasthan:95",
-"name": "Jawai",
-"district": "Pali",
-"state": "Rajasthan",
-"category": "Wildlife"
-},
-{
 "k": "rajasthan:102",
 "name": "Udaipur City Palace",
 "district": "Udaipur",
 "state": "Rajasthan",
 "category": "Heritage"
-},
-{
-"k": "rajasthan:104",
-"name": "Jag Mandir",
-"district": "Udaipur",
-"state": "Rajasthan",
-"category": "Heritage"
-},
-{
-"k": "rajasthan:110",
-"name": "Shilpgram Udaipur",
-"district": "Udaipur",
-"state": "Rajasthan",
-"category": "Culture"
-},
-{
-"k": "rajasthan:112",
-"name": "Jaisamand Lake",
-"district": "Salumbar",
-"state": "Rajasthan",
-"category": "Lake"
-},
-{
-"k": "rajasthan:113",
-"name": "Chittorgarh Fort",
-"district": "Chittorgarh",
-"state": "Rajasthan",
-"category": "Fort"
 },
 {
 "k": "rajasthan:114",
@@ -8386,13 +8113,6 @@
 "category": "Caves"
 },
 {
-"k": "rajasthan:137",
-"name": "Shahabad Fort",
-"district": "Baran",
-"state": "Rajasthan",
-"category": "Fort"
-},
-{
 "k": "rajasthan:138",
 "name": "Sitabari",
 "district": "Baran",
@@ -8405,13 +8125,6 @@
 "district": "Sirohi",
 "state": "Rajasthan",
 "category": "Viewpoint"
-},
-{
-"k": "rajasthan:146",
-"name": "Jalore Fort",
-"district": "Jalore",
-"state": "Rajasthan",
-"category": "Fort"
 },
 {
 "k": "rajasthan:150",
@@ -8575,6 +8288,76 @@
 "category": "Stepwell"
 },
 {
+"k": "rajasthan:207",
+"name": "Adhar Devi",
+"district": "Sirohi",
+"state": "Rajasthan",
+"category": "Hike"
+},
+{
+"k": "rajasthan:208",
+"name": "Kumbhalgarh to Ranakpur",
+"district": "Rajsamand",
+"state": "Rajasthan",
+"category": "Trek"
+},
+{
+"k": "rajasthan:209",
+"name": "Dholpur-Karauli Tiger Reserve",
+"district": "Dholpur",
+"state": "Rajasthan",
+"category": "Tiger reserve"
+},
+{
+"k": "rajasthan:210",
+"name": "Menar",
+"district": "Udaipur",
+"state": "Rajasthan",
+"category": "Ramsar wetland"
+},
+{
+"k": "rajasthan:211",
+"name": "Kot Jewar Blue Pottery",
+"district": "Jaipur",
+"state": "Rajasthan",
+"category": "Craft village"
+},
+{
+"k": "rajasthan:212",
+"name": "Molela",
+"district": "Rajsamand",
+"state": "Rajasthan",
+"category": "Craft village"
+},
+{
+"k": "rajasthan:213",
+"name": "Laxmi Misthan Bhandar, Johari Bazaar",
+"district": "Jaipur",
+"state": "Rajasthan",
+"category": "Sweet shop"
+},
+{
+"k": "rajasthan:214",
+"name": "Rawat Mishthan Bhandar",
+"district": "Jaipur",
+"state": "Rajasthan",
+"category": "Snack shop"
+},
+{
+"k": "rajasthan:215",
+"name": "Janta Sweet Home, Jodhpur",
+"district": "Jodhpur",
+"state": "Rajasthan",
+"category": "Snack shop"
+},
+{
+"k": "rajasthan:216",
+"name": "Jawai Leopard Hills",
+"district": "Pali",
+"state": "Rajasthan",
+"category": "Wildlife"
+},
+{
 "k": "sikkim:1",
 "name": "MG Marg",
 "district": "Gangtok",
@@ -8601,20 +8384,6 @@
 "district": "Gangtok",
 "state": "Sikkim",
 "category": "Garden"
-},
-{
-"k": "sikkim:13",
-"name": "Baba Harbhajan Singh Mandir",
-"district": "Gangtok",
-"state": "Sikkim",
-"category": "Memorial"
-},
-{
-"k": "sikkim:15",
-"name": "Zuluk",
-"district": "Pakyong",
-"state": "Sikkim",
-"category": "Village"
 },
 {
 "k": "sikkim:19",
@@ -8722,13 +8491,6 @@
 "category": "Hot spring"
 },
 {
-"k": "sikkim:61",
-"name": "Rosy Ridge (Ralang)",
-"district": "Namchi",
-"state": "Sikkim",
-"category": "Monastery"
-},
-{
 "k": "sikkim:62",
 "name": "Kewzing",
 "district": "Namchi",
@@ -8757,6 +8519,55 @@
 "category": "Wildlife"
 },
 {
+"k": "sikkim:79",
+"name": "Kanchenjunga Base Camp (Green Lake)",
+"district": "Mangan",
+"state": "Sikkim",
+"category": "Trek"
+},
+{
+"k": "sikkim:83",
+"name": "Yuksom to Tshoka",
+"district": "Gyalshing",
+"state": "Sikkim",
+"category": "Trek"
+},
+{
+"k": "sikkim:84",
+"name": "Lampokhari Lake",
+"district": "Pakyong",
+"state": "Sikkim",
+"category": "Hike"
+},
+{
+"k": "sikkim:86",
+"name": "Jopuno",
+"district": "Gyalshing",
+"state": "Sikkim",
+"category": "Summit trek"
+},
+{
+"k": "sikkim:88",
+"name": "Kangchengyao",
+"district": "Mangan",
+"state": "Sikkim",
+"category": "Peak"
+},
+{
+"k": "sikkim:89",
+"name": "Thangshing & Samiti Lake",
+"district": "Gyalshing",
+"state": "Sikkim",
+"category": "Trek"
+},
+{
+"k": "sikkim:90",
+"name": "Sebu La",
+"district": "Mangan",
+"state": "Sikkim",
+"category": "Pass"
+},
+{
 "k": "tamil-nadu:9",
 "name": "Athangudi Tile Workshops",
 "district": "Sivaganga",
@@ -8769,13 +8580,6 @@
 "district": "Sivaganga",
 "state": "Tamil Nadu",
 "category": "Temple"
-},
-{
-"k": "tamil-nadu:16",
-"name": "APJ Abdul Kalam Memorial",
-"district": "Ramanathapuram",
-"state": "Tamil Nadu",
-"category": "Memorial"
 },
 {
 "k": "tamil-nadu:17",
@@ -8804,13 +8608,6 @@
 "district": "Kanniyakumari",
 "state": "Tamil Nadu",
 "category": "Town"
-},
-{
-"k": "tamil-nadu:25",
-"name": "Mathur Hanging Bridge",
-"district": "Kanniyakumari",
-"state": "Tamil Nadu",
-"category": "Engineering"
 },
 {
 "k": "tamil-nadu:39",
@@ -8848,13 +8645,6 @@
 "category": "Garden"
 },
 {
-"k": "tamil-nadu:49",
-"name": "Dindigul Fort",
-"district": "Dindigul",
-"state": "Tamil Nadu",
-"category": "Fort"
-},
-{
 "k": "tamil-nadu:62",
 "name": "Kovai Kutralam",
 "district": "Coimbatore",
@@ -8869,32 +8659,11 @@
 "category": "Museum"
 },
 {
-"k": "tamil-nadu:83",
-"name": "Kallanai (Grand Anicut)",
-"district": "Thanjavur",
-"state": "Tamil Nadu",
-"category": "Engineering"
-},
-{
-"k": "tamil-nadu:96",
-"name": "Thirukazhukundram",
-"district": "Chengalpattu",
-"state": "Tamil Nadu",
-"category": "Temple"
-},
-{
 "k": "tamil-nadu:102",
 "name": "Kanchipuram Silk Weavers",
 "district": "Kanchipuram",
 "state": "Tamil Nadu",
 "category": "Craft"
-},
-{
-"k": "tamil-nadu:107",
-"name": "San Thome Basilica",
-"district": "Chennai",
-"state": "Tamil Nadu",
-"category": "Church"
 },
 {
 "k": "tamil-nadu:121",
@@ -8918,27 +8687,6 @@
 "category": "Heritage"
 },
 {
-"k": "tamil-nadu:142",
-"name": "Kazhugumalai",
-"district": "Thoothukudi",
-"state": "Tamil Nadu",
-"category": "Temple"
-},
-{
-"k": "tamil-nadu:150",
-"name": "Bodinayakanur",
-"district": "Theni",
-"state": "Tamil Nadu",
-"category": "Hill station"
-},
-{
-"k": "tamil-nadu:152",
-"name": "Bhavani Sagar Dam",
-"district": "Erode",
-"state": "Tamil Nadu",
-"category": "Lake"
-},
-{
 "k": "tamil-nadu:160",
 "name": "Kalyana Pasupatheeswarar Temple",
 "district": "Karur",
@@ -8953,13 +8701,6 @@
 "category": "Hill station"
 },
 {
-"k": "tamil-nadu:171",
-"name": "Chettinad Cuisine",
-"district": "Sivaganga",
-"state": "Tamil Nadu",
-"category": "Food"
-},
-{
 "k": "tamil-nadu:176",
 "name": "Sholingur Narasimha Temple",
 "district": "Ranipet",
@@ -8972,6 +8713,55 @@
 "district": "Tirupattur",
 "state": "Tamil Nadu",
 "category": "Waterfall"
+},
+{
+"k": "tamil-nadu:184",
+"name": "Parvathamalai",
+"district": "Tiruvannamalai",
+"state": "Tamil Nadu",
+"category": "Hike"
+},
+{
+"k": "tamil-nadu:185",
+"name": "Kurangani–Top Station",
+"district": "Theni",
+"state": "Tamil Nadu",
+"category": "Trek"
+},
+{
+"k": "tamil-nadu:188",
+"name": "Vattakanal Walks",
+"district": "Dindigul",
+"state": "Tamil Nadu",
+"category": "Hike"
+},
+{
+"k": "tamil-nadu:191",
+"name": "Bear Shola Falls",
+"district": "Dindigul",
+"state": "Tamil Nadu",
+"category": "Hike"
+},
+{
+"k": "tamil-nadu:193",
+"name": "Thalaiyar Falls View",
+"district": "Dindigul",
+"state": "Tamil Nadu",
+"category": "Hike"
+},
+{
+"k": "tamil-nadu:199",
+"name": "Longwood Shola",
+"district": "Nilgiris",
+"state": "Tamil Nadu",
+"category": "Ramsar wetland"
+},
+{
+"k": "tamil-nadu:207",
+"name": "Amma Mess, Madurai",
+"district": "Madurai",
+"state": "Tamil Nadu",
+"category": "Mess"
 },
 {
 "k": "telangana:3",
@@ -8995,13 +8785,6 @@
 "category": "Waterfall"
 },
 {
-"k": "telangana:34",
-"name": "Warangal Fort",
-"district": "Warangal",
-"state": "Telangana",
-"category": "Fort"
-},
-{
 "k": "telangana:39",
 "name": "Ghanpur Temples",
 "district": "Jayashankar Bhupalpally",
@@ -9014,13 +8797,6 @@
 "district": "Bhadradri Kothagudem",
 "state": "Telangana",
 "category": "Wildlife"
-},
-{
-"k": "telangana:46",
-"name": "Panagal Temples",
-"district": "Nalgonda",
-"state": "Telangana",
-"category": "Temple"
 },
 {
 "k": "telangana:47",
@@ -9058,13 +8834,6 @@
 "category": "Viewpoint"
 },
 {
-"k": "telangana:54",
-"name": "Umamaheswaram",
-"district": "Nagarkurnool",
-"state": "Telangana",
-"category": "Temple"
-},
-{
 "k": "telangana:59",
 "name": "Nirmal Toys & Paintings",
 "district": "Nirmal",
@@ -9091,13 +8860,6 @@
 "district": "Adilabad",
 "state": "Telangana",
 "category": "Temple"
-},
-{
-"k": "telangana:66",
-"name": "Karimnagar Silver Filigree",
-"district": "Karimnagar",
-"state": "Telangana",
-"category": "Craft"
 },
 {
 "k": "telangana:69",
@@ -9205,6 +8967,13 @@
 "category": "Fort"
 },
 {
+"k": "telangana:111",
+"name": "Nimrah Cafe & Bakery",
+"district": "Hyderabad",
+"state": "Telangana",
+"category": "Irani café"
+},
+{
 "k": "tripura:7",
 "name": "Dumboor Lake",
 "district": "Dhalai",
@@ -9224,13 +8993,6 @@
 "district": "Gomati",
 "state": "Tripura",
 "category": "Temple"
-},
-{
-"k": "tripura:14",
-"name": "Tripura Government Museum",
-"district": "West Tripura",
-"state": "Tripura",
-"category": "Museum"
 },
 {
 "k": "tripura:16",
@@ -9289,11 +9051,18 @@
 "category": "Tea estate"
 },
 {
-"k": "uttar-pradesh:8",
-"name": "Agra Petha & Bedai Trail",
-"district": "Agra",
-"state": "Uttar Pradesh",
-"category": "Food"
+"k": "tripura:29",
+"name": "Betlingshib",
+"district": "North Tripura",
+"state": "Tripura",
+"category": "Summit trek"
+},
+{
+"k": "tripura:30",
+"name": "Bison (Rajbari) National Park",
+"district": "Gomati",
+"state": "Tripura",
+"category": "National park"
 },
 {
 "k": "uttar-pradesh:26",
@@ -9345,32 +9114,11 @@
 "category": "Museum"
 },
 {
-"k": "uttar-pradesh:44",
-"name": "Anand Bhawan",
-"district": "Prayagraj",
-"state": "Uttar Pradesh",
-"category": "Museum"
-},
-{
 "k": "uttar-pradesh:50",
 "name": "Kaushambi",
 "district": "Kaushambi",
 "state": "Uttar Pradesh",
 "category": "Heritage"
-},
-{
-"k": "uttar-pradesh:51",
-"name": "Ram Janmabhoomi Mandir",
-"district": "Ayodhya",
-"state": "Uttar Pradesh",
-"category": "Temple"
-},
-{
-"k": "uttar-pradesh:52",
-"name": "Hanuman Garhi",
-"district": "Ayodhya",
-"state": "Uttar Pradesh",
-"category": "Temple"
 },
 {
 "k": "uttar-pradesh:55",
@@ -9401,25 +9149,11 @@
 "category": "Heritage"
 },
 {
-"k": "uttar-pradesh:67",
-"name": "Lucknow Zoo",
-"district": "Lucknow",
-"state": "Uttar Pradesh",
-"category": "Wildlife"
-},
-{
 "k": "uttar-pradesh:69",
 "name": "Kanpur Allen Forest Zoo",
 "district": "Kanpur Nagar",
 "state": "Uttar Pradesh",
 "category": "Wildlife"
-},
-{
-"k": "uttar-pradesh:72",
-"name": "Naimisharanya",
-"district": "Sitapur",
-"state": "Uttar Pradesh",
-"category": "Temple"
 },
 {
 "k": "uttar-pradesh:75",
@@ -9429,25 +9163,11 @@
 "category": "Temple"
 },
 {
-"k": "uttar-pradesh:76",
-"name": "Pilibhit Tiger Reserve",
-"district": "Pilibhit",
-"state": "Uttar Pradesh",
-"category": "Wildlife"
-},
-{
 "k": "uttar-pradesh:81",
 "name": "Sankisa",
 "district": "Farrukhabad",
 "state": "Uttar Pradesh",
 "category": "Heritage"
-},
-{
-"k": "uttar-pradesh:82",
-"name": "Gorakhnath Temple",
-"district": "Gorakhpur",
-"state": "Uttar Pradesh",
-"category": "Temple"
 },
 {
 "k": "uttar-pradesh:84",
@@ -9485,25 +9205,11 @@
 "category": "Craft"
 },
 {
-"k": "uttar-pradesh:94",
-"name": "Lakh Bahosi Bird Sanctuary",
-"district": "Kannauj",
-"state": "Uttar Pradesh",
-"category": "Wetland"
-},
-{
 "k": "uttar-pradesh:98",
 "name": "Chambal Sanctuary Etawah",
 "district": "Etawah",
 "state": "Uttar Pradesh",
 "category": "Wildlife"
-},
-{
-"k": "uttar-pradesh:102",
-"name": "Garh Mukteshwar",
-"district": "Hapur",
-"state": "Uttar Pradesh",
-"category": "River"
 },
 {
 "k": "uttar-pradesh:103",
@@ -9518,13 +9224,6 @@
 "district": "Saharanpur",
 "state": "Uttar Pradesh",
 "category": "Craft"
-},
-{
-"k": "uttar-pradesh:106",
-"name": "Rampur Raza Library",
-"district": "Rampur",
-"state": "Uttar Pradesh",
-"category": "Museum"
 },
 {
 "k": "uttar-pradesh:107",
@@ -9639,13 +9338,6 @@
 "category": "Craft"
 },
 {
-"k": "uttar-pradesh:147",
-"name": "Sohagibarwa Wildlife Sanctuary",
-"district": "Mahrajganj",
-"state": "Uttar Pradesh",
-"category": "Wildlife"
-},
-{
 "k": "uttar-pradesh:148",
 "name": "Prithvinath Temple",
 "district": "Gonda",
@@ -9662,13 +9354,6 @@
 {
 "k": "uttar-pradesh:151",
 "name": "Bhakti Dham, Mangarh",
-"district": "Pratapgarh",
-"state": "Uttar Pradesh",
-"category": "Temple"
-},
-{
-"k": "uttar-pradesh:152",
-"name": "Bela Devi Temple",
 "district": "Pratapgarh",
 "state": "Uttar Pradesh",
 "category": "Temple"
@@ -9744,6 +9429,34 @@
 "category": "Memorial"
 },
 {
+"k": "uttar-pradesh:167",
+"name": "Ranipur Tiger Reserve",
+"district": "Chitrakoot",
+"state": "Uttar Pradesh",
+"category": "Tiger reserve"
+},
+{
+"k": "uttar-pradesh:171",
+"name": "Upper Ganga (Brijghat to Narora)",
+"district": "Hapur",
+"state": "Uttar Pradesh",
+"category": "Ramsar wetland"
+},
+{
+"k": "uttar-pradesh:172",
+"name": "Tunday Kababi, Aminabad",
+"district": "Lucknow",
+"state": "Uttar Pradesh",
+"category": "Kebab shop"
+},
+{
+"k": "uttar-pradesh:173",
+"name": "Pahalwan Lassi, Lanka",
+"district": "Varanasi",
+"state": "Uttar Pradesh",
+"category": "Lassi shop"
+},
+{
 "k": "uttarakhand:5",
 "name": "Gaumukh Trek",
 "district": "Uttarkashi",
@@ -9770,13 +9483,6 @@
 "district": "Uttarkashi",
 "state": "Uttarakhand",
 "category": "Trek"
-},
-{
-"k": "uttarakhand:14",
-"name": "Govind Pashu Vihar",
-"district": "Uttarkashi",
-"state": "Uttarakhand",
-"category": "National park"
 },
 {
 "k": "uttarakhand:15",
@@ -9807,13 +9513,6 @@
 "category": "Meadow"
 },
 {
-"k": "uttarakhand:29",
-"name": "Deoriatal",
-"district": "Rudraprayag",
-"state": "Uttarakhand",
-"category": "Lake"
-},
-{
 "k": "uttarakhand:30",
 "name": "Kartik Swami",
 "district": "Rudraprayag",
@@ -9824,13 +9523,6 @@
 "k": "uttarakhand:36",
 "name": "Rudraprayag Sangam",
 "district": "Rudraprayag",
-"state": "Uttarakhand",
-"category": "River"
-},
-{
-"k": "uttarakhand:38",
-"name": "Nandprayag",
-"district": "Chamoli",
 "state": "Uttarakhand",
 "category": "River"
 },
@@ -9868,13 +9560,6 @@
 "district": "Haridwar",
 "state": "Uttarakhand",
 "category": "Wildlife"
-},
-{
-"k": "uttarakhand:56",
-"name": "George Everest's House",
-"district": "Dehradun",
-"state": "Uttarakhand",
-"category": "Heritage"
 },
 {
 "k": "uttarakhand:57",
@@ -9947,13 +9632,6 @@
 "category": "Ashram"
 },
 {
-"k": "uttarakhand:100",
-"name": "Munsiyari",
-"district": "Pithoragarh",
-"state": "Uttarakhand",
-"category": "Hill station"
-},
-{
 "k": "uttarakhand:101",
 "name": "Khaliya Top",
 "district": "Pithoragarh",
@@ -9980,13 +9658,6 @@
 "district": "Pithoragarh",
 "state": "Uttarakhand",
 "category": "Fort"
-},
-{
-"k": "uttarakhand:112",
-"name": "Mayawati Ashram",
-"district": "Champawat",
-"state": "Uttarakhand",
-"category": "Ashram"
 },
 {
 "k": "uttarakhand:114",
@@ -10038,13 +9709,6 @@
 "category": "Temple"
 },
 {
-"k": "uttarakhand:127",
-"name": "Gaurikund",
-"district": "Rudraprayag",
-"state": "Uttarakhand",
-"category": "Temple"
-},
-{
 "k": "uttarakhand:128",
 "name": "Chopta Meadows",
 "district": "Rudraprayag",
@@ -10087,13 +9751,6 @@
 "category": "Trek"
 },
 {
-"k": "uttarakhand:140",
-"name": "Piran Kaliyar Sharif",
-"district": "Haridwar",
-"state": "Uttarakhand",
-"category": "Dargah"
-},
-{
 "k": "uttarakhand:142",
 "name": "Doon Valley Tibetan Cafés & Clock Tower",
 "district": "Dehradun",
@@ -10115,11 +9772,144 @@
 "category": "Ashram"
 },
 {
-"k": "west-bengal:9",
-"name": "Kumartuli",
-"district": "Kolkata",
-"state": "West Bengal",
-"category": "Craft"
+"k": "uttarakhand:154",
+"name": "Bandarpunch",
+"district": "Uttarkashi",
+"state": "Uttarakhand",
+"category": "Peak"
+},
+{
+"k": "uttarakhand:157",
+"name": "Bali Pass",
+"district": "Uttarkashi",
+"state": "Uttarakhand",
+"category": "Pass"
+},
+{
+"k": "uttarakhand:158",
+"name": "Ruinsara Tal",
+"district": "Uttarkashi",
+"state": "Uttarakhand",
+"category": "Trek"
+},
+{
+"k": "uttarakhand:159",
+"name": "Phulara Ridge",
+"district": "Uttarkashi",
+"state": "Uttarakhand",
+"category": "Trek"
+},
+{
+"k": "uttarakhand:164",
+"name": "Darwa Top",
+"district": "Uttarkashi",
+"state": "Uttarakhand",
+"category": "Hike"
+},
+{
+"k": "uttarakhand:166",
+"name": "Bhrigu Pathar",
+"district": "Uttarkashi",
+"state": "Uttarakhand",
+"category": "Trek"
+},
+{
+"k": "uttarakhand:168",
+"name": "Sahastra Tal",
+"district": "Tehri Garhwal",
+"state": "Uttarakhand",
+"category": "Trek"
+},
+{
+"k": "uttarakhand:169",
+"name": "Masar Tal",
+"district": "Tehri Garhwal",
+"state": "Uttarakhand",
+"category": "Trek"
+},
+{
+"k": "uttarakhand:170",
+"name": "Vasuki Tal",
+"district": "Rudraprayag",
+"state": "Uttarakhand",
+"category": "Trek"
+},
+{
+"k": "uttarakhand:171",
+"name": "Madmaheshwar",
+"district": "Rudraprayag",
+"state": "Uttarakhand",
+"category": "Trek"
+},
+{
+"k": "uttarakhand:172",
+"name": "Panch Kedar Trek",
+"district": "Rudraprayag",
+"state": "Uttarakhand",
+"category": "Trek"
+},
+{
+"k": "uttarakhand:173",
+"name": "Pangarchulla",
+"district": "Chamoli",
+"state": "Uttarakhand",
+"category": "Summit trek"
+},
+{
+"k": "uttarakhand:175",
+"name": "Bagini Glacier",
+"district": "Chamoli",
+"state": "Uttarakhand",
+"category": "Trek"
+},
+{
+"k": "uttarakhand:176",
+"name": "Dronagiri Village",
+"district": "Chamoli",
+"state": "Uttarakhand",
+"category": "Trek"
+},
+{
+"k": "uttarakhand:178",
+"name": "Ralam Glacier",
+"district": "Pithoragarh",
+"state": "Uttarakhand",
+"category": "Trek"
+},
+{
+"k": "uttarakhand:179",
+"name": "Panchachuli Base Camp",
+"district": "Pithoragarh",
+"state": "Uttarakhand",
+"category": "Trek"
+},
+{
+"k": "uttarakhand:193",
+"name": "Mayali Pass",
+"district": "Rudraprayag",
+"state": "Uttarakhand",
+"category": "Pass"
+},
+{
+"k": "uttarakhand:195",
+"name": "Benog Tibba",
+"district": "Dehradun",
+"state": "Uttarakhand",
+"category": "Hike"
+},
+{
+"k": "uttarakhand:196",
+"name": "Moila Top",
+"district": "Dehradun",
+"state": "Uttarakhand",
+"category": "Hike"
+},
+{
+"k": "uttarakhand:197",
+"name": "Budher Caves",
+"district": "Dehradun",
+"state": "Uttarakhand",
+"category": "Hike"
 },
 {
 "k": "west-bengal:10",
@@ -10127,13 +9917,6 @@
 "district": "Kolkata",
 "state": "West Bengal",
 "category": "Market"
-},
-{
-"k": "west-bengal:15",
-"name": "Princep Ghat",
-"district": "Kolkata",
-"state": "West Bengal",
-"category": "River"
 },
 {
 "k": "west-bengal:16",
@@ -10153,13 +9936,6 @@
 "k": "west-bengal:23",
 "name": "Kolkata Tram Ride",
 "district": "Kolkata",
-"state": "West Bengal",
-"category": "Heritage"
-},
-{
-"k": "west-bengal:33",
-"name": "Shantiniketan",
-"district": "Birbhum",
 "state": "West Bengal",
 "category": "Heritage"
 },
@@ -10220,13 +9996,6 @@
 "category": "Viewpoint"
 },
 {
-"k": "west-bengal:80",
-"name": "Ghoom Monastery",
-"district": "Darjeeling",
-"state": "West Bengal",
-"category": "Monastery"
-},
-{
 "k": "west-bengal:88",
 "name": "Lamahatta",
 "district": "Darjeeling",
@@ -10241,32 +10010,11 @@
 "category": "Village"
 },
 {
-"k": "west-bengal:97",
-"name": "Rishop",
-"district": "Kalimpong",
-"state": "West Bengal",
-"category": "Village"
-},
-{
-"k": "west-bengal:98",
-"name": "Lolegaon",
-"district": "Kalimpong",
-"state": "West Bengal",
-"category": "Village"
-},
-{
 "k": "west-bengal:100",
 "name": "Delo",
 "district": "Kalimpong",
 "state": "West Bengal",
 "category": "Viewpoint"
-},
-{
-"k": "west-bengal:106",
-"name": "Chilapata Forest",
-"district": "Alipurduar",
-"state": "West Bengal",
-"category": "Wildlife"
 },
 {
 "k": "west-bengal:117",
@@ -10360,13 +10108,6 @@
 "category": "Bird lake"
 },
 {
-"k": "west-bengal:156",
-"name": "Shibnibas Temples",
-"district": "Nadia",
-"state": "West Bengal",
-"category": "Temple"
-},
-{
 "k": "west-bengal:161",
 "name": "Frasergunj",
 "district": "South 24 Parganas",
@@ -10379,5 +10120,19 @@
 "district": "Birbhum",
 "state": "West Bengal",
 "category": "Wildlife"
+},
+{
+"k": "west-bengal:169",
+"name": "Rachela Pass",
+"district": "Kalimpong",
+"state": "West Bengal",
+"category": "Pass"
+},
+{
+"k": "west-bengal:170",
+"name": "Jhandi Dara",
+"district": "Kalimpong",
+"state": "West Bengal",
+"category": "Hike"
 }
 ]
