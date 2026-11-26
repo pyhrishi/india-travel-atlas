@@ -369,6 +369,57 @@
    ],
    "time": "30–45 min",
    "tags": []
+  },
+  {
+   "n": 19,
+   "name": "Damuan Recreational Park",
+   "district": "Bandar Seri Begawan",
+   "category": "Recreational park",
+   "g": "culture",
+   "lat": 4.86971,
+   "lng": 114.9099,
+   "why": "A landscaped riverfront park beside Istana Nurul Iman, with walking paths, playgrounds and ASEAN member-state sculptures",
+   "tier": "top",
+   "months": [
+    2,
+    4
+   ],
+   "time": "1–2 hrs",
+   "tags": []
+  },
+  {
+   "n": 20,
+   "name": "Meragang Beach",
+   "district": "Meragang",
+   "category": "Beach",
+   "g": "coast",
+   "lat": 5.040997,
+   "lng": 115.042714,
+   "why": "A quiet northeastern shoreline suited to coastal walks and sunset visits, with local adventure activities sometimes available",
+   "tier": "top",
+   "months": [
+    2,
+    4
+   ],
+   "time": "1–2 hrs",
+   "tags": []
+  },
+  {
+   "n": 21,
+   "name": "Kota Batu Archaeological Park",
+   "district": "Kota Batu",
+   "category": "Archaeological site",
+   "g": "heritage",
+   "lat": 4.87865,
+   "lng": 114.96688,
+   "why": "An archaeological landscape in the area of Brunei’s historic riverine capital, near important royal mausoleums and the Brunei Museum",
+   "tier": "top",
+   "months": [
+    2,
+    4
+   ],
+   "time": "1–2 hrs",
+   "tags": []
   }
  ],
  "festivals": [
