@@ -448,6 +448,58 @@
    "boundary_license": "Open Data Commons Open Database License 1.0",
    "data_file": "data/maps/kw.json",
    "validated_at": "2026-11-26"
+  },
+  "bh": {
+   "name": "Bahrain",
+   "iso3": "BHR",
+   "m49": "048",
+   "map_status": "ready",
+   "admin_level": "ADM1",
+   "admin_unit_count": 4,
+   "boundary_year": "2017",
+   "boundary_source": "OpenStreetMap, Wambacher",
+   "boundary_license": "Open Data Commons Open Database License 1.0",
+   "data_file": "data/maps/bh.json",
+   "validated_at": "2026-11-26"
+  },
+  "iq": {
+   "name": "Iraq",
+   "iso3": "IRQ",
+   "m49": "368",
+   "map_status": "ready",
+   "admin_level": "ADM1",
+   "admin_unit_count": 18,
+   "boundary_year": "2022",
+   "boundary_source": "geoBoundaries, Wikimedia Commons",
+   "boundary_license": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
+   "data_file": "data/maps/iq.json",
+   "validated_at": "2026-11-26"
+  },
+  "jo": {
+   "name": "Jordan",
+   "iso3": "JOR",
+   "m49": "400",
+   "map_status": "ready",
+   "admin_level": "ADM1",
+   "admin_unit_count": 12,
+   "boundary_year": "2006",
+   "boundary_source": "geoBoundaries, Wikimedia",
+   "boundary_license": "Creative Commons Attribution 2.5 Generic",
+   "data_file": "data/maps/jo.json",
+   "validated_at": "2026-11-26"
+  },
+  "lb": {
+   "name": "Lebanon",
+   "iso3": "LBN",
+   "m49": "422",
+   "map_status": "ready",
+   "admin_level": "ADM1",
+   "admin_unit_count": 9,
+   "boundary_year": "2017",
+   "boundary_source": "geoBoundaries, Wikimedia Commons",
+   "boundary_license": "Public Domain",
+   "data_file": "data/maps/lb.json",
+   "validated_at": "2026-11-26"
   }
  }
 }
