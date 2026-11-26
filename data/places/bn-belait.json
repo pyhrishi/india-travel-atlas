@@ -18,7 +18,39 @@
    114.45
   ]
  ],
- "trails": [],
+ "trails": [
+  {
+   "name": "Belait oil heritage and Seria",
+   "note": "Discover the oil industry's story around Seria and the Billionth Barrel Monument; check current museum opening arrangements.",
+   "ids": [
+    2,
+    3,
+    11
+   ]
+  },
+  {
+   "name": "Teraja rainforest and longhouse",
+   "note": "A rural Belait journey to Teraja's forest, waterfall and longhouse; arrange local guidance and check road conditions.",
+   "ids": [
+    4,
+    5,
+    7,
+    13,
+    6
+   ]
+  },
+  {
+   "name": "Belait wetlands and coast",
+   "note": "Pair Luagan Lalak's wetland scenery with the coast and Kuala Belait waterfront.",
+   "ids": [
+    1,
+    8,
+    9,
+    10,
+    12
+   ]
+  }
+ ],
  "places": [
   {
    "n": 1,
@@ -240,6 +272,41 @@
    ],
    "time": "Half day",
    "tags": []
+  }
+ ],
+ "festivals": [
+  {
+   "name": "Brunei National Day",
+   "months": [
+    2,
+    2
+   ],
+   "when": "23 February each year",
+   "about": "National celebrations with district-level activities; check the annual programme.",
+   "lat": 4.61,
+   "lng": 114.32
+  },
+  {
+   "name": "His Majesty the Sultan's Birthday celebrations",
+   "months": [
+    7,
+    8
+   ],
+   "when": "July–August celebration period",
+   "about": "Royal birthday festivities and community events; local programmes vary.",
+   "lat": 4.61,
+   "lng": 114.32
+  },
+  {
+   "name": "Brunei December Festival",
+   "months": [
+    12,
+    12
+   ],
+   "when": "December",
+   "about": "A nationwide year-end festival with cultural and family events; check the official calendar.",
+   "lat": 4.61,
+   "lng": 114.32
   }
  ]
 }
