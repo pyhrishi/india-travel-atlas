@@ -754,7 +754,7 @@ function countryTripNotes(){const p=countryProfile();if(!p.travelNotes.length&&!
 function featCC(f){if(S.mapMode)return S.cc;const s=(S.ALL||[]).find(x=>x.name===f.properties.st_nm);return s?(s.cc||"in"):"in"}
 function scopeCC(cc){if(!CC[cc]||cc===S.cc)return false;S.cc=cc;try{localStorage.setItem("ita-cc",cc)}catch(e){}S.states=ccStates();_AP=null;S.coll=null;S.f={...S.f,dist:null,reg:null};return true}
 async function loadCountryGeometry(cc){
-  if(cc==="in"||cc==="np"){S.mapMode=false;S.mapData=null;S.mapBounds=null;S.mapCenter=null;S.mapCos=null;S.topo=S.legacyTopo;S.feats=S.legacyFeats;S.states=ccStates();return}
+  if(cc==="in"){S.mapMode=false;S.mapData=null;S.mapBounds=null;S.mapCenter=null;S.mapCos=null;S.topo=S.legacyTopo;S.feats=S.legacyFeats;S.states=ccStates();return}
   const entry=S.mapIndex?.countries?.[cc];
   if(!entry||entry.map_status!=="ready"||!entry.data_file)throw new Error("This country's map has not passed validation yet.");
   const response=await fetch(entry.data_file);if(!response.ok)throw new Error("Country map data could not be loaded.");
@@ -766,7 +766,7 @@ async function loadCountryGeometry(cc){
   S.states=data.features.map((f,i)=>{const name=f.properties.st_nm,base=name.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"")||("region-"+(i+1));let slug=cc+"-"+base;if(seen.has(slug))slug+="-"+(i+1);seen.add(slug);const saved=known.get(slug);return saved?{...saved,name,cc}:{name,slug,type:"Administrative region",status:"map-ready",count:0,cc}});
 }
 async function setCountry(cc){
-  if(!CC[cc])return;
+  if(cc!=="in")return;
   const previous=S.cc;
   try{S.cc=cc;await loadCountryGeometry(cc);try{localStorage.setItem("ita-cc",cc)}catch(e){}S.slug=null;S.sel=null;S.hl=null;S.trail=null;S.coll=null;S.stack=[{v:"explore"}];S.tab="explore";setTabs("explore");clearQ();_AP=null;S.f={...S.f,dist:null,reg:null};fit();drawBase();await goIndia();toast(`Now showing ${CN()}`)}
   catch(e){S.cc=previous;try{await loadCountryGeometry(previous);fit();drawBase();await goIndia()}catch(_){}toast(e.message||"Could not load this country's map.");console.error(e)}
@@ -3206,7 +3206,7 @@ function route(silent,h0){const h=h0!=null?h0:location.hash.slice(1);const m=h.m
   try{
     const[topo,states,fx,registry,mapIndex]=await Promise.all([fetch("data/india-states.json").then(r=>r.json()),fetch("data/states.json").then(r=>r.json()),fetch("data/festivals.json").then(r=>r.json()).catch(()=>[]),fetch("data/entities/current.json").then(r=>r.json()).catch(()=>({entities:[]})),fetch("data/maps/index.json").then(r=>r.json()).catch(()=>({countries:{}}))]);S.fx=fx;S.entities=registry.entities||[];S.mapIndex=mapIndex||{countries:{}};
     Object.entries(S.mapIndex.countries||{}).forEach(([cc,m])=>{if(!CC[cc]&&["ready","legacy-integrated"].includes(m.map_status))CC[cc]={name:m.name,reg:"administrative regions",regS:"region"}});
-    S.topo=topo;S.feats=topojson.feature(topo,topo.objects.states).features;S.legacyTopo=topo;S.legacyFeats=S.feats;S.ALL=states;S.cc="in";try{const c=localStorage.getItem("ita-cc");if(CC[c])S.cc=c}catch(e){}{const h=decodeURIComponent(location.hash.slice(1));const m=states.find(x=>h===x.slug||h.startsWith(x.slug+"-"));if(m&&(m.cc||"in")!==S.cc)S.cc=m.cc||"in"}if(S.cc==="in"||S.cc==="np")S.states=ccStates();else await loadCountryGeometry(S.cc);
+    S.topo=topo;S.feats=topojson.feature(topo,topo.objects.states).features;S.legacyTopo=topo;S.legacyFeats=S.feats;S.ALL=states;S.cc="in";S.states=ccStates();
     let ix=null;try{ix=await fetch("data/index.json").then(r=>{if(!r.ok)throw 0;return r.json()})}catch(e){}
     if(ix)states.forEach(s=>{if(ix[s.slug])S.data[s.slug]=fromIndex(s.slug,ix[s.slug])});
     await Promise.all(states.filter(s=>s.status==="done"&&!S.data[s.slug]).map(s=>loadState(s.slug)));
@@ -3220,7 +3220,6 @@ function route(silent,h0){const h=h0!=null?h0:location.hash.slice(1);const m=h.m
     else if(h.startsWith("list=")){S.slug=null;S.stack=[{v:"explore"},{v:"slist",a:h.slice(5)}];classStates();paint(true);drawPins();drawHome();setTimeout(fitIndia,250);if(mobile())setTimeout(()=>snapTo(2),300)}
     else if(first){if(first.status==="map-ready")openMapRegion(first.slug,false);else await openState(first.slug,false);if(h!==first.slug&&h.startsWith(first.slug+"-"))route(false,h);else setTimeout(()=>focusState(1000),250)}
     else{S.slug=null;S.stack=[{v:"explore"}];classStates();paint();drawPins();drawHome();setTimeout(fitIndia,250)}
-    showCountryGate();
     requestAnimationFrame(()=>setTimeout(()=>phGo&&phGo(),50));
     {const L=allPlaces();let i=0;const idle=window.requestIdleCallback||(f=>setTimeout(()=>f({timeRemaining:()=>8}),60));const step=dl=>{const t0=performance.now();while(i<L.length&&(dl.timeRemaining()>2||performance.now()-t0<6)){hay(L[i]);L[i]._cn||(L[i]._cn=" "+canon(L[i].name)+" ");i++}if(i<L.length)idle(step)};setTimeout(()=>idle(step),2500)}
   }catch(e){phGo&&phGo();V.innerHTML=`<div class="empty">Couldn't load the atlas. Reload to try again.</div>`;console.error(e)}
