@@ -2336,7 +2336,7 @@ function dayShelves(){const seed=dayKey(),h=home(),out=[],saved=Object.keys(M.wa
   const inB=saved.filter(p=>inSeason(NOWM,p));if(inB.length>=3)out.push(["bucket","From your bucket list, in season now","Places you saved that are good to go to now",inB.slice(0,14)]);
   /* today's themes: a fresh mix every day */
   const pool=THEMES.map(t=>[t,themeItems(t)]).filter(x=>x[1].length>=6);seeded(pool,seed,10).forEach(([t,L])=>out.push([t[0],t[1],t[2],L.slice(0,14)]));
-  const rg=REG[seed%REG.length],gems=spread(allPlaces().filter(p=>p.tier==="gem"&&rg[3].includes(p.slug)&&inSeason(NOWM,p)).sort((a,b)=>nowScore(b)-nowScore(a)),14,3);if(gems.length>=5)out.splice(4,0,["gems:"+rg[0],`Lesser-known in ${rg[1].replace(/^The /,"the ")}`,rg[2],gems]);
+  const rg=seeded(REG,seed,1)[0],gems=spread(allPlaces().filter(p=>p.tier==="gem"&&rg[3].includes(p.slug)&&inSeason(NOWM,p)).sort((a,b)=>nowScore(b)-nowScore(a)),14,3);if(gems.length>=5)out.splice(4,0,["gems:"+rg[0],`Lesser-known in ${rg[1].replace(/^The /,"the ")}`,rg[2],gems]);
   return out}
 function vDiscover(){const seed=dayKey(),sh=dayShelves(),pick=seeded(allPlaces().filter(p=>p.tier!=="gem"&&inSeason(NOWM,p)&&photoOf(id(p))).sort((a,b)=>nowScore(b)-nowScore(a)).slice(0,60),seed,1)[0]||top10()[0],d=new Date();
   const trs=trailsFit(1,10,NOWM,null,0),cl=seeded(colls().filter(c=>collPlaces(c[0]).length>=6),seed+9,12);
