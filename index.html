@@ -2285,20 +2285,20 @@ const THEMES=[
  ["seaforts","Forts by the sea","Sea forts, island citadels and coastal bastions",p=>isFort(p)&&seaF(p)],
  ["rockcut","Carved from the rock","Cave temples and monasteries cut into cliffs",p=>p.g==="caves"||cat(/cave/i)(p)],
  ["stepwells","Stepwells","Water architecture of the west",p=>tgx("stepwell")(p)||cat(/stepwell/i)(p)],
- ["wildlife","Wildlife beyond tigers","Rhinos, lions, snow leopards, gharials, red pandas and more","#3f6212",tg("wild")],
- ["st-home","Village homestays","Sleep in a family home in the hills and villages","#9a3412",tg("st-home")],
- ["st-mon","Monastery stays","Guesthouses inside Himalayan monasteries","#7c2d12",tg("st-mon")],
- ["st-house","Houseboats","Kerala kettuvallams and Dal Lake houseboats","#0e7490",tg("st-house")],
- ["st-forest","Forest lodges","Stay inside or at the edge of the reserve","#14532d",tg("st-forest")],
- ["st-camp","Tented camps","Desert, lake and high-valley camps","#a16207",tg("st-camp")],
- ["sp-rhino","One-horned rhino","Assam's grasslands, where most of the world's greater one-horned rhinos live","#475569",tg("sp-rhino")],
- ["sp-snowleopard","Snow leopard","Winter tracking in Ladakh and Spiti","#64748b",tg("sp-snowleopard")],
- ["sp-elephant","Wild elephants","Herds in the forests of the south and north","#57534e",tg("sp-elephant")],
- ["sp-redpanda","Red panda","Bamboo forests of the eastern Himalaya","#c2410c",tg("sp-redpanda")],
- ["sp-dolphin","River and lagoon dolphins","Gangetic and Irrawaddy dolphins","#0369a1",tg("sp-dolphin")],
- ["sp-leopard","Leopards","Places with good leopard odds","#ca8a04",tg("sp-leopard")],
- ["sp-hornbill","Hornbills","Great hornbills in the Ghats and the north-east","#ca8a04",tg("sp-hornbill")],
- ["sp-flamingo","Flamingos","Pink flocks in winter","#db2777",tg("sp-flamingo")],
+ ["wildlife","Wildlife beyond tigers","Rhinos, lions, snow leopards, gharials, red pandas and more",tg("wild")],
+ ["st-home","Village homestays","Sleep in a family home in the hills and villages",tg("st-home")],
+ ["st-mon","Monastery stays","Guesthouses inside Himalayan monasteries",tg("st-mon")],
+ ["st-house","Houseboats","Kerala kettuvallams and Dal Lake houseboats",tg("st-house")],
+ ["st-forest","Forest lodges","Stay inside or at the edge of the reserve",tg("st-forest")],
+ ["st-camp","Tented camps","Desert, lake and high-valley camps",tg("st-camp")],
+ ["sp-rhino","One-horned rhino","Assam's grasslands, where most of the world's greater one-horned rhinos live",tg("sp-rhino")],
+ ["sp-snowleopard","Snow leopard","Winter tracking in Ladakh and Spiti",tg("sp-snowleopard")],
+ ["sp-elephant","Wild elephants","Herds in the forests of the south and north",tg("sp-elephant")],
+ ["sp-redpanda","Red panda","Bamboo forests of the eastern Himalaya",tg("sp-redpanda")],
+ ["sp-dolphin","River and lagoon dolphins","Gangetic and Irrawaddy dolphins",tg("sp-dolphin")],
+ ["sp-leopard","Leopards","Places with good leopard odds",tg("sp-leopard")],
+ ["sp-hornbill","Hornbills","Great hornbills in the Ghats and the north-east",tg("sp-hornbill")],
+ ["sp-flamingo","Flamingos","Pink flocks in winter",tg("sp-flamingo")],
  ["gompas","Monasteries in the clouds","Gompas of the Himalaya and the Northeast",p=>tgx("monastery")(p)||cat(/monastery/i)(p)],
  ["tea","Tea and coffee country","Estates, plantations and planters' bungalows",p=>tgx("tea")(p)||cat(/tea|coffee|spice farm/i)(p)],
  ["tigers","Tiger country","Reserves where tigers live wild",p=>tgx("tiger")(p),{season:1}],
@@ -2325,7 +2325,7 @@ const THEMES=[
  ["passes","High passes","The roads above 4,000 metres",p=>cat(/pass/i)(p),{season:1}],
  ["desert","Desert nights","Dunes, salt flats and starry skies",p=>cat(/desert/i)(p)||/dune|rann|thar/i.test(p.name),{season:1}],
  ["forests","Deep forests","Old-growth forest and sacred groves",p=>cat(/forest|national park/i)(p),{season:1}]];
-function themeItems(t){const[,,,f,o={}]=t;return spread(allPlaces().filter(p=>f(p)&&(!o.season||inSeason(NOWM,p))).sort((a,b)=>nowScore(b)-nowScore(a)),40,2)}
+function themeItems(t){const[,,,f,o={}]=t;if(typeof f!=="function")return[];return spread(allPlaces().filter(p=>{try{return f(p)&&(!o.season||inSeason(NOWM,p))}catch(e){return false}}).sort((a,b)=>nowScore(b)-nowScore(a)),40,2)}
 function shelfCard(p,sub){return`<button class="shc" data-p="${id(p)}"><span class="shi" aria-hidden="true">${art(p)}</span><span class="sht"><b>${esc(p.name)}</b><span>${esc(sub||stOf(p.slug).name)}</span></span>${inSeason(NOWM,p)?"":`<i class="shoff">Best ${monthsTxt(p)}</i>`}</button>`}
 function shelf(sid,title,intro,cards,more){return`<section class="shf"><div class="shfh"><div><h3>${esc(title)}</h3>${intro?`<p>${esc(intro)}</p>`:""}</div>${more?`<button class="more" data-shelf="${sid}">See all</button>`:""}</div><div class="shr2">${cards}</div></section>`}
 function dayShelves(){const seed=dayKey(),h=home(),out=[],saved=Object.keys(M.want).map(byId).filter(Boolean),recent=(M.recent||[]).map(byId).filter(Boolean);
